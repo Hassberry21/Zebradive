@@ -129,6 +129,14 @@ form .btn{margin:0}
 .prof:hover{border-color:#fff}
 .prof.on{background:var(--purple);border-color:var(--purple2);color:#fff;box-shadow:0 3px 0 #5a2390}
 .cat{font-family:Silkscreen,monospace;font-size:10px;letter-spacing:.5px;padding:2px 6px;border:2px solid;white-space:nowrap}
+.streak{display:inline-block;font-family:Silkscreen,monospace;font-size:13px;letter-spacing:.5px;color:#ffb35c;border:2px solid #ff9a3b;background:rgba(255,140,40,.1);padding:6px 12px;margin:2px 0 10px;line-height:1.5}
+.streak small{font-size:10px;color:#ffd9a8}
+.streak.risk{animation:pulse2 1.2s steps(2) infinite}
+.streak.off{color:var(--muted);border-color:var(--line);background:none;font-size:11px}
+.streak.grew{animation:pop .4s steps(4)}
+.streak .fire{display:inline-block;animation:flick .5s steps(2) infinite}
+@keyframes flick{50%{transform:scale(1.15) rotate(-6deg)}}
+@keyframes pulse2{50%{border-color:#fff}}
 /* end */
 .big{font-family:"Press Start 2P";font-size:clamp(24px,6vw,36px);margin:8px 0;color:var(--purple2);text-shadow:0 4px 0 rgba(0,0,0,.5)}
 h2{font-family:Silkscreen,monospace;font-size:20px;margin:0 0 4px;font-weight:700}
@@ -174,6 +182,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
     <button class="btn" id="bDaily"><span class="blink">▶</span> PRESS START</button>
     <button class="btn alt" id="bPractice">PRACTICE</button>
   </div>
+  <div id="tStreak"></div>
   <div class="fine" id="tInfo"></div>
 </section>
 
@@ -208,6 +217,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <h2>DIVE COMPLETE</h2>
   <div class="big" id="eDepth"></div>
   <div class="yours" id="eRank" style="margin-top:0"></div>
+  <div id="eStreak"></div>
   <div id="ranking" class="ranking"></div>
   <div id="eSum"></div>
   <pre id="share"></pre>
@@ -20539,7 +20549,7 @@ function catIcon(q){ const p=BANK.find(b=>b.q===q); return p&&CATS[p.cat]? CATS[
 function titleCase(s){ return s.toLowerCase().replace(/\b\w/g,c=>c.toUpperCase()).replace(" Of "," of ").replace(/\b(Np|Pa|Rn|Dnp|App|Pgy1|Pgy2|Gpr|Pa-C)\b/g,m=>m.toUpperCase()); }
 function shareText(){
   const L = total<1?"SURFACE":layerAt(total).name;
-  return `🦓 ZEBRA ${shortFor(gameProf)} ${daily?"#"+gameDayNum:"(practice)"}\n${log.map(l=>TIERS[tierOf(l.pts)].emoji).join("")}\n${(total*10).toLocaleString()} µm · ${L}${lastPct!==null?`\n${LADDER[ladderFor(lastPct)].icon} ${titleCase(LADDER[ladderFor(lastPct)].title)} · ${lastPct>=99?`top 1% of ${peers()}`:`deeper than ${lastPct}% of ${peers()}`}`:""}`;
+  const st=streakInfo(); return `🦓 ZEBRA ${shortFor(gameProf)} ${daily?"#"+gameDayNum:"(practice)"}${daily&&st.cur>1?` · 🔥${st.cur}`:""}\n${log.map(l=>TIERS[tierOf(l.pts)].emoji).join("")}\n${(total*10).toLocaleString()} µm · ${L}${lastPct!==null?`\n${LADDER[ladderFor(lastPct)].icon} ${titleCase(LADDER[ladderFor(lastPct)].title)} · ${lastPct>=99?`top 1% of ${peers()}`:`deeper than ${lastPct}% of ${peers()}`}`:""}`;
 }
 
 /* ===== UI ===== */
@@ -20644,10 +20654,22 @@ function drawModePicker(){
   if(d) d.textContent = MODE==="board" ? "Prompts styled after YOUR exam: USMLE/COMLEX for Physicians, PANCE for PAs, AANP/ANCC for NPs, NCLEX for Nurses, NAPLEX for Pharmacists, dental boards for Dentists." : "Everyday prompts from your field.";
 }
 function dayKey(day,f){ return "zebra4-"+poolKey(f)+"-"+day; }
+/* DAILY STREAK: consecutive days with at least one finished daily dive (any field or mode). Saved in the browser. */
+function dayBefore(key){ const [y,m,d]=key.split("-").map(Number); const dt=new Date(y,m-1,d-1); return dt.getFullYear()+"-"+String(dt.getMonth()+1).padStart(2,"0")+"-"+String(dt.getDate()).padStart(2,"0"); }
+function streakInfo(){ const s=store("zebra-streak")||{last:null,cur:0,best:0}; const t=todayKey();
+  const alive = s.last===t || s.last===dayBefore(t); return {cur: alive? s.cur:0, best:s.best||0, doneToday: s.last===t, atRisk: s.last===dayBefore(t)}; }
+function bumpStreak(day){ const s=store("zebra-streak")||{last:null,cur:0,best:0};
+  if(s.last===day) return {cur:s.cur,best:s.best,grew:false};
+  s.cur = (s.last===dayBefore(day)) ? s.cur+1 : 1; s.last=day; s.best=Math.max(s.best||0,s.cur); store("zebra-streak",s);
+  return {cur:s.cur,best:s.best,grew:true}; }
+function streakHTML(){ const s=streakInfo();
+  if(s.cur>0) return `<div class="streak${s.atRisk?" risk":""}"><span class="fire">🔥</span> ${s.cur}-DAY STREAK${s.best>s.cur?` · BEST ${s.best}`:""}${s.atRisk?`<br><small>PLAY TODAY'S DAILY TO KEEP IT ALIVE</small>`:""}</div>`;
+  return `<div class="streak off">🔥 START A STREAK: FINISH A DAILY EVERY DAY${s.best?` · BEST ${s.best}`:""}</div>`; }
 function titleInfo(){
   const played=store(dayKey(todayKey())), best=store("zebra4-best-"+poolKey())||0, P=PROFESSIONS[prof];
   $("tInfo").innerHTML = `${labelFor()} DAILY #${dayNumber()} · ${todayKey()} · ${POOLS[poolKey()].length} PROMPTS` + (played?`<br>PLAYED ✓ · NEXT IN <span class="cd">${hms(untilMidnight())}</span>`:"") + (best?` · BEST ${(best*10).toLocaleString()} µm`:"");
   $("bDaily").innerHTML = played? "▶ VIEW TODAY'S RESULT" : '<span class="blink">▶</span> PRESS START';
+  $("tStreak").innerHTML = streakHTML();
 }
 titleInfo();
 /* tick the countdowns; if midnight passes while the page is open, offer the new daily */
@@ -20752,8 +20774,11 @@ function next(){ if(state!=="result") return; round++; if(round>=7){ state="end"
 
 function finish(fromSave){
   state="end"; setHud(); hud.round.textContent="FINISHED";
+  let sk=null; if(daily && !fromSave) sk=bumpStreak(gameDay);
   if(daily && !fromSave){ store(dayKey(gameDay,gameProf),{log,total}); if(total>(store("zebra4-best-"+poolKey(gameProf))||0)) store("zebra4-best-"+poolKey(gameProf),total); }
   const L = total<1?"SURFACE":layerAt(total).name;
+  { const s=streakInfo(); $("eStreak").innerHTML = daily && s.cur ? `<div class="streak${sk&&sk.grew?" grew":""}"><span class="fire">🔥</span> ${s.cur}-DAY STREAK${sk&&sk.grew&&s.cur>1?" +1":""}${s.best>s.cur?` · BEST ${s.best}`:""}</div>` : (daily? "" : `<div class="streak off">PRACTICE DOESN'T COUNT TOWARD YOUR 🔥 STREAK. PLAY THE DAILY!</div>`);
+    if(sk&&sk.grew&&s.cur>1){ setTimeout(()=>{ try{ sfx.layer(); }catch(e){} burst("#ff9a3b",30,1.4); },900); } }
   $("eLabel").textContent = daily? `${labelFor(gameProf).replace(/^\S+ /,"")} DAILY #${gameDayNum} · ${gameDay}${fromSave?" · ALREADY PLAYED":""}` : "PRACTICE DIVE";
   $("eDepth").textContent = `${(total*10).toLocaleString()} µm`;
   const rank = total>=620?"You reached the genome. Legendary zebra hunter.":total>=430?"Deep inside the cell. Attending-level differential.":total>=240?"Down to the bone. Solid senior resident.":total>=150?"Into the muscle. Good intern instincts.":"Still near the skin. Lots of horses today, so go rarer!";

@@ -20851,26 +20851,16 @@ function dailySet(){ return dailyIds(dayIndex()).map(i=>BANK[i]); }  // called a
 /* PRACTICE: a per-field shuffle bag saved in the browser, so you see every prompt in your
    field before any repeats, and today's daily prompts are held back so practice never spoils them. */
 function practiceSet(){
-  const pool=POOLS_P[poolKey()], todays=new Set(), cap=CAT_CAP[poolKey()]||3;  // practice prompts never appear in the daily
-  const bagKey="zebra-practice-bag2-"+poolKey(), lastKey="zebra-practice-last2-"+poolKey();
-  const usable=pool.filter(i=>!todays.has(i));
-  let bag=(store(bagKey)||[]).filter(i=>usable.includes(i));
-  const out=[], skipped=[];
-  while(out.length<7){
-    if(!bag.length){
-      bag=shuffle(usable.filter(i=>!out.includes(i)), Math.random);
-      const last=new Set(store(lastKey)||[]);
-      bag=[...bag.filter(i=>!last.has(i)), ...bag.filter(i=>last.has(i))];   // don't repeat the previous practice set right away
-      if(!bag.length) bag=shuffle(pool.filter(i=>!out.includes(i)), Math.random);  // tiny pools: allow today's prompts
-    }
-    const i=bag.shift();
-    if(out.includes(i)) continue;
-    if(out.filter(j=>BANK[j].cat===BANK[i].cat).length>=cap && skipped.length<40){ skipped.push(i); continue; }
-    out.push(i);
-  }
-  bag=[...skipped.filter(i=>!out.includes(i)),...bag];
-  store(bagKey,bag); store(lastKey,out);
-  return out.map(i=>BANK[i]);
+  /* least-recently-played first: every practice prompt is played once before any comes back */
+  const key=poolKey(), pool=POOLS_P[key], cap=CAT_CAP[key]||3;
+  const seenKey="zebra-practice-seen3-"+key;
+  const seen=(store(seenKey)||[]).filter(i=>pool.includes(i));
+  const order=[...shuffle(pool.filter(i=>!seen.includes(i)), Math.random), ...seen];
+  const out=[];
+  for(const i of order){ if(out.length>=7) break; if(out.filter(j=>BANK[j].cat===BANK[i].cat).length<cap) out.push(i); }
+  for(const i of order){ if(out.length>=7) break; if(!out.includes(i)) out.push(i); }
+  store(seenKey,[...seen.filter(i=>!out.includes(i)), ...out]);
+  return shuffle(out, Math.random).map(i=>BANK[i]);
 }
 
 /* countdown to the next daily set */

@@ -7585,7 +7585,7 @@ RAW.push(
 15 pneumonia|pneumococcal|prevnar|pneumovax|pcv20|pcv21|capvaxive
 15 hepatitis a|hep a|havrix|vaqta
 15 rsv|arexvy|abrysvo|mresvia
-20 meningococcal|menactra|menveo|bexsero|trumenba|menquadfi|penbraya
+20 meningococcal|menacwy|menactra|menveo|menquadfi
 20 rotavirus|rotateq|rotarix
 20 hib|haemophilus influenzae type b
 20 bcg|tuberculosis
@@ -7616,7 +7616,7 @@ RAW.push(
 20 anthrax|biothrax|cyfendus
 20 malaria|mosquirix|r21
 20 oral polio|opv
-20 men b
+20 men b|meningococcal b|bexsero|trumenba
 20 men abcwy|penbraya
 20 hpv9
 20 heplisav b
@@ -20408,6 +20408,16 @@ function prep(p){
     (p.merged=p.merged||[]).push([b,B.pts,a,A.pts]);
     A.pts=Math.min(A.pts,B.pts); B.names.forEach((nm,i)=>{ if(!A.keys.includes(B.keys[i])){A.names.push(nm);A.keys.push(B.keys[i]);A.ck.push(B.ck[i]);} });
     out.splice(out.indexOf(B),1); }
+  /* an alias listed under two different answers belongs only to the answer it names (or the most common one) */
+  const by=new Map(); out.forEach(it=>it.ck.forEach((c,i)=>{ (by.get(c)||by.set(c,[]).get(c)).push(it); }));
+  const fold=(it,c)=>{ const i=it.ck.indexOf(c); return [it.keys[i], ckey(it.keys[i])||it.keys[i]]; };
+  for(const [c,its] of by){ const u=[...new Set(its)]; if(u.length<2) continue;
+    const home=u.find(it=>it.ck[0]===c) || u.slice().sort((a,b)=>a.pts-b.pts)[0];
+    for(const it of u){ if(it===home) continue;
+      for(let i=it.ck.length-1;i>=1;i--) if(it.ck[i]===c){ it.ck.splice(i,1); it.names.splice(i,1); it.keys.splice(i,1); } } }
+  /* stripped keys (filler words removed) must not point a distinct answer at another one */
+  const kb=new Map(); out.forEach(it=>it.keys.forEach(k=>{ (kb.get(k)||kb.set(k,[]).get(k)).push(it); }));
+  for(const [k,its] of kb){ const u=[...new Set(its)]; if(u.length<2) continue; u.forEach(it=>{ it.dupKeys=(it.dupKeys||new Set()); it.dupKeys.add(k); }); }
   p.items=out;
 }
 BANK.forEach(prep);

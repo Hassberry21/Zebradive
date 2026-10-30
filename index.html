@@ -20359,20 +20359,64 @@ function dist(a,b){
 const ACR=/^(pnh|ttp|hus|siadh|aaa|bph|ppi|ppis|ssri|ssris|snri|snris|maoi|maois|nsaid|nsaids|ace|arb|arbs|dvt|cad|chf|ckd|aki|ards|uti|sti|std|ibs|ibd|gerd|copd|bv|hpv|hsv|ebv|cmv|rsv|mrsa|vre|tb|hiv|aids|hcg|crp|esr|cbc|bmp|cmp|abg|inr|ptt|tsh|bun|ecg|ekg|eeg|emg|mri|ct|cpr|aed|icu|nicu|picu|pacu|er|ed|or|npo|prn|iv|im|po|sl|pr|gi|gu|ent|ob|gyn|adl|adls|rom|scd|scds|pt|ot|slp|rt|cna|lpn|rn|np|pa|md|do|crna|cnm|dds|dmd|rdh|pharmd|dnp|fnp|pmhnp|agnp|pnp|ancc|aanp|nccpa|pance|nclex|naplex|usmle|comlex|inbde|nbdhe|rems|ndi|nti|cyp|cyp3a4|pgp|qt|lvh|lbbb|rbbb|wpw|svt|vt|vf|afib|pvc|pvcs|pac|pacs|stemi|nstemi|jvd|pmi|s1|s2|s3|s4|asd|vsd|pda|pfo|tof|hlhs|ddh|scfe|jia|sle|ra|ms|als|gbs|cidp|tia|cva|sah|icp|csf|gcs|loc|mmse|moca|mi|pe|gerd|acs|stemi|nstemi|copd|tb|scad|hcm|hocm|mvp|svt|afib|sa|av|ct|mri|pet|ent|hcg|fsh|lh|tsh|acth|pth|glp|gnrh|crh|trh|ghrh|anp|bnp|dexa|dxa|spect|hida|mibg|muga|ercp|mrcp|sle|hsp|rmsf|sjs|ten|dress|hgh|gh|adh|epo|amh|igf|dhea|dht|msh|vip|pyy|npy|tpo|lad|rca|pda|lvot|ivc|svc|lv|rv|gi|er|ed|gp|im|ir|icu|ep|mfm|rei|tfl|scm|ql|aml|all|cll|cml|mds|nhl|hcc|rcc|bcc|scc|gbm|gist|dfsp|dcis|net|uti|dka|inh|tmp|smx|cn\d*|i|ii|iii|iv|v|vi|vii|viii|ix|x|xi|xii|c1|c2|ivp|kub|vcug|dsa|cta|mra|ccta|cac|cbct|hsg|vq|oct|tee|eus|ceus|mrs|dti|cmr|fmri|psma|dmsa|mag3|itp|dic|jia|tss|ssss|gvhd|hiv|hfmd|covid|ctcl|nsclc|sclc|fgf23|hpl|cck|gip|t3|t4|cxr|iud)$/;
 function display(label){ return label.split(" ").map(w=>ACR.test(w)?w.toUpperCase():w.charAt(0).toUpperCase()+w.slice(1)).join(" "); }
 const cap = display;
+/* concept key: same meaning, different wording -> same key ("less reflexes" = "decreased reflexes" = "absent dtrs") */
+const CK_PHRASE=[[/\b(deep tendon reflex|tendon reflex|patellar reflex|knee jerk reflex|knee jerk|dtr)\b/g,"reflex"],
+ [/\b(qrs|tuberous sclerosis) complex\b/g,"$1"],[/\bhyporeflexia\b|\bareflexia\b/g,"decreased reflex"],[/\bhyperreflexia\b/g,"increased reflex"],
+ [/\black of\b|\bloss of\b|\babsence of\b/g,"decreased"],[/\bgo(ing)? down\b/g,"decreased"],[/\bgo(ing)? up\b/g,"increased"]];
+const CK_WORD={less:"decreased",lower:"decreased",low:"decreased",reduced:"decreased",reduction:"decreased",decrease:"decreased",
+ diminished:"decreased",diminish:"decreased",loss:"decreased",lost:"decreased",absent:"decreased",absence:"decreased",no:"decreased",
+ lack:"decreased",lacking:"decreased",depressed:"decreased",fewer:"decreased",lowered:"decreased",drop:"decreased",dropped:"decreased",
+ more:"increased",high:"increased",higher:"increased",elevated:"increased",elevation:"increased",raised:"increased",increase:"increased",
+ excess:"increased",excessive:"increased",heightened:"increased",exaggerated:"increased",brisk:"increased",gain:"increased",rise:"increased",
+ rapid:"fast",quick:"fast",slowed:"slow",slowing:"slow",reflexe:"reflex"};
+const CK_STOP=new Set(["of","the","an","in","to","sign","symptom","with","interval","specialist","team","tablet","capsule","use","using","sister","when","at","site","during","while","on","radiating","too","nerve","syndrome","from"]);
+function ckey(n){ let t=" "+n+" "; for(const [re,rep] of CK_PHRASE) t=t.replace(re,rep);
+  const w=t.split(" ").filter(Boolean).map(x=>CK_WORD[x]||x).filter(x=>!CK_STOP.has(x));
+  return [...new Set(w)].sort().join(" "); }
+const SAME_ANSWER=[["type of tooth", "central incisor", "upper central incisor"], ["type of tooth", "central incisor", "lower central incisor"], ["type of tooth", "lateral incisor", "upper lateral incisor"], ["type of tooth", "lateral incisor", "lower lateral incisor"], ["type of tooth", "first molar", "upper first molar"], ["type of tooth", "first molar", "lower first molar"], ["type of tooth", "second molar", "upper second molar"], ["type of tooth", "second molar", "lower second molar"], ["emergency code", "code blue", "code blue adult"], ["emergency code", "code blue", "code blue pediatric"], ["emergency code", "code red", "code red fire"], ["emergency code", "code pink", "code pink infant"], ["emergency code", "code silver", "code silver weapon"], ["emergency code", "code gray", "code gray security"], ["emergency code", "code orange", "code orange spill"], ["emergency code", "code black", "code black bomb"], ["emergency code", "code yellow", "code yellow disaster"], ["emergency code", "code white", "code white newborn"], ["emergency code", "code triage", "code triage internal"], ["warning sign of stroke", "trouble walking", "sudden trouble walking"], ["warning sign of stroke", "vision loss", "one sided vision loss"], ["warning sign of stroke", "severe headache", "sudden severe headache"], ["symptom of a heart attack", "chest pain", "squeezing chest pain"], ["symptom of a heart attack", "back pain", "upper back pain"], ["TMJ disorder", "jaw pain", "jaw pain when chewing"], ["TMJ disorder", "limited opening", "limited mouth opening"], ["dental infection", "bad taste", "bad taste in mouth"], ["nursing theorist", "ida jean orlando", "ida orlando"], ["transfusion react", "back pain", "lower back pain"], ["restraint", "wrist restraints", "soft wrist restraints"], ["dental implant", "morse taper", "morse taper connection"], ["oral surgery procedure", "jaw surgery", "corrective jaw surgery"], ["autosomal dominant", "adult polycystic kidney disease", "polycystic kidney disease"], ["secondary hypertension", "sleep apnea", "obstructive sleep apnea"], ["digital clubbing", "cyanotic congenital heart disease", "cyanotic heart disease"], ["ST elevation", "early repolarization", "benign early repolarization"], ["paraneoplastic", "lambert eaton", "lambert eaton myasthenic syndrome"], ["occupational lung", "hard metal", "hard metal lung disease"], ["fluid volume overload", "weight gain", "weight gain overnight"], ["thyroid storm", "weight loss", "weight loss despite appetite"], ["meningitis", "stiff neck", "stiff neck and fever"], ["neutropenic", "no fresh flowers", "no flowers"], ["neutropenic", "no fresh flowers", "no fresh flowers or plants"], ["neutropenic", "no fresh fruits or vegetables", "no fresh fruit"], ["tooth discoloration", "root canal treatment", "root canal"], ["radiolucent jaw", "central giant cell granuloma", "giant cell granuloma"], ["radiolucent jaw", "stafne bone defect", "stafne defect"], ["preventive screening", "eye exam", "diabetic eye exam"]];
+const NO_MERGE=new Set(["cardiac glands~heart","h reflex~hoffmann","cardiorenal syndrome~heart failure"]);
 function prep(p){
-  const seen=new Set(); p.items=[];
+  const seen=new Set(); let items=[];
   for(const [pts,al,isExtra] of p.a){
     let names=al.split("|"); let keys=names.map(n=>norm(n,p.strip));
     if(isExtra){ const keep=keys.map((k,i)=>!seen.has(k)); names=names.filter((_,i)=>keep[i]); keys=keys.filter((_,i)=>keep[i]); if(!names.length) continue; }
     keys.forEach(k=>seen.add(k));
-    p.items.push({pts,label:names[0],names,keys});
+    items.push({pts,label:names[0],names,keys,ck:names.map(n=>{const u=norm(n,[]); return ckey(u)||u;})});
   }
+  /* merge items that share a concept key; the merged answer keeps the LOWER score.
+     An identical alias listed under two answers on purpose (e.g. "HLA-DR2") only merges when it is one answer's main name. */
+  const owner=new Map(), out=[];
+  for(const it of items){
+    const hits=new Set();
+    it.ck.forEach((c,i)=>{ const o=owner.get(c); if(!o) return;
+      const same=o.key===it.ck[i];
+      if(NO_MERGE.has(o.it.label+"~"+it.label)||NO_MERGE.has(it.label+"~"+o.it.label)) return;
+      if(!same || o.key===o.it.ck[0] || it.ck[i]===it.ck[0]) hits.add(o.it); });
+    const H=[...hits];
+    if(!H.length){ out.push(it); it.ck.forEach((c,i)=>{ if(!owner.has(c)) owner.set(c,{it,key:c}); }); continue; }
+    const tgt=H[0];
+    for(const o of [it,...H.slice(1)]){
+      (p.merged=p.merged||[]).push([o.label,o.pts,tgt.label,tgt.pts]);
+      tgt.pts=Math.min(tgt.pts,o.pts);
+      o.names.forEach((nm,i)=>{ if(!tgt.keys.includes(o.keys[i])){ tgt.names.push(nm); tgt.keys.push(o.keys[i]); tgt.ck.push(o.ck[i]); } });
+      o.ck.forEach((c,i)=>{ const w=owner.get(c); if(!w || w.it===o) owner.set(c,{it:tgt,key:c}); });
+      if(o!==it){ const j=out.indexOf(o); if(j>=0) out.splice(j,1); }
+    }
+  }
+  for(const [q,a,b] of SAME_ANSWER){ if(!p.q.includes(q)) continue;
+    const A=out.find(x=>x.label===a), B=out.find(x=>x.label===b); if(!A||!B||A===B) continue;
+    (p.merged=p.merged||[]).push([b,B.pts,a,A.pts]);
+    A.pts=Math.min(A.pts,B.pts); B.names.forEach((nm,i)=>{ if(!A.keys.includes(B.keys[i])){A.names.push(nm);A.keys.push(B.keys[i]);A.ck.push(B.ck[i]);} });
+    out.splice(out.indexOf(B),1); }
+  p.items=out;
 }
 BANK.forEach(prep);
 /* returns {type:"exact"|"suggest"|"none", item, display} */
 function evaluate(p, raw){
   const n = norm(raw, p.strip); if(!n) return {type:"none"};
+  const cu=ckey(norm(raw,[])); if(cu) for(const it of p.items) if(it.ck.includes(cu)) return {type:"exact", item:it};
   for(const it of p.items) if(it.keys.includes(n)) return {type:"exact", item:it};
+  const cn=ckey(n); if(cn) for(const it of p.items) if(it.ck.includes(cn)) return {type:"exact", item:it};
   let best=null, bd=99, bname="";
   for(const it of p.items) it.keys.forEach((k,ki)=>{
     if(k.length<3) return;

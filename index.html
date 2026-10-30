@@ -16129,6 +16129,151 @@ RAW.push(
 `}
 );
 
+/* ---- BOARD PREP: DENTAL (extra) ---- */
+RAW.push(
+{q:"Name a structure seen on a panoramic radiograph", cat:"b_dental", strip:"", list:`
+5 maxillary sinus
+8 mandibular canal|inferior alveolar canal
+10 mental foramen
+12 condyle
+12 coronoid process
+15 hard palate
+15 nasal cavity
+20 zygomatic arch
+20 hyoid bone
+20 tongue shadow|dorsum of tongue
+20 airway|pharyngeal airway
+20 mastoid process
+20 styloid process
+20 articular eminence
+20 external oblique ridge
+20 mylohyoid ridge
+20 genial tubercles
+20 lingual foramen
+20 maxillary tuberosity
+20 pterygomaxillary fissure
+20 orbit
+20 inferior turbinate
+20 nasal septum
+20 earlobe
+20 cervical vertebrae
+20 ghost image
+20 soft palate
+20 glenoid fossa
+20 sigmoid notch
+20 inferior border of the mandible
+20 incisive foramen
+20 anterior nasal spine
+20 infraorbital canal
+`},
+{q:"Name a pulpal or periapical diagnosis", cat:"b_dental", strip:"", list:`
+5 irreversible pulpitis
+5 reversible pulpitis
+8 pulp necrosis|necrotic pulp
+10 normal pulp
+12 symptomatic irreversible pulpitis
+12 asymptomatic irreversible pulpitis
+15 symptomatic apical periodontitis
+15 asymptomatic apical periodontitis
+15 acute apical abscess
+20 chronic apical abscess
+20 condensing osteitis
+20 previously treated
+20 previously initiated therapy
+20 normal apical tissues
+20 phoenix abscess
+20 internal resorption
+20 external cervical resorption
+20 cracked tooth syndrome
+20 vertical root fracture
+20 pulp stones|pulp calcification
+20 hyperplastic pulpitis|pulp polyp
+20 periapical cyst
+20 periapical granuloma
+`},
+{q:"Name a dental impression material", cat:"b_dental", strip:"impression material", list:`
+5 alginate
+8 polyvinyl siloxane|pvs|vinyl polysiloxane|addition silicone
+10 polyether
+12 putty
+15 condensation silicone
+15 polysulfide|rubber base
+20 agar|reversible hydrocolloid
+20 irreversible hydrocolloid
+20 impression compound
+20 zinc oxide eugenol paste
+20 impression plaster
+20 impression wax
+20 digital impression|intraoral scan
+20 light body|wash
+20 heavy body
+20 medium body
+20 monophase
+20 tray adhesive
+20 bite registration material
+20 vinyl polyether hybrid
+20 tissue conditioner
+`},
+{q:"Name a medication that raises bleeding risk in oral surgery", cat:"b_dental", strip:"", list:`
+5 warfarin|coumadin
+5 aspirin
+8 clopidogrel|plavix
+8 apixaban|eliquis
+10 rivaroxaban|xarelto
+10 heparin
+12 dabigatran|pradaxa
+12 ibuprofen|nsaids
+15 ticagrelor|brilinta
+15 prasugrel|effient
+15 enoxaparin|lovenox
+20 edoxaban|savaysa
+20 cilostazol
+20 dipyridamole
+20 fish oil
+20 ginkgo
+20 garlic supplements
+20 vitamin e
+20 ssris
+20 chemotherapy
+20 naproxen
+20 ketorolac
+20 fondaparinux
+20 alcohol
+20 turmeric
+20 ginseng
+20 dong quai
+20 st johns wort
+`},
+{q:"Name a stage of tooth development", cat:"b_dental", strip:"stage", list:`
+5 eruption
+8 bud
+8 cap
+8 bell
+10 initiation
+12 apposition
+12 calcification|mineralization
+15 maturation
+15 root formation
+20 dental lamina
+20 enamel organ
+20 dental papilla
+20 dental follicle|dental sac
+20 hertwig epithelial root sheath|hers
+20 morphodifferentiation
+20 histodifferentiation
+20 proliferation
+20 early bell
+20 late bell
+20 crown formation
+20 exfoliation
+20 apexogenesis|root completion
+20 succedaneous lamina
+`}
+);
+
+/* Daily vs Practice: every prompt belongs to exactly one side. Near-duplicate prompts are kept on opposite sides. */
+const PRACTICE_ONLY = new Set(["Name a symptom of diabetes","Name a part of the heart","Name a muscle","Name a medical imaging test","Name a bacterium that causes disease in humans","Name a virus that infects humans","Name a parasite that infects humans","Name a blood test","Name a genetic disorder","Name a mental health disorder","Name a lung disease","Name a heart condition","Name an eye disease or condition","Name a painkiller","Name a part of the brain","Name a ligament or tendon","Name a component or cell of the blood","Name a neurotransmitter","Name a type of bone fracture","Name a sexually transmitted infection","Name a nutrient deficiency disease","Name a part of a tooth","Name a dental procedure","Name an over-the-counter medication","Name a medication dosage form","Name a common medication side effect","Name a controlled substance","Name a type of IV fluid","Name a medical abbreviation","Name a nursing scale or assessment tool","Name a healthcare profession","Name a preventive screening test","Name a common reason for a primary care visit","Name a beta blocker (ends in -olol)","Name an ACE inhibitor (ends in -pril)","Name an ARB (ends in -sartan)","Name an antifungal drug (often ends in -azole)","Name a monoclonal antibody (ends in -mab)","Name an anticoagulant or antiplatelet drug","Name a cholesterol-lowering drug","Name a chemotherapy drug","Name an herbal supplement","Name a vaccine","Name a sign of dehydration","Name a sign of sepsis","Name a symptom of low blood sugar","Name a hospital unit or department","Name an electrolyte imbalance","Name a newborn assessment or procedure","Name a complication of immobility","Name something found in a hospital room","Name a symptom of a heart attack","Name an orthodontic appliance","Name a drug used in dentistry","Name a bone or landmark of the skull","Name a periodontal term or condition","Name a dental emergency","Name a systemic disease with oral signs","Name a cause of chronic cough","Name a physical exam sign named after a person","Name a reason people visit the dentist","Name a dental charting term or tooth surface","Name an endodontic term","Name a sign of a dental infection","Name a sign of a blood transfusion reaction","Name a right of medication administration","Name a restraint or restraint alternative","Name a postoperative complication","Name a complication of dental anesthesia","Name a piece of equipment in a dental office","Name a cephalosporin","Name a benzodiazepine","Name an antipsychotic","Name a pharmacy job or setting","Name an antidepressant","Name an autosomal dominant disease","Name a tumor marker","Name a cause of hypercalcemia","Name a disease linked to an HLA type","Name an oncogene or tumor suppressor gene","Name a cause of secondary hypertension","Name a cause of eosinophilia","Name a cause of hemolytic anemia","Name a drug that causes drug-induced lupus","Name a teratogen","Name a sign of lithium toxicity","Name a food high in vitamin K (affects warfarin)","Name a sign of high potassium","Name a sign of magnesium sulfate toxicity","Name a sign of compartment syndrome","Name a danger sign in pregnancy","Name a contraindication for an MRI","Name a trigger of autonomic dysreflexia","Name a sign of Cushing syndrome","Name a neutropenic precaution","Name a strong CYP3A4 inhibitor","Name a drug that causes gingival hyperplasia","Name a drug that discolors urine","Name an ototoxic drug","Name a drug that causes Stevens-Johnson syndrome","Name a drug that interacts with grapefruit juice","Name a drug that causes orthostatic hypotension","Name a drug on the Beers list","Name a dosage form that should not be crushed","Name a radiolucent jaw lesion","Name a reason to limit epinephrine in local anesthetic","Name a developmental anomaly of teeth","Name an item in a dental emergency kit","Name a risk factor for periodontal disease","Name a tooth deposit or stain","Name a type of fluoride","Name a heart murmur or extra heart sound","Name a pathogen that causes pneumonia","Name a cause of a red eye","Name a cause of syncope","Name a cause of pleural effusion","Name a cause of hypothyroidism","Name a classic chest X-ray finding","Name a cause of vaginitis or vaginal discharge","Name a contraindication to estrogen-containing birth control","Name a routine prenatal lab or test","Name a lifestyle change that lowers blood pressure","Name a cause of chronic diarrhea","Name a cause of itching (pruritus)","Name a dental impression material","Name a medication that raises bleeding risk in oral surgery","Name a stage of tooth development"]);
+
 /* ---------- CATEGORIES ---------- */
 const CATS = {
   body:     {label:"ANATOMY",            icon:"🫀", color:"#ff7a8a"},
@@ -20619,6 +20764,9 @@ const CAT_CAP={mixed:2, medicine:3, nursing:7, pharmacy:7, dental:7, b_mixed:2, 
 let MODE = store("zebra-mode")==="board" ? "board" : "standard";
 const POOLS={};
 BANK.forEach((b,i)=>{ b.pools.forEach(k=>(POOLS[k]=POOLS[k]||[]).push(i)); const m=b.pool.startsWith("b_")?"b_mixed":"mixed"; (POOLS[m]=POOLS[m]||[]).push(i); });
+/* Every prompt is EITHER a daily prompt OR a practice prompt, never both (see PRACTICE_ONLY). */
+const POOLS_D={}, POOLS_P={};
+for(const k in POOLS){ POOLS_D[k]=POOLS[k].filter(i=>!PRACTICE_ONLY.has(BANK[i].q)); POOLS_P[k]=POOLS[k].filter(i=>PRACTICE_ONLY.has(BANK[i].q)); }
 const poolKey=f=>MODE==="board" ? BOARD_POOL_OF[f||prof] : POOL_OF[f||prof];
 let _S={};   // per-field schedule state
 function schedState(f){ const k=poolKey(f); return _S[k] || (_S[k]={sched:[],pool:[],cycle:0}); }
@@ -20630,13 +20778,13 @@ function dailyIdsFor(f, idx){
     let guard=0;
     while(today.length<7 && guard++<5000){
       if(!S.pool.length){
-        const ids=shuffle(POOLS[poolKey(f)].slice(), rng("zebra-"+poolKey(f)+"-cycle-"+(S.cycle++)));
+        const ids=shuffle(POOLS_D[poolKey(f)].slice(), rng("zebra-"+poolKey(f)+"-cycle-"+(S.cycle++)));
         const avoid=new Set([...recent,...today]);
         S.pool=[...ids.filter(i=>!avoid.has(i)), ...ids.filter(i=>avoid.has(i))];
       }
       const i=S.pool.shift();
       const tooMany = today.filter(j=>BANK[j].cat===BANK[i].cat).length>=cap;
-      if(today.includes(i) || (yday.includes(i) && POOLS[poolKey(f)].length>=14) || (tooMany && deferred.length<POOLS[poolKey(f)].length)) deferred.push(i); else today.push(i);
+      if(today.includes(i) || (yday.includes(i) && POOLS_D[poolKey(f)].length>=14) || (tooMany && deferred.length<POOLS_D[poolKey(f)].length)) deferred.push(i); else today.push(i);
     }
     S.pool=[...deferred,...S.pool];
     S.sched.push(today);
@@ -20649,8 +20797,8 @@ function dailySet(){ return dailyIds(dayIndex()).map(i=>BANK[i]); }  // called a
 /* PRACTICE: a per-field shuffle bag saved in the browser, so you see every prompt in your
    field before any repeats, and today's daily prompts are held back so practice never spoils them. */
 function practiceSet(){
-  const pool=POOLS[poolKey()], todays=new Set(dailyIds(dayIndex())), cap=CAT_CAP[poolKey()]||3;
-  const bagKey="zebra-practice-bag-"+poolKey(), lastKey="zebra-practice-last-"+poolKey();
+  const pool=POOLS_P[poolKey()], todays=new Set(), cap=CAT_CAP[poolKey()]||3;  // practice prompts never appear in the daily
+  const bagKey="zebra-practice-bag2-"+poolKey(), lastKey="zebra-practice-last2-"+poolKey();
   const usable=pool.filter(i=>!todays.has(i));
   let bag=(store(bagKey)||[]).filter(i=>usable.includes(i));
   const out=[], skipped=[];
@@ -20709,7 +20857,7 @@ function streakHTML(){ const s=streakInfo();
   return `<div class="streak off">🔥 START A STREAK: FINISH A DAILY EVERY DAY${s.best?` · BEST ${s.best}`:""}</div>`; }
 function titleInfo(){
   const played=store(dayKey(todayKey())), best=store("zebra4-best-"+poolKey())||0, P=PROFESSIONS[prof];
-  $("tInfo").innerHTML = `${labelFor()} DAILY #${dayNumber()} · ${todayKey()} · ${POOLS[poolKey()].length} PROMPTS` + (played?`<br>PLAYED ✓ · NEXT IN <span class="cd">${hms(untilMidnight())}</span>`:"") + (best?` · BEST ${(best*10).toLocaleString()} µm`:"");
+  $("tInfo").innerHTML = `${labelFor()} DAILY #${dayNumber()} · ${todayKey()} · ${POOLS_D[poolKey()].length} DAILY + ${POOLS_P[poolKey()].length} PRACTICE PROMPTS` + (played?`<br>PLAYED ✓ · NEXT IN <span class="cd">${hms(untilMidnight())}</span>`:"") + (best?` · BEST ${(best*10).toLocaleString()} µm`:"");
   $("bDaily").innerHTML = played? "▶ VIEW TODAY'S RESULT" : '<span class="blink">▶</span> PRESS START';
   $("tStreak").innerHTML = streakHTML();
 }

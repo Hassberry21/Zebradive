@@ -1,5 +1,7 @@
 # Zebra: putting it online
 
+Live site: https://zebradive.io (also https://dive-deep-think-zebras.vercel.app). Deploys automatically from `main` via Vercel.
+
 The whole game is one file, `index.html`. Any static web host works, and nothing needs installing.
 
 ## Fastest: Netlify Drop (free, about 2 minutes)

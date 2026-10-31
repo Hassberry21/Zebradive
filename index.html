@@ -189,6 +189,10 @@ button.btn.gold:hover{background:#ffe27a}
 @keyframes chipin{from{transform:scale(1.35);opacity:0}to{transform:scale(1);opacity:1}}
 #sShare{white-space:pre-wrap}
 .shr{font-family:Silkscreen,monospace;font-size:10px;opacity:.55;margin:-4px 8px 4px;text-align:right}
+.prov{font-family:Silkscreen,monospace;font-size:10px;letter-spacing:.5px;opacity:.6;margin-top:6px;line-height:1.5}
+.yfinal{margin:14px auto 0;max-width:440px;padding:10px 12px;border:2px solid rgba(180,75,255,.5);text-align:left;font-size:14px}
+.yfinal .row{display:flex;justify-content:space-between;gap:10px;padding:3px 0}
+.yfinal .was{opacity:.55;font-size:12px}
 .later{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;opacity:.7;margin:4px 0 16px}
 .sumd{border-bottom:1px solid var(--line)}
 .sumd>summary{list-style:none;cursor:pointer;border-bottom:none}
@@ -246,6 +250,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
     <div class="fine" id="sInfo"></div>
   </div>
   <div id="tStreak"></div>
+  <div id="tFinal"></div>
   <div class="fine" id="tInfo"></div>
   <details class="about"><summary>ABOUT ZEBRA &amp; FAQ</summary>
 <p>Zebra is a free <strong>daily healthcare trivia game</strong> for medical, nursing, pharmacy, dental, PA and NP students and professionals.</p>
@@ -27474,6 +27479,7 @@ function titleInfo(){
   $("bDaily").innerHTML = played? "▶ VIEW TODAY'S RESULT" : '<span class="blink">▶</span> PRESS START';
   $("tStreak").innerHTML = streakHTML();
   if(typeof stampInfo==="function") try{ stampInfo(); }catch(e){}
+  if(typeof showFinals==="function" && window.__zebraReady) showFinals().catch(()=>{});
 }
 titleInfo();
 /* tick the countdowns; if midnight passes while the page is open, offer the new daily */
@@ -27541,7 +27547,7 @@ function finishRound(it, raw, reason){
   if(!it) raw = raw || lastWrong;
   const pts = it?it.pts:0, ti=tierOf(pts);
   total+=pts; log.push({q:p.q, raw, label: it?it.label:null, pts, reason}); setHud();
-  AnswerLog.add({day:gameDay,mode:modeTag(),field:gameProf,prompt:p.q,answer:it?it.label:null,guess:it?raw:"",pts,ok:!!it,ms:Date.now()-roundStart});
+  AnswerLog.add({day:gameDay,mode:modeTag(),field:gameProf,prompt:p.q,answer:it?it.label:null,guess:it?raw:"",pts,base:it?it.base:0,ok:!!it,ms:Date.now()-roundStart});
   showPanel(null);
   const T=TIERS[ti];
   $("popN").textContent = pts? "+"+pts : (reason==="timeout"? "TIME!" : "PASS");
@@ -27583,7 +27589,7 @@ function finish(fromSave){
   $("eLabel").textContent = daily? `${labelFor(gameProf).replace(/^\S+ /,"")} DAILY #${gameDayNum} · ${gameDay}${fromSave?" · ALREADY PLAYED":""}` : "PRACTICE DIVE";
   $("eDepth").textContent = `${(total*10).toLocaleString()} µm`;
   const rank = total>=620?"You reached the genome. Legendary zebra hunter.":total>=430?"Deep inside the cell. Attending-level differential.":total>=240?"Down to the bone. Solid senior resident.":total>=150?"Into the muscle. Good intern instincts.":"Still near the skin. Lots of horses today, so go rarer!";
-  $("eRank").innerHTML = `Reached <span style="color:var(--gold)">${L}</span> · ${total}/700 pts`;
+  $("eRank").innerHTML = `Reached <span style="color:var(--gold)">${L}</span> · ${total}/700 pts`+(daily&&Scores.on()?`<div class="prov">PROVISIONAL · EVERYONE'S SCORE IS FINALIZED OVERNIGHT FROM TODAY'S ANSWERS. CHECK BACK TOMORROW.</div>`:"");
   $("eSum").innerHTML = `<div class="label" style="margin-top:6px">YOUR DIVE · TAP A PROMPT TO SEE ITS ANSWERS</div>` + log.map((l,n)=>{const t=TIERS[tierOf(l.pts)];
     return `<details class="sumd" data-n="${n}"><summary class="sum"><span>${catIcon(l.q)} ${esc(l.q)}</span><span class="a" style="color:${t.color}">${l.label?esc(cap(l.label))+" +"+l.pts:(l.raw?"✗ "+esc(l.raw):"⏱ —")}</span></summary><div class="ans"></div></details>`}).join("");
   $("eSum").querySelectorAll("details").forEach(d=>d.addEventListener("toggle",()=>{ if(!d.open) return; const box=d.querySelector(".ans"); if(box.innerHTML) return;
@@ -27617,6 +27623,7 @@ const Rarity={
   async apply(prompts){
     prompts.forEach(p=>p.items.forEach(it=>{ if(it.base===undefined) it.base=it.pts; }));
     if(Scores.on()){
+      const now=Date.now(); if(!this.at||now-this.at>600000){ this.cache={}; this.at=now; }
       const need=prompts.map(p=>p.q).filter(q=>!(q in this.cache));
       if(need.length){ const rows=await this.fetch(need);
         if(rows){ need.forEach(q=>this.cache[q]=null);
@@ -27645,6 +27652,38 @@ document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==
 function pctTxt(s){ const v=s*100; return v===0?"0%":v<1?"<1%":Math.round(v)+"%"; }
 function modeTag(){ return MODE==="board" ? (daily?"board":"board-practice") : (daily?"daily":"practice"); }
 let roundStart=0;
+
+
+/* ===== YESTERDAY'S FINAL SCORES (rescored overnight with everyone's answers) ===== */
+async function showFinals(){
+  const el=$("tFinal"); if(!el) return; el.innerHTML="";
+  if(!Scores.on()) return;
+  const y=dayBefore(todayKey()), dKey=dayKey(y), d=store(dKey), s=store(stampKey(y));
+  if(!d && !s) return;
+  const grp=(MODE==="board"?"board-":"")+prof, ck="zebra-final-"+y+"-"+grp;
+  let fin=store(ck);
+  if(!fin){
+    try{
+      const base=SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/";
+      const r=await fetch(base+"zebra_my_final",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:y,p_player:playerId()})});
+      if(!r.ok) return; const rows=await r.json();
+      const dr=rows.find(x=>x.kind==="daily"&&x.grp===grp), sr=rows.find(x=>x.kind==="stampede"&&x.grp===prof);
+      if(!dr && !sr){ el.innerHTML=`<div class="yfinal"><div class="label" style="margin:0">YESTERDAY'S FINAL SCORES</div><div class="fine" style="margin:4px 0 0">BEING CALCULATED. THEY'RE POSTED OVERNIGHT (BY ABOUT 7 AM ET).</div></div>`; return; }
+      fin={};
+      if(dr){ const hb=await fetch(base+"score_histogram",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:y,p_field:grp})}).then(x=>x.json()).catch(()=>null);
+        let pct=null; if(hb){ const b=Array(NB).fill(0); hb.forEach(x=>b[Math.max(0,Math.min(NB-1,+x.bucket))]+= +x.n); pct=percentile(b,dr.total); }
+        fin.d={total:dr.total, was:d?d.total:null, pct}; }
+      if(sr){ const hb=await fetch(base+"stampede_histogram",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:y,p_field:prof})}).then(x=>x.json()).catch(()=>null);
+        let pct=null; if(hb){ const b=Array(SNB).fill(0); hb.forEach(x=>b[Math.max(0,Math.min(SNB-1,+x.bucket))]+= +x.n); pct=percentile(b,sr.total,SB); }
+        fin.s={total:sr.total, was:s?s.total:null, pct}; }
+      if(new Date().getHours()>=8) store(ck,fin);          // keep it once the morning rescore is in
+    }catch(e){ return; }
+  }
+  const P=peers(), row=(name,val,was,pct)=>`<div class="row"><span>${name}</span><span><b style="color:var(--gold)">${val}</b>${was!=null&&was!==val?` <span class="was">(was ${was})</span>`:""}</span></div>${pct!=null?`<div class="fine" style="margin:0 0 4px;text-align:right">${pct>=99?"TOP 1%":"BETTER THAN "+pct+"%"} OF ${P.toUpperCase()}</div>`:""}`;
+  el.innerHTML=`<div class="yfinal"><div class="label" style="margin:0 0 4px">YESTERDAY'S FINAL SCORES · ${y}</div>`+
+    (fin.d?row("🦓 Daily dive",(fin.d.total*10).toLocaleString()+" µm",fin.d.was!=null?(fin.d.was*10).toLocaleString()+" µm":null,fin.d.pct):"")+
+    (fin.s?row("⚡ Stampede",fin.s.total.toLocaleString()+" pts",fin.s.was!=null?fin.s.was.toLocaleString()+" pts":null,fin.s.pct):"")+`</div>`;
+}
 
 /* ===== DAILY STAMPEDE =====
    One prompt a day, the same for every field. 60 seconds to name as many answers as possible.
@@ -27705,7 +27744,7 @@ function stampSubmit(){
   const it=r.item;
   if(sFound.some(f=>f.label===it.label)){ m.className="smsg dup"; m.textContent=`ALREADY GOT ${cap(it.label).toUpperCase()}`; sfx.hmm(); return; }
   const f={label:it.label, pts:it.pts}; sFound.push(f); sTotal+=it.pts;
-  AnswerLog.add({day:sDay,mode:"stampede",field:sProf,prompt:sP.q,answer:it.label,guess:raw,pts:it.pts,ok:true,ms});
+  AnswerLog.add({day:sDay,mode:"stampede",field:sProf,prompt:sP.q,answer:it.label,guess:raw,pts:it.pts,base:it.base,ok:true,ms});
   const ti=tierOf(it.pts), T=TIERS[ti];
   m.className="smsg ok"; m.innerHTML=`${r.type==="suggest"?"≈ ":""}<span style="color:${T.color}">${esc(cap(it.label).toUpperCase())} +${it.pts}</span> ${T.name}`;
   $("sFound").insertAdjacentHTML("afterbegin",chipHTML(f,true));
@@ -27741,7 +27780,7 @@ async function stampFinish(fromSave){
     AnswerLog.flush(); }
   $("seLabel").textContent=`⚡ DAILY STAMPEDE #${sDayNum} · ${sDay}${fromSave?" · ALREADY PLAYED":""}`;
   $("seTotal").textContent=`${sTotal.toLocaleString()} PTS`;
-  $("seSub").innerHTML=`${esc(sP.q)}<br><span style="color:var(--gold)">${sFound.length}</span> answer${sFound.length===1?"":"s"} in 60 seconds`;
+  $("seSub").innerHTML=`${esc(sP.q)}<br><span style="color:var(--gold)">${sFound.length}</span> answer${sFound.length===1?"":"s"} in 60 seconds`+(Scores.on()?`<div class="prov">PROVISIONAL · FINALIZED OVERNIGHT FROM EVERYONE'S ANSWERS. CHECK BACK TOMORROW.</div>`:"");
   $("seFound").innerHTML = sFound.length? [...sFound].sort((a,b)=>b.pts-a.pts).map(f=>chipHTML(f)).join("") : `<span class="fine">NO ANSWERS THIS TIME. TOMORROW'S A NEW STAMPEDE!</span>`;
   $("seMissed").textContent=`${sP.items.length-sFound.length} MISSED`;
   const all=$("seAll"); all.open=false; all.querySelector(".ans").innerHTML="";
@@ -27772,7 +27811,7 @@ function stampShare(){
   const em=[...sFound].sort((a,b)=>b.pts-a.pts).map(f=>TIERS[tierOf(f.pts)].emoji).join("");
   return `🦓⚡ ZEBRA STAMPEDE #${sDayNum}\n${sFound.length} answers · ${sTotal.toLocaleString()} pts${em?"\n"+em:""}${sPct!==null?`\n${sPct>=99?"top 1%":"more than "+sPct+"%"} of ${peers()}`:""}\nzebradive.io`;
 }
-stampInfo();
+stampInfo(); window.__zebraReady=true; showFinals().catch(()=>{});
 
 /* wiring */
 $("bDaily").onclick=()=>{ac(); startGame(true);};

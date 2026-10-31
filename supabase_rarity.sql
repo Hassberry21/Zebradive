@@ -26,7 +26,7 @@ create policy "log answers" on public.zebra_answers for insert to anon, authenti
 grant insert on public.zebra_answers to anon, authenticated;
 revoke select, update, delete on public.zebra_answers from anon, authenticated;
 
--- 2) DAILY SUMMARIES (kept forever, tiny). Raw rows are deleted after 60 days.
+-- 2) DAILY SUMMARIES (kept forever, tiny). Raw answer rows are kept too.
 --    attempts = distinct player-plays of a prompt; n = how many of those plays gave this answer.
 create table if not exists public.zebra_prompt_daily (
   day date not null, prompt text not null, attempts int not null,
@@ -86,7 +86,7 @@ begin
     from zebra_answer_daily a join zebra_prompt_totals t using (prompt)
     group by a.prompt, a.answer, t.attempts;
 
-  delete from zebra_answers where day < current_date - 60;
+  -- raw answers are kept (needed for research); no automatic deletion
 end $$;
 revoke all on function public.zebra_nightly() from public, anon, authenticated;
 

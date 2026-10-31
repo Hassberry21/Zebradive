@@ -188,6 +188,7 @@ button.btn.gold:hover{background:#ffe27a}
 .chip.pop{animation:chipin .35s ease-out}
 @keyframes chipin{from{transform:scale(1.35);opacity:0}to{transform:scale(1);opacity:1}}
 #sShare{white-space:pre-wrap}
+.shr{font-family:Silkscreen,monospace;font-size:10px;opacity:.55;margin:-4px 8px 4px;text-align:right}
 .later{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;opacity:.7;margin:4px 0 16px}
 .sumd{border-bottom:1px solid var(--line)}
 .sumd>summary{list-style:none;cursor:pointer;border-bottom:none}
@@ -27492,7 +27493,8 @@ function startGame(isDaily){
     showPanel(null); sinkTo(total,()=>finish(true)); return; }
   round=0; total=0; log=[]; state="play"; setHud();
   showPanel(null);
-  if(zy>1) sinkTo(0,askRound); else askRound();
+  const ready=Rarity.apply(set), go=()=>ready.then(askRound);
+  if(zy>1) sinkTo(0,go); else go();
 }
 let pending=null, tries=0, lastWrong="";
 function askRound(){
@@ -27503,7 +27505,7 @@ function askRound(){
   const inp=$("answer"); inp.value=""; inp.disabled=false;
   pending=null; tries=0; lastWrong=""; $("hint").className="hint hidden";
   showPanel("play"); inp.focus();
-  endAt=Date.now()+SECS*1000; lastSec=99; clearInterval(timerId); timerId=setInterval(tick,100); tick();
+  endAt=Date.now()+SECS*1000; roundStart=Date.now(); lastSec=99; clearInterval(timerId); timerId=setInterval(tick,100); tick();
 }
 function tick(){
   const left=Math.max(0,endAt-Date.now()), on=Math.ceil(left/(SECS*1000)*20);
@@ -27527,6 +27529,7 @@ function tryAnswer(){
     return;
   }
   tries++; lastWrong=raw; pending=null; sfx.nope();
+  AnswerLog.add({day:gameDay,mode:modeTag(),field:gameProf,prompt:set[round].q,answer:null,guess:raw,pts:0,ok:false,ms:Date.now()-roundStart});
   hint(`✗ “${esc(raw.toUpperCase())}” ISN'T ON THE CHART. TRY AGAIN!`,"err");
   inp.classList.remove("shake"); void inp.offsetWidth; inp.classList.add("shake"); inp.select();
 }
@@ -27538,6 +27541,7 @@ function finishRound(it, raw, reason){
   if(!it) raw = raw || lastWrong;
   const pts = it?it.pts:0, ti=tierOf(pts);
   total+=pts; log.push({q:p.q, raw, label: it?it.label:null, pts, reason}); setHud();
+  AnswerLog.add({day:gameDay,mode:modeTag(),field:gameProf,prompt:p.q,answer:it?it.label:null,guess:it?raw:"",pts,ok:!!it,ms:Date.now()-roundStart});
   showPanel(null);
   const T=TIERS[ti];
   $("popN").textContent = pts? "+"+pts : (reason==="timeout"? "TIME!" : "PASS");
@@ -27570,7 +27574,7 @@ function showResult(p,raw,it,ti,reason){
 function next(){ if(state!=="result") return; round++; if(round>=7){ state="end"; finish(false);} else askRound(); }
 
 function finish(fromSave){
-  state="end"; setHud(); hud.round.textContent="FINISHED";
+  state="end"; setHud(); hud.round.textContent="FINISHED"; AnswerLog.flush();
   let sk=null; if(daily && !fromSave) sk=bumpStreak(gameDay);
   if(daily && !fromSave){ store(dayKey(gameDay,gameProf),{log,total}); if(total>(store("zebra4-best-"+poolKey(gameProf))||0)) store("zebra4-best-"+poolKey(gameProf),total); }
   const L = total<1?"SURFACE":layerAt(total).name;
@@ -27586,13 +27590,61 @@ function finish(fromSave){
     const l=log[+d.dataset.n], p=BANK.find(b=>b.q===l.q); if(!p){ box.textContent="Answers unavailable."; return; }
     const sorted=[...p.items].sort((a,b)=>b.pts-a.pts);
     box.innerHTML=`<div class="ansn">${sorted.length} ANSWERS · DEEPEST FIRST</div>`+sorted.map(x=>{const ti=tierOf(x.pts), c=TIERS[ti].color, me=l.label===x.label;
-      return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>`;}).join(""); }));
+      return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>${x.share!=null?`<div class="shr">${pctTxt(x.share)} of players</div>`:""}`;}).join(""); }));
   lastPct=null; $("share").textContent = shareText();
   $("nextDaily").innerHTML = `NEXT DAILY DIVE IN <span class="cd">${hms(untilMidnight())}</span>`;
   showPanel("end"); burst("#e3a8ff",40,1.5);
   showRanking(fromSave);
 }
 
+
+
+/* ===== PLAYER-BASED RARITY =====
+   Every guess is logged anonymously. Each night the server counts what share of players
+   gave each answer. Points start from the built-in list and shift toward real player data
+   as a prompt gets played more: answers lots of people give sink toward HORSE, answers
+   almost nobody gives rise toward ZEBRA. The snapshot changes once a night, so everyone
+   playing the same day is scored the same way. */
+const RARITY_K=50;                                   // plays before player data counts for half
+function obsPts(share){ return Math.max(5,Math.min(99,Math.round(99-60*Math.log10(1+100*share)))); }
+const Rarity={
+  cache:{},
+  async fetch(qs){
+    const ctl=new AbortController(), to=setTimeout(()=>ctl.abort(),2500);
+    try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/zebra_rarity_for",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_prompts:qs}),signal:ctl.signal});
+      if(!r.ok) return null; return await r.json(); }catch(e){ return null; } finally{ clearTimeout(to); }
+  },
+  async apply(prompts){
+    prompts.forEach(p=>p.items.forEach(it=>{ if(it.base===undefined) it.base=it.pts; }));
+    if(Scores.on()){
+      const need=prompts.map(p=>p.q).filter(q=>!(q in this.cache));
+      if(need.length){ const rows=await this.fetch(need);
+        if(rows){ need.forEach(q=>this.cache[q]=null);
+          rows.forEach(r=>{ const c=this.cache[r.prompt]||(this.cache[r.prompt]={attempts:+r.attempts,n:{}}); if(r.answer) c.n[r.answer]=+r.n; }); } }
+    }
+    prompts.forEach(p=>{ const c=this.cache[p.q];
+      p.items.forEach(it=>{
+        if(!c||!c.attempts){ it.pts=it.base; it.share=null; return; }
+        const share=(c.n[it.label]||0)/c.attempts, w=c.attempts/(c.attempts+RARITY_K);
+        it.share=share; it.pts=Math.max(5,Math.min(99,Math.round((1-w)*it.base+w*obsPts(share))));
+      }); });
+  }
+};
+const AnswerLog={
+  q:[],
+  add(e){ if(!Scores.on()) return; this.q.push({player:playerId(), ...e, guess:String(e.guess||"").slice(0,80), ms:Math.max(0,Math.min(600000,Math.round(e.ms||0)))}); },
+  flush(keepalive){
+    if(!this.q.length || !Scores.on()) return; const rows=this.q.splice(0);
+    try{ fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_answers",{method:"POST",keepalive:!!keepalive,
+        headers:{...Scores.headers(),"Prefer":"return=minimal"},body:JSON.stringify(rows)})
+      .then(r=>{ if(!r.ok) r.text().then(x=>console.warn("[zebra] answers not saved:",r.status,x)); }).catch(()=>{}); }catch(e){}
+  }
+};
+addEventListener("pagehide",()=>AnswerLog.flush(true));
+document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="hidden") AnswerLog.flush(true); });
+function pctTxt(s){ const v=s*100; return v===0?"0%":v<1?"<1%":Math.round(v)+"%"; }
+function modeTag(){ return MODE==="board" ? (daily?"board":"board-practice") : (daily?"daily":"practice"); }
+let roundStart=0;
 
 /* ===== DAILY STAMPEDE =====
    One prompt a day, the same for every field. 60 seconds to name as many answers as possible.
@@ -27631,7 +27683,8 @@ function startStampede(){
   $("sMsg").className="smsg"; $("sMsg").innerHTML="GO GO GO! ENTER EACH ANSWER, THEN KEEP TYPING.";
   const go=()=>{ showPanel("stamp"); const i=$("sAnswer"); i.value=""; i.disabled=false; i.focus();
     sEndAt=Date.now()+STAMP_SECS*1000; clearInterval(sTimer); sTimer=setInterval(stampTick,100); stampTick(); };
-  if(zy>1) sinkTo(0,go); else go();
+  const ready=Rarity.apply([sP]), go2=()=>ready.then(go);
+  if(zy>1) sinkTo(0,go2); else go2();
 }
 function stampTick(){
   const left=Math.max(0,sEndAt-Date.now()), s=Math.ceil(left/1000);
@@ -27646,11 +27699,13 @@ function stampSubmit(){
   if(state!=="stamp") return;
   const inp=$("sAnswer"), raw=inp.value.trim(); if(!raw) return; inp.value="";
   const m=$("sMsg"), r=evaluate(sP, raw);
-  if(r.type==="none"){ m.className="smsg err"; m.textContent=`✗ “${raw.toUpperCase()}” ISN'T ON THE CHART`; sfx.nope();
+  const ms=Date.now()-(sEndAt-STAMP_SECS*1000);
+  if(r.type==="none"){ AnswerLog.add({day:sDay,mode:"stampede",field:sProf,prompt:sP.q,answer:null,guess:raw,pts:0,ok:false,ms}); m.className="smsg err"; m.textContent=`✗ “${raw.toUpperCase()}” ISN'T ON THE CHART`; sfx.nope();
     inp.classList.remove("shake"); void inp.offsetWidth; inp.classList.add("shake"); return; }
   const it=r.item;
   if(sFound.some(f=>f.label===it.label)){ m.className="smsg dup"; m.textContent=`ALREADY GOT ${cap(it.label).toUpperCase()}`; sfx.hmm(); return; }
   const f={label:it.label, pts:it.pts}; sFound.push(f); sTotal+=it.pts;
+  AnswerLog.add({day:sDay,mode:"stampede",field:sProf,prompt:sP.q,answer:it.label,guess:raw,pts:it.pts,ok:true,ms});
   const ti=tierOf(it.pts), T=TIERS[ti];
   m.className="smsg ok"; m.innerHTML=`${r.type==="suggest"?"≈ ":""}<span style="color:${T.color}">${esc(cap(it.label).toUpperCase())} +${it.pts}</span> ${T.name}`;
   $("sFound").insertAdjacentHTML("afterbegin",chipHTML(f,true));
@@ -27681,7 +27736,9 @@ const StampScores={
 };
 async function stampFinish(fromSave){
   state="stampEnd"; clearInterval(sTimer); hud.round.textContent="FINISHED"; hud.score.textContent=sTotal;
-  if(!fromSave) store(stampKey(sDay),{found:sFound,total:sTotal,q:sP.q});
+  if(!fromSave){ store(stampKey(sDay),{found:sFound,total:sTotal,q:sP.q});
+    if(!AnswerLog.q.some(e=>e.mode==="stampede")) AnswerLog.add({day:sDay,mode:"stampede",field:sProf,prompt:sP.q,answer:null,guess:"",pts:0,ok:false,ms:STAMP_SECS*1000});
+    AnswerLog.flush(); }
   $("seLabel").textContent=`⚡ DAILY STAMPEDE #${sDayNum} · ${sDay}${fromSave?" · ALREADY PLAYED":""}`;
   $("seTotal").textContent=`${sTotal.toLocaleString()} PTS`;
   $("seSub").innerHTML=`${esc(sP.q)}<br><span style="color:var(--gold)">${sFound.length}</span> answer${sFound.length===1?"":"s"} in 60 seconds`;
@@ -27691,7 +27748,7 @@ async function stampFinish(fromSave){
   all.ontoggle=()=>{ if(!all.open) return; const box=all.querySelector(".ans"); if(box.innerHTML) return;
     const got=new Set(sFound.map(f=>f.label)), sorted=[...sP.items].sort((a,b)=>b.pts-a.pts);
     box.innerHTML=`<div class="ansn">${sorted.length} ANSWERS · DEEPEST FIRST · YOURS MARKED</div>`+sorted.map(x=>{const ti=tierOf(x.pts),c=TIERS[ti].color,me=got.has(x.label);
-      return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>`;}).join(""); };
+      return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>${x.share!=null?`<div class="shr">${pctTxt(x.share)} of players</div>`:""}`;}).join(""); };
   $("seNext").innerHTML=`NEXT STAMPEDE IN <span class="cd">${hms(untilMidnight())}</span>`;
   sPct=null; $("sShare").textContent=stampShare(); $("bSCopy").textContent="COPY RESULT";
   showPanel("sEnd"); burst("#ffd23b",40,1.5); stampInfo();

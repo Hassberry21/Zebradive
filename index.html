@@ -27180,9 +27180,10 @@ const Scores = {
     if(SCORE_SERVER.key.startsWith("eyJ")) h.Authorization="Bearer "+SCORE_SERVER.key; return h; },
   async submit(day,total){
     if(!this.on()) return;
-    try{ await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_scores",{method:"POST",
+    try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_scores",{method:"POST",
       headers:{...this.headers(),"Prefer":"return=minimal"},
-      body:JSON.stringify({day,field:rankGroup(),player:playerId(),total})}); }catch(e){}   // a duplicate (409) just means already submitted
+      body:JSON.stringify({day,field:rankGroup(),player:playerId(),total})});
+      if(!r.ok && r.status!==409) console.warn("[zebra] score not saved:",r.status,await r.text()); }catch(e){ console.warn("[zebra] score server unreachable:",e); }   // a duplicate (409) just means already submitted
   },
   async histogram(day){
     if(!this.on()) return null;
@@ -27258,7 +27259,7 @@ async function showRanking(fromSave){
   el.innerHTML=`<div class="loading blink">COMPARING YOU WITH OTHER ${peers().toUpperCase()}…</div>`;
   let b=null, live=false, liveN=0;
   if(daily){
-    if(!fromSave) await Scores.submit(gameDay, total);
+    await Scores.submit(gameDay, total);   // re-sending a saved result is harmless: the server keeps one per player
     const real=await Scores.histogram(gameDay);
     if(real){ liveN=real.reduce((a,c)=>a+c,0); if(liveN>=SCORE_SERVER.minPlayers){ b=real; live=true; } }
   }
@@ -27670,8 +27671,9 @@ function simulateStampede(p, seed){
   return b;
 }
 const StampScores={
-  async submit(day,total){ if(!Scores.on()) return; try{ await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_stampede",{method:"POST",
-      headers:{...Scores.headers(),"Prefer":"return=minimal"}, body:JSON.stringify({day,field:sProf,player:playerId(),total})}); }catch(e){} },
+  async submit(day,total){ if(!Scores.on()) return; try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_stampede",{method:"POST",
+      headers:{...Scores.headers(),"Prefer":"return=minimal"}, body:JSON.stringify({day,field:sProf,player:playerId(),total})});
+      if(!r.ok && r.status!==409) console.warn("[zebra] stampede score not saved:",r.status,await r.text()); }catch(e){ console.warn("[zebra] score server unreachable:",e); } },
   async histogram(day){ if(!Scores.on()) return null;
     try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/stampede_histogram",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:day,p_field:sProf})});
       if(!r.ok) return null; const rows=await r.json(), b=Array(SNB).fill(0);
@@ -27695,7 +27697,7 @@ async function stampFinish(fromSave){
   showPanel("sEnd"); burst("#ffd23b",40,1.5); stampInfo();
   const el=$("sRanking"); el.innerHTML=`<div class="loading blink">COMPARING YOU WITH OTHER ${peers().toUpperCase()}…</div>`;
   let b=null, live=false, liveN=0;
-  if(!fromSave) await StampScores.submit(sDay,sTotal);
+  await StampScores.submit(sDay,sTotal);
   const real=await StampScores.histogram(sDay);
   if(real){ liveN=real.reduce((a,c)=>a+c,0); if(liveN>=SCORE_SERVER.minPlayers){ b=real; live=true; } }
   if(!b) b=simulateStampede(sP, sProf+sDay);

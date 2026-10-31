@@ -28,9 +28,9 @@ returns void language sql security definer set search_path = public as $$
   from (
     select a.mode, a.field, a.player,
       greatest(5, least(99, round(
-        case when coalesce(t.attempts,0) = 0 then a.b
-             else (1 - t.attempts::numeric/(t.attempts+50)) * a.b
-                + (t.attempts::numeric/(t.attempts+50))
+        case when coalesce(t.attempts,0) < 30 then a.b          -- minimum: 30 plays before player data counts
+             else (1 - (t.attempts-30)::numeric/(t.attempts-30+50)) * a.b
+                + ((t.attempts-30)::numeric/(t.attempts-30+50))
                   * greatest(5, least(99, round(99 - 60*log(1 + 100.0*coalesce(r.n,0)/t.attempts))))
         end)))::int as fpts
     from (select distinct on (mode, player, prompt, answer) mode, field, player, prompt, answer, coalesce(base, pts) as b

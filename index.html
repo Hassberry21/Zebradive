@@ -27611,7 +27611,8 @@ function finish(fromSave){
    as a prompt gets played more: answers lots of people give sink toward HORSE, answers
    almost nobody gives rise toward ZEBRA. The snapshot changes once a night, so everyone
    playing the same day is scored the same way. */
-const RARITY_K=50;                                   // plays before player data counts for half
+const RARITY_MIN=30;                                 // no change at all until a prompt has 30 plays
+const RARITY_K=50;                                   // then: 50 more plays and player data counts for half
 function obsPts(share){ return Math.max(5,Math.min(99,Math.round(99-60*Math.log10(1+100*share)))); }
 const Rarity={
   cache:{},
@@ -27631,8 +27632,8 @@ const Rarity={
     }
     prompts.forEach(p=>{ const c=this.cache[p.q];
       p.items.forEach(it=>{
-        if(!c||!c.attempts){ it.pts=it.base; it.share=null; return; }
-        const share=(c.n[it.label]||0)/c.attempts, w=c.attempts/(c.attempts+RARITY_K);
+        if(!c||c.attempts<RARITY_MIN){ it.pts=it.base; it.share=null; return; }
+        const share=(c.n[it.label]||0)/c.attempts, e=c.attempts-RARITY_MIN, w=e/(e+RARITY_K);
         it.share=share; it.pts=Math.max(5,Math.min(99,Math.round((1-w)*it.base+w*obsPts(share))));
       }); });
   }

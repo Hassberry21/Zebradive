@@ -167,6 +167,15 @@ h1.logo{font-weight:400}
 h2{font-family:Silkscreen,monospace;font-size:20px;margin:0 0 4px;font-weight:700}
 .sum{display:grid;grid-template-columns:1fr auto;gap:10px;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;text-align:left}
 .sum .a{text-align:right}
+.later{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;opacity:.7;margin:4px 0 16px}
+.sumd{border-bottom:1px solid var(--line)}
+.sumd>summary{list-style:none;cursor:pointer;border-bottom:none}
+.sumd>summary::-webkit-details-marker{display:none}
+.sumd>summary>span:first-child::after{content:"  ▾ SEE ANSWERS";font-family:Silkscreen,monospace;font-size:10px;opacity:.6;white-space:nowrap}
+.sumd[open]>summary>span:first-child::after{content:"  ▴ HIDE"}
+.sumd .ans{max-height:300px;overflow-y:auto;margin:0 0 10px;text-align:left}
+.ansn{font-family:Silkscreen,monospace;font-size:10px;opacity:.6;margin:2px 8px 6px}
+
 pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgba(0,0,0,.35);border:2px dashed rgba(255,255,255,.25);padding:10px;margin:14px 0 6px;white-space:pre-wrap}
 .fine{font-size:13px;color:#8a83a8;margin-top:12px;line-height:1.4}
 @media (max-width:600px){ .panel{padding:16px} .r{grid-template-columns:1fr 54px 30px;font-size:14px;gap:6px} }
@@ -246,10 +255,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <div class="label" id="rLabel"></div>
   <div class="verdict"><span class="n" id="rN"></span><span class="tiertag" id="rTag"></span></div>
   <div class="yours" id="rYours"></div>
-  <div class="label">DEEPEST ANSWERS</div>
-  <div class="rows" id="rDeep"></div>
-  <div class="label">SHALLOW WATERS</div>
-  <div class="rows" id="rShallow"></div>
+  <div class="later">🔒 ANSWERS ARE REVEALED AT THE END OF THE DIVE</div>
   <button class="btn" id="bNext">▼ DIVE ON</button>
 </section>
 
@@ -25450,12 +25456,6 @@ function showResult(p,raw,it,ti,reason){
   const tag=$("rTag"); tag.textContent=T.name; tag.style.color=T.color;
   $("rYours").innerHTML = it ? `You said “${esc(raw)}” → <span style="color:${T.color}">${esc(cap(it.label))}</span>. Your zebra sank ${it.pts*10} µm.`
                              : (reason==="timeout"? "The clock ran out" : "You passed") + (tries? ` after ${tries} wrong ${tries===1?"try":"tries"}.` : ".");
-  const sorted=[...p.items].sort((a,b)=>b.pts-a.pts);
-  const row=x=>{const t=tierOf(x.pts), c=TIERS[t].color, me=it&&it.label===x.label;
-    return `<div class="r${t>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>`;};
-  let deep=sorted.slice(0,5), shallow=sorted.slice(-3).reverse();
-  if(it && !deep.includes(it) && !shallow.includes(it)) deep=[...deep.slice(0,4),it];
-  $("rDeep").innerHTML=deep.map(row).join(""); $("rShallow").innerHTML=shallow.map(row).join("");
   $("bNext").textContent = round===6? "▼ FINAL DEPTH" : "▼ DIVE ON";
   showPanel("result"); $("result").scrollTop=0; setTimeout(()=>$("bNext").focus({preventScroll:true}),50);
 }
@@ -25472,7 +25472,13 @@ function finish(fromSave){
   $("eDepth").textContent = `${(total*10).toLocaleString()} µm`;
   const rank = total>=620?"You reached the genome. Legendary zebra hunter.":total>=430?"Deep inside the cell. Attending-level differential.":total>=240?"Down to the bone. Solid senior resident.":total>=150?"Into the muscle. Good intern instincts.":"Still near the skin. Lots of horses today, so go rarer!";
   $("eRank").innerHTML = `Reached <span style="color:var(--gold)">${L}</span> · ${total}/700 pts`;
-  $("eSum").innerHTML = log.map(l=>{const t=TIERS[tierOf(l.pts)];return `<div class="sum"><span>${catIcon(l.q)} ${esc(l.q)}</span><span class="a" style="color:${t.color}">${l.label?esc(cap(l.label))+" +"+l.pts:(l.raw?"✗ "+esc(l.raw):"⏱ —")}</span></div>`}).join("");
+  $("eSum").innerHTML = `<div class="label" style="margin-top:6px">YOUR DIVE · TAP A PROMPT TO SEE ITS ANSWERS</div>` + log.map((l,n)=>{const t=TIERS[tierOf(l.pts)];
+    return `<details class="sumd" data-n="${n}"><summary class="sum"><span>${catIcon(l.q)} ${esc(l.q)}</span><span class="a" style="color:${t.color}">${l.label?esc(cap(l.label))+" +"+l.pts:(l.raw?"✗ "+esc(l.raw):"⏱ —")}</span></summary><div class="ans"></div></details>`}).join("");
+  $("eSum").querySelectorAll("details").forEach(d=>d.addEventListener("toggle",()=>{ if(!d.open) return; const box=d.querySelector(".ans"); if(box.innerHTML) return;
+    const l=log[+d.dataset.n], p=BANK.find(b=>b.q===l.q); if(!p){ box.textContent="Answers unavailable."; return; }
+    const sorted=[...p.items].sort((a,b)=>b.pts-a.pts);
+    box.innerHTML=`<div class="ansn">${sorted.length} ANSWERS · DEEPEST FIRST</div>`+sorted.map(x=>{const ti=tierOf(x.pts), c=TIERS[ti].color, me=l.label===x.label;
+      return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>`;}).join(""); }));
   lastPct=null; $("share").textContent = shareText();
   $("nextDaily").innerHTML = `NEXT DAILY DIVE IN <span class="cd">${hms(untilMidnight())}</span>`;
   showPanel("end"); burst("#e3a8ff",40,1.5);

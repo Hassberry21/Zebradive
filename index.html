@@ -16272,6 +16272,4427 @@ RAW.push(
 );
 
 /* Daily vs Practice: every prompt belongs to exactly one side. Near-duplicate prompts are kept on opposite sides. */
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE (batch 2026-10-31) ----
+   Answers are listed most-common first; points come from list position. */
+function P(q,cat,strip,txt,added){ RAW.push({q,cat,strip,added:added||"2026-10-31",
+  list:txt.trim().split("\n").map(s=>s.trim()).filter(Boolean).map(s=>"1 "+s).join("\n")}); }
+
+P("Name a cause of nausea and vomiting","clinical","",`
+food poisoning
+stomach flu|gastroenteritis|viral gastroenteritis|norovirus
+pregnancy|morning sickness
+motion sickness|car sickness|sea sickness
+migraine
+chemotherapy
+alcohol|hangover|drinking too much
+anxiety
+medication side effect|medications
+appendicitis
+gallstones|gallbladder attack|cholecystitis
+pancreatitis
+bowel obstruction|intestinal obstruction|small bowel obstruction
+acid reflux|gerd|heartburn
+stomach ulcer|peptic ulcer|ulcer
+opioids|morphine
+heart attack
+concussion|head injury
+vertigo
+kidney stones
+anesthesia|after surgery|postoperative nausea
+overeating
+food allergy
+hepatitis
+diabetic ketoacidosis|dka
+gastroparesis
+labyrinthitis
+meningitis
+uremia|kidney failure
+hyperemesis gravidarum
+cannabis hyperemesis|cannabinoid hyperemesis syndrome
+increased intracranial pressure|brain tumor
+stomach cancer
+radiation therapy
+digoxin toxicity
+glaucoma attack|acute angle closure glaucoma
+cyclic vomiting syndrome
+addison disease|adrenal crisis
+hypercalcemia
+diverticulitis
+ovarian torsion
+testicular torsion
+pyloric stenosis
+volvulus
+inferior mi
+ménière disease|meniere disease
+mesenteric ischemia
+thyroid storm
+lithium toxicity
+acute liver failure
+rumination syndrome
+superior mesenteric artery syndrome
+`);
+
+P("Name a cause of constipation","clinical","",`
+low fiber diet|not enough fiber
+dehydration|not drinking enough water
+opioids|pain medication
+lack of exercise|inactivity
+irritable bowel syndrome|ibs
+pregnancy
+hypothyroidism|underactive thyroid
+ignoring the urge
+iron supplements|iron pills
+aging|old age
+travel|change in routine
+colon cancer
+bowel obstruction
+diabetes
+parkinson disease
+hemorrhoids
+anal fissure
+stress
+calcium supplements
+antacids
+anticholinergics
+calcium channel blockers|verapamil
+antidepressants|tricyclics
+multiple sclerosis
+spinal cord injury
+diverticular disease|diverticulitis
+dairy|cheese
+eating disorder|anorexia
+hypercalcemia
+hypokalemia|low potassium
+laxative overuse|laxative abuse
+pelvic floor dysfunction|dyssynergic defecation
+rectocele
+hirschsprung disease
+ondansetron|zofran
+antipsychotics|clozapine
+lead poisoning
+scleroderma
+stroke
+depression
+amyloidosis
+colonic inertia|slow transit constipation
+volvulus
+fecal impaction
+cystic fibrosis
+infant botulism
+`);
+
+P("Name a cause of unintentional weight loss","clinical","",`
+cancer
+hyperthyroidism|overactive thyroid|graves disease
+diabetes|type 1 diabetes
+depression
+stress|anxiety
+eating disorder|anorexia|bulimia
+celiac disease
+crohn disease|inflammatory bowel disease|ibd
+ulcerative colitis
+hiv|aids
+tuberculosis|tb
+copd
+heart failure|cardiac cachexia
+dementia
+peptic ulcer
+drug abuse|meth|methamphetamine|cocaine
+alcoholism
+dental problems|poor dentition
+chronic kidney disease
+liver cirrhosis|cirrhosis
+parasites|tapeworm
+addison disease|adrenal insufficiency
+pancreatic cancer
+pancreatitis|chronic pancreatitis
+malabsorption
+medications|stimulants|adhd medication
+metformin
+glp1 agonists|ozempic|semaglutide
+lymphoma
+leukemia
+trouble swallowing|dysphagia
+rheumatoid arthritis
+lupus
+parkinson disease
+als
+social isolation
+poverty|food insecurity
+cystic fibrosis
+pheochromocytoma
+gastroparesis
+chronic infection
+endocarditis
+hepatitis c
+pernicious anemia
+sarcoidosis
+whipple disease
+`);
+
+P("Name a cause of heart palpitations","clinical","",`
+anxiety|panic attack
+caffeine|coffee|energy drinks
+atrial fibrillation|afib
+stress
+exercise
+dehydration
+alcohol
+nicotine|smoking|vaping
+hyperthyroidism|overactive thyroid
+pregnancy
+fever
+anemia
+low blood sugar|hypoglycemia
+premature ventricular contractions|pvcs|extra beats
+supraventricular tachycardia|svt
+decongestants|pseudoephedrine
+cocaine
+amphetamines|adderall|stimulants
+menopause|hot flashes
+lack of sleep
+low potassium|hypokalemia
+low magnesium
+heart valve disease|mitral valve prolapse
+wolff parkinson white|wpw
+atrial flutter
+ventricular tachycardia
+sick sinus syndrome
+pots|postural orthostatic tachycardia syndrome
+asthma inhalers|albuterol
+thyroid medication|levothyroxine
+heart failure
+cardiomyopathy
+pheochromocytoma
+long qt syndrome
+brugada syndrome
+hypertrophic cardiomyopathy
+heart attack
+pulmonary embolism
+withdrawal|alcohol withdrawal
+anorexia
+`);
+
+P("Name a cause of seizures","clinical","",`
+epilepsy
+fever|febrile seizure
+head injury|traumatic brain injury|concussion
+stroke
+brain tumor
+low blood sugar|hypoglycemia
+alcohol withdrawal
+missed seizure medication
+lack of sleep|sleep deprivation
+drug overdose
+meningitis
+encephalitis
+low sodium|hyponatremia
+flashing lights|photosensitive epilepsy
+eclampsia
+cocaine
+benzodiazepine withdrawal
+brain abscess
+alzheimer disease|dementia
+low calcium|hypocalcemia
+low magnesium|hypomagnesemia
+kidney failure|uremia
+liver failure|hepatic encephalopathy
+hypoxia|lack of oxygen
+bupropion|wellbutrin
+tramadol
+cerebral palsy
+autism
+neurocysticercosis
+genetic|dravet syndrome
+tuberous sclerosis
+lennox gastaut syndrome
+infantile spasms|west syndrome
+brain bleed|subarachnoid hemorrhage
+arteriovenous malformation|avm
+hyperglycemia|high blood sugar
+heat stroke
+lead poisoning
+isoniazid overdose
+theophylline toxicity
+lidocaine toxicity
+pyridoxine deficiency
+pres|posterior reversible encephalopathy
+autoimmune encephalitis
+toxoplasmosis
+sturge weber syndrome
+`);
+
+P("Name a cause of jaundice","clinical","",`
+hepatitis
+gallstones|choledocholithiasis
+cirrhosis
+newborn jaundice|neonatal jaundice|physiologic jaundice
+alcoholic liver disease
+pancreatic cancer
+gilbert syndrome
+hemolysis|hemolytic anemia
+hepatitis b
+hepatitis a
+hepatitis c
+liver cancer
+acetaminophen overdose|tylenol overdose
+fatty liver
+breastfeeding jaundice|breast milk jaundice
+bile duct obstruction
+cholangitis
+sickle cell disease
+malaria
+primary biliary cholangitis|pbc
+primary sclerosing cholangitis|psc
+autoimmune hepatitis
+drug induced liver injury
+cholangiocarcinoma|bile duct cancer
+pancreatitis
+g6pd deficiency
+biliary atresia
+crigler najjar syndrome
+dubin johnson syndrome
+rotor syndrome
+wilson disease
+hemochromatosis
+leptospirosis|weil disease
+yellow fever
+mononucleosis|epstein barr
+thalassemia
+spherocytosis
+rh incompatibility|hemolytic disease of the newborn
+transfusion reaction
+sepsis
+heart failure|congestive hepatopathy
+budd chiari syndrome
+pregnancy cholestasis|intrahepatic cholestasis of pregnancy
+hellp syndrome
+acute fatty liver of pregnancy
+ampullary cancer
+alpha 1 antitrypsin deficiency
+`);
+
+P("Name a cause of hair loss","clinical","",`
+male pattern baldness|androgenetic alopecia
+female pattern hair loss
+stress|telogen effluvium
+chemotherapy
+aging
+alopecia areata
+thyroid disease|hypothyroidism
+pregnancy|postpartum
+iron deficiency|anemia
+genetics
+hairstyles|tight ponytails|traction alopecia
+ringworm|tinea capitis
+lupus
+pcos|polycystic ovary syndrome
+hair pulling|trichotillomania
+menopause
+radiation
+crash diets|weight loss
+hyperthyroidism
+protein deficiency
+zinc deficiency
+birth control pills|stopping birth control
+medications
+bleach|hair dye|chemical treatments
+heat styling
+syphilis
+lichen planopilaris
+frontal fibrosing alopecia
+central centrifugal cicatricial alopecia
+discoid lupus
+secondary syphilis
+biotin deficiency
+vitamin d deficiency
+surgery
+high fever
+covid
+warfarin
+lithium
+methotrexate
+testosterone|anabolic steroids
+thallium poisoning
+vitamin a toxicity
+hypopituitarism
+`);
+
+P("Name a cause of insomnia","clinical","",`
+stress
+anxiety
+depression
+caffeine|coffee
+screens|phone use|blue light
+shift work
+jet lag
+pain|chronic pain
+sleep apnea
+alcohol
+restless legs syndrome
+nicotine|smoking
+napping
+noise
+menopause|hot flashes
+pregnancy
+frequent urination|nocturia
+medications
+steroids|prednisone
+stimulants|adderall
+decongestants
+hyperthyroidism
+heartburn|acid reflux
+asthma
+heart failure
+bipolar disorder|mania
+ptsd
+grief
+aging
+dementia|alzheimer disease
+parkinson disease
+irregular schedule|poor sleep hygiene
+eating late|big meal before bed
+exercise late at night
+bright room
+uncomfortable bed
+ssris
+beta blockers
+withdrawal
+cannabis withdrawal
+delayed sleep phase syndrome
+fatal familial insomnia
+`);
+
+P("Name a cause of blood in the urine","clinical","hematuria",`
+urinary tract infection|uti
+kidney stones
+bladder infection|cystitis
+bladder cancer
+kidney cancer
+enlarged prostate|bph
+prostate cancer
+menstruation|period
+vigorous exercise|marathon running
+trauma|kidney injury
+prostatitis
+pyelonephritis|kidney infection
+glomerulonephritis
+iga nephropathy
+blood thinners|warfarin
+sickle cell disease
+polycystic kidney disease
+catheter
+urethritis
+cyclophosphamide|hemorrhagic cystitis
+schistosomiasis
+alport syndrome
+lupus nephritis
+post streptococcal glomerulonephritis
+goodpasture syndrome
+granulomatosis with polyangiitis
+endometriosis
+renal vein thrombosis
+nutcracker syndrome
+papillary necrosis
+tuberculosis
+hemophilia
+radiation cystitis
+urethral stricture
+thin basement membrane disease
+hus|hemolytic uremic syndrome
+foods that look like blood|beets
+rhabdomyolysis
+`);
+
+P("Name a cause of numbness or tingling","clinical","",`
+diabetes|diabetic neuropathy
+carpal tunnel syndrome
+pinched nerve
+sitting too long|limb fell asleep
+vitamin b12 deficiency
+multiple sclerosis|ms
+stroke
+anxiety|hyperventilation
+herniated disc|slipped disc
+sciatica
+alcohol|alcoholic neuropathy
+chemotherapy
+shingles
+migraine
+peripheral artery disease|poor circulation
+raynaud phenomenon
+cold exposure|frostbite
+hypothyroidism
+cubital tunnel syndrome|ulnar nerve
+spinal cord injury
+guillain barre syndrome
+lyme disease
+kidney failure
+low calcium|hypocalcemia
+thoracic outlet syndrome
+tarsal tunnel syndrome
+heavy metals|lead poisoning
+hiv
+lupus
+sjogren syndrome
+vitamin b6 toxicity
+transient ischemic attack|tia
+brain tumor
+syphilis
+leprosy
+fibromyalgia
+spinal stenosis
+cervical radiculopathy
+meralgia paresthetica
+morton neuroma
+amyloidosis
+charcot marie tooth
+cidp
+porphyria
+fish poisoning|ciguatera
+isoniazid
+metronidazole
+`);
+
+P("Name a part of the eye","body","",`
+pupil
+iris
+retina
+cornea
+lens
+sclera|white of the eye
+optic nerve
+eyelid
+eyelash
+macula
+conjunctiva
+tear duct|lacrimal duct
+vitreous|vitreous humor
+choroid
+fovea
+rods
+cones
+ciliary body
+aqueous humor
+anterior chamber
+posterior chamber
+lacrimal gland|tear gland
+blind spot|optic disc
+eyebrow
+extraocular muscles
+ciliary muscle
+zonules|suspensory ligaments
+trabecular meshwork
+canal of schlemm|schlemm canal
+tarsal plate
+meibomian glands
+punctum
+limbus
+bowman layer
+descemet membrane
+endothelium
+corneal epithelium
+retinal pigment epithelium
+ganglion cells
+bipolar cells
+photoreceptors
+central retinal artery
+central retinal vein
+caruncle
+plica semilunaris
+orbit|eye socket
+tenon capsule
+hyaloid canal
+ora serrata
+`);
+
+P("Name a part of the kidney or urinary tract","body","",`
+bladder
+ureter
+urethra
+kidney
+nephron
+glomerulus
+renal pelvis
+cortex|renal cortex
+medulla|renal medulla
+loop of henle
+bowman capsule
+proximal convoluted tubule|proximal tubule
+distal convoluted tubule|distal tubule
+collecting duct
+renal artery
+renal vein
+calyx|calyces|major calyx|minor calyx
+renal pyramid
+hilum
+urethral sphincter
+detrusor muscle
+trigone
+juxtaglomerular apparatus
+macula densa
+podocytes
+afferent arteriole
+efferent arteriole
+renal papilla
+renal capsule
+vasa recta
+peritubular capillaries
+mesangial cells
+renal columns
+prostate|prostatic urethra
+adrenal gland
+interlobar artery
+arcuate artery
+ureterovesical junction
+ureteropelvic junction
+`);
+
+P("Name a part or layer of the skin","body","",`
+epidermis
+dermis
+hair follicle
+sweat gland
+sebaceous gland|oil gland
+subcutaneous fat|hypodermis|subcutaneous tissue
+melanocytes
+keratinocytes
+collagen
+stratum corneum
+nails
+pores
+nerve endings
+blood vessels
+elastin
+stratum basale|basal layer
+stratum spinosum
+stratum granulosum
+stratum lucidum
+langerhans cells
+merkel cells
+arrector pili muscle
+eccrine glands
+apocrine glands
+papillary dermis
+reticular dermis
+dermal papillae
+meissner corpuscles
+pacinian corpuscles
+ruffini endings
+keratin
+melanin
+fibroblasts
+mast cells
+basement membrane
+hair shaft
+hair bulb
+nail bed
+cuticle
+lunula
+nail matrix
+`);
+
+P("Name a part of the respiratory system","body","",`
+lungs
+trachea|windpipe
+nose
+diaphragm
+bronchi
+alveoli
+bronchioles
+larynx|voice box
+pharynx|throat
+mouth
+epiglottis
+sinuses
+vocal cords
+pleura
+nasal cavity
+ribs
+intercostal muscles
+carina
+cilia
+lobes
+right lung
+left lung
+surfactant
+nasopharynx
+oropharynx
+laryngopharynx
+pleural cavity
+visceral pleura
+parietal pleura
+mediastinum
+hilum
+pulmonary artery
+pulmonary veins
+lingula
+turbinates|nasal conchae
+type 1 pneumocytes
+type 2 pneumocytes
+alveolar macrophages
+goblet cells
+respiratory bronchioles
+terminal bronchioles
+cricoid cartilage
+thyroid cartilage
+tracheal rings
+glottis
+adenoids
+tonsils
+`);
+
+P("Name a part of the spine","body","",`
+vertebra|vertebrae
+disc|intervertebral disc
+spinal cord
+cervical spine|neck
+thoracic spine
+lumbar spine|lower back
+sacrum
+coccyx|tailbone
+nerve roots|spinal nerves
+facet joints
+spinous process
+atlas|c1
+axis|c2
+nucleus pulposus
+annulus fibrosus
+lamina
+pedicle
+transverse process
+vertebral body
+spinal canal
+foramen|intervertebral foramen
+ligamentum flavum
+anterior longitudinal ligament
+posterior longitudinal ligament
+dura|dura mater
+cauda equina
+conus medullaris
+sacroiliac joint
+dens|odontoid process
+vertebral arch
+epidural space
+arachnoid
+pia mater
+filum terminale
+interspinous ligament
+supraspinous ligament
+pars interarticularis
+vertebra prominens|c7
+uncovertebral joints
+erector spinae
+`);
+
+P("Name a type of cell in the human body","science","cell cells",`
+red blood cell|erythrocyte
+white blood cell|leukocyte
+neuron|nerve cell
+skin cell
+muscle cell
+stem cell
+platelet
+sperm
+egg|ovum|oocyte
+fat cell|adipocyte
+bone cell|osteocyte
+t cell
+b cell
+liver cell|hepatocyte
+epithelial cell
+cardiomyocyte|heart muscle cell
+macrophage
+neutrophil
+osteoblast
+osteoclast
+fibroblast
+beta cell
+plasma cell
+natural killer cell
+dendritic cell
+chondrocyte
+keratinocyte
+melanocyte
+goblet cell
+glial cell
+astrocyte
+oligodendrocyte
+schwann cell
+microglia
+mast cell
+eosinophil
+basophil
+monocyte
+podocyte
+purkinje cell
+pyramidal cell
+rods
+cones
+parietal cell
+chief cell
+enterocyte
+kupffer cell
+alpha cell
+leydig cell
+sertoli cell
+pneumocyte
+hair cell
+megakaryocyte
+`);
+
+P("Name a part of a cell","science","",`
+nucleus
+mitochondria|mitochondrion
+cell membrane|plasma membrane
+cytoplasm
+ribosome
+endoplasmic reticulum|er
+golgi apparatus|golgi body
+lysosome
+dna
+nucleolus
+vacuole
+centrioles
+cytoskeleton
+rough endoplasmic reticulum|rough er
+smooth endoplasmic reticulum|smooth er
+peroxisome
+cilia
+flagellum
+microtubules
+chromosomes
+nuclear envelope|nuclear membrane
+vesicles
+centrosome
+microfilaments|actin filaments
+intermediate filaments
+nuclear pores
+chromatin
+cytosol
+mrna
+proteasome
+receptors
+ion channels
+glycocalyx
+endosome
+lipid raft
+tight junctions
+gap junctions
+desmosomes
+microvilli
+`);
+
+P("Name a famous person in medical history","science","",`
+hippocrates
+florence nightingale
+louis pasteur
+alexander fleming
+edward jenner
+marie curie
+jonas salk
+clara barton
+sigmund freud
+william harvey
+joseph lister
+galen
+elizabeth blackwell
+ignaz semmelweis
+robert koch
+christiaan barnard
+albert sabin
+andreas vesalius
+avicenna|ibn sina
+watson and crick|james watson|francis crick
+rosalind franklin
+paracelsus
+wilhelm roentgen
+charles drew
+virginia apgar
+harvey cushing
+william osler
+hans christian gram
+rene laennec
+frederick banting
+charles best
+anton van leeuwenhoek
+dorothea dix
+mary seacole
+paul ehrlich
+jean martin charcot
+alois alzheimer
+james parkinson
+thomas addison
+mary mallon|typhoid mary
+henrietta lacks
+john snow
+walter reed
+emil kraepelin
+rudolf virchow
+santiago ramon y cajal
+camillo golgi
+daniel hale williams
+helen taussig
+alfred blalock
+vivien thomas
+crawford long
+william morton
+patrick steptoe
+robert edwards
+paul farmer
+atul gawande
+`);
+
+P("Name a major medical discovery or invention","science","",`
+penicillin|antibiotics
+vaccines
+x ray
+anesthesia
+stethoscope
+insulin
+germ theory
+dna structure|double helix
+blood transfusion|blood types
+organ transplant
+mri
+ct scan
+pacemaker
+hand washing
+smallpox vaccine
+polio vaccine
+the pill|birth control pill
+ivf|in vitro fertilization
+antiseptic surgery|antiseptics
+microscope
+ultrasound
+defibrillator
+dialysis
+insulin pump
+chemotherapy
+cpr
+thermometer
+blood pressure cuff|sphygmomanometer
+ecg|ekg|electrocardiogram
+aspirin
+mrna vaccine
+human genome project
+crispr
+monoclonal antibodies
+statins
+heart lung machine
+artificial heart
+laparoscopy
+robotic surgery
+hepatitis c cure
+car t cell therapy
+ether anesthesia
+pasteurization
+oral rehydration solution
+endoscope
+cochlear implant
+hpv vaccine
+`);
+
+P("Name a disease spread by mosquitoes or ticks","micro","",`
+malaria
+lyme disease
+west nile virus
+zika
+dengue
+yellow fever
+rocky mountain spotted fever
+chikungunya
+ehrlichiosis
+anaplasmosis
+babesiosis
+encephalitis
+eastern equine encephalitis
+japanese encephalitis
+tularemia
+powassan virus
+alpha gal syndrome|red meat allergy
+tick paralysis
+relapsing fever
+st louis encephalitis
+southern tick associated rash illness|stari
+colorado tick fever
+crimean congo hemorrhagic fever
+tick borne encephalitis
+lymphatic filariasis|elephantiasis
+rift valley fever
+la crosse encephalitis
+western equine encephalitis
+venezuelan equine encephalitis
+heartland virus
+bourbon virus
+o nyong nyong
+mayaro virus
+ross river virus
+rickettsialpox
+boutonneuse fever|mediterranean spotted fever
+oropouche
+`);
+
+P("Name a cause of food poisoning","micro","",`
+salmonella
+e coli
+norovirus
+listeria
+campylobacter
+staph aureus|staphylococcus
+botulism|clostridium botulinum
+clostridium perfringens
+bacillus cereus|fried rice
+hepatitis a
+shigella
+undercooked chicken
+raw eggs
+spoiled milk|unpasteurized milk
+raw oysters|shellfish
+vibrio
+giardia
+cryptosporidium
+toxoplasma
+trichinella|trichinosis
+cyclospora
+yersinia
+scombroid
+ciguatera
+rotavirus
+paralytic shellfish poisoning
+tapeworm
+mushrooms|poisonous mushrooms
+pufferfish|tetrodotoxin
+deli meat
+sprouts
+leftover rice
+unwashed produce
+anisakis
+brucella
+astrovirus
+sapovirus
+`);
+
+P("Name a urine test or finding on a urinalysis","tests","",`
+urinalysis|ua
+urine culture
+pregnancy test|urine hcg
+drug screen|urine drug test
+glucose|sugar in urine
+protein|proteinuria
+blood|hematuria
+ketones
+leukocyte esterase
+nitrites
+specific gravity
+ph
+white blood cells
+red blood cells
+bacteria
+color
+clarity|cloudy urine
+bilirubin
+urobilinogen
+casts
+crystals
+epithelial cells
+microalbumin|albumin creatinine ratio
+24 hour urine
+urine sodium
+urine osmolality
+urine creatinine
+hyaline casts
+red cell casts
+white cell casts
+granular casts|muddy brown casts
+waxy casts
+fatty casts|oval fat bodies
+calcium oxalate crystals
+uric acid crystals
+struvite crystals
+cystine crystals
+yeast
+urine electrolytes
+bence jones protein
+urine myoglobin
+urine protein electrophoresis
+urine metanephrines
+urine cortisol
+fractional excretion of sodium|fena
+legionella urine antigen
+`);
+
+P("Name a heart test or cardiac study","tests","",`
+ekg|ecg|electrocardiogram
+echocardiogram|echo
+stress test
+cardiac catheterization|heart cath
+troponin
+holter monitor
+coronary angiogram|angiogram
+cardiac mri
+ct coronary angiography
+calcium score
+treadmill test
+nuclear stress test
+bnp
+event monitor
+transesophageal echo|tee
+chest x ray
+blood pressure
+cholesterol|lipid panel
+stress echo
+tilt table test
+electrophysiology study|ep study
+implantable loop recorder
+zio patch
+pulse oximetry
+ck mb
+d dimer
+pet scan
+muga scan
+pharmacologic stress test|dobutamine stress echo|lexiscan
+fractional flow reserve|ffr
+intravascular ultrasound|ivus
+right heart catheterization
+ankle brachial index
+crp|c reactive protein
+lipoprotein a
+apo b
+carotid ultrasound
+signal averaged ecg
+cardiopulmonary exercise test
+`);
+
+P("Name a biopsy or tissue sampling procedure","tests","biopsy",`
+skin biopsy
+breast biopsy
+colonoscopy biopsy
+bone marrow biopsy
+liver biopsy
+needle biopsy
+fine needle aspiration|fna
+punch biopsy
+shave biopsy
+excisional biopsy
+prostate biopsy
+kidney biopsy
+lung biopsy
+lymph node biopsy
+cervical biopsy|colposcopy
+endometrial biopsy
+core needle biopsy
+lumbar puncture|spinal tap
+pap smear
+endoscopy
+bronchoscopy
+thyroid biopsy
+sentinel lymph node biopsy
+incisional biopsy
+stereotactic biopsy
+cone biopsy|leep
+muscle biopsy
+nerve biopsy
+temporal artery biopsy
+brain biopsy
+liquid biopsy
+thoracentesis
+paracentesis
+mediastinoscopy
+endoscopic ultrasound biopsy|eus
+chorionic villus sampling
+amniocentesis
+lip biopsy
+testicular biopsy
+`);
+
+P("Name a sleep disorder","clinical","",`
+insomnia
+sleep apnea|obstructive sleep apnea
+narcolepsy
+restless legs syndrome
+sleepwalking|somnambulism
+night terrors
+nightmares
+snoring
+sleep paralysis
+shift work disorder
+jet lag
+teeth grinding|bruxism
+bedwetting|enuresis
+rem sleep behavior disorder
+central sleep apnea
+hypersomnia|idiopathic hypersomnia
+delayed sleep phase syndrome
+advanced sleep phase syndrome
+sleep talking
+periodic limb movement disorder
+circadian rhythm disorder
+cataplexy
+exploding head syndrome
+kleine levin syndrome
+sleep eating
+sexsomnia
+non 24 hour sleep wake disorder
+fatal familial insomnia
+obesity hypoventilation syndrome
+confusional arousals
+catathrenia
+hypnic jerks
+`);
+
+P("Name a sports injury","clinical","",`
+sprained ankle|ankle sprain
+acl tear
+concussion
+tennis elbow
+torn meniscus
+hamstring strain|pulled hamstring
+shin splints
+rotator cuff tear
+broken bone|fracture
+dislocated shoulder
+groin pull
+achilles tendon rupture
+golfer's elbow
+runner's knee|patellofemoral pain
+stress fracture
+jumper's knee|patellar tendinitis
+it band syndrome
+plantar fasciitis
+turf toe
+mcl tear
+labral tear
+herniated disc
+jammed finger
+mallet finger
+boxer's fracture
+whiplash
+pulled muscle|muscle strain
+bruise|contusion
+high ankle sprain
+hip pointer
+sports hernia
+separated shoulder|ac joint separation
+torn pectoral
+tommy john injury|ucl tear
+compartment syndrome
+osgood schlatter disease
+spondylolysis
+stinger|burner
+skier's thumb
+jersey finger
+pcl tear
+cauliflower ear
+heat stroke
+broken nose
+`);
+
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE part 2 (batch 2026-10-31) ---- */
+P("Name a risk factor for heart disease","care","",`
+smoking
+high blood pressure
+high cholesterol
+diabetes
+obesity|being overweight
+family history|genetics
+lack of exercise|sedentary lifestyle
+poor diet|unhealthy diet
+age|older age
+male sex|being male
+stress
+alcohol
+chronic kidney disease
+sleep apnea
+menopause
+high triglycerides
+low hdl
+metabolic syndrome
+inflammation
+lupus
+rheumatoid arthritis
+preeclampsia history
+gestational diabetes history
+hiv
+psoriasis
+air pollution
+lipoprotein a
+south asian ancestry
+depression
+cocaine
+radiation to the chest
+chemotherapy
+premature menopause
+low socioeconomic status|poverty
+lack of sleep
+vaping
+`);
+
+P("Name a type of shock","clinical","shock",`
+septic
+hypovolemic
+cardiogenic
+anaphylactic
+neurogenic
+obstructive
+hemorrhagic
+distributive
+spinal
+toxic shock syndrome
+insulin shock
+psychogenic|emotional shock
+burn shock
+adrenal crisis
+tension pneumothorax
+cardiac tamponade
+massive pulmonary embolism
+endocrine shock
+mixed shock
+vasoplegic
+`);
+
+P("Name an endocrine disorder","clinical","",`
+diabetes
+type 1 diabetes
+type 2 diabetes
+hypothyroidism
+hyperthyroidism
+graves disease
+hashimoto thyroiditis
+pcos|polycystic ovary syndrome
+cushing syndrome
+addison disease
+osteoporosis
+gestational diabetes
+thyroid nodules
+goiter
+thyroid cancer
+hyperparathyroidism
+hypoparathyroidism
+growth hormone deficiency
+acromegaly
+gigantism
+diabetes insipidus
+siadh
+pheochromocytoma
+hyperaldosteronism|conn syndrome
+prolactinoma
+pituitary tumor
+hypopituitarism
+low testosterone|hypogonadism
+menopause
+precocious puberty
+delayed puberty
+congenital adrenal hyperplasia
+klinefelter syndrome
+turner syndrome
+men1|multiple endocrine neoplasia
+men2
+carcinoid syndrome
+insulinoma
+thyroid storm
+myxedema coma
+sheehan syndrome
+pituitary apoplexy
+empty sella syndrome
+paget disease of bone
+kallmann syndrome
+adrenal insufficiency
+dka|diabetic ketoacidosis
+hyperosmolar hyperglycemic state
+mody
+lada
+`);
+
+P("Name a medical emergency","care","",`
+heart attack
+stroke
+cardiac arrest
+anaphylaxis|severe allergic reaction
+choking
+seizure|status epilepticus
+severe bleeding|hemorrhage
+asthma attack
+overdose
+diabetic ketoacidosis|dka
+low blood sugar|hypoglycemia
+sepsis
+pulmonary embolism
+aortic dissection
+heat stroke
+hypothermia
+drowning
+burns
+head injury
+spinal cord injury
+gunshot wound
+appendicitis
+ectopic pregnancy
+testicular torsion
+ovarian torsion
+tension pneumothorax
+cardiac tamponade
+meningitis
+poisoning
+carbon monoxide poisoning
+suicide attempt
+eclampsia
+placental abruption
+postpartum hemorrhage
+bowel obstruction
+ruptured aaa|aortic aneurysm rupture
+acute angle closure glaucoma
+retinal detachment
+epiglottitis
+compartment syndrome
+cauda equina syndrome
+thyroid storm
+adrenal crisis
+hyperkalemia
+malignant hyperthermia
+neuroleptic malignant syndrome
+serotonin syndrome
+`);
+
+P("Name a rare disease (a true zebra diagnosis)","clinical","",`
+als|lou gehrig disease
+huntington disease
+cystic fibrosis
+progeria
+sarcoidosis
+ehlers danlos syndrome
+marfan syndrome
+porphyria
+amyloidosis
+fabry disease
+gaucher disease
+pompe disease
+tay sachs disease
+wilson disease
+hemochromatosis
+myasthenia gravis
+guillain barre syndrome
+pheochromocytoma
+addison disease
+acromegaly
+kawasaki disease
+takayasu arteritis
+behcet disease
+whipple disease
+castleman disease
+erdheim chester disease
+pnh|paroxysmal nocturnal hemoglobinuria
+ttp|thrombotic thrombocytopenic purpura
+fibrodysplasia ossificans progressiva
+creutzfeldt jakob disease|prion disease
+kuru
+fatal familial insomnia
+stiff person syndrome
+alice in wonderland syndrome
+foreign accent syndrome
+alien hand syndrome
+cotard delusion
+capgras delusion
+moyamoya disease
+lemierre syndrome
+osler weber rendu|hereditary hemorrhagic telangiectasia
+von hippel lindau
+neurofibromatosis
+tuberous sclerosis
+sturge weber syndrome
+niemann pick disease
+krabbe disease
+batten disease
+maple syrup urine disease
+alkaptonuria
+lesch nyhan syndrome
+prader willi syndrome
+angelman syndrome
+rett syndrome
+williams syndrome
+cri du chat
+mastocytosis
+hemophagocytic lymphohistiocytosis|hlh
+dercum disease
+riedel thyroiditis
+`);
+
+/* ---- NEW STANDARD DAILY PROMPTS: NURSING (batch 2026-10-31) ---- */
+P("Name something included in a nursing handoff report","nursing","",`
+patient name
+diagnosis|reason for admission
+vital signs
+allergies
+code status
+medications
+iv access|iv lines
+pain level
+fall risk
+labs|lab results
+isolation status
+diet|npo status
+mobility|activity level
+recent changes
+plan of care
+pending tests
+intake and output|i and o
+skin integrity|wounds
+mental status|orientation
+age
+doctor|attending
+history|past medical history
+oxygen requirement
+drains|tubes
+last bowel movement
+blood sugar
+safety concerns
+family|visitors
+discharge plan
+lines and drains
+restraints
+next medication due
+consults
+abnormal findings
+sbar
+pain medication last given
+blood products
+telemetry
+foley catheter
+procedures done
+`);
+
+P("Name a part of a head-to-toe assessment","nursing","",`
+vital signs
+level of consciousness|orientation
+lung sounds
+heart sounds
+bowel sounds
+skin
+pupils
+pain
+pulses
+capillary refill
+edema|swelling
+mental status
+gait
+grip strength
+range of motion
+mucous membranes
+abdomen
+head and neck
+eyes
+ears
+nose
+mouth|oral cavity
+neurological assessment
+respiratory effort
+skin turgor
+wound assessment
+iv site
+urinary output
+last bowel movement
+reflexes
+sensation
+speech
+swallowing
+peripheral vascular
+genitourinary
+musculoskeletal
+glasgow coma scale|gcs
+jugular vein distension|jvd
+nail beds
+hair
+lymph nodes
+thyroid
+breath odor
+`);
+
+P("Name a lung or breath sound","nursing","",`
+wheezing
+crackles|rales
+rhonchi
+stridor
+clear|normal breath sounds
+diminished breath sounds
+absent breath sounds
+pleural friction rub
+vesicular
+bronchial
+bronchovesicular
+coarse crackles
+fine crackles
+expiratory wheeze
+inspiratory wheeze
+gurgling
+death rattle
+egophony
+whispered pectoriloquy
+bronchophony
+tubular breath sounds
+squawk
+hamman sign|mediastinal crunch
+tracheal breath sounds
+grunting
+snoring|stertor
+`);
+
+P("Name an injection type or injection site","nursing","",`
+intramuscular|im
+subcutaneous|subq
+intravenous|iv
+intradermal|id
+deltoid
+ventrogluteal
+dorsogluteal
+vastus lateralis
+abdomen
+thigh
+upper arm
+buttocks
+rectus femoris
+z track
+insulin injection
+tuberculin skin test|ppd
+epidural
+intra articular|joint injection
+intrathecal
+intraosseous|io
+iv push
+intracardiac
+intravitreal
+intracavernosal
+back of arm
+flank
+`);
+
+P("Name a nonmedication comfort measure for pain","nursing","",`
+ice|cold pack
+heat|heating pad
+repositioning
+massage
+distraction
+music
+deep breathing
+relaxation techniques
+guided imagery
+elevation
+rest
+tens unit
+meditation
+pillows|splinting
+warm bath
+acupuncture
+prayer
+aromatherapy
+therapeutic touch
+humor
+dim lights|quiet room
+hypnosis
+biofeedback
+exercise|physical therapy
+compression
+skin to skin|kangaroo care
+sucrose for infants|sucrose
+swaddling
+pacifier
+virtual reality
+pet therapy
+art therapy
+chiropractic care
+yoga
+`);
+
+P("Name a sign that a patient is close to death","nursing","",`
+not eating|decreased appetite
+not drinking
+sleeping more
+mottling|mottled skin
+cheyne stokes breathing
+death rattle
+apnea|pauses in breathing
+cold hands and feet|cool extremities
+low blood pressure
+decreased urine output
+confusion
+restlessness|terminal agitation
+weak pulse
+unresponsive
+withdrawal from others
+glassy eyes
+fever
+incontinence
+cyanosis|bluish lips
+seeing deceased relatives
+surge of energy|rally
+jaw dropping|open mouth breathing
+dark urine
+fixed pupils
+irregular breathing
+agonal breathing
+picking at sheets
+`);
+
+P("Name a defense mechanism","nursing","",`
+denial
+repression
+projection
+displacement
+rationalization
+regression
+sublimation
+reaction formation
+intellectualization
+suppression
+humor
+compensation
+identification
+splitting
+undoing
+dissociation
+conversion
+acting out
+introjection
+altruism
+avoidance
+passive aggression
+fantasy
+isolation of affect
+somatization
+idealization
+devaluation
+`);
+
+P("Name a therapeutic communication technique","nursing","",`
+active listening
+open ended questions
+silence
+reflecting
+restating|paraphrasing
+clarifying
+summarizing
+offering self
+giving recognition
+broad openings
+focusing
+exploring
+validating
+empathy
+presenting reality
+voicing doubt
+making observations
+encouraging comparison
+sharing perceptions
+seeking clarification
+general leads
+placing event in time or sequence
+encouraging description of perceptions
+translating into feelings
+suggesting collaboration
+touch
+eye contact
+nodding
+teach back
+`);
+
+
+P("Name a risk factor for falls","nursing","",`
+old age
+history of falls
+dizziness
+medications
+sedatives
+weakness
+poor vision
+dementia|confusion
+gait problems
+using a walker or cane
+incontinence|urgency
+low blood pressure|orthostatic hypotension
+wet floors
+poor lighting
+clutter
+rugs
+parkinson disease
+stroke
+arthritis
+alcohol
+improper footwear|slippers
+iv poles|tubing
+being in an unfamiliar place
+osteoporosis
+diuretics
+opioids
+antihypertensives
+benzodiazepines
+neuropathy
+depression
+fear of falling
+low blood sugar
+anemia
+pets
+stairs
+bed alarms off
+delirium
+inner ear problems
+vitamin d deficiency
+`);
+
+P("Name an oxygen delivery or airway device","nursing","",`
+nasal cannula
+non rebreather mask
+simple face mask
+venturi mask
+bag valve mask|ambu bag
+ventilator
+cpap
+bipap
+endotracheal tube
+tracheostomy
+high flow nasal cannula
+oral airway|oropharyngeal airway
+nasal airway|nasopharyngeal airway
+partial rebreather mask
+face tent
+trach collar
+t piece
+laryngeal mask airway|lma
+oxygen tank
+oxygen concentrator
+incentive spirometer
+nebulizer
+king airway
+combitube
+oxygen hood
+cricothyrotomy
+bougie
+video laryngoscope
+`);
+
+P("Name a nursing ethical principle","nursing","",`
+autonomy
+beneficence
+nonmaleficence|do no harm
+justice
+veracity|honesty
+fidelity
+confidentiality
+accountability
+advocacy
+respect
+dignity
+informed consent
+privacy
+integrity
+caring
+compassion
+paternalism
+utilitarianism
+duty
+altruism
+`);
+
+P("Name a nursing degree, license or credential","nursing","",`
+rn
+bsn
+lpn|lvn
+cna
+adn
+msn
+np
+dnp
+phd
+crna
+cnm
+cns|clinical nurse specialist
+fnp
+ccrn
+cen
+ocn
+cpn
+rnc
+pmhnp
+agacnp
+cnl|clinical nurse leader
+cnor
+cwocn
+ibclc
+cpan
+tncc
+acls
+pals
+bls
+nrp
+ccm
+cdces
+rn bc
+cnml
+cmsrn
+`);
+
+P("Name a sign of opioid overdose","nursing","",`
+pinpoint pupils
+slow breathing
+unresponsive
+blue lips|cyanosis
+not breathing
+snoring|gurgling
+limp body
+pale skin
+low blood pressure
+slow heart rate
+vomiting
+loss of consciousness
+clammy skin
+low oxygen
+confusion
+drowsiness
+choking sounds
+cold skin
+needle marks|track marks
+`);
+
+P("Name a dementia care strategy","nursing","",`
+routine
+redirection
+reorientation
+simple instructions
+calm voice
+reduce noise
+memory aids|labels
+validation therapy
+music therapy
+safety measures
+supervise meals
+night light
+avoid arguing
+reminiscence therapy
+pet therapy
+exercise
+wandering alarms|door alarms
+id bracelet
+limit choices
+familiar objects
+caregiver support
+respite care
+sundowning precautions
+schedule toileting
+clocks and calendars
+pain assessment
+hearing aids and glasses
+`);
+
+P("Name a lab value nurses check before giving a medication","nursing","",`
+potassium
+inr
+blood sugar|glucose
+digoxin level
+heart rate|apical pulse
+blood pressure
+ptt|aptt
+platelets
+creatinine
+vancomycin trough
+lithium level
+magnesium
+sodium
+hemoglobin
+white blood cell count|wbc
+absolute neutrophil count|anc
+liver enzymes
+gfr
+bun
+calcium
+tsh
+phenytoin level|dilantin level
+gentamicin level
+anti xa
+respiratory rate
+oxygen saturation
+pregnancy test
+`);
+
+P("Name a type of wound","nursing","wound",`
+pressure injury|pressure ulcer|bed sore
+laceration|cut
+abrasion|scrape
+burn
+surgical wound|incision
+puncture
+diabetic foot ulcer
+venous ulcer
+arterial ulcer
+bite
+skin tear
+avulsion
+gunshot
+stab
+dehiscence
+evisceration
+blister
+contusion|bruise
+crush injury
+amputation
+radiation burn
+frostbite
+moisture associated skin damage
+incontinence associated dermatitis
+fistula
+`);
+
+/* ---- NEW STANDARD DAILY PROMPTS: NURSING part 2 (batch 2026-10-31) ---- */
+P("Name a disease that needs airborne, droplet or contact precautions","nursing","",`
+tuberculosis|tb
+measles
+chickenpox|varicella
+covid|covid 19
+influenza|flu
+mrsa
+c diff|clostridioides difficile
+pertussis|whooping cough
+mumps
+rubella
+meningococcal meningitis|bacterial meningitis
+rsv
+vre
+scabies
+lice
+norovirus
+shingles|disseminated zoster
+strep throat|group a strep
+diphtheria
+plague|pneumonic plague
+adenovirus
+esbl
+cre
+smallpox
+mycoplasma pneumonia
+rotavirus
+hepatitis a
+impetigo
+ebola
+sars
+mers
+mpox|monkeypox
+candida auris
+hib|haemophilus influenzae
+parvovirus b19
+conjunctivitis|pink eye
+`);
+
+P("Name a stage of labor or labor and delivery term","nursing","",`
+contractions
+dilation
+effacement
+crowning
+active labor
+early labor|latent phase
+transition
+pushing|second stage
+delivery of placenta|third stage
+fourth stage|recovery
+water breaking|rupture of membranes
+station
+epidural
+episiotomy
+braxton hicks
+bloody show
+mucus plug
+fetal monitoring
+c section|cesarean
+induction
+pitocin|oxytocin
+vbac
+breech
+vertex
+engagement|lightening
+cervical ripening
+amniotomy
+nuchal cord
+shoulder dystocia
+fundal height
+apgar score
+cord clamping
+fetal heart rate
+leopold maneuvers
+ferguson reflex
+lochia
+precipitous labor
+prolonged labor|labor dystocia
+cardinal movements
+`);
+
+P("Name a fetal heart rate pattern or monitoring term","nursing","",`
+baseline|baseline heart rate
+early deceleration
+late deceleration
+variable deceleration
+acceleration
+variability
+moderate variability
+minimal variability
+absent variability
+marked variability
+tachycardia|fetal tachycardia
+bradycardia|fetal bradycardia
+prolonged deceleration
+sinusoidal pattern
+reactive non stress test|reactive nst
+non stress test|nst
+contraction stress test
+category 1
+category 2
+category 3
+tocodynamometer|toco
+fetal scalp electrode
+intrauterine pressure catheter|iupc
+uterine tachysystole
+veal chop
+montevideo units
+biophysical profile
+saltatory pattern
+`);
+
+P("Name a long-term complication of diabetes","nursing","",`
+neuropathy|nerve damage
+kidney disease|nephropathy|kidney failure
+retinopathy|vision loss|blindness
+heart disease
+stroke
+amputation
+foot ulcers
+gastroparesis
+erectile dysfunction
+poor wound healing
+infections
+cataracts
+glaucoma
+peripheral artery disease
+high blood pressure
+gum disease
+hearing loss
+skin conditions|acanthosis nigricans
+charcot foot
+dementia
+depression
+fatty liver
+autonomic neuropathy
+bladder problems|neurogenic bladder
+frozen shoulder
+diabetic macular edema
+necrobiosis lipoidica
+silent heart attack
+`);
+
+P("Name a discharge teaching topic","nursing","",`
+medications
+follow up appointments
+wound care
+diet
+activity restrictions
+warning signs|when to call the doctor
+pain management
+infection signs
+smoking cessation
+fall prevention
+home safety
+driving restrictions
+bathing|showering
+lifting restrictions
+blood sugar monitoring
+daily weights
+fluid restriction
+incision care
+drain care
+catheter care
+inhaler technique
+insulin injection
+anticoagulant safety|bleeding precautions
+sleep
+exercise
+stress management
+breastfeeding
+car seat safety
+safe sleep
+return to work
+sexual activity
+alcohol use
+`);
+
+P("Name a mobility aid or assistive device","nursing","",`
+wheelchair
+walker
+cane
+crutches
+gait belt
+mechanical lift|hoyer lift
+rollator
+grab bars
+shower chair
+raised toilet seat
+sliding board|transfer board
+scooter|mobility scooter
+quad cane
+knee scooter
+reacher|grabber
+sock aid
+long handled sponge
+trapeze bar
+bedside commode
+prosthesis
+brace
+splint
+sit to stand lift
+slide sheet
+hospital bed
+power wheelchair
+stair lift
+hemi walker
+platform walker
+bath bench
+`);
+
+P("Name a sign of shock","nursing","",`
+low blood pressure|hypotension
+fast heart rate|tachycardia
+cold clammy skin
+pale skin
+fast breathing
+confusion
+weak pulse|thready pulse
+low urine output
+dizziness
+anxiety|restlessness
+thirst
+sweating
+cyanosis
+nausea
+fainting
+delayed capillary refill
+mottled skin
+lactic acidosis|high lactate
+altered mental status
+fever
+warm flushed skin
+narrow pulse pressure
+`);
+
+P("Name a postpartum assessment","nursing","",`
+fundus|fundal height
+lochia
+breasts
+bladder
+bowel
+episiotomy|perineum
+pain
+vital signs
+emotional status|mood
+homans sign|legs
+bonding
+incision
+uterine tone|fundal firmness
+blood loss
+edema
+hemorrhoids
+breastfeeding
+rh status|rhogam
+rubella status
+postpartum depression screening
+deep vein thrombosis|dvt
+sleep
+`);
+
+P("Name an item on a crash cart","nursing","",`
+defibrillator|aed
+epinephrine
+amiodarone
+bag valve mask|ambu bag
+oxygen
+suction
+intubation supplies
+laryngoscope
+endotracheal tube
+iv supplies
+atropine
+adenosine
+naloxone|narcan
+backboard|cpr board
+lidocaine
+sodium bicarbonate
+calcium chloride
+dextrose|d50
+magnesium sulfate
+gloves
+syringes
+flush
+oral airways
+pads|defib pads
+crash cart checklist
+vasopressin
+dopamine
+normal saline
+pulse oximeter
+stethoscope
+blood pressure cuff
+io drill
+glucagon
+procainamide
+`);
+
+P("Name a common pediatric hospital diagnosis","nursing","",`
+asthma
+bronchiolitis
+rsv
+pneumonia
+dehydration
+gastroenteritis
+croup
+fever
+seizures
+appendicitis
+diabetic ketoacidosis|dka
+urinary tract infection
+broken bone|fracture
+cellulitis
+sickle cell crisis
+cancer|leukemia
+kawasaki disease
+failure to thrive
+jaundice
+head injury
+flu
+cystic fibrosis
+mental health crisis
+ingestion|poisoning
+abuse
+intussusception
+pyloric stenosis
+meningitis
+osteomyelitis
+mis c
+`);
+
+
+
+
+P("Name a task an RN can delegate to a nursing assistant","nursing","",`
+vital signs
+bathing
+feeding
+ambulating|walking patients
+turning and repositioning
+toileting
+bed making
+intake and output
+weighing patients
+oral care
+transferring patients
+stocking supplies
+emptying foley bag
+fingerstick blood sugar
+collecting specimens
+range of motion exercises
+applying ted hose|compression stockings
+skin care
+hair care
+shaving
+answering call lights
+postmortem care
+transporting patients
+sitter|one to one observation
+`);
+
+P("Name a patient right","nursing","",`
+privacy
+informed consent
+refuse treatment
+confidentiality|hipaa
+respect|dignity
+access to medical records
+interpreter|language services
+advance directive
+choose a doctor
+second opinion
+pain management
+safe environment
+know costs|billing information
+file a complaint|grievance
+visitors
+religious and cultural beliefs
+participate in care decisions
+leave against medical advice|ama
+freedom from restraints
+emergency care|emtala
+know caregivers' names
+end of life care
+`);
+
+P("Name a sign of a urinary tract infection","nursing","",`
+burning with urination|painful urination
+frequent urination
+urgency
+cloudy urine
+foul smelling urine
+blood in urine
+pelvic pain
+fever
+lower abdominal pain
+confusion in elderly|delirium
+back pain|flank pain
+chills
+nausea
+incontinence
+bedwetting
+positive nitrites
+leukocytes in urine
+bacteria in urine
+fatigue
+fussiness in infants
+`);
+
+/* ---- NEW STANDARD DAILY PROMPTS: PHARMACY (batch 2026-10-31) ---- */
+P("Name a top-selling brand-name drug","pharm","",`
+lipitor
+ozempic
+humira
+eliquis
+keytruda
+xarelto
+synthroid
+januvia
+viagra
+zoloft
+nexium
+advair
+crestor
+plavix
+jardiance
+trulicity
+mounjaro
+wegovy
+farxiga
+entresto
+dupixent
+stelara
+enbrel
+lantus
+symbicort
+singulair
+lexapro
+xanax
+adderall
+prozac
+lyrica
+cialis
+norvasc
+zocor
+lasix
+coumadin
+celebrex
+abilify
+seroquel
+spiriva
+ventolin|proair
+flonase
+zyrtec
+claritin
+tylenol
+advil
+biktarvy
+revlimid
+opdivo
+skyrizi
+rinvoq
+zepbound
+trikafta
+paxlovid
+prevnar
+shingrix
+gardasil
+`);
+
+P("Name a drug used to treat gout","pharm","",`
+allopurinol|zyloprim
+colchicine|colcrys
+indomethacin
+febuxostat|uloric
+prednisone
+ibuprofen
+naproxen
+probenecid
+pegloticase|krystexxa
+methylprednisolone
+triamcinolone injection
+lesinurad
+anakinra
+canakinumab
+celecoxib
+losartan
+fenofibrate
+sulfinpyrazone
+rasburicase
+`);
+
+P("Name a drug for thyroid disease","pharm","",`
+levothyroxine|synthroid|tirosint|unithroid|levoxyl|euthyrox
+methimazole|tapazole
+propylthiouracil|ptu
+liothyronine|cytomel
+armour thyroid|desiccated thyroid
+radioactive iodine
+propranolol
+potassium iodide|sski
+liotrix
+lugol solution
+atenolol
+dexamethasone
+teprotumumab|tepezza
+selenium
+cholestyramine
+`);
+
+P("Name a drug for osteoporosis","pharm","",`
+alendronate|fosamax
+calcium
+vitamin d
+risedronate|actonel
+ibandronate|boniva
+zoledronic acid|reclast
+denosumab|prolia
+teriparatide|forteo
+raloxifene|evista
+estrogen|hormone replacement therapy
+abaloparatide|tymlos
+romosozumab|evenity
+calcitonin
+bazedoxifene
+conjugated estrogens
+etidronate
+`);
+
+P("Name a drug for Parkinson disease","pharm","",`
+carbidopa levodopa|sinemet|levodopa|rytary|duopa|inbrija
+pramipexole|mirapex
+ropinirole|requip
+rasagiline|azilect
+selegiline
+amantadine
+entacapone
+benztropine|cogentin
+trihexyphenidyl
+rotigotine|neupro
+safinamide
+apomorphine
+istradefylline
+opicapone
+tolcapone
+pimavanserin
+bromocriptine
+cabergoline
+`);
+
+P("Name a drug for Alzheimer disease or dementia","pharm","",`
+donepezil|aricept
+memantine|namenda
+rivastigmine|exelon
+galantamine|razadyne
+lecanemab|leqembi
+aducanumab|aduhelm
+donanemab|kisunla
+namzaric
+suvorexant|belsomra
+brexpiprazole|rexulti
+`);
+
+P("Name a drug for BPH, overactive bladder or erectile dysfunction","pharm","",`
+tamsulosin|flomax
+sildenafil|viagra
+tadalafil|cialis
+finasteride|proscar
+oxybutynin|ditropan
+dutasteride|avodart
+tolterodine|detrol
+mirabegron|myrbetriq
+solifenacin|vesicare
+alfuzosin|uroxatral
+doxazosin|cardura
+terazosin|hytrin
+vardenafil|levitra
+avanafil|stendra
+silodosin|rapaflo
+trospium
+darifenacin
+fesoterodine|toviaz
+vibegron|gemtesa
+jalyn
+alprostadil
+desmopressin
+botox
+`);
+
+P("Name a drug for smoking cessation or addiction treatment","pharm","",`
+nicotine patch
+nicotine gum
+varenicline|chantix
+bupropion|zyban|wellbutrin
+methadone
+buprenorphine|sublocade|brixadi|probuphine
+suboxone|buprenorphine naloxone
+naltrexone|vivitrol
+naloxone|narcan
+nicotine lozenge
+nicotine inhaler
+nicotine nasal spray
+disulfiram|antabuse
+acamprosate
+lofexidine|lucemyra
+clonidine
+topiramate
+gabapentin
+cytisine
+baclofen
+`);
+
+P("Name a weight-loss drug","pharm","",`
+semaglutide|ozempic|wegovy
+tirzepatide|mounjaro|zepbound
+phentermine|adipex
+liraglutide|saxenda
+orlistat|alli|xenical
+contrave|naltrexone bupropion
+qsymia|phentermine topiramate
+metformin
+setmelanotide|imcivree
+diethylpropion
+phendimetrazine
+benzphetamine
+plenity
+topiramate
+retatrutide
+orforglipron
+`);
+
+P("Name a pharmacokinetics or pharmacology term","pharm","",`
+half life
+absorption
+distribution
+metabolism
+excretion|elimination
+bioavailability
+first pass effect
+clearance
+volume of distribution
+steady state
+loading dose
+maintenance dose
+agonist
+antagonist
+therapeutic index
+peak
+trough
+protein binding
+prodrug
+tolerance
+potency
+efficacy
+area under the curve|auc
+zero order kinetics
+first order kinetics
+enzyme induction
+enzyme inhibition
+partial agonist
+inverse agonist
+receptor
+affinity
+dose response curve
+ed50
+ld50
+cmax
+tmax
+pharmacogenomics
+synergy
+tachyphylaxis
+bioequivalence
+`);
+
+P("Name a drug that interacts with warfarin","pharm","",`
+aspirin
+ibuprofen|nsaids
+amiodarone
+fluconazole
+metronidazole|flagyl
+bactrim|trimethoprim sulfamethoxazole
+ciprofloxacin
+vitamin k
+rifampin
+clopidogrel
+acetaminophen
+fish oil
+garlic
+ginkgo
+st john's wort
+carbamazepine
+phenytoin
+levofloxacin
+erythromycin
+clarithromycin
+omeprazole
+simvastatin
+fenofibrate
+sertraline
+fluoxetine
+alcohol
+green leafy vegetables
+cranberry juice
+naproxen
+tamoxifen
+propafenone
+allopurinol
+levothyroxine
+phenobarbital
+ginseng
+dong quai
+voriconazole
+capecitabine
+`);
+
+P("Name a drug for rheumatoid arthritis","pharm","",`
+methotrexate
+prednisone
+humira|adalimumab
+enbrel|etanercept
+hydroxychloroquine|plaquenil
+sulfasalazine
+leflunomide|arava
+infliximab|remicade
+tofacitinib|xeljanz
+upadacitinib|rinvoq
+baricitinib|olumiant
+rituximab|rituxan
+abatacept|orencia
+tocilizumab|actemra
+sarilumab|kevzara
+certolizumab|cimzia
+golimumab|simponi
+anakinra|kineret
+naproxen
+ibuprofen
+celecoxib
+azathioprine
+cyclosporine
+gold|auranofin
+minocycline
+`);
+
+P("Name a cough or cold product","pharm","",`
+nyquil
+dayquil
+robitussin
+mucinex|guaifenesin
+dextromethorphan
+sudafed|pseudoephedrine
+benadryl|diphenhydramine
+tylenol cold
+cough drops
+vicks vaporub
+zicam
+theraflu
+delsym
+phenylephrine
+saline nasal spray
+afrin|oxymetazoline
+alka seltzer plus
+coricidin
+emergen c
+honey
+zinc lozenges
+chlorpheniramine
+benzonatate|tessalon
+codeine cough syrup
+promethazine dm
+hycodan|hydrocodone cough syrup
+humidifier
+neti pot
+claritin d
+zyrtec d
+airborne
+`);
+
+P("Name an antiarrhythmic drug","pharm","",`
+amiodarone
+metoprolol
+diltiazem
+digoxin
+adenosine
+lidocaine
+sotalol
+flecainide
+propafenone
+dofetilide|tikosyn
+dronedarone|multaq
+verapamil
+procainamide
+quinidine
+esmolol
+atropine
+ibutilide
+mexiletine
+disopyramide
+magnesium sulfate
+propranolol
+carvedilol
+`);
+
+P("Name a vasopressor or ICU drip","pharm","",`
+norepinephrine|levophed
+epinephrine
+vasopressin
+dopamine
+dobutamine
+phenylephrine
+propofol
+fentanyl
+midazolam
+dexmedetomidine|precedex
+heparin drip
+insulin drip
+nitroglycerin drip
+nicardipine
+amiodarone drip
+milrinone
+esmolol
+ketamine
+labetalol drip
+diltiazem drip
+nitroprusside
+clevidipine
+angiotensin ii|giapreza
+cisatracurium
+rocuronium
+lorazepam drip
+hydromorphone drip
+`);
+
+/* ---- NEW STANDARD DAILY PROMPTS: PHARMACY part 2 (batch 2026-10-31) ---- */
+P("Name a hormone therapy or sex hormone drug","pharm","",`
+estrogen|estradiol
+testosterone
+progesterone
+premarin|conjugated estrogens
+medroxyprogesterone|provera|depo provera
+levonorgestrel
+norethindrone
+tamoxifen
+letrozole|femara
+anastrozole|arimidex
+leuprolide|lupron
+clomiphene|clomid
+finasteride
+spironolactone
+megestrol
+raloxifene
+exemestane
+goserelin|zoladex
+degarelix
+enzalutamide
+abiraterone
+bicalutamide
+oxandrolone
+nandrolone
+danazol
+ulipristal|ella
+mifepristone
+dienogest
+elagolix|orilissa
+relugolix
+ospemifene
+prasterone
+hcg|human chorionic gonadotropin
+menotropins
+`);
+
+P("Name a drug for acne","pharm","",`
+benzoyl peroxide
+salicylic acid
+tretinoin|retin a
+adapalene|differin
+isotretinoin|accutane
+doxycycline
+minocycline
+clindamycin
+spironolactone
+birth control pills
+azelaic acid
+tazarotene
+erythromycin
+dapsone gel|aczone
+sulfur
+clascoterone|winlevi
+sarecycline|seysara
+trifarotene
+epiduo
+benzaclin
+duac
+onexton
+tea tree oil
+niacinamide
+`);
+
+P("Name a drug or supplement that treats anemia","pharm","",`
+iron|ferrous sulfate
+vitamin b12|cyanocobalamin
+folic acid|folate
+epoetin|epogen|procrit
+darbepoetin|aranesp
+iron sucrose|venofer
+ferric carboxymaltose|injectafer
+ferrous gluconate
+ferrous fumarate
+iron dextran
+ferumoxytol|feraheme
+blood transfusion
+hydroxyurea
+luspatercept|reblozyl
+vitamin c
+prednisone
+eculizumab
+voxelotor
+crizanlizumab
+daprodustat
+deferoxamine
+deferasirox
+`);
+
+P("Name a drug used in anesthesia or surgery","pharm","",`
+propofol
+lidocaine
+fentanyl
+midazolam|versed
+ketamine
+sevoflurane
+succinylcholine
+rocuronium
+nitrous oxide
+etomidate
+desflurane
+isoflurane
+vecuronium
+bupivacaine
+ondansetron
+dexamethasone
+cefazolin|ancef
+neostigmine
+sugammadex|bridion
+glycopyrrolate
+morphine
+hydromorphone
+remifentanil
+dexmedetomidine
+phenylephrine
+ephedrine
+atropine
+cisatracurium
+methohexital
+ropivacaine
+dantrolene
+scopolamine patch
+tranexamic acid|txa
+heparin
+protamine
+`);
+
+P("Name a pharmacy law or regulation","pharm","",`
+controlled substances act
+hipaa
+dea registration
+schedule ii
+prescription monitoring program|pdmp
+obra 90
+fda
+durham humphrey amendment
+kefauver harris amendment
+food drug and cosmetic act
+combat methamphetamine epidemic act
+poison prevention packaging act|childproof caps
+drug supply chain security act|dscsa
+orange book
+purple book
+hatch waxman act
+dshea
+medicare part d
+340b program
+usp 797
+usp 800
+usp 795
+ipledge
+rems
+dea form 222
+dea form 106
+board of pharmacy
+partial fill rules
+transfer rules
+patient counseling requirement
+ryan haight act
+`);
+
+P("Name a compounding term or piece of compounding equipment","pharm","",`
+mortar and pestle
+spatula
+graduated cylinder
+balance|scale
+ointment slab
+laminar flow hood
+beyond use date
+levigation
+trituration
+geometric dilution
+sterile compounding
+nonsterile compounding
+clean room
+isolator|biological safety cabinet
+suppository mold
+capsule machine
+syringe filter
+ampule
+vial
+hazardous drug
+base
+excipient
+suspension
+emulsion
+ointment
+cream
+troche
+lozenge
+gelatin capsule
+garbing
+media fill test
+anteroom
+buffer room
+iso class 5
+`);
+
+P("Name a drug pulled from the market","pharm","",`
+vioxx|rofecoxib
+thalidomide
+fen phen|fenfluramine
+zantac|ranitidine
+darvon|propoxyphene
+belviq|lorcaserin
+meridia|sibutramine
+bextra|valdecoxib
+baycol|cerivastatin
+seldane|terfenadine
+propulsid|cisapride
+zelnorm|tegaserod
+redux|dexfenfluramine
+raptiva|efalizumab
+trasylol|aprotinin
+xigris
+phenylpropanolamine|ppa
+ephedra
+quaalude|methaqualone
+lotronex|alosetron
+rezulin|troglitazone
+pemoline|cylert
+trovan|trovafloxacin
+duract|bromfenac
+opana er
+makena
+`);
+
+P("Name a drug that comes from a plant or natural source","pharm","",`
+aspirin|willow bark
+morphine|opium poppy
+digoxin|foxglove
+quinine|cinchona bark
+penicillin|mold
+paclitaxel|taxol|yew tree
+codeine
+caffeine
+nicotine
+atropine|belladonna
+vincristine|periwinkle
+artemisinin|sweet wormwood
+cocaine|coca leaf
+ephedrine|ephedra
+metformin|french lilac
+colchicine|autumn crocus
+warfarin|sweet clover
+heparin|pig intestine
+insulin
+premarin|horse urine
+exenatide|gila monster
+botox|bacteria
+cyclosporine|fungus
+lovastatin|red yeast rice
+scopolamine
+physostigmine|calabar bean
+tubocurarine|curare
+reserpine|snakeroot
+galantamine|snowdrop
+capsaicin|chili peppers
+menthol
+senna
+cannabidiol|cannabis
+psilocybin|mushrooms
+ziconotide|cone snail
+captopril|viper venom
+streptomycin|soil bacteria
+etoposide|mayapple
+`);
+
+P("Name an antiparasitic drug","pharm","",`
+ivermectin
+metronidazole
+albendazole
+mebendazole
+praziquantel
+chloroquine
+hydroxychloroquine
+permethrin
+pyrantel pamoate
+nitazoxanide
+tinidazole
+artemether lumefantrine|coartem
+atovaquone proguanil|malarone
+mefloquine
+primaquine
+tafenoquine
+quinine
+pyrimethamine
+paromomycin
+miltefosine
+benznidazole
+nifurtimox
+diethylcarbamazine
+spinosad
+malathion
+lindane
+`);
+
+P("Name a medication that comes as a nasal spray","pharm","",`
+fluticasone|flonase
+afrin|oxymetazoline
+naloxone|narcan
+saline
+mometasone|nasonex
+budesonide|rhinocort
+triamcinolone|nasacort
+azelastine|astelin
+sumatriptan nasal|imitrex nasal
+zolmitriptan nasal
+ipratropium nasal|atrovent nasal
+cromolyn|nasalcrom
+olopatadine nasal|patanase
+esketamine|spravato
+desmopressin|ddavp
+calcitonin nasal|miacalcin
+fluticasone azelastine|dymista
+beclomethasone nasal|qnasl
+ciclesonide|omnaris
+flumist|nasal flu vaccine
+midazolam nasal|nayzilam
+diazepam nasal|valtoco
+butorphanol nasal
+dihydroergotamine nasal|migranal
+zavegepant|zavzpret
+neffy|epinephrine nasal
+phenylephrine nasal|neo synephrine
+mupirocin nasal
+nicotine nasal spray
+ryaltris
+`);
+
+P("Name a drug best taken on an empty stomach","pharm","",`
+levothyroxine|synthroid
+alendronate|fosamax
+risedronate
+ibandronate
+omeprazole|ppis
+pantoprazole
+esomeprazole
+lansoprazole
+ampicillin
+penicillin v
+dicloxacillin
+tetracycline
+rifampin
+isoniazid
+didanosine
+sucralfate
+captopril
+zafirlukast
+iron supplements
+nilotinib
+abiraterone
+lapatinib
+erlotinib
+pazopanib
+mercaptopurine
+efavirenz
+`);
+
+P("Name a medication that comes as a skin patch","pharm","",`
+nicotine patch
+fentanyl patch|duragesic
+lidocaine patch|lidoderm
+birth control patch|xulane|ortho evra
+scopolamine patch|transderm scop
+nitroglycerin patch
+estrogen patch|estradiol patch|climara|vivelle
+testosterone patch|androderm
+clonidine patch|catapres tts
+buprenorphine patch|butrans
+rivastigmine patch|exelon patch
+rotigotine patch|neupro
+methylphenidate patch|daytrana
+selegiline patch|emsam
+oxybutynin patch|oxytrol
+capsaicin patch|qutenza
+granisetron patch|sancuso
+diclofenac patch|flector
+twirla
+dextroamphetamine patch|xelstrym
+asenapine patch|secuado
+salonpas|menthol patch
+`);
+
+P("Name a drug patients inject themselves at home","pharm","",`
+insulin
+epipen|epinephrine
+ozempic|semaglutide|wegovy
+humira|adalimumab
+enoxaparin|lovenox
+trulicity|dulaglutide
+mounjaro|tirzepatide
+enbrel|etanercept
+dupixent|dupilumab
+testosterone
+glucagon
+methotrexate injection
+sumatriptan injection|imitrex statdose
+heparin
+fertility drugs|follistim|gonal f
+teriparatide|forteo
+aimovig|erenumab
+emgality
+ajovy
+repatha|evolocumab
+praluent|alirocumab
+cosentyx|secukinumab
+taltz|ixekizumab
+skyrizi
+stelara
+copaxone|glatiramer
+kesimpta
+interferon
+neupogen|filgrastim
+neulasta|pegfilgrastim
+b12 injection
+depo subq provera
+fondaparinux|arixtra
+octreotide
+somatropin|growth hormone
+apomorphine
+naloxone injection|zimhi
+`);
+
+P("Name a drug that commonly causes drowsiness","pharm","",`
+diphenhydramine|benadryl
+benzodiazepines|xanax|valium|ativan
+opioids|oxycodone|hydrocodone
+zolpidem|ambien
+trazodone
+gabapentin
+pregabalin|lyrica
+cyclobenzaprine|flexeril
+mirtazapine|remeron
+quetiapine|seroquel
+hydroxyzine
+promethazine|phenergan
+meclizine
+doxylamine|unisom
+amitriptyline
+clonidine
+tizanidine
+baclofen
+methocarbamol
+carisoprodol|soma
+olanzapine
+phenobarbital
+topiramate
+levetiracetam|keppra
+carbamazepine
+valproate
+lithium
+doxepin
+chlorpheniramine
+dimenhydrinate|dramamine
+metoclopramide
+ondansetron
+propranolol
+alcohol
+cannabis
+melatonin
+suvorexant|belsomra
+`);
+
+P("Name a drug for heart failure","pharm","",`
+furosemide|lasix
+lisinopril
+metoprolol succinate|toprol xl
+carvedilol|coreg
+entresto|sacubitril valsartan
+spironolactone
+digoxin
+dapagliflozin|farxiga
+empagliflozin|jardiance
+bumetanide
+torsemide
+losartan
+valsartan
+enalapril
+bisoprolol
+eplerenone
+hydralazine
+isosorbide dinitrate
+bidil
+ivabradine|corlanor
+vericiguat|verquvo
+milrinone
+dobutamine
+metolazone
+finerenone
+sotagliflozin
+tafamidis
+`);
+
+/* ---- NEW STANDARD DAILY PROMPTS: DENTAL (batch 2026-10-31) ---- */
+P("Name an ingredient in toothpaste","dental","",`
+fluoride
+sodium fluoride
+baking soda|sodium bicarbonate
+mint|flavoring
+glycerin
+sorbitol
+water
+silica|hydrated silica
+calcium carbonate
+sodium lauryl sulfate|sls
+xylitol
+stannous fluoride
+potassium nitrate
+triclosan
+hydrogen peroxide
+charcoal
+titanium dioxide
+carrageenan
+xanthan gum
+cellulose gum
+saccharin
+sodium monofluorophosphate
+hydroxyapatite|nano hydroxyapatite
+arginine
+zinc citrate
+tetrasodium pyrophosphate
+pentasodium triphosphate
+cocamidopropyl betaine
+dicalcium phosphate
+calcium sodium phosphosilicate|novamin
+strontium chloride
+peppermint oil
+menthol
+stevia
+dyes|blue dye
+`);
+
+P("Name a cosmetic dental procedure","dental","",`
+teeth whitening|bleaching
+veneers
+invisalign|clear aligners
+braces
+bonding|dental bonding
+crowns
+implants
+gum contouring|gum lift
+tooth contouring|enameloplasty
+smile makeover
+porcelain veneers
+composite veneers
+lumineers
+inlays and onlays
+gummy smile correction
+crown lengthening
+gum grafting
+tooth colored fillings
+snap on smile
+botox for gummy smile
+tooth jewelry|tooth gems
+grillz
+lip filler
+`);
+
+P("Name a pediatric dentistry term or procedure","dental","",`
+sealants
+fluoride varnish
+baby teeth|primary teeth
+pulpotomy
+stainless steel crown
+space maintainer
+baby bottle tooth decay|early childhood caries
+teething
+thumb sucking
+pacifier use
+first dental visit
+silver diamine fluoride|sdf
+nitrous oxide|laughing gas
+pulpectomy
+natal teeth
+eruption cyst
+mixed dentition
+ankyloglossia|tongue tie
+frenectomy
+knee to knee exam
+tell show do
+papoose board|protective stabilization
+zirconia crown
+strip crown
+interim therapeutic restoration
+indirect pulp cap
+lift the lip
+anticipatory guidance
+dental home
+leeway space
+`);
+
+P("Name a cause of bad breath","dental","",`
+poor oral hygiene
+gum disease
+tooth decay|cavities
+dry mouth
+garlic
+onions
+coffee
+smoking
+alcohol
+morning breath
+tongue coating|bacteria on tongue
+sinus infection
+postnasal drip
+tonsil stones
+acid reflux|gerd
+dentures
+diet|low carb diet|keto
+fasting
+dehydration
+infection
+dental abscess
+diabetes|ketones
+kidney failure
+liver failure
+fish
+medications
+food stuck in teeth
+mouth breathing
+strep throat
+lung infection
+h pylori
+crash diet
+cancer
+bowel obstruction
+`);
+
+P("Name a cause of dry mouth","dental","",`
+dehydration
+medications
+antihistamines
+antidepressants
+aging
+mouth breathing
+smoking
+sjogren syndrome
+diabetes
+radiation therapy
+chemotherapy
+anxiety
+alcohol
+caffeine
+cannabis|marijuana
+diuretics
+blood pressure medications
+decongestants
+opioids
+sleeping with mouth open|snoring
+nerve damage
+salivary gland disease
+hiv
+alzheimer disease
+stroke
+methamphetamine|meth
+anticholinergics
+antipsychotics
+muscle relaxants
+menopause
+cpap
+parkinson disease
+graft versus host disease
+salivary stones
+`);
+
+P("Name a cause of mouth sores","dental","",`
+canker sores|aphthous ulcers
+cold sores|herpes
+biting your cheek|trauma
+hand foot and mouth disease
+braces
+dentures
+stress
+spicy foods
+acidic foods
+thrush|oral candidiasis
+burns|hot food
+vitamin b12 deficiency
+iron deficiency
+folate deficiency
+crohn disease
+celiac disease
+behcet disease
+lupus
+lichen planus
+chemotherapy
+toothpaste with sls
+syphilis
+oral cancer
+herpangina
+shingles
+pemphigus
+pemphigoid
+erythema multiforme
+stevens johnson syndrome
+hiv
+smoking
+tuberculosis
+sharp tooth
+`);
+
+P("Name a cause of bleeding gums","dental","",`
+gingivitis
+brushing too hard
+periodontitis|gum disease
+flossing
+new flossing routine
+plaque buildup
+pregnancy
+blood thinners
+vitamin c deficiency|scurvy
+vitamin k deficiency
+leukemia
+diabetes
+hormonal changes
+dentures
+hemophilia
+low platelets|thrombocytopenia
+smoking cessation
+stress
+aspirin
+nsaids
+dilantin|phenytoin
+hiv
+liver disease
+von willebrand disease
+puberty
+birth control pills
+braces
+`);
+
+P("Name a reason a filling or crown fails","dental","",`
+recurrent decay|secondary caries
+fracture|cracked filling
+grinding|bruxism
+wear
+leakage|microleakage
+poor oral hygiene
+biting hard foods
+chewing ice
+age of restoration
+poor fit|open margin
+debonding
+sensitivity
+trauma
+moisture contamination
+insufficient thickness
+large restoration
+endodontic failure
+gum recession
+high bite
+cement washout
+`);
+
+P("Name a job in a dental office","dental","",`
+dentist
+dental hygienist
+dental assistant
+receptionist|front desk
+office manager
+orthodontist
+oral surgeon
+lab technician|dental technician
+billing specialist
+treatment coordinator
+insurance coordinator
+periodontist
+endodontist
+pediatric dentist
+prosthodontist
+sterilization technician
+expanded function dental assistant|efda
+patient care coordinator
+dental therapist
+practice owner
+associate dentist
+marketing coordinator
+anesthesiologist
+`);
+
+P("Name a dental insurance or billing term","dental","",`
+deductible
+copay
+premium
+annual maximum
+ppo
+hmo
+coinsurance
+pre authorization|predetermination
+cdt code
+claim
+out of pocket
+in network
+out of network
+waiting period
+explanation of benefits|eob
+frequency limitation
+missing tooth clause
+dual coverage|coordination of benefits
+fee schedule
+usual customary and reasonable|ucr
+dmo
+indemnity plan
+discount plan
+capitation
+superbill
+ledger
+write off
+balance billing
+medicaid
+chip
+dental savings plan
+`);
+
+P("Name an infection control step in a dental office","dental","",`
+hand washing|hand hygiene
+gloves
+masks
+sterilization|autoclave
+disinfecting surfaces
+face shields
+eye protection
+gowns
+barriers|plastic wraps
+sharps container
+ultrasonic cleaner
+instrument packaging
+spore testing|biological indicators
+chemical indicators
+waterline treatment
+high volume evacuation
+rubber dam
+preprocedural rinse
+vaccination|hepatitis b vaccine
+cdc guidelines
+osha
+standard precautions
+single use items
+cassettes
+dry heat sterilization
+chemical vapor sterilization
+heat sensitive items
+air purifiers|hepa filters
+safety syringes
+`);
+
+P("Name a famous person in dental history","dental","",`
+pierre fauchard
+g v black|greene vardiman black|gv black
+horace wells
+william morton
+paul revere
+doc holliday
+apollonia|saint apollonia
+john greenwood
+chapin harris
+horace hayden
+lucy hobbs taylor
+edward angle
+frederick mckay
+trendley dean
+robert tanner freeman
+ida gray
+washington wentworth sheffield
+willoughby miller
+alfred fones
+per ingvar branemark
+william rollins
+c edmund kells
+`);
+
+P("Name a food that is good for your teeth","dental","",`
+cheese
+milk
+apples
+carrots
+celery
+yogurt
+leafy greens|spinach
+water
+nuts|almonds
+eggs
+sugar free gum|xylitol gum
+green tea
+fish|salmon
+broccoli
+strawberries
+cucumbers
+sweet potatoes
+oranges
+chicken
+tofu
+beans
+seeds|sesame seeds
+garlic
+onions
+kiwi
+shiitake mushrooms
+bell peppers
+`);
+
+P("Name a food or drink that causes cavities","dental","",`
+candy
+soda
+sugar
+juice|fruit juice
+cookies
+cake
+chips
+sports drinks|gatorade
+energy drinks
+gummy candy
+caramel
+lollipops
+dried fruit|raisins
+white bread
+crackers
+sweetened coffee
+sweet tea
+ice cream
+chocolate
+syrup
+honey
+cereal
+pastries|donuts
+lemonade
+cough drops
+breath mints
+sour candy
+alcohol|wine
+granola bars
+pasta
+milk in a bottle at bedtime
+`);
+
+P("Name a cause of a chipped or broken tooth","dental","",`
+biting hard food
+chewing ice
+falls
+sports injury
+car accident
+grinding|bruxism
+popcorn kernels
+large fillings
+cavities|tooth decay
+fights|punch
+opening things with teeth
+hard candy
+nuts
+bones
+pen chewing
+nail biting
+cracked tooth syndrome
+root canal treated tooth
+temperature changes
+aging
+olive pits
+seizure
+mouth piercing|tongue ring
+trauma
+`);
+
+P("Name a sign of a cavity","dental","",`
+toothache
+sensitivity to sweets
+sensitivity to cold
+sensitivity to hot
+hole in tooth
+black spot|dark spot
+white spot
+pain when biting
+bad breath
+bad taste
+brown stain
+food getting stuck
+swelling
+pus
+rough edge
+broken tooth
+visible pit
+radiolucency on x ray
+`);
+
+P("Name a step in a dental cleaning visit","dental","",`
+x rays
+scaling
+polishing
+flossing
+fluoride
+oral exam
+medical history review
+blood pressure
+periodontal charting|probing
+oral cancer screening
+plaque removal
+tartar removal
+rinse
+oral hygiene instructions
+sealants
+ultrasonic scaling
+check bite
+schedule next visit
+disclosing tablets|disclosing solution
+caries risk assessment
+updating chart
+`);
+
+P("Name a tongue condition","dental","",`
+geographic tongue
+thrush|oral candidiasis
+tongue tie|ankyloglossia
+black hairy tongue
+burning mouth syndrome
+leukoplakia
+oral cancer|tongue cancer
+canker sore
+glossitis
+strawberry tongue
+macroglossia|enlarged tongue
+fissured tongue
+scalloped tongue
+tongue piercing
+coated tongue
+bitten tongue
+oral hairy leukoplakia
+lingual varices
+atrophic glossitis
+median rhomboid glossitis
+lichen planus
+scarlet fever
+kawasaki disease
+vitamin b12 deficiency
+hypothyroidism
+amyloidosis
+`);
+
+P("Name a teeth whitening method or product","dental","",`
+whitening strips|crest whitestrips
+in office whitening|zoom whitening
+whitening toothpaste
+custom trays
+hydrogen peroxide
+carbamide peroxide
+baking soda
+charcoal toothpaste
+led light whitening
+whitening pens
+whitening mouthwash
+opalescence
+laser whitening
+oil pulling
+internal bleaching|walking bleach
+veneers
+bonding
+microabrasion
+over the counter trays
+hismile
+snow
+`);
+
+P("Name a cause of a toothache","dental","",`
+cavity|tooth decay
+abscess
+cracked tooth
+gum disease
+wisdom teeth|impacted wisdom tooth
+sinus infection
+grinding|bruxism
+lost filling
+sensitivity
+food stuck between teeth
+recent dental work
+pulpitis
+infection
+dry socket
+tmj disorder
+teething
+trauma
+exposed root
+braces
+heart attack
+trigeminal neuralgia
+ear infection
+cluster headache
+pericoronitis
+`);
+
+P("Name a complication of dental implants","dental","",`
+infection
+peri implantitis
+implant failure
+nerve damage
+sinus problems|sinus perforation
+bone loss
+loose implant
+gum recession
+broken screw
+loose abutment
+pain
+swelling
+bleeding
+allergic reaction|titanium allergy
+crown fracture
+poor osseointegration
+peri implant mucositis
+bruising
+damage to adjacent teeth
+fractured implant
+food impaction
+`);
+
+P("Name a course or subject in dental school","dental","",`
+anatomy
+dental anatomy
+histology
+biochemistry
+physiology
+pathology
+oral pathology
+pharmacology
+microbiology
+radiology
+periodontics
+endodontics
+prosthodontics
+orthodontics
+pediatric dentistry
+oral surgery
+operative dentistry
+dental materials
+occlusion
+public health
+ethics
+practice management
+head and neck anatomy
+neuroscience
+immunology
+oral medicine
+local anesthesia
+implant dentistry
+cariology
+behavioral science
+`);
+
+P("Name a dental behavior management technique","dental","",`
+tell show do
+positive reinforcement
+distraction
+nitrous oxide
+voice control
+modeling
+parental presence
+desensitization
+sedation
+general anesthesia
+protective stabilization
+hand over mouth
+nonverbal communication
+relaxation breathing
+music
+virtual reality
+short appointments
+praise
+rewards|stickers|prizes
+memory restructuring
+cognitive behavioral therapy
+`);
+
+P("Name a cause of crooked teeth","dental","",`
+genetics
+thumb sucking
+pacifier use
+losing baby teeth early
+small jaw
+crowding
+tongue thrusting
+mouth breathing
+missing teeth
+extra teeth
+injury
+poor dental care
+bottle feeding
+wisdom teeth
+large teeth
+jaw misalignment
+not wearing retainer
+gum disease
+tumors
+cleft lip and palate
+nail biting
+`);
+
+P("Name a sign of teeth grinding (bruxism)","dental","",`
+worn teeth
+jaw pain
+headache
+tooth sensitivity
+chipped teeth
+sore jaw muscles
+flat teeth
+earache
+tight jaw
+grinding noise at night
+cracked teeth
+broken fillings
+tongue scalloping
+cheek biting
+enlarged masseter muscles
+abfraction
+disrupted sleep
+tmj clicking
+receding gums
+loose teeth
+`);
+
+P("Name a medical condition that changes dental treatment","dental","",`
+diabetes
+heart disease
+pregnancy
+high blood pressure
+artificial joint|joint replacement
+bleeding disorders
+blood thinners
+heart valve problems
+asthma
+allergies
+cancer
+hiv
+hepatitis
+kidney disease
+liver disease
+epilepsy
+osteoporosis|bisphosphonate use
+radiation therapy
+organ transplant
+copd
+stroke
+dementia
+pacemaker
+autism
+sickle cell disease
+immunosuppression
+adrenal insufficiency
+thyroid disease
+latex allergy
+malignant hyperthermia
+`);
+
+P("Name a way to prevent cavities","dental","",`
+brushing
+flossing
+fluoride toothpaste
+dental checkups
+limiting sugar
+sealants
+fluoride treatments
+mouthwash
+drinking water
+fluoridated water
+xylitol gum
+healthy diet
+avoid snacking
+avoid soda
+silver diamine fluoride
+cleanings
+electric toothbrush
+water flosser
+avoid sipping sugary drinks
+chewing sugar free gum
+not sharing utensils
+prescription fluoride toothpaste
+calcium phosphate products
+`);
+
+P("Name an animal known for its teeth or tusks","dental","",`
+shark
+beaver
+elephant
+walrus
+crocodile
+alligator
+hippo
+saber toothed tiger
+narwhal
+lion
+tiger
+wolf
+piranha
+rat
+snake
+vampire bat
+warthog
+wild boar
+great white shark
+hyena
+baboon
+gorilla
+rabbit
+horse
+cat
+dog
+squirrel
+sloth bear
+mandrill
+`);
+
+P("Name a dental X-ray error","dental","",`
+elongation
+foreshortening
+overlapping
+cone cut
+blurry image|movement
+double exposure
+underexposure|too light
+overexposure|too dark
+missed apices
+backwards film|reversed film
+film bending
+herringbone pattern
+phalangioma|finger in image
+static electricity
+ghost image
+tongue shadow
+slanted occlusal plane
+fogged film
+chin tipped up
+chin tipped down
+patient positioned too far forward
+patient positioned too far back
+airway shadow
+lead apron artifact
+`);
+
+P("Name a toothbrushing or flossing technique or tip","dental","",`
+bass technique
+modified bass
+circular|fones technique
+stillman technique
+modified stillman
+charters technique
+scrub technique
+rolling stroke technique
+leonard technique
+c shape flossing
+floss threader
+interdental brush
+water flossing
+two minutes
+45 degree angle
+brush tongue
+spit dont rinse
+soft bristles
+electric toothbrush
+floss before brushing
+`);
+
+/* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */
+function X(q,txt){ const r=RAW.find(r=>r.q===q); if(!r) throw new Error("no prompt: "+q);
+  r.list+="\n"+txt.trim().split("\n").map(s=>s.trim()).filter(Boolean).map(s=>"1 "+s).join("\n"); }
+function RENAME(a,b){ const r=RAW.find(r=>r.q===a); r.q=b; }
+
+/* Parkinson + dementia drugs become one prompt */
+(()=>{ const a=RAW.findIndex(r=>r.q==="Name a drug for Alzheimer disease or dementia"); const d=RAW.splice(a,1)[0];
+  RENAME("Name a drug for Parkinson disease","Name a drug for Parkinson or Alzheimer disease");
+  X("Name a drug for Parkinson or Alzheimer disease", d.list.split("\n").map(s=>s.slice(2)).join("\n")); })();
+
+X("Name a type of shock",`
+anaphylactoid
+traumatic shock
+`);
+X("Name a nursing ethical principle",`
+respect for persons
+nonabandonment
+self determination
+moral courage
+moral distress
+social justice
+care ethics
+principlism
+`);
+X("Name a sign of opioid overdose",`
+seizure
+gurgling breath
+foaming at the mouth
+hypothermia
+noncardiogenic pulmonary edema
+loss of gag reflex
+`);
+X("Name a sign of shock",`
+decreased level of consciousness
+skin mottling at knees
+cold extremities
+low central venous pressure
+high shock index
+metabolic acidosis
+oliguria
+absent bowel sounds
+`);
+X("Name a postpartum assessment",`
+bubble he
+fundal massage
+perineal pad count
+uterine involution
+afterpains
+diastasis recti
+voiding within 6 hours
+hemoglobin check
+blood pressure for preeclampsia
+`);
+X("Name a sign of a urinary tract infection",`
+hematuria
+suprapubic tenderness
+nocturia
+foul odor in diaper
+new incontinence
+falls in elderly
+vomiting in infants
+poor feeding in infants
+costovertebral angle tenderness|cva tenderness
+`);
+X("Name a drug used to treat gout",`
+vitamin c
+cherry extract
+ice
+dexamethasone
+corticotropin|acth
+benzbromarone
+`);
+X("Name a drug for thyroid disease",`
+iodine
+carbimazole
+thyrogen|thyrotropin alfa
+lenvatinib
+sorafenib
+cabozantinib
+vandetanib
+selpercatinib
+hydrocortisone
+`);
+X("Name a drug for osteoporosis",`
+duavee|conjugated estrogens bazedoxifene
+calcitriol
+strontium ranelate
+tibolone
+pamidronate
+`);
+X("Name a drug for BPH, overactive bladder or erectile dysfunction",`
+saw palmetto
+imipramine
+flavoxate
+trimix
+`);
+X("Name a drug for smoking cessation or addiction treatment",`
+nalmefene|opvee
+nortriptyline
+chlordiazepoxide|librium
+oxazepam
+`);
+X("Name an antiarrhythmic drug",`
+nadolol
+bisoprolol
+`);
+X("Name a drug for acne",`
+sodium sulfacetamide
+glycolic acid
+retinol
+amzeeq
+`);
+X("Name a drug or supplement that treats anemia",`
+iron isomaltoside|monoferric
+ferric pyrophosphate citrate|triferic
+ferric citrate|auryxia
+eltrombopag
+vadadustat
+mitapivat|pyrukynd
+`);
+X("Name a cosmetic dental procedure",`
+tooth reshaping
+diastema closure
+zirconia crowns
+same day crowns
+full mouth reconstruction
+dental implants all on 4|all on 4
+microabrasion
+deep bleaching
+`);
+X("Name a reason a filling or crown fails",`
+polymerization shrinkage
+improper curing
+poor isolation
+inadequate retention
+acid erosion
+`);
+X("Name a job in a dental office",`
+sterilization assistant
+dental scheduler
+hygiene coordinator
+compliance officer
+it support
+janitor|custodian
+`);
+X("Name a famous person in dental history",`
+nelson goodyear
+hesy re
+william addis
+rafael bowen
+michael buonocore
+john mankey riggs
+`);
+X("Name a cause of a chipped or broken tooth",`
+weak enamel
+amelogenesis imperfecta
+dentinogenesis imperfecta
+acid erosion
+bulimia
+clenching
+`);
+X("Name a sign of a cavity",`
+gum swelling near tooth
+throbbing pain
+spontaneous pain
+pain at night
+sticky explorer
+chalky enamel
+`);
+X("Name a step in a dental cleaning visit",`
+gum measurements
+intraoral photos
+air polishing
+root planing
+dentist exam
+diet counseling
+`);
+X("Name a teeth whitening method or product",`
+whitening gel
+blue light
+sodium hypochlorite
+non vital bleaching
+strawberries and baking soda
+apple cider vinegar
+`);
+X("Name a cause of a toothache",`
+tooth fracture
+cracked filling
+failed root canal
+periapical abscess
+periodontal abscess
+orthodontic tightening
+angina
+`);
+X("Name a complication of dental implants",`
+mandibular fracture
+implant migration into sinus
+screw loosening
+esthetic problems|gray gums
+speech problems
+oral paresthesia
+`);
+X("Name a dental behavior management technique",`
+audiovisual distraction
+counting
+guided imagery
+hypnosis
+aromatherapy
+breaks
+signals|raise hand to stop
+`);
+X("Name a cause of crooked teeth",`
+supernumerary teeth
+impacted teeth
+late loss of baby teeth
+`);
+X("Name a sign of teeth grinding (bruxism)",`
+fractured cusps
+tooth mobility
+facial pain
+neck pain
+morning headache
+bone thickening|tori
+`);
+X("Name a way to prevent cavities",`
+probiotics
+chlorhexidine
+sugar substitutes
+cheese after meals
+regular toothbrush replacement
+not putting baby to bed with bottle
+`);
+X("Name a dental X-ray error",`
+cervical burnout
+light leak
+scratched film
+fixer spots
+developer spots
+reticulation
+`);
+X("Name a toothbrushing or flossing technique or tip",`
+replace brush every 3 months
+brush twice a day
+fluoride toothpaste
+floss holder
+interproximal brush
+end tuft brush
+tongue scraper
+`);
+X("Name a task an RN can delegate to a nursing assistant",`
+measuring output
+ted hose application
+hygiene care
+`);
+X("Name a patient right",`
+continuity of care
+pastoral care
+pain relief
+access to ethics committee
+designate a surrogate
+organ donation choice
+`);
+
 const PRACTICE_ONLY = new Set(["Name a symptom of diabetes","Name a part of the heart","Name a muscle","Name a medical imaging test","Name a bacterium that causes disease in humans","Name a virus that infects humans","Name a parasite that infects humans","Name a blood test","Name a genetic disorder","Name a mental health disorder","Name a lung disease","Name a heart condition","Name an eye disease or condition","Name a painkiller","Name a part of the brain","Name a ligament or tendon","Name a component or cell of the blood","Name a neurotransmitter","Name a type of bone fracture","Name a sexually transmitted infection","Name a nutrient deficiency disease","Name a part of a tooth","Name a dental procedure","Name an over-the-counter medication","Name a medication dosage form","Name a common medication side effect","Name a controlled substance","Name a type of IV fluid","Name a medical abbreviation","Name a nursing scale or assessment tool","Name a healthcare profession","Name a preventive screening test","Name a common reason for a primary care visit","Name a beta blocker (ends in -olol)","Name an ACE inhibitor (ends in -pril)","Name an ARB (ends in -sartan)","Name an antifungal drug (often ends in -azole)","Name a monoclonal antibody (ends in -mab)","Name an anticoagulant or antiplatelet drug","Name a cholesterol-lowering drug","Name a chemotherapy drug","Name an herbal supplement","Name a vaccine","Name a sign of dehydration","Name a sign of sepsis","Name a symptom of low blood sugar","Name a hospital unit or department","Name an electrolyte imbalance","Name a newborn assessment or procedure","Name a complication of immobility","Name something found in a hospital room","Name a symptom of a heart attack","Name an orthodontic appliance","Name a drug used in dentistry","Name a bone or landmark of the skull","Name a periodontal term or condition","Name a dental emergency","Name a systemic disease with oral signs","Name a cause of chronic cough","Name a physical exam sign named after a person","Name a reason people visit the dentist","Name a dental charting term or tooth surface","Name an endodontic term","Name a sign of a dental infection","Name a sign of a blood transfusion reaction","Name a right of medication administration","Name a restraint or restraint alternative","Name a postoperative complication","Name a complication of dental anesthesia","Name a piece of equipment in a dental office","Name a cephalosporin","Name a benzodiazepine","Name an antipsychotic","Name a pharmacy job or setting","Name an antidepressant","Name an autosomal dominant disease","Name a tumor marker","Name a cause of hypercalcemia","Name a disease linked to an HLA type","Name an oncogene or tumor suppressor gene","Name a cause of secondary hypertension","Name a cause of eosinophilia","Name a cause of hemolytic anemia","Name a drug that causes drug-induced lupus","Name a teratogen","Name a sign of lithium toxicity","Name a food high in vitamin K (affects warfarin)","Name a sign of high potassium","Name a sign of magnesium sulfate toxicity","Name a sign of compartment syndrome","Name a danger sign in pregnancy","Name a contraindication for an MRI","Name a trigger of autonomic dysreflexia","Name a sign of Cushing syndrome","Name a neutropenic precaution","Name a strong CYP3A4 inhibitor","Name a drug that causes gingival hyperplasia","Name a drug that discolors urine","Name an ototoxic drug","Name a drug that causes Stevens-Johnson syndrome","Name a drug that interacts with grapefruit juice","Name a drug that causes orthostatic hypotension","Name a drug on the Beers list","Name a dosage form that should not be crushed","Name a radiolucent jaw lesion","Name a reason to limit epinephrine in local anesthetic","Name a developmental anomaly of teeth","Name an item in a dental emergency kit","Name a risk factor for periodontal disease","Name a tooth deposit or stain","Name a type of fluoride","Name a heart murmur or extra heart sound","Name a pathogen that causes pneumonia","Name a cause of a red eye","Name a cause of syncope","Name a cause of pleural effusion","Name a cause of hypothyroidism","Name a classic chest X-ray finding","Name a cause of vaginitis or vaginal discharge","Name a contraindication to estrogen-containing birth control","Name a routine prenatal lab or test","Name a lifestyle change that lowers blood pressure","Name a cause of chronic diarrhea","Name a cause of itching (pruritus)","Name a dental impression material","Name a medication that raises bleeding risk in oral surgery","Name a stage of tooth development"]);
 
 /* ---------- CATEGORIES ---------- */
@@ -20306,7 +24727,7 @@ const BANK = RAW.map(r=>{
   const a=parseList(r.list);
   if(r.rank){ const N=a.length; a.forEach((x,k)=>{ const rs=Math.round(5+93*Math.pow(k/(N-1),1.1)); x[0]=Math.min(99,Math.max(x[0],rs)); }); }
   const extra = EXTRA[r.q] ? parseList(EXTRA[r.q]).map(x=>[x[0],x[1],true]) : [];
-  return {q:r.q, cat:r.cat, pool:r.pool, pools:r.pools, strip:r.strip?r.strip.split(" "):[], a:[...a,...extra]};
+  return {q:r.q, cat:r.cat, added:r.added||null, pool:r.pool, pools:r.pools, strip:r.strip?r.strip.split(" "):[], a:[...a,...extra]};
 });
 
 /* Synonyms: medical and plain-English forms are folded to one canonical form on BOTH sides,
@@ -20361,7 +24782,7 @@ function display(label){ return label.split(" ").map(w=>ACR.test(w)?w.toUpperCas
 const cap = display;
 /* concept key: same meaning, different wording -> same key ("less reflexes" = "decreased reflexes" = "absent dtrs") */
 const CK_PHRASE=[[/\b(deep tendon reflex|tendon reflex|patellar reflex|knee jerk reflex|knee jerk|dtr)\b/g,"reflex"],
- [/\b(qrs|tuberous sclerosis) complex\b/g,"$1"],[/\bhyporeflexia\b|\bareflexia\b/g,"decreased reflex"],[/\bhyperreflexia\b/g,"increased reflex"],
+ [/\b(qrs|tuberous sclerosis) complex\b/g,"$1"],[/\b(release|coated|xl|er|xr|ec|oros|sublingual|buccal) (tablet|capsule)\b/g,"$1"],[/\bhyporeflexia\b|\bareflexia\b/g,"decreased reflex"],[/\bhyperreflexia\b/g,"increased reflex"],
  [/\black of\b|\bloss of\b|\babsence of\b/g,"decreased"],[/\bgo(ing)? down\b/g,"decreased"],[/\bgo(ing)? up\b/g,"increased"]];
 const CK_WORD={less:"decreased",lower:"decreased",low:"decreased",reduced:"decreased",reduction:"decreased",decrease:"decreased",
  diminished:"decreased",diminish:"decreased",loss:"decreased",lost:"decreased",absent:"decreased",absence:"decreased",no:"decreased",
@@ -20369,7 +24790,7 @@ const CK_WORD={less:"decreased",lower:"decreased",low:"decreased",reduced:"decre
  more:"increased",high:"increased",higher:"increased",elevated:"increased",elevation:"increased",raised:"increased",increase:"increased",
  excess:"increased",excessive:"increased",heightened:"increased",exaggerated:"increased",brisk:"increased",gain:"increased",rise:"increased",
  rapid:"fast",quick:"fast",slowed:"slow",slowing:"slow",reflexe:"reflex"};
-const CK_STOP=new Set(["of","the","an","in","to","sign","symptom","with","interval","specialist","team","tablet","capsule","use","using","sister","when","at","site","during","while","on","radiating","too","nerve","syndrome","from"]);
+const CK_STOP=new Set(["of","the","an","in","to","sign","symptom","with","interval","specialist","team","use","using","sister","when","at","site","during","while","on","radiating","too","nerve","syndrome","from"]);
 function ckey(n){ let t=" "+n+" "; for(const [re,rep] of CK_PHRASE) t=t.replace(re,rep);
   const w=t.split(" ").filter(Boolean).map(x=>CK_WORD[x]||x).filter(x=>!CK_STOP.has(x));
   return [...new Set(w)].sort().join(" "); }
@@ -20824,7 +25245,9 @@ for(const k in POOLS){ POOLS_D[k]=POOLS[k].filter(i=>!PRACTICE_ONLY.has(BANK[i].
 const poolKey=f=>MODE==="board" ? BOARD_POOL_OF[f||prof] : POOL_OF[f||prof];
 let _S={};   // per-field schedule state
 function schedState(f){ const k=poolKey(f); return _S[k] || (_S[k]={sched:[],pool:[],cycle:0}); }
-function dailyIdsFor(f, idx){
+/* Days before SWITCH_DAY keep the original schedule exactly (so past dailies never change). */
+const _LEG={}; function LEGACY_D(k){ return _LEG[k] || (_LEG[k]=POOLS_D[k].filter(i=>!BANK[i].added)); }
+function legacyIdsFor(f, idx){
   const S=schedState(f), cap=CAT_CAP[poolKey(f)]||3;
   while(S.sched.length<=idx){
     const yday=S.sched[S.sched.length-1]||[];
@@ -20832,18 +25255,50 @@ function dailyIdsFor(f, idx){
     let guard=0;
     while(today.length<7 && guard++<5000){
       if(!S.pool.length){
-        const ids=shuffle(POOLS_D[poolKey(f)].slice(), rng("zebra-"+poolKey(f)+"-cycle-"+(S.cycle++)));
+        const ids=shuffle(LEGACY_D(poolKey(f)).slice(), rng("zebra-"+poolKey(f)+"-cycle-"+(S.cycle++)));
         const avoid=new Set([...recent,...today]);
         S.pool=[...ids.filter(i=>!avoid.has(i)), ...ids.filter(i=>avoid.has(i))];
       }
       const i=S.pool.shift();
       const tooMany = today.filter(j=>BANK[j].cat===BANK[i].cat).length>=cap;
-      if(today.includes(i) || (yday.includes(i) && POOLS_D[poolKey(f)].length>=14) || (tooMany && deferred.length<POOLS_D[poolKey(f)].length)) deferred.push(i); else today.push(i);
+      if(today.includes(i) || (yday.includes(i) && LEGACY_D(poolKey(f)).length>=14) || (tooMany && deferred.length<LEGACY_D(poolKey(f)).length)) deferred.push(i); else today.push(i);
     }
     S.pool=[...deferred,...S.pool];
     S.sched.push(today);
   }
   return S.sched[idx];
+}
+
+/* From SWITCH_DAY on: each day plays the 7 prompts that have gone longest without being played.
+   Never-played prompts always go first, so a new batch is played in full before anything repeats.
+   A prompt only joins the queue on the day it was added, so adding prompts never rewrites past days. */
+const SWITCH_DAY=Math.round((new Date(2026,9,31)-EPOCH)/864e5);
+function addedDay(i){ const a=BANK[i].added; if(!a) return 0; const [y,m,d]=a.split("-").map(Number); return Math.max(SWITCH_DAY,Math.round((new Date(y,m-1,d)-EPOCH)/864e5)); }
+const _Q={};
+function dailyIdsFor(f, idx){
+  if(idx<SWITCH_DAY) return legacyIdsFor(f, idx);
+  const k=poolKey(f), cap=CAT_CAP[k]||3;
+  let Q=_Q[k];
+  if(!Q){
+    const last=new Map();
+    for(let d=0; d<SWITCH_DAY; d++) legacyIdsFor(f,d).forEach(i=>last.set(i,d));
+    const old=LEGACY_D(k);
+    Q=_Q[k]={day:SWITCH_DAY-1, sched:{}, fresh:old.filter(i=>!last.has(i)),
+             used:old.filter(i=>last.has(i)).sort((x,y)=>last.get(x)-last.get(y)),
+             later:POOLS_D[k].filter(i=>BANK[i].added)};
+  }
+  while(Q.day<idx){
+    const d=++Q.day;
+    const joining=Q.later.filter(i=>addedDay(i)===d);
+    if(joining.length){ Q.fresh.push(...shuffle(joining.slice(), rng("zebra-"+k+"-added-"+d))); Q.later=Q.later.filter(i=>addedDay(i)!==d); }
+    const today=[];
+    const pick=strict=>{ for(const i of [...Q.fresh,...Q.used]){ if(today.length>=7) break; if(today.includes(i)) continue;
+        if(strict && today.filter(j=>BANK[j].cat===BANK[i].cat).length>=cap) continue; today.push(i); } };
+    pick(true); if(today.length<7) pick(false);
+    Q.fresh=Q.fresh.filter(i=>!today.includes(i)); Q.used=[...Q.used.filter(i=>!today.includes(i)), ...today];
+    Q.sched[d]=today;
+  }
+  return Q.sched[idx];
 }
 function dailyIds(idx){ return dailyIdsFor(prof, idx); }
 function dailySet(){ return dailyIds(dayIndex()).map(i=>BANK[i]); }  // called at game start, so it matches gameDay

@@ -78,8 +78,8 @@ button.btn.small{font-size:12px;padding:8px 12px;margin:0}
 #timer i.off{background:rgba(255,255,255,.12)}
 #timer.low i:not(.off){background:var(--red)}
 form{display:flex;gap:8px;max-width:440px;margin:0 auto}
-#answer{flex:1;min-width:0;font-family:"Space Grotesk";font-size:20px;text-align:center;background:rgba(0,0,0,.4);color:#fff;border:2px solid rgba(255,255,255,.8);padding:10px 12px;outline:none;caret-color:var(--purple2)}
-#answer:focus{border-color:var(--purple2);box-shadow:0 0 0 3px rgba(180,75,255,.25)}
+#answer,#sAnswer{flex:1;min-width:0;font-family:"Space Grotesk";font-size:20px;text-align:center;background:rgba(0,0,0,.4);color:#fff;border:2px solid rgba(255,255,255,.8);padding:10px 12px;outline:none;caret-color:var(--purple2)}
+#answer:focus,#sAnswer:focus{border-color:var(--purple2);box-shadow:0 0 0 3px rgba(180,75,255,.25)}
 form .btn{margin:0}
 .hint{margin:14px auto 0;max-width:440px;font-family:Silkscreen,monospace;font-size:13px;line-height:1.7;padding:10px 12px;border:2px solid}
 .hint b{font-weight:700;color:#fff}
@@ -89,7 +89,7 @@ form .btn{margin:0}
 .hint .opts{display:block;margin-top:6px}
 .mini{font-family:Silkscreen,monospace;font-size:12px;padding:6px 12px;margin:0 4px;background:var(--gold);color:#000;border:0;cursor:pointer}
 .mini.alt{background:transparent;color:#fff;outline:2px solid rgba(255,255,255,.7);outline-offset:-2px}
-#answer.shake{animation:shk .32s steps(6);border-color:var(--red)}
+#answer.shake,#sAnswer.shake{animation:shk .32s steps(6);border-color:var(--red)}
 @keyframes shk{0%,100%{transform:none}20%{transform:translateX(-8px)}40%{transform:translateX(8px)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}
 .passrow{margin-top:14px}
 
@@ -167,6 +167,27 @@ h1.logo{font-weight:400}
 h2{font-family:Silkscreen,monospace;font-size:20px;margin:0 0 4px;font-weight:700}
 .sum{display:grid;grid-template-columns:1fr auto;gap:10px;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;text-align:left}
 .sum .a{text-align:right}
+
+.stampbox{margin:16px auto 4px;padding:12px 12px 10px;border:2px dashed rgba(255,210,59,.55);max-width:440px}
+button.btn.gold{background:var(--gold);box-shadow:0 4px 0 #b8860b}
+button.btn.gold:hover{background:#ffe27a}
+#sQ{font-family:Silkscreen,monospace;font-size:clamp(19px,4.4vw,25px);line-height:1.3;margin:2px 0 12px}
+.sclock{display:flex;align-items:center;gap:10px;max-width:440px;margin:0 auto 14px}
+#sClock{font-family:"Press Start 2P",monospace;font-size:18px;color:var(--gold);min-width:44px;text-align:right}
+#sClock.low{color:var(--red)}
+.sbar{flex:1;height:10px;background:rgba(255,255,255,.12)}
+.sbar i{display:block;height:100%;width:100%;background:var(--gold);transition:width .1s linear}
+.smsg{font-family:Silkscreen,monospace;font-size:13px;min-height:20px;margin:10px 0 6px}
+.smsg.ok{color:var(--green,#7dff9e)} .smsg.err{color:var(--red)} .smsg.dup{color:var(--muted)}
+.sstats{display:flex;justify-content:center;gap:22px;font-family:Silkscreen,monospace;font-size:12px;opacity:.85;margin-bottom:8px}
+.sstats b{font-family:"Press Start 2P",monospace;font-size:14px;color:#fff;margin-right:4px}
+.schips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-height:190px;overflow-y:auto}
+#seFound.schips{max-height:none}
+.chip{font-size:13px;padding:4px 8px;border:2px solid;background:rgba(0,0,0,.25);white-space:nowrap}
+.chip b{font-family:Silkscreen,monospace;font-size:11px;margin-left:6px}
+.chip.pop{animation:chipin .35s ease-out}
+@keyframes chipin{from{transform:scale(1.35);opacity:0}to{transform:scale(1);opacity:1}}
+#sShare{white-space:pre-wrap}
 .later{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;opacity:.7;margin:4px 0 16px}
 .sumd{border-bottom:1px solid var(--line)}
 .sumd>summary{list-style:none;cursor:pointer;border-bottom:none}
@@ -217,6 +238,12 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
     <button class="btn" id="bDaily"><span class="blink">▶</span> PRESS START</button>
     <button class="btn alt" id="bPractice">PRACTICE</button>
   </div>
+  <div class="stampbox">
+    <div class="label" style="margin:0 0 4px">⚡ NEW · DAILY STAMPEDE</div>
+    <div class="fine" style="margin:0 0 8px">ONE PROMPT FOR EVERY FIELD. 60 SECONDS. NAME AS MANY ANSWERS AS YOU CAN. EVERY ANSWER SCORES, RARE ONES SCORE MORE.</div>
+    <button class="btn gold" id="bStamp">⚡ STAMPEDE</button>
+    <div class="fine" id="sInfo"></div>
+  </div>
   <div id="tStreak"></div>
   <div class="fine" id="tInfo"></div>
   <details class="about"><summary>ABOUT ZEBRA &amp; FAQ</summary>
@@ -248,6 +275,36 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   </form>
   <div id="hint" class="hint hidden"></div>
   <div class="passrow"><button type="button" class="btn alt small" id="bPass">PASS ▶</button></div>
+</section>
+
+<!-- STAMPEDE PLAY -->
+<section class="panel hidden" id="stamp">
+  <div class="label" id="sLabel"></div>
+  <div id="sQ"></div>
+  <div class="sclock"><span id="sClock">60</span><span class="sbar"><i id="sBar"></i></span></div>
+  <form id="sForm" autocomplete="off">
+    <input id="sAnswer" placeholder="type, enter, repeat_" autocapitalize="off" spellcheck="false">
+    <button class="btn" type="submit">GO</button>
+  </form>
+  <div id="sMsg" class="smsg">&nbsp;</div>
+  <div class="sstats"><span><b id="sCount">0</b> ANSWERS</span><span><b id="sPts">0</b> PTS</span></div>
+  <div id="sFound" class="schips"></div>
+</section>
+
+<!-- STAMPEDE END -->
+<section class="panel hidden" id="sEnd">
+  <div class="label" id="seLabel"></div>
+  <h2>STAMPEDE COMPLETE</h2>
+  <div class="big" id="seTotal"></div>
+  <div class="yours" id="seSub" style="margin-top:0"></div>
+  <div id="sRanking" class="ranking"></div>
+  <div class="label" style="margin-top:6px">YOUR ANSWERS</div>
+  <div id="seFound" class="schips" style="margin-bottom:10px"></div>
+  <details class="sumd" id="seAll"><summary class="sum"><span>⚡ SEE ALL ANSWERS FOR THIS PROMPT</span><span class="a" id="seMissed"></span></summary><div class="ans"></div></details>
+  <pre id="sShare"></pre>
+  <button class="btn" id="bSCopy">COPY RESULT</button>
+  <button class="btn alt" id="bSHome">MENU</button>
+  <div class="fine" id="seNext" style="margin-top:12px"></div>
 </section>
 
 <!-- RESULT -->
@@ -24868,6 +24925,2054 @@ function evaluate(p, raw){
   return {type:"none"};
 }
 
+/* ===== DAILY STAMPEDE PROMPTS =====
+   One prompt a day for every field. 60 seconds, name as many answers as you can.
+   Answers are listed most-common first; points come from list position (5 → 98). */
+const SRAW=[];
+function S(q,strip,txt,added){ SRAW.push({q,strip,added:added||"2026-10-30",lines:txt.trim().split("\n").map(s=>s.trim()).filter(Boolean)}); }
+
+S("Name a word ending in -itis","itis",`
+arthritis
+appendicitis
+tonsillitis
+bronchitis
+sinusitis
+gastritis
+hepatitis
+meningitis
+dermatitis
+tendinitis|tendonitis
+conjunctivitis
+colitis
+pancreatitis
+laryngitis
+bursitis
+gingivitis
+otitis
+pharyngitis
+cellulitis
+encephalitis
+diverticulitis
+cystitis
+pneumonitis
+myocarditis
+pericarditis
+endocarditis
+nephritis
+osteomyelitis
+vaginitis
+prostatitis
+rhinitis
+esophagitis
+cholecystitis
+pyelonephritis
+glomerulonephritis
+vasculitis
+mastitis
+uveitis
+keratitis
+blepharitis
+iritis
+gastroenteritis
+enteritis
+ileitis
+proctitis
+synovitis
+myositis
+neuritis
+thyroiditis
+stomatitis
+glossitis
+cheilitis
+periodontitis
+pulpitis
+epididymitis
+orchitis
+urethritis
+cervicitis
+endometritis
+salpingitis
+oophoritis
+phlebitis
+thrombophlebitis
+arteritis
+aortitis
+sialadenitis
+parotitis
+labyrinthitis
+mastoiditis
+epiglottitis
+tracheitis
+bronchiolitis
+pleuritis
+mediastinitis
+peritonitis
+omphalitis
+balanitis
+folliculitis
+spondylitis
+discitis
+costochondritis
+fasciitis
+capsulitis
+tenosynovitis
+epicondylitis
+polymyositis
+dermatomyositis
+radiculitis
+myelitis
+ventriculitis
+cerebritis
+chorioretinitis
+retinitis
+scleritis
+episcleritis
+dacryocystitis
+dacryoadenitis
+lymphangitis
+lymphadenitis
+appendagitis
+typhlitis
+cholangitis
+duodenitis
+jejunitis
+pouchitis
+pancarditis
+valvulitis
+sacroiliitis
+enthesitis
+osteitis
+periostitis
+chondritis
+perichondritis
+hidradenitis
+panniculitis
+vulvitis
+vulvovaginitis
+`);
+
+S("Name a body part that comes in pairs","",`
+eyes
+ears
+hands
+feet
+arms
+legs
+lungs
+kidneys
+knees
+elbows
+shoulders
+hips
+ankles
+wrists
+eyebrows
+nostrils
+cheeks
+lips
+thumbs
+big toes
+breasts
+nipples
+ovaries
+testicles|testes
+fallopian tubes
+ureters
+adrenal glands
+tonsils
+eardrums
+thighs
+calves
+shins
+heels
+buttocks
+armpits
+collarbones|clavicles
+shoulder blades|scapulae
+temples
+eyelids
+tear ducts
+jaw joints|tmj
+hamstrings
+quadriceps
+biceps
+triceps
+pectorals
+lats
+obliques
+kneecaps|patellas
+femurs
+tibias
+fibulas
+humerus
+radius
+ulna
+parotid glands
+submandibular glands
+vocal cords
+carotid arteries
+jugular veins
+vas deferens
+seminal vesicles
+cochleas
+lacrimal glands
+optic nerves
+cerebral hemispheres
+parathyroid glands
+bronchi
+iliac arteries
+femoral arteries
+sciatic nerves
+vagus nerves
+mastoid processes
+hip bones|ilium
+`);
+
+S("Name a disease or sign named after a person","",`
+alzheimer disease
+parkinson disease
+crohn disease
+down syndrome
+huntington disease
+hodgkin lymphoma
+graves disease
+hashimoto thyroiditis
+cushing syndrome
+addison disease
+lou gehrig disease|als
+tourette syndrome
+asperger syndrome
+bell palsy
+raynaud phenomenon
+kaposi sarcoma
+guillain barre syndrome
+marfan syndrome
+tay sachs disease
+wilson disease
+paget disease
+sjogren syndrome
+reiter syndrome
+kawasaki disease
+osgood schlatter disease
+legg calve perthes disease
+meniere disease
+barrett esophagus
+hirschsprung disease
+whipple disease
+peyronie disease
+dupuytren contracture
+tetralogy of fallot
+wolff parkinson white
+brugada syndrome
+burkitt lymphoma
+ewing sarcoma
+wilms tumor
+klinefelter syndrome
+turner syndrome
+prader willi syndrome
+angelman syndrome
+rett syndrome
+williams syndrome
+duchenne muscular dystrophy
+becker muscular dystrophy
+charcot marie tooth
+friedreich ataxia
+creutzfeldt jakob disease
+von willebrand disease
+christmas disease
+fanconi anemia
+diamond blackfan anemia
+gaucher disease
+niemann pick disease
+fabry disease
+pompe disease
+hunter syndrome
+hurler syndrome
+cooley anemia
+behcet disease
+takayasu arteritis
+buerger disease
+wegener granulomatosis
+churg strauss syndrome
+goodpasture syndrome
+alport syndrome
+berger disease
+conn syndrome
+sheehan syndrome
+kallmann syndrome
+korsakoff syndrome
+wernicke encephalopathy
+munchausen syndrome
+capgras delusion
+stevens johnson syndrome
+cushing triad
+beck triad
+virchow triad
+murphy sign
+mcburney point
+babinski sign
+romberg sign
+homans sign
+kernig sign
+brudzinski sign
+chvostek sign
+trousseau sign
+cullen sign
+grey turner sign
+kussmaul breathing
+cheyne stokes breathing
+austin flint murmur
+osler nodes
+janeway lesions
+roth spots
+koplik spots
+auspitz sign
+nikolsky sign
+tinel sign
+phalen test
+lachman test
+mcmurray test
+apley test
+finkelstein test
+allen test
+`);
+
+S("Name a symptom","",`
+fever
+headache
+cough
+pain
+nausea
+vomiting
+fatigue
+dizziness
+shortness of breath
+chest pain
+diarrhea
+constipation
+rash
+itching
+sore throat
+runny nose
+congestion
+chills
+sweating
+muscle aches
+joint pain
+back pain
+abdominal pain
+bloating
+heartburn
+weakness
+numbness
+tingling
+blurry vision
+confusion
+anxiety
+insomnia
+loss of appetite
+weight loss
+weight gain
+swelling
+palpitations
+fainting
+wheezing
+sneezing
+hoarseness
+earache
+ringing in ears|tinnitus
+hearing loss
+double vision
+light sensitivity|photophobia
+frequent urination
+painful urination
+blood in urine
+blood in stool
+black stool
+cramps
+tremor
+seizure
+memory loss
+mood swings
+irritability
+thirst
+dry mouth
+hair loss
+bruising
+bleeding
+nosebleed
+hiccups
+jaundice
+pale skin
+night sweats
+hot flashes
+stiffness
+limping
+trouble swallowing
+drooling
+slurred speech
+hallucinations
+paranoia
+vertigo
+loss of smell
+loss of taste
+coughing up blood
+vomiting blood
+incontinence
+impotence
+irregular periods
+heavy periods
+pelvic pain
+discharge
+lump
+mole changes
+cold intolerance
+heat intolerance
+clubbing
+cyanosis
+facial droop
+neck stiffness
+muscle twitching|fasciculations
+restless legs
+excessive sleepiness
+yawning
+flatulence
+burping
+dark urine
+foamy urine
+`);
+
+S("Name a word ending in -ectomy (surgical removal)","ectomy",`
+appendectomy
+tonsillectomy
+mastectomy
+hysterectomy
+vasectomy
+cholecystectomy
+colectomy
+lumpectomy
+splenectomy
+thyroidectomy
+nephrectomy
+prostatectomy
+gastrectomy
+adenoidectomy
+laminectomy
+discectomy
+lobectomy
+pneumonectomy
+oophorectomy
+salpingectomy
+myomectomy
+craniectomy
+orchiectomy
+adrenalectomy
+pancreatectomy
+whipple|pancreaticoduodenectomy
+esophagectomy
+hepatectomy
+parathyroidectomy
+hemorrhoidectomy
+polypectomy
+cystectomy
+ureterectomy
+mastoidectomy
+vitrectomy
+iridectomy
+trabeculectomy
+keratectomy
+sclerectomy
+septectomy
+turbinectomy
+ethmoidectomy
+sphenoidectomy
+parotidectomy
+glossectomy
+laryngectomy
+pharyngectomy
+uvulectomy
+frenectomy
+gingivectomy
+apicoectomy
+pulpectomy
+corpectomy
+facetectomy
+synovectomy
+meniscectomy
+bunionectomy
+fasciectomy
+sympathectomy
+thymectomy
+pericardiectomy
+endarterectomy
+embolectomy
+thrombectomy
+atherectomy
+pleurectomy
+bronchiectomy
+segmentectomy
+lymphadenectomy
+omentectomy
+trachelectomy
+cervicectomy
+vulvectomy
+penectomy
+epididymectomy
+varicocelectomy
+hypophysectomy
+hemispherectomy
+amygdalohippocampectomy
+`);
+
+S("Name a medical term that starts with hyper- or hypo-","",`
+hypertension
+hypotension
+hypoglycemia
+hyperglycemia
+hypothyroidism
+hyperthyroidism
+hypothermia
+hyperthermia
+hyperactivity
+hyperventilation
+hypoxia
+hyperkalemia
+hypokalemia
+hypernatremia
+hyponatremia
+hypercalcemia
+hypocalcemia
+hypermagnesemia
+hypomagnesemia
+hyperlipidemia
+hypercholesterolemia
+hyperhidrosis
+hypochondria|hypochondriasis
+hypersensitivity
+hyperplasia
+hypoplasia
+hypertrophy
+hypotonia
+hypertonia
+hyperreflexia
+hyporeflexia
+hyperopia
+hypersomnia
+hypomania
+hypoventilation
+hypovolemia
+hypervolemia
+hypoalbuminemia
+hyperbilirubinemia
+hyperuricemia
+hyperparathyroidism
+hypoparathyroidism
+hyperaldosteronism
+hypogonadism
+hypopituitarism
+hyperprolactinemia
+hyperphosphatemia
+hypophosphatemia
+hyperchloremia
+hypochloremia
+hypercapnia
+hypocapnia
+hyperemesis
+hyperemia
+hypopigmentation
+hyperpigmentation
+hyperkeratosis
+hypertrichosis
+hyperextension
+hyperflexion
+hypermobility
+hyperacusis
+hyperalgesia
+hypoesthesia
+hyperesthesia
+hypophysis
+hypothalamus
+hypodermis
+hypoglossal nerve
+hyperinsulinemia
+hypoperfusion
+hyperviscosity
+hypocalcemic tetany
+hyperosmolar
+hypoosmolar
+hypogammaglobulinemia
+hypergammaglobulinemia
+hyperammonemia
+hypercoagulability
+hypofibrinogenemia
+hyperthyroxinemia
+hypospadias
+hypogastric
+hypochondrium
+hypoxemia
+hyperoxia
+hyperbaric
+hypotonic
+hypertonic
+hyperthecosis
+hyperostosis
+hypokinesia
+hyperkinesia
+hyperpnea
+hypopnea
+hypomenorrhea
+hypermenorrhea
+`);
+
+S("Name a word ending in -emia (a blood condition)","emia",`
+anemia
+leukemia
+hypoglycemia
+hyperglycemia
+septicemia
+hyperlipidemia
+hyperkalemia
+hypokalemia
+hyponatremia
+hypernatremia
+hypocalcemia
+hypercalcemia
+ischemia
+uremia
+bacteremia
+viremia
+hypoxemia
+thalassemia
+hypercholesterolemia
+hypomagnesemia
+hypermagnesemia
+hypophosphatemia
+hyperphosphatemia
+hypoalbuminemia
+hyperbilirubinemia
+hyperuricemia
+toxemia
+polycythemia
+fungemia
+parasitemia
+hyperammonemia
+acidemia
+alkalemia
+lipemia
+hypervolemia
+hypovolemia
+hyperchloremia
+hypochloremia
+hypoproteinemia
+hypergammaglobulinemia
+hypogammaglobulinemia
+agammaglobulinemia
+cryoglobulinemia
+macroglobulinemia
+paraproteinemia
+methemoglobinemia
+sulfhemoglobinemia
+hemoglobinemia
+azotemia
+glycemia
+normoglycemia
+hyperinsulinemia
+hyperprolactinemia
+hypertriglyceridemia
+dyslipidemia
+hyperhomocysteinemia
+hyperoxemia
+hypofibrinogenemia
+afibrinogenemia
+hyperthyroxinemia
+hypercortisolemia
+hyperferritinemia
+hypoferremia
+`);
+
+S("Name something that raises your cancer risk","",`
+smoking
+alcohol
+sun exposure|uv light
+obesity
+family history|genetics
+age
+hpv
+radiation
+asbestos
+poor diet
+processed meat
+red meat
+tanning beds
+lack of exercise
+hepatitis b
+hepatitis c
+brca mutation
+air pollution
+radon
+benzene
+chemotherapy
+hormone replacement therapy
+h pylori
+chewing tobacco
+vaping
+hiv
+epstein barr virus
+diabetes
+chronic inflammation
+ulcerative colitis
+crohn disease
+barrett esophagus
+cirrhosis
+immunosuppression
+organ transplant
+x rays|ct scans
+formaldehyde
+arsenic
+vinyl chloride
+aflatoxin
+diesel exhaust
+night shift work
+estrogen exposure
+early first period
+late menopause
+no children|nulliparity
+not breastfeeding
+dense breasts
+lynch syndrome
+fap|familial adenomatous polyposis
+li fraumeni syndrome
+down syndrome
+undescended testicle
+betel nut
+hot beverages
+salted fish
+nitrates
+charred meat
+coal tar
+soot
+silica
+cadmium
+nickel
+chromium
+beryllium
+dioxins
+pesticides
+schistosomiasis
+liver flukes
+htlv 1
+merkel cell polyomavirus
+kshv|hhv8
+tamoxifen
+cyclophosphamide
+des|diethylstilbestrol
+`);
+
+S("Name a leading cause of death","",`
+heart disease
+cancer
+stroke
+accidents|unintentional injuries
+copd
+alzheimer disease
+diabetes
+kidney disease
+flu and pneumonia|pneumonia|influenza
+suicide
+liver disease
+sepsis
+covid
+overdose
+hypertension
+homicide
+falls
+firearms
+drowning
+parkinson disease
+hiv
+tuberculosis
+malaria
+diarrheal disease
+neonatal conditions
+malnutrition
+heart failure
+alcohol
+smoking
+obesity
+measles
+hepatitis
+war
+fire
+poisoning
+sids
+birth defects
+pregnancy complications
+meningitis
+cirrhosis
+`);
+
+S("Name something in a first aid kit","",`
+band aids|bandages
+gauze
+tape|medical tape
+antiseptic wipes
+gloves
+scissors
+tweezers
+ice pack
+antibiotic ointment|neosporin
+pain reliever|ibuprofen|acetaminophen
+elastic bandage|ace bandage
+thermometer
+alcohol wipes
+cotton balls
+hydrogen peroxide
+burn gel
+hand sanitizer
+cpr mask
+triangular bandage
+safety pins
+splint
+aspirin
+antihistamine|benadryl
+hydrocortisone cream
+eye wash
+tourniquet
+emergency blanket
+flashlight
+instructions|first aid manual
+moleskin
+butterfly closures|steri strips
+calamine lotion
+epinephrine|epipen
+glucose tablets
+oral rehydration salts
+whistle
+trauma shears
+non stick pads
+eye pads
+finger splint
+sterile water
+saline
+cold pack
+heat pack
+sunscreen
+insect repellent
+tick remover
+naloxone|narcan
+hemostatic gauze|quikclot
+pressure dressing
+blister pads
+q tips|cotton swabs
+`);
+S("Name an infection","",`
+flu|influenza
+covid
+strep throat
+pneumonia
+uti|urinary tract infection
+cold|common cold
+ear infection
+sinus infection
+chickenpox
+measles
+mumps
+tuberculosis
+hiv
+hepatitis
+herpes
+shingles
+mono|mononucleosis
+lyme disease
+malaria
+pink eye|conjunctivitis
+cellulitis
+mrsa
+c diff
+staph infection
+ringworm
+athlete's foot
+yeast infection
+thrush
+chlamydia
+gonorrhea
+syphilis
+hpv
+whooping cough|pertussis
+meningitis
+sepsis
+impetigo
+scabies
+lice
+pinworm
+giardia
+salmonella
+e coli
+norovirus
+rotavirus
+rsv
+hand foot and mouth disease
+scarlet fever
+rubella
+polio
+tetanus
+rabies
+ebola
+zika
+dengue
+west nile
+cholera
+typhoid
+leprosy
+plague
+anthrax
+botulism
+tularemia
+toxoplasmosis
+histoplasmosis
+coccidioidomycosis|valley fever
+aspergillosis
+cryptococcus
+pneumocystis
+cmv
+ebv
+hpv warts
+molluscum
+fifth disease
+roseola
+osteomyelitis
+endocarditis
+abscess
+peritonitis
+appendicitis
+diverticulitis
+pyelonephritis
+encephalitis
+epiglottitis
+croup
+bronchiolitis
+legionnaires disease
+q fever
+brucellosis
+leptospirosis
+cat scratch disease
+rocky mountain spotted fever
+ehrlichiosis
+babesiosis
+chagas disease
+sleeping sickness
+leishmaniasis
+schistosomiasis
+hookworm
+tapeworm
+trichomoniasis
+mycoplasma
+listeria
+diphtheria
+nocardia
+actinomycosis
+mucormycosis
+candida auris
+`);
+
+S("Name a body fluid or secretion","",`
+blood
+urine
+saliva
+sweat
+tears
+mucus
+semen
+breast milk
+bile
+vomit
+stomach acid|gastric juice
+plasma
+lymph
+cerebrospinal fluid|csf
+pus
+earwax|cerumen
+snot
+phlegm|sputum
+amniotic fluid
+synovial fluid
+serum
+vaginal fluid
+menstrual blood
+sebum|skin oil
+interstitial fluid
+pleural fluid
+pericardial fluid
+peritoneal fluid
+aqueous humor
+vitreous humor
+colostrum
+pre ejaculate
+smegma
+meconium
+feces|stool
+chyme
+chyle
+pancreatic juice
+intestinal juice
+endolymph
+perilymph
+surfactant
+lochia
+rheum|eye crust
+exudate
+transudate
+ascites
+`);
+
+S("Name a reason someone goes to the ER","",`
+chest pain
+broken bone
+car accident
+shortness of breath
+abdominal pain
+stroke symptoms
+heart attack
+bleeding
+cuts|laceration
+high fever
+head injury
+allergic reaction
+overdose
+seizure
+fainting
+burns
+poisoning
+asthma attack
+dehydration
+vomiting
+severe headache
+kidney stones
+back pain
+sprain
+dog bite
+suicidal thoughts
+psychosis
+labor
+pregnancy bleeding
+gunshot wound
+stab wound
+fall
+appendicitis
+eye injury
+foreign object
+choking
+low blood sugar
+high blood sugar
+sepsis
+blood clot
+pneumonia
+covid
+flu
+uti
+dental pain
+nosebleed
+rash
+sore throat
+earache
+alcohol intoxication
+sexual assault
+domestic violence
+heat stroke
+frostbite
+snake bite
+spider bite
+drowning
+electrocution
+dizziness
+confusion
+testicular pain
+miscarriage
+`);
+
+S("Name a condition with \"syndrome\" in its name","syndrome",`
+down syndrome
+irritable bowel syndrome|ibs
+polycystic ovary syndrome|pcos
+carpal tunnel syndrome
+tourette syndrome
+asperger syndrome
+restless legs syndrome
+chronic fatigue syndrome
+sudden infant death syndrome|sids
+metabolic syndrome
+cushing syndrome
+guillain barre syndrome
+marfan syndrome
+turner syndrome
+klinefelter syndrome
+fetal alcohol syndrome
+toxic shock syndrome
+stevens johnson syndrome
+serotonin syndrome
+neuroleptic malignant syndrome
+compartment syndrome
+nephrotic syndrome
+nephritic syndrome
+acute respiratory distress syndrome|ards
+reye syndrome
+kawasaki syndrome
+sjogren syndrome
+raynaud syndrome
+horner syndrome
+cauda equina syndrome
+brugada syndrome
+long qt syndrome
+wolff parkinson white syndrome
+sick sinus syndrome
+prader willi syndrome
+angelman syndrome
+rett syndrome
+williams syndrome
+ehlers danlos syndrome
+antiphospholipid syndrome
+hellp syndrome
+hemolytic uremic syndrome
+dumping syndrome
+short bowel syndrome
+burning mouth syndrome
+dry eye syndrome
+piriformis syndrome
+thoracic outlet syndrome
+patellofemoral pain syndrome
+it band syndrome
+complex regional pain syndrome
+myelodysplastic syndrome
+tumor lysis syndrome
+refeeding syndrome
+cardiorenal syndrome
+hepatorenal syndrome
+hepatopulmonary syndrome
+conn syndrome
+sheehan syndrome
+kallmann syndrome
+korsakoff syndrome
+munchausen syndrome
+stockholm syndrome
+impostor syndrome
+broken heart syndrome|takotsubo
+lambert eaton syndrome
+goodpasture syndrome
+alport syndrome
+churg strauss syndrome
+zollinger ellison syndrome
+peutz jeghers syndrome
+lynch syndrome
+li fraumeni syndrome
+gilbert syndrome
+dubin johnson syndrome
+crigler najjar syndrome
+budd chiari syndrome
+mallory weiss syndrome
+boerhaave syndrome
+pickwickian syndrome
+alice in wonderland syndrome
+foreign accent syndrome
+alien hand syndrome
+stiff person syndrome
+cri du chat syndrome
+edwards syndrome
+patau syndrome
+digeorge syndrome
+noonan syndrome
+waardenburg syndrome
+treacher collins syndrome
+pierre robin syndrome
+apert syndrome
+crouzon syndrome
+sturge weber syndrome
+wiskott aldrich syndrome
+chediak higashi syndrome
+job syndrome
+bartter syndrome
+gitelman syndrome
+liddle syndrome
+fanconi syndrome
+`);
+
+S("Name a medical term with a color in it","",`
+black lung
+blue baby
+yellow fever
+pink eye
+red eye
+white blood cell
+red blood cell
+black eye
+scarlet fever
+green stool
+black stool
+yellow jaundice
+blue lips
+black death
+white matter
+gray matter
+brown fat
+white fat
+red meat allergy
+rubella
+melanoma
+leukemia
+cyanosis
+erythema
+leukoplakia
+erythroplakia
+melena
+black hairy tongue
+blue sclera
+red man syndrome
+white coat hypertension
+blue bloater
+pink puffer
+redcurrant jelly stool
+black widow bite
+brown recluse bite
+purple toe syndrome
+blue toe syndrome
+white strawberry tongue
+red strawberry tongue
+yellow nail syndrome
+green nail syndrome
+chloroma
+xanthoma
+xanthelasma
+melasma
+red flag
+code blue
+code red
+yellow card
+black box warning
+silver nitrate
+gentian violet
+methylene blue
+brown tumor
+white pupil|leukocoria
+cherry red spot
+orange peel skin|peau d orange
+blue nevus
+red pulp
+white pulp
+pink tetralogy
+blueberry muffin baby
+maroon stool
+`);
+
+S("Name a medical sign or term named after a food","",`
+strawberry tongue
+cherry red spot
+coffee ground emesis
+currant jelly stool
+apple core lesion
+onion skin
+cauliflower ear
+nutmeg liver
+rice water stool
+pea soup diarrhea
+cottage cheese discharge
+port wine stain
+salmon patch
+cafe au lait spots
+popcorn calcification
+milk leg
+sausage digit|dactylitis
+oat cell carcinoma
+bread and butter pericarditis
+honeycomb lung
+corn
+egg shell calcification
+sago spleen
+blueberry muffin baby
+chocolate cyst
+anchovy paste abscess
+strawberry hemangioma
+raspberry tongue
+peau d orange
+mulberry molars
+mulberry stone
+lemon sign
+banana sign
+olive sign
+coffee bean sign
+grape like cysts|hydatidiform mole
+cherry angioma
+apple green birefringence
+bamboo spine
+salt and pepper skull
+cheese like caseous necrosis|caseous necrosis
+pepper pot skull
+melon seed bodies
+watermelon stomach
+`);
+
+S("Name a medical sign or term named after an animal","",`
+bird flu
+swine flu
+chickenpox
+bull's eye rash
+crow's feet
+pigeon toed
+pigeon chest
+frog leg position
+buffalo hump
+cat scratch fever
+lobster claw hand
+monkey pox|mpox
+mad cow disease
+horseshoe kidney
+fish mouth
+duck walk|waddling gait
+swan neck deformity
+goose egg
+camel back curve
+spider veins
+spider angioma
+cobra head sign
+owl eye inclusions
+rat bite fever
+mouse tooth
+lion face|leonine facies
+elephantiasis
+seal bark cough
+bat wing opacities
+bird beak sign
+tadpole pupils
+parrot fever|psittacosis
+tiger striping
+leopard skin
+zebra stripe sign
+fish scale skin|ichthyosis
+cat eye syndrome
+cri du chat
+staghorn calculus
+beaver tail liver
+mickey mouse sign
+hummingbird sign
+panda sign
+scottie dog sign
+gull wing sign
+crab louse
+butterfly rash
+bulldog clamp
+`);
+
+S("Name a disease you can catch from animals","",`
+rabies
+lyme disease
+bird flu
+salmonella
+swine flu
+ringworm
+cat scratch disease
+toxoplasmosis
+plague
+west nile virus
+malaria
+mad cow disease
+ebola
+covid
+hantavirus
+leptospirosis
+brucellosis
+anthrax
+tularemia
+q fever
+psittacosis|parrot fever
+e coli
+campylobacter
+tapeworm
+roundworm|toxocariasis
+hookworm
+giardia
+rocky mountain spotted fever
+ehrlichiosis
+mpox|monkeypox
+mers
+nipah virus
+hendra virus
+marburg virus
+lassa fever
+zika
+yellow fever
+dengue
+rat bite fever
+trichinosis
+listeria
+echinococcus|hydatid disease
+cryptosporidium
+bovine tuberculosis
+leishmaniasis
+chagas disease
+sleeping sickness
+rift valley fever
+orf
+cowpox
+glanders
+melioidosis
+pasteurella
+capnocytophaga
+herpes b virus
+streptococcus suis
+`);
+
+S("Name something measured at a checkup","",`
+blood pressure
+weight
+height
+heart rate|pulse
+temperature
+bmi
+oxygen saturation
+respiratory rate
+cholesterol
+blood sugar
+vision
+hearing
+waist circumference
+head circumference
+reflexes
+a1c
+blood count|cbc
+pain level
+mood|depression screening
+growth percentiles
+kidney function
+liver enzymes
+thyroid|tsh
+vitamin d
+urine
+skin check
+breast exam
+pap smear
+psa
+bone density
+peak flow
+ecg
+grip strength
+balance
+memory
+diet
+alcohol use
+smoking status
+vaccines
+development milestones
+`);
+
+S("Name a healthy habit","",`
+exercise
+drinking water
+sleep
+eating vegetables
+eating fruit
+not smoking
+limiting alcohol
+brushing teeth
+flossing
+washing hands
+sunscreen
+meditation
+walking
+stretching
+yoga
+seeing a doctor|checkups
+eating fiber
+limiting sugar
+limiting salt
+stress management
+socializing
+reading
+deep breathing
+journaling
+wearing a seatbelt
+wearing a helmet
+getting vaccinated
+taking stairs
+standing more
+eating breakfast
+portion control
+cooking at home
+limiting screen time
+time outside
+gratitude
+therapy
+eating fish
+eating nuts
+whole grains
+strength training
+cardio
+cancer screening
+dental checkups
+skin checks
+sleeping 8 hours
+consistent bedtime
+hobbies
+volunteering
+safe sex
+limiting caffeine
+limiting processed food
+mindful eating
+posture
+hydration
+`);
+S("Name a word ending in -osis","osis",`
+osteoporosis
+tuberculosis
+cirrhosis
+scoliosis
+thrombosis
+fibrosis
+cystic fibrosis
+psychosis
+neurosis
+halitosis
+diagnosis
+prognosis
+mononucleosis
+endometriosis
+multiple sclerosis
+atherosclerosis
+arteriosclerosis
+kyphosis
+lordosis
+stenosis
+necrosis
+acidosis
+alkalosis
+ketoacidosis
+hypnosis
+cyanosis
+ketosis
+sclerosis
+sarcoidosis
+amyloidosis
+toxoplasmosis
+histoplasmosis
+dermatosis
+keratosis
+ichthyosis
+narcosis
+osmosis
+mitosis
+meiosis
+apoptosis
+phagocytosis
+leukocytosis
+thrombocytosis
+erythrocytosis
+spherocytosis
+hemochromatosis
+hemosiderosis
+silicosis
+asbestosis
+pneumoconiosis
+byssinosis
+berylliosis
+diverticulosis
+nephrosis
+hydronephrosis
+ptosis
+proptosis
+miosis
+leptospirosis
+brucellosis
+listeriosis
+salmonellosis
+shigellosis
+cryptosporidiosis
+trichinosis
+babesiosis
+ehrlichiosis
+anaplasmosis
+cysticercosis
+neurocysticercosis
+echinococcosis
+aspergillosis
+mucormycosis
+coccidioidomycosis
+blastomycosis
+cryptococcosis
+nocardiosis
+actinomycosis
+psittacosis
+myelofibrosis
+otosclerosis
+spondylosis
+synostosis
+craniosynostosis
+ankylosis
+arthrosis
+fibromatosis
+neurofibromatosis
+adenomyosis
+gliosis
+lymphocytosis
+monocytosis
+granulomatosis
+histiocytosis
+mastocytosis
+porokeratosis
+hyperkeratosis
+acanthosis nigricans
+steatosis
+anastomosis
+symbiosis
+metamorphosis
+`);
+
+S("Name a word ending in -oma (a growth or tumor)","oma",`
+melanoma
+carcinoma
+lymphoma
+sarcoma
+glaucoma
+hematoma
+lipoma
+fibroma
+adenoma
+myeloma
+multiple myeloma
+glioma
+glioblastoma
+meningioma
+neuroma
+acoustic neuroma
+blastoma
+neuroblastoma
+retinoblastoma
+nephroblastoma
+hepatoblastoma
+medulloblastoma
+osteosarcoma
+osteoma
+chondroma
+chondrosarcoma
+leiomyoma
+leiomyosarcoma
+rhabdomyosarcoma
+angioma
+hemangioma
+lymphangioma
+mesothelioma
+teratoma
+seminoma
+thymoma
+insulinoma
+gastrinoma
+glucagonoma
+vipoma
+somatostatinoma
+pheochromocytoma
+paraganglioma
+craniopharyngioma
+astrocytoma
+ependymoma
+oligodendroglioma
+schwannoma
+neurofibroma
+papilloma
+condyloma
+granuloma
+xanthoma
+cholesteatoma
+chordoma
+ameloblastoma
+odontoma
+cementoblastoma
+myxoma
+atrial myxoma
+fibroadenoma
+cystadenoma
+hepatoma
+cholangiocarcinoma
+hamartoma
+choristoma
+seroma
+trachoma
+atheroma
+dermatofibroma
+keratoacanthoma
+syringoma
+pilomatricoma
+angiofibroma
+angiomyolipoma
+oncocytoma
+prolactinoma
+macroadenoma
+microadenoma
+plasmacytoma
+mycetoma
+chloroma
+`);
+
+S("Name a word ending in -scopy (a look inside)","scopy",`
+colonoscopy
+endoscopy
+laparoscopy
+arthroscopy
+bronchoscopy
+cystoscopy
+sigmoidoscopy
+microscopy
+otoscopy
+ophthalmoscopy
+laryngoscopy
+hysteroscopy
+colposcopy
+fluoroscopy
+thoracoscopy
+mediastinoscopy
+esophagoscopy
+gastroscopy
+duodenoscopy
+enteroscopy
+proctoscopy
+anoscopy
+ureteroscopy
+nephroscopy
+rhinoscopy
+nasopharyngoscopy
+fetoscopy
+amnioscopy
+culdoscopy
+angioscopy
+choledochoscopy
+cholangioscopy
+dermoscopy
+capillaroscopy
+spectroscopy
+retinoscopy
+gonioscopy
+pharyngoscopy
+tracheoscopy
+ventriculoscopy
+`);
+
+S("Name a common allergy or allergen","",`
+peanuts
+pollen
+dust mites
+cats
+dogs
+penicillin
+shellfish
+tree nuts
+milk|dairy
+eggs
+bee stings
+latex
+mold
+wheat
+soy
+fish
+sesame
+grass
+ragweed
+sulfa drugs
+cockroaches
+nickel
+perfume|fragrance
+aspirin
+nsaids
+insect stings
+wasps
+fire ants
+horses
+rabbits
+feathers
+red meat|alpha gal
+strawberries
+kiwi
+bananas
+avocado
+corn
+mustard
+celery
+lupin
+sulfites
+msg
+food dye|red dye
+iodine contrast|contrast dye
+codeine
+morphine
+cephalosporins
+local anesthetics
+adhesive tape
+neomycin
+poison ivy
+hair dye
+sunscreen
+cold|cold urticaria
+sunlight
+chlorhexidine
+`);
+
+S("Name a sign of aging","",`
+wrinkles
+gray hair
+hair loss
+age spots
+memory loss
+vision changes|presbyopia
+hearing loss
+joint pain
+arthritis
+osteoporosis
+weight gain
+loss of muscle|sarcopenia
+slower metabolism
+menopause
+fatigue
+sagging skin
+dry skin
+cataracts
+balance problems
+slower reflexes
+incontinence
+insomnia
+crow's feet
+thinning skin
+easy bruising
+loss of height
+stooped posture
+high blood pressure
+stiff arteries
+constipation
+loss of smell
+loss of taste
+thinning nails
+brittle bones
+enlarged prostate
+dry eyes
+macular degeneration
+gum recession
+tooth loss
+liver spots
+reduced kidney function
+slower healing
+frailty
+`);
+
+S("Name something that raises blood pressure","",`
+salt
+stress
+caffeine
+smoking
+alcohol
+obesity
+lack of exercise
+pain
+anxiety
+kidney disease
+decongestants
+nsaids|ibuprofen
+birth control pills
+sleep apnea
+pregnancy|preeclampsia
+genetics
+age
+diabetes
+cocaine
+amphetamines
+licorice
+steroids|prednisone
+thyroid disease
+cushing syndrome
+hyperaldosteronism
+pheochromocytoma
+renal artery stenosis
+coarctation of the aorta
+energy drinks
+white coat syndrome
+cold weather
+full bladder
+exercise
+sex
+anger
+dehydration
+tyramine with maois
+venlafaxine
+cyclosporine
+tacrolimus
+erythropoietin
+ketamine
+epinephrine
+yohimbine
+ginseng
+withdrawal of clonidine
+`);
+
+S("Name something that weakens the immune system","",`
+stress
+lack of sleep
+poor diet
+hiv
+chemotherapy
+steroids|prednisone
+diabetes
+smoking
+alcohol
+aging
+cancer
+malnutrition
+organ transplant drugs|immunosuppressants
+pregnancy
+obesity
+radiation
+lupus
+rheumatoid arthritis drugs
+biologics
+leukemia
+lymphoma
+kidney failure
+liver cirrhosis
+splenectomy|no spleen
+vitamin d deficiency
+zinc deficiency
+sedentary lifestyle
+burns
+sepsis
+measles
+diGeorge syndrome
+scid
+common variable immunodeficiency
+methotrexate
+tacrolimus
+cyclosporine
+rituximab
+tnf inhibitors
+jak inhibitors
+loneliness
+depression
+`);
+
+S("Name a part of the head or face","",`
+eyes
+nose
+mouth
+ears
+lips
+chin
+cheeks
+forehead
+eyebrows
+eyelashes
+eyelids
+jaw
+teeth
+tongue
+hair
+scalp
+temples
+skull
+brain
+nostrils
+gums
+throat
+earlobe
+philtrum
+bridge of nose
+septum
+jawline
+cheekbones
+dimples
+eye sockets
+sinuses
+palate
+uvula
+tonsils
+adenoids
+eardrum
+temporomandibular joint|tmj
+mandible
+maxilla
+zygomatic bone
+occiput|back of the head
+crown
+hairline
+widow's peak
+tear ducts
+iris
+pupil
+tragus
+helix
+nasal ala
+columella
+glabella
+vermilion border
+nasolabial fold
+masseter
+frontal bone
+parietal bone
+temporal bone
+sphenoid
+ethmoid
+fontanelle
+mastoid
+`);
+
+S("Name a chronic disease","",`
+diabetes
+high blood pressure
+heart disease
+asthma
+copd
+arthritis
+cancer
+kidney disease
+alzheimer disease
+obesity
+depression
+hiv
+osteoporosis
+multiple sclerosis
+parkinson disease
+lupus
+crohn disease
+ulcerative colitis
+psoriasis
+epilepsy
+migraine
+fibromyalgia
+celiac disease
+hypothyroidism
+heart failure
+atrial fibrillation
+cirrhosis
+hepatitis b
+hepatitis c
+sickle cell disease
+cystic fibrosis
+chronic pain
+sleep apnea
+gerd
+ibs
+eczema
+gout
+glaucoma
+macular degeneration
+schizophrenia
+bipolar disorder
+als
+myasthenia gravis
+sarcoidosis
+pulmonary hypertension
+endometriosis
+pcos
+chronic fatigue syndrome
+hemophilia
+scleroderma
+`);
+
+/* build: rank points by list position, then reuse the same matching as the daily */
+const STAMP = SRAW.map(r=>{ const N=r.lines.length;
+  const p={q:r.q, cat:"stampede", added:r.added, strip:r.strip?r.strip.split(" "):[],
+    a:r.lines.map((l,k)=>[Math.min(99,Math.round(5+93*Math.pow(k/(N-1),1.1))), l])};
+  prep(p); return p; });
+
 
 /* ===== TIERS ===== */
 const TIERS=[
@@ -24992,7 +27097,7 @@ function loop(t){
     if(frame%3===0 && moving) parts.push({x:ZX+(Math.random()*16-8),y:zy-12,vx:0,vy:-.6-Math.random()*.6,life:30,c:"rgba(255,255,255,.8)"});
     if(k>=1){const cb=tween.onDone; tween=null; moving=false; cb&&cb();} }
   ZX = Math.round(W/2);
-  const vis=["title","play","result","end"].map(id=>document.getElementById(id)).find(el=>!el.classList.contains("hidden"));
+  const vis=["title","play","result","end","stamp","sEnd"].map(id=>document.getElementById(id)).find(el=>!el.classList.contains("hidden"));
   const focus = vis ? Math.min(.9, Math.max(.55,(vis.getBoundingClientRect().bottom+110)/innerHeight)) : .62;
   const targetCam = zy - H*focus;
   camY += (targetCam-camY)*.08;
@@ -25110,20 +27215,21 @@ function simulate(prompts, seed){
   const b=Array(NB).fill(0); totals.forEach(v=>b[Math.min(NB-1,Math.floor(v/BUCKET))]++);
   return b;
 }
-function percentile(b,score){
+function percentile(b,score,BK=BUCKET){
   const n=b.reduce((a,c)=>a+c,0); if(!n) return null;
-  const mine=Math.min(NB-1,Math.floor(score/BUCKET)), within=(score%BUCKET)/BUCKET;
+  const mine=Math.min(b.length-1,Math.floor(score/BK)), within=Math.min(1,(score-mine*BK)/BK);
   let below=0; for(let i=0;i<mine;i++) below+=b[i];
   below+=b[mine]*within;                                    // spread the player's own bucket evenly
   return Math.round(100*below/n);
 }
-function stats(b){
-  const n=b.reduce((a,c)=>a+c,0); let mean=0; b.forEach((c,i)=>mean+=c*(i+.5)*BUCKET); mean/=n||1;
-  let v=0; b.forEach((c,i)=>v+=c*Math.pow((i+.5)*BUCKET-mean,2)); return {n,mean,sd:Math.sqrt(v/(n||1))||1};
+function stats(b,BK=BUCKET){
+  const n=b.reduce((a,c)=>a+c,0); let mean=0; b.forEach((c,i)=>mean+=c*(i+.5)*BK); mean/=n||1;
+  let v=0; b.forEach((c,i)=>v+=c*Math.pow((i+.5)*BK-mean,2)); return {n,mean,sd:Math.sqrt(v/(n||1))||1};
 }
-function curveSVG(b,score){
+function curveSVG(b,score,BK=BUCKET,LAB=["0 µm","3,500","7,000 µm"]){
+  const NB=b.length, BUCKET=BK;
   const Wd=300,Ht=110,base=92, max=Math.max(...b,1), bw=Wd/NB, mine=Math.min(NB-1,Math.floor(score/BUCKET));
-  const {n,mean,sd}=stats(b);
+  const {n,mean,sd}=stats(b,BK);
   let bars="";
   b.forEach((c,i)=>{ const h=Math.round(c/max*70); if(!h) return;
     const col = i===mine ? "#ffd23b" : (i<mine ? "#7d4bb8" : "#3a3160");
@@ -25142,9 +27248,9 @@ function curveSVG(b,score){
     <rect x="${lx-15}" y="0" width="30" height="11" fill="#ffd23b"/>
     <text x="${lx}" y="8.5" text-anchor="middle" font-family="Silkscreen,monospace" font-size="8" fill="#0c0a20">YOU</text>
     <g font-family="Silkscreen,monospace" font-size="7.5" fill="#a49dc0">
-      <text x="0" y="${Ht-4}">0 µm</text>
-      <text x="${Wd/2}" y="${Ht-4}" text-anchor="middle">3,500</text>
-      <text x="${Wd}" y="${Ht-4}" text-anchor="end">7,000 µm</text>
+      <text x="0" y="${Ht-4}">${LAB[0]}</text>
+      <text x="${Wd/2}" y="${Ht-4}" text-anchor="middle">${LAB[1]}</text>
+      <text x="${Wd}" y="${Ht-4}" text-anchor="end">${LAB[2]}</text>
     </g></svg>`;
 }
 async function showRanking(fromSave){
@@ -25225,7 +27331,7 @@ const $=id=>document.getElementById(id);
 const hud={depth:$("hDepth"),layer:$("hLayer"),score:$("hScore"),round:$("hRound")};
 let state="title", set=[], round=0, total=0, log=[], daily=true, timerId=null, endAt=0, lastSec=99;
 const SECS=20;
-function showPanel(id){ ["title","play","result","end"].forEach(p=>$(p).classList.toggle("hidden",p!==id)); }
+function showPanel(id){ ["title","play","result","end","stamp","sEnd"].forEach(p=>$(p).classList.toggle("hidden",p!==id)); }
 function store(k,v){ try{ if(v===undefined) return JSON.parse(localStorage.getItem(k)); localStorage.setItem(k,JSON.stringify(v)); }catch(e){ return null; } }
 function banner(txt){ const b=$("banner"); b.textContent=txt; b.classList.remove("go"); void b.offsetWidth; b.classList.add("go"); }
 function todayKey(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
@@ -25365,6 +27471,7 @@ function titleInfo(){
   $("tInfo").innerHTML = `${labelFor()} DAILY #${dayNumber()} · ${todayKey()} · ${POOLS_D[poolKey()].length} DAILY + ${POOLS_P[poolKey()].length} PRACTICE PROMPTS` + (played?`<br>PLAYED ✓ · NEXT IN <span class="cd">${hms(untilMidnight())}</span>`:"") + (best?` · BEST ${(best*10).toLocaleString()} µm`:"");
   $("bDaily").innerHTML = played? "▶ VIEW TODAY'S RESULT" : '<span class="blink">▶</span> PRESS START';
   $("tStreak").innerHTML = streakHTML();
+  if(typeof stampInfo==="function") try{ stampInfo(); }catch(e){}
 }
 titleInfo();
 /* tick the countdowns; if midnight passes while the page is open, offer the new daily */
@@ -25485,9 +27592,137 @@ function finish(fromSave){
   showRanking(fromSave);
 }
 
+
+/* ===== DAILY STAMPEDE =====
+   One prompt a day, the same for every field. 60 seconds to name as many answers as possible.
+   Every answer scores its rarity points; the total is ranked against players in your field. */
+const STAMP_SECS=60, SB=50, SNB=61;            // ranking buckets of 50 points, 0 → 3,000+
+const STAMP_START=Math.round((new Date(2026,9,30)-EPOCH)/864e5);
+function stampAddedDay(p){ const [y,m,d]=(p.added||"2026-10-30").split("-").map(Number); return Math.max(STAMP_START,Math.round((new Date(y,m-1,d)-EPOCH)/864e5)); }
+const _SQ={day:STAMP_START-1, fresh:[], used:[], later:STAMP.map((_,i)=>i), sched:{}};
+function stampIdFor(idx){                       // longest-unplayed first; new prompts join on the day they were added
+  idx=Math.max(idx,STAMP_START); const Q=_SQ;
+  while(Q.day<idx){ const d=++Q.day;
+    const join=Q.later.filter(i=>stampAddedDay(STAMP[i])===d);
+    if(join.length){ const o=shuffle(join.slice(), rng("zebra-stampede-added-"+d)); if(d===STAMP_START && o.includes(0)) o.unshift(...o.splice(o.indexOf(0),1)); Q.fresh.push(...o); Q.later=Q.later.filter(i=>!join.includes(i)); }
+    const pick=[...Q.fresh,...Q.used][0];
+    Q.fresh=Q.fresh.filter(i=>i!==pick); Q.used=[...Q.used.filter(i=>i!==pick), pick];
+    Q.sched[d]=pick; }
+  return Q.sched[idx];
+}
+const stampKey=d=>"zebra-stampede-"+d;
+let sP=null, sFound=[], sTotal=0, sEndAt=0, sTimer=null, sDay="", sDayNum=0, sProf=prof, sPct=null;
+function stampNum(){ return dayIndex()-STAMP_START+1; }
+function stampInfo(){
+  const done=store(stampKey(todayKey()));
+  $("sInfo").innerHTML = done? `PLAYED ✓ · ${done.found.length} ANSWERS · ${done.total} PTS · NEXT IN <span class="cd">${hms(untilMidnight())}</span>` : `STAMPEDE #${stampNum()} · ${todayKey()}`;
+  $("bStamp").innerHTML = done? "⚡ VIEW TODAY'S STAMPEDE" : "⚡ STAMPEDE";
+}
+function startStampede(){
+  sfx.start(); sDay=todayKey(); sDayNum=stampNum(); sProf=prof; gameProf=prof; sP=STAMP[stampIdFor(dayIndex())];
+  markers=[]; parts=[];
+  const saved=store(stampKey(sDay));
+  if(saved){ sFound=saved.found.map(f=>({...f})); sTotal=saved.total; state="stampEnd"; showPanel(null); sinkTo(Math.min(700,sTotal),()=>stampFinish(true)); return; }
+  sFound=[]; sTotal=0; state="stamp"; hud.score.textContent=0;
+  $("sLabel").innerHTML=`⚡ DAILY STAMPEDE #${sDayNum} · EVERY FIELD`;
+  $("sQ").textContent=sP.q.toUpperCase();
+  $("sFound").innerHTML=""; $("sCount").textContent=0; $("sPts").textContent=0;
+  $("sMsg").className="smsg"; $("sMsg").innerHTML="GO GO GO! ENTER EACH ANSWER, THEN KEEP TYPING.";
+  const go=()=>{ showPanel("stamp"); const i=$("sAnswer"); i.value=""; i.disabled=false; i.focus();
+    sEndAt=Date.now()+STAMP_SECS*1000; clearInterval(sTimer); sTimer=setInterval(stampTick,100); stampTick(); };
+  if(zy>1) sinkTo(0,go); else go();
+}
+function stampTick(){
+  const left=Math.max(0,sEndAt-Date.now()), s=Math.ceil(left/1000);
+  $("sClock").textContent=s; $("sClock").classList.toggle("low",left<10000); $("sBar").style.width=(left/(STAMP_SECS*10))+"%";
+  hud.round.textContent="⚡ "+s+"s";
+  if(s<=5 && s>0 && s!==stampTick.last){ sfx.tick(); } stampTick.last=s;
+  if(left<=0 && state==="stamp"){ clearInterval(sTimer); $("sAnswer").disabled=true; state="stampEnd";
+    setTimeout(()=>{ showPanel(null); sinkTo(Math.min(700,sTotal),()=>stampFinish(false)); },600); }
+}
+function chipHTML(f,pop){ const c=TIERS[tierOf(f.pts)].color; return `<span class="chip${pop?" pop":""}" style="border-color:${c};color:${c}">${esc(cap(f.label))}<b>+${f.pts}</b></span>`; }
+function stampSubmit(){
+  if(state!=="stamp") return;
+  const inp=$("sAnswer"), raw=inp.value.trim(); if(!raw) return; inp.value="";
+  const m=$("sMsg"), r=evaluate(sP, raw);
+  if(r.type==="none"){ m.className="smsg err"; m.textContent=`✗ “${raw.toUpperCase()}” ISN'T ON THE CHART`; sfx.nope();
+    inp.classList.remove("shake"); void inp.offsetWidth; inp.classList.add("shake"); return; }
+  const it=r.item;
+  if(sFound.some(f=>f.label===it.label)){ m.className="smsg dup"; m.textContent=`ALREADY GOT ${cap(it.label).toUpperCase()}`; sfx.hmm(); return; }
+  const f={label:it.label, pts:it.pts}; sFound.push(f); sTotal+=it.pts;
+  const ti=tierOf(it.pts), T=TIERS[ti];
+  m.className="smsg ok"; m.innerHTML=`${r.type==="suggest"?"≈ ":""}<span style="color:${T.color}">${esc(cap(it.label).toUpperCase())} +${it.pts}</span> ${T.name}`;
+  $("sFound").insertAdjacentHTML("afterbegin",chipHTML(f,true));
+  $("sCount").textContent=sFound.length; $("sPts").textContent=sTotal; hud.score.textContent=sTotal;
+  sfx.score(ti); burst(T.color,6+ti*6,.8+ti*.15); if(ti>=4){ flash("#b44bff",.25); shake=3; }
+  markers.push({d:Math.min(700,sTotal),c:T.color}); sinkTo(Math.min(700,sTotal));
+}
+/* estimated curve: players of varied skill race through the list, leaning on common answers */
+function simulateStampede(p, seed){
+  const r=rng("stampsim"+seed), b=Array(SNB).fill(0), base=p.items.map(it=>101-it.pts);
+  for(let s=0;s<3000;s++){
+    const skill=Math.min(1,Math.max(0,(r()+r()+r())/3)), k=2.6-2*skill;
+    let n=Math.max(1,Math.round(3+24*skill+(r()-.5)*6)); n=Math.min(n,p.items.length);
+    const w=base.map(x=>Math.pow(x,k)); let tot=0;
+    for(let j=0;j<n;j++){ const sum=w.reduce((a,c)=>a+c,0); if(sum<=0) break; let x=r()*sum, i=0; while(i<w.length-1 && (x-=w[i])>0) i++; tot+=p.items[i].pts; w[i]=0; }
+    b[Math.min(SNB-1,Math.floor(tot/SB))]++;
+  }
+  return b;
+}
+const StampScores={
+  async submit(day,total){ if(!Scores.on()) return; try{ await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_stampede",{method:"POST",
+      headers:{...Scores.headers(),"Prefer":"return=minimal"}, body:JSON.stringify({day,field:sProf,player:playerId(),total})}); }catch(e){} },
+  async histogram(day){ if(!Scores.on()) return null;
+    try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/stampede_histogram",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:day,p_field:sProf})});
+      if(!r.ok) return null; const rows=await r.json(), b=Array(SNB).fill(0);
+      rows.forEach(x=>{ const i=Math.max(0,Math.min(SNB-1,+x.bucket)); b[i]+= +x.n; }); return b; }catch(e){ return null; } }
+};
+async function stampFinish(fromSave){
+  state="stampEnd"; clearInterval(sTimer); hud.round.textContent="FINISHED"; hud.score.textContent=sTotal;
+  if(!fromSave) store(stampKey(sDay),{found:sFound,total:sTotal,q:sP.q});
+  $("seLabel").textContent=`⚡ DAILY STAMPEDE #${sDayNum} · ${sDay}${fromSave?" · ALREADY PLAYED":""}`;
+  $("seTotal").textContent=`${sTotal.toLocaleString()} PTS`;
+  $("seSub").innerHTML=`${esc(sP.q)}<br><span style="color:var(--gold)">${sFound.length}</span> answer${sFound.length===1?"":"s"} in 60 seconds`;
+  $("seFound").innerHTML = sFound.length? [...sFound].sort((a,b)=>b.pts-a.pts).map(f=>chipHTML(f)).join("") : `<span class="fine">NO ANSWERS THIS TIME. TOMORROW'S A NEW STAMPEDE!</span>`;
+  $("seMissed").textContent=`${sP.items.length-sFound.length} MISSED`;
+  const all=$("seAll"); all.open=false; all.querySelector(".ans").innerHTML="";
+  all.ontoggle=()=>{ if(!all.open) return; const box=all.querySelector(".ans"); if(box.innerHTML) return;
+    const got=new Set(sFound.map(f=>f.label)), sorted=[...sP.items].sort((a,b)=>b.pts-a.pts);
+    box.innerHTML=`<div class="ansn">${sorted.length} ANSWERS · DEEPEST FIRST · YOURS MARKED</div>`+sorted.map(x=>{const ti=tierOf(x.pts),c=TIERS[ti].color,me=got.has(x.label);
+      return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>`;}).join(""); };
+  $("seNext").innerHTML=`NEXT STAMPEDE IN <span class="cd">${hms(untilMidnight())}</span>`;
+  sPct=null; $("sShare").textContent=stampShare(); $("bSCopy").textContent="COPY RESULT";
+  showPanel("sEnd"); burst("#ffd23b",40,1.5); stampInfo();
+  const el=$("sRanking"); el.innerHTML=`<div class="loading blink">COMPARING YOU WITH OTHER ${peers().toUpperCase()}…</div>`;
+  let b=null, live=false, liveN=0;
+  if(!fromSave) await StampScores.submit(sDay,sTotal);
+  const real=await StampScores.histogram(sDay);
+  if(real){ liveN=real.reduce((a,c)=>a+c,0); if(liveN>=SCORE_SERVER.minPlayers){ b=real; live=true; } }
+  if(!b) b=simulateStampede(sP, sProf+sDay);
+  const pct=percentile(b,sTotal,SB), {n,mean}=stats(b,SB); sPct=pct;
+  const P=peers().toUpperCase();
+  el.innerHTML=`<div class="label">TODAY'S STAMPEDE RANKING</div>
+    <div class="pct">${pct>=99?`TOP 1% OF ${P}`:pct<=0?"JUST GETTING STARTED":`MORE POINTS THAN ${pct}% OF ${P}`}</div>
+    <div class="sub">vs ${live?`${n.toLocaleString()} ${peers()} today`:`typical ${peers()}`} · average ${Math.round(mean).toLocaleString()} pts · you ${sTotal.toLocaleString()} pts</div>
+    ${curveSVG(b,sTotal,SB,["0 pts","1,500","3,000+ pts"])}
+    <div class="src">${live? "<b>● LIVE</b> REAL PLAYERS' SCORES" : (liveN? `ESTIMATE · ONLY ${liveN} REAL SCORE${liveN===1?"":"S"} SO FAR` : "ESTIMATE · SIMULATED FROM TYPICAL ANSWERS")}</div>`;
+  $("sShare").textContent=stampShare();
+  if(pct>=93){ flash("#b44bff",.3); burst("#ffd23b",40,1.6); sfx.score(5); }
+}
+function stampShare(){
+  const em=[...sFound].sort((a,b)=>b.pts-a.pts).map(f=>TIERS[tierOf(f.pts)].emoji).join("");
+  return `🦓⚡ ZEBRA STAMPEDE #${sDayNum}\n${sFound.length} answers · ${sTotal.toLocaleString()} pts${em?"\n"+em:""}${sPct!==null?`\n${sPct>=99?"top 1%":"more than "+sPct+"%"} of ${peers()}`:""}\nzebradive.io`;
+}
+stampInfo();
+
 /* wiring */
 $("bDaily").onclick=()=>{ac(); startGame(true);};
 $("bPractice").onclick=()=>{ac(); startGame(false);};
+$("bStamp").onclick=()=>{ac(); startStampede();};
+$("sForm").addEventListener("submit",e=>{e.preventDefault(); stampSubmit();});
+$("sAnswer").addEventListener("input",()=>{ sfx.key(); $("sAnswer").classList.remove("shake"); });
+$("bSHome").onclick=()=>{ state="title"; titleInfo(); setHud(); showPanel("title"); if(zy>1) sinkTo(0); };
+$("bSCopy").onclick=async()=>{ try{ await navigator.clipboard.writeText($("sShare").textContent); $("bSCopy").textContent="COPIED!"; }catch(e){ $("bSCopy").textContent="SELECT TEXT ↑"; } setTimeout(()=>$("bSCopy").textContent="COPY RESULT",1800); };
 $("bAgain").onclick=()=>startGame(false);
 $("bHome").onclick=()=>{ state="title"; titleInfo(); setHud(); showPanel("title"); if(zy>1) sinkTo(0); };
 $("bNext").onclick=next;

@@ -52,3 +52,36 @@ grant execute on function public.score_histogram(date, text) to anon, authentica
 
 -- Optional: delete scores older than 90 days (run occasionally, or schedule with pg_cron).
 -- delete from public.zebra_scores where day < current_date - 90;
+
+
+-- ============================================================
+-- 4) DAILY STAMPEDE scores (one prompt for every field, 60 seconds, many answers).
+--    Same rules as above; totals can go higher, so buckets are 50 points wide.
+create table if not exists public.zebra_stampede (
+  id         bigint generated always as identity primary key,
+  day        date        not null,
+  field      text        not null check (field ~ '^(physician|pa|np|nurse|pharmacist|dentist|other)$'),
+  player     uuid        not null,
+  total      int         not null check (total between 0 and 20000),
+  created_at timestamptz not null default now(),
+  unique (day, field, player)
+);
+alter table public.zebra_stampede enable row level security;
+drop policy if exists "submit today's stampede" on public.zebra_stampede;
+create policy "submit today's stampede"
+  on public.zebra_stampede for insert to anon, authenticated
+  with check ( total between 0 and 20000 and day between current_date - 1 and current_date + 1 );
+grant insert on public.zebra_stampede to anon, authenticated;
+revoke select, update, delete on public.zebra_stampede from anon, authenticated;
+
+create or replace function public.stampede_histogram(p_day date, p_field text)
+returns table (bucket int, n bigint)
+language sql stable security definer set search_path = public
+as $$
+  select least(total / 50, 60) as bucket, count(*) as n
+  from public.zebra_stampede
+  where day = p_day and field = p_field
+  group by 1 order by 1;
+$$;
+revoke all on function public.stampede_histogram(date, text) from public;
+grant execute on function public.stampede_histogram(date, text) to anon, authenticated;

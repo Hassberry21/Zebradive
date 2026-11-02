@@ -193,6 +193,14 @@ button.btn.gold:hover{background:#ffe27a}
 .yfinal{margin:14px auto 0;max-width:440px;padding:10px 12px;border:2px solid rgba(180,75,255,.5);text-align:left;font-size:14px}
 .yfinal .row{display:flex;justify-content:space-between;gap:10px;padding:3px 0}
 .yfinal .was{opacity:.55;font-size:12px}
+.miss{margin:0 auto 14px;max-width:440px}
+.miss .mbtn{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;background:transparent;color:var(--gold);border:2px dashed rgba(255,210,59,.6);padding:8px 12px;cursor:pointer;min-height:40px}
+.miss .mbtn:hover{background:rgba(255,210,59,.08)}
+.miss form{display:flex;gap:8px;margin-top:4px}
+.miss input{flex:1;min-width:0;font-family:"Space Grotesk";font-size:16px;background:rgba(0,0,0,.4);color:#fff;border:2px solid rgba(255,255,255,.6);padding:8px 10px;outline:none}
+.miss input:focus{border-color:var(--gold)}
+.miss .mlbl{display:block;font-family:Silkscreen,monospace;font-size:11px;color:var(--muted);letter-spacing:1px;margin-bottom:4px;text-align:left}
+.miss .mok{font-family:Silkscreen,monospace;font-size:12px;color:var(--green);line-height:1.6}
 .later{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;opacity:.7;margin:4px 0 16px}
 .sumd{border-bottom:1px solid var(--line)}
 .sumd>summary{list-style:none;cursor:pointer;border-bottom:none}
@@ -307,6 +315,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <div class="label" style="margin-top:6px">YOUR ANSWERS</div>
   <div id="seFound" class="schips" style="margin-bottom:10px"></div>
   <details class="sumd" id="seAll"><summary class="sum"><span>⚡ SEE ALL ANSWERS FOR THIS PROMPT</span><span class="a" id="seMissed"></span></summary><div class="ans"></div></details>
+  <div id="sMiss" class="miss"></div>
   <pre id="sShare"></pre>
   <button class="btn" id="bSCopy">COPY RESULT</button>
   <button class="btn alt" id="bSHome">MENU</button>
@@ -319,6 +328,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <div class="verdict"><span class="n" id="rN"></span><span class="tiertag" id="rTag"></span></div>
   <div class="yours" id="rYours"></div>
   <div class="later">🔒 ANSWERS ARE REVEALED AT THE END OF THE DIVE</div>
+  <div id="rMiss" class="miss"></div>
   <button class="btn" id="bNext">▼ DIVE ON</button>
 </section>
 
@@ -24802,6 +24812,7 @@ const BANK = RAW.map(r=>{
 /* Synonyms: medical and plain-English forms are folded to one canonical form on BOTH sides,
    so "hypokalemia" = "low potassium", "renal" = "kidney", "syncope" = "fainting", etc. */
 const SYN = [
+ ["low k","low potassium"],["high k","high potassium"],["low na","low sodium"],["high na","high sodium"],["low mg","low magnesium"],["high mg","high magnesium"],["low ca","low calcium"],["high ca","high calcium"],["low phos","low phosphate"],["high phos","high phosphate"],["low o2","low oxygen"],["low sat","low oxygen"],
  ["hypokalemia","low potassium"],["hyperkalemia","high potassium"],["hyponatremia","low sodium"],["hypernatremia","high sodium"],
  ["hypocalcemia","low calcium"],["hypercalcemia","high calcium"],["hypomagnesemia","low magnesium"],["hypermagnesemia","high magnesium"],
  ["hypophosphatemia","low phosphate"],["hyperphosphatemia","high phosphate"],["low phosphorus","low phosphate"],["high phosphorus","high phosphate"],
@@ -24823,14 +24834,14 @@ const SYN = [
  ["paracetamol","acetaminophen"],["tylenol","acetaminophen"],["advil","ibuprofen"],["motrin","ibuprofen"],
 ];
 const SYN_RE = SYN.map(([a,b])=>[new RegExp("(^| )"+a+"(?= |$)","g"), "$1"+b]);
-function norm(s, strip){
+function norm(s, strip, noSyn){
   let t = s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/&/g," and ").replace(/['’`.]/g,"").replace(/[^a-z0-9]+/g," ").trim();
-  t = t.replace(/^(a|an|the) /,"").replace(/colour/g,"color").replace(/haem/g,"hem").replace(/oesophag/g,"esophag").replace(/anaem/g,"anem").replace(/paed/g,"ped").replace(/oestr/g,"estr").replace(/foet/g,"fet");
+  t = t.replace(/^(a|an|the) /,"").replace(/colour/g,"color").replace(/haem/g,"hem").replace(/oesophag/g,"esophag").replace(/anaem/g,"anem").replace(/paed/g,"ped").replace(/oestr/g,"estr").replace(/foet/g,"fet").replace(/aemi/g,"emi").replace(/\b(hypo|hyper) (?=[a-z]{3})/g,"$1").replace(/(kal|natr|calc|magnes|phosphat|glyc|lip|capn|ox|vol|album|bilirubin|uric|chlor)emic\b/g,"$1emia");
   let words = t.split(" ").filter(Boolean);
   const kept = words.filter(w=>!strip.includes(w));
   if (kept.length) words = kept;
   t = words.join(" ");
-  for(const [re,rep] of SYN_RE) t = t.replace(re, rep);
+  if(!noSyn) for(const [re,rep] of SYN_RE) t = t.replace(re, rep);
   words = t.split(" ").filter(Boolean);
   words = words.map(w => (w.length>3 && w.endsWith("s") && !/(ss|us|is)$/.test(w)) ? w.slice(0,-1) : w);
   return words.join(" ");
@@ -24909,6 +24920,10 @@ function prep(p){
   const kb=new Map(); out.forEach(it=>it.keys.forEach(k=>{ (kb.get(k)||kb.set(k,[]).get(k)).push(it); }));
   for(const [k,its] of kb){ const u=[...new Set(its)]; if(u.length<2) continue; u.forEach(it=>{ it.dupKeys=(it.dupKeys||new Set()); it.dupKeys.add(k); }); }
   p.items=out;
+  p.items.forEach(it=>{ const alts=new Set();
+    it.names.forEach(n=>alts.add(norm(n,p.strip,true)));
+    it.keys.forEach(k=>{ for(const [a,b] of SYN) if((" "+k+" ").includes(" "+b+" ")) alts.add((" "+k+" ").replace(" "+b+" "," "+a+" ").trim()); });
+    it.keys.forEach(k=>alts.delete(k)); it.alts=[...alts].filter(x=>x.length>=3); });
 }
 BANK.forEach(prep);
 /* returns {type:"exact"|"suggest"|"none", item, display} */
@@ -24917,17 +24932,35 @@ function evaluate(p, raw){
   const cu=ckey(norm(raw,[])); if(cu) for(const it of p.items) if(it.ck.includes(cu)) return {type:"exact", item:it};
   for(const it of p.items) if(it.keys.includes(n)) return {type:"exact", item:it};
   const cn=ckey(n); if(cn) for(const it of p.items) if(it.ck.includes(cn)) return {type:"exact", item:it};
-  let best=null, bd=99, bname="";
-  for(const it of p.items) it.keys.forEach((k,ki)=>{
+  const n0 = norm(raw, p.strip, true);
+  let best=null, bd=99, bname="", second=99, bk="", raw_d=99;
+  const flip=(x,y)=>(/\bhypo/.test(x)&&/\bhyper|\bhigh/.test(y))||(/\bhyper/.test(x)&&/\bhypo|\blow/.test(y));
+  const consider=(it,q,k,nm)=>{
     if(k.length<3) return;
-    let d=dist(n,k);
+    let d=dist(q,k); const d0=d;
     // a truncated word ("pheochromo") or a longer phrase containing the answer ("acute myocardial infarction")
-    if(n.length>=4 && k.startsWith(n)) d=Math.min(d,1.5);
-    if(k.length>=5 && (" "+n+" ").includes(" "+k+" ")) d=Math.min(d,1.2);
-    if(d<bd || (d===bd && best && it.pts>best.pts)){bd=d;best=it;bname=it.names[ki];}
-  });
-  const tol = n.length<=3?0 : n.length<=5?1 : n.length<=8?2 : 3;
-  if(best && bd<=tol+0.5){ const show = dist(norm(bname,p.strip),norm(best.label,p.strip))<=2 ? best.label : bname; return {type:"suggest", item:best, display:display(show)}; }
+    if(q.length>=4 && k.startsWith(q)) d=Math.min(d,1.5);
+    if(k.length>=5 && (" "+q+" ").includes(" "+k+" ")) d=Math.min(d,1.2);
+    if(flip(q,k)) d+=2;                                   // never turn hypo- into hyper-
+    if(d<bd || (d===bd && best && it.pts>best.pts)){ if(best!==it) second=Math.min(second,bd); bd=d;best=it;bname=nm;bk=k;raw_d=d0; }
+    else if(it!==best) second=Math.min(second,d);
+  };
+  for(const it of p.items){
+    it.keys.forEach((k,ki)=>consider(it,n,k,it.names[ki]));
+    (it.alts||[]).forEach(k=>consider(it,n0,k,it.names[0]));
+  }
+  const L=Math.max(n.length,n0.length);
+  const tol = L<=3?0 : L<=5?1 : L<=8?2 : L<=12?3 : 4;
+  if(best && bd<=tol+0.5){
+    const show = dist(norm(bname,p.strip),norm(best.label,p.strip))<=2 ? best.label : bname;
+    const typo = raw_d===bd;   // a real spelling slip, not a longer/shorter phrase
+    const ROOT=/(kal|calc|natr|magnes|phosphat|chlor|glyc)/, rq=(n0.match(ROOT)||[])[1], rk=(bk.match(ROOT)||[])[1];
+    const qs=n0.split(" "), ks=bk.split(" "), tiny=qs.length===ks.length && qs.some((w,i)=>w!==ks[i] && (w.length<=2||ks[i].length<=2));
+    const risky = (rq&&rk&&rq!==rk) || tiny;       // vitamin a vs k, kalemia vs calcemia: ask instead
+    const sure = !risky && second-bd>=1 && !flip(n0,bk) && ((typo && bd<=1 && L>=5) || (typo && bd<=2 && L>=10) || (bd===1.5 && L>=7 && L>=0.6*bk.length));
+    if(rq&&rk&&rq!==rk) return {type:"none"};   // a different electrolyte/sugar term is a different answer
+    return {type: sure?"auto":"suggest", item:best, display:display(show)};
+  }
   return {type:"none"};
 }
 
@@ -27509,7 +27542,7 @@ function askRound(){
   $("pLabel").innerHTML=`PROMPT ${round+1} OF 7 &nbsp;${catChip(p)}`;
   $("q").textContent=p.q.toUpperCase();
   const inp=$("answer"); inp.value=""; inp.disabled=false;
-  pending=null; tries=0; lastWrong=""; $("hint").className="hint hidden";
+  pending=null; tries=0; lastWrong=""; roundWrong=[]; $("hint").className="hint hidden";
   showPanel("play"); inp.focus();
   endAt=Date.now()+SECS*1000; roundStart=Date.now(); lastSec=99; clearInterval(timerId); timerId=setInterval(tick,100); tick();
 }
@@ -27526,7 +27559,7 @@ function tryAnswer(){
   const inp=$("answer"), raw=inp.value.trim(); if(!raw) return;
   if(pending && pending.raw===raw) return finishRound(pending.item, raw, "ok");
   const r=evaluate(set[round], raw);
-  if(r.type==="exact") return finishRound(r.item, raw, "ok");
+  if(r.type==="exact"||r.type==="auto") return finishRound(r.item, raw, "ok");
   if(r.type==="suggest"){
     pending={raw,item:r.item}; sfx.hmm();
     hint(`DID YOU MEAN <b>${esc(r.display.toUpperCase())}</b>?<span class="opts"><button type="button" class="mini" id="bYes">YES ⏎</button><button type="button" class="mini alt" id="bNo">NO</button></span>`,"sug");
@@ -27534,7 +27567,7 @@ function tryAnswer(){
     $("bNo").onclick=sayNo;
     return;
   }
-  tries++; lastWrong=raw; pending=null; sfx.nope();
+  tries++; lastWrong=raw; roundWrong.push(raw); pending=null; sfx.nope();
   AnswerLog.add({day:gameDay,mode:modeTag(),field:gameProf,prompt:set[round].q,answer:null,guess:raw,pts:0,ok:false,ms:Date.now()-roundStart});
   hint(`✗ “${esc(raw.toUpperCase())}” ISN'T ON THE CHART. TRY AGAIN!`,"err");
   inp.classList.remove("shake"); void inp.offsetWidth; inp.classList.add("shake"); inp.select();
@@ -27574,6 +27607,7 @@ function showResult(p,raw,it,ti,reason){
   const tag=$("rTag"); tag.textContent=T.name; tag.style.color=T.color;
   $("rYours").innerHTML = it ? `You said “${esc(raw)}” → <span style="color:${T.color}">${esc(cap(it.label))}</span>. Your zebra sank ${it.pts*10} µm.`
                              : (reason==="timeout"? "The clock ran out" : "You passed") + (tries? ` after ${tries} wrong ${tries===1?"try":"tries"}.` : ".");
+  missBox("rMiss",{day:gameDay,mode:modeTag(),field:gameProf,prompt:p.q,prefill:roundWrong[roundWrong.length-1]||""});
   $("bNext").textContent = round===6? "▼ FINAL DEPTH" : "▼ DIVE ON";
   showPanel("result"); $("result").scrollTop=0; setTimeout(()=>$("bNext").focus({preventScroll:true}),50);
 }
@@ -27686,6 +27720,31 @@ async function showFinals(){
     (fin.s?row("⚡ Stampede",fin.s.total.toLocaleString()+" pts",fin.s.was!=null?fin.s.was.toLocaleString()+" pts":null,fin.s.pct):"")+`</div>`;
 }
 
+
+/* ===== CROWD-SOURCED ANSWERS: "We missed something?" =====
+   Players can send an answer they think should count. Suggestions are reviewed for accuracy
+   before anything is added to the answer lists, then scored by how many people thought of it. */
+function sendSuggestion(e){ if(!Scores.on()) return Promise.resolve(false);
+  return fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_suggestions",{method:"POST",headers:{...Scores.headers(),"Prefer":"return=minimal"},
+    body:JSON.stringify({day:e.day,mode:e.mode,field:e.field,player:playerId(),prompt:e.prompt,suggestion:String(e.suggestion).trim().slice(0,80)})})
+    .then(r=>{ if(!r.ok) r.text().then(x=>console.warn("[zebra] suggestion not saved:",r.status,x)); return r.ok; }).catch(()=>false);
+}
+function missBox(id, ctx){
+  const el=$(id); if(!el) return; if(!Scores.on()){ el.innerHTML=""; return; }
+  const sent=[];
+  const closed=()=>{ el.innerHTML=(sent.length?`<div class="mok">✓ THANKS! WE'LL REVIEW ${sent.map(s=>"“"+esc(s.toUpperCase())+"”").join(", ")} FOR THE ANSWER LIST.</div>`:"")+
+    `<button type="button" class="mbtn">${sent.length?"+ SUGGEST ANOTHER":"🦓 WE MISSED AN ANSWER?"}</button>`;
+    el.querySelector(".mbtn").onclick=open; };
+  const open=()=>{ const pre=(ctx.prefill&&!sent.includes(ctx.prefill))?ctx.prefill:"";
+    el.innerHTML=`<label class="mlbl" for="${id}In">AN ANSWER THAT SHOULD COUNT FOR THIS PROMPT</label><form autocomplete="off"><input id="${id}In" maxlength="80" placeholder="your answer_" value="${esc(pre)}" autocapitalize="off" spellcheck="false"><button class="btn small" type="submit">SEND</button></form>`;
+    const f=el.querySelector("form"), i=el.querySelector("input"); i.focus(); i.select();
+    i.addEventListener("keydown",e=>e.stopPropagation());
+    f.onsubmit=async e=>{ e.preventDefault(); const v=i.value.trim(); if(v.length<2) return;
+      i.disabled=true; await sendSuggestion({...ctx, suggestion:v}); sent.push(v); try{sfx.score(2);}catch(e){} closed(); }; };
+  closed();
+}
+let roundWrong=[];
+
 /* ===== DAILY STAMPEDE =====
    One prompt a day, the same for every field. 60 seconds to name as many answers as possible.
    Every answer scores its rarity points; the total is ranked against players in your field. */
@@ -27704,7 +27763,7 @@ function stampIdFor(idx){                       // longest-unplayed first; new p
   return Q.sched[idx];
 }
 const stampKey=d=>"zebra-stampede-"+d;
-let sP=null, sFound=[], sTotal=0, sEndAt=0, sTimer=null, sDay="", sDayNum=0, sProf=prof, sPct=null;
+let sWrong=[], sP=null, sFound=[], sTotal=0, sEndAt=0, sTimer=null, sDay="", sDayNum=0, sProf=prof, sPct=null;
 function stampNum(){ return dayIndex()-STAMP_START+1; }
 function stampInfo(){
   const done=store(stampKey(todayKey()));
@@ -27716,7 +27775,7 @@ function startStampede(){
   markers=[]; parts=[];
   const saved=store(stampKey(sDay));
   if(saved){ sFound=saved.found.map(f=>({...f})); sTotal=saved.total; state="stampEnd"; showPanel(null); sinkTo(Math.min(700,sTotal),()=>stampFinish(true)); return; }
-  sFound=[]; sTotal=0; state="stamp"; hud.score.textContent=0;
+  sFound=[]; sTotal=0; sWrong=[]; state="stamp"; hud.score.textContent=0;
   $("sLabel").innerHTML=`⚡ DAILY STAMPEDE #${sDayNum} · EVERY FIELD`;
   $("sQ").textContent=sP.q.toUpperCase();
   $("sFound").innerHTML=""; $("sCount").textContent=0; $("sPts").textContent=0;
@@ -27740,14 +27799,14 @@ function stampSubmit(){
   const inp=$("sAnswer"), raw=inp.value.trim(); if(!raw) return; inp.value="";
   const m=$("sMsg"), r=evaluate(sP, raw);
   const ms=Date.now()-(sEndAt-STAMP_SECS*1000);
-  if(r.type==="none"){ AnswerLog.add({day:sDay,mode:"stampede",field:sProf,prompt:sP.q,answer:null,guess:raw,pts:0,ok:false,ms}); m.className="smsg err"; m.textContent=`✗ “${raw.toUpperCase()}” ISN'T ON THE CHART`; sfx.nope();
+  if(r.type==="none"){ sWrong.push(raw); AnswerLog.add({day:sDay,mode:"stampede",field:sProf,prompt:sP.q,answer:null,guess:raw,pts:0,ok:false,ms}); m.className="smsg err"; m.textContent=`✗ “${raw.toUpperCase()}” ISN'T ON THE CHART`; sfx.nope();
     inp.classList.remove("shake"); void inp.offsetWidth; inp.classList.add("shake"); return; }
   const it=r.item;
   if(sFound.some(f=>f.label===it.label)){ m.className="smsg dup"; m.textContent=`ALREADY GOT ${cap(it.label).toUpperCase()}`; sfx.hmm(); return; }
   const f={label:it.label, pts:it.pts}; sFound.push(f); sTotal+=it.pts;
   AnswerLog.add({day:sDay,mode:"stampede",field:sProf,prompt:sP.q,answer:it.label,guess:raw,pts:it.pts,base:it.base,ok:true,ms});
   const ti=tierOf(it.pts), T=TIERS[ti];
-  m.className="smsg ok"; m.innerHTML=`${r.type==="suggest"?"≈ ":""}<span style="color:${T.color}">${esc(cap(it.label).toUpperCase())} +${it.pts}</span> ${T.name}`;
+  m.className="smsg ok"; m.innerHTML=`${r.type!=="exact"?"≈ ":""}<span style="color:${T.color}">${esc(cap(it.label).toUpperCase())} +${it.pts}</span> ${T.name}`;
   $("sFound").insertAdjacentHTML("afterbegin",chipHTML(f,true));
   $("sCount").textContent=sFound.length; $("sPts").textContent=sTotal; hud.score.textContent=sTotal;
   sfx.score(ti); burst(T.color,6+ti*6,.8+ti*.15); if(ti>=4){ flash("#b44bff",.25); shake=3; }
@@ -27789,6 +27848,7 @@ async function stampFinish(fromSave){
     const got=new Set(sFound.map(f=>f.label)), sorted=[...sP.items].sort((a,b)=>b.pts-a.pts);
     box.innerHTML=`<div class="ansn">${sorted.length} ANSWERS · DEEPEST FIRST · YOURS MARKED</div>`+sorted.map(x=>{const ti=tierOf(x.pts),c=TIERS[ti].color,me=got.has(x.label);
       return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>${x.share!=null?`<div class="shr">${pctTxt(x.share)} of players</div>`:""}`;}).join(""); };
+  missBox("sMiss",{day:sDay,mode:"stampede",field:sProf,prompt:sP.q,prefill:sWrong[sWrong.length-1]||""});
   $("seNext").innerHTML=`NEXT STAMPEDE IN <span class="cd">${hms(untilMidnight())}</span>`;
   sPct=null; $("sShare").textContent=stampShare(); $("bSCopy").textContent="COPY RESULT";
   showPanel("sEnd"); burst("#ffd23b",40,1.5); stampInfo();

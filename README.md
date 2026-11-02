@@ -44,3 +44,21 @@ Both values are safe to put in public code. The database only lets browsers *add
 - **Cheating:** scores come from the browser, so a determined person could submit a fake one (the database only accepts 0–700). If that becomes a problem, the fix is a server-side check of answers before saving.
 - **Content review:** the answer lists and rarity scores are estimates. Have faculty review them before using Zebra for coursework or research.
 - **Credit:** the rarity-scoring mechanic was inspired by Krillion. Zebra's name, art and content are its own.
+
+## Game source and the daily answer review
+
+The site's `index.html` is **built** from `src/`. Edit `src/`, then rebuild:
+
+```
+python3 src/build.py      # src/template.html + src/bank.js + src/crowd.js + src/stampede.js -> index.html
+node src/check.js         # safety check; must print OK before pushing
+```
+
+- `src/bank.js`: daily, practice and board prompts and the answer matching
+- `src/stampede.js`: Daily Stampede prompts
+- `src/crowd.js`: answers added from player suggestions (one `crowd(...)` line each)
+- `src/template.html`: the game page
+
+A scheduled review runs every night: it reads new suggestions (`zebra_suggestions`) and common
+wrong guesses (`zebra_miss_daily`) in Supabase, adds medically correct ones to `src/crowd.js`,
+rebuilds, runs the check, pushes, and records every decision in `zebra_review_log`.

@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zebra — dive deep, think zebras</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--purple:#b44bff;--purple2:#e3a8ff;--cyan:#3bd8ff;--green:#3bff6e;--red:#ff4b5c;--gold:#ffd23b;--line:rgba(255,255,255,.14);--muted:#a49dc0}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;overflow:hidden;background:#0c0a20;color:#fff;font-family:"Space Grotesk",system-ui,sans-serif;font-size:16px}
+canvas#world{position:fixed;inset:0;width:100vw;height:100vh;image-rendering:pixelated;image-rendering:crisp-edges}
+.hidden{display:none!important}
+#flash{position:fixed;inset:0;pointer-events:none;opacity:0}
+.pix{font-family:Silkscreen,monospace}
+
+/* HUD: one centered pill */
+#hud{position:fixed;top:14px;left:50%;transform:translateX(-50%);display:flex;gap:18px;align-items:center;white-space:nowrap;
+  font-family:Silkscreen,monospace;font-size:13px;letter-spacing:.5px;padding:8px 16px;background:rgba(12,10,32,.72);border:2px solid var(--line);backdrop-filter:blur(6px)}
+#hud b{font-weight:400;color:var(--gold)}
+#hud .sep{width:2px;height:14px;background:var(--line)}
+#mute{cursor:pointer;background:none;border:0;color:#fff;font:inherit;padding:0}
+@media (max-width:600px){#hud{font-size:11px;gap:10px;padding:7px 10px} #hud .hl{display:none}}
+
+/* cards: centered column */
+.panel{position:fixed;left:50%;top:66px;transform:translateX(-50%);width:min(540px,calc(100vw - 24px));max-height:calc(100vh - 170px);overflow:auto;
+  background:rgba(14,11,34,.9);backdrop-filter:blur(8px);border:3px solid #fff;box-shadow:0 0 0 3px rgba(0,0,0,.35),0 10px 0 rgba(0,0,0,.3);padding:22px 24px;text-align:center;animation:pop .2s steps(4)}
+@keyframes pop{from{transform:translateX(-50%) translateY(8px);opacity:0}to{transform:translateX(-50%);opacity:1}}
+.label{font-family:Silkscreen,monospace;font-size:11px;color:var(--muted);letter-spacing:1px;margin-bottom:10px;text-transform:uppercase}
+button.btn{font-family:Silkscreen,monospace;font-size:15px;background:#fff;color:#0c0a20;border:0;padding:12px 20px;cursor:pointer;box-shadow:0 4px 0 var(--purple);margin:6px 5px 0}
+button.btn:hover{background:var(--purple2)}
+button.btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--purple)}
+button.btn.alt{background:transparent;color:#fff;outline:2px solid rgba(255,255,255,.7);outline-offset:-2px;box-shadow:none}
+button.btn.alt:hover{background:rgba(255,255,255,.08)}
+button.btn.small{font-size:12px;padding:8px 12px;margin:0}
+
+/* title */
+.logo{font-family:"Press Start 2P",monospace;font-size:clamp(40px,11vw,68px);margin:6px 0 4px;letter-spacing:4px;
+  background:repeating-linear-gradient(100deg,#fff 0 9px,#14102c 9px 18px);-webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(3px 0 0 #fff) drop-shadow(-3px 0 0 #fff) drop-shadow(0 3px 0 #fff) drop-shadow(0 -3px 0 #fff) drop-shadow(0 6px 0 var(--purple))}
+.tagline{font-family:Silkscreen,monospace;font-size:13px;color:var(--purple2);margin:16px 0 18px;line-height:1.6;letter-spacing:.5px}
+.rules{text-align:left;list-style:none;padding:0;margin:0 auto 16px;max-width:430px;font-size:15px;line-height:1.45;color:#ddd8f0}
+.rules li{padding-left:20px;position:relative;margin:7px 0}
+.rules li:before{content:"";position:absolute;left:2px;top:7px;width:7px;height:7px;background:var(--purple)}
+.blink{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.legend{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin:4px 0 6px}
+.chip{font-family:Silkscreen,monospace;font-size:10px;padding:4px 7px;border:2px solid currentColor}
+
+/* play */
+#q{font-family:Silkscreen,monospace;font-size:clamp(20px,4.6vw,26px);line-height:1.3;margin:2px 0 18px}
+#timer{display:grid;grid-template-columns:repeat(20,1fr);gap:3px;margin:0 auto 16px;max-width:440px}
+#timer i{height:8px;background:#fff}
+#timer i.off{background:rgba(255,255,255,.12)}
+#timer.low i:not(.off){background:var(--red)}
+form{display:flex;gap:8px;max-width:440px;margin:0 auto}
+#answer,#sAnswer{flex:1;min-width:0;font-family:"Space Grotesk";font-size:20px;text-align:center;background:rgba(0,0,0,.4);color:#fff;border:2px solid rgba(255,255,255,.8);padding:10px 12px;outline:none;caret-color:var(--purple2)}
+#answer:focus,#sAnswer:focus{border-color:var(--purple2);box-shadow:0 0 0 3px rgba(180,75,255,.25)}
+form .btn{margin:0}
+.hint{margin:14px auto 0;max-width:440px;font-family:Silkscreen,monospace;font-size:13px;line-height:1.7;padding:10px 12px;border:2px solid}
+.hint b{font-weight:700;color:#fff}
+.hint.err{color:var(--red);border-color:var(--red);background:rgba(255,75,92,.08)}
+.hint.sug{color:var(--gold);border-color:var(--gold);background:rgba(255,210,59,.08)}
+.hint.info{color:var(--muted);border-color:var(--line)}
+.hint .opts{display:block;margin-top:6px}
+.mini{font-family:Silkscreen,monospace;font-size:12px;padding:6px 12px;margin:0 4px;background:var(--gold);color:#000;border:0;cursor:pointer}
+.mini.alt{background:transparent;color:#fff;outline:2px solid rgba(255,255,255,.7);outline-offset:-2px}
+#answer.shake,#sAnswer.shake{animation:shk .32s steps(6);border-color:var(--red)}
+@keyframes shk{0%,100%{transform:none}20%{transform:translateX(-8px)}40%{transform:translateX(8px)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}
+.passrow{margin-top:14px}
+
+/* popup + banner */
+#pop{position:fixed;left:50%;top:34%;transform:translate(-50%,-50%);text-align:center;pointer-events:none;opacity:0}
+#pop .n{font-family:"Press Start 2P";font-size:clamp(40px,9vw,68px);text-shadow:0 5px 0 rgba(0,0,0,.5)}
+#pop .t{font-family:Silkscreen,monospace;font-size:clamp(18px,4vw,26px);margin-top:12px;text-shadow:0 3px 0 rgba(0,0,0,.5)}
+#pop.go{animation:popup 1.7s steps(18) forwards}
+@keyframes popup{0%{opacity:0;transform:translate(-50%,-50%) scale(.4)}12%{opacity:1;transform:translate(-50%,-50%) scale(1.12)}22%{transform:translate(-50%,-50%) scale(1)}75%{opacity:1;transform:translate(-50%,-60%)}100%{opacity:0;transform:translate(-50%,-85%)}}
+.shimmer{animation:shim .5s steps(2) infinite}
+@keyframes shim{0%{color:var(--purple2)}50%{color:var(--gold)}}
+#banner{position:fixed;left:50%;transform:translateX(-50%);bottom:7%;text-align:center;white-space:nowrap;background:rgba(12,10,32,.8);border:2px solid rgba(255,255,255,.25);padding:8px 14px;font-family:Silkscreen,monospace;font-size:16px;letter-spacing:1px;pointer-events:none;opacity:0;text-shadow:0 3px 0 rgba(0,0,0,.6)}
+#banner.go{animation:ban 2s steps(10) forwards}
+@keyframes ban{0%,100%{opacity:0}10%,80%{opacity:1}}
+
+/* result */
+.verdict{display:flex;align-items:center;justify-content:center;gap:14px;margin:2px 0 6px}
+.verdict .n{font-family:"Press Start 2P";font-size:30px}
+.tiertag{font-family:Silkscreen,monospace;font-size:13px;padding:5px 9px;border:2px solid currentColor}
+.yours{font-size:15px;color:#cfc9e6;margin:8px 0 16px;line-height:1.45}
+.rows{margin:0 0 14px;text-align:left}
+.r{display:grid;grid-template-columns:1fr 90px 34px;align-items:center;gap:10px;padding:5px 8px;font-size:15px}
+.r .nm{min-width:0;overflow-wrap:anywhere}
+.r .bar{height:6px;background:rgba(255,255,255,.1)}
+.r .bar i{display:block;height:100%}
+.r .p{font-family:Silkscreen,monospace;font-size:13px;text-align:right}
+.r.z{background:rgba(180,75,255,.16);box-shadow:inset 3px 0 0 var(--purple)}
+.r.z .nm{color:var(--purple2)}
+.r.me{outline:2px solid var(--gold);outline-offset:-2px}
+.r.me .nm:after{content:"  ◀ YOU";color:var(--gold);font-family:Silkscreen,monospace;font-size:11px}
+
+/* ranking bell curve */
+.ranking{margin:6px 0 14px;padding:14px 12px 10px;border:2px solid var(--line);background:rgba(0,0,0,.25)}
+.ranking .pct{font-family:"Press Start 2P";font-size:clamp(15px,3.6vw,20px);line-height:1.5;color:var(--gold);text-shadow:0 3px 0 rgba(0,0,0,.5)}
+.ranking .sub{font-size:14px;color:#cfc9e6;margin:6px 0 10px}
+.ranking svg{display:block;width:100%;height:auto;overflow:visible}
+.ranking .src{font-family:Silkscreen,monospace;font-size:10px;letter-spacing:.5px;color:var(--muted);margin-top:8px}
+.ranking .src b{color:var(--cyan);font-weight:400}
+.ranking .loading{font-family:Silkscreen,monospace;font-size:12px;color:var(--muted);padding:20px 0}
+/* career title */
+.career{margin:0 0 16px;padding-bottom:14px;border-bottom:2px dashed var(--line)}
+.career .badge{display:inline-flex;align-items:center;gap:10px;font-family:"Press Start 2P";font-size:clamp(14px,3.6vw,19px);color:#0c0a20;background:var(--gold);padding:10px 14px;box-shadow:0 4px 0 #b8860b;margin:2px 0 10px;animation:pop .3s steps(4)}
+.career .ico{font-size:20px;line-height:1}
+.career .quip{font-size:14px;color:#cfc9e6;margin-bottom:12px}
+.career .rungs{display:grid;grid-template-columns:repeat(9,1fr);gap:4px;max-width:320px;margin:0 auto}
+.career .rungs i{height:8px;background:rgba(255,255,255,.12)}
+.career .rungs i.done{background:var(--purple)}
+.career .rungs i.now{background:var(--gold);box-shadow:0 0 0 2px rgba(255,210,59,.35)}
+.career .next{font-family:Silkscreen,monospace;font-size:10px;color:var(--muted);margin-top:8px;letter-spacing:.5px}
+.next-daily{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:.5px;color:var(--muted);margin-top:14px}
+.next-daily .cd,#tInfo .cd{color:var(--gold)}
+.profpick{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:0 0 14px}
+.prof{font-family:Silkscreen,monospace;font-size:12px;background:transparent;color:#ddd8f0;border:2px solid rgba(255,255,255,.25);padding:6px 9px;cursor:pointer}
+.prof:hover{border-color:#fff}
+.prof.on{background:var(--purple);border-color:var(--purple2);color:#fff;box-shadow:0 3px 0 #5a2390}
+.cat{font-family:Silkscreen,monospace;font-size:10px;letter-spacing:.5px;padding:2px 6px;border:2px solid;white-space:nowrap}
+.streak{display:inline-block;font-family:Silkscreen,monospace;font-size:13px;letter-spacing:.5px;color:#ffb35c;border:2px solid #ff9a3b;background:rgba(255,140,40,.1);padding:6px 12px;margin:2px 0 10px;line-height:1.5}
+.streak small{font-size:10px;color:#ffd9a8}
+.streak.risk{animation:pulse2 1.2s steps(2) infinite}
+.streak.off{color:var(--muted);border-color:var(--line);background:none;font-size:11px}
+.streak.grew{animation:pop .4s steps(4)}
+.streak .fire{display:inline-block;animation:flick .5s steps(2) infinite}
+@keyframes flick{50%{transform:scale(1.15) rotate(-6deg)}}
+@keyframes pulse2{50%{border-color:#fff}}
+/* end */
+.big{font-family:"Press Start 2P";font-size:clamp(24px,6vw,36px);margin:8px 0;color:var(--purple2);text-shadow:0 4px 0 rgba(0,0,0,.5)}
+h2{font-family:Silkscreen,monospace;font-size:20px;margin:0 0 4px;font-weight:700}
+.sum{display:grid;grid-template-columns:1fr auto;gap:10px;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;text-align:left}
+.sum .a{text-align:right}
+
+.stampbox{margin:16px auto 4px;padding:12px 12px 10px;border:2px dashed rgba(255,210,59,.55);max-width:440px}
+button.btn.gold{background:var(--gold);box-shadow:0 4px 0 #b8860b}
+button.btn.gold:hover{background:#ffe27a}
+#sQ{font-family:Silkscreen,monospace;font-size:clamp(19px,4.4vw,25px);line-height:1.3;margin:2px 0 12px}
+.sclock{display:flex;align-items:center;gap:10px;max-width:440px;margin:0 auto 14px}
+#sClock{font-family:"Press Start 2P",monospace;font-size:18px;color:var(--gold);min-width:44px;text-align:right}
+#sClock.low{color:var(--red)}
+.sbar{flex:1;height:10px;background:rgba(255,255,255,.12)}
+.sbar i{display:block;height:100%;width:100%;background:var(--gold);transition:width .1s linear}
+.smsg{font-family:Silkscreen,monospace;font-size:13px;min-height:20px;margin:10px 0 6px}
+.smsg.ok{color:var(--green,#7dff9e)} .smsg.err{color:var(--red)} .smsg.dup{color:var(--muted)}
+.sstats{display:flex;justify-content:center;gap:22px;font-family:Silkscreen,monospace;font-size:12px;opacity:.85;margin-bottom:8px}
+.sstats b{font-family:"Press Start 2P",monospace;font-size:14px;color:#fff;margin-right:4px}
+.schips{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-height:190px;overflow-y:auto}
+#seFound.schips{max-height:none}
+.chip{font-size:13px;padding:4px 8px;border:2px solid;background:rgba(0,0,0,.25);white-space:nowrap}
+.chip b{font-family:Silkscreen,monospace;font-size:11px;margin-left:6px}
+.chip.pop{animation:chipin .35s ease-out}
+@keyframes chipin{from{transform:scale(1.35);opacity:0}to{transform:scale(1);opacity:1}}
+#sShare{white-space:pre-wrap}
+.shr{font-family:Silkscreen,monospace;font-size:10px;opacity:.55;margin:-4px 8px 4px;text-align:right}
+.prov{font-family:Silkscreen,monospace;font-size:10px;letter-spacing:.5px;opacity:.6;margin-top:6px;line-height:1.5}
+.yfinal{margin:14px auto 0;max-width:440px;padding:10px 12px;border:2px solid rgba(180,75,255,.5);text-align:left;font-size:14px}
+.yfinal .row{display:flex;justify-content:space-between;gap:10px;padding:3px 0}
+.yfinal .was{opacity:.55;font-size:12px}
+.miss{margin:0 auto 14px;max-width:440px}
+.miss .mbtn{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;background:transparent;color:var(--gold);border:2px dashed rgba(255,210,59,.6);padding:8px 12px;cursor:pointer;min-height:40px}
+.miss .mbtn:hover{background:rgba(255,210,59,.08)}
+.miss form{display:flex;gap:8px;margin-top:4px}
+.miss input{flex:1;min-width:0;font-family:"Space Grotesk";font-size:16px;background:rgba(0,0,0,.4);color:#fff;border:2px solid rgba(255,255,255,.6);padding:8px 10px;outline:none}
+.miss input:focus{border-color:var(--gold)}
+.miss .mlbl{display:block;font-family:Silkscreen,monospace;font-size:11px;color:var(--muted);letter-spacing:1px;margin-bottom:4px;text-align:left}
+.miss .mok{font-family:Silkscreen,monospace;font-size:12px;color:var(--green);line-height:1.6}
+.later{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;opacity:.7;margin:4px 0 16px}
+.sumd{border-bottom:1px solid var(--line)}
+.sumd>summary{list-style:none;cursor:pointer;border-bottom:none}
+.sumd>summary::-webkit-details-marker{display:none}
+.sumd>summary>span:first-child::after{content:"  ▾ SEE ANSWERS";font-family:Silkscreen,monospace;font-size:10px;opacity:.6;white-space:nowrap}
+.sumd[open]>summary>span:first-child::after{content:"  ▴ HIDE"}
+.sumd .ans{max-height:300px;overflow-y:auto;margin:0 0 10px;text-align:left}
+.ansn{font-family:Silkscreen,monospace;font-size:10px;opacity:.6;margin:2px 8px 6px}
+
+pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgba(0,0,0,.35);border:2px dashed rgba(255,255,255,.25);padding:10px;margin:14px 0 6px;white-space:pre-wrap}
+.fine{font-size:13px;color:#8a83a8;margin-top:12px;line-height:1.4}
+@media (max-width:600px){ .panel{padding:16px} .r{grid-template-columns:1fr 54px 30px;font-size:14px;gap:6px} }
+</style>
+</head>
+<body>
+<canvas id="world"></canvas>
+<div id="flash"></div>
+
+<div id="hud">
+  <span>DEPTH <b id="hDepth">0</b>µm</span><span class="sep hl"></span>
+  <span class="hl">LAYER <b id="hLayer">SURFACE</b></span><span class="sep"></span>
+  <span>SCORE <b id="hScore">0</b></span><span class="sep"></span>
+  <span id="hRound">—</span><span class="sep"></span>
+  <button id="mute" title="Sound">♪ ON</button>
+</div>
+
+<!-- TITLE -->
+<section class="panel" id="title">
+  <div class="logo">ZEBRA</div>
+  <div class="tagline">HOOFBEATS? THINK ZEBRAS.<br>THE DAILY DIVE FOR EVERY HEALTHCARE PRO.</div>
+  <ul class="rules">
+    <li>Pick your field and mode. Each gets its own 7 new prompts every midnight, the same for everyone.</li>
+    <li>20 seconds a prompt. Wrong answers don't end the round, so keep guessing or PASS. Typos get a "Did you mean…?"</li>
+    <li>Obvious answers barely move you. Rare ones send your zebra diving deep, from skin to genome.</li>
+    <li>Finish to see how you rank against other divers and earn your career title.</li>
+  </ul>
+  <div class="label" style="margin-top:6px">CHOOSE YOUR FIELD</div>
+  <div class="profpick" id="profPick"></div>
+  <div class="label">MODE</div>
+  <div class="profpick" id="modePick" style="margin-bottom:6px"></div>
+  <div class="fine" id="modeDesc" style="margin:0 0 14px"></div>
+  <div class="legend" id="legend"></div>
+  <div style="margin-top:14px">
+    <button class="btn" id="bDaily"><span class="blink">▶</span> PRESS START</button>
+    <button class="btn alt" id="bPractice">PRACTICE</button>
+  </div>
+  <div class="stampbox">
+    <div class="label" style="margin:0 0 4px">⚡ NEW · DAILY STAMPEDE</div>
+    <div class="fine" style="margin:0 0 8px">ONE PROMPT FOR EVERY FIELD. 60 SECONDS. NAME AS MANY ANSWERS AS YOU CAN. EVERY ANSWER SCORES, RARE ONES SCORE MORE.</div>
+    <button class="btn gold" id="bStamp">⚡ STAMPEDE</button>
+    <div class="fine" id="sInfo"></div>
+  </div>
+  <div id="tStreak"></div>
+  <div id="tFinal"></div>
+  <div class="fine" id="tInfo"></div>
+</section>
+
+<!-- PLAY -->
+<section class="panel hidden" id="play">
+  <div class="label" id="pLabel"></div>
+  <div id="q"></div>
+  <div id="timer"></div>
+  <form id="form" autocomplete="off">
+    <input id="answer" placeholder="type answer_" autocapitalize="off" spellcheck="false">
+    <button class="btn" type="submit">GO</button>
+  </form>
+  <div id="hint" class="hint hidden"></div>
+  <div class="passrow"><button type="button" class="btn alt small" id="bPass">PASS ▶</button></div>
+</section>
+
+<!-- STAMPEDE PLAY -->
+<section class="panel hidden" id="stamp">
+  <div class="label" id="sLabel"></div>
+  <div id="sQ"></div>
+  <div class="sclock"><span id="sClock">60</span><span class="sbar"><i id="sBar"></i></span></div>
+  <form id="sForm" autocomplete="off">
+    <input id="sAnswer" placeholder="type, enter, repeat_" autocapitalize="off" spellcheck="false">
+    <button class="btn" type="submit">GO</button>
+  </form>
+  <div id="sMsg" class="smsg">&nbsp;</div>
+  <div class="sstats"><span><b id="sCount">0</b> ANSWERS</span><span><b id="sPts">0</b> PTS</span></div>
+  <div id="sFound" class="schips"></div>
+</section>
+
+<!-- STAMPEDE END -->
+<section class="panel hidden" id="sEnd">
+  <div class="label" id="seLabel"></div>
+  <h2>STAMPEDE COMPLETE</h2>
+  <div class="big" id="seTotal"></div>
+  <div class="yours" id="seSub" style="margin-top:0"></div>
+  <div id="sRanking" class="ranking"></div>
+  <div class="label" style="margin-top:6px">YOUR ANSWERS</div>
+  <div id="seFound" class="schips" style="margin-bottom:10px"></div>
+  <details class="sumd" id="seAll"><summary class="sum"><span>⚡ SEE ALL ANSWERS FOR THIS PROMPT</span><span class="a" id="seMissed"></span></summary><div class="ans"></div></details>
+  <div id="sMiss" class="miss"></div>
+  <pre id="sShare"></pre>
+  <button class="btn" id="bSCopy">COPY RESULT</button>
+  <button class="btn alt" id="bSHome">MENU</button>
+  <div class="fine" id="seNext" style="margin-top:12px"></div>
+</section>
+
+<!-- RESULT -->
+<section class="panel hidden" id="result">
+  <div class="label" id="rLabel"></div>
+  <div class="verdict"><span class="n" id="rN"></span><span class="tiertag" id="rTag"></span></div>
+  <div class="yours" id="rYours"></div>
+  <div class="later">🔒 ANSWERS ARE REVEALED AT THE END OF THE DIVE</div>
+  <div id="rMiss" class="miss"></div>
+  <button class="btn" id="bNext">▼ DIVE ON</button>
+</section>
+
+<!-- END -->
+<section class="panel hidden" id="end">
+  <div class="label" id="eLabel"></div>
+  <h2>DIVE COMPLETE</h2>
+  <div class="big" id="eDepth"></div>
+  <div class="yours" id="eRank" style="margin-top:0"></div>
+  <div id="eStreak"></div>
+  <div id="ranking" class="ranking"></div>
+  <div id="eSum"></div>
+  <pre id="share"></pre>
+  <button class="btn" id="bCopy">COPY RESULT</button>
+  <button class="btn alt" id="bAgain">PRACTICE</button>
+  <button class="btn alt" id="bHome">HOME</button>
+  <div class="next-daily" id="nextDaily"></div>
+  <div class="fine">Rarity scores are hand-estimated. For learning and fun, not medical advice.</div>
+</section>
+
+<div id="pop"><div class="n" id="popN"></div><div class="t" id="popT"></div></div>
+<div id="banner"></div>
+
+<script>
+/*LOGIC*/
+
+/* ===== TIERS ===== */
+const TIERS=[
+ {name:"FLATLINE",color:"#ff3b3b",emoji:"⬛"},
+ {name:"HORSE",color:"#ffffff",emoji:"⬜"},
+ {name:"PONY",color:"#3bff6e",emoji:"🟩"},
+ {name:"RARE",color:"#3bd8ff",emoji:"🟦"},
+ {name:"ZEBRA!",color:"#b44bff",emoji:"🟪"},
+ {name:"LEGENDARY ZEBRA",color:"#e3a8ff",emoji:"🦓"},
+];
+const tierOf=p=>p<=0?0:p>=95?5:p>=75?4:p>=50?3:p>=25?2:1;
+
+/* ===== WORLD ===== */
+const LAYERS=[
+ {y:0,  name:"EPIDERMIS",c1:"#f0b48c",c2:"#d4906a",c3:"#ffd0b0"},
+ {y:30, name:"DERMIS",   c1:"#e07a84",c2:"#bf5464",c3:"#ff9eaa"},
+ {y:80, name:"FAT",      c1:"#f0d870",c2:"#c9a73e",c3:"#fff0a0"},
+ {y:150,name:"MUSCLE",   c1:"#a82434",c2:"#7c1626",c3:"#d0404e"},
+ {y:240,name:"BONE",     c1:"#e6dec6",c2:"#bcae8c",c3:"#fffaea"},
+ {y:330,name:"MARROW",   c1:"#701a2e",c2:"#4e0e20",c3:"#9a2840"},
+ {y:430,name:"CELL",     c1:"#1a6670",c2:"#0f4850",c3:"#2a8a94"},
+ {y:530,name:"NUCLEUS",  c1:"#3a1c74",c2:"#261050",c3:"#5a34a0"},
+ {y:620,name:"GENOME",   c1:"#0e0a1e",c2:"#16102e",c3:"#241a44"},
+];
+const SKY=140, BOTTOM=780;
+const cv=document.getElementById("world"), ctx=cv.getContext("2d");
+let PX=4,W=0,H=0, worldCv=null;
+function layerAt(y){ let L=null; for(const l of LAYERS) if(y>=l.y) L=l; return L; }
+function hash(x,y,s=0){ let h=(x*374761393+y*668265263+s*1442695041)|0; h=Math.imul(h^(h>>>13),1274126177); return ((h^(h>>>16))>>>0)/4294967296; }
+
+function buildWorld(){
+  const w=W, h=SKY+BOTTOM;
+  worldCv=document.createElement("canvas"); worldCv.width=w; worldCv.height=h;
+  const g=worldCv.getContext("2d");
+  const R=(x,y,ww,hh,c)=>{g.fillStyle=c;g.fillRect(Math.round(x),Math.round(y+SKY),ww,hh)}, P=(x,y,c)=>R(x,y,1,1,c);
+  const hex=c=>[parseInt(c.slice(1,3),16),parseInt(c.slice(3,5),16),parseInt(c.slice(5,7),16)];
+  const mix=(a,b,t)=>{a=hex(a);b=hex(b);return `rgb(${a.map((v,i)=>Math.round(v+(b[i]-v)*t)).join(",")})`;};
+  // sky: 6 clean bands + a few stars
+  for(let i=0;i<6;i++) R(0,-SKY+i*SKY/6,w,Math.ceil(SKY/6),mix("#0c0a20","#2a1f4e",i/5));
+  for(let i=0;i<w/14;i++) P(hash(i,1,7)*w, -SKY+hash(i,2,7)*(SKY-20), "rgba(255,255,255,.75)");
+  // body layers: each is a stepped (banded) gradient, light at top to darker below
+  LAYERS.forEach((L,i)=>{ const top=L.y, bot=(LAYERS[i+1]?.y)??BOTTOM, hgt=bot-top, steps=5;
+    for(let s=0;s<steps;s++) R(0,top+hgt*s/steps,w,Math.ceil(hgt/steps)+1,mix(L.c1,L.c2,s/(steps-1)));
+    R(0,top,w,1,L.c3); });
+  // decorations: sparse, evenly spaced, lightly jittered
+  const every=(gap,fn)=>{ let k=0; for(let x=gap/2;x<w;x+=gap){ fn(x+(hash(k,3,9)-.5)*gap*.6, k); k++; } };
+  every(9,(x,k)=>{ const l=3+(hash(k,4)*5|0); for(let j=1;j<=l;j++) P(x,-j,"#4a2c1c"); });                       // hairs
+  every(46,(x,k)=>{ const y=40+hash(k,5)*30; for(let j=0;j<28;j++) P(x+j-14,y+Math.round(Math.sin(j/4)*2),"rgba(255,60,80,.7)"); }); // capillaries
+  every(22,(x,k)=>{ const cy=95+hash(k,6)*42, r=6; for(let a=0;a<6.28;a+=.2) P(x+Math.cos(a)*r,cy+Math.sin(a)*r,"rgba(150,110,30,.55)"); }); // fat cells
+  for(let y=160;y<236;y+=8) R(0,y,w,1,"rgba(60,0,10,.35)");                                                       // muscle fibres
+  every(26,(x,k)=>{ const cy=255+hash(k,7)*60; for(let a=0;a<6.28;a+=.35) P(x+Math.cos(a)*3,cy+Math.sin(a)*3,"rgba(120,100,70,.6)"); P(x,cy,"rgba(80,60,40,.7)"); }); // osteons
+  every(14,(x,k)=>{ const y=345+hash(k,8)*70; R(x,y,3,3,"#e0384a"); P(x+1,y+1,"#8a1426"); });                     // red blood cells
+  every(34,(x,k)=>{ const y=445+hash(k,9)*70; R(x,y,8,3,"rgba(80,230,160,.8)"); R(x+1,y+1,6,1,"rgba(20,90,60,.8)"); }); // mitochondria
+  every(7,(x,k)=>{ P(x,540+hash(k,10)*70,"rgba(170,130,255,.55)"); });                                         // chromatin
+  for(let band=0;band<3;band++){ const by=650+band*40;                                                          // DNA
+    for(let x=0;x<w;x++){ const a=Math.round(Math.sin(x/8+band*2)*7);
+      if(x%6===0) R(x,by-Math.abs(a),1,Math.abs(a)*2,"rgba(140,120,200,.45)");
+      P(x,by+a,"#3bd8ff"); P(x,by-a,"#ff5bd8"); } }
+}
+
+/* zebra sprite (hand-drawn pixel map, auto-outlined) */
+const ZTOP=[
+"................kk.k....",
+"...............kwkkwk...",
+"..............kkwwwwk...",
+".............kwkwwkwwk..",
+"............kwkwk.kwwwk.",
+"...........kwkwk..kwwwwk",
+"..........kwkwk....kwkkk",
+".........kwkwk......kkk.",
+"..kkkkkkkwwwwk..........",
+".kwwkwwkwwkwwk..........",
+"kkwwkwwkwwkwwk..........",
+"k.kwwkwwkwwkwk..........",
+"k.kwwkwwkwwkwk..........",
+"...kkkkkkkkkk..........."];
+const ZLEGS=[[
+"...wk.wk..wk.wk.........",
+"...kw.kw..kw.kw.........",
+"...wk.wk..wk.wk.........",
+"...kk.kk..kk.kk........."],[
+"...wk.wk..wk.wk.........",
+"..kw...kwkw...kw........",
+".wk.....wk.....wk.......",
+".kk.....kk.....kk......."]];
+function zebraFrame(f){
+  const rows=[...ZTOP,...ZLEGS[f]], Ht=rows.length+2, Wd=26;
+  const g=[...Array(Ht)].map(()=>Array(Wd).fill(0));
+  rows.forEach((r,y)=>[...r].forEach((ch,x)=>{ if(ch!==".") g[y+1][x+1]= ch==="w"?1:2; }));
+  const o=g.map(r=>r.slice());
+  for(let y=0;y<Ht;y++) for(let x=0;x<Wd;x++) if(!g[y][x]) for(const[dx,dy] of[[1,0],[-1,0],[0,1],[0,-1]]) if(g[y+dy]?.[x+dx]===1) o[y][x]=2;
+  const c=document.createElement("canvas");c.width=Wd;c.height=Ht;const cx=c.getContext("2d");
+  o.forEach((r,y)=>r.forEach((v,x)=>{if(v){cx.fillStyle=v===1?"#fff":"#000";cx.fillRect(x,y,1,1)}}));
+  return c;
+}
+const ZF=[zebraFrame(0),zebraFrame(1)];
+
+function resize(){
+  PX = innerWidth<600?3:4;
+  W=Math.ceil(innerWidth/PX); H=Math.ceil(innerHeight/PX);
+  cv.width=W; cv.height=H; buildWorld();
+}
+addEventListener("resize",resize); resize();
+
+/* ===== ANIMATION STATE ===== */
+let ZX=0, zy=0, camY=-H*0.6, tween=null, shake=0, flashA=0, flashC="#fff", parts=[], markers=[], lastLayer="SURFACE", moving=false;
+function sinkTo(target,onDone){
+  const from=zy, dist=Math.abs(target-from), dur=Math.min(2600,500+dist*9), t0=performance.now();
+  tween={from,target,dur,t0,onDone}; moving=true;
+}
+function burst(color,n,spread=1){
+  for(let i=0;i<n;i++){const a=Math.random()*6.283,s=(.4+Math.random()*1.8)*spread;
+    parts.push({x:ZX+Math.random()*10-5,y:zy-8,vx:Math.cos(a)*s,vy:Math.sin(a)*s-1,life:40+Math.random()*40,c:color});}
+}
+function flash(color,a){ flashC=color; flashA=a; }
+
+let lastT=0, frame=0;
+function loop(t){
+  const dt=Math.min(50,t-lastT||16); lastT=t; frame++;
+  if(tween){ let k=Math.min(1,(t-tween.t0)/tween.dur); const e=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
+    zy=tween.from+(tween.target-tween.from)*e;
+    if(frame%3===0 && moving) parts.push({x:ZX+(Math.random()*16-8),y:zy-12,vx:0,vy:-.6-Math.random()*.6,life:30,c:"rgba(255,255,255,.8)"});
+    if(k>=1){const cb=tween.onDone; tween=null; moving=false; cb&&cb();} }
+  ZX = Math.round(W/2);
+  const vis=["title","play","result","end","stamp","sEnd"].map(id=>document.getElementById(id)).find(el=>!el.classList.contains("hidden"));
+  const focus = vis ? Math.min(.9, Math.max(.55,(vis.getBoundingClientRect().bottom+110)/innerHeight)) : .62;
+  const targetCam = zy - H*focus;
+  camY += (targetCam-camY)*.08;
+  // layer change
+  const L = zy<1? "SURFACE" : layerAt(zy).name;
+  if(L!==lastLayer){ lastLayer=L; hud.layer.textContent=L;
+    if(state!=="title" && zy>1 && tween && tween.target>tween.from){ banner("▼ ENTERING "+L+" ▼"); sfx.layer(); } }
+  hud.depth.textContent=Math.round(Math.max(0,zy)*10).toLocaleString();
+
+  // draw
+  const sx = shake>0? (Math.random()*2-1)*shake|0 : 0, sy = shake>0?(Math.random()*2-1)*shake|0:0; shake*=.88; if(shake<.5) shake=0;
+  ctx.fillStyle="#0c0a20"; ctx.fillRect(0,0,W,H);
+  const srcY = Math.round(camY)+SKY;
+  ctx.drawImage(worldCv,0,srcY,W,H,sx,sy,W,H);
+  // depth ruler
+  for(let dpt=0; dpt<=700; dpt+=25){ const y=dpt-Math.round(camY)+sy; if(y<0||y>H) continue;
+    ctx.fillStyle= dpt%100===0?"#fff":"rgba(255,255,255,.5)"; ctx.fillRect(sx,y, dpt%100===0?6:3,1); }
+  // markers from earlier answers
+  for(const m of markers){ const y=m.d-Math.round(camY)+sy; ctx.fillStyle="#000"; ctx.fillRect(W-9+sx,y-2,7,5); ctx.fillStyle=m.c; ctx.fillRect(W-8+sx,y-1,5,3); }
+  // particles
+  for(const p of parts){ p.x+=p.vx; p.y+=p.vy; p.vy+=.03; p.life--; ctx.fillStyle=p.c; ctx.fillRect(Math.round(p.x)+sx, Math.round(p.y-camY)+sy, p.life>20?2:1, p.life>20?2:1); }
+  parts=parts.filter(p=>p.life>0);
+  // zebra
+  const f = (moving? (frame>>3)&1 : (frame>>5)&1);
+  const bob = moving?0: Math.round(Math.sin(t/400));
+  ctx.drawImage(ZF[f], ZX-13+sx, Math.round(zy-17-camY)+bob+sy);
+  // flash
+  if(flashA>0){ document.getElementById("flash").style.background=flashC; document.getElementById("flash").style.opacity=flashA; flashA=Math.max(0,flashA-.04); }
+  else document.getElementById("flash").style.opacity=0;
+  requestAnimationFrame(loop);
+}
+
+/* ===== SOUND ===== */
+let AC=null, muted=false;
+try{ muted = localStorage.getItem("zebra-mute")==="1"; }catch(e){}
+function ac(){ if(!AC){ try{AC=new (window.AudioContext||window.webkitAudioContext)();}catch(e){} } return AC; }
+function tone(f,dur,{type="square",vol=.06,when=0,to=null}={}){
+  if(muted||!ac()) return; const a=AC, o=a.createOscillator(), g=a.createGain(), t=a.currentTime+when;
+  o.type=type; o.frequency.setValueAtTime(f,t); if(to) o.frequency.exponentialRampToValueAtTime(to,t+dur);
+  g.gain.setValueAtTime(vol,t); g.gain.exponentialRampToValueAtTime(.0001,t+dur); o.connect(g).connect(a.destination); o.start(t); o.stop(t+dur+.02);
+}
+const sfx={
+  nope(){ tone(140,.18,{type:"sawtooth",vol:.06}); tone(110,.18,{type:"sawtooth",vol:.06,when:.12}); },
+  hmm(){ tone(587,.08,{vol:.05}); tone(784,.12,{when:.09,vol:.05}); },
+  key(){ tone(1400+Math.random()*300,.025,{vol:.025}); },
+  tick(){ tone(880,.05,{vol:.05}); },
+  miss(){ tone(220,.45,{type:"sawtooth",to:60,vol:.07}); },
+  score(ti){ const base=[0,330,392,440,523,587][ti]; const steps=[1,1.26,1.5,2,2.52,3].slice(0,ti+1);
+    steps.forEach((m,i)=>tone(base*m,.12,{when:i*.07,vol:.06})); if(ti>=4) tone(base*4,.5,{when:steps.length*.07,vol:.05,type:"triangle"}); },
+  sink(){ tone(300,.9,{type:"triangle",to:80,vol:.05}); },
+  layer(){ tone(660,.08,{vol:.05}); tone(990,.1,{when:.08,vol:.05}); },
+  start(){ [523,659,784,1046].forEach((f,i)=>tone(f,.1,{when:i*.08})); },
+};
+
+/* ===== RANKING (bell curve vs other players) =====
+   To show REAL rankings on your own website, create a free Supabase project, run
+   supabase_setup.sql in its SQL editor, then paste your Project URL and publishable
+   key below (Project Settings -> API Keys). Both are safe to put in public web code.
+   Left blank (or if the server can't be reached), the game shows an ESTIMATED curve
+   built by simulating typical players on the same seven prompts.                    */
+const SCORE_SERVER = {
+  url: "https://fkbutdxretmfyuueelao.supabase.co",
+  key: "sb_publishable_6l5x7LvVvs3a9jwyjDTUNA_MrZ9SpT6",
+  minPlayers: 10,     // below this many real scores, show the estimate instead
+};
+/* Rankings are exclusive to each profession (and mode): nurses vs nurses, physicians vs physicians, PAs vs PAs… */
+const PEERS={physician:"physicians",pa:"PAs",np:"NPs",nurse:"nurses",pharmacist:"pharmacists",dentist:"dentists",other:"mixed-mode players"};
+function rankGroup(){ return (poolKey(gameProf).startsWith("b_")?"board-":"")+gameProf; }
+function peers(){ return PEERS[gameProf]||"divers"; }
+const BUCKET=25, NB=Math.floor(700/BUCKET)+1;           // 29 buckets of 25 points
+
+function playerId(){
+  let id=store("zebra-player");
+  if(!id){ id=(crypto.randomUUID? crypto.randomUUID() : "xxxxxxxx-xxxx-4xxx-8xxx-xxxxxxxxxxxx".replace(/x/g,()=>(Math.random()*16|0).toString(16))); store("zebra-player",id); }
+  return id;
+}
+const Scores = {
+  on(){ return !!(SCORE_SERVER.url && SCORE_SERVER.key); },
+  headers(){ const h={"apikey":SCORE_SERVER.key,"Content-Type":"application/json"};
+    if(SCORE_SERVER.key.startsWith("eyJ")) h.Authorization="Bearer "+SCORE_SERVER.key; return h; },
+  async submit(day,total){
+    if(!this.on()) return;
+    try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_scores",{method:"POST",
+      headers:{...this.headers(),"Prefer":"return=minimal"},
+      body:JSON.stringify({day,field:rankGroup(),player:playerId(),total})});
+      if(!r.ok && r.status!==409) console.warn("[zebra] score not saved:",r.status,await r.text()); }catch(e){ console.warn("[zebra] score server unreachable:",e); }   // a duplicate (409) just means already submitted
+  },
+  async histogram(day){
+    if(!this.on()) return null;
+    try{
+      const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/score_histogram",{method:"POST",headers:this.headers(),body:JSON.stringify({p_day:day,p_field:rankGroup()})});
+      if(!r.ok) return null;
+      const rows=await r.json(), b=Array(NB).fill(0);
+      rows.forEach(x=>{ const i=Math.max(0,Math.min(NB-1,+x.bucket)); b[i]+= +x.n; });
+      return b;
+    }catch(e){ return null; }
+  }
+};
+
+/* Estimated curve: simulate players of varied skill answering the same prompts.
+   Weaker players lean hard on common answers and miss more often. */
+function simulate(prompts, seed){
+  const r=rng("sim"+seed), N=3000, totals=[];
+  const W=prompts.map(p=>p.items.map(it=>101-it.pts));
+  for(let s=0;s<N;s++){
+    const skill=Math.min(1,Math.max(0,(r()+r()+r())/3));               // roughly bell-shaped skill
+    const k=2.4-1.9*skill, miss=.2-.16*skill; let tot=0;
+    prompts.forEach((p,pi)=>{
+      if(r()<miss) return;
+      const w=W[pi].map(x=>Math.pow(x,k)), sum=w.reduce((a,b)=>a+b,0);
+      let x=r()*sum, i=0; while(i<w.length-1 && (x-=w[i])>0) i++;
+      tot+=p.items[i].pts;
+    });
+    totals.push(tot);
+  }
+  const b=Array(NB).fill(0); totals.forEach(v=>b[Math.min(NB-1,Math.floor(v/BUCKET))]++);
+  return b;
+}
+function percentile(b,score,BK=BUCKET){
+  const n=b.reduce((a,c)=>a+c,0); if(!n) return null;
+  const mine=Math.min(b.length-1,Math.floor(score/BK)), within=Math.min(1,(score-mine*BK)/BK);
+  let below=0; for(let i=0;i<mine;i++) below+=b[i];
+  below+=b[mine]*within;                                    // spread the player's own bucket evenly
+  return Math.round(100*below/n);
+}
+function stats(b,BK=BUCKET){
+  const n=b.reduce((a,c)=>a+c,0); let mean=0; b.forEach((c,i)=>mean+=c*(i+.5)*BK); mean/=n||1;
+  let v=0; b.forEach((c,i)=>v+=c*Math.pow((i+.5)*BK-mean,2)); return {n,mean,sd:Math.sqrt(v/(n||1))||1};
+}
+function curveSVG(b,score,BK=BUCKET,LAB=["0 µm","3,500","7,000 µm"]){
+  const NB=b.length, BUCKET=BK;
+  const Wd=300,Ht=110,base=92, max=Math.max(...b,1), bw=Wd/NB, mine=Math.min(NB-1,Math.floor(score/BUCKET));
+  const {n,mean,sd}=stats(b,BK);
+  let bars="";
+  b.forEach((c,i)=>{ const h=Math.round(c/max*70); if(!h) return;
+    const col = i===mine ? "#ffd23b" : (i<mine ? "#7d4bb8" : "#3a3160");
+    bars+=`<rect x="${(i*bw+1).toFixed(1)}" y="${base-h}" width="${(bw-2).toFixed(1)}" height="${h}" fill="${col}"/>`; });
+  // fitted normal curve, drawn in pixel steps
+  const peak=n*BUCKET/(sd*Math.sqrt(2*Math.PI)); let d="";
+  for(let x=0;x<=Wd;x+=3){ const pts=x/Wd*NB*BUCKET, g=peak*Math.exp(-.5*Math.pow((pts-mean)/sd,2));
+    const y=Math.round(base-Math.min(78,g/max*70)); d+=(x?` H${x} V${y}`:`M0 ${y}`); }
+  const mx=Math.min(Wd-1,(score/(NB*BUCKET))*Wd);
+  const lx=Math.max(16,Math.min(Wd-16,mx));
+  return `<svg viewBox="0 0 ${Wd} ${Ht}" role="img" aria-label="Distribution of scores with your score marked">
+    ${bars}
+    <path d="${d}" fill="none" stroke="#e3a8ff" stroke-width="1.5" opacity=".85"/>
+    <line x1="0" y1="${base}" x2="${Wd}" y2="${base}" stroke="rgba(255,255,255,.35)" stroke-width="1"/>
+    <line x1="${mx}" y1="8" x2="${mx}" y2="${base}" stroke="#ffd23b" stroke-width="1.5" stroke-dasharray="3 2"/>
+    <rect x="${lx-15}" y="0" width="30" height="11" fill="#ffd23b"/>
+    <text x="${lx}" y="8.5" text-anchor="middle" font-family="Silkscreen,monospace" font-size="8" fill="#0c0a20">YOU</text>
+    <g font-family="Silkscreen,monospace" font-size="7.5" fill="#a49dc0">
+      <text x="0" y="${Ht-4}">${LAB[0]}</text>
+      <text x="${Wd/2}" y="${Ht-4}" text-anchor="middle">${LAB[1]}</text>
+      <text x="${Wd}" y="${Ht-4}" text-anchor="end">${LAB[2]}</text>
+    </g></svg>`;
+}
+async function showRanking(fromSave){
+  const el=$("ranking");
+  el.innerHTML=`<div class="loading blink">COMPARING YOU WITH OTHER ${peers().toUpperCase()}…</div>`;
+  let b=null, live=false, liveN=0;
+  if(daily){
+    await Scores.submit(gameDay, total);   // re-sending a saved result is harmless: the server keeps one per player
+    const real=await Scores.histogram(gameDay);
+    if(real){ liveN=real.reduce((a,c)=>a+c,0); if(liveN>=SCORE_SERVER.minPlayers){ b=real; live=true; } }
+  }
+  if(!b) b=simulate(set, daily? rankGroup()+gameDay : set.map(p=>p.q).join("|"));
+  const pct=percentile(b,total), {n,mean}=stats(b);
+  const P=peers().replace(/^[a-z]/,c=>c.toUpperCase()).replace(/^(physicians|nurses|pharmacists|dentists|mixed-mode players)$/i,m=>m.toUpperCase()); const pctTxt = pct>=99 ? `TOP 1% OF ${P}` : pct<=0 ? "JUST GETTING STARTED" : `DEEPER THAN ${pct}% OF ${P}`;
+  const who = live ? `${n.toLocaleString()} ${n===1?peers().replace(/s$/,""):peers()} today` : `typical ${peers()}`;
+  el.innerHTML = `${pct!==null?ladderHTML(pct):""}<div class="label">${daily?"TODAY'S RANKING":"PRACTICE RANKING"}</div>
+    <div class="pct">${pctTxt}</div>
+    <div class="sub">vs ${who} · average ${(Math.round(mean)*10).toLocaleString()} µm · you ${(total*10).toLocaleString()} µm</div>
+    ${curveSVG(b,total)}
+    <div class="src">${live? "<b>● LIVE</b> REAL PLAYERS' SCORES" : (liveN? `ESTIMATE · ONLY ${liveN} REAL SCORE${liveN===1?"":"S"} SO FAR` : "ESTIMATE · SIMULATED FROM TYPICAL ANSWERS")}</div>`;
+  if(pct!==null){ lastPct=pct; $("share").textContent = shareText(); if(ladderFor(pct)>=7){ /* top two rungs */  flash("#b44bff",.3); burst("#ffd23b",40,1.6); sfx.score(5); } }
+}
+/* Career ladder: your title depends on your percentile */
+const LEVELS=[0,10,25,40,60,75,85,93,98];
+const ICONS=["🧪","📚","📟","🩺","🥼","📋","🔬","⭐","🦓"];
+const QUIPS=[
+ "Still memorizing the horses. Plenty of prerequisites to go.",
+ "You know the textbook answers. Time to read the footnotes.",
+ "Learning fast and holding your own.",
+ "Solid knowledge. The horses don't fool you anymore.",
+ "Colleagues come to you with questions now.",
+ "Running the floor and catching what others miss.",
+ "Specialist-level zebra spotting.",
+ "Grand-rounds material. Everyone's taking notes.",
+ "A true zebra whisperer. Case reports get written about you."];
+const PROFESSIONS={
+ physician:{label:"Physician",  icon:"🩺", titles:["PRE-MED","MED STUDENT","INTERN","RESIDENT","SENIOR RESIDENT","CHIEF RESIDENT","FELLOW","ATTENDING","CHIEF OF MEDICINE"]},
+ pharmacist:{label:"Pharmacist",icon:"💊", titles:["PRE-PHARMACY","PHARMACY STUDENT","PHARMACY INTERN","PGY1 RESIDENT","PGY2 RESIDENT","STAFF PHARMACIST","CLINICAL PHARMACIST","CLINICAL SPECIALIST","DIRECTOR OF PHARMACY"]},
+ nurse:{label:"Nurse",          icon:"🩹", titles:["PRE-NURSING","NURSING STUDENT","NEW GRAD RN","STAFF NURSE","CHARGE NURSE","NURSE EDUCATOR","NURSE MANAGER","DIRECTOR OF NURSING","CHIEF NURSING OFFICER"]},
+ np:{label:"NP",                icon:"🧑‍⚕️", titles:["PRE-NURSING","RN","NP STUDENT","NP CLINICALS","NEW GRAD NP","NURSE PRACTITIONER","SENIOR NP","LEAD NP","DNP PRACTICE OWNER"]},
+ pa:{label:"PA",                icon:"🩻", titles:["PRE-PA","PA STUDENT","PA ROTATIONS","NEW GRAD PA","PA-C","SENIOR PA","LEAD APP","CHIEF PA","PA HALL OF FAME"]},
+ dentist:{label:"Dentist",      icon:"🦷", titles:["PRE-DENTAL","DENTAL STUDENT","CLINIC FLOOR STUDENT","GPR RESIDENT","ASSOCIATE DENTIST","GENERAL DENTIST","SPECIALIST","PRACTICE OWNER","DEAN OF DENTISTRY"]},
+ other:{label:"Mixed",icon:"🎲", titles:["PRE-HEALTH","STUDENT","TRAINEE","NEW GRAD","CLINICIAN","SENIOR CLINICIAN","SPECIALIST","EXPERT","CHIEF ZEBRA OFFICER"]},
+};
+let prof = (store("zebra-prof") in PROFESSIONS) ? store("zebra-prof") : "physician";
+const LADDER_FOR=k=>LEVELS.map((min,i)=>({min,title:PROFESSIONS[k].titles[i],icon:ICONS[i],quip:QUIPS[i]}));
+let LADDER=LADDER_FOR(prof);
+function setProf(k){ prof=k; store("zebra-prof",k); LADDER=LADDER_FOR(k); drawProfPicker(); if(typeof titleInfo==="function") titleInfo(); }
+function drawProfPicker(){
+  const el=document.getElementById("profPick"); if(!el) return;
+  el.innerHTML=Object.entries(PROFESSIONS).map(([k,v])=>`<button type="button" class="prof${k===prof?" on":""}" data-k="${k}">${v.icon} ${v.label}</button>`).join("");
+  el.querySelectorAll("button").forEach(b=>b.onclick=()=>{ setProf(b.dataset.k); try{sfx.layer();}catch(e){} });
+}
+function ladderFor(pct){ let i=0; LADDER.forEach((l,k)=>{ if(pct>=l.min) i=k; }); return i; }
+function ladderHTML(pct){
+  const i=ladderFor(pct), L=LADDER[i], nx=LADDER[i+1];
+  const rungs=LADDER.map((l,k)=>`<i class="${k<i?"done":k===i?"now":""}" title="${l.title}"></i>`).join("");
+  return `<div class="career">
+    <div class="label">YOUR TITLE TODAY · ${PROFESSIONS[gameProf].icon} ${PROFESSIONS[gameProf].label.toUpperCase()}</div>
+    <div class="badge"><span class="ico">${L.icon}</span>${L.title}</div>
+    <div class="quip">${L.quip}</div>
+    <div class="rungs">${rungs}</div>
+    <div class="next">${nx? `NEXT: ${nx.title} AT THE ${nx.min}TH PERCENTILE` : "TOP OF THE LADDER"}</div>
+  </div>`;
+}
+let lastPct=null;
+const POOL_CAT={b_medicine:"b_med",b_pa:"b_pa",b_np:"b_np",b_nursing:"b_nurse",b_pharmacy:"b_pharm",b_dental:"b_dental"};
+function catChip(p){ const own=POOL_CAT[poolKey(gameProf)]; const c=(own && CATS[own]) || CATS[p.cat] || CATS.care; return `<span class="cat" style="color:${c.color};border-color:${c.color}">${c.icon} ${c.label}</span>`; }
+function catIcon(q){ const p=BANK.find(b=>b.q===q); return p&&CATS[p.cat]? CATS[p.cat].icon : ""; }
+function titleCase(s){ return s.toLowerCase().replace(/\b\w/g,c=>c.toUpperCase()).replace(" Of "," of ").replace(/\b(Np|Pa|Rn|Dnp|App|Pgy1|Pgy2|Gpr|Pa-C)\b/g,m=>m.toUpperCase()); }
+function shareText(){
+  const L = total<1?"SURFACE":layerAt(total).name;
+  const st=streakInfo(); return `🦓 ZEBRA ${shortFor(gameProf)} ${daily?"#"+gameDayNum:"(practice)"}${daily&&st.cur>1?` · 🔥${st.cur}`:""}\n${log.map(l=>TIERS[tierOf(l.pts)].emoji).join("")}\n${(total*10).toLocaleString()} µm · ${L}${lastPct!==null?`\n${LADDER[ladderFor(lastPct)].icon} ${titleCase(LADDER[ladderFor(lastPct)].title)} · ${lastPct>=99?`top 1% of ${peers()}`:`deeper than ${lastPct}% of ${peers()}`}`:""}`;
+}
+
+/* ===== UI ===== */
+const $=id=>document.getElementById(id);
+const hud={depth:$("hDepth"),layer:$("hLayer"),score:$("hScore"),round:$("hRound")};
+let state="title", set=[], round=0, total=0, log=[], daily=true, timerId=null, endAt=0, lastSec=99;
+const SECS=20;
+function showPanel(id){ ["title","play","result","end","stamp","sEnd"].forEach(p=>$(p).classList.toggle("hidden",p!==id)); }
+function store(k,v){ try{ if(v===undefined) return JSON.parse(localStorage.getItem(k)); localStorage.setItem(k,JSON.stringify(v)); }catch(e){ return null; } }
+function banner(txt){ const b=$("banner"); b.textContent=txt; b.classList.remove("go"); void b.offsetWidth; b.classList.add("go"); }
+function todayKey(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
+function dayNumber(){ return dayIndex()+1; }
+function rng(seed){ let h=2166136261; for(const c of seed){h^=c.charCodeAt(0);h=Math.imul(h,16777619);} return ()=>{h+=0x6D2B79F5;let t=h;t=Math.imul(t^t>>>15,t|1);t^=t+Math.imul(t^t>>>7,t|61);return((t^t>>>14)>>>0)/4294967296;}; }
+function shuffle(a,r){ for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+
+/* DAILY SCHEDULE (like Wordle): every day at local midnight everyone gets a new set of 7.
+   The schedule walks through ALL prompts in a shuffled order before any prompt comes back,
+   and a new cycle never starts with prompts used in the previous two days. */
+const EPOCH=new Date(2026,9,1);
+function dayIndex(){ const d=new Date(); return Math.max(0,Math.floor((new Date(d.getFullYear(),d.getMonth(),d.getDate())-EPOCH)/864e5)); }
+/* Each FIELD (profession) has its own pool of prompts and its own daily schedule,
+   so a nurse and a pharmacist get different dailies, Wordle-style, every midnight. */
+const CAT_CAP={mixed:2, medicine:3, nursing:7, pharmacy:7, dental:7, b_mixed:2, b_medicine:7, b_pa:5, b_np:5, b_nursing:7, b_pharmacy:7, b_dental:7};
+/* MODE: "standard" or "board" (Board Prep). Pools are keyed like "nursing" or "b_nursing". */
+let MODE = store("zebra-mode")==="board" ? "board" : "standard";
+const POOLS={};
+BANK.forEach((b,i)=>{ b.pools.forEach(k=>(POOLS[k]=POOLS[k]||[]).push(i)); const m=b.pool.startsWith("b_")?"b_mixed":"mixed"; (POOLS[m]=POOLS[m]||[]).push(i); });
+/* Every prompt is EITHER a daily prompt OR a practice prompt, never both (see PRACTICE_ONLY). */
+const POOLS_D={}, POOLS_P={};
+for(const k in POOLS){ POOLS_D[k]=POOLS[k].filter(i=>!PRACTICE_ONLY.has(BANK[i].q)); POOLS_P[k]=POOLS[k].filter(i=>PRACTICE_ONLY.has(BANK[i].q)); }
+const poolKey=f=>MODE==="board" ? BOARD_POOL_OF[f||prof] : POOL_OF[f||prof];
+let _S={};   // per-field schedule state
+function schedState(f){ const k=poolKey(f); return _S[k] || (_S[k]={sched:[],pool:[],cycle:0}); }
+/* Days before SWITCH_DAY keep the original schedule exactly (so past dailies never change). */
+const _LEG={}; function LEGACY_D(k){ return _LEG[k] || (_LEG[k]=POOLS_D[k].filter(i=>!BANK[i].added)); }
+function legacyIdsFor(f, idx){
+  const S=schedState(f), cap=CAT_CAP[poolKey(f)]||3;
+  while(S.sched.length<=idx){
+    const yday=S.sched[S.sched.length-1]||[];
+    const today=[], deferred=[], recent=new Set([...(S.sched[S.sched.length-1]||[]),...(S.sched[S.sched.length-2]||[])]);
+    let guard=0;
+    while(today.length<7 && guard++<5000){
+      if(!S.pool.length){
+        const ids=shuffle(LEGACY_D(poolKey(f)).slice(), rng("zebra-"+poolKey(f)+"-cycle-"+(S.cycle++)));
+        const avoid=new Set([...recent,...today]);
+        S.pool=[...ids.filter(i=>!avoid.has(i)), ...ids.filter(i=>avoid.has(i))];
+      }
+      const i=S.pool.shift();
+      const tooMany = today.filter(j=>BANK[j].cat===BANK[i].cat).length>=cap;
+      if(today.includes(i) || (yday.includes(i) && LEGACY_D(poolKey(f)).length>=14) || (tooMany && deferred.length<LEGACY_D(poolKey(f)).length)) deferred.push(i); else today.push(i);
+    }
+    S.pool=[...deferred,...S.pool];
+    S.sched.push(today);
+  }
+  return S.sched[idx];
+}
+
+/* From SWITCH_DAY on: each day plays the 7 prompts that have gone longest without being played.
+   Never-played prompts always go first, so a new batch is played in full before anything repeats.
+   A prompt only joins the queue on the day it was added, so adding prompts never rewrites past days. */
+const SWITCH_DAY=Math.round((new Date(2026,9,31)-EPOCH)/864e5);
+function addedDay(i){ const a=BANK[i].added; if(!a) return 0; const [y,m,d]=a.split("-").map(Number); return Math.max(SWITCH_DAY,Math.round((new Date(y,m-1,d)-EPOCH)/864e5)); }
+const _Q={};
+function dailyIdsFor(f, idx){
+  if(idx<SWITCH_DAY) return legacyIdsFor(f, idx);
+  const k=poolKey(f), cap=CAT_CAP[k]||3;
+  let Q=_Q[k];
+  if(!Q){
+    const last=new Map();
+    for(let d=0; d<SWITCH_DAY; d++) legacyIdsFor(f,d).forEach(i=>last.set(i,d));
+    const old=LEGACY_D(k);
+    Q=_Q[k]={day:SWITCH_DAY-1, sched:{}, fresh:old.filter(i=>!last.has(i)),
+             used:old.filter(i=>last.has(i)).sort((x,y)=>last.get(x)-last.get(y)),
+             later:POOLS_D[k].filter(i=>BANK[i].added)};
+  }
+  while(Q.day<idx){
+    const d=++Q.day;
+    const joining=Q.later.filter(i=>addedDay(i)===d);
+    if(joining.length){ Q.fresh.push(...shuffle(joining.slice(), rng("zebra-"+k+"-added-"+d))); Q.later=Q.later.filter(i=>addedDay(i)!==d); }
+    const today=[];
+    const pick=strict=>{ for(const i of [...Q.fresh,...Q.used]){ if(today.length>=7) break; if(today.includes(i)) continue;
+        if(strict && today.filter(j=>BANK[j].cat===BANK[i].cat).length>=cap) continue; today.push(i); } };
+    pick(true); if(today.length<7) pick(false);
+    Q.fresh=Q.fresh.filter(i=>!today.includes(i)); Q.used=[...Q.used.filter(i=>!today.includes(i)), ...today];
+    Q.sched[d]=today;
+  }
+  return Q.sched[idx];
+}
+function dailyIds(idx){ return dailyIdsFor(prof, idx); }
+function dailySet(){ return dailyIds(dayIndex()).map(i=>BANK[i]); }  // called at game start, so it matches gameDay
+
+/* PRACTICE: a per-field shuffle bag saved in the browser, so you see every prompt in your
+   field before any repeats, and today's daily prompts are held back so practice never spoils them. */
+function practiceSet(){
+  /* least-recently-played first: every practice prompt is played once before any comes back */
+  const key=poolKey(), pool=POOLS_P[key], cap=CAT_CAP[key]||3;
+  const seenKey="zebra-practice-seen3-"+key;
+  const seen=(store(seenKey)||[]).filter(i=>pool.includes(i));
+  const order=[...shuffle(pool.filter(i=>!seen.includes(i)), Math.random), ...seen];
+  const out=[];
+  for(const i of order){ if(out.length>=7) break; if(out.filter(j=>BANK[j].cat===BANK[i].cat).length<cap) out.push(i); }
+  for(const i of order){ if(out.length>=7) break; if(!out.includes(i)) out.push(i); }
+  store(seenKey,[...seen.filter(i=>!out.includes(i)), ...out]);
+  return shuffle(out, Math.random).map(i=>BANK[i]);
+}
+
+/* countdown to the next daily set */
+function untilMidnight(){ const n=new Date(), m=new Date(n.getFullYear(),n.getMonth(),n.getDate()+1); return m-n; }
+function hms(ms){ const s=Math.max(0,Math.floor(ms/1000)); return [s/3600|0,(s/60|0)%60,s%60].map(v=>String(v).padStart(2,"0")).join(":"); }
+function esc(s){ return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function setHud(){ hud.score.textContent=total; hud.round.textContent = state==="title"?"—" : `ROUND ${Math.min(round+1,7)}/7`; }
+
+drawProfPicker();
+drawModePicker();
+$("legend").innerHTML = TIERS.slice(1).map((t,i)=>`<span class="chip" style="color:${t.color}">${t.name.replace("!","")}</span>`).join("");
+let shownDay=todayKey(), gameDay=todayKey(), gameDayNum=dayNumber(), gameProf=prof;
+const POOL_LABEL={medicine:"🩺 MEDICINE",nursing:"🩹 NURSING",pharmacy:"💊 PHARMACY",dental:"🦷 DENTAL",mixed:"🎲 MIXED",
+  b_medicine:"🎓 USMLE/COMLEX PREP",b_pa:"🎓 PANCE PREP",b_np:"🎓 NP BOARDS PREP (AANP/ANCC)",b_nursing:"🎓 NCLEX PREP",b_pharmacy:"🎓 NAPLEX PREP",b_dental:"🎓 DENTAL BOARDS PREP",b_mixed:"🎓 MIXED BOARD PREP"};
+const POOL_SHORT={medicine:"🩺 Medicine",nursing:"🩹 Nursing",pharmacy:"💊 Pharmacy",dental:"🦷 Dental",mixed:"🎲 Mixed",
+  b_medicine:"🎓 USMLE/COMLEX Prep",b_pa:"🎓 PANCE Prep",b_np:"🎓 NP Boards Prep",b_nursing:"🎓 NCLEX Prep",b_pharmacy:"🎓 NAPLEX Prep",b_dental:"🎓 Dental Boards Prep",b_mixed:"🎓 Mixed Board Prep"};
+const MED_BOARD={physician:["🎓 USMLE/COMLEX PREP","🎓 USMLE/COMLEX Prep"],pa:["🎓 PANCE PREP","🎓 PANCE Prep"],np:["🎓 NP BOARDS PREP (AANP/ANCC)","🎓 NP Boards Prep"]};
+function labelFor(f){ return POOL_LABEL[poolKey(f)]; }
+function shortFor(f){ return POOL_SHORT[poolKey(f)]; }
+function drawModePicker(){
+  const el=document.getElementById("modePick"); if(!el) return;
+  el.innerHTML=[["standard","STANDARD"],["board","🎓 BOARD PREP"]].map(([k,v])=>`<button type="button" class="prof${k===MODE?" on":""}" data-m="${k}">${v}</button>`).join("");
+  el.querySelectorAll("button").forEach(b=>b.onclick=()=>{ MODE=b.dataset.m; store("zebra-mode",MODE); drawModePicker(); titleInfo(); try{sfx.layer();}catch(e){} });
+  const d=document.getElementById("modeDesc");
+  if(d) d.textContent = MODE==="board" ? "Prompts styled after YOUR exam: USMLE/COMLEX for Physicians, PANCE for PAs, AANP/ANCC for NPs, NCLEX for Nurses, NAPLEX for Pharmacists, dental boards for Dentists." : "Everyday prompts from your field.";
+}
+function dayKey(day,f){ return "zebra4-"+poolKey(f)+"-"+day; }
+/* DAILY STREAK: consecutive days with at least one finished daily dive (any field or mode). Saved in the browser. */
+function dayBefore(key){ const [y,m,d]=key.split("-").map(Number); const dt=new Date(y,m-1,d-1); return dt.getFullYear()+"-"+String(dt.getMonth()+1).padStart(2,"0")+"-"+String(dt.getDate()).padStart(2,"0"); }
+function streakInfo(){ const s=store("zebra-streak")||{last:null,cur:0,best:0}; const t=todayKey();
+  const alive = s.last===t || s.last===dayBefore(t); return {cur: alive? s.cur:0, best:s.best||0, doneToday: s.last===t, atRisk: s.last===dayBefore(t)}; }
+function bumpStreak(day){ const s=store("zebra-streak")||{last:null,cur:0,best:0};
+  if(s.last===day) return {cur:s.cur,best:s.best,grew:false};
+  s.cur = (s.last===dayBefore(day)) ? s.cur+1 : 1; s.last=day; s.best=Math.max(s.best||0,s.cur); store("zebra-streak",s);
+  return {cur:s.cur,best:s.best,grew:true}; }
+function streakHTML(){ const s=streakInfo();
+  if(s.cur>0) return `<div class="streak${s.atRisk?" risk":""}"><span class="fire">🔥</span> ${s.cur}-DAY STREAK${s.best>s.cur?` · BEST ${s.best}`:""}${s.atRisk?`<br><small>PLAY TODAY'S DAILY TO KEEP IT ALIVE</small>`:""}</div>`;
+  return `<div class="streak off">🔥 START A STREAK: FINISH A DAILY EVERY DAY${s.best?` · BEST ${s.best}`:""}</div>`; }
+function titleInfo(){
+  const played=store(dayKey(todayKey())), best=store("zebra4-best-"+poolKey())||0, P=PROFESSIONS[prof];
+  $("tInfo").innerHTML = `${labelFor()} DAILY #${dayNumber()} · ${todayKey()} · ${POOLS_D[poolKey()].length} DAILY + ${POOLS_P[poolKey()].length} PRACTICE PROMPTS` + (played?`<br>PLAYED ✓ · NEXT IN <span class="cd">${hms(untilMidnight())}</span>`:"") + (best?` · BEST ${(best*10).toLocaleString()} µm`:"");
+  $("bDaily").innerHTML = played? "▶ VIEW TODAY'S RESULT" : '<span class="blink">▶</span> PRESS START';
+  $("tStreak").innerHTML = streakHTML();
+  if(typeof stampInfo==="function") try{ stampInfo(); }catch(e){}
+  if(typeof showFinals==="function" && window.__zebraReady) showFinals().catch(()=>{});
+}
+titleInfo();
+/* tick the countdowns; if midnight passes while the page is open, offer the new daily */
+setInterval(()=>{
+  document.querySelectorAll(".cd").forEach(el=>el.textContent=hms(untilMidnight()));
+  if(todayKey()!==shownDay){ shownDay=todayKey(); _S={}; titleInfo();
+    if(state==="end"||state==="title"){ showPanel("title"); state="title"; setHud(); banner("☀ A NEW DAILY DIVE IS READY ☀"); } }
+},1000);
+for(let i=0;i<20;i++) $("timer").appendChild(document.createElement("i"));
+
+function startGame(isDaily){
+  sfx.start(); daily=isDaily; markers=[]; parts=[];
+  gameDay=todayKey(); gameDayNum=dayNumber(); gameProf=prof; const key=dayKey(gameDay);
+  set = daily? dailySet() : practiceSet();
+  if(daily && store(key)){ const s=store(key); log=s.log; total=s.total; round=7; state="end";
+    log.reduce((acc,l)=>{const d=acc+(l.pts||0); markers.push({d,c:TIERS[tierOf(l.pts||0)].color}); return d;},0);
+    showPanel(null); sinkTo(total,()=>finish(true)); return; }
+  round=0; total=0; log=[]; state="play"; setHud();
+  showPanel(null);
+  const ready=Rarity.apply(set), go=()=>ready.then(askRound);
+  if(zy>1) sinkTo(0,go); else go();
+}
+let pending=null, tries=0, lastWrong="";
+function askRound(){
+  state="play"; setHud();
+  const p=set[round];
+  $("pLabel").innerHTML=`PROMPT ${round+1} OF 7 &nbsp;${catChip(p)}`;
+  $("q").textContent=p.q.toUpperCase();
+  const inp=$("answer"); inp.value=""; inp.disabled=false;
+  pending=null; tries=0; lastWrong=""; roundWrong=[]; $("hint").className="hint hidden";
+  showPanel("play"); inp.focus();
+  endAt=Date.now()+SECS*1000; roundStart=Date.now(); lastSec=99; clearInterval(timerId); timerId=setInterval(tick,100); tick();
+}
+function tick(){
+  const left=Math.max(0,endAt-Date.now()), on=Math.ceil(left/(SECS*1000)*20);
+  [...$("timer").children].forEach((el,i)=>el.classList.toggle("off",i>=on));
+  $("timer").classList.toggle("low",left<5000);
+  const sec=Math.ceil(left/1000); if(sec<=5 && sec!==lastSec && sec>0){ sfx.tick(); } lastSec=sec;
+  if(left<=0 && state==="play") finishRound(null, $("answer").value.trim(), "timeout");
+}
+function hint(html,cls){ const h=$("hint"); h.className="hint "+cls; h.innerHTML=html; }
+function tryAnswer(){
+  if(state!=="play") return;
+  const inp=$("answer"), raw=inp.value.trim(); if(!raw) return;
+  if(pending && pending.raw===raw) return finishRound(pending.item, raw, "ok");
+  const r=evaluate(set[round], raw);
+  if(r.type==="exact"||r.type==="auto") return finishRound(r.item, raw, "ok");
+  if(r.type==="suggest"){
+    pending={raw,item:r.item}; sfx.hmm();
+    hint(`DID YOU MEAN <b>${esc(r.display.toUpperCase())}</b>?<span class="opts"><button type="button" class="mini" id="bYes">YES ⏎</button><button type="button" class="mini alt" id="bNo">NO</button></span>`,"sug");
+    $("bYes").onclick=()=>pending&&finishRound(pending.item,pending.raw,"ok");
+    $("bNo").onclick=sayNo;
+    return;
+  }
+  tries++; lastWrong=raw; roundWrong.push(raw); pending=null; sfx.nope();
+  AnswerLog.add({day:gameDay,mode:modeTag(),field:gameProf,prompt:set[round].q,answer:null,guess:raw,pts:0,ok:false,ms:Date.now()-roundStart});
+  hint(`✗ “${esc(raw.toUpperCase())}” ISN'T ON THE CHART. TRY AGAIN!`,"err");
+  inp.classList.remove("shake"); void inp.offsetWidth; inp.classList.add("shake"); inp.select();
+}
+function sayNo(){ pending=null; hint("OK. TRY ANOTHER ANSWER.","info"); const i=$("answer"); i.select(); i.focus(); }
+function finishRound(it, raw, reason){
+  if(state!=="play") return;
+  clearInterval(timerId); state="sinking"; pending=null; $("hint").className="hint hidden";
+  const p=set[round]; $("answer").disabled=true;
+  if(!it) raw = raw || lastWrong;
+  const pts = it?it.pts:0, ti=tierOf(pts);
+  total+=pts; log.push({q:p.q, raw, label: it?it.label:null, pts, reason}); setHud();
+  AnswerLog.add({day:gameDay,mode:modeTag(),field:gameProf,prompt:p.q,answer:it?it.label:null,guess:it?raw:"",pts,base:it?it.base:0,ok:!!it,ms:Date.now()-roundStart});
+  showPanel(null);
+  const T=TIERS[ti];
+  $("popN").textContent = pts? "+"+pts : (reason==="timeout"? "TIME!" : "PASS");
+  $("popN").style.color=T.color; $("popT").textContent= T.name; $("popT").style.color=T.color;
+  $("popN").className="n"+(ti===5?" shimmer":""); $("popT").className="t"+(ti>=4?" shimmer":"");
+  const pop=$("pop"); pop.classList.remove("go"); void pop.offsetWidth; pop.classList.add("go");
+  if(pts){
+    sfx.score(ti); setTimeout(()=>sfx.sink(),350);
+    burst(T.color, 10+ti*12, 1+ti*.25);
+    if(ti>=4){ flash("#b44bff", ti===5?.55:.4); shake=ti===5?6:4; setTimeout(()=>burst(ti===5?"#ffd23b":"#e3a8ff",30,1.6),300); }
+    else if(ti===3){ shake=2; }
+    setTimeout(()=>sinkTo(total,()=>{ markers.push({d:total,c:T.color}); burst(T.color,14); setTimeout(()=>showResult(p,raw,it,ti,reason),350); }),450);
+  } else {
+    sfx.miss(); flash("#ff3b3b",.35); shake=3; burst("#ff3b3b",10,.7);
+    markers.push({d:total,c:T.color});
+    setTimeout(()=>showResult(p,raw,null,0,reason),1300);
+  }
+}
+function showResult(p,raw,it,ti,reason){
+  state="result";
+  const T=TIERS[ti];
+  $("rLabel").innerHTML=`${catChip(p)}&nbsp; ${esc(p.q.toUpperCase())}`;
+  $("rN").textContent= it? "+"+it.pts : "0"; $("rN").style.color=T.color;
+  const tag=$("rTag"); tag.textContent=T.name; tag.style.color=T.color;
+  $("rYours").innerHTML = it ? `You said “${esc(raw)}” → <span style="color:${T.color}">${esc(cap(it.label))}</span>. Your zebra sank ${it.pts*10} µm.`
+                             : (reason==="timeout"? "The clock ran out" : "You passed") + (tries? ` after ${tries} wrong ${tries===1?"try":"tries"}.` : ".");
+  missBox("rMiss",{day:gameDay,mode:modeTag(),field:gameProf,prompt:p.q,prefill:roundWrong[roundWrong.length-1]||""});
+  $("bNext").textContent = round===6? "▼ FINAL DEPTH" : "▼ DIVE ON";
+  showPanel("result"); $("result").scrollTop=0; setTimeout(()=>$("bNext").focus({preventScroll:true}),50);
+}
+function next(){ if(state!=="result") return; round++; if(round>=7){ state="end"; finish(false);} else askRound(); }
+
+function finish(fromSave){
+  state="end"; setHud(); hud.round.textContent="FINISHED"; AnswerLog.flush();
+  let sk=null; if(daily && !fromSave) sk=bumpStreak(gameDay);
+  if(daily && !fromSave){ store(dayKey(gameDay,gameProf),{log,total}); if(total>(store("zebra4-best-"+poolKey(gameProf))||0)) store("zebra4-best-"+poolKey(gameProf),total); }
+  const L = total<1?"SURFACE":layerAt(total).name;
+  { const s=streakInfo(); $("eStreak").innerHTML = daily && s.cur ? `<div class="streak${sk&&sk.grew?" grew":""}"><span class="fire">🔥</span> ${s.cur}-DAY STREAK${sk&&sk.grew&&s.cur>1?" +1":""}${s.best>s.cur?` · BEST ${s.best}`:""}</div>` : (daily? "" : `<div class="streak off">PRACTICE DOESN'T COUNT TOWARD YOUR 🔥 STREAK. PLAY THE DAILY!</div>`);
+    if(sk&&sk.grew&&s.cur>1){ setTimeout(()=>{ try{ sfx.layer(); }catch(e){} burst("#ff9a3b",30,1.4); },900); } }
+  $("eLabel").textContent = daily? `${labelFor(gameProf).replace(/^\S+ /,"")} DAILY #${gameDayNum} · ${gameDay}${fromSave?" · ALREADY PLAYED":""}` : "PRACTICE DIVE";
+  $("eDepth").textContent = `${(total*10).toLocaleString()} µm`;
+  const rank = total>=620?"You reached the genome. Legendary zebra hunter.":total>=430?"Deep inside the cell. Attending-level differential.":total>=240?"Down to the bone. Solid senior resident.":total>=150?"Into the muscle. Good intern instincts.":"Still near the skin. Lots of horses today, so go rarer!";
+  $("eRank").innerHTML = `Reached <span style="color:var(--gold)">${L}</span> · ${total}/700 pts`+(daily&&Scores.on()?`<div class="prov">PROVISIONAL · EVERYONE'S SCORE IS FINALIZED OVERNIGHT FROM TODAY'S ANSWERS. CHECK BACK TOMORROW.</div>`:"");
+  $("eSum").innerHTML = `<div class="label" style="margin-top:6px">YOUR DIVE · TAP A PROMPT TO SEE ITS ANSWERS</div>` + log.map((l,n)=>{const t=TIERS[tierOf(l.pts)];
+    return `<details class="sumd" data-n="${n}"><summary class="sum"><span>${catIcon(l.q)} ${esc(l.q)}</span><span class="a" style="color:${t.color}">${l.label?esc(cap(l.label))+" +"+l.pts:(l.raw?"✗ "+esc(l.raw):"⏱ —")}</span></summary><div class="ans"></div></details>`}).join("");
+  $("eSum").querySelectorAll("details").forEach(d=>d.addEventListener("toggle",()=>{ if(!d.open) return; const box=d.querySelector(".ans"); if(box.innerHTML) return;
+    const l=log[+d.dataset.n], p=BANK.find(b=>b.q===l.q); if(!p){ box.textContent="Answers unavailable."; return; }
+    const sorted=[...p.items].sort((a,b)=>b.pts-a.pts);
+    box.innerHTML=`<div class="ansn">${sorted.length} ANSWERS · DEEPEST FIRST</div>`+sorted.map(x=>{const ti=tierOf(x.pts), c=TIERS[ti].color, me=l.label===x.label;
+      return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>${x.share!=null?`<div class="shr">${pctTxt(x.share)} of players</div>`:""}`;}).join(""); }));
+  lastPct=null; $("share").textContent = shareText();
+  $("nextDaily").innerHTML = `NEXT DAILY DIVE IN <span class="cd">${hms(untilMidnight())}</span>`;
+  showPanel("end"); burst("#e3a8ff",40,1.5);
+  showRanking(fromSave);
+}
+
+
+
+/* ===== PLAYER-BASED RARITY =====
+   Every guess is logged anonymously. Each night the server counts what share of players
+   gave each answer. Points start from the built-in list and shift toward real player data
+   as a prompt gets played more: answers lots of people give sink toward HORSE, answers
+   almost nobody gives rise toward ZEBRA. The snapshot changes once a night, so everyone
+   playing the same day is scored the same way. */
+const RARITY_MIN=30;                                 // no change at all until a prompt has 30 plays
+const RARITY_K=50;                                   // then: 50 more plays and player data counts for half
+function obsPts(share){ return Math.max(5,Math.min(99,Math.round(99-60*Math.log10(1+100*share)))); }
+const Rarity={
+  cache:{},
+  async fetch(qs){
+    const ctl=new AbortController(), to=setTimeout(()=>ctl.abort(),2500);
+    try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/zebra_rarity_for",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_prompts:qs}),signal:ctl.signal});
+      if(!r.ok) return null; return await r.json(); }catch(e){ return null; } finally{ clearTimeout(to); }
+  },
+  async apply(prompts){
+    prompts.forEach(p=>p.items.forEach(it=>{ if(it.base===undefined) it.base=it.pts; }));
+    if(Scores.on()){
+      const now=Date.now(); if(!this.at||now-this.at>600000){ this.cache={}; this.at=now; }
+      const need=prompts.map(p=>p.q).filter(q=>!(q in this.cache));
+      if(need.length){ const rows=await this.fetch(need);
+        if(rows){ need.forEach(q=>this.cache[q]=null);
+          rows.forEach(r=>{ const c=this.cache[r.prompt]||(this.cache[r.prompt]={attempts:+r.attempts,n:{}}); if(r.answer) c.n[r.answer]=+r.n; }); } }
+    }
+    prompts.forEach(p=>{ const c=this.cache[p.q];
+      p.items.forEach(it=>{
+        if(!c||c.attempts<RARITY_MIN){ it.pts=it.base; it.share=null; return; }
+        const share=(c.n[it.label]||0)/c.attempts, e=c.attempts-RARITY_MIN, w=e/(e+RARITY_K);
+        it.share=share; it.pts=Math.max(5,Math.min(99,Math.round((1-w)*it.base+w*obsPts(share))));
+      }); });
+  }
+};
+const AnswerLog={
+  q:[],
+  add(e){ if(!Scores.on()) return; this.q.push({player:playerId(), ...e, guess:String(e.guess||"").slice(0,80), ms:Math.max(0,Math.min(600000,Math.round(e.ms||0)))}); },
+  flush(keepalive){
+    if(!this.q.length || !Scores.on()) return; const rows=this.q.splice(0);
+    try{ fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_answers",{method:"POST",keepalive:!!keepalive,
+        headers:{...Scores.headers(),"Prefer":"return=minimal"},body:JSON.stringify(rows)})
+      .then(r=>{ if(!r.ok) r.text().then(x=>console.warn("[zebra] answers not saved:",r.status,x)); }).catch(()=>{}); }catch(e){}
+  }
+};
+addEventListener("pagehide",()=>AnswerLog.flush(true));
+document.addEventListener("visibilitychange",()=>{ if(document.visibilityState==="hidden") AnswerLog.flush(true); });
+function pctTxt(s){ const v=s*100; return v===0?"0%":v<1?"<1%":Math.round(v)+"%"; }
+function modeTag(){ return MODE==="board" ? (daily?"board":"board-practice") : (daily?"daily":"practice"); }
+let roundStart=0;
+
+
+/* ===== YESTERDAY'S FINAL SCORES (rescored overnight with everyone's answers) ===== */
+async function showFinals(){
+  const el=$("tFinal"); if(!el) return; el.innerHTML="";
+  if(!Scores.on()) return;
+  const y=dayBefore(todayKey()), dKey=dayKey(y), d=store(dKey), s=store(stampKey(y));
+  if(!d && !s) return;
+  const grp=(MODE==="board"?"board-":"")+prof, ck="zebra-final-"+y+"-"+grp;
+  let fin=store(ck);
+  if(!fin){
+    try{
+      const base=SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/";
+      const r=await fetch(base+"zebra_my_final",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:y,p_player:playerId()})});
+      if(!r.ok) return; const rows=await r.json();
+      const dr=rows.find(x=>x.kind==="daily"&&x.grp===grp), sr=rows.find(x=>x.kind==="stampede"&&x.grp===prof);
+      if(!dr && !sr){ el.innerHTML=`<div class="yfinal"><div class="label" style="margin:0">YESTERDAY'S FINAL SCORES</div><div class="fine" style="margin:4px 0 0">BEING CALCULATED. THEY'RE POSTED OVERNIGHT (BY ABOUT 7 AM ET).</div></div>`; return; }
+      fin={};
+      if(dr){ const hb=await fetch(base+"score_histogram",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:y,p_field:grp})}).then(x=>x.json()).catch(()=>null);
+        let pct=null; if(hb){ const b=Array(NB).fill(0); hb.forEach(x=>b[Math.max(0,Math.min(NB-1,+x.bucket))]+= +x.n); pct=percentile(b,dr.total); }
+        fin.d={total:dr.total, was:d?d.total:null, pct}; }
+      if(sr){ const hb=await fetch(base+"stampede_histogram",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:y,p_field:prof})}).then(x=>x.json()).catch(()=>null);
+        let pct=null; if(hb){ const b=Array(SNB).fill(0); hb.forEach(x=>b[Math.max(0,Math.min(SNB-1,+x.bucket))]+= +x.n); pct=percentile(b,sr.total,SB); }
+        fin.s={total:sr.total, was:s?s.total:null, pct}; }
+      if(new Date().getHours()>=8) store(ck,fin);          // keep it once the morning rescore is in
+    }catch(e){ return; }
+  }
+  const P=peers(), row=(name,val,was,pct)=>`<div class="row"><span>${name}</span><span><b style="color:var(--gold)">${val}</b>${was!=null&&was!==val?` <span class="was">(was ${was})</span>`:""}</span></div>${pct!=null?`<div class="fine" style="margin:0 0 4px;text-align:right">${pct>=99?"TOP 1%":"BETTER THAN "+pct+"%"} OF ${P.toUpperCase()}</div>`:""}`;
+  el.innerHTML=`<div class="yfinal"><div class="label" style="margin:0 0 4px">YESTERDAY'S FINAL SCORES · ${y}</div>`+
+    (fin.d?row("🦓 Daily dive",(fin.d.total*10).toLocaleString()+" µm",fin.d.was!=null?(fin.d.was*10).toLocaleString()+" µm":null,fin.d.pct):"")+
+    (fin.s?row("⚡ Stampede",fin.s.total.toLocaleString()+" pts",fin.s.was!=null?fin.s.was.toLocaleString()+" pts":null,fin.s.pct):"")+`</div>`;
+}
+
+
+/* ===== CROWD-SOURCED ANSWERS: "We missed something?" =====
+   Players can send an answer they think should count. Suggestions are reviewed for accuracy
+   before anything is added to the answer lists, then scored by how many people thought of it. */
+function sendSuggestion(e){ if(!Scores.on()) return Promise.resolve(false);
+  return fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_suggestions",{method:"POST",headers:{...Scores.headers(),"Prefer":"return=minimal"},
+    body:JSON.stringify({day:e.day,mode:e.mode,field:e.field,player:playerId(),prompt:e.prompt,suggestion:String(e.suggestion).trim().slice(0,80)})})
+    .then(r=>{ if(!r.ok) r.text().then(x=>console.warn("[zebra] suggestion not saved:",r.status,x)); return r.ok; }).catch(()=>false);
+}
+function missBox(id, ctx){
+  const el=$(id); if(!el) return; if(!Scores.on()){ el.innerHTML=""; return; }
+  const sent=[];
+  const closed=()=>{ el.innerHTML=(sent.length?`<div class="mok">✓ THANKS! WE'LL REVIEW ${sent.map(s=>"“"+esc(s.toUpperCase())+"”").join(", ")} FOR THE ANSWER LIST.</div>`:"")+
+    `<button type="button" class="mbtn">${sent.length?"+ SUGGEST ANOTHER":"🦓 WE MISSED AN ANSWER?"}</button>`;
+    el.querySelector(".mbtn").onclick=open; };
+  const open=()=>{ const pre=(ctx.prefill&&!sent.includes(ctx.prefill))?ctx.prefill:"";
+    el.innerHTML=`<label class="mlbl" for="${id}In">AN ANSWER THAT SHOULD COUNT FOR THIS PROMPT</label><form autocomplete="off"><input id="${id}In" maxlength="80" placeholder="your answer_" value="${esc(pre)}" autocapitalize="off" spellcheck="false"><button class="btn small" type="submit">SEND</button></form>`;
+    const f=el.querySelector("form"), i=el.querySelector("input"); i.focus(); i.select();
+    i.addEventListener("keydown",e=>e.stopPropagation());
+    f.onsubmit=async e=>{ e.preventDefault(); const v=i.value.trim(); if(v.length<2) return;
+      i.disabled=true; await sendSuggestion({...ctx, suggestion:v}); sent.push(v); try{sfx.score(2);}catch(e){} closed(); }; };
+  closed();
+}
+let roundWrong=[];
+
+/* ===== DAILY STAMPEDE =====
+   One prompt a day, the same for every field. 60 seconds to name as many answers as possible.
+   Every answer scores its rarity points; the total is ranked against players in your field. */
+const STAMP_SECS=60, SB=50, SNB=61;            // ranking buckets of 50 points, 0 → 3,000+
+const STAMP_START=Math.round((new Date(2026,9,30)-EPOCH)/864e5);
+function stampAddedDay(p){ const [y,m,d]=(p.added||"2026-10-30").split("-").map(Number); return Math.max(STAMP_START,Math.round((new Date(y,m-1,d)-EPOCH)/864e5)); }
+const _SQ={day:STAMP_START-1, fresh:[], used:[], later:STAMP.map((_,i)=>i), sched:{}};
+function stampIdFor(idx){                       // longest-unplayed first; new prompts join on the day they were added
+  idx=Math.max(idx,STAMP_START); const Q=_SQ;
+  while(Q.day<idx){ const d=++Q.day;
+    const join=Q.later.filter(i=>stampAddedDay(STAMP[i])===d);
+    if(join.length){ const o=shuffle(join.slice(), rng("zebra-stampede-added-"+d)); if(d===STAMP_START && o.includes(0)) o.unshift(...o.splice(o.indexOf(0),1)); Q.fresh.push(...o); Q.later=Q.later.filter(i=>!join.includes(i)); }
+    const pick=[...Q.fresh,...Q.used][0];
+    Q.fresh=Q.fresh.filter(i=>i!==pick); Q.used=[...Q.used.filter(i=>i!==pick), pick];
+    Q.sched[d]=pick; }
+  return Q.sched[idx];
+}
+const stampKey=d=>"zebra-stampede-"+d;
+let sWrong=[], sP=null, sFound=[], sTotal=0, sEndAt=0, sTimer=null, sDay="", sDayNum=0, sProf=prof, sPct=null;
+function stampNum(){ return dayIndex()-STAMP_START+1; }
+function stampInfo(){
+  const done=store(stampKey(todayKey()));
+  $("sInfo").innerHTML = done? `PLAYED ✓ · ${done.found.length} ANSWERS · ${done.total} PTS · NEXT IN <span class="cd">${hms(untilMidnight())}</span>` : `STAMPEDE #${stampNum()} · ${todayKey()}`;
+  $("bStamp").innerHTML = done? "⚡ VIEW TODAY'S STAMPEDE" : "⚡ STAMPEDE";
+}
+function startStampede(){
+  sfx.start(); sDay=todayKey(); sDayNum=stampNum(); sProf=prof; gameProf=prof; sP=STAMP[stampIdFor(dayIndex())];
+  markers=[]; parts=[];
+  const saved=store(stampKey(sDay));
+  if(saved){ sFound=saved.found.map(f=>({...f})); sTotal=saved.total; state="stampEnd"; showPanel(null); sinkTo(Math.min(700,sTotal),()=>stampFinish(true)); return; }
+  sFound=[]; sTotal=0; sWrong=[]; state="stamp"; hud.score.textContent=0;
+  $("sLabel").innerHTML=`⚡ DAILY STAMPEDE #${sDayNum} · EVERY FIELD`;
+  $("sQ").textContent=sP.q.toUpperCase();
+  $("sFound").innerHTML=""; $("sCount").textContent=0; $("sPts").textContent=0;
+  $("sMsg").className="smsg"; $("sMsg").innerHTML="GO GO GO! ENTER EACH ANSWER, THEN KEEP TYPING.";
+  const go=()=>{ showPanel("stamp"); const i=$("sAnswer"); i.value=""; i.disabled=false; i.focus();
+    sEndAt=Date.now()+STAMP_SECS*1000; clearInterval(sTimer); sTimer=setInterval(stampTick,100); stampTick(); };
+  const ready=Rarity.apply([sP]), go2=()=>ready.then(go);
+  if(zy>1) sinkTo(0,go2); else go2();
+}
+function stampTick(){
+  const left=Math.max(0,sEndAt-Date.now()), s=Math.ceil(left/1000);
+  $("sClock").textContent=s; $("sClock").classList.toggle("low",left<10000); $("sBar").style.width=(left/(STAMP_SECS*10))+"%";
+  hud.round.textContent="⚡ "+s+"s";
+  if(s<=5 && s>0 && s!==stampTick.last){ sfx.tick(); } stampTick.last=s;
+  if(left<=0 && state==="stamp"){ clearInterval(sTimer); $("sAnswer").disabled=true; state="stampEnd";
+    setTimeout(()=>{ showPanel(null); sinkTo(Math.min(700,sTotal),()=>stampFinish(false)); },600); }
+}
+function chipHTML(f,pop){ const c=TIERS[tierOf(f.pts)].color; return `<span class="chip${pop?" pop":""}" style="border-color:${c};color:${c}">${esc(cap(f.label))}<b>+${f.pts}</b></span>`; }
+function stampSubmit(){
+  if(state!=="stamp") return;
+  const inp=$("sAnswer"), raw=inp.value.trim(); if(!raw) return; inp.value="";
+  const m=$("sMsg"), r=evaluate(sP, raw);
+  const ms=Date.now()-(sEndAt-STAMP_SECS*1000);
+  if(r.type==="none"){ sWrong.push(raw); AnswerLog.add({day:sDay,mode:"stampede",field:sProf,prompt:sP.q,answer:null,guess:raw,pts:0,ok:false,ms}); m.className="smsg err"; m.textContent=`✗ “${raw.toUpperCase()}” ISN'T ON THE CHART`; sfx.nope();
+    inp.classList.remove("shake"); void inp.offsetWidth; inp.classList.add("shake"); return; }
+  const it=r.item;
+  if(sFound.some(f=>f.label===it.label)){ m.className="smsg dup"; m.textContent=`ALREADY GOT ${cap(it.label).toUpperCase()}`; sfx.hmm(); return; }
+  const f={label:it.label, pts:it.pts}; sFound.push(f); sTotal+=it.pts;
+  AnswerLog.add({day:sDay,mode:"stampede",field:sProf,prompt:sP.q,answer:it.label,guess:raw,pts:it.pts,base:it.base,ok:true,ms});
+  const ti=tierOf(it.pts), T=TIERS[ti];
+  m.className="smsg ok"; m.innerHTML=`${r.type!=="exact"?"≈ ":""}<span style="color:${T.color}">${esc(cap(it.label).toUpperCase())} +${it.pts}</span> ${T.name}`;
+  $("sFound").insertAdjacentHTML("afterbegin",chipHTML(f,true));
+  $("sCount").textContent=sFound.length; $("sPts").textContent=sTotal; hud.score.textContent=sTotal;
+  sfx.score(ti); burst(T.color,6+ti*6,.8+ti*.15); if(ti>=4){ flash("#b44bff",.25); shake=3; }
+  markers.push({d:Math.min(700,sTotal),c:T.color}); sinkTo(Math.min(700,sTotal));
+}
+/* estimated curve: players of varied skill race through the list, leaning on common answers */
+function simulateStampede(p, seed){
+  const r=rng("stampsim"+seed), b=Array(SNB).fill(0), base=p.items.map(it=>101-it.pts);
+  for(let s=0;s<3000;s++){
+    const skill=Math.min(1,Math.max(0,(r()+r()+r())/3)), k=2.6-2*skill;
+    let n=Math.max(1,Math.round(3+24*skill+(r()-.5)*6)); n=Math.min(n,p.items.length);
+    const w=base.map(x=>Math.pow(x,k)); let tot=0;
+    for(let j=0;j<n;j++){ const sum=w.reduce((a,c)=>a+c,0); if(sum<=0) break; let x=r()*sum, i=0; while(i<w.length-1 && (x-=w[i])>0) i++; tot+=p.items[i].pts; w[i]=0; }
+    b[Math.min(SNB-1,Math.floor(tot/SB))]++;
+  }
+  return b;
+}
+const StampScores={
+  async submit(day,total){ if(!Scores.on()) return; try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_stampede",{method:"POST",
+      headers:{...Scores.headers(),"Prefer":"return=minimal"}, body:JSON.stringify({day,field:sProf,player:playerId(),total})});
+      if(!r.ok && r.status!==409) console.warn("[zebra] stampede score not saved:",r.status,await r.text()); }catch(e){ console.warn("[zebra] score server unreachable:",e); } },
+  async histogram(day){ if(!Scores.on()) return null;
+    try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/stampede_histogram",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:day,p_field:sProf})});
+      if(!r.ok) return null; const rows=await r.json(), b=Array(SNB).fill(0);
+      rows.forEach(x=>{ const i=Math.max(0,Math.min(SNB-1,+x.bucket)); b[i]+= +x.n; }); return b; }catch(e){ return null; } }
+};
+async function stampFinish(fromSave){
+  state="stampEnd"; clearInterval(sTimer); hud.round.textContent="FINISHED"; hud.score.textContent=sTotal;
+  if(!fromSave){ store(stampKey(sDay),{found:sFound,total:sTotal,q:sP.q});
+    if(!AnswerLog.q.some(e=>e.mode==="stampede")) AnswerLog.add({day:sDay,mode:"stampede",field:sProf,prompt:sP.q,answer:null,guess:"",pts:0,ok:false,ms:STAMP_SECS*1000});
+    AnswerLog.flush(); }
+  $("seLabel").textContent=`⚡ DAILY STAMPEDE #${sDayNum} · ${sDay}${fromSave?" · ALREADY PLAYED":""}`;
+  $("seTotal").textContent=`${sTotal.toLocaleString()} PTS`;
+  $("seSub").innerHTML=`${esc(sP.q)}<br><span style="color:var(--gold)">${sFound.length}</span> answer${sFound.length===1?"":"s"} in 60 seconds`+(Scores.on()?`<div class="prov">PROVISIONAL · FINALIZED OVERNIGHT FROM EVERYONE'S ANSWERS. CHECK BACK TOMORROW.</div>`:"");
+  $("seFound").innerHTML = sFound.length? [...sFound].sort((a,b)=>b.pts-a.pts).map(f=>chipHTML(f)).join("") : `<span class="fine">NO ANSWERS THIS TIME. TOMORROW'S A NEW STAMPEDE!</span>`;
+  $("seMissed").textContent=`${sP.items.length-sFound.length} MISSED`;
+  const all=$("seAll"); all.open=false; all.querySelector(".ans").innerHTML="";
+  all.ontoggle=()=>{ if(!all.open) return; const box=all.querySelector(".ans"); if(box.innerHTML) return;
+    const got=new Set(sFound.map(f=>f.label)), sorted=[...sP.items].sort((a,b)=>b.pts-a.pts);
+    box.innerHTML=`<div class="ansn">${sorted.length} ANSWERS · DEEPEST FIRST · YOURS MARKED</div>`+sorted.map(x=>{const ti=tierOf(x.pts),c=TIERS[ti].color,me=got.has(x.label);
+      return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>${x.share!=null?`<div class="shr">${pctTxt(x.share)} of players</div>`:""}`;}).join(""); };
+  missBox("sMiss",{day:sDay,mode:"stampede",field:sProf,prompt:sP.q,prefill:sWrong[sWrong.length-1]||""});
+  $("seNext").innerHTML=`NEXT STAMPEDE IN <span class="cd">${hms(untilMidnight())}</span>`;
+  sPct=null; $("sShare").textContent=stampShare(); $("bSCopy").textContent="COPY RESULT";
+  showPanel("sEnd"); burst("#ffd23b",40,1.5); stampInfo();
+  const el=$("sRanking"); el.innerHTML=`<div class="loading blink">COMPARING YOU WITH OTHER ${peers().toUpperCase()}…</div>`;
+  let b=null, live=false, liveN=0;
+  await StampScores.submit(sDay,sTotal);
+  const real=await StampScores.histogram(sDay);
+  if(real){ liveN=real.reduce((a,c)=>a+c,0); if(liveN>=SCORE_SERVER.minPlayers){ b=real; live=true; } }
+  if(!b) b=simulateStampede(sP, sProf+sDay);
+  const pct=percentile(b,sTotal,SB), {n,mean}=stats(b,SB); sPct=pct;
+  const P=peers().toUpperCase();
+  el.innerHTML=`<div class="label">TODAY'S STAMPEDE RANKING</div>
+    <div class="pct">${pct>=99?`TOP 1% OF ${P}`:pct<=0?"JUST GETTING STARTED":`MORE POINTS THAN ${pct}% OF ${P}`}</div>
+    <div class="sub">vs ${live?`${n.toLocaleString()} ${peers()} today`:`typical ${peers()}`} · average ${Math.round(mean).toLocaleString()} pts · you ${sTotal.toLocaleString()} pts</div>
+    ${curveSVG(b,sTotal,SB,["0 pts","1,500","3,000+ pts"])}
+    <div class="src">${live? "<b>● LIVE</b> REAL PLAYERS' SCORES" : (liveN? `ESTIMATE · ONLY ${liveN} REAL SCORE${liveN===1?"":"S"} SO FAR` : "ESTIMATE · SIMULATED FROM TYPICAL ANSWERS")}</div>`;
+  $("sShare").textContent=stampShare();
+  if(pct>=93){ flash("#b44bff",.3); burst("#ffd23b",40,1.6); sfx.score(5); }
+}
+function stampShare(){
+  const em=[...sFound].sort((a,b)=>b.pts-a.pts).map(f=>TIERS[tierOf(f.pts)].emoji).join("");
+  return `🦓⚡ ZEBRA STAMPEDE #${sDayNum}\n${sFound.length} answers · ${sTotal.toLocaleString()} pts${em?"\n"+em:""}${sPct!==null?`\n${sPct>=99?"top 1%":"more than "+sPct+"%"} of ${peers()}`:""}\nzebradive.io`;
+}
+stampInfo(); window.__zebraReady=true; showFinals().catch(()=>{});
+
+/* wiring */
+$("bDaily").onclick=()=>{ac(); startGame(true);};
+$("bPractice").onclick=()=>{ac(); startGame(false);};
+$("bStamp").onclick=()=>{ac(); startStampede();};
+$("sForm").addEventListener("submit",e=>{e.preventDefault(); stampSubmit();});
+$("sAnswer").addEventListener("input",()=>{ sfx.key(); $("sAnswer").classList.remove("shake"); });
+$("bSHome").onclick=()=>{ state="title"; titleInfo(); setHud(); showPanel("title"); if(zy>1) sinkTo(0); };
+$("bSCopy").onclick=async()=>{ try{ await navigator.clipboard.writeText($("sShare").textContent); $("bSCopy").textContent="COPIED!"; }catch(e){ $("bSCopy").textContent="SELECT TEXT ↑"; } setTimeout(()=>$("bSCopy").textContent="COPY RESULT",1800); };
+$("bAgain").onclick=()=>startGame(false);
+$("bHome").onclick=()=>{ state="title"; titleInfo(); setHud(); showPanel("title"); if(zy>1) sinkTo(0); };
+$("bNext").onclick=next;
+$("form").addEventListener("submit",e=>{e.preventDefault(); tryAnswer();});
+$("answer").addEventListener("input",()=>{ sfx.key(); if(pending){ pending=null; $("hint").className="hint hidden"; } $("answer").classList.remove("shake"); });
+$("answer").addEventListener("keydown",e=>{ if(e.key==="Escape" && pending) sayNo(); });
+$("bPass").onclick=()=>finishRound(null,"","pass");
+$("bCopy").onclick=async()=>{ try{ await navigator.clipboard.writeText($("share").textContent); $("bCopy").textContent="COPIED!"; }catch(e){ $("bCopy").textContent="SELECT TEXT ↑"; } setTimeout(()=>$("bCopy").textContent="COPY RESULT",1800); };
+const mb=$("mute"); const setM=()=>mb.textContent=muted?"♪ OFF":"♪ ON"; setM();
+mb.onclick=()=>{ muted=!muted; try{localStorage.setItem("zebra-mute",muted?"1":"0")}catch(e){} setM(); };
+requestAnimationFrame(loop);
+</script>
+</body>
+</html>

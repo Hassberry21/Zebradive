@@ -1059,7 +1059,7 @@ function sendSuggestion(e){ if(!Scores.on()) return Promise.resolve(false);
     .then(r=>{ if(!r.ok) r.text().then(x=>console.warn("[zebra] suggestion not saved:",r.status,x)); return r.ok; }).catch(()=>false);
 }
 function missBox(id, ctx){
-  const el=$(id); if(!el) return; if(!Scores.on()){ el.innerHTML=""; return; }
+  const el=$(id); if(!el) return;
   const sent=[], touch=matchMedia("(pointer: coarse)").matches;
   const draw=(focus)=>{
     const guess=(ctx.prefill&&!sent.includes(ctx.prefill))?ctx.prefill:"";

@@ -168,15 +168,19 @@ button.btn.gold:hover{background:#ffe27a}
 .yfinal{margin:14px auto 0;max-width:440px;padding:10px 12px;border:2px solid rgba(180,75,255,.5);text-align:left;font-size:14px}
 .yfinal .row{display:flex;justify-content:space-between;gap:10px;padding:3px 0}
 .yfinal .was{opacity:.55;font-size:12px}
-.miss{margin:0 auto 16px;max-width:460px;padding:12px 14px;border:2px solid rgba(255,210,59,.55);background:rgba(255,210,59,.05);text-align:left}
-.miss.hot{border-color:var(--gold);background:rgba(255,210,59,.12);box-shadow:0 0 0 3px rgba(255,210,59,.15)}
-.miss .mhead{font-family:Silkscreen,monospace;font-size:14px;letter-spacing:1px;color:var(--gold);line-height:1.4;margin-bottom:4px}
-.miss .msub{font-size:14px;color:#e7e3f5;line-height:1.4;margin-bottom:10px}
+.miss{margin:0 auto 16px;max-width:460px;padding:14px;border:3px solid var(--gold);background:#1d1838;text-align:left}
+.miss.hot{background:#2a2147;box-shadow:0 0 0 4px rgba(255,210,59,.18),6px 6px 0 rgba(255,210,59,.35);animation:mpulse 2.2s ease-in-out 2}
+@keyframes mpulse{0%,100%{box-shadow:0 0 0 4px rgba(255,210,59,.18),6px 6px 0 rgba(255,210,59,.35)}50%{box-shadow:0 0 0 9px rgba(255,210,59,.32),6px 6px 0 rgba(255,210,59,.35)}}
+.miss .mhead{display:block;font-family:Silkscreen,monospace;font-size:15px;font-weight:700;letter-spacing:1px;color:var(--gold);line-height:1.35;margin-bottom:10px;cursor:text}
+.miss .mhead span{color:#fff;white-space:nowrap}
 .miss form{display:flex;gap:8px;max-width:none}
-.miss input{flex:1;min-width:0;font-family:"Space Grotesk";font-size:16px;background:rgba(0,0,0,.45);color:#fff;border:2px solid rgba(255,255,255,.7);padding:9px 10px;outline:none}
-.miss input:focus{border-color:var(--gold)}
-.miss .btn{margin:0;min-height:44px}
-.miss .mok{font-family:Silkscreen,monospace;font-size:12px;color:var(--green);line-height:1.6;margin-bottom:10px}
+.miss input{flex:1;min-width:0;font-family:"Space Grotesk";font-size:18px;background:#ffffff;color:#0c0a20;border:3px solid #ffffff;padding:10px 12px;outline:none;caret-color:#b44bff}
+.miss input::placeholder{color:#6b6585}
+.miss input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(255,210,59,.45)}
+.miss input:disabled{opacity:.6}
+.miss .btn{margin:0;min-height:48px;background:var(--gold);color:#0c0a20;box-shadow:0 4px 0 #b8860b;font-size:14px}
+.miss .msub{font-size:13px;color:#c9c3e0;line-height:1.4;margin-top:8px}
+.miss .mok{color:var(--green);font-weight:500}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .later{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;opacity:.7;margin:4px 0 16px}
 .sumd{border-bottom:1px solid var(--line)}
@@ -926,9 +930,9 @@ function showResult(p,raw,it,ti,reason){
   const tag=$("rTag"); tag.textContent=T.name; tag.style.color=T.color;
   $("rYours").innerHTML = it ? `You said “${esc(raw)}” → <span style="color:${T.color}">${esc(cap(it.label))}</span>. Your zebra sank ${it.pts*10} µm.`
                              : (reason==="timeout"? "The clock ran out" : "You passed") + (tries? ` after ${tries} wrong ${tries===1?"try":"tries"}.` : ".");
-  missBox("rMiss",{day:gameDay,mode:modeTag(),field:gameProf,prompt:p.q,prefill:roundWrong[roundWrong.length-1]||""});
+  missBox("rMiss",{day:gameDay,mode:modeTag(),field:gameProf,prompt:p.q,prefill:roundWrong[roundWrong.length-1]||"",missed:!it||roundWrong.length>0});
   $("bNext").textContent = round===6? "▼ FINAL DEPTH" : "▼ DIVE ON";
-  showPanel("result"); $("result").scrollTop=0; setTimeout(()=>$("bNext").focus({preventScroll:true}),50);
+  showPanel("result"); $("result").scrollTop=0; if(!(Scores.on() && (!it||roundWrong.length))) setTimeout(()=>$("bNext").focus({preventScroll:true}),50);
 }
 function next(){ if(state!=="result") return; round++; if(round>=7){ state="end"; finish(false);} else askRound(); }
 
@@ -1056,21 +1060,22 @@ function sendSuggestion(e){ if(!Scores.on()) return Promise.resolve(false);
 }
 function missBox(id, ctx){
   const el=$(id); if(!el) return; if(!Scores.on()){ el.innerHTML=""; return; }
-  const sent=[];
-  const draw=()=>{
+  const sent=[], touch=matchMedia("(pointer: coarse)").matches;
+  const draw=(focus)=>{
     const guess=(ctx.prefill&&!sent.includes(ctx.prefill))?ctx.prefill:"";
-    const head = guess ? `YOU TYPED “${esc(guess.toUpperCase())}”. SHOULD THAT HAVE COUNTED?` : `THINK AN ANSWER IS MISSING FROM THE LIST?`;
-    el.className="miss"+(guess?" hot":"");
-    el.innerHTML=(sent.length?`<div class="mok">✓ SENT: ${sent.map(s=>"“"+esc(s.toUpperCase())+"”").join(", ")}. THANKS! IF IT CHECKS OUT, IT'S ADDED TO THE GAME.</div>`:"")+
-      `<div class="mhead">🦓 ${head}</div>
-       <div class="msub">Send it for review. Correct answers are added to the game, usually within a day.</div>
-       <form autocomplete="off"><label class="sr" for="${id}In">Answer to suggest</label><input id="${id}In" maxlength="80" placeholder="your answer" value="${esc(guess)}" autocapitalize="off" spellcheck="false"><button class="btn small" type="submit">${guess?"YES, SUBMIT IT":"SUBMIT"}</button></form>`;
+    el.className="miss"+(ctx.missed?" hot":"");
+    el.innerHTML=
+      `<label class="mhead" for="${id}In">DID WE MISS AN ANSWER? <span>ADD IT HERE ⬇</span></label>
+       <form autocomplete="off"><input id="${id}In" maxlength="80" placeholder="Type the answer we missed…" value="${esc(guess)}" autocapitalize="off" spellcheck="false" enterkeyhint="send"><button class="btn" type="submit">ADD IT</button></form>
+       <div class="msub">${sent.length?`<span class="mok">✓ GOT IT: ${sent.map(s=>"“"+esc(s)+"”").join(", ")}. If it's correct, it's added to the game within a day.</span>`
+         : "We check every suggestion. Correct answers are added to the game within a day."}</div>`;
     const f=el.querySelector("form"), i=el.querySelector("input");
     i.addEventListener("keydown",e=>e.stopPropagation());
     f.onsubmit=async e=>{ e.preventDefault(); const v=i.value.trim(); if(v.length<2){ i.focus(); return; }
-      i.disabled=true; await sendSuggestion({...ctx, suggestion:v}); sent.push(v); try{sfx.score(2);}catch(e){} draw(); };
+      i.disabled=true; await sendSuggestion({...ctx, suggestion:v}); sent.push(v); try{sfx.score(2);}catch(e){} draw(false); };
+    if(focus && !touch) setTimeout(()=>{ i.focus({preventScroll:true}); i.select(); },80);
   };
-  draw();
+  draw(ctx.missed);
 }
 let roundWrong=[];
 
@@ -1180,7 +1185,7 @@ async function stampFinish(fromSave){
     const got=new Set(sFound.map(f=>f.label)), sorted=[...sP.items].sort((a,b)=>b.pts-a.pts);
     box.innerHTML=`<div class="ansn">${sorted.length} ANSWERS · DEEPEST FIRST · YOURS MARKED</div>`+sorted.map(x=>{const ti=tierOf(x.pts),c=TIERS[ti].color,me=got.has(x.label);
       return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>${x.share!=null?`<div class="shr">${pctTxt(x.share)} of players</div>`:""}`;}).join(""); };
-  missBox("sMiss",{day:sDay,mode:"stampede",field:sProf,prompt:sP.q,prefill:sWrong[sWrong.length-1]||""});
+  missBox("sMiss",{day:sDay,mode:"stampede",field:sProf,prompt:sP.q,prefill:sWrong[sWrong.length-1]||"",missed:sWrong.length>0});
   $("seNext").innerHTML=`NEXT STAMPEDE IN <span class="cd">${hms(untilMidnight())}</span>`;
   sPct=null; $("sShare").textContent=stampShare(); $("bSCopy").textContent="COPY RESULT";
   showPanel("sEnd"); burst("#ffd23b",40,1.5); stampInfo();

@@ -24808,8 +24808,11 @@ addExtra({
    with 30+ plays  -> round(99 - 60*log10(1 + 100*share)), kept within 5-99;
    with fewer plays -> 5+ players: 40 · 2-4 players: 65 · 1 player: 85.
    Never edit or remove existing lines here except to fix a mistake. */
-const CROWD=[];
+const CROWD=[], CROWD_ALIAS=[];
 function crowd(q, pts, names){ pts=Math.max(5,Math.min(99,Math.round(pts))); CROWD.push({q,pts,names}); addExtra({[q]: pts+" "+names}); }
+/* another way to say an answer that is ALREADY on the list (same answer, same points):
+     crowdAlias("<prompt>", "<existing answer as listed>", "<new spelling>|<another>"); */
+function crowdAlias(q, existing, names){ CROWD_ALIAS.push({q,existing,names}); }
 
 // --- additions (newest at the bottom) ---
 
@@ -27025,6 +27028,12 @@ const STAMP = SRAW.map(r=>{ const N=r.lines.length;
     a:[...r.lines.map((l,k)=>[Math.min(99,Math.round(5+93*Math.pow(k/(N-1),1.1))), l]),
        ...CROWD.filter(c=>c.q===r.q).map(c=>[c.pts,c.names,true])]};
   prep(p); return p; });
+
+/* crowd aliases: extra spellings for answers already on a list (applied after everything is built) */
+CROWD_ALIAS.forEach(a=>{ const p=[...BANK,...STAMP].find(x=>x.q===a.q); if(!p) return;
+  const r=evaluate(p,a.existing); if(r.type!=="exact") return; const it=r.item;
+  a.names.split("|").map(s=>s.trim()).filter(Boolean).forEach(nm=>{ const k=norm(nm,p.strip); if(it.keys.includes(k)) return;
+    it.names.push(nm); it.keys.push(k); const u=norm(nm,[]); it.ck.push(ckey(u)||u); it.alts=(it.alts||[]).concat([norm(nm,p.strip,true)]); }); });
 
 
 /* ===== TIERS ===== */

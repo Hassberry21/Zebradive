@@ -2046,3 +2046,9 @@ const STAMP = SRAW.map(r=>{ const N=r.lines.length;
     a:[...r.lines.map((l,k)=>[Math.min(99,Math.round(5+93*Math.pow(k/(N-1),1.1))), l]),
        ...CROWD.filter(c=>c.q===r.q).map(c=>[c.pts,c.names,true])]};
   prep(p); return p; });
+
+/* crowd aliases: extra spellings for answers already on a list (applied after everything is built) */
+CROWD_ALIAS.forEach(a=>{ const p=[...BANK,...STAMP].find(x=>x.q===a.q); if(!p) return;
+  const r=evaluate(p,a.existing); if(r.type!=="exact") return; const it=r.item;
+  a.names.split("|").map(s=>s.trim()).filter(Boolean).forEach(nm=>{ const k=norm(nm,p.strip); if(it.keys.includes(k)) return;
+    it.names.push(nm); it.keys.push(k); const u=norm(nm,[]); it.ck.push(ckey(u)||u); it.alts=(it.alts||[]).concat([norm(nm,p.strip,true)]); }); });

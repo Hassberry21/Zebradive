@@ -56,7 +56,8 @@ node src/check.js         # safety check; must print OK before pushing
 
 - `src/bank.js`: daily, practice and board prompts and the answer matching
 - `src/stampede.js`: Daily Stampede prompts
-- `src/crowd.js`: answers added from player suggestions (one `crowd(...)` line each)
+- `src/crowd.js`: answers added from player suggestions (`crowd(...)` new answers, `crowdAlias(...)` new spellings)
+- `src/triage.js`: checks candidate guesses against the current game (already counts / typo / new)
 - `src/template.html`: the game page
 
 A scheduled review runs every night: it reads new suggestions (`zebra_suggestions`) and common

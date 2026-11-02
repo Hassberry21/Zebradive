@@ -27716,7 +27716,10 @@ const Rarity={
 };
 const AnswerLog={
   q:[],
-  add(e){ if(!Scores.on()) return; this.q.push({player:playerId(), ...e, guess:String(e.guess||"").slice(0,80), ms:Math.max(0,Math.min(600000,Math.round(e.ms||0)))}); },
+  // every row must carry the SAME keys: the database rejects a batch whose rows differ
+  add(e){ if(!Scores.on()) return; this.q.push({player:playerId(), day:e.day, mode:e.mode, field:e.field, prompt:e.prompt,
+    answer:e.answer??null, guess:String(e.guess||"").slice(0,80), pts:Math.max(0,Math.min(99,Math.round(e.pts||0))),
+    base:(e.base==null?null:Math.max(0,Math.min(99,Math.round(e.base)))), ok:!!e.ok, ms:Math.max(0,Math.min(600000,Math.round(e.ms||0)))}); },
   flush(keepalive){
     if(!this.q.length || !Scores.on()) return; const rows=this.q.splice(0);
     try{ fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_answers",{method:"POST",keepalive:!!keepalive,

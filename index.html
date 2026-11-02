@@ -168,8 +168,14 @@ h2{font-family:Silkscreen,monospace;font-size:20px;margin:0 0 4px;font-weight:70
 .sum{display:grid;grid-template-columns:1fr auto;gap:10px;padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;text-align:left}
 .sum .a{text-align:right}
 
+.stampcta{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin:6px auto 14px;max-width:460px;padding:12px 14px;border:2px solid var(--gold);background:rgba(255,210,59,.07);text-align:left}
+.stampcta b{display:block;font-family:Silkscreen,monospace;font-size:14px;color:var(--gold);letter-spacing:1px;margin-bottom:4px}
+.stampcta span{font-family:Silkscreen,monospace;font-size:11px;color:#e7e3f5;line-height:1.5}
+.stampcta .btn{margin:0}
 .stampbox{margin:16px auto 4px;padding:12px 12px 10px;border:2px dashed rgba(255,210,59,.55);max-width:440px}
 button.btn.gold{background:var(--gold);box-shadow:0 4px 0 #b8860b}
+button.btn.gold.nudge{animation:nudge 1.6s ease-in-out infinite}
+@keyframes nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
 button.btn.gold:hover{background:#ffe27a}
 #sQ{font-family:Silkscreen,monospace;font-size:clamp(19px,4.4vw,25px);line-height:1.3;margin:2px 0 12px}
 .sclock{display:flex;align-items:center;gap:10px;max-width:440px;margin:0 auto 14px}
@@ -250,11 +256,11 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <div style="margin-top:14px">
     <button class="btn" id="bDaily"><span class="blink">▶</span> PRESS START</button>
     <button class="btn alt" id="bPractice">PRACTICE</button>
+    <button class="btn gold" id="bStamp">⚡ STAMPEDE</button>
   </div>
   <div class="stampbox">
-    <div class="label" style="margin:0 0 4px">⚡ NEW · DAILY STAMPEDE</div>
+    <div class="label" style="margin:0 0 4px">⚡ DAILY STAMPEDE</div>
     <div class="fine" style="margin:0 0 8px">ONE PROMPT FOR EVERY FIELD. 60 SECONDS. NAME AS MANY ANSWERS AS YOU CAN. EVERY ANSWER SCORES, RARE ONES SCORE MORE.</div>
-    <button class="btn gold" id="bStamp">⚡ STAMPEDE</button>
     <div class="fine" id="sInfo"></div>
   </div>
   <div id="tStreak"></div>
@@ -339,6 +345,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <div class="big" id="eDepth"></div>
   <div class="yours" id="eRank" style="margin-top:0"></div>
   <div id="eStreak"></div>
+  <div id="eStamp"></div>
   <div id="ranking" class="ranking"></div>
   <div id="eSum"></div>
   <pre id="share"></pre>
@@ -27675,6 +27682,9 @@ function finish(fromSave){
       return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>${x.share!=null?`<div class="shr">${pctTxt(x.share)} of players</div>`:""}`;}).join(""); }));
   lastPct=null; $("share").textContent = shareText();
   $("nextDaily").innerHTML = `NEXT DAILY DIVE IN <span class="cd">${hms(untilMidnight())}</span>`;
+  { const done=store(stampKey(todayKey())), el=$("eStamp");
+    el.innerHTML = done ? "" : `<div class="stampcta"><div><b>⚡ ONE MORE ROUND?</b><span>TODAY'S STAMPEDE: ONE PROMPT FOR EVERY FIELD. 60 SECONDS. NAME AS MANY ANSWERS AS YOU CAN.</span></div><button type="button" class="btn gold" id="bStampEnd">PLAY STAMPEDE ▶</button></div>`;
+    if(!done) $("bStampEnd").onclick=()=>{ ac(); startStampede(); }; }
   showPanel("end"); burst("#e3a8ff",40,1.5);
   showRanking(fromSave);
 }
@@ -27813,7 +27823,10 @@ function stampNum(){ return dayIndex()-STAMP_START+1; }
 function stampInfo(){
   const done=store(stampKey(todayKey()));
   $("sInfo").innerHTML = done? `PLAYED ✓ · ${done.found.length} ANSWERS · ${done.total} PTS · NEXT IN <span class="cd">${hms(untilMidnight())}</span>` : `STAMPEDE #${stampNum()} · ${todayKey()}`;
-  $("bStamp").innerHTML = done? "⚡ VIEW TODAY'S STAMPEDE" : "⚡ STAMPEDE";
+  $("bStamp").innerHTML = done? "⚡ VIEW STAMPEDE" : "⚡ STAMPEDE";
+  const dailyDone=!!store(dayKey(todayKey()));
+  $("bStamp").classList.toggle("nudge", !done && dailyDone);
+  if(!done && dailyDone) $("sInfo").innerHTML=`DAILY DONE ✓ · TODAY'S STAMPEDE IS WAITING`;
 }
 function startStampede(){
   sfx.start(); sDay=todayKey(); sDayNum=stampNum(); sProf=prof; gameProf=prof; sP=STAMP[stampIdFor(dayIndex())];

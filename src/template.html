@@ -529,7 +529,7 @@ const Scores = {
 
 /* Estimated curve: simulate players of varied skill answering the same prompts.
    Weaker players lean hard on common answers and miss more often. */
-function simulate(prompts, seed){
+function simulate(prompts, seed, raw){
   const r=rng("sim"+seed), N=3000, totals=[];
   const W=prompts.map(p=>p.items.map(it=>101-it.pts));
   for(let s=0;s<N;s++){
@@ -543,6 +543,7 @@ function simulate(prompts, seed){
     });
     totals.push(tot);
   }
+  if(raw) return totals;
   const b=Array(NB).fill(0); totals.forEach(v=>b[Math.min(NB-1,Math.floor(v/BUCKET))]++);
   return b;
 }
@@ -584,24 +585,42 @@ function curveSVG(b,score,BK=BUCKET,LAB=["0 µm","3,500","7,000 µm"]){
       <text x="${Wd}" y="${Ht-4}" text-anchor="end">${LAB[2]}</text>
     </g></svg>`;
 }
+
+/* THE RANKING CURVE: always a full curve. It starts from 3,000 simulated players on the same
+   prompts, then is tuned to the day's real results: the simulated curve is shifted and stretched
+   toward the real players' average and spread, and the real scores are mixed in. The more real
+   players there are, the more the curve is theirs (15 players = half-tuned; 50 = half real). */
+function blendCurve(sim, real, BK, nb, maxScore){
+  const n=real? real.reduce((a,c)=>a+c,0) : 0, S=sim.length;
+  const ms=sim.reduce((a,c)=>a+c,0)/S, ss=Math.sqrt(sim.reduce((a,c)=>a+(c-ms)*(c-ms),0)/S)||1;
+  let mt=ms, st=ss;
+  if(n){ let mr=0; real.forEach((c,i)=>mr+=c*(i+.5)*BK); mr/=n;
+    let vr=0; real.forEach((c,i)=>vr+=c*Math.pow((i+.5)*BK-mr,2)); const sr=n>=3? Math.max(BK*.6,Math.sqrt(vr/n)) : ss;
+    const w=n/(n+15); mt=ms+w*(mr-ms); st=ss+w*(sr-ss); }
+  const out=Array(nb).fill(0), rw=n? n/(n+50) : 0;
+  sim.forEach(x=>{ const y=Math.max(0,Math.min(maxScore-1,mt+(x-ms)*st/ss)); out[Math.min(nb-1,Math.floor(y/BK))]+=(1-rw)*1000/S; });
+  if(n) real.forEach((c,i)=>{ out[i]+=rw*1000*c/n; });
+  return {b:out, n};
+}
+function curveSrc(n){ return n? `<b>● LIVE</b> TUNED TO ${n.toLocaleString()} REAL SCORE${n===1?"":"S"} TODAY` : "ESTIMATE · SIMULATED FROM TYPICAL ANSWERS"; }
 async function showRanking(fromSave){
   const el=$("ranking");
   el.innerHTML=`<div class="loading blink">COMPARING YOU WITH OTHER ${peers().toUpperCase()}…</div>`;
-  let b=null, live=false, liveN=0;
+  let real=null;
   if(daily){
     await Scores.submit(gameDay, total);   // re-sending a saved result is harmless: the server keeps one per player
-    const real=await Scores.histogram(gameDay);
-    if(real){ liveN=real.reduce((a,c)=>a+c,0); if(liveN>=SCORE_SERVER.minPlayers){ b=real; live=true; } }
+    real=await Scores.histogram(gameDay);
   }
-  if(!b) b=simulate(set, daily? rankGroup()+gameDay : set.map(p=>p.q).join("|"));
-  const pct=percentile(b,total), {n,mean}=stats(b);
+  const sim=simulate(set, daily? rankGroup()+gameDay : set.map(p=>p.q).join("|"), true);
+  const {b, n:liveN}=blendCurve(sim, real, BUCKET, NB, 700);
+  const pct=percentile(b,total), {mean}=stats(b);
   const P=peers().replace(/^[a-z]/,c=>c.toUpperCase()).replace(/^(physicians|nurses|pharmacists|dentists|mixed-mode players)$/i,m=>m.toUpperCase()); const pctTxt = pct>=99 ? `TOP 1% OF ${P}` : pct<=0 ? "JUST GETTING STARTED" : `DEEPER THAN ${pct}% OF ${P}`;
-  const who = live ? `${n.toLocaleString()} ${n===1?peers().replace(/s$/,""):peers()} today` : `typical ${peers()}`;
+  const who = liveN ? `${peers()} today` : `typical ${peers()}`;
   el.innerHTML = `${pct!==null?ladderHTML(pct):""}<div class="label">${daily?"TODAY'S RANKING":"PRACTICE RANKING"}</div>
     <div class="pct">${pctTxt}</div>
     <div class="sub">vs ${who} · average ${(Math.round(mean)*10).toLocaleString()} µm · you ${(total*10).toLocaleString()} µm</div>
     ${curveSVG(b,total)}
-    <div class="src">${live? "<b>● LIVE</b> REAL PLAYERS' SCORES" : (liveN? `ESTIMATE · ONLY ${liveN} REAL SCORE${liveN===1?"":"S"} SO FAR` : "ESTIMATE · SIMULATED FROM TYPICAL ANSWERS")}</div>`;
+    <div class="src">${curveSrc(liveN)}</div>`;
   if(pct!==null){ lastPct=pct; $("share").textContent = shareText(); if(ladderFor(pct)>=7){ /* top two rungs */  flash("#b44bff",.3); burst("#ffd23b",40,1.6); sfx.score(5); } }
 }
 /* Career ladder: your title depends on your percentile */
@@ -997,10 +1016,10 @@ async function showFinals(){
       if(!dr && !sr){ el.innerHTML=`<div class="yfinal"><div class="label" style="margin:0">YESTERDAY'S FINAL SCORES</div><div class="fine" style="margin:4px 0 0">BEING CALCULATED. THEY'RE POSTED OVERNIGHT (BY ABOUT 7 AM ET).</div></div>`; return; }
       fin={};
       if(dr){ const hb=await fetch(base+"score_histogram",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:y,p_field:grp})}).then(x=>x.json()).catch(()=>null);
-        let pct=null; if(hb){ const b=Array(NB).fill(0); hb.forEach(x=>b[Math.max(0,Math.min(NB-1,+x.bucket))]+= +x.n); pct=percentile(b,dr.total); }
+        let pct=null; { const real=Array(NB).fill(0); if(hb) hb.forEach(x=>real[Math.max(0,Math.min(NB-1,+x.bucket))]+= +x.n); const ys=dailyIdsFor(prof,dayIndex()-1).map(i=>BANK[i]); const {b}=blendCurve(simulate(ys,grp+y,true),real,BUCKET,NB,700); pct=percentile(b,dr.total); }
         fin.d={total:dr.total, was:d?d.total:null, pct}; }
       if(sr){ const hb=await fetch(base+"stampede_histogram",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:y,p_field:prof})}).then(x=>x.json()).catch(()=>null);
-        let pct=null; if(hb){ const b=Array(SNB).fill(0); hb.forEach(x=>b[Math.max(0,Math.min(SNB-1,+x.bucket))]+= +x.n); pct=percentile(b,sr.total,SB); }
+        let pct=null; { const real=Array(SNB).fill(0); if(hb) hb.forEach(x=>real[Math.max(0,Math.min(SNB-1,+x.bucket))]+= +x.n); const {b}=blendCurve(simulateStampede(STAMP[stampIdFor(dayIndex()-1)],prof+y,true),real,SB,SNB,SB*SNB); pct=percentile(b,sr.total,SB); }
         fin.s={total:sr.total, was:s?s.total:null, pct}; }
       if(new Date().getHours()>=8) store(ck,fin);          // keep it once the morning rescore is in
     }catch(e){ return; }
@@ -1104,16 +1123,16 @@ function stampSubmit(){
   markers.push({d:Math.min(700,sTotal),c:T.color}); sinkTo(Math.min(700,sTotal));
 }
 /* estimated curve: players of varied skill race through the list, leaning on common answers */
-function simulateStampede(p, seed){
-  const r=rng("stampsim"+seed), b=Array(SNB).fill(0), base=p.items.map(it=>101-it.pts);
+function simulateStampede(p, seed, raw){
+  const r=rng("stampsim"+seed), b=Array(SNB).fill(0), base=p.items.map(it=>101-it.pts), totals=[];
   for(let s=0;s<3000;s++){
     const skill=Math.min(1,Math.max(0,(r()+r()+r())/3)), k=2.6-2*skill;
     let n=Math.max(1,Math.round(3+24*skill+(r()-.5)*6)); n=Math.min(n,p.items.length);
     const w=base.map(x=>Math.pow(x,k)); let tot=0;
     for(let j=0;j<n;j++){ const sum=w.reduce((a,c)=>a+c,0); if(sum<=0) break; let x=r()*sum, i=0; while(i<w.length-1 && (x-=w[i])>0) i++; tot+=p.items[i].pts; w[i]=0; }
-    b[Math.min(SNB-1,Math.floor(tot/SB))]++;
+    totals.push(tot); b[Math.min(SNB-1,Math.floor(tot/SB))]++;
   }
-  return b;
+  return raw? totals : b;
 }
 const StampScores={
   async submit(day,total){ if(!Scores.on()) return; try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/zebra_stampede",{method:"POST",
@@ -1144,18 +1163,16 @@ async function stampFinish(fromSave){
   sPct=null; $("sShare").textContent=stampShare(); $("bSCopy").textContent="COPY RESULT";
   showPanel("sEnd"); burst("#ffd23b",40,1.5); stampInfo();
   const el=$("sRanking"); el.innerHTML=`<div class="loading blink">COMPARING YOU WITH OTHER ${peers().toUpperCase()}…</div>`;
-  let b=null, live=false, liveN=0;
   await StampScores.submit(sDay,sTotal);
   const real=await StampScores.histogram(sDay);
-  if(real){ liveN=real.reduce((a,c)=>a+c,0); if(liveN>=SCORE_SERVER.minPlayers){ b=real; live=true; } }
-  if(!b) b=simulateStampede(sP, sProf+sDay);
-  const pct=percentile(b,sTotal,SB), {n,mean}=stats(b,SB); sPct=pct;
+  const {b, n:liveN}=blendCurve(simulateStampede(sP, sProf+sDay, true), real, SB, SNB, SB*SNB);
+  const pct=percentile(b,sTotal,SB), {mean}=stats(b,SB); sPct=pct;
   const P=peers().toUpperCase();
   el.innerHTML=`<div class="label">TODAY'S STAMPEDE RANKING</div>
     <div class="pct">${pct>=99?`TOP 1% OF ${P}`:pct<=0?"JUST GETTING STARTED":`MORE POINTS THAN ${pct}% OF ${P}`}</div>
-    <div class="sub">vs ${live?`${n.toLocaleString()} ${peers()} today`:`typical ${peers()}`} · average ${Math.round(mean).toLocaleString()} pts · you ${sTotal.toLocaleString()} pts</div>
+    <div class="sub">vs ${liveN?`${peers()} today`:`typical ${peers()}`} · average ${Math.round(mean).toLocaleString()} pts · you ${sTotal.toLocaleString()} pts</div>
     ${curveSVG(b,sTotal,SB,["0 pts","1,500","3,000+ pts"])}
-    <div class="src">${live? "<b>● LIVE</b> REAL PLAYERS' SCORES" : (liveN? `ESTIMATE · ONLY ${liveN} REAL SCORE${liveN===1?"":"S"} SO FAR` : "ESTIMATE · SIMULATED FROM TYPICAL ANSWERS")}</div>`;
+    <div class="src">${curveSrc(liveN)}</div>`;
   $("sShare").textContent=stampShare();
   if(pct>=93){ flash("#b44bff",.3); burst("#ffd23b",40,1.6); sfx.score(5); }
 }

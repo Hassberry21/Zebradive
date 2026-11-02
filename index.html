@@ -199,14 +199,16 @@ button.btn.gold:hover{background:#ffe27a}
 .yfinal{margin:14px auto 0;max-width:440px;padding:10px 12px;border:2px solid rgba(180,75,255,.5);text-align:left;font-size:14px}
 .yfinal .row{display:flex;justify-content:space-between;gap:10px;padding:3px 0}
 .yfinal .was{opacity:.55;font-size:12px}
-.miss{margin:0 auto 14px;max-width:440px}
-.miss .mbtn{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;background:transparent;color:var(--gold);border:2px dashed rgba(255,210,59,.6);padding:8px 12px;cursor:pointer;min-height:40px}
-.miss .mbtn:hover{background:rgba(255,210,59,.08)}
-.miss form{display:flex;gap:8px;margin-top:4px}
-.miss input{flex:1;min-width:0;font-family:"Space Grotesk";font-size:16px;background:rgba(0,0,0,.4);color:#fff;border:2px solid rgba(255,255,255,.6);padding:8px 10px;outline:none}
+.miss{margin:0 auto 16px;max-width:460px;padding:12px 14px;border:2px solid rgba(255,210,59,.55);background:rgba(255,210,59,.05);text-align:left}
+.miss.hot{border-color:var(--gold);background:rgba(255,210,59,.12);box-shadow:0 0 0 3px rgba(255,210,59,.15)}
+.miss .mhead{font-family:Silkscreen,monospace;font-size:14px;letter-spacing:1px;color:var(--gold);line-height:1.4;margin-bottom:4px}
+.miss .msub{font-size:14px;color:#e7e3f5;line-height:1.4;margin-bottom:10px}
+.miss form{display:flex;gap:8px;max-width:none}
+.miss input{flex:1;min-width:0;font-family:"Space Grotesk";font-size:16px;background:rgba(0,0,0,.45);color:#fff;border:2px solid rgba(255,255,255,.7);padding:9px 10px;outline:none}
 .miss input:focus{border-color:var(--gold)}
-.miss .mlbl{display:block;font-family:Silkscreen,monospace;font-size:11px;color:var(--muted);letter-spacing:1px;margin-bottom:4px;text-align:left}
-.miss .mok{font-family:Silkscreen,monospace;font-size:12px;color:var(--green);line-height:1.6}
+.miss .btn{margin:0;min-height:44px}
+.miss .mok{font-family:Silkscreen,monospace;font-size:12px;color:var(--green);line-height:1.6;margin-bottom:10px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .later{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;opacity:.7;margin:4px 0 16px}
 .sumd{border-bottom:1px solid var(--line)}
 .sumd>summary{list-style:none;cursor:pointer;border-bottom:none}
@@ -27787,16 +27789,20 @@ function sendSuggestion(e){ if(!Scores.on()) return Promise.resolve(false);
 function missBox(id, ctx){
   const el=$(id); if(!el) return; if(!Scores.on()){ el.innerHTML=""; return; }
   const sent=[];
-  const closed=()=>{ el.innerHTML=(sent.length?`<div class="mok">✓ THANKS! WE'LL REVIEW ${sent.map(s=>"“"+esc(s.toUpperCase())+"”").join(", ")} FOR THE ANSWER LIST.</div>`:"")+
-    `<button type="button" class="mbtn">${sent.length?"+ SUGGEST ANOTHER":"🦓 WE MISSED AN ANSWER?"}</button>`;
-    el.querySelector(".mbtn").onclick=open; };
-  const open=()=>{ const pre=(ctx.prefill&&!sent.includes(ctx.prefill))?ctx.prefill:"";
-    el.innerHTML=`<label class="mlbl" for="${id}In">AN ANSWER THAT SHOULD COUNT FOR THIS PROMPT</label><form autocomplete="off"><input id="${id}In" maxlength="80" placeholder="your answer_" value="${esc(pre)}" autocapitalize="off" spellcheck="false"><button class="btn small" type="submit">SEND</button></form>`;
-    const f=el.querySelector("form"), i=el.querySelector("input"); i.focus(); i.select();
+  const draw=()=>{
+    const guess=(ctx.prefill&&!sent.includes(ctx.prefill))?ctx.prefill:"";
+    const head = guess ? `YOU TYPED “${esc(guess.toUpperCase())}”. SHOULD THAT HAVE COUNTED?` : `THINK AN ANSWER IS MISSING FROM THE LIST?`;
+    el.className="miss"+(guess?" hot":"");
+    el.innerHTML=(sent.length?`<div class="mok">✓ SENT: ${sent.map(s=>"“"+esc(s.toUpperCase())+"”").join(", ")}. THANKS! IF IT CHECKS OUT, IT'S ADDED TO THE GAME.</div>`:"")+
+      `<div class="mhead">🦓 ${head}</div>
+       <div class="msub">Send it for review. Correct answers are added to the game, usually within a day.</div>
+       <form autocomplete="off"><label class="sr" for="${id}In">Answer to suggest</label><input id="${id}In" maxlength="80" placeholder="your answer" value="${esc(guess)}" autocapitalize="off" spellcheck="false"><button class="btn small" type="submit">${guess?"YES, SUBMIT IT":"SUBMIT"}</button></form>`;
+    const f=el.querySelector("form"), i=el.querySelector("input");
     i.addEventListener("keydown",e=>e.stopPropagation());
-    f.onsubmit=async e=>{ e.preventDefault(); const v=i.value.trim(); if(v.length<2) return;
-      i.disabled=true; await sendSuggestion({...ctx, suggestion:v}); sent.push(v); try{sfx.score(2);}catch(e){} closed(); }; };
-  closed();
+    f.onsubmit=async e=>{ e.preventDefault(); const v=i.value.trim(); if(v.length<2){ i.focus(); return; }
+      i.disabled=true; await sendSuggestion({...ctx, suggestion:v}); sent.push(v); try{sfx.score(2);}catch(e){} draw(); };
+  };
+  draw();
 }
 let roundWrong=[];
 

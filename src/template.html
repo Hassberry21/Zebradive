@@ -27,6 +27,7 @@ canvas#world{position:fixed;inset:0;width:100vw;height:100vh;image-rendering:pix
 .panel{position:fixed;left:50%;top:66px;transform:translateX(-50%);width:min(540px,calc(100vw - 24px));max-height:calc(100vh - 170px);overflow:auto;
   background:rgba(14,11,34,.9);backdrop-filter:blur(8px);border:3px solid #fff;box-shadow:0 0 0 3px rgba(0,0,0,.35),0 10px 0 rgba(0,0,0,.3);padding:22px 24px;text-align:center;animation:pop .2s steps(4)}
 @keyframes pop{from{transform:translateX(-50%) translateY(8px);opacity:0}to{transform:translateX(-50%);opacity:1}}
+.privacy{margin-top:22px;text-align:center;font-size:11px;color:var(--muted);opacity:.75}.privacy summary{cursor:pointer;display:inline-block;padding:6px 10px;list-style:none;text-decoration:underline;text-underline-offset:3px}.privacy summary::-webkit-details-marker{display:none}.privacy p{margin:4px auto 0;max-width:420px;line-height:1.5}
 .label{font-family:Silkscreen,monospace;font-size:11px;color:var(--muted);letter-spacing:1px;margin-bottom:10px;text-transform:uppercase}
 button.btn{font-family:Silkscreen,monospace;font-size:15px;background:#fff;color:#0c0a20;border:0;padding:12px 20px;cursor:pointer;box-shadow:0 4px 0 var(--purple);margin:6px 5px 0}
 button.btn:hover{background:var(--purple2)}
@@ -266,6 +267,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <div id="tStreak"></div>
   <div id="tFinal"></div>
   <div class="fine" id="tInfo"></div>
+  <details class="privacy"><summary>Privacy</summary><p>Zebra saves anonymous gameplay (your answers, scores, field and a random player ID) to improve the game and for research on medical learning. We never collect your name, email or any other personal information.</p></details>
 </section>
 
 <!-- PLAY -->

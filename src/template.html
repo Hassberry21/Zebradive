@@ -274,7 +274,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <div id="q"></div>
   <div id="timer"></div>
   <form id="form" autocomplete="off">
-    <input id="answer" placeholder="type answer_" autocapitalize="off" spellcheck="false">
+    <input id="answer" placeholder="type answer_" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
     <button class="btn" type="submit">GO</button>
   </form>
   <div id="hint" class="hint hidden"></div>
@@ -287,7 +287,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <div id="sQ"></div>
   <div class="sclock"><span id="sClock">60</span><span class="sbar"><i id="sBar"></i></span></div>
   <form id="sForm" autocomplete="off">
-    <input id="sAnswer" placeholder="type, enter, repeat_" autocapitalize="off" spellcheck="false">
+    <input id="sAnswer" placeholder="type, enter, repeat_" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
     <button class="btn" type="submit">GO</button>
   </form>
   <div id="sMsg" class="smsg">&nbsp;</div>
@@ -1096,7 +1096,7 @@ function missBox(id, ctx){
     el.className="miss"+(ctx.missed?" hot":"");
     el.innerHTML=
       `<label class="mhead" for="${id}In">DID WE MISS AN ANSWER? <span>ADD IT HERE ⬇</span></label>
-       <form autocomplete="off"><input id="${id}In" maxlength="80" placeholder="Type the answer we missed…" value="${esc(guess)}" autocapitalize="off" spellcheck="false" enterkeyhint="send"><button class="btn" type="submit">ADD IT</button></form>
+       <form autocomplete="off"><input id="${id}In" maxlength="80" placeholder="Type the answer we missed…" value="${esc(guess)}" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" enterkeyhint="send"><button class="btn" type="submit">ADD IT</button></form>
        <div class="msub">${sent.length?`<span class="mok">✓ GOT IT: ${sent.map(s=>"“"+esc(s)+"”").join(", ")}. If it's correct, it's added to the game within a day.</span>`
          : "We check every suggestion. Correct answers are added to the game within a day."}</div>`;
     const f=el.querySelector("form"), i=el.querySelector("input");

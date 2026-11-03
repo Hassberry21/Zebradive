@@ -16400,7 +16400,7 @@ vigorous exercise|marathon running
 trauma|kidney injury
 prostatitis
 pyelonephritis|kidney infection
-glomerulonephritis
+glomerulonephritis|nephritic syndrome
 iga nephropathy
 blood thinners|warfarin
 sickle cell disease
@@ -16424,7 +16424,6 @@ radiation cystitis
 urethral stricture
 thin basement membrane disease
 hus|hemolytic uremic syndrome
-foods that look like blood|beets
 rhabdomyolysis
 `);
 
@@ -16551,6 +16550,7 @@ calyx|calyces|major calyx|minor calyx
 renal pyramid
 hilum
 urethral sphincter
+prostatic urethra|prostate
 detrusor muscle
 trigone
 juxtaglomerular apparatus
@@ -16564,12 +16564,10 @@ vasa recta
 peritubular capillaries
 mesangial cells
 renal columns
-prostate|prostatic urethra
-adrenal gland
 interlobar artery
 arcuate artery
-ureterovesical junction
-ureteropelvic junction
+ureterovesical junction|vesicoureteric junction|vesicoureteral junction|uvj
+ureteropelvic junction|pelviureteric junction|upj
 `);
 
 P("Name a part or layer of the skin","body","",`
@@ -24602,6 +24600,12 @@ function evaluate(p, raw){
     const typo = raw_d===bd;   // a real spelling slip, not a longer/shorter phrase
     const ROOT=/(kal|calc|natr|magnes|phosphat|chlor|glyc)/, rq=(n0.match(ROOT)||[])[1], rk=(bk.match(ROOT)||[])[1];
     const qs=n0.split(" "), ks=bk.split(" "), tiny=qs.length===ks.length && qs.some((w,i)=>w!==ks[i] && (w.length<=2||ks[i].length<=2));
+    const CONF=[["nephrotic","nephritic"],["ileum","ilium"],["ileus","ileum"],["perineal","peroneal"],["dysphagia","dysphasia"],["aphagia","aphasia"],
+      ["abduct","adduct"],["intra","inter"],["ostomy","otomy"],["ectomy","otomy"],["ectomy","ostomy"],["malleus","malleolus"],["humeral","humoral"],
+      ["mucous","mucosa"],["ureter","urethr"],["metatars","metacarp"],["hypothen","thenar"],["arteri","ventri"],["atrial","atrium"],["axillary","maxillary"],
+      ["celiac","cecal"],["prostatic","prostate"],["fistula","fissure"],["ascites","acites"],["cyst","cystic"],["insulin","inulin"]];
+    const confusable=CONF.some(([x,y])=>(n0.includes(x)&&!n0.includes(y)&&bk.includes(y)&&!bk.includes(x))||(n0.includes(y)&&!n0.includes(x)&&bk.includes(x)&&!bk.includes(y)));
+    if(confusable && raw_d===bd) return {type:"none"};   // a different real term, not a typo
     const risky = (rq&&rk&&rq!==rk) || tiny;       // vitamin a vs k, kalemia vs calcemia: ask instead
     const sure = !risky && second-bd>=1 && !flip(n0,bk) && ((typo && bd<=1 && L>=5) || (typo && bd<=2 && L>=10) || (bd===1.5 && L>=7 && L>=0.6*bk.length));
     if(rq&&rk&&rq!==rk) return {type:"none"};   // a different electrolyte/sugar term is a different answer

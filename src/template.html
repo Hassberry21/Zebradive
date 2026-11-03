@@ -189,6 +189,14 @@ button.btn.gold:hover{background:#ffe27a}
 .miss .msub{font-size:13px;color:#c9c3e0;line-height:1.4;margin-top:8px}
 .miss .mok{color:var(--green);font-weight:500}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+#bWelcome[disabled]{opacity:.45;cursor:not-allowed}
+.welcomeNote{font-family:Silkscreen,monospace;font-size:11px;color:var(--muted)}
+.back{margin:10px auto 14px;max-width:460px;padding:12px 14px;border:2px solid rgba(180,75,255,.6);text-align:left}
+.back .row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:4px 0}
+.back b{font-family:Silkscreen,monospace;font-size:13px;letter-spacing:1px;color:#e3a8ff}
+.back .t{font-size:15px;line-height:1.4}
+.back .acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.back .btn{margin:0}
 .later{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;opacity:.7;margin:4px 0 16px}
 .sumd{border-bottom:1px solid var(--line)}
 .sumd>summary{list-style:none;cursor:pointer;border-bottom:none}
@@ -214,6 +222,19 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <span id="hRound">—</span><span class="sep"></span>
   <button id="mute" title="Sound">♪ ON</button>
 </div>
+
+<!-- WELCOME (first visit) -->
+<section class="panel hidden" id="welcome" aria-labelledby="wTitle">
+  <div class="logo" style="font-size:clamp(34px,8vw,52px)">ZEBRA</div>
+  <h2 id="wTitle" style="margin:6px 0 4px">WELCOME, DIVER!</h2>
+  <p class="yours" style="margin:0 0 16px">Pick your field so you get the right prompts and are ranked against the right people.</p>
+  <div class="label">WHAT'S YOUR FIELD?</div>
+  <div class="profpick" id="wProf"></div>
+  <div class="label" style="margin-top:14px">WHERE ARE YOU IN TRAINING? <span style="opacity:.6">(OPTIONAL)</span></div>
+  <div class="profpick" id="wLevel"></div>
+  <button class="btn" id="bWelcome" disabled>PICK A FIELD TO START</button>
+  <div class="fine" style="margin-top:10px">You can change this any time on the main screen.</div>
+</section>
 
 <!-- TITLE -->
 <section class="panel" id="title">
@@ -308,6 +329,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <div class="big" id="eDepth"></div>
   <div class="yours" id="eRank" style="margin-top:0"></div>
   <div id="eStreak"></div>
+  <div id="eBack"></div>
   <div id="ranking" class="ranking"></div>
   <div id="eSum"></div>
   <pre id="share"></pre>
@@ -448,7 +470,7 @@ function loop(t){
     if(frame%3===0 && moving) parts.push({x:ZX+(Math.random()*16-8),y:zy-12,vx:0,vy:-.6-Math.random()*.6,life:30,c:"rgba(255,255,255,.8)"});
     if(k>=1){const cb=tween.onDone; tween=null; moving=false; cb&&cb();} }
   ZX = Math.round(W/2);
-  const vis=["title","play","result","end","stamp","sEnd"].map(id=>document.getElementById(id)).find(el=>!el.classList.contains("hidden"));
+  const vis=["welcome","title","play","result","end","stamp","sEnd"].map(id=>document.getElementById(id)).find(el=>!el.classList.contains("hidden"));
   const focus = vis ? Math.min(.9, Math.max(.55,(vis.getBoundingClientRect().bottom+110)/innerHeight)) : .62;
   const targetCam = zy - H*focus;
   camY += (targetCam-camY)*.08;
@@ -702,7 +724,7 @@ const $=id=>document.getElementById(id);
 const hud={depth:$("hDepth"),layer:$("hLayer"),score:$("hScore"),round:$("hRound")};
 let state="title", set=[], round=0, total=0, log=[], daily=true, timerId=null, endAt=0, lastSec=99;
 const SECS=20;
-function showPanel(id){ ["title","play","result","end","stamp","sEnd"].forEach(p=>$(p).classList.toggle("hidden",p!==id)); }
+function showPanel(id){ ["welcome","title","play","result","end","stamp","sEnd"].forEach(p=>$(p).classList.toggle("hidden",p!==id)); }
 function store(k,v){ try{ if(v===undefined) return JSON.parse(localStorage.getItem(k)); localStorage.setItem(k,JSON.stringify(v)); }catch(e){ return null; } }
 function banner(txt){ const b=$("banner"); b.textContent=txt; b.classList.remove("go"); void b.offsetWidth; b.classList.add("go"); }
 function todayKey(){ const d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
@@ -966,6 +988,7 @@ function finish(fromSave){
   lastPct=null; $("share").textContent = shareText();
   $("nextDaily").innerHTML = `NEXT DAILY DIVE IN <span class="cd">${hms(untilMidnight())}</span>`;
   $("bStampEnd").innerHTML = store(stampKey(todayKey())) ? "⚡ VIEW STAMPEDE" : "⚡ PLAY STAMPEDE";
+  if(daily){ $("eBack").innerHTML=backHTML(); wireBack(()=>$("share").textContent); } else $("eBack").innerHTML="";
   showPanel("end"); burst("#e3a8ff",40,1.5);
   showRanking(fromSave);
 }
@@ -1106,6 +1129,60 @@ function bestHTML(){
     (b.stamp? cell("⚡","STAMPEDE", b.stamp.toLocaleString()+" pts", b.sDay) : cell("⚡","STAMPEDE","—",null))+`</div></div>`;
 }
 
+
+/* ===== WELCOME: ask for a field on the first visit (no default) ===== */
+const LEVELS_TR=[["student","Student"],["trainee","Resident / new grad"],["practicing","Practicing"],["other","Educator / other"]];
+function showWelcome(){
+  let pick=null, lvl=store("zebra-level")||null;
+  const draw=()=>{
+    $("wProf").innerHTML=Object.entries(PROFESSIONS).map(([k,v])=>`<button type="button" class="prof${k===pick?" on":""}" data-k="${k}">${v.icon} ${k==="other"?"Other / just for fun":v.label}</button>`).join("");
+    $("wProf").querySelectorAll("button").forEach(b=>b.onclick=()=>{ pick=b.dataset.k; try{sfx.layer();}catch(e){} draw(); });
+    $("wLevel").innerHTML=LEVELS_TR.map(([k,l])=>`<button type="button" class="prof${k===lvl?" on":""}" data-k="${k}">${l}</button>`).join("");
+    $("wLevel").querySelectorAll("button").forEach(b=>b.onclick=()=>{ lvl= lvl===b.dataset.k? null : b.dataset.k; draw(); });
+    const go=$("bWelcome"); go.disabled=!pick; go.innerHTML= pick? '<span class="blink">▶</span> LET\'S DIVE' : "PICK A FIELD TO START";
+  };
+  $("bWelcome").onclick=()=>{ if(!pick) return; ac(); if(lvl) store("zebra-level",lvl); setProf(pick); store("zebra-welcomed",1); state="title"; titleInfo(); showPanel("title"); };
+  draw(); state="welcome"; showPanel("welcome");
+}
+
+/* ===== COME BACK TOMORROW: streak, final rank, share, home screen, reminder ===== */
+let installEvt=null; addEventListener("beforeinstallprompt",e=>{ e.preventDefault(); installEvt=e; });
+const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent), standalone=matchMedia("(display-mode: standalone)").matches||navigator.standalone;
+function gamesPlayed(){ return Object.keys(localStorage).filter(k=>/^zebra4-[a-z_]+-\d{4}-/.test(k)).length; }
+function icsReminder(hh){
+  const d=new Date(), pad=n=>String(n).padStart(2,"0"), day=`${d.getFullYear()}${pad(d.getMonth()+1)}${pad(d.getDate()+1)}`;
+  const ics=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//zebradive.io//EN","BEGIN:VEVENT",`UID:zebra-daily-${Date.now()}@zebradive.io`,
+    `DTSTAMP:${d.toISOString().replace(/[-:]/g,"").slice(0,15)}Z`,`DTSTART:${day}T${pad(hh)}0000`,`DTEND:${day}T${pad(hh)}1000`,"RRULE:FREQ=DAILY",
+    "SUMMARY:🦓 Today's Zebra dive","DESCRIPTION:New prompts are up. Keep your streak going: https://www.zebradive.io","URL:https://www.zebradive.io",
+    "BEGIN:VALARM","TRIGGER:PT0M","ACTION:DISPLAY","DESCRIPTION:Today's Zebra dive","END:VALARM","END:VEVENT","END:VCALENDAR"].join("\r\n");
+  const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([ics],{type:"text/calendar"})); a.download="zebra-daily-reminder.ics"; a.click();
+}
+function backHTML(){
+  const s=streakInfo(), n=gamesPlayed();
+  const streak = s.cur>=1 ? `<div class="row"><b>🔥 ${s.cur}-DAY STREAK</b><span class="t">Play tomorrow to make it ${s.cur+1}.</span></div>` : "";
+  const home = !standalone && n>=2 ? (installEvt? `<button type="button" class="btn alt small" id="bInstall">📲 ADD TO HOME SCREEN</button>`
+              : isIOS ? `<span class="welcomeNote">📲 ADD TO HOME SCREEN: TAP SHARE ⬆, THEN “ADD TO HOME SCREEN”</span>` : "") : "";
+  return `<div class="back">
+    <div class="row"><b>NEXT DIVE IN <span class="cd">${hms(untilMidnight())}</span></b><span class="t">New prompts at midnight.</span></div>
+    ${streak}
+    <div class="row"><span class="t">Your <b style="font-size:12px">FINAL RANK</b> is posted tomorrow morning, after everyone's answers are in.</span></div>
+    <div class="acts">
+      <button type="button" class="btn small" id="bShare">↗ SHARE MY DIVE</button>
+      <button type="button" class="btn alt small" id="bRemind">📅 DAILY REMINDER</button>
+      ${home}
+    </div>
+  </div>`;
+}
+function wireBack(textFn){
+  const sh=$("bShare"); if(sh) sh.onclick=async()=>{ const text=textFn();
+    try{ if(navigator.share){ await navigator.share({text, url:"https://www.zebradive.io"}); return; } }catch(e){ return; }
+    try{ await navigator.clipboard.writeText(text+"\nhttps://www.zebradive.io"); sh.textContent="COPIED! PASTE ANYWHERE"; }catch(e){ sh.textContent="SELECT THE TEXT BELOW"; } };
+  const rm=$("bRemind"); if(rm) rm.onclick=()=>{ const box=document.createElement("div"); box.className="acts";
+    box.innerHTML=`<label class="welcomeNote" for="remT" style="align-self:center">REMIND ME AT</label><select id="remT" style="font:15px 'Space Grotesk';background:#15112e;color:#fff;border:2px solid #fff;padding:6px">${[[8,"8 AM"],[12,"12 PM"],[17,"5 PM"],[20,"8 PM"],[21,"9 PM"]].map(([h,l])=>`<option value="${h}"${h===12?" selected":""}>${l}</option>`).join("")}</select><button type="button" class="btn small" id="remGo">ADD TO MY CALENDAR</button>`;
+    rm.closest(".back").appendChild(box); rm.disabled=true; $("remGo").onclick=()=>{ icsReminder(+$("remT").value); $("remGo").textContent="✓ CHECK YOUR DOWNLOADS"; }; };
+  const ins=$("bInstall"); if(ins) ins.onclick=async()=>{ if(!installEvt) return; installEvt.prompt(); try{ await installEvt.userChoice; }catch(e){} installEvt=null; ins.remove(); };
+}
+
 /* ===== DAILY STAMPEDE =====
    One prompt a day, the same for every field. 60 seconds to name as many answers as possible.
    Every answer scores its rarity points; the total is ranked against players in your field. */
@@ -1234,7 +1311,7 @@ function stampShare(){
   const em=[...sFound].sort((a,b)=>b.pts-a.pts).map(f=>TIERS[tierOf(f.pts)].emoji).join("");
   return `🦓⚡ ZEBRA STAMPEDE #${sDayNum}\n${sFound.length} answers · ${sTotal.toLocaleString()} pts${em?"\n"+em:""}${sPct!==null?`\n${sPct>=99?"top 1%":"more than "+sPct+"%"} of ${peers()}`:""}\nzebradive.io`;
 }
-stampInfo(); window.__zebraReady=true; showFinals().catch(()=>{});
+stampInfo(); window.__zebraReady=true; if(!store("zebra-welcomed") && !store("zebra-prof")) showWelcome(); showFinals().catch(()=>{});
 
 /* wiring */
 $("bDaily").onclick=()=>{ac(); startGame(true);};

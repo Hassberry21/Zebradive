@@ -169,6 +169,12 @@ h2{font-family:Silkscreen,monospace;font-size:20px;margin:0 0 4px;font-weight:70
 .sum .a{text-align:right}
 
 #bStampEnd[hidden]{display:none}
+.bestbox{margin:14px auto 4px;max-width:440px;padding:12px 14px 10px;border:2px solid rgba(255,210,59,.6);background:rgba(255,210,59,.06)}
+.brow{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.bcell{text-align:center}
+.blbl{font-family:Silkscreen,monospace;font-size:11px;letter-spacing:1px;color:var(--muted)}
+.bval{font-family:"Press Start 2P",monospace;font-size:clamp(14px,3.6vw,18px);color:var(--gold);margin:6px 0 4px}
+.bday{font-family:Silkscreen,monospace;font-size:10px;color:var(--muted)}
 .stampcta{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin:6px auto 14px;max-width:460px;padding:12px 14px;border:2px solid var(--gold);background:rgba(255,210,59,.07);text-align:left}
 .stampcta b{display:block;font-family:Silkscreen,monospace;font-size:14px;color:var(--gold);letter-spacing:1px;margin-bottom:4px}
 .stampcta span{font-family:Silkscreen,monospace;font-size:11px;color:#e7e3f5;line-height:1.5}
@@ -270,6 +276,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
     <div class="fine" style="margin:0 0 8px">ONE PROMPT FOR EVERY FIELD. 60 SECONDS. NAME AS MANY ANSWERS AS YOU CAN. EVERY ANSWER SCORES, RARE ONES SCORE MORE.</div>
     <div class="fine" id="sInfo"></div>
   </div>
+  <div id="tBest"></div>
   <div id="tStreak"></div>
   <div id="tFinal"></div>
   <div class="fine" id="tInfo"></div>
@@ -27564,9 +27571,10 @@ function streakHTML(){ const s=streakInfo();
   return `<div class="streak off">🔥 START A STREAK: FINISH A DAILY EVERY DAY${s.best?` · BEST ${s.best}`:""}</div>`; }
 function titleInfo(){
   const played=store(dayKey(todayKey())), best=store("zebra4-best-"+poolKey())||0, P=PROFESSIONS[prof];
-  $("tInfo").innerHTML = `${labelFor()} DAILY #${dayNumber()} · ${todayKey()} · ${POOLS_D[poolKey()].length} DAILY + ${POOLS_P[poolKey()].length} PRACTICE PROMPTS` + (played?`<br>PLAYED ✓ · NEXT IN <span class="cd">${hms(untilMidnight())}</span>`:"") + (best?` · BEST ${(best*10).toLocaleString()} µm`:"");
+  $("tInfo").innerHTML = `${labelFor()} DAILY #${dayNumber()} · ${todayKey()} · ${POOLS_D[poolKey()].length} DAILY + ${POOLS_P[poolKey()].length} PRACTICE PROMPTS` + (played?`<br>PLAYED ✓ · NEXT IN <span class="cd">${hms(untilMidnight())}</span>`:"");
   $("bDaily").innerHTML = played? "▶ VIEW TODAY'S RESULT" : '<span class="blink">▶</span> PRESS START';
   $("tStreak").innerHTML = streakHTML();
+  $("tBest").innerHTML = bestHTML();
   if(typeof stampInfo==="function") try{ stampInfo(); }catch(e){}
   if(typeof showFinals==="function" && window.__zebraReady) showFinals().catch(()=>{});
 }
@@ -27810,6 +27818,26 @@ function missBox(id, ctx){
 }
 let roundWrong=[];
 
+
+/* ===== YOUR HIGHEST SCORES (kept in this browser) ===== */
+function bestScores(){
+  const pool=poolKey(), re=new RegExp("^zebra4-"+pool.replace(/[^a-z_]/g,"")+"-\\d{4}-\\d{2}-\\d{2}$");
+  let daily=store("zebra4-best-"+pool)||0, dDay=null, stamp=0, sDay=null;
+  for(const k of Object.keys(localStorage)){
+    if(re.test(k)){ const v=store(k); if(v && v.total>=daily && v.total>0){ daily=v.total; dDay=k.slice(-10); } }
+    const m=k.match(/^zebra-stampede-(\d{4}-\d{2}-\d{2})$/); if(m){ const v=store(k); if(v && v.total>stamp){ stamp=v.total; sDay=m[1]; } }
+  }
+  return {daily, dDay, stamp, sDay};
+}
+function bestHTML(){
+  const b=bestScores(); if(!b.daily && !b.stamp) return "";
+  const fmt=d=>d? new Date(d+"T12:00:00").toLocaleDateString(undefined,{month:"short",day:"numeric"}) : "";
+  const cell=(icon,label,val,day)=>`<div class="bcell"><div class="blbl">${icon} ${label}</div><div class="bval">${val}</div>${day?`<div class="bday">${fmt(day)}</div>`:""}</div>`;
+  return `<div class="bestbox"><div class="label" style="margin:0 0 8px">🏆 YOUR HIGHEST SCORES</div><div class="brow">`+
+    (b.daily? cell("🦓", `${shortFor(prof).replace(/^\S+\s/,"").toUpperCase()} DAILY`, (b.daily*10).toLocaleString()+" µm", b.dDay) : cell("🦓",`${shortFor(prof).replace(/^\S+\s/,"").toUpperCase()} DAILY`,"—",null))+
+    (b.stamp? cell("⚡","STAMPEDE", b.stamp.toLocaleString()+" pts", b.sDay) : cell("⚡","STAMPEDE","—",null))+`</div></div>`;
+}
+
 /* ===== DAILY STAMPEDE =====
    One prompt a day, the same for every field. 60 seconds to name as many answers as possible.
    Every answer scores its rarity points; the total is ranked against players in your field. */
@@ -27919,7 +27947,7 @@ async function stampFinish(fromSave){
   missBox("sMiss",{day:sDay,mode:"stampede",field:sProf,prompt:sP.q,prefill:sWrong[sWrong.length-1]||"",missed:sWrong.length>0});
   $("seNext").innerHTML=`NEXT STAMPEDE IN <span class="cd">${hms(untilMidnight())}</span>`;
   sPct=null; $("sShare").textContent=stampShare(); $("bSCopy").textContent="COPY RESULT";
-  showPanel("sEnd"); burst("#ffd23b",40,1.5); stampInfo();
+  showPanel("sEnd"); burst("#ffd23b",40,1.5); stampInfo(); try{ $("tBest").innerHTML=bestHTML(); }catch(e){}
   const el=$("sRanking"); el.innerHTML=`<div class="loading blink">COMPARING YOU WITH OTHER ${peers().toUpperCase()}…</div>`;
   await StampScores.submit(sDay,sTotal);
   const real=await StampScores.histogram(sDay);

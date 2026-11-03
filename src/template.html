@@ -957,7 +957,7 @@ function finish(fromSave){
       return `<div class="r${ti>=4?" z":""}${me?" me":""}"><span class="nm">${esc(cap(x.label))}</span><span class="bar"><i style="width:${x.pts}%;background:${c}"></i></span><span class="p" style="color:${c}">${x.pts}</span></div>${x.share!=null?`<div class="shr">${pctTxt(x.share)} of players</div>`:""}`;}).join(""); }));
   lastPct=null; $("share").textContent = shareText();
   $("nextDaily").innerHTML = `NEXT DAILY DIVE IN <span class="cd">${hms(untilMidnight())}</span>`;
-  $("bStampEnd").hidden=!!store(stampKey(todayKey()));
+  $("bStampEnd").innerHTML = store(stampKey(todayKey())) ? "⚡ VIEW STAMPEDE" : "⚡ PLAY STAMPEDE";
   showPanel("end"); burst("#e3a8ff",40,1.5);
   showRanking(fromSave);
 }

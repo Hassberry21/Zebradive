@@ -191,12 +191,12 @@ button.btn.gold:hover{background:#ffe27a}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 #bWelcome[disabled]{opacity:.45;cursor:not-allowed}
 .welcomeNote{font-family:Silkscreen,monospace;font-size:11px;color:var(--muted)}
-.back{margin:10px auto 14px;max-width:460px;padding:12px 14px;border:2px solid rgba(180,75,255,.6);text-align:left}
-.back .row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;padding:4px 0}
-.back b{font-family:Silkscreen,monospace;font-size:13px;letter-spacing:1px;color:#e3a8ff}
-.back .t{font-size:15px;line-height:1.4}
-.back .acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.back{margin:4px auto 16px;max-width:460px;padding:14px 14px 12px;border:2px solid rgba(180,75,255,.55);background:rgba(180,75,255,.06);text-align:center}
+.back .bclock{font-family:"Press Start 2P",monospace;font-size:clamp(20px,5vw,26px);color:#e3a8ff;margin:0 0 10px}
+.back .bgoal{font-family:Silkscreen,monospace;font-size:13px;letter-spacing:1px;color:var(--gold);margin:0 0 12px}
+.back .acts{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
 .back .btn{margin:0}
+.back .bnote{font-family:Silkscreen,monospace;font-size:11px;color:var(--muted);line-height:1.5;margin-top:10px}
 .later{font-family:Silkscreen,monospace;font-size:12px;letter-spacing:1px;opacity:.7;margin:4px 0 16px}
 .sumd{border-bottom:1px solid var(--line)}
 .sumd>summary{list-style:none;cursor:pointer;border-bottom:none}
@@ -1159,18 +1159,18 @@ function icsReminder(hh){
 }
 function backHTML(){
   const s=streakInfo(), n=gamesPlayed();
-  const streak = s.cur>=1 ? `<div class="row"><b>🔥 ${s.cur}-DAY STREAK</b><span class="t">Play tomorrow to make it ${s.cur+1}.</span></div>` : "";
   const home = !standalone && n>=2 ? (installEvt? `<button type="button" class="btn alt small" id="bInstall">📲 ADD TO HOME SCREEN</button>`
-              : isIOS ? `<span class="welcomeNote">📲 ADD TO HOME SCREEN: TAP SHARE ⬆, THEN “ADD TO HOME SCREEN”</span>` : "") : "";
+              : isIOS ? `<div class="bnote">📲 TO ADD ZEBRA TO YOUR HOME SCREEN: TAP SHARE ⬆, THEN “ADD TO HOME SCREEN”</div>` : "") : "";
   return `<div class="back">
-    <div class="row"><b>NEXT DIVE IN <span class="cd">${hms(untilMidnight())}</span></b><span class="t">New prompts at midnight.</span></div>
-    ${streak}
-    <div class="row"><span class="t">Your <b style="font-size:12px">FINAL RANK</b> is posted tomorrow morning, after everyone's answers are in.</span></div>
+    <div class="label" style="margin:0 0 6px">NEXT DIVE IN</div>
+    <div class="bclock cd">${hms(untilMidnight())}</div>
+    <div class="bgoal">${s.cur>=1 ? `🔥 COME BACK TOMORROW FOR DAY ${s.cur+1}` : "🔥 COME BACK TOMORROW TO START A STREAK"}</div>
     <div class="acts">
       <button type="button" class="btn small" id="bShare">↗ SHARE MY DIVE</button>
       <button type="button" class="btn alt small" id="bRemind">📅 DAILY REMINDER</button>
-      ${home}
+      ${home.startsWith("<button")?home:""}
     </div>
+    ${home.startsWith("<div")?home:""}
   </div>`;
 }
 function wireBack(textFn){
@@ -1178,7 +1178,7 @@ function wireBack(textFn){
     try{ if(navigator.share){ await navigator.share({text, url:"https://www.zebradive.io"}); return; } }catch(e){ return; }
     try{ await navigator.clipboard.writeText(text+"\nhttps://www.zebradive.io"); sh.textContent="COPIED! PASTE ANYWHERE"; }catch(e){ sh.textContent="SELECT THE TEXT BELOW"; } };
   const rm=$("bRemind"); if(rm) rm.onclick=()=>{ const box=document.createElement("div"); box.className="acts";
-    box.innerHTML=`<label class="welcomeNote" for="remT" style="align-self:center">REMIND ME AT</label><select id="remT" style="font:15px 'Space Grotesk';background:#15112e;color:#fff;border:2px solid #fff;padding:6px">${[[8,"8 AM"],[12,"12 PM"],[17,"5 PM"],[20,"8 PM"],[21,"9 PM"]].map(([h,l])=>`<option value="${h}"${h===12?" selected":""}>${l}</option>`).join("")}</select><button type="button" class="btn small" id="remGo">ADD TO MY CALENDAR</button>`;
+    box.style.marginTop="10px"; box.innerHTML=`<label class="welcomeNote" for="remT" style="align-self:center">REMIND ME AT</label><select id="remT" style="font:15px 'Space Grotesk';background:#15112e;color:#fff;border:2px solid #fff;padding:6px">${[[8,"8 AM"],[12,"12 PM"],[17,"5 PM"],[20,"8 PM"],[21,"9 PM"]].map(([h,l])=>`<option value="${h}"${h===12?" selected":""}>${l}</option>`).join("")}</select><button type="button" class="btn small" id="remGo">ADD TO MY CALENDAR</button>`;
     rm.closest(".back").appendChild(box); rm.disabled=true; $("remGo").onclick=()=>{ icsReminder(+$("remT").value); $("remGo").textContent="✓ CHECK YOUR DOWNLOADS"; }; };
   const ins=$("bInstall"); if(ins) ins.onclick=async()=>{ if(!installEvt) return; installEvt.prompt(); try{ await installEvt.userChoice; }catch(e){} installEvt=null; ins.remove(); };
 }

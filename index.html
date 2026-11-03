@@ -3401,7 +3401,6 @@ RAW.push(
 15 radial
 20 brachial
 20 subclavian
-25 jugular
 25 renal
 25 iliac|common iliac|internal iliac|external iliac
 30 popliteal
@@ -4057,7 +4056,6 @@ RAW.push(
 35 brunner
 35 crypts of lieberkuhn|intestinal crypts
 35 gastric glands
-35 parietal cells
 35 islets of langerhans
 35 ceruminous|ear wax glands
 35 montgomery|areolar glands
@@ -7102,8 +7100,6 @@ RAW.push(
 30 tivozanib|fotivda
 30 lazertinib|lazcluze
 30 mobocertinib
-30 sotorasib|lumakras
-30 adagrasib|krazati
 30 idelalisib|zydelig
 30 duvelisib|copiktra
 30 alpelisib|piqray
@@ -7116,7 +7112,6 @@ RAW.push(
 30 belumosudil|rezurock
 30 olverembatinib
 30 tovorafenib|ojemda
-30 vorasidenib|voranigo
 `},
 {q:"Name an antiviral drug", cat:"pharm", strip:"", list:`
 5 tamiflu|oseltamivir
@@ -8844,14 +8839,11 @@ RAW.push(
 20 opisthotonos
 20 hands and knees
 20 squatting
-20 water birth
 20 kangaroo care
 20 tummy time
 20 30 degree tilt
 20 anatomical position
 20 neutral position
-20 dorsiflexion
-20 plantar flexion
 `},
 {q:"Name a hospital unit or department", cat:"nursing", strip:"unit department", list:`
 5 emergency room|er|emergency department|ed
@@ -25202,6 +25194,117 @@ crowd("Name a medical term with a color in it", 85, "blue cervix|chadwick sign")
 crowd("Name a medical term with a color in it", 85, "rosacea");
 crowdAlias("Name a medical term with a color in it", "black death", "black plague");
 crowdAlias("Name a type of cell in the human body", "delta cell", "d cell|d cells");
+crowdAlias("Name an antibiotic", "penicillin", "benzylpenicillin|benzyl penicillin|pen g");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a blood pressure medication", "hydrochlorothiazide", "bendroflumethiazide|bendrofluazide");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name an antidote", "n acetylcysteine", "paracetamol overdose|acetaminophen overdose|parvolex");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a medical emergency", "heart attack", "mi|stemi|ami");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a medical emergency", "anaphylaxis", "anaphylactic shock");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a medical emergency", "stroke", "cva");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a medical emergency", "pulmonary embolism", "pe");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name an artery", "carotid", "ica|eca");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a cause of jaundice", "pregnancy cholestasis", "obstetric cholestasis|icp");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a sign of shock", "delayed capillary refill", "cap refill|prolonged capillary refill|slow cap refill|crt");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a postpartum complication", "postpartum depression", "ppd|post natal depression|postnatal depression|pnd");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a postpartum complication", "pulmonary embolism", "pe");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a stage of labor or labor and delivery term", "fetal monitoring", "ctg|cardiotocography|efm");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a stage of labor or labor and delivery term", "pitocin", "syntocinon");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a stage of labor or labor and delivery term", "bloody show", "show");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a chronic disease", "kidney disease", "ckd|chronic kidney disease");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a chronic disease", "heart failure", "chf|congestive heart failure");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a chronic disease", "arthritis", "ra|rheumatoid arthritis|oa|osteoarthritis");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a chronic disease", "diabetes", "t2dm|t1dm|type 2 diabetes|type 1 diabetes|dm");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a cause of abdominal pain", "bowel obstruction", "sbo|small bowel obstruction|lbo|large bowel obstruction");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a neurological disorder", "als", "mnd|motor neurone disease");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a nursing job title or role", "patient care tech", "healthcare assistant|hca|health care assistant");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a nursing job title or role", "charge nurse", "sister|ward sister");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a nursing job title or role", "nurse manager", "matron|ward manager|nurse unit manager|num");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a vital sign or bedside assessment", "oxygen saturation", "sats");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a vital sign or bedside assessment", "blood glucose", "bgl|bsl|bm|cbg");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a vital sign or bedside assessment", "level of consciousness", "avpu|acvpu");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a surgical procedure", "gallbladder removal", "lap chole|laparoscopic cholecystectomy");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a surgical procedure", "knee replacement", "tkr|total knee replacement");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a surgical procedure", "hip replacement", "thr|total hip replacement");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a cause of shortness of breath", "pneumothorax", "ptx");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a cause of heart palpitations", "atrial fibrillation", "af|a fib");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a cause of heart palpitations", "premature ventricular contractions", "ectopics|ectopic beats|ventricular ectopics");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a cause of heart palpitations", "hyperthyroidism", "thyrotoxicosis|graves disease");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a cause of numbness or tingling", "vitamin b12 deficiency", "b12 deficiency|b12|pernicious anemia");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a cause of numbness or tingling", "guillain barre syndrome", "gbs");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a cause of numbness or tingling", "diabetes", "peripheral neuropathy|neuropathy");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a vaccine-preventable disease", "hepatitis b", "hep b|hbv");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a medical instrument or tool", "bag valve mask", "bvm");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a medical instrument or tool", "endotracheal tube", "ett");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a medical instrument or tool", "nasogastric tube", "ngt");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a medical instrument or tool", "ecg machine", "ecg|ekg machine");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name an endocrine disorder", "type 1 diabetes", "t1dm|t1d");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a sign of shock", "cold clammy skin", "clammy|clammy skin");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a sign of respiratory distress", "retractions", "intercostal recession|subcostal recession|recession|tracheal tug|intercostal retractions");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name something included in a nursing handoff report", "code status", "dnr|dnr status|resus status|resuscitation status|dnacpr");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name something included in a nursing handoff report", "intake and output", "fluid balance|ins and outs");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name something included in a nursing handoff report", "vital signs", "obs|observations");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a piece of PPE or infection control measure", "n95", "ffp3|ffp2");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a piece of PPE or infection control measure", "face shield", "visor");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a diet order", "npo", "nil by mouth|nbm");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a diet order", "regular", "free fluids|normal diet|full diet|ward diet");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a diet order", "tube feeding", "ng feed|enteral feeding|peg feed");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a warning sign of stroke", "face drooping", "fast|befast");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a warning sign of stroke", "slurred speech", "dysarthria");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name an activity of daily living", "walking", "mobilising|mobilizing");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name an eye drop medication", "artificial tears", "hypromellose|lubricating drops");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name an antihistamine", "chlorpheniramine", "piriton|chlorphenamine");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a migraine medication", "sumatriptan", "triptans|triptan");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a drug with a boxed (black box) warning", "warfarin", "coumadin|jantoven");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a drug patients inject themselves at home", "enoxaparin", "clexane");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a birth control method", "the pill", "ocp|combined oral contraceptive|coc");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a birth control method", "iud", "coil|iucd");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a birth control method", "tubal ligation", "sterilization|sterilisation|female sterilization");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a birth control method", "mini pill", "pop|progesterone only pill");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "pantoprazole", "ppi|ppis|proton pump inhibitor");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a topical skin medication", "clotrimazole", "canesten");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a topical skin medication", "miconazole", "daktarin");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a topical skin medication", "terbinafine", "lamisil");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a high-alert medication", "doacs", "anticoagulants");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a high-alert medication", "magnesium sulfate", "mag sulfate|mag sulphate|magnesium sulphate");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a high-alert medication", "opioids", "pca|patient controlled analgesia");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a drug best taken on an empty stomach", "levothyroxine", "thyroxine|eltroxin");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a drug for thyroid disease", "liothyronine", "t3");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a drug for thyroid disease", "radioactive iodine", "rai|i 131");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a drug for osteoporosis", "alendronate", "bisphosphonates|bisphosphonate");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a drug for osteoporosis", "zoledronic acid", "aclasta");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a drug for osteoporosis", "estrogen", "hrt");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "nicotine patch", "nrt|nicotine replacement therapy");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "buprenorphine", "subutex");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "acamprosate", "campral");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a sign of opioid overdose", "pinpoint pupils", "miosis|constricted pupils");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a sign of opioid overdose", "slow breathing", "respiratory depression|bradypnoea");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a sign of opioid overdose", "not breathing", "apnea|apnoea");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a medication that comes as a skin patch", "estrogen patch", "hrt patch|evorel");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a medication that comes as a skin patch", "nitroglycerin patch", "gtn patch");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a risk factor for falls", "medications", "polypharmacy");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a risk factor for falls", "poor vision", "visual impairment");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a risk factor for falls", "dementia", "cognitive impairment");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a nursing intervention to prevent falls", "sitter", "1:1|one to one|1 to 1|enhanced observation");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a nursing intervention to prevent falls", "hourly rounding", "rounding|intentional rounding");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a complication of an IV", "infiltration", "tissued|tissuing");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a sign of high blood sugar", "glucose in urine", "glycosuria");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a sign of high blood sugar", "ketones in urine", "ketonuria");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a type of wound dressing", "negative pressure", "vac");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a type of wound dressing", "petrolatum gauze", "jelonet");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a type of wound dressing", "silver", "acticoat");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a nursing diagnosis", "impaired physical mobility", "impaired mobility");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a nursing diagnosis", "acute pain", "pain");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowdAlias("Name a nursing degree, license or credential", "rn", "rgn|registered general nurse");  // 2026-11-03 · audit · alternate name / UK-AU term
+crowd("Name a chronic disease", 65, "high cholesterol|hyperlipidemia|hypercholesterolemia|dyslipidemia");  // 2026-11-03 · audit · valid answer missing
+crowd("Name a nursing degree, license or credential", 85, "rmn|registered mental health nurse");  // 2026-11-03 · audit · valid answer missing
+crowd("Name a nursing degree, license or credential", 65, "aprn");  // 2026-11-03 · audit · valid answer missing
+crowd("Name a nursing degree, license or credential", 85, "enrolled nurse|en|epn");  // 2026-11-03 · audit · valid answer missing
+crowd("Name a vital sign or bedside assessment", 65, "news2|news|early warning score|mews|pews");  // 2026-11-03 · audit · valid answer missing
+crowd("Name a surgical procedure", 65, "ercp");  // 2026-11-03 · audit · valid answer missing
+crowd("Name a GI medication (nausea, reflux or bowel)", 85, "gaviscon|alginate");  // 2026-11-03 · audit · valid answer missing
+crowd("Name a GI medication (nausea, reflux or bowel)", 85, "movicol|macrogol");  // 2026-11-03 · audit · valid answer missing
+crowd("Name a GI medication (nausea, reflux or bowel)", 85, "buscopan|hyoscine butylbromide");  // 2026-11-03 · audit · valid answer missing
+crowd("Name a topical skin medication", 85, "fucidin|fusidic acid");  // 2026-11-03 · audit · valid answer missing
+crowd("Name an eye drop medication", 85, "chloramphenicol drops|chloramphenicol");  // 2026-11-03 · audit · valid answer missing
 
 const EXTRA = (typeof EXTRA_LISTS!=="undefined") ? EXTRA_LISTS : {};
 const parseList = s => s.trim().split("\n").filter(l=>l.trim()).map(l=>{const i=l.indexOf(" ");return [+l.slice(0,i), l.slice(i+1).trim()];});
@@ -25277,7 +25380,7 @@ const CK_STOP=new Set(["of","the","an","in","to","sign","symptom","with","interv
 function ckey(n){ let t=" "+n+" "; for(const [re,rep] of CK_PHRASE) t=t.replace(re,rep);
   const w=t.split(" ").filter(Boolean).map(x=>CK_WORD[x]||x).filter(x=>!CK_STOP.has(x));
   return [...new Set(w)].sort().join(" "); }
-const SAME_ANSWER=[["type of tooth", "central incisor", "upper central incisor"], ["type of tooth", "central incisor", "lower central incisor"], ["type of tooth", "lateral incisor", "upper lateral incisor"], ["type of tooth", "lateral incisor", "lower lateral incisor"], ["type of tooth", "first molar", "upper first molar"], ["type of tooth", "first molar", "lower first molar"], ["type of tooth", "second molar", "upper second molar"], ["type of tooth", "second molar", "lower second molar"], ["emergency code", "code blue", "code blue adult"], ["emergency code", "code blue", "code blue pediatric"], ["emergency code", "code red", "code red fire"], ["emergency code", "code pink", "code pink infant"], ["emergency code", "code silver", "code silver weapon"], ["emergency code", "code gray", "code gray security"], ["emergency code", "code orange", "code orange spill"], ["emergency code", "code black", "code black bomb"], ["emergency code", "code yellow", "code yellow disaster"], ["emergency code", "code white", "code white newborn"], ["emergency code", "code triage", "code triage internal"], ["warning sign of stroke", "trouble walking", "sudden trouble walking"], ["warning sign of stroke", "vision loss", "one sided vision loss"], ["warning sign of stroke", "severe headache", "sudden severe headache"], ["symptom of a heart attack", "chest pain", "squeezing chest pain"], ["symptom of a heart attack", "back pain", "upper back pain"], ["TMJ disorder", "jaw pain", "jaw pain when chewing"], ["TMJ disorder", "limited opening", "limited mouth opening"], ["dental infection", "bad taste", "bad taste in mouth"], ["nursing theorist", "ida jean orlando", "ida orlando"], ["transfusion react", "back pain", "lower back pain"], ["restraint", "wrist restraints", "soft wrist restraints"], ["dental implant", "morse taper", "morse taper connection"], ["oral surgery procedure", "jaw surgery", "corrective jaw surgery"], ["autosomal dominant", "adult polycystic kidney disease", "polycystic kidney disease"], ["secondary hypertension", "sleep apnea", "obstructive sleep apnea"], ["digital clubbing", "cyanotic congenital heart disease", "cyanotic heart disease"], ["ST elevation", "early repolarization", "benign early repolarization"], ["paraneoplastic", "lambert eaton", "lambert eaton myasthenic syndrome"], ["occupational lung", "hard metal", "hard metal lung disease"], ["fluid volume overload", "weight gain", "weight gain overnight"], ["thyroid storm", "weight loss", "weight loss despite appetite"], ["meningitis", "stiff neck", "stiff neck and fever"], ["neutropenic", "no fresh flowers", "no flowers"], ["neutropenic", "no fresh flowers", "no fresh flowers or plants"], ["neutropenic", "no fresh fruits or vegetables", "no fresh fruit"], ["tooth discoloration", "root canal treatment", "root canal"], ["radiolucent jaw", "central giant cell granuloma", "giant cell granuloma"], ["radiolucent jaw", "stafne bone defect", "stafne defect"], ["preventive screening", "eye exam", "diabetic eye exam"]];
+const SAME_ANSWER=[["type of tooth", "central incisor", "upper central incisor"], ["type of tooth", "central incisor", "lower central incisor"], ["type of tooth", "lateral incisor", "upper lateral incisor"], ["type of tooth", "lateral incisor", "lower lateral incisor"], ["type of tooth", "first molar", "upper first molar"], ["type of tooth", "first molar", "lower first molar"], ["type of tooth", "second molar", "upper second molar"], ["type of tooth", "second molar", "lower second molar"], ["emergency code", "code blue", "code blue adult"], ["emergency code", "code blue", "code blue pediatric"], ["emergency code", "code red", "code red fire"], ["emergency code", "code pink", "code pink infant"], ["emergency code", "code silver", "code silver weapon"], ["emergency code", "code gray", "code gray security"], ["emergency code", "code orange", "code orange spill"], ["emergency code", "code black", "code black bomb"], ["emergency code", "code yellow", "code yellow disaster"], ["emergency code", "code white", "code white newborn"], ["emergency code", "code triage", "code triage internal"], ["warning sign of stroke", "trouble walking", "sudden trouble walking"], ["warning sign of stroke", "vision loss", "one sided vision loss"], ["warning sign of stroke", "severe headache", "sudden severe headache"], ["symptom of a heart attack", "chest pain", "squeezing chest pain"], ["symptom of a heart attack", "back pain", "upper back pain"], ["TMJ disorder", "jaw pain", "jaw pain when chewing"], ["TMJ disorder", "limited opening", "limited mouth opening"], ["dental infection", "bad taste", "bad taste in mouth"], ["nursing theorist", "ida jean orlando", "ida orlando"], ["nursing theorist", "faye abdellah", "faye glenn abdellah"], ["nursing theorist", "rosemarie parse", "rosemarie rizzo parse"], ["diet order", "low sodium", "low salt diet"], ["transfusion react", "back pain", "lower back pain"], ["restraint", "wrist restraints", "soft wrist restraints"], ["dental implant", "morse taper", "morse taper connection"], ["oral surgery procedure", "jaw surgery", "corrective jaw surgery"], ["autosomal dominant", "adult polycystic kidney disease", "polycystic kidney disease"], ["secondary hypertension", "sleep apnea", "obstructive sleep apnea"], ["digital clubbing", "cyanotic congenital heart disease", "cyanotic heart disease"], ["ST elevation", "early repolarization", "benign early repolarization"], ["paraneoplastic", "lambert eaton", "lambert eaton myasthenic syndrome"], ["occupational lung", "hard metal", "hard metal lung disease"], ["fluid volume overload", "weight gain", "weight gain overnight"], ["thyroid storm", "weight loss", "weight loss despite appetite"], ["meningitis", "stiff neck", "stiff neck and fever"], ["neutropenic", "no fresh flowers", "no flowers"], ["neutropenic", "no fresh flowers", "no fresh flowers or plants"], ["neutropenic", "no fresh fruits or vegetables", "no fresh fruit"], ["tooth discoloration", "root canal treatment", "root canal"], ["radiolucent jaw", "central giant cell granuloma", "giant cell granuloma"], ["radiolucent jaw", "stafne bone defect", "stafne defect"], ["preventive screening", "eye exam", "diabetic eye exam"]];
 const NO_MERGE=new Set(["cardiac glands~heart","h reflex~hoffmann","cardiorenal syndrome~heart failure"]);
 function prep(p){
   const seen=new Set(); let items=[];

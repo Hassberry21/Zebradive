@@ -3003,7 +3003,6 @@ RAW.push(
 15 radial
 20 brachial
 20 subclavian
-25 jugular
 25 renal
 25 iliac|common iliac|internal iliac|external iliac
 30 popliteal
@@ -3659,7 +3658,6 @@ RAW.push(
 35 brunner
 35 crypts of lieberkuhn|intestinal crypts
 35 gastric glands
-35 parietal cells
 35 islets of langerhans
 35 ceruminous|ear wax glands
 35 montgomery|areolar glands
@@ -6704,8 +6702,6 @@ RAW.push(
 30 tivozanib|fotivda
 30 lazertinib|lazcluze
 30 mobocertinib
-30 sotorasib|lumakras
-30 adagrasib|krazati
 30 idelalisib|zydelig
 30 duvelisib|copiktra
 30 alpelisib|piqray
@@ -6718,7 +6714,6 @@ RAW.push(
 30 belumosudil|rezurock
 30 olverembatinib
 30 tovorafenib|ojemda
-30 vorasidenib|voranigo
 `},
 {q:"Name an antiviral drug", cat:"pharm", strip:"", list:`
 5 tamiflu|oseltamivir
@@ -8446,14 +8441,11 @@ RAW.push(
 20 opisthotonos
 20 hands and knees
 20 squatting
-20 water birth
 20 kangaroo care
 20 tummy time
 20 30 degree tilt
 20 anatomical position
 20 neutral position
-20 dorsiflexion
-20 plantar flexion
 `},
 {q:"Name a hospital unit or department", cat:"nursing", strip:"unit department", list:`
 5 emergency room|er|emergency department|ed
@@ -24518,7 +24510,7 @@ const CK_STOP=new Set(["of","the","an","in","to","sign","symptom","with","interv
 function ckey(n){ let t=" "+n+" "; for(const [re,rep] of CK_PHRASE) t=t.replace(re,rep);
   const w=t.split(" ").filter(Boolean).map(x=>CK_WORD[x]||x).filter(x=>!CK_STOP.has(x));
   return [...new Set(w)].sort().join(" "); }
-const SAME_ANSWER=[["type of tooth", "central incisor", "upper central incisor"], ["type of tooth", "central incisor", "lower central incisor"], ["type of tooth", "lateral incisor", "upper lateral incisor"], ["type of tooth", "lateral incisor", "lower lateral incisor"], ["type of tooth", "first molar", "upper first molar"], ["type of tooth", "first molar", "lower first molar"], ["type of tooth", "second molar", "upper second molar"], ["type of tooth", "second molar", "lower second molar"], ["emergency code", "code blue", "code blue adult"], ["emergency code", "code blue", "code blue pediatric"], ["emergency code", "code red", "code red fire"], ["emergency code", "code pink", "code pink infant"], ["emergency code", "code silver", "code silver weapon"], ["emergency code", "code gray", "code gray security"], ["emergency code", "code orange", "code orange spill"], ["emergency code", "code black", "code black bomb"], ["emergency code", "code yellow", "code yellow disaster"], ["emergency code", "code white", "code white newborn"], ["emergency code", "code triage", "code triage internal"], ["warning sign of stroke", "trouble walking", "sudden trouble walking"], ["warning sign of stroke", "vision loss", "one sided vision loss"], ["warning sign of stroke", "severe headache", "sudden severe headache"], ["symptom of a heart attack", "chest pain", "squeezing chest pain"], ["symptom of a heart attack", "back pain", "upper back pain"], ["TMJ disorder", "jaw pain", "jaw pain when chewing"], ["TMJ disorder", "limited opening", "limited mouth opening"], ["dental infection", "bad taste", "bad taste in mouth"], ["nursing theorist", "ida jean orlando", "ida orlando"], ["transfusion react", "back pain", "lower back pain"], ["restraint", "wrist restraints", "soft wrist restraints"], ["dental implant", "morse taper", "morse taper connection"], ["oral surgery procedure", "jaw surgery", "corrective jaw surgery"], ["autosomal dominant", "adult polycystic kidney disease", "polycystic kidney disease"], ["secondary hypertension", "sleep apnea", "obstructive sleep apnea"], ["digital clubbing", "cyanotic congenital heart disease", "cyanotic heart disease"], ["ST elevation", "early repolarization", "benign early repolarization"], ["paraneoplastic", "lambert eaton", "lambert eaton myasthenic syndrome"], ["occupational lung", "hard metal", "hard metal lung disease"], ["fluid volume overload", "weight gain", "weight gain overnight"], ["thyroid storm", "weight loss", "weight loss despite appetite"], ["meningitis", "stiff neck", "stiff neck and fever"], ["neutropenic", "no fresh flowers", "no flowers"], ["neutropenic", "no fresh flowers", "no fresh flowers or plants"], ["neutropenic", "no fresh fruits or vegetables", "no fresh fruit"], ["tooth discoloration", "root canal treatment", "root canal"], ["radiolucent jaw", "central giant cell granuloma", "giant cell granuloma"], ["radiolucent jaw", "stafne bone defect", "stafne defect"], ["preventive screening", "eye exam", "diabetic eye exam"]];
+const SAME_ANSWER=[["type of tooth", "central incisor", "upper central incisor"], ["type of tooth", "central incisor", "lower central incisor"], ["type of tooth", "lateral incisor", "upper lateral incisor"], ["type of tooth", "lateral incisor", "lower lateral incisor"], ["type of tooth", "first molar", "upper first molar"], ["type of tooth", "first molar", "lower first molar"], ["type of tooth", "second molar", "upper second molar"], ["type of tooth", "second molar", "lower second molar"], ["emergency code", "code blue", "code blue adult"], ["emergency code", "code blue", "code blue pediatric"], ["emergency code", "code red", "code red fire"], ["emergency code", "code pink", "code pink infant"], ["emergency code", "code silver", "code silver weapon"], ["emergency code", "code gray", "code gray security"], ["emergency code", "code orange", "code orange spill"], ["emergency code", "code black", "code black bomb"], ["emergency code", "code yellow", "code yellow disaster"], ["emergency code", "code white", "code white newborn"], ["emergency code", "code triage", "code triage internal"], ["warning sign of stroke", "trouble walking", "sudden trouble walking"], ["warning sign of stroke", "vision loss", "one sided vision loss"], ["warning sign of stroke", "severe headache", "sudden severe headache"], ["symptom of a heart attack", "chest pain", "squeezing chest pain"], ["symptom of a heart attack", "back pain", "upper back pain"], ["TMJ disorder", "jaw pain", "jaw pain when chewing"], ["TMJ disorder", "limited opening", "limited mouth opening"], ["dental infection", "bad taste", "bad taste in mouth"], ["nursing theorist", "ida jean orlando", "ida orlando"], ["nursing theorist", "faye abdellah", "faye glenn abdellah"], ["nursing theorist", "rosemarie parse", "rosemarie rizzo parse"], ["diet order", "low sodium", "low salt diet"], ["transfusion react", "back pain", "lower back pain"], ["restraint", "wrist restraints", "soft wrist restraints"], ["dental implant", "morse taper", "morse taper connection"], ["oral surgery procedure", "jaw surgery", "corrective jaw surgery"], ["autosomal dominant", "adult polycystic kidney disease", "polycystic kidney disease"], ["secondary hypertension", "sleep apnea", "obstructive sleep apnea"], ["digital clubbing", "cyanotic congenital heart disease", "cyanotic heart disease"], ["ST elevation", "early repolarization", "benign early repolarization"], ["paraneoplastic", "lambert eaton", "lambert eaton myasthenic syndrome"], ["occupational lung", "hard metal", "hard metal lung disease"], ["fluid volume overload", "weight gain", "weight gain overnight"], ["thyroid storm", "weight loss", "weight loss despite appetite"], ["meningitis", "stiff neck", "stiff neck and fever"], ["neutropenic", "no fresh flowers", "no flowers"], ["neutropenic", "no fresh flowers", "no fresh flowers or plants"], ["neutropenic", "no fresh fruits or vegetables", "no fresh fruit"], ["tooth discoloration", "root canal treatment", "root canal"], ["radiolucent jaw", "central giant cell granuloma", "giant cell granuloma"], ["radiolucent jaw", "stafne bone defect", "stafne defect"], ["preventive screening", "eye exam", "diabetic eye exam"]];
 const NO_MERGE=new Set(["cardiac glands~heart","h reflex~hoffmann","cardiorenal syndrome~heart failure"]);
 function prep(p){
   const seen=new Set(); let items=[];

@@ -20144,6 +20144,928 @@ electric toothbrush
 floss before brushing
 `);
 
+/* ---- NEW STANDARD DAILY PROMPTS: NURSING (batch 2026-11-04, board-first) ---- */
+P("Name a food high in sodium","nursing","",`
+canned soup|soup
+bacon
+ham
+hot dogs|frankfurters
+deli meat|lunch meat|cold cuts|luncheon meat
+pickles|dill pickles
+potato chips|chips|crisps
+soy sauce
+pizza
+processed cheese|american cheese|cheese slices
+cheese
+fast food
+frozen dinners|tv dinners|frozen meals
+sausage
+salami
+pepperoni
+salted pretzels|pretzels
+canned vegetables
+table salt|salt
+salted nuts
+ketchup
+olives
+sauerkraut
+beef jerky|jerky
+instant noodles|ramen|cup noodles
+boxed macaroni and cheese|mac and cheese
+corned beef
+smoked salmon|lox
+canned tuna
+sardines
+anchovies
+cottage cheese
+feta cheese
+parmesan
+blue cheese
+bouillon cubes|stock cubes|bouillon
+gravy mix|gravy
+salad dressing
+barbecue sauce
+teriyaki sauce
+fish sauce
+worcestershire sauce
+mustard
+salsa
+tomato juice|vegetable juice|v8
+pasta sauce|spaghetti sauce|marinara sauce
+canned beans|baked beans
+canned chili|chili
+salted butter
+margarine
+bread|white bread
+bagels
+biscuits
+pancake mix
+instant pudding
+crackers|saltines|saltine crackers
+popcorn|microwave popcorn
+tortilla chips
+cheese puffs
+seasoned rice mix|rice mix|boxed rice mix
+stuffing mix
+burritos
+tacos
+hamburger|cheeseburger
+fried chicken
+chicken nuggets
+french fries
+deli sandwich|sub sandwich
+breakfast sandwich
+pot pie
+lasagna
+canned meat|spam|vienna sausages
+smoked meats
+cured meats
+prosciutto
+pastrami
+bologna
+kielbasa
+chorizo
+pork rinds
+cured fish
+pickled herring
+caviar
+shellfish|shrimp|crab
+imitation crab|surimi
+miso|miso soup
+kimchi
+pickled vegetables
+capers
+garlic salt
+onion salt
+celery salt
+seasoning salt|seasoned salt
+msg|monosodium glutamate
+meat tenderizer
+baking soda
+baking powder
+self rising flour
+sports drinks
+canned broth|broth|stock
+cereal
+instant oatmeal
+processed foods
+restaurant food|takeout|takeaway
+chinese food
+salted fish
+smoked sausage
+cheese spread|cheese dip|queso
+buttermilk
+hummus
+pesto
+steak sauce
+hot sauce
+soy based sauces
+oyster sauce
+hoisin sauce
+salted crackers
+cheddar
+halloumi
+string cheese
+canned ravioli
+frozen pizza
+packaged ramen
+breakfast cereal
+waffles
+pancakes
+english muffins
+croissant
+rolls
+salted peanuts
+trail mix
+vegemite|marmite
+salted caramel
+seaweed snacks
+pickled eggs
+`, "2026-11-06");
+
+P("Name a food high in iron","nursing","",`
+red meat|beef|steak
+liver|beef liver|chicken liver
+spinach
+beans|legumes
+lentils
+fortified cereal|iron fortified cereal|cereal
+kidney beans
+tofu
+dark leafy greens|leafy greens
+clams
+oysters
+mussels
+shellfish
+sardines
+tuna
+dark chocolate
+pumpkin seeds|pepitas
+raisins
+dried apricots
+prunes|prune juice
+eggs|egg yolks
+chickpeas|garbanzo beans
+black beans
+lamb
+pork
+turkey|dark meat turkey
+duck
+venison
+bison
+organ meats
+kidney
+heart
+blood sausage|black pudding
+broccoli
+kale
+collard greens
+swiss chard
+beet greens
+turnip greens
+quinoa
+oatmeal|oats
+fortified bread|enriched bread
+whole grains
+whole wheat bread
+brown rice
+soybeans|edamame
+tempeh
+peas|green peas
+nuts
+cashews
+almonds
+pine nuts
+pistachios
+sesame seeds|tahini
+sunflower seeds
+hemp seeds
+flaxseed
+chia seeds
+molasses|blackstrap molasses
+dried fruit
+dates
+figs|dried figs
+mulberries
+potatoes with skin|baked potato
+sweet potatoes
+tomato paste
+spirulina
+seaweed
+cream of wheat|farina
+infant cereal|iron fortified infant cereal
+iron fortified formula
+fortified pasta
+lima beans
+navy beans
+pinto beans
+white beans
+split peas
+hummus
+anchovies
+mackerel
+shrimp
+scallops
+octopus
+cuttlefish
+caviar
+liverwurst|pate
+goose
+rabbit
+quail
+corned beef
+ground beef
+nutritional yeast
+peanuts|peanut butter
+`, "2026-11-06");
+
+P("Name a food high in calcium","nursing","",`
+milk
+cheese
+yogurt|yoghurt
+ice cream
+sardines with bones|sardines
+canned salmon with bones|canned salmon
+tofu|calcium set tofu
+fortified orange juice|calcium fortified juice
+fortified cereal
+broccoli
+kale
+collard greens
+spinach
+bok choy
+turnip greens
+mustard greens
+almonds
+fortified soy milk|soy milk
+fortified almond milk|almond milk
+fortified plant milk|oat milk|rice milk
+cottage cheese
+parmesan
+cheddar
+swiss cheese
+mozzarella
+ricotta
+feta
+goat cheese
+cream cheese
+kefir
+buttermilk
+pudding
+custard
+frozen yogurt
+milkshake
+evaporated milk|condensed milk
+powdered milk|dry milk
+whey
+chia seeds
+sesame seeds|tahini
+poppy seeds
+sunflower seeds
+figs|dried figs
+oranges
+white beans
+navy beans
+kidney beans
+chickpeas
+lentils
+edamame|soybeans
+tempeh
+okra
+rhubarb
+seaweed
+amaranth
+quinoa
+oatmeal
+fortified bread
+corn tortillas
+anchovies
+shrimp
+clams
+oysters
+crab
+perch
+rainbow trout
+mackerel
+blackstrap molasses
+almond butter
+brazil nuts
+pistachios
+brussels sprouts
+dandelion greens
+watercress
+arugula
+pizza
+lasagna
+macaroni and cheese
+calcium chews|calcium supplement
+`, "2026-11-06");
+
+P("Name a food high in purines (avoid with gout)","nursing","",`
+red meat|beef
+organ meats|offal
+liver
+kidney
+sweetbreads
+anchovies
+sardines
+shellfish
+beer
+mussels
+scallops
+herring
+mackerel
+tuna
+trout
+codfish|cod
+haddock
+salmon
+shrimp
+lobster
+crab
+oysters
+clams
+fish roe|roe|caviar
+lamb
+pork
+bacon
+veal
+venison
+goose
+turkey
+duck
+chicken
+game meat
+rabbit
+pheasant
+partridge
+heart
+brain
+tongue
+tripe
+gravy
+meat extracts|bouillon|broth
+meat based soups|consomme
+yeast|brewers yeast|yeast extract
+nutritional yeast
+vegemite|marmite
+alcohol
+spirits|liquor|whiskey
+wine
+high fructose corn syrup
+sugary drinks|soda|soft drinks
+fruit juice
+smelt
+whitefish
+halibut
+tilapia
+sea bass
+octopus
+squid
+eel
+dried fish
+fish sauce
+anchovy paste
+sausage
+salami
+ham
+hot dogs
+processed meats
+deli meat
+asparagus
+spinach
+cauliflower
+mushrooms
+peas
+lentils
+beans
+dried peas
+oatmeal
+wheat germ
+bran
+spirulina
+seaweed
+`, "2026-11-06");
+
+P("Name a symptom of heart failure","nursing","",`
+shortness of breath|dyspnea|sob
+swelling in legs|edema|leg swelling|ankle swelling|peripheral edema|pedal edema
+fatigue|tiredness
+weight gain|rapid weight gain
+orthopnea|trouble breathing lying flat
+paroxysmal nocturnal dyspnea|pnd|waking up breathless
+cough|chronic cough
+crackles|rales
+jugular vein distension|jvd
+pink frothy sputum|frothy sputum
+pulmonary edema
+fluid retention
+exercise intolerance|activity intolerance
+weakness
+tachycardia|fast heart rate
+palpitations
+s3|s3 gallop|ventricular gallop
+s4|atrial gallop
+dizziness|lightheadedness
+confusion
+abdominal swelling|ascites
+hepatomegaly|enlarged liver
+hepatojugular reflux
+nocturia
+decreased urine output|oliguria
+loss of appetite|anorexia
+nausea
+early satiety|feeling full
+wheezing|cardiac asthma
+cyanosis
+cool extremities|cold hands and feet
+pallor
+hypotension
+narrow pulse pressure
+pulsus alternans
+displaced apical impulse
+cardiomegaly|enlarged heart
+pleural effusion
+sacral edema
+pitting edema
+anasarca
+hypoxia|low oxygen
+tachypnea
+cheyne stokes breathing
+chest pain|angina
+anxiety
+restlessness
+insomnia|trouble sleeping
+needing more pillows|sleeping propped up|two pillow orthopnea
+bendopnea
+cachexia|cardiac cachexia
+muscle wasting
+right upper quadrant pain
+bloating
+syncope|fainting
+arrhythmia|atrial fibrillation
+elevated bnp
+hyponatremia
+kidney dysfunction|cardiorenal syndrome
+memory problems
+depression
+diaphoresis|sweating
+decreased exercise capacity
+breathlessness on exertion|dyspnea on exertion|doe
+tight shoes|rings feel tight
+clothes feel tight
+dyspnea at rest
+delayed capillary refill
+weak pulses|thready pulse
+mottled skin
+cold clammy skin
+low ejection fraction|reduced ejection fraction
+decreased cardiac output
+ventricular arrhythmias
+sudden cardiac death
+elevated creatinine
+hepatic congestion
+elevated liver enzymes
+hemoptysis
+pulmonary hypertension
+right ventricular heave
+central sleep apnea
+lactic acidosis
+`, "2026-11-06");
+
+P("Name a symptom of hypothyroidism","nursing","",`
+fatigue|tiredness
+weight gain
+cold intolerance|feeling cold
+constipation
+dry skin
+hair loss|thinning hair
+depression
+bradycardia|slow heart rate
+brittle nails
+puffy face|facial puffiness
+hoarse voice|hoarseness
+muscle weakness
+memory problems|forgetfulness
+brain fog|trouble concentrating
+heavy periods|menorrhagia
+irregular periods
+goiter
+myxedema
+slow speech
+slowed reflexes|delayed relaxation of reflexes
+coarse hair
+loss of outer eyebrows|thinning eyebrows|queen anne sign
+muscle aches|myalgia
+joint pain|arthralgia
+stiffness
+lethargy
+sleepiness|somnolence
+low body temperature|hypothermia
+high cholesterol|hyperlipidemia
+elevated tsh
+low t4
+infertility
+decreased libido
+erectile dysfunction
+carpal tunnel syndrome
+numbness|paresthesia
+swollen tongue|macroglossia
+puffy eyes|periorbital edema
+nonpitting edema
+pale skin|pallor
+yellowish skin|carotenemia
+anemia
+hearing loss
+dyspnea
+pericardial effusion
+pleural effusion
+hypotension
+diastolic hypertension
+hyponatremia
+decreased appetite
+slow thinking|mental slowing
+apathy
+psychosis|myxedema madness
+myxedema coma
+sleep apnea
+snoring
+cold hands and feet
+decreased sweating
+thick skin
+ataxia
+milk discharge|galactorrhea
+delayed puberty
+growth delay|short stature
+mental impairment in infants|cretinism
+prolonged neonatal jaundice
+umbilical hernia
+large fontanelle
+elevated creatine kinase
+hypoventilation|bradypnea
+hypercapnia
+ileus
+abdominal distension
+urinary retention
+ptosis|droopy eyelids
+dull facial expression
+mood swings
+anxiety
+vertigo
+tinnitus
+low voltage ecg
+prolonged qt
+dry hair
+hypoglycemia
+miscarriage
+exercise intolerance
+`, "2026-11-06");
+
+P("Name a sign of liver failure or cirrhosis","nursing","",`
+jaundice|yellow skin|icterus
+ascites|abdominal swelling
+yellow eyes|scleral icterus
+easy bruising|bruising
+bleeding|bleeding easily
+confusion|hepatic encephalopathy
+asterixis|flapping tremor|liver flap
+spider angiomas|spider nevi
+palmar erythema|red palms
+itching|pruritus
+fatigue
+edema|leg swelling
+dark urine
+pale stools|clay colored stools
+esophageal varices|varices
+vomiting blood|hematemesis
+black stools|melena
+caput medusae
+splenomegaly|enlarged spleen
+hepatomegaly|enlarged liver
+shrunken liver
+gynecomastia
+testicular atrophy
+loss of body hair
+muscle wasting
+weight loss
+loss of appetite|anorexia
+nausea
+fetor hepaticus|sweet breath|musty breath
+elevated ammonia
+elevated bilirubin
+elevated liver enzymes|high alt|high ast
+low albumin|hypoalbuminemia
+prolonged pt|elevated inr|coagulopathy
+low platelets|thrombocytopenia
+anemia
+hyponatremia
+hypoglycemia
+portal hypertension
+hepatorenal syndrome
+hepatopulmonary syndrome
+spontaneous bacterial peritonitis
+clubbing
+white nails|terry nails
+dupuytren contracture
+parotid enlargement
+xanthelasma
+abdominal pain|right upper quadrant pain
+hemorrhoids
+umbilical hernia
+fever
+infections
+sleep reversal|day night reversal
+personality changes
+slurred speech
+coma
+amenorrhea
+impotence|erectile dysfunction
+hypotension
+low blood pressure
+tachycardia
+shortness of breath
+hepatic hydrothorax
+steatorrhea
+fatigue and weakness|weakness
+kayser fleischer rings
+bronze skin
+nosebleeds|epistaxis
+bleeding gums
+petechiae
+malnutrition
+vitamin deficiency
+osteoporosis
+insulin resistance|diabetes
+sepsis
+gi bleeding
+hepatocellular carcinoma|liver cancer
+fluid wave|shifting dullness
+bulging flanks
+elevated alkaline phosphatase
+elevated ggt
+hypokalemia
+respiratory alkalosis
+decreased urine output|oliguria
+night blindness
+`, "2026-11-06");
+
+
+
+
+
+
+
+P("Name a food high in fiber","nursing","",`
+beans|legumes
+whole grains
+oatmeal|oats
+bran|wheat bran
+bran cereal|bran flakes|all bran
+whole wheat bread|whole grain bread|wholemeal bread
+brown rice
+apples
+pears
+berries
+raspberries
+blackberries
+strawberries
+blueberries
+prunes|dried plums
+broccoli
+lentils
+chickpeas|garbanzo beans
+black beans
+kidney beans
+split peas
+green peas|peas
+avocado
+artichokes
+brussels sprouts
+carrots
+sweet potatoes
+potatoes with skin
+popcorn
+nuts
+almonds
+chia seeds
+flaxseed|linseed
+psyllium|metamucil
+quinoa
+barley
+bulgur
+whole wheat pasta
+corn
+bananas
+oranges
+figs
+dates
+raisins
+dried apricots
+kiwi
+mango
+guava
+passion fruit
+coconut
+spinach
+kale
+collard greens
+cabbage
+cauliflower
+beets
+squash
+pumpkin
+turnips
+parsnips
+okra
+green beans
+celery
+edamame
+pinto beans
+navy beans
+lima beans
+black eyed peas
+hummus
+pumpkin seeds
+sunflower seeds
+walnuts
+pistachios
+pecans
+peanuts
+hazelnuts
+rye bread|rye
+buckwheat
+millet
+farro
+wild rice
+shredded wheat
+granola
+muesli
+high fiber cereal|fiber cereal
+dark chocolate
+`, "2026-11-06");
+
+P("Name a food that contains gluten","nursing","",`
+bread
+pasta
+wheat
+barley
+rye
+beer
+cereal
+crackers
+cookies|biscuits
+cake
+pizza crust|pizza
+bagels
+muffins
+pancakes
+waffles
+croissants
+pastries|danish
+pie crust|pie
+doughnuts|donuts
+couscous
+bulgur
+semolina
+spelt
+farro
+durum
+kamut
+triticale
+seitan
+malt|malt vinegar|malted milk
+soy sauce
+flour tortillas|tortillas
+pretzels
+breadcrumbs|bread crumbs|panko
+croutons
+stuffing
+gravy
+roux
+cream soups|cream of mushroom soup
+battered foods|breaded foods
+fried chicken
+fish sticks|fish fingers
+chicken nuggets
+onion rings
+noodles|egg noodles
+ramen
+udon
+orzo
+gnocchi
+dumplings
+wontons
+ravioli
+lasagna
+macaroni and cheese
+graham crackers
+brownies
+cupcakes
+communion wafers
+matzo
+pita
+naan
+english muffins
+hamburger buns|buns
+hot dog buns
+sandwiches
+wraps
+cereal bars|granola bars
+wheat germ
+bran
+farina|cream of wheat
+some oats|oats contaminated with wheat
+licorice
+teriyaki sauce
+salad dressings
+imitation crab
+meatballs
+meatloaf
+sausages
+veggie burgers
+bouillon cubes
+soup mixes
+beer battered fish
+ice cream cones
+`, "2026-11-06");
+
+P("Name a food high in protein","nursing","",`
+chicken|chicken breast
+eggs|egg whites
+beef|steak
+fish
+greek yogurt|yogurt
+milk
+cheese
+cottage cheese
+tuna
+salmon
+turkey
+pork
+lamb
+shrimp
+tofu
+tempeh
+seitan
+beans
+lentils
+chickpeas
+black beans
+kidney beans
+edamame|soybeans
+peanut butter
+peanuts
+almonds
+nuts
+pumpkin seeds
+hemp seeds
+chia seeds
+quinoa
+protein shakes|protein powder|whey protein
+protein bars
+ensure|nutritional supplement drinks|boost
+jerky|beef jerky
+ham
+bacon
+sardines
+mackerel
+cod
+tilapia
+halibut
+scallops
+crab
+lobster
+mussels
+clams
+oysters
+venison
+bison
+duck
+liver
+ground beef
+pork chops
+sausage
+deli turkey|deli meat
+parmesan
+mozzarella
+ricotta
+skyr
+kefir
+soy milk
+pea protein
+split peas
+green peas
+oats|oatmeal
+spirulina
+nutritional yeast
+hummus
+cashews
+pistachios
+sunflower seeds
+flaxseed
+egg substitute
+`, "2026-11-06");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

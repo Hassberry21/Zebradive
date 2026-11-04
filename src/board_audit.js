@@ -6838,3 +6838,779 @@ board("Name a periodontal term or condition", 87, "food impaction");  // 2026-11
 board("Name a periodontal term or condition", 87, "mouth breathing gingivitis");  // 2026-11-04 · INBDE
 board("Name a periodontal term or condition", 88, "halitosis");  // 2026-11-04 · INBDE
 board("Name a periodontal term or condition", 88, "bone fill");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 45, "irreversible pulpitis");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 46, "acute apical abscess");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 46, "periodontal abscess");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 47, "pericoronal abscess");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 48, "deep space infection");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 48, "cavernous sinus thrombosis");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 49, "airway compromise");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 50, "alveolar osteitis");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 51, "avulsed primary tooth");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 52, "crown fracture with pulp exposure|complicated crown fracture");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 53, "uncomplicated crown fracture");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 53, "crown root fracture");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 54, "alveolar fracture");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 54, "concussion");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 55, "subluxation");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 55, "mandible fracture");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 56, "zygomatic fracture");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 57, "le fort fracture");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 57, "condylar fracture");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 58, "tmj dislocation|open lock");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 58, "closed lock");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 59, "lip laceration");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 60, "tongue laceration");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 60, "gingival laceration");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 61, "electrical burn of lip");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 61, "necrotizing gingivitis|anug");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 62, "herpetic gingivostomatitis");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 63, "lost temporary crown");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 64, "broken temporary");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 64, "loose orthodontic band");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 65, "loose bracket");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 65, "lost retainer");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 66, "broken retainer");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 66, "implant fracture");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 67, "loose implant crown");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 68, "swallowed object");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 68, "aspirated tooth");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 69, "inhaled instrument");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 69, "syncope in chair");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 70, "anaphylaxis");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 71, "angioedema");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 71, "asthma attack");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 72, "hypoglycemia");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 72, "seizure in chair");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 73, "chest pain|angina");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 73, "heart attack");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 74, "hyperventilation");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 75, "local anesthetic toxicity");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 75, "epinephrine overdose");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 76, "airway obstruction|choking");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 76, "cardiac arrest");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 77, "hypertensive crisis");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 78, "adrenal crisis");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 78, "bisphosphonate necrosis");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 79, "osteomyelitis");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 79, "post op infection");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 80, "sinus communication");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 80, "nerve injury");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 81, "cracked tooth pain");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 82, "fractured cusp");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 82, "food impaction pain");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 83, "orthodontic wire poking");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 83, "denture sore");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 84, "swollen jaw");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 85, "hematoma after injection");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 86, "broken needle");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 86, "fistula|draining sinus");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 87, "fever with tooth pain");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 87, "difficulty swallowing");  // 2026-11-04 · INBDE
+board("Name a dental emergency", 88, "difficulty breathing");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 46, "hiv associated periodontitis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 46, "kaposi sarcoma");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 46, "oral hairy leukoplakia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 47, "acute myeloid leukemia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 47, "acute lymphoblastic leukemia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 47, "lymphoma");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 47, "langerhans cell histiocytosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 48, "agranulocytosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 48, "aplastic anemia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 49, "folate deficiency");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 49, "riboflavin deficiency");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 50, "niacin deficiency");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 50, "vitamin d deficiency|rickets");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 50, "vitamin a deficiency");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 51, "zinc deficiency");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 51, "ulcerative colitis|pyostomatitis vegetans");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 51, "orofacial granulomatosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 52, "melkersson rosenthal syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 52, "reactive arthritis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 52, "rheumatoid arthritis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 52, "juvenile idiopathic arthritis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 53, "psoriasis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 53, "dermatomyositis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 53, "mixed connective tissue disease");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 54, "discoid lupus");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 54, "systemic sclerosis|crest syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 54, "graft versus host disease");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 55, "erythema multiforme");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 55, "stevens johnson syndrome|toxic epidermal necrolysis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 56, "mucous membrane pemphigoid");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 56, "bullous pemphigoid");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 56, "epidermolysis bullosa");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 57, "psoriasiform lesions");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 57, "chickenpox|varicella");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 57, "shingles|herpes zoster");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 58, "cytomegalovirus");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 58, "mumps");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 58, "rubella");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 59, "herpangina");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 59, "coxsackie");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 60, "covid 19");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 60, "mpox|monkeypox");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 60, "candidiasis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 61, "blastomycosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 61, "coccidioidomycosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 62, "aspergillosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 62, "mucormycosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 62, "actinomycosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 62, "leprosy");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 63, "diphtheria");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 63, "primary syphilis|chancre");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 64, "secondary syphilis|mucous patches");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 64, "tertiary syphilis|gumma");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 64, "hyperthyroidism");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 65, "congenital hypothyroidism|cretinism");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 65, "hypoparathyroidism");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 65, "pseudohypoparathyroidism");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 66, "hypophosphatasia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 66, "vitamin d resistant rickets|x linked hypophosphatemia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 66, "pituitary gigantism");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 66, "hypopituitarism");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 67, "diabetes insipidus");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 67, "pheochromocytoma|men 2b");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 68, "multiple endocrine neoplasia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 68, "chronic kidney disease|renal osteodystrophy");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 68, "uremic stomatitis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 69, "cirrhosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 69, "hepatitis c");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 69, "hemochromatosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 70, "wilson disease");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 70, "alcoholism");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 71, "thalassemia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 71, "von willebrand disease");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 71, "idiopathic thrombocytopenic purpura");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 71, "polycythemia vera");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 72, "plasma cell disorders");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 72, "metastatic cancer");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 73, "osteosarcoma");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 73, "marfan syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 73, "ehlers danlos syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 74, "incontinentia pigmenti");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 74, "basal cell nevus syndrome|gorlin");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 75, "cherubism");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 75, "fibrous dysplasia|mccune albright");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 75, "crouzon syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 76, "apert syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 76, "treacher collins");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 76, "pierre robin");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 76, "williams syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 77, "turner syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 77, "klinefelter syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 77, "papillon lefevre syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 78, "chediak higashi syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 78, "leukocyte adhesion deficiency");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 78, "hurler syndrome");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 79, "gaucher disease");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 79, "fabry disease");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 79, "cerebral palsy");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 80, "parkinson disease");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 80, "epilepsy|phenytoin hyperplasia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 80, "bell's palsy");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 81, "trigeminal neuralgia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 81, "myasthenia gravis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 81, "als");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 81, "multiple sclerosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 82, "hypertension|calcium channel blocker hyperplasia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 82, "cyclosporine therapy");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 82, "organ transplant");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 83, "asthma|inhaled steroid thrush");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 83, "cystic fibrosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 83, "anorexia nervosa");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 84, "methamphetamine addiction");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 84, "cocaine addiction");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 85, "opioid use disorder");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 85, "osteopetrosis");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 86, "osteomalacia");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 87, "scarlatina");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 87, "silver poisoning|argyria");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 88, "arsenic poisoning");  // 2026-11-04 · INBDE
+board("Name a systemic disease with oral signs", 88, "heavy metal poisoning");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 45, "dental exam");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 46, "annual exam");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 46, "new patient visit");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 47, "recall visit");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 47, "periodontal maintenance");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 48, "tooth decay");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 49, "filling replacement");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 50, "broken filling");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 50, "sore gums");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 50, "swollen gums");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 51, "gum recession|receding gums");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 52, "missing teeth");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 52, "tooth replacement");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 54, "partial denture");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 55, "denture reline");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 55, "denture repair");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 56, "broken denture");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 56, "crown replacement");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 57, "temporary crown fell out");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 57, "veneer fell off");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 58, "bonding repair");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 58, "tooth discoloration");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 58, "yellow teeth");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 59, "smile makeover");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 59, "cosmetic dentistry");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 59, "gummy smile");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 60, "uneven teeth");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 60, "underbite");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 61, "crossbite");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 61, "spacing");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 61, "aligners");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 62, "clear aligner check");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 63, "orthodontic emergency");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 64, "pulling a tooth");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 64, "impacted tooth");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 65, "pericoronitis");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 65, "dry socket");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 65, "post op check");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 66, "suture removal");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 66, "biopsy");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 66, "lump in mouth");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 67, "white patch");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 67, "ulcer that won't heal");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 68, "cold sores");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 68, "burning mouth");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 68, "taste changes");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 69, "jaw clicking");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 69, "headaches");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 70, "ear pain");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 70, "sleep apnea");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 71, "clenching");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 71, "worn teeth");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 72, "cracked tooth");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 72, "sensitivity to cold");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 73, "sensitivity to sweets");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 73, "pain when biting");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 74, "tooth infection");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 75, "trauma");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 75, "sports injury");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 75, "child's first visit");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 76, "teething");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 76, "baby bottle decay");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 77, "thumb sucking");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 77, "space maintainer");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 78, "prescription refill");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 79, "pre radiation exam");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 79, "pre transplant clearance");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 79, "pre cardiac surgery clearance");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 80, "bisphosphonate clearance");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 80, "pregnancy dental check");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 81, "diabetes dental check");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 81, "insurance benefits");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 81, "referral");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 82, "consultation");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 82, "treatment plan");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 83, "employment physical|military dental");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 83, "school requirement");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 83, "forensic identification");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 84, "dental records");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 84, "mouthguard for sports");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 84, "whitening touch up");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 85, "halitosis");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 85, "smoker stains");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 86, "oral piercing problems");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 86, "bump on gums");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 86, "tongue problems");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 87, "teeth shifting");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 87, "wisdom tooth pain");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 88, "implant check");  // 2026-11-04 · INBDE
+board("Name a reason people visit the dentist", 88, "crown lengthening");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 46, "mid|mesio incisal distal");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 47, "bl|buccolingual");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 47, "mesiolingual");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 47, "distobuccal");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 48, "mesiobuccal");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 48, "distolingual");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 49, "line angle");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 49, "point angle");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 49, "interproximal");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 50, "cervical third");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 50, "middle third");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 51, "occlusal third");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 51, "incisal third");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 51, "gingival");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 52, "subgingival");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 52, "supragingival");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 53, "root surface");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 54, "bleeding points");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 54, "suppuration");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 54, "plaque score");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 55, "calculus");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 55, "gingival margin");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 56, "clinical attachment level|cal");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 56, "mucogingival defect");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 56, "keratinized tissue width");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 57, "probing depth");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 57, "six point probing");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 58, "primary teeth letters");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 60, "maxillary arch");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 61, "mandibular arch");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 62, "g v black classification|black's classification");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 64, "incipient caries");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 64, "recurrent caries");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 65, "root caries");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 65, "arrested caries");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 66, "caries icdas");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 66, "amalgam restoration");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 66, "composite restoration");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 67, "gold crown");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 67, "full gold crown|fgc");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 68, "full cast crown");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 68, "porcelain crown");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 69, "zirconia crown");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 69, "veneer");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 69, "inlay");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 70, "onlay");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 71, "fpd|fixed partial denture");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 71, "rpd|removable partial denture");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 72, "complete denture|cd");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 72, "implant crown");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 73, "post");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 73, "core build up");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 73, "endodontically treated");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 74, "extraction indicated|to be extracted");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 74, "extracted");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 75, "edentulous");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 75, "edentulous space");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 76, "partially erupted");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 77, "retained root|root tip");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 77, "fractured tooth");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 77, "cracked tooth");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 78, "fremitus");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 79, "temporary restoration");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 80, "defective restoration");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 80, "open margin");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 81, "recurrent decay");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 81, "drifting");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 82, "tipped tooth");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 82, "rotation");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 82, "crossbite");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 84, "overjet");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 84, "overbite");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 85, "midline");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 85, "wear facet");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 86, "existing treatment");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 86, "proposed treatment");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 86, "completed treatment");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 87, "tooth surface codes");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 87, "haderup system");  // 2026-11-04 · INBDE
+board("Name a dental charting term or tooth surface", 88, "fdi two digit system");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 45, "pulp chamber");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 45, "pulp horn");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 45, "pulp stones");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 46, "calcified canal|calcification");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 46, "canal orifice");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 46, "root canal anatomy");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 46, "vertucci classification");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 47, "c shaped canal");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 47, "mesiobuccal canal|mb1");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 47, "mesiolingual canal");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 47, "distolingual canal");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 48, "middle mesial canal");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 48, "apical delta");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 48, "apical third");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 48, "minor diameter");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 49, "radiographic apex");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 49, "cdj|cementodentinal junction");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 49, "endodontic access|access cavity");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 49, "straight line access");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 50, "unroofing");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 50, "deroofing");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 50, "orifice enlargement");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 50, "coronal flaring");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 50, "negotiation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 51, "scouting");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 51, "recapitulation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 51, "apical gauging");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 51, "master apical file|maf");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 52, "master cone");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 52, "tug back");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 52, "cone fit");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 52, "cone fit radiograph");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 53, "working length radiograph");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 53, "balanced force technique");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 53, "watch winding");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 54, "filing");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 54, "reaming");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 54, "k file");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 54, "h file|hedstrom");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 55, "reamer");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 55, "c file|c+ file");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 55, "barbed broach");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 55, "gates glidden drill");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 56, "peeso reamer");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 56, "lentulo spiral");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 56, "protaper");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 56, "waveone gold");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 57, "reciproc blue");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 57, "vortex blue");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 57, "edgefile");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 57, "xp endo finisher");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 58, "self adjusting file");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 58, "taper");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 58, "iso standardization");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 58, "0.02 taper");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 59, "file size");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 59, "irrigant");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 59, "17% edta");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 60, "qmix");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 60, "saline");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 60, "passive ultrasonic irrigation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 60, "sonic irrigation|endoactivator");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 61, "negative pressure irrigation|endovac");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 61, "side vented needle");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 61, "hypochlorite accident");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 61, "intracanal medicament");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 62, "triple antibiotic paste");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 62, "interappointment pain");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 62, "single visit endodontics");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 62, "multiple visit endodontics");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 63, "temporary restoration|cavit");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 63, "coronal leakage");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 63, "apical seal");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 63, "obturation materials");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 64, "accessory cones");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 64, "spreader");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 64, "plugger");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 64, "continuous wave of condensation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 65, "system b|downpack");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 65, "backfill|obtura");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 65, "carrier based obturation|thermafil");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 65, "bioceramic sealer");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 66, "ah plus");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 66, "resilon");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 66, "overfill|overextension");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 66, "underfill");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 66, "voids");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 67, "extrusion of sealer");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 67, "post placement");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 67, "fiber post");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 67, "ferrule");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 68, "cuspal coverage");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 68, "access restoration");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 68, "healing|periapical healing");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 68, "follow up radiograph");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 69, "periapical index|pai");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 69, "periapical lesion");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 69, "periapical granuloma");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 69, "radicular cyst");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 70, "true cyst|pocket cyst");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 70, "chronic apical abscess");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 70, "acute apical abscess");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 70, "symptomatic apical periodontitis");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 71, "asymptomatic apical periodontitis");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 71, "normal pulp");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 71, "previously treated");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 72, "previously initiated therapy");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 72, "normal apical tissues");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 72, "hyperemia");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 72, "hyperplastic pulpitis|pulp polyp");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 73, "external cervical resorption");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 73, "replacement resorption");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 73, "inflammatory resorption");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 73, "pulp canal obliteration");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 74, "split tooth");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 74, "craze line");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 74, "fractured cusp");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 75, "bite test|tooth slooth");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 75, "transillumination");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 75, "thermal test");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 75, "heat test");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 76, "ept");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 76, "laser doppler flowmetry");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 76, "pulse oximetry test");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 76, "test cavity");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 77, "selective anesthesia");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 77, "referred pain");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 77, "non odontogenic pain");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 77, "endodontic surgery");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 77, "root end resection");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 78, "root end filling|retrofill");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 78, "root end preparation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 78, "ultrasonic retropreparation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 78, "guided endodontics");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 79, "hemisection");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 79, "root amputation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 79, "bicuspidization");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 79, "intentional replantation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 80, "perio endo lesion");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 80, "instrument separation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 80, "zip|elbow");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 81, "apical transportation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 81, "strip perforation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 81, "furcal perforation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 81, "blockage");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 82, "ledging");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 82, "bypass");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 82, "subcutaneous emphysema");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 82, "paresthesia");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 83, "gutta percha removal");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 83, "solvent|chloroform|eucalyptol");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 83, "post removal");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 84, "dental dam clamp");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 84, "access through crown");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 84, "pulpal floor map");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 84, "dentinal map");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 85, "calcium silicate");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 85, "biodentine");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 85, "pulp regeneration");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 85, "vital pulp therapy");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 86, "partial pulpotomy|cvek pulpotomy");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 87, "stepwise excavation");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 87, "selective caries removal");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 87, "dentin bridge");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 87, "reparative dentin");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 88, "endodontic prognosis");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 88, "endodontic success");  // 2026-11-04 · INBDE
+board("Name an endodontic term", 88, "endodontic failure");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 46, "pus drainage");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 46, "swollen face");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 47, "swollen cheek");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 47, "swollen jaw");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 48, "swollen gums");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 49, "red swollen gums");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 49, "warm skin");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 50, "redness of skin");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 50, "lymphadenopathy");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 51, "tender lymph nodes");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 52, "submandibular swelling");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 52, "neck swelling");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 53, "eye swelling|periorbital swelling");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 53, "chills");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 54, "sweats|night sweats");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 55, "tachycardia");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 55, "elevated temperature");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 56, "dehydration");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 57, "drooling");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 58, "voice change|hot potato voice");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 58, "stridor");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 59, "airway compromise");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 59, "raised tongue");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 60, "floor of mouth swelling");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 61, "bad odor");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 61, "foul taste");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 62, "salty taste");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 62, "pain on biting");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 63, "tender to touch");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 64, "tooth feels high|tooth feels long");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 64, "extruded tooth");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 65, "mobility");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 65, "tooth discoloration");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 66, "dark gray tooth");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 66, "lingering cold pain");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 67, "heat sensitivity relieved by cold");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 68, "spontaneous pain");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 68, "night pain");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 69, "pain radiating to jaw");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 70, "toothache that suddenly stops");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 71, "pain when lying down");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 72, "pressure feeling");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 72, "widened pdl space");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 73, "loss of lamina dura");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 74, "radiolucent lesion");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 74, "condensing osteitis");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 75, "bone destruction");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 75, "periapical lesion on x ray");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 76, "sinus congestion");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 77, "sinusitis");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 78, "eye pain");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 79, "confusion");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 80, "altered mental status");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 80, "low blood pressure");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 81, "high white blood cell count|leukocytosis");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 81, "elevated crp");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 82, "positive culture");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 83, "fistulous tract");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 83, "draining sinus on skin|cutaneous sinus tract");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 84, "limited opening");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 85, "facial asymmetry");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 86, "cheek redness");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 86, "swollen lip");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 87, "necrotic tissue");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 87, "ulceration");  // 2026-11-04 · INBDE
+board("Name a sign of a dental infection", 88, "feeling sick");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 45, "needle stick injury");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 47, "cardiovascular collapse");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 47, "arrhythmia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 48, "bradycardia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 49, "cns depression");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 49, "cns excitation");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 49, "tremors");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 50, "perioral numbness");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 50, "metallic taste");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 51, "tinnitus");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 51, "dizziness");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 51, "drowsiness");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 52, "loss of consciousness");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 52, "respiratory depression");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 53, "respiratory arrest");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 53, "cardiac arrest");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 54, "anaphylaxis");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 54, "urticaria|hives");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 54, "angioedema");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 55, "rash");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 55, "bronchospasm");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 56, "sulfite allergy");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 56, "paraben allergy");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 56, "ester allergy");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 57, "panic attack");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 58, "nausea");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 58, "vomiting");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 58, "headache");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 59, "chest pain");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 60, "stroke");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 60, "epinephrine sensitivity");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 60, "interaction with beta blockers");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 61, "interaction with tricyclics");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 61, "interaction with cocaine");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 62, "interaction with mao inhibitors");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 62, "transient facial nerve palsy");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 62, "bell palsy");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 63, "horner syndrome");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 64, "ptosis");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 64, "strabismus");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 65, "ophthalmoplegia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 65, "hoarseness");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 66, "difficulty swallowing");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 66, "airway obstruction");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 66, "tissue necrosis");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 67, "palatal necrosis");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 67, "ulcer at injection site");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 68, "sloughing");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 68, "edema|swelling");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 69, "ecchymosis");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 70, "muscle soreness");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 71, "lingual nerve paresthesia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 71, "inferior alveolar nerve paresthesia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 71, "dysesthesia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 72, "hypoesthesia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 72, "hyperesthesia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 73, "dysgeusia|taste change");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 73, "neuritis");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 73, "neuroma");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 74, "self inflicted injury");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 74, "lip chewing in children");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 75, "cheek chewing");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 75, "tongue biting");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 75, "incomplete anesthesia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 76, "delayed onset");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 76, "short duration");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 77, "anesthetic failure due to infection");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 78, "cyanosis");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 79, "aspiration pneumonia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 79, "laryngospasm");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 79, "oversedation");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 80, "postoperative nausea");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 80, "emergence delirium");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 81, "paradoxical reaction to midazolam");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 81, "nitrous oxide diffusion hypoxia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 82, "nitrous oxide nausea");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 82, "b12 inactivation by nitrous");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 82, "hypoxia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 83, "hypercarbia");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 84, "burning on injection");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 84, "electric shock sensation");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 85, "epinephrine in finger|accidental digital injection");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 86, "cartridge breakage");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 86, "cartridge contamination|alcohol in cartridge");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 86, "wrong solution injected");  // 2026-11-04 · INBDE
+board("Name a complication of dental anesthesia", 87, "expired anesthetic");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 45, "patient chair");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 46, "assistant stool");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 46, "operatory light");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 46, "led headlight");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 47, "loupes");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 47, "dental microscope");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 47, "delivery system|rear delivery|side delivery");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 48, "saliva ejector");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 49, "central vacuum");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 50, "amalgam separator");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 51, "vacuum former");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 51, "pressure former");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 51, "pressure pot");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 52, "curing oven");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 52, "porcelain furnace");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 52, "casting machine");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 53, "burnout oven");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 53, "investment vibrator");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 54, "bench engine");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 54, "steam cleaner");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 54, "sandblaster");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 55, "articulator");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 55, "face bow");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 55, "lab handpiece");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 56, "digital x ray sensor");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 56, "phosphor plate scanner");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 56, "x ray film processor|automatic processor");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 57, "darkroom");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 57, "daylight loader");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 57, "panoramic machine");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 58, "cephalometric unit");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 58, "cone beam ct");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 59, "handheld x ray|nomad");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 59, "thyroid collar");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 60, "x ray viewbox");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 61, "cad cam mill|cerec mill");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 61, "sintering furnace");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 62, "shade matching device");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 62, "caries detection device|diagnodent");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 63, "velscope|oral cancer screening light");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 63, "electric pulp tester");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 64, "obturation unit");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 65, "ultrasonic unit");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 65, "piezo surgery unit");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 65, "electrosurgery unit");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 66, "soft tissue laser");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 66, "hard tissue laser");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 67, "implant motor|surgical motor");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 67, "physiodispenser");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 67, "bone mill");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 68, "centrifuge|prf centrifuge");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 68, "nitrous oxide unit|flowmeter");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 68, "scavenging system");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 69, "pulse oximeter");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 69, "blood pressure cuff");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 70, "emergency oxygen");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 70, "ambu bag|bag valve mask");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 70, "crash cart");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 71, "defibrillator");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 71, "glucometer");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 72, "thermometer");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 72, "statim");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 73, "dry heat sterilizer");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 73, "chemiclave");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 73, "ultrasonic bath");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 74, "instrument washer");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 74, "sterilization pouches");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 74, "sealer for pouches");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 75, "instrument cassettes");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 75, "biological monitoring|spore test");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 76, "waterline cleaner");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 76, "eyewash station");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 76, "fire extinguisher");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 77, "hand sanitizer");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 78, "composite warmer");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 78, "anesthetic warmer");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 78, "cartridge warmer");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 79, "wand|computer controlled anesthesia");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 79, "vibrating device|dentalvibe");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 79, "bite block");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 80, "mouth prop");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 80, "rubber dam frame");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 81, "isolite|dryshield");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 81, "prophy angle");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 81, "handpiece lubricator");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 82, "handpiece maintenance system");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 83, "hydraulic chair");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 83, "foot control|rheostat");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 84, "bracket table");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 84, "sink");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 85, "biohazard container");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 86, "practice management software");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 86, "noise cancelling headphones");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 87, "safety glasses");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 87, "bib");  // 2026-11-04 · INBDE
+board("Name a piece of equipment in a dental office", 88, "toy box|treasure chest");  // 2026-11-04 · INBDE

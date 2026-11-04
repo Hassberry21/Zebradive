@@ -1275,3 +1275,103 @@ crowdAlias("Name a bone or landmark of the skull", "hamulus", "pterygoid hamulus
 crowdAlias("Name a periodontal term or condition", "probing depth", "pocket depth");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a periodontal term or condition", "gingivitis", "plaque induced gingivitis");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a periodontal term or condition", "scaling and root planing", "scaling");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental emergency", "cellulitis", "facial cellulitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental emergency", "bleeding after extraction", "post extraction bleeding|post op hemorrhage");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental emergency", "knocked out tooth", "avulsion of permanent tooth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental emergency", "pericoronitis", "acute pericoronitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental emergency", "trismus", "trismus after injection");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "diabetes", "type 1 diabetes");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "diabetes", "type 2 diabetes");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "iron deficiency", "iron deficiency anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "b12 deficiency", "pernicious anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "pemphigus", "pemphigus vulgaris");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "mononucleosis", "infectious mononucleosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "addison disease", "bronze pigmentation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "sickle cell disease", "sickle cell anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "amyloidosis", "amyloidosis macroglossia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "ectodermal dysplasia", "hypohidrotic ectodermal dysplasia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "bulimia", "bulimia nervosa");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "pregnancy", "pregnancy granuloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "hyperparathyroidism", "brown tumor");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "vitamin c deficiency", "scurvy gingivitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a systemic disease with oral signs", "kawasaki disease", "kawasaki");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "cleaning", "routine checkup");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "cleaning", "teeth cleaning");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "cleaning", "dental cleaning");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "cavity", "cavities");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "implant consultation", "implant");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "implant consultation", "dental implants");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "bridge", "bridge work");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "dentures", "full dentures");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "lost crown", "crown came off");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "braces", "braces adjustment");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "retainer", "retainer fitting");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "extraction", "tooth extraction");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "snoring", "snoring appliance");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "toothache", "toothache at night");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "swelling", "facial swelling");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "sealants", "pediatric sealants");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason people visit the dentist", "fluoride", "fluoride varnish");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "mo", "mesio occlusal");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "do", "disto occlusal");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "mod", "mesio occluso distal");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "furcation", "furcation involvement");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "quadrant", "quadrant 1|upper right");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "quadrant", "quadrant 2|upper left");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "quadrant", "quadrant 3|lower left");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "quadrant", "quadrant 4|lower right");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "sextant", "anterior sextant");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "sextant", "posterior sextant");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "class i", "class i caries");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "class ii", "class ii caries");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "class iii", "class iii caries");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "class iv", "class iv caries");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "class v", "class v caries");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "class vi", "class vi caries");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "abutment", "bridge abutment");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "missing tooth", "missing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "impacted", "impacted tooth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "mobility", "mobility grade");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "watch", "watch area");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "sealant", "sealant present");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental charting term or tooth surface", "palmer notation", "zsigmondy system|palmer");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an endodontic term", "apex locator", "electronic apex locator");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an endodontic term", "rotary", "nickel titanium rotary");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an endodontic term", "sodium hypochlorite", "naocl|bleach irrigation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an endodontic term", "calcium hydroxide", "calcium hydroxide dressing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an endodontic term", "necrotic pulp", "pulp necrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an endodontic term", "flare up", "endodontic flare up");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an endodontic term", "retreatment", "endodontic retreatment");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an endodontic term", "microscope", "endodontic microscope");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an endodontic term", "pulpotomy", "full pulpotomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an endodontic term", "pulp capping", "direct pulp capping");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an endodontic term", "pulp capping", "indirect pulp capping");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "needle breakage", "needle breakage in tissue");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "positive aspiration", "intravascular injection");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "toxicity", "local anesthetic overdose");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "toxicity", "lidocaine toxicity");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "fainting", "psychogenic reaction|vasovagal syncope");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "temporary blindness", "double vision");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "temporary blindness", "amaurosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "infection", "infection at injection site");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "trismus", "limited opening");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "paresthesia", "persistent paresthesia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "methemoglobinemia", "methemoglobinemia from prilocaine");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "methemoglobinemia", "methemoglobinemia from benzocaine");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "malignant hyperthermia", "malignant hyperthermia from general anesthesia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "seizure", "seizure from toxicity");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "blanching", "blanching of skin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "hematoma", "hematoma from psa block");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "hematoma", "hematoma from ian block");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental anesthesia", "facial nerve paralysis", "parotid gland injection");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of equipment in a dental office", "stool", "operator stool");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of equipment in a dental office", "suction", "high volume suction");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of equipment in a dental office", "compressor", "dental air compressor");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of equipment in a dental office", "lathe", "dental lathe");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of equipment in a dental office", "scanner", "itero|trios|primescan");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of equipment in a dental office", "laser", "dental laser");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of equipment in a dental office", "drill", "fiber optic handpiece");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of equipment in a dental office", "drill", "electric handpiece");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of equipment in a dental office", "drill", "air driven handpiece");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of equipment in a dental office", "bib clip", "bib chain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of equipment in a dental office", "waiting room", "waiting room chairs");  // 2026-11-04 · board audit · same answer

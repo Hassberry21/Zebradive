@@ -1881,3 +1881,108 @@ crowdAlias("Name a word ending in -oma (a growth or tumor)", "macroadenoma", "pi
 crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "somatotroph adenoma");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "corticotroph adenoma");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "null cell adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "endoscopy", "upper endoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "endoscopy", "capsule endoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "enteroscopy", "push enteroscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "enteroscopy", "double balloon enteroscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "colonoscopy", "virtual colonoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "sigmoidoscopy", "flexible sigmoidoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "bronchoscopy", "rigid bronchoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "bronchoscopy", "flexible bronchoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "bronchoscopy", "navigational bronchoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "laryngoscopy", "direct laryngoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "laryngoscopy", "indirect laryngoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "laryngoscopy", "video laryngoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "laryngoscopy", "fiberoptic laryngoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "endoscopy", "nasal endoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "endoscopy", "periodontal endoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "microscopy", "dental microscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "microscopy", "electron microscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "microscopy", "light microscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "microscopy", "fluorescence microscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "microscopy", "confocal microscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "microscopy", "darkfield microscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "microscopy", "phase contrast microscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "microscopy", "polarized light microscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "microscopy", "immunofluorescence microscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "microscopy", "epiluminescence microscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "capillaroscopy", "nailfold capillaroscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "ophthalmoscopy", "funduscopy|fundoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "ophthalmoscopy", "direct ophthalmoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "ophthalmoscopy", "indirect ophthalmoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "otoscopy", "pneumatic otoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "anoscopy", "high resolution anoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -scopy (a look inside)", "endoscopy", "vascular endoscopy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common allergy or allergen", "peanuts", "peanut allergy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common allergy or allergen", "tree nuts", "tree nut allergy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common allergy or allergen", "grass", "grass pollen");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common allergy or allergen", "iodine contrast", "contrast media");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common allergy or allergen", "latex", "latex gloves");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common allergy or allergen", "perfume", "fragrance mix");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common allergy or allergen", "ragweed", "ragweed pollen");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common allergy or allergen", "adhesive tape", "medical tape");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common allergy or allergen", "chlorhexidine", "chlorhexidine gluconate");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of aging", "gray hair", "white hair|grey hair");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of aging", "hair loss", "thinning hair");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of aging", "vision changes", "needing reading glasses");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of aging", "thinning skin", "thinner skin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of aging", "macular degeneration", "age related macular degeneration");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of aging", "vision changes", "reading glasses|bifocals");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "obesity", "weight gain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "lack of exercise", "sedentary lifestyle");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "lack of exercise", "physical inactivity");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "alcohol", "heavy drinking");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "smoking", "tobacco");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "smoking", "nicotine");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "caffeine", "coffee");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "licorice", "black licorice|glycyrrhizin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "kidney disease", "chronic kidney disease");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "hyperaldosteronism", "primary aldosteronism|conn syndrome");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "cushing syndrome", "cushing disease");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "sleep apnea", "obstructive sleep apnea");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "white coat syndrome", "white coat effect");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "genetics", "family history");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "age", "older age");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "birth control pills", "oral contraceptives");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "steroids", "corticosteroids");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "erythropoietin", "esa|epoetin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "anger", "anger outbursts");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "stress", "work stress");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises blood pressure", "stress", "financial stress");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "lack of sleep", "sleep deprivation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "stress", "chronic stress");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "loneliness", "social isolation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "alcohol", "heavy drinking");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "smoking", "tobacco smoke");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "aging", "old age|immunosenescence");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "hiv", "aids");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "chemotherapy", "cancer treatment");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "radiation", "radiation therapy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "steroids", "corticosteroids");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "splenectomy", "asplenia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "kidney failure", "uremia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "liver cirrhosis", "cirrhosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "diabetes", "uncontrolled diabetes");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "scid", "severe combined immunodeficiency");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "loneliness", "loneliness and isolation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that weakens the immune system", "stress", "caregiver stress");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "eyes", "eyeball");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "eye sockets", "orbit");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "eyebrows", "brow");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "eyelids", "upper eyelid");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "eyelids", "lower eyelid");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "bridge of nose", "nasal bridge");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "septum", "nasal septum");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "earlobe", "lobule");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "crown", "crown of head|vertex");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "brain", "cerebrum");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "fontanelle", "soft spot");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the head or face", "nasolabial fold", "laugh lines|smile lines");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a chronic disease", "migraine", "chronic migraine");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a chronic disease", "gout", "gouty arthritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a chronic disease", "hiv", "hiv aids|aids");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a chronic disease", "chronic fatigue syndrome", "me cfs");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a chronic disease", "hepatitis b", "chronic hepatitis b");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a chronic disease", "hepatitis c", "chronic hepatitis c");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a chronic disease", "copd", "chronic obstructive pulmonary disease");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a chronic disease", "high blood pressure", "htn");  // 2026-11-04 · board audit · same answer

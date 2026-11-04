@@ -5995,3 +5995,846 @@ board("Name a dental insurance or billing term", 87, "d0120|periodic exam code")
 board("Name a dental insurance or billing term", 87, "d1110|adult prophy code");  // 2026-11-04 · INBDE
 board("Name a dental insurance or billing term", 88, "d4341|srp code");  // 2026-11-04 · INBDE
 board("Name a dental insurance or billing term", 88, "d2740|crown code");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 45, "bull shark");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 45, "tiger shark");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 46, "megalodon");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 46, "mako shark");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 47, "goblin shark");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 47, "cookiecutter shark");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 48, "barracuda");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 48, "moray eel");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 48, "viperfish");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 49, "anglerfish");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 49, "fangtooth fish");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 50, "sheepshead fish");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 50, "pacu");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 51, "wolf fish|atlantic wolffish");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 51, "payara|vampire fish");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 51, "gar|alligator gar");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 52, "tigerfish");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 52, "killer whale|orca");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 53, "sperm whale");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 53, "beluga");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 54, "dolphin");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 54, "leopard seal");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 54, "sea lion");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 55, "mammoth|woolly mammoth");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 55, "mastodon");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 56, "babirusa");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 56, "bushpig");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 56, "peccary|javelina");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 57, "musk deer");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 57, "water deer|chinese water deer");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 58, "muntjac");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 58, "dugong");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 59, "manatee");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 59, "aardvark");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 59, "naked mole rat");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 60, "mole rat");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 60, "gopher");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 61, "porcupine");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 61, "capybara");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 62, "chipmunk");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 62, "hamster");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 62, "guinea pig");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 63, "mouse");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 63, "groundhog|woodchuck");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 64, "prairie dog");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 64, "nutria|coypu");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 65, "hare");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 65, "tyrannosaurus rex|t rex");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 65, "velociraptor");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 66, "spinosaurus");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 66, "komodo dragon");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 67, "gila monster");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 67, "cobra");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 68, "rattlesnake");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 68, "viper|gaboon viper");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 68, "black mamba");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 69, "python");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 69, "anaconda");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 70, "caiman");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 70, "gharial");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 71, "snapping turtle");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 71, "jaguar");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 71, "leopard");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 72, "cheetah");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 72, "cougar|mountain lion");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 73, "lynx");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 73, "bobcat");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 74, "bear|grizzly bear");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 74, "polar bear");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 74, "tasmanian devil");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 75, "wolverine");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 75, "honey badger");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 76, "fox");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 76, "coyote");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 77, "jackal");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 77, "african wild dog");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 77, "dingo");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 78, "hippopotamus");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 78, "gelada");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 79, "llama");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 79, "bat");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 80, "saber toothed cat|smilodon");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 80, "dire wolf");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 81, "sea urchin|aristotle's lantern");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 81, "leech");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 82, "lamprey");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 82, "snail");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 82, "slug");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 83, "opossum");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 83, "wombat");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 84, "elephant seal");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 86, "crabeater seal");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 87, "bluefish");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 87, "triggerfish");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 88, "parrotfish");  // 2026-11-04 · INBDE
+board("Name an animal known for its teeth or tusks", 88, "pufferfish");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 45, "biting a fork|biting utensils");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 46, "biting pen caps");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 46, "cracking nuts");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 47, "jawbreakers");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 48, "corn nuts");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 48, "unpopped popcorn");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 49, "cherry pits");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 49, "fruit pits");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 50, "bones in meat");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 51, "fish bones");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 51, "shells|crab shells|lobster shells");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 52, "pistachio shells");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 52, "sunflower seeds");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 53, "hard bread|crusty bread");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 53, "bagels");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 54, "ice cubes");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 54, "frozen candy bars");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 55, "large amalgam filling");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 57, "cuspal flexure");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 57, "thermal stress");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 58, "occlusal overload");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 59, "malocclusion");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 59, "edge to edge bite");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 60, "deep overbite");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 60, "crowded teeth");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 61, "enamel hypoplasia");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 62, "fluorosis");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 62, "molar incisor hypomineralization");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 63, "eating disorders");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 63, "acid reflux|gerd");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 64, "soda");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 64, "sports drinks");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 65, "contact sports|hockey|football");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 65, "basketball");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 66, "boxing|martial arts");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 66, "skateboarding");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 67, "bike accident|bicycle accident");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 68, "trampoline");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 68, "playground fall");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 69, "diving board");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 69, "swimming pool wall");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 70, "assault");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 70, "domestic violence");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 71, "child abuse");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 72, "syncope|fainting");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 73, "intubation|laryngoscope");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 73, "endoscopy");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 74, "electroconvulsive therapy|ect");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 75, "meth use");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 75, "ecstasy jaw clenching");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 76, "tongue piercing jewelry");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 76, "lip piercing jewelry");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 77, "biting fingernails");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 78, "chewing pencils");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 78, "opening bottles");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 79, "tearing packages");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 79, "holding objects in teeth");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 80, "bobby pins");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 80, "eyeglass arms|chewing glasses");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 81, "beer bottle");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 81, "microphone");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 82, "drinking fountain");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 82, "water bottle");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 83, "toothbrush accident");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 84, "dental instrument");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 84, "orthodontic debonding");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 85, "crown prep");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 86, "craze lines");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 86, "age related brittleness");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 87, "weak teeth");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 87, "dentin dysplasia");  // 2026-11-04 · INBDE
+board("Name a cause of a chipped or broken tooth", 88, "vitamin d deficiency");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 45, "anatomical crown");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 45, "clinical crown");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 46, "anatomical root");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 46, "clinical root");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 47, "mesial root");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 48, "distal root");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 48, "palatal root");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 48, "mesiobuccal root");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 49, "distobuccal root");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 49, "lingual root");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 50, "mesiobuccal canal|mb1");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 50, "mb2");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 50, "distal canal");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 51, "cervical line");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 51, "cervical third");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 52, "middle third");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 52, "incisal third|occlusal third");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 52, "apical third");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 55, "facial surface");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 55, "palatal surface");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 55, "proximal surface");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 56, "contact area|contact point");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 56, "embrasure");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 57, "height of contour");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 57, "cusp tip");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 57, "cusp ridge");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 58, "triangular ridge");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 58, "transverse ridge");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 59, "oblique ridge");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 59, "cervical ridge");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 59, "buccal ridge");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 60, "labial ridge");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 60, "lingual ridge");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 60, "central groove");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 61, "developmental groove");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 61, "supplemental groove");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 62, "buccal groove");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 62, "lingual groove");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 62, "central fossa");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 63, "triangular fossa");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 63, "lingual fossa");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 64, "mesial fossa");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 64, "distal fossa");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 64, "central pit");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 65, "lingual pit");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 65, "buccal pit");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 66, "mesial pit");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 66, "distal pit");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 67, "tubercle");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 67, "lobe");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 68, "marginal groove");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 69, "root concavity");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 69, "root depression");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 70, "root trifurcation|trifurcation");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 70, "furcation entrance");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 71, "pulp core");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 71, "cell rich zone");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 71, "cell free zone|zone of weil");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 72, "odontoblastic layer");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 72, "pulp fibroblasts");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 73, "blood vessels");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 73, "plexus of raschkow");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 74, "lymphatics");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 74, "primary dentin");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 74, "peritubular dentin");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 75, "intertubular dentin");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 75, "circumpulpal dentin");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 76, "mantle dentin");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 76, "predentin");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 76, "incremental lines of von ebner");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 77, "contour lines of owen");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 77, "dead tracts");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 78, "enamel cuticle|nasmyth membrane");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 78, "reduced enamel epithelium");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 79, "acellular cementum");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 79, "cellular cementum");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 79, "cementocytes");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 80, "sharpey fibers");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 80, "cementoblasts");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 81, "ameloblasts");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 81, "enamel crystals|hydroxyapatite crystals");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 81, "aprismatic enamel");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 82, "enamel rod sheath");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 82, "interrod enamel");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 83, "gnarled enamel");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 83, "cross striations");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 83, "incisal angle");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 84, "mesioincisal angle");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 84, "distoincisal angle");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 85, "line angle");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 85, "point angle");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 85, "apical delta");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 86, "minor diameter");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 86, "major diameter");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 86, "apical constriction");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 87, "pulp floor");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 87, "pulp roof");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 88, "canal orifice");  // 2026-11-04 · INBDE
+board("Name a part of a tooth", 88, "isthmus");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 45, "exam|dental exam|periodic exam");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 45, "comprehensive exam");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 46, "limited exam|emergency exam");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 46, "oral cancer screening");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 47, "periodontal charting");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 47, "full mouth x rays");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 47, "panoramic x ray");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 48, "cbct scan");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 48, "impressions");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 49, "digital scan");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 49, "study models");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 49, "bite registration");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 50, "composite filling|white filling");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 50, "amalgam filling|silver filling");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 51, "glass ionomer filling");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 51, "temporary filling");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 51, "preventive resin restoration");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 52, "silver diamine fluoride application");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 52, "resin infiltration");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 53, "desensitizing treatment");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 53, "onlay restoration");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 53, "porcelain crown");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 54, "same day crown|cerec crown");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 54, "temporary crown");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 55, "crown recementation");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 55, "crown removal");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 55, "implant crown");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 56, "implant abutment placement");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 57, "immediate implant placement");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 57, "implant uncovery|second stage surgery");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 57, "ridge preservation");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 58, "sinus augmentation");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 59, "guided bone regeneration");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 59, "connective tissue graft");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 60, "pinhole surgical technique");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 60, "osseous surgery");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 61, "pocket reduction surgery");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 61, "gingivoplasty");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 61, "lanap|laser periodontal therapy");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 62, "periodontal maintenance");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 62, "localized antibiotic delivery|arestin");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 63, "gross debridement");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 63, "root canal retreatment");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 64, "apexification");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 65, "apexogenesis");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 65, "incision and drainage");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 65, "surgical extraction");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 66, "simple extraction");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 66, "dry socket treatment");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 66, "biopsy");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 67, "brush biopsy");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 67, "tori removal");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 68, "cyst enucleation");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 68, "tmj arthrocentesis");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 68, "botox for tmj");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 69, "occlusal splint");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 69, "sleep apnea appliance");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 70, "complete denture");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 70, "partial denture");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 70, "denture reline");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 71, "denture repair");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 71, "immediate denture");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 72, "implant supported denture");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 72, "maryland bridge");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 72, "cantilever bridge");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 73, "fixed bridge");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 74, "composite veneer");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 74, "tooth contouring");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 74, "gum contouring");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 75, "microabrasion");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 75, "internal bleaching");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 76, "take home trays");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 76, "orthodontic consult");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 77, "bracket placement");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 77, "band placement");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 78, "wire change");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 78, "braces removal|debonding");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 79, "interproximal reduction|ipr");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 79, "tad placement");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 80, "expander placement");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 80, "habit appliance");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 81, "frenuloplasty");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 81, "lip tie release");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 82, "tongue tie release");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 82, "sports mouthguard");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 82, "tooth splinting");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 83, "replantation of avulsed tooth");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 83, "reattachment of fractured fragment");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 84, "enameloplasty");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 84, "odontoplasty");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 85, "caries removal");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 85, "pulp vitality testing");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 86, "anesthesia");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 86, "nitrous oxide sedation");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 86, "iv sedation");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 87, "general anesthesia");  // 2026-11-04 · INBDE
+board("Name a dental procedure", 88, "air polishing");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 45, "gold braces");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 46, "spark aligners");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 47, "clearcorrect");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 47, "suresmile");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 48, "incognito");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 48, "lingual retainer");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 49, "vivera retainer");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 49, "wraparound retainer");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 49, "begg retainer");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 50, "zachrisson retainer");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 51, "edgewise appliance");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 51, "straight wire appliance");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 52, "begg appliance");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 52, "tip edge");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 53, "roth prescription");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 53, "mbt");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 53, "self ligating brackets");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 54, "in ovation");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 54, "ceramic brackets");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 55, "sapphire brackets");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 55, "molar bands");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 56, "molar tubes");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 56, "buccal tubes");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 57, "bondable tubes");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 57, "niti wire");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 57, "stainless steel wire");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 58, "tma wire|beta titanium wire");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 58, "copper niti");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 59, "rectangular wire");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 59, "round wire");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 60, "utility arch");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 60, "reverse curve wire");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 61, "loop wire");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 61, "t loop");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 61, "closing loop");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 62, "open coil spring");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 62, "closed coil spring");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 64, "steel ligatures");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 64, "kobayashi hooks");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 65, "crimpable hooks");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 65, "power arm");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 65, "class ii elastics");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 66, "class iii elastics");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 66, "box elastics");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 67, "triangle elastics");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 67, "crossbite elastics");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 68, "interarch elastics");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 68, "separators|spacers");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 68, "bite plate");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 69, "anterior bite plane");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 69, "posterior bite plane");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 70, "crib");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 70, "bluegrass");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 71, "tongue spikes|tongue rake");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 72, "wilson appliance");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 72, "jasper jumper");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 72, "twin force");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 73, "powerscope");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 73, "advansync");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 74, "xbow");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 74, "eureka spring");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 75, "sabbagh universal spring");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 75, "frankel functional regulator|fr ii");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 76, "monoblock");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 77, "bimler");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 77, "vertical holding appliance");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 78, "w arch");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 78, "porter appliance");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 79, "schwarz appliance");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 79, "removable expander");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 80, "bonded expander");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 80, "mini screw assisted expander|marpe");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 81, "bone anchored maxillary protraction|bamp");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 81, "miniplates");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 82, "interlandi headgear");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 82, "kloehn headgear");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 83, "j hook headgear");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 83, "delaire facemask");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 84, "petit facemask");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 84, "mandibular advancement device");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 85, "propel");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 85, "acceledent");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 86, "orthopulse");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 86, "vibration device");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 87, "clear aligner attachments");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 87, "buttons");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 88, "precision cuts");  // 2026-11-04 · INBDE
+board("Name an orthodontic appliance", 88, "mandibular advancement wings");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 45, "amoxicillin clavulanate|augmentin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 46, "cefadroxil");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 46, "erythromycin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 46, "clarithromycin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 47, "ciprofloxacin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 47, "levofloxacin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 47, "moxifloxacin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 48, "vancomycin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 48, "cetylpyridinium chloride");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 49, "listerine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 49, "hydrogen peroxide rinse");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 49, "povidone iodine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 50, "sodium fluoride varnish");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 50, "stannous fluoride");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 50, "acidulated phosphate fluoride");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 51, "prescription fluoride toothpaste|prevident");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 51, "potassium nitrate");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 51, "codeine|tylenol 3");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 52, "morphine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 53, "meperidine|demerol");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 53, "nalbuphine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 53, "butorphanol");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 54, "naloxone|narcan");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 54, "flumazenil");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 54, "aspirin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 55, "celecoxib");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 55, "meloxicam");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 55, "diclofenac");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 56, "etodolac");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 56, "diflunisal");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 56, "ibuprofen acetaminophen combination");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 57, "prednisone");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 57, "methylprednisolone|medrol dose pack");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 57, "clobetasol");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 58, "fluocinonide");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 58, "betamethasone");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 58, "lorazepam|ativan");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 59, "alprazolam|xanax");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 59, "zolpidem");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 59, "chloral hydrate");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 60, "dexmedetomidine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 60, "etomidate");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 60, "methohexital|brevital");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 61, "remifentanil");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 61, "sevoflurane");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 61, "desflurane");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 62, "isoflurane");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 62, "succinylcholine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 62, "rocuronium");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 63, "neostigmine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 63, "sugammadex");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 63, "ondansetron|zofran");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 64, "scopolamine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 64, "diphenhydramine|benadryl");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 64, "cetirizine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 65, "epinephrine autoinjector|epipen");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 65, "albuterol");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 65, "nitroglycerin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 66, "oxygen");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 66, "glucose|oral glucose");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 66, "glucagon");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 67, "ammonia inhalants|smelling salts");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 67, "ephedrine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 67, "amiodarone");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 68, "adenosine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 68, "magnesium sulfate");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 68, "levonordefrin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 69, "felypressin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 69, "sodium bicarbonate buffer|onset");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 69, "hyaluronidase");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 70, "dyclonine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 71, "cetacaine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 71, "ethyl chloride");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 71, "eugenol|clove oil");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 72, "alvogyl");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 72, "dry socket paste");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 72, "amlexanox|aphthasol");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 73, "docosanol|abreva");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 73, "penciclovir|denavir");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 73, "famciclovir");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 74, "miconazole|oravig");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 74, "amphotericin b");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 74, "posaconazole");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 75, "ketoconazole");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 75, "chlorhexidine chip|periochip");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 75, "doxycycline gel|atridox");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 76, "enamel matrix derivative|emdogain");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 76, "rhpdgf|gem 21s");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 77, "bmp|bone morphogenetic protein");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 77, "platelet rich fibrin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 77, "thrombin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 78, "collagen plug");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 78, "oxidized cellulose|surgicel");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 78, "bone wax");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 79, "vitamin k");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 79, "desmopressin|ddavp");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 79, "factor viii");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 80, "botulinum toxin|botox");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 80, "hyaluronic acid filler");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 80, "carbamide peroxide");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 81, "hydrogen peroxide");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 81, "sodium perborate");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 81, "camphorated parachlorophenol|cmcp");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 82, "cresatin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 82, "iodoform");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 82, "xylitol");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 83, "saliva substitutes");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 83, "bethanechol");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 83, "artificial saliva");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 84, "sucralfate");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 84, "benzydamine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 84, "doxepin rinse");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 85, "gabapentin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 85, "pregabalin");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 85, "carbamazepine|tegretol");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 86, "oxcarbazepine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 86, "amitriptyline");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 86, "nortriptyline");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 87, "clonazepam");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 87, "cyclobenzaprine|flexeril");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 87, "baclofen");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 88, "tizanidine");  // 2026-11-04 · INBDE
+board("Name a drug used in dentistry", 88, "methocarbamol");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 45, "cranium|skull");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 45, "neurocranium");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 46, "viscerocranium|facial skeleton");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 46, "calvaria");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 51, "middle nasal concha");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 51, "superior nasal concha");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 51, "ossicles");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 52, "malleus");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 52, "incus");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 52, "stapes");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 53, "wormian bones");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 53, "metopic suture");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 53, "intermaxillary suture|midpalatal suture");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 54, "transverse palatine suture");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 54, "frontonasal suture");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 54, "zygomaticotemporal suture");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 55, "zygomaticomaxillary suture");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 55, "sphenooccipital synchondrosis");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 55, "anterior fontanelle");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 56, "posterior fontanelle");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 56, "sphenoidal fontanelle");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 56, "mastoid fontanelle");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 56, "asterion");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 57, "vertex");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 57, "opisthion");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 57, "basion");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 58, "porion");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 58, "orbitale");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 59, "articulare");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 59, "gonion");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 59, "point a|subspinale");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 60, "point b|supramentale");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 60, "posterior nasal spine|pns");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 61, "prosthion");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 61, "infradentale");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 61, "frankfort horizontal plane");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 62, "occlusal plane");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 62, "mandibular plane");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 62, "sn line");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 63, "superior orbital fissure");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 63, "inferior orbital fissure");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 63, "optic canal");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 64, "foramen lacerum");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 64, "stylomastoid foramen");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 64, "hypoglossal canal");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 65, "condylar canal");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 65, "pterygoid canal|vidian canal");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 65, "pterygopalatine fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 66, "infratemporal fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 66, "temporal fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 66, "anterior cranial fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 67, "middle cranial fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 67, "posterior cranial fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 67, "pituitary fossa|hypophyseal fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 68, "dorsum sellae");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 68, "clinoid processes");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 68, "greater wing of sphenoid");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 69, "lesser wing of sphenoid");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 69, "lateral pterygoid plate");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 69, "medial pterygoid plate");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 70, "pterygomaxillary fissure");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 70, "perpendicular plate of ethmoid");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 71, "petrous part of temporal bone|petrous ridge");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 71, "squamous part of temporal");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 71, "tympanic part");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 72, "zygomatic process");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 72, "articular tubercle");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 72, "postglenoid process");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 73, "petrotympanic fissure");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 73, "mandibular notch|sigmoid notch");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 73, "condylar neck");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 74, "pterygoid fovea");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 74, "mandibular canal");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 74, "mylohyoid groove");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 75, "submandibular fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 75, "sublingual fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 75, "digastric fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 76, "mental protuberance");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 76, "mental tubercle");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 76, "symphysis|mandibular symphysis");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 77, "retromolar triangle");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 77, "alveolar crest");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 77, "incisive canal");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 78, "lesser palatine foramen");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 78, "posterior superior alveolar foramina");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 78, "infraorbital canal");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 79, "infraorbital groove");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 79, "nasolacrimal canal");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 79, "frontal process of maxilla");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 80, "palatine process of maxilla");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 80, "zygomatic process of maxilla");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 80, "canine fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 81, "incisive fossa");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 81, "key ridge|zygomatic buttress");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 81, "piriform aperture");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 82, "sphenoidal process");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 82, "occipital condyles");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 82, "superior nuchal line");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 83, "inferior nuchal line");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 83, "internal occipital protuberance");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 83, "foramen cecum");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 84, "sulcus for sigmoid sinus");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 84, "arcuate eminence");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 84, "tegmen tympani");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 85, "frontal crest");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 85, "supraorbital margin|supraorbital ridge");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 85, "superciliary arch|brow ridge");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 86, "temporal line");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 86, "parietal eminence");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 86, "zygomaticofacial foramen");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 87, "zygomaticotemporal foramen");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 87, "mental spine|genial spine");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 87, "antegonial notch");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 88, "torus mandibularis");  // 2026-11-04 · INBDE
+board("Name a bone or landmark of the skull", 88, "torus palatinus");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 45, "gingival index");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 45, "plaque index");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 46, "o'leary plaque score");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 46, "psr|periodontal screening and recording");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 46, "cpitn");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 47, "relative attachment level");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 47, "gingival margin level");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 47, "mucogingival junction");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 47, "attached gingiva");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 48, "free gingiva");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 48, "interdental col");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 48, "gingival sulcus");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 49, "sulcular fluid|gcf|gingival crevicular fluid");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 49, "suprabony pocket");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 49, "infrabony pocket|intrabony defect");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 49, "pseudopocket|gingival pocket");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 50, "horizontal bone loss");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 50, "vertical bone loss|angular defect");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 50, "crater|osseous crater");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 51, "one wall defect");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 51, "two wall defect");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 51, "three wall defect");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 51, "dehiscence");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 52, "fenestration");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 52, "exostosis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 52, "furcation grade i|grade ii furcation|grade iii furcation|class iii furcation");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 52, "glickman classification");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 53, "hamp classification");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 53, "miller classification");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 53, "cairo classification");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 54, "miller mobility index");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 54, "tooth mobility class");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 54, "primary occlusal trauma");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 54, "secondary occlusal trauma");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 55, "pathologic migration");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 55, "flaring");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 55, "non plaque induced gingivitis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 56, "puberty gingivitis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 56, "leukemic gingivitis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 56, "linear gingival erythema");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 57, "plasma cell gingivitis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 57, "hereditary gingival fibromatosis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 57, "phenytoin induced gingival enlargement");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 57, "cyclosporine induced gingival enlargement");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 58, "calcium channel blocker gingival enlargement");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 58, "gingival abscess");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 58, "pericoronal abscess");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 59, "periodontal endodontic lesion|endo perio lesion");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 59, "necrotizing periodontal diseases");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 59, "necrotizing stomatitis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 59, "periodontitis as manifestation of systemic disease");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 60, "localized periodontitis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 60, "generalized periodontitis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 60, "molar incisor pattern");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 60, "refractory periodontitis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 61, "2017 classification");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 61, "periodontal health");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 61, "reduced periodontium");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 62, "gingival biotype|phenotype");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 62, "thick biotype");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 62, "thin biotype");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 62, "recession type 1|rt1");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 63, "gingival cleft");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 63, "creeping attachment");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 63, "long junctional epithelium");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 64, "new attachment");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 64, "reattachment");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 64, "regeneration");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 65, "repair");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 65, "osseous surgery|resective surgery");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 65, "osteoplasty");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 65, "ostectomy");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 66, "apically positioned flap");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 66, "coronally advanced flap");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 66, "laterally positioned flap");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 66, "modified widman flap");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 67, "envelope flap");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 67, "full thickness flap");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 67, "partial thickness flap");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 68, "gingivectomy");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 68, "gingivoplasty");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 68, "tunneling technique");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 68, "alloderm|acellular dermal matrix");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 69, "enamel matrix derivative|emdogain");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 69, "platelet rich fibrin|prf");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 69, "tetracycline root conditioning");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 70, "edta root conditioning");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 70, "root planing");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 70, "debridement");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 71, "ultrasonic instrumentation");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 71, "curettage");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 71, "full mouth disinfection");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 71, "host modulation|periostat");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 72, "systemic antibiotics");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 72, "amoxicillin and metronidazole");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 72, "chlorhexidine");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 73, "supportive periodontal therapy");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 73, "re evaluation");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 73, "prognosis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 73, "risk factors");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 74, "genetic polymorphism|il 1 polymorphism");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 74, "crevicular epithelium");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 74, "oral epithelium");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 74, "stippling");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 75, "gingival fibers");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 75, "dentogingival fibers");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 75, "transseptal fibers");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 76, "alveolar crest fibers");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 76, "horizontal fibers");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 76, "oblique fibers");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 76, "apical fibers");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 77, "interradicular fibers");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 77, "sharpey fibers");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 77, "cribriform plate|lamina dura");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 78, "bundle bone");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 78, "socransky complexes");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 78, "orange complex");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 78, "prevotella intermedia");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 79, "fusobacterium nucleatum");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 79, "eikenella corrodens");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 79, "campylobacter rectus");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 79, "capnocytophaga");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 80, "spirochetes");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 80, "streptococcus sanguinis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 80, "actinomyces");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 81, "keystone pathogen");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 81, "dysbiosis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 81, "pellicle");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 81, "materia alba");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 82, "subgingival calculus");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 82, "supragingival calculus");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 82, "serumal calculus");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 82, "calculus bridge");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 83, "gingival enlargement");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 83, "recession class i|class ii recession|class iii recession|class iv recession");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 83, "periodontal splint");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 84, "occlusal adjustment");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 84, "bite guard");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 84, "perio chart");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 84, "periodontal disease index");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 85, "russell periodontal index");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 85, "community periodontal index");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 85, "marginal bone level");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 86, "crown to root ratio");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 86, "root proximity");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 86, "enamel projections");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 86, "palatogingival groove");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 87, "cervical enamel projection");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 87, "overhanging restoration");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 87, "food impaction");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 87, "mouth breathing gingivitis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 88, "halitosis");  // 2026-11-04 · INBDE
+board("Name a periodontal term or condition", 88, "bone fill");  // 2026-11-04 · INBDE

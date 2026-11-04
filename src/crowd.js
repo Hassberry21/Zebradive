@@ -1221,3 +1221,57 @@ crowdAlias("Name a dental insurance or billing term", "hmo", "dhmo");  // 2026-1
 crowdAlias("Name a dental insurance or billing term", "ppo", "dppo");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a dental insurance or billing term", "medicaid", "medicaid dental|denti cal");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a dental insurance or billing term", "pre authorization", "predetermination of benefits");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an animal known for its teeth or tusks", "warthog", "warthog tusks");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an animal known for its teeth or tusks", "elephant", "indian elephant|asian elephant");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an animal known for its teeth or tusks", "elephant", "african elephant");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an animal known for its teeth or tusks", "elephant", "forest elephant");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an animal known for its teeth or tusks", "piranha", "piranha fish");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a chipped or broken tooth", "hard candy", "hard candy biting");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a chipped or broken tooth", "cavities", "tooth decay weakening");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a chipped or broken tooth", "root canal treated tooth", "brittle tooth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a chipped or broken tooth", "clenching", "clenching at night");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a chipped or broken tooth", "seizure", "epileptic seizure");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a chipped or broken tooth", "grinding", "bruxism from stress");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a tooth", "apex", "apices");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a tooth", "root canal", "root canal space");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a tooth", "mesial", "buccal surface");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a tooth", "mesial", "lingual surface");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a tooth", "mesial", "labial surface");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a tooth", "mesial", "mesial surface");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a tooth", "mesial", "distal surface");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a tooth", "cingulum", "lingual crest");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a tooth", "furcation", "root bifurcation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a tooth", "pulp", "nerve fibers|a delta fibers|c fibers");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental procedure", "implant", "implant placement");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental procedure", "bone graft", "bone grafting");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental procedure", "gum graft", "free gingival graft");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental procedure", "veneers", "veneer placement");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental procedure", "whitening", "in office whitening");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental procedure", "retainer", "retainer fitting");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental procedure", "space maintainer", "space maintainer placement");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental procedure", "occlusal adjustment", "occlusal equilibration");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental procedure", "fluoride treatment", "fluoride varnish application");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental procedure", "whitening", "teeth bleaching");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an orthodontic appliance", "braces", "traditional braces");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an orthodontic appliance", "positioner", "tooth positioner");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an orthodontic appliance", "power chain", "elastic chain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an orthodontic appliance", "o rings", "elastomeric ligatures");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an orthodontic appliance", "twin block", "clark twin block");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an orthodontic appliance", "activator", "andresen activator");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an orthodontic appliance", "hyrax", "hyrax expander");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a drug used in dentistry", "penicillin", "penicillin v potassium");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a drug used in dentistry", "chlorhexidine", "chlorhexidine gluconate rinse");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a drug used in dentistry", "hydrocodone", "hydrocodone acetaminophen|vicodin|norco");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a drug used in dentistry", "oxycodone", "oxycodone acetaminophen|percocet");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a drug used in dentistry", "benzocaine", "benzocaine gel");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a drug used in dentistry", "lidocaine", "lidocaine ointment");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a drug used in dentistry", "doxycycline", "subantimicrobial doxycycline");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a bone or landmark of the skull", "maxilla", "maxillary bone");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a bone or landmark of the skull", "mandible", "mandibular bone");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a bone or landmark of the skull", "inferior nasal concha", "inferior nasal conchae");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a bone or landmark of the skull", "sella turcica", "sella");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a bone or landmark of the skull", "anterior nasal spine", "ans");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a bone or landmark of the skull", "hamulus", "pterygoid hamulus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a periodontal term or condition", "probing depth", "pocket depth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a periodontal term or condition", "gingivitis", "plaque induced gingivitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a periodontal term or condition", "scaling and root planing", "scaling");  // 2026-11-04 · board audit · same answer

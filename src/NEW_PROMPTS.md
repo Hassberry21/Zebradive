@@ -5,6 +5,10 @@ Each field (Medicine, Nursing, Pharmacy, Dental) plays **7 new daily prompts eve
 so every batch must add **more than 49 prompts per field per week** for the bank to grow.
 Board Prep prompts are off limits for now (a future premium feature); never add or change them.
 
+**Prerequisite:** new prompts for a field are written only after that field's board-content audit of
+existing prompts is complete (see src/BOARD_AUDIT.md; `node src/dump_prompts.js <field> --todo` prints
+nothing when it is).
+
 ## Where and how
 
 Append a new block in `src/bank.js` directly above the marker line
@@ -26,6 +30,11 @@ tietze syndrome
   Pharmacy `pharm`; Dental `dental`.
 - **Answer list:** one answer per line, `display name|alias|alias`. Order matters: points come from
   list position, so put the **most common answers first and the rarest last**.
+- **Board-testable answers come FIRST.** Before anything else, the list must contain every answer to the
+  prompt that is testable on the field's licensing exams (Medicine: USMLE Steps 1-3 and COMLEX; Nursing:
+  NCLEX-RN/PN; Pharmacy: NAPLEX and the top-200 drugs; Dental: INBDE/NBDE). Only after that, add the
+  rest of the real-world and long-tail answers. An obscure item the boards never test matters far less
+  than a missing board classic. Record each new prompt in src/board_audit_done.json too.
 - **Lists must be EXHAUSTIVE: include every single correct answer you can find, with NO upper limit.**
   Players lose trust when a correct answer is marked wrong, so keep going past the obvious answers
   into the long tail: rare diseases, eponyms, obscure drugs, regional/brand names, subspecialty items.

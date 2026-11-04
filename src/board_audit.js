@@ -13430,3 +13430,842 @@ board("Name a joint in the body", 55, "tibiofibular syndesmosis|syndesmosis of t
 crowdAlias("Name a joint in the body", "cranial sutures", "sutures of the skull|coronal suture|sagittal suture|lambdoid suture");  // 2026-11-04 · USMLE · same answer
 board("Name a joint in the body", 55, "squamous suture");  // 2026-11-04 · USMLE/COMLEX · board-testable
 board("Name a joint in the body", 55, "dentoalveolar joint");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "hiv seroconversion|acute hiv|acute retroviral syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of fever", "endocarditis", "infective endocarditis");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of fever", 50, "fever of unknown origin|fuo");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "viral hepatitis|hepatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "prostatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "epididymitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "pelvic inflammatory disease|pid");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 50, "septic arthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "epidural abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "brain abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "encephalitis|herpes encephalitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "liver abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "peritonitis|spontaneous bacterial peritonitis|sbp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "cholangitis|ascending cholangitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "central line infection|line infection|clabsi|catheter related bloodstream infection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "c difficile|clostridioides difficile|c diff colitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "wound infection|surgical site infection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "neutropenic fever|febrile neutropenia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "hemophagocytic lymphohistiocytosis|hlh");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "adult onset still disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "polymyalgia rheumatica");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "polyarteritis nodosa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "takayasu arteritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "dermatomyositis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of fever", "inflammatory bowel disease", "crohns disease|ulcerative colitis");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of fever", 55, "rheumatic fever|acute rheumatic fever");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "measles");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "chickenpox|varicella");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "roseola|sixth disease|exanthem subitum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "scarlet fever");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "hand foot and mouth disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "rsv|respiratory syncytial virus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "bronchiolitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "tonsillitis|peritonsillar abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "epiglottitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "mastoiditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "dental abscess|tooth abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "leptospirosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "rickettsia|typhus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "ehrlichiosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "anaplasmosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "babesiosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "tularemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "plague|yersinia pestis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "anthrax");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "zika");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "chikungunya");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "yellow fever");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "ebola");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "west nile virus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "histoplasmosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "coccidioidomycosis|valley fever");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "toxoplasmosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "cmv|cytomegalovirus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "visceral leishmaniasis|kala azar");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "schistosomiasis|katayama fever");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "amebic liver abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "renal cell carcinoma|kidney cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "hodgkin lymphoma|pel ebstein fever");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "hepatocellular carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "atrial myxoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "tumor lysis syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "thyroiditis|subacute thyroiditis|de quervain thyroiditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "hyperthyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "adrenal insufficiency|adrenal crisis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "pheochromocytoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of fever", "gout", "pseudogout");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of fever", 55, "hematoma|resorbing hematoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "myocardial infarction|dressler syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "postpericardiotomy syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "intracranial hemorrhage|subarachnoid hemorrhage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "dehydration fever|dehydration");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "sickle cell crisis|acute chest syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "drug induced hypersensitivity|dress syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "stevens johnson syndrome|sjs|toxic epidermal necrolysis|ten");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "jarisch herxheimer reaction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "febrile non hemolytic transfusion reaction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "beta lactam fever|penicillin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "sulfonamides");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of fever", "anticholinergic toxicity", "atropine");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of fever", 55, "mdma|ecstasy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "lsd");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "opioid withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "benzodiazepine withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "delirium tremens");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "cyclic neutropenia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "periodic fever syndromes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "hyper igd syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "traps|tnf receptor associated periodic syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "cryopyrin associated periodic syndrome|caps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "behcet disease|behcet");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "whipple disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "erysipelas");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "necrotizing fasciitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "toxic shock syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "bronchitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "empyema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "lung abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "aspiration pneumonia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "legionnaires disease|legionella");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "mycoplasma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "cat scratch fever|bartonella");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "rat bite fever");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "relapsing fever|borrelia recurrentis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "syphilis|secondary syphilis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "gonococcemia|disseminated gonococcal infection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "meningococcemia|meningococcal disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "listeria|listeriosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "salmonella|enteric fever");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "shigella");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "hepatitis a");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "epstein barr virus|ebv");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "parvovirus b19|fifth disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "mumps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "rubella");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "pertussis|whooping cough");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "diphtheria");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "tetanus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "rabies");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "kikuchi disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "castleman disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "granulomatosis with polyangiitis|wegener");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "thrombophlebitis|septic thrombophlebitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "lemierre syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "retroperitoneal abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "psoas abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "perinephric abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "chorioamnionitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "endometritis|postpartum endometritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "mastitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "septic abortion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "pontine hemorrhage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "spinal cord injury");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fever", 55, "cerebral malaria");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "aortic regurgitation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "dressler syndrome|post mi pericarditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "cocaine induced vasospasm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "kawasaki disease|coronary aneurysm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "coronary artery anomaly|anomalous coronary artery");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "myocardial bridging");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "hypertensive emergency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "tachyarrhythmia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "pulmonary infarction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "acute aortic syndrome|intramural hematoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "penetrating aortic ulcer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "esophageal candidiasis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "pill esophagitis|medication induced esophagitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "mallory weiss tear");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "eosinophilic esophagitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "functional chest pain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "functional heartburn");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "jackhammer esophagus|hypercontractile esophagus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "diffuse esophageal spasm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "cholangitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "hepatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "subphrenic abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "splenic infarct");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "lung abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "empyema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "sarcoidosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "mesothelioma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "pancoast tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "metastatic cancer|bone metastases");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "thymoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "sternal fracture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "chest trauma|blunt chest trauma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "cardiac contusion|myocardial contusion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "xiphodynia|xiphoid syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "pectoralis strain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "intercostal neuralgia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "thoracic spine disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "rheumatoid arthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "ankylosing spondylitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "epidemic pleurodynia|bornholm disease|devil's grip|devils grip");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "eisenmenger syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "pericardial constriction|constrictive pericarditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "post cardiac injury syndrome|postpericardiotomy syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "coronary embolism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "aortic coarctation|coarctation of the aorta");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "kounis syndrome|allergic angina");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "thyrotoxicosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "carbon monoxide poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "cardiac sarcoidosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "amyloidosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "lyme carditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "lupus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "vasculitis|takayasu");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "marfan syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "ehlers danlos syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "cocaine chest pain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "hyperventilation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "depression");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "somatization|somatic symptom disorder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "gastric ulcer perforation|perforated ulcer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "esophageal foreign body");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "food impaction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "dyspepsia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "hepatic abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "fitz hugh curtis syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "pleural mesothelioma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "chest wall tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "breast cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "gynecomastia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "herniated thoracic disc");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "osteoporotic fracture|vertebral compression fracture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "osteomyelitis of the sternum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "costochondral separation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "bronchiectasis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "cystic fibrosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "influenza");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "legionella");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "pulmonary contusion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "hemothorax");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "chylothorax");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "lupus pleuritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "pericardial cyst");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "atrial myxoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "cardiac tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of chest pain", 55, "vaping lung injury|evali");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "iron deficiency anemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hyperthyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "cushing syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hypopituitarism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hyperparathyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hypogonadism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hypercortisolism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hyperglycemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hypomagnesemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hypophosphatemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "uremia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "cirrhosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "heart valve disease|aortic stenosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "arrhythmia|atrial fibrillation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "pulmonary hypertension");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "interstitial lung disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "asthma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "obesity hypoventilation syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "leukemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "multiple myeloma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "pancreatic cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "colon cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "metastatic cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "sjogren syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "polymyalgia rheumatica");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "giant cell arteritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "vasculitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "inflammatory bowel disease|crohns");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "ehlers danlos");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "cmv|cytomegalovirus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "ebv|epstein barr");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "endocarditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "brucellosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "malaria");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "parasites|hookworm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "post viral fatigue");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "post concussion syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "stroke");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "dementia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "idiopathic hypersomnia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "periodic limb movement disorder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "circadian rhythm disorder|delayed sleep phase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "bipolar disorder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "generalized anxiety disorder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "ptsd");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "eating disorder|anorexia nervosa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "substance use|drug abuse");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "cannabis|marijuana");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "benzodiazepine withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "stimulant withdrawal|cocaine withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "antidepressants|ssris");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "antipsychotics");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "anticonvulsants");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "muscle relaxants");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "statins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "diuretics");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "clonidine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "interferon");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "sedentary lifestyle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "overexertion|overwork");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "postpartum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "breastfeeding");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "heavy periods|menorrhagia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "premenstrual syndrome|pms");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "folate deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "vitamin b1 deficiency|thiamine deficiency|beriberi");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "protein malnutrition");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hemochromatosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "wilson disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "primary biliary cholangitis|pbc");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hepatitis c");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hepatitis b");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of fatigue", "kidney disease", "chronic kidney disease");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of fatigue", 55, "dialysis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "lead poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "carbon monoxide poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "mercury poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hypothermia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "heat exhaustion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "deconditioning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hypercapnia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "mitochondrial disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "muscular dystrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "als|amyotrophic lateral sclerosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "guillain barre");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "lambert eaton");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "post polio syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "traumatic brain injury");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "primary hyperaldosteronism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "pheochromocytoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "insulinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hiv aids");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "syphilis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "brucella");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "q fever");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "toxoplasmosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "giardia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "amyloidosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "orthostatic hypotension");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "bradycardia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "heart block");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hypotension");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "anemia of chronic disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "hemolytic anemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "sickle cell disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "thalassemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "mds|myelodysplastic syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of fatigue", 55, "polycythemia vera");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "tinea unguium");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "tinea faciei");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "tinea imbricata");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "vulvovaginal candidiasis|vaginal yeast infection|candida vaginitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "candidal intertrigo");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "balanitis|candida balanitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "angular cheilitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "chronic mucocutaneous candidiasis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "hepatosplenic candidiasis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "candida endophthalmitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "candida esophagitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "cryptococcal pneumonia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "invasive aspergillosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "chronic pulmonary aspergillosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "aspergillus sinusitis|fungal sinusitis|allergic fungal sinusitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "rhinocerebral mucormycosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a fungal infection", "pneumocystis", "pneumocystis carinii");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "histoplasmosis", "histoplasma capsulatum");  // 2026-11-04 · USMLE · same answer
+board("Name a fungal infection", 55, "african histoplasmosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a fungal infection", "blastomycosis", "blastomyces dermatitidis");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "valley fever", "coccidioides immitis");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "paracoccidioidomycosis", "paracoccidioides brasiliensis|south american blastomycosis");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "sporotrichosis", "sporothrix schenckii");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "cryptococcosis", "cryptococcus neoformans");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "cryptococcosis", "cryptococcus gattii");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "thrush", "candida albicans");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "thrush", "candida glabrata");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "thrush", "candida krusei");  // 2026-11-04 · USMLE · same answer
+board("Name a fungal infection", 55, "malassezia folliculitis|pityrosporum folliculitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a fungal infection", "ringworm", "dermatophytosis|dermatophytes");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "ringworm", "trichophyton|trichophyton rubrum");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "ringworm", "microsporum");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "ringworm", "epidermophyton");  // 2026-11-04 · USMLE · same answer
+board("Name a fungal infection", 55, "blastomycosis keloidalis|lobo disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "basidiobolomycosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "conidiobolomycosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "coccidioidal meningitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "cryptococcal skin infection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "fungal pneumonia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "fungal meningitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "fungal endocarditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "fungal skin infection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "fungal eye infection|fungal endophthalmitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "fungemia|fungal sepsis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "tinea pedis interdigital");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a fungal infection", "athletes foot", "moccasin foot");  // 2026-11-04 · USMLE · same answer
+board("Name a fungal infection", 55, "favus|tinea favosa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a fungal infection", "tinea nigra", "hortaea werneckii");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "pneumocystis", "pneumocystosis");  // 2026-11-04 · USMLE · same answer
+board("Name a fungal infection", 55, "cryptococcoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "farmers lung");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a fungal infection", 55, "microsporidiosis|microsporidia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a fungal infection", "mucormycosis", "rhizopus");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "mucormycosis", "mucor");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "phaeohyphomycosis", "alternaria");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "phaeohyphomycosis", "exophiala");  // 2026-11-04 · USMLE · same answer
+board("Name a fungal infection", 55, "geotrichosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a fungal infection", "thrush", "candida parapsilosis");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "thrush", "candida tropicalis");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "aspergillosis", "aspergillus fumigatus");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a fungal infection", "aspergillosis", "aspergillus flavus");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a part of the ear", "outer ear", "external ear");  // 2026-11-04 · USMLE · same answer
+board("Name a part of the ear", 55, "cartilage|auricular cartilage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a part of the ear", "ear canal", "earhole");  // 2026-11-04 · USMLE · same answer
+board("Name a part of the ear", 55, "tympanic cavity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "tympanic annulus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "short process of malleus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "manubrium of malleus|handle of malleus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "head of malleus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "footplate of stapes|stapes footplate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "crura of stapes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "lenticular process");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "long process of incus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "anterior semicircular canal|superior semicircular canal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "posterior semicircular canal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "lateral semicircular canal|horizontal semicircular canal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "osseous spiral lamina");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "spiral ligament");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "inner hair cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "outer hair cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "stereocilia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "kinocilium");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "otolithic membrane");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "vestibular nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "hypotympanum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "mesotympanum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "prussak space");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "facial nerve canal|fallopian canal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "mastoid antrum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "tympanic plexus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "sinus tympani");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "facial recess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "tympanic sulcus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "cerumen glands|ceruminous glands");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "isthmus of eustachian tube");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "torus tubarius");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "pharyngotympanic tube");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "tegmen tympani");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "epitympanic recess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "cochlear window");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "vestibular window");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "secondary tympanic membrane");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a part of the ear", "saccule", "sacculus");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a part of the ear", "utricle", "utriculus");  // 2026-11-04 · USMLE · same answer
+board("Name a part of the ear", 55, "ductus reuniens");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "endolymphatic duct");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "vestibular apparatus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "vestibular system");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a part of the ear", "ossicles", "auditory ossicles");  // 2026-11-04 · USMLE · same answer
+board("Name a part of the ear", 55, "skin of the ear canal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "cartilaginous ear canal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "bony ear canal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "auricular muscles");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "superior auricular muscle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "incisura");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "antihelix crus|crura of antihelix");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "tympanic membrane cone of light|cone of light|light reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "shrapnell membrane");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "notch of rivinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "lateral process of malleus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "spiral organ");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "limbus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "cochlear apex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "cochlear base");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "hensen cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "deiters cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the ear", 55, "pillar cells|rods of corti");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "lipoxygenase|5 lipoxygenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "thromboxane synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "prostacyclin synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "phospholipase c");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "protein kinase a|pka");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "protein kinase c|pkc");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "tyrosine kinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "janus kinase|jak");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "map kinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "cyclin dependent kinase|cdk");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "mtor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "ampk|amp activated protein kinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "glucokinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "glucose 6 phosphatase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "fructose 1 6 bisphosphatase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "pep carboxykinase|pepck|phosphoenolpyruvate carboxykinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "pyruvate carboxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "glyceraldehyde 3 phosphate dehydrogenase|gapdh");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "phosphoglycerate kinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "phosphoglycerate mutase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "triose phosphate isomerase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "phosphoglucose isomerase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "alpha ketoglutarate dehydrogenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "malate dehydrogenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "fumarase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "aconitase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "succinyl coa synthetase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "transketolase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "transaldolase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "6 phosphogluconate dehydrogenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "branching enzyme");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "debranching enzyme");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "uridine diphosphate glucose pyrophosphorylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "galactokinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "galactose 1 phosphate uridyltransferase|galt");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "aldolase b");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "fructokinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "aldose reductase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "sorbitol dehydrogenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "carnitine palmitoyltransferase|cpt1|cpt 1");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "acyl coa dehydrogenase|mcad");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "hmg coa synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "hmg coa lyase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "thiolase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "lecithin cholesterol acyltransferase|lcat");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "acat|acyl coa cholesterol acyltransferase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "hepatic lipase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "pancreatic lipase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "lingual lipase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "gastric lipase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "colipase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "bile salt hydrolase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "cholesterol 7 alpha hydroxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "desmolase|cholesterol side chain cleavage|scc");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "17 alpha hydroxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "3 beta hydroxysteroid dehydrogenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "11 beta hydroxysteroid dehydrogenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "aldosterone synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "17 beta hydroxysteroid dehydrogenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "1 alpha hydroxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "25 hydroxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "24 hydroxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "phenylethanolamine n methyltransferase|pnmt");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "dopamine beta hydroxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "choline acetyltransferase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "glutamate decarboxylase|gad");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "gaba transaminase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "histidine decarboxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "butyrylcholinesterase|pseudocholinesterase|plasma cholinesterase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "homocysteine methyltransferase|methionine synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "cystathionine beta synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "methylmalonyl coa mutase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "propionyl coa carboxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "branched chain alpha ketoacid dehydrogenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "homogentisate oxidase|homogentisic acid oxidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "fumarylacetoacetate hydrolase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "argininosuccinate synthetase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "argininosuccinate lyase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "n acetylglutamate synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "glutaminase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "glutamine synthetase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "glutamate dehydrogenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "ornithine decarboxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "dihydrofolate reductase|dhfr");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "thymidylate synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "ribonucleotide reductase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "hgprt|hypoxanthine guanine phosphoribosyltransferase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "aprt");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "prpp synthetase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "impdh|imp dehydrogenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "dihydroorotate dehydrogenase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "carbamoyl phosphate synthetase ii");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "orotate phosphoribosyltransferase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "purine nucleoside phosphorylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "nadph oxidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "myeloperoxidase|mpo");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "glutathione reductase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "glutathione s transferase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "methemoglobin reductase|cytochrome b5 reductase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "aminolevulinic acid dehydratase|ala dehydratase|porphobilinogen synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "porphobilinogen deaminase|hydroxymethylbilane synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "uroporphyrinogen decarboxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "uroporphyrinogen iii synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "coproporphyrinogen oxidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "protoporphyrinogen oxidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "biliverdin reductase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "ugt|udp glucuronosyltransferase|glucuronyl transferase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "beta glucuronidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "lysyl oxidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "prolyl hydroxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "lysyl hydroxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "procollagen peptidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "adamts13");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "factor xa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "factor viia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "factor xiiia|transglutaminase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "tissue plasminogen activator|tpa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "urokinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "kallikrein");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "complement c1 esterase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "c3 convertase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "granzyme");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "perforin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "iduronidase|alpha l iduronidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "iduronate sulfatase|iduronate 2 sulfatase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "galactocerebrosidase|galactosylceramidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "arylsulfatase a");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "beta galactosidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "alpha glucosidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "lysosomal acid lipase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "n acetylglucosaminyl phosphotransferase|gnpt");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "dna gyrase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "exonuclease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "endonuclease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "integrase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "rnase h");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "aminoacyl trna synthetase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "peptidyl transferase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "signal peptidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "ubiquitin ligase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "histone deacetylase|hdac");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "histone acetyltransferase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "dna methyltransferase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "glycosyltransferase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "sialidase|neuraminidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "chitinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "creatine kinase mb|ck mb");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "gamma glutamyl transferase|ggt|gamma gt");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "5 nucleotidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "pyruvate decarboxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "acid phosphatase|prostatic acid phosphatase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "angiotensinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "chymase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "tryptase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "neprilysin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "dipeptidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "sucrase isomaltase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "trehalase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "glucoamylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "secretase|gamma secretase|beta secretase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "calpain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "phosphorylase kinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "protein phosphatase 1");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "adenosine kinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "adenylate kinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "nucleoside diphosphate kinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "creatine phosphokinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "fatty acid desaturase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "elongase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "squalene synthase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "squalene epoxidase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "lanosterol demethylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "transaminase|aminotransferase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "cytochrome c oxidase|complex iv");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "nadh dehydrogenase|complex i");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "vitamin k epoxide reductase|vkor|vkorc1");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "gamma glutamyl carboxylase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an enzyme in the human body", 55, "iodotyrosine deiodinase");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vitamin or mineral the body needs", 55, "retinoic acid");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vitamin or mineral the body needs", 55, "calcitriol");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vitamin or mineral the body needs", 55, "25 hydroxy vitamin d");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vitamin or mineral the body needs", 55, "menadione|vitamin k3");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vitamin or mineral the body needs", 55, "pyridoxal phosphate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a vitamin or mineral the body needs", "folate", "leucovorin");  // 2026-11-04 · USMLE · same answer
+board("Name a vitamin or mineral the body needs", 55, "hydroxocobalamin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vitamin or mineral the body needs", 55, "adenosylcobalamin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "strep pharyngitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "otitis externa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a common childhood illness", "stomach bug", "viral gastroenteritis");  // 2026-11-04 · USMLE · same answer
+board("Name a common childhood illness", 55, "slapped cheek|erythema infectiosum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "viral exanthem");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "urticaria|hives");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "food allergy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "peanut allergy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "milk protein allergy|cow milk protein allergy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "lactose intolerance");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "celiac disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a common childhood illness", "reflux", "gerd|gastroesophageal reflux");  // 2026-11-04 · USMLE · same answer
+board("Name a common childhood illness", 55, "hernia|inguinal hernia|umbilical hernia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "hydrocele");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "undescended testicle|cryptorchidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "phimosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "vesicoureteral reflux");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "nephrotic syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "post streptococcal glomerulonephritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "acute rheumatic fever");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a common childhood illness", "kawasaki disease", "kawasaki");  // 2026-11-04 · USMLE · same answer
+board("Name a common childhood illness", 55, "bronchitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "viral wheeze");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "tonsil stones");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "adenoid hypertrophy|enlarged adenoids");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "obstructive sleep apnea");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "sinus infection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "stye|hordeolum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "chalazion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "strabismus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "amblyopia|lazy eye");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "myopia|nearsightedness");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "cavities|tooth decay|dental caries");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "gingivostomatitis|herpetic gingivostomatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "cold sores|herpes labialis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "canker sores|aphthous ulcers");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "warts|verruca");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "plantar warts");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "atopic dermatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "contact dermatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "seborrheic dermatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "pityriasis rosea");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "tinea capitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "athletes foot");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "sunburn");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "insect bites");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "bed wetting|enuresis|nocturnal enuresis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "encopresis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "failure to thrive");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "iron deficiency anemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "lead poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "obesity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "anxiety");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "depression");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "tics|tourette");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "hand eczema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "bronchopneumonia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "mycoplasma pneumonia|walking pneumonia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "influenza b");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "parainfluenza");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "adenovirus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "metapneumovirus|human metapneumovirus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "enterovirus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "coxsackie virus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "rhinovirus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "diphtheria");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "haemophilus influenzae");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "meningitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "encephalitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "osteomyelitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "septic arthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "transient synovitis|toxic synovitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "legg calve perthes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "slipped capital femoral epiphysis|scfe");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "osgood schlatter disease|osgood schlatter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "sever disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "juvenile idiopathic arthritis|jia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "scoliosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "flat feet");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "itp|immune thrombocytopenic purpura");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "leukemia|all");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "neuroblastoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "wilms tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "sickle cell");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "cystic fibrosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "hypothyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "precocious puberty");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "short stature");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "concussion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "broken arm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "nosebleeds|epistaxis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "hay fever|allergic rhinitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "abdominal migraine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "migraine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "functional abdominal pain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "cyclic vomiting syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "hirschsprung disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "meckel diverticulum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "malrotation|volvulus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "necrotizing enterocolitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a common childhood illness", "pyloric stenosis", "hypertrophic pyloric stenosis");  // 2026-11-04 · USMLE · same answer
+board("Name a common childhood illness", 55, "breath holding spells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "night terrors");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a common childhood illness", 55, "sleepwalking");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of anemia", "vitamin b12", "cobalamin deficiency");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of anemia", 55, "microangiopathic hemolytic anemia|maha");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "warm autoimmune hemolytic anemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "cold agglutinin disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "alpha thalassemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "beta thalassemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hemoglobin h disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hemoglobin c disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hereditary elliptocytosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "congenital dyserythropoietic anemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of anemia", "blood loss", "gi bleeding|gastrointestinal bleeding|gi bleed");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of anemia", 55, "upper gi bleed");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "colon polyps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "gastric cancer|stomach cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "esophageal varices|varices");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "trauma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "frequent blood donation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "phlebotomy|iatrogenic blood loss");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hemodialysis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "whipworm|trichuris");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "schistosomiasis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "clonorchis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "visceral leishmaniasis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "bartonellosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "mycoplasma pneumoniae");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "ebv|infectious mononucleosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "tuberculosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "rheumatoid arthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "lupus|sle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hypogonadism|low testosterone");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "adrenal insufficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hyperparathyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of anemia", "poor diet", "protein energy malnutrition");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of anemia", 55, "anorexia nervosa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "h pylori");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "atrophic gastritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "gastrectomy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "ileal resection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "short bowel syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "small intestinal bacterial overgrowth|sibo");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "metformin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "proton pump inhibitors|ppis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "nitrous oxide");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "trimethoprim");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "sulfonamides");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "primaquine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "ribavirin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "chloramphenicol");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "linezolid");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "azathioprine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "mycophenolate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "cyclophosphamide");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "carboplatin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of anemia", "alcoholism", "alcohol use disorder");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of anemia", 55, "lymphoproliferative disorder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "chronic lymphocytic leukemia|cll");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "acute myeloid leukemia|aml");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "acute lymphoblastic leukemia|all");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hairy cell leukemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "metastatic cancer to bone marrow");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "waldenstrom macroglobulinemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "pure red cell aplasia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "thymoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "transient erythroblastopenia of childhood");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hemoglobinopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "unstable hemoglobin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hepatitis associated aplastic anemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "radiation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "benzene");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "arsenic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hereditary stomatocytosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "spur cell anemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "pregnancy dilutional anemia|physiologic anemia of pregnancy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "physiologic anemia of infancy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "cow milk anemia|excess cow milk");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "epistaxis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hematuria");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "uterine fibroids");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "endometrial cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "hellp syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "prosthetic valve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "aortic stenosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "burns");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "malignant hypertension");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "scleroderma renal crisis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "thrombotic microangiopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "iron refractory iron deficiency anemia|irida");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "inherited bone marrow failure");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "dyskeratosis congenita");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "shwachman diamond syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "vitamin e deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "riboflavin deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of anemia", 55, "starvation");  // 2026-11-04 · USMLE/COMLEX · board-testable

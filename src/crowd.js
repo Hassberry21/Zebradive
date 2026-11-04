@@ -1669,3 +1669,215 @@ crowdAlias("Name a medical term with a color in it", "yellow card", "yellow card
 crowdAlias("Name a medical term with a color in it", "red reflex", "red reflex test");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a medical term with a color in it", "red reflex", "red eye reflex");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a medical term with a color in it", "erythroplakia", "red patch");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after a food", "onion skin", "onion skin fibrosis|onion skin lesion");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after a food", "cherry angioma", "cherry hemangioma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after a food", "anchovy paste abscess", "anchovy sauce pus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after a food", "cafe au lait spots", "cafe au lait macules");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after a food", "oat cell carcinoma", "oat cell");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after a food", "grape like cysts", "grape cluster|bunch of grapes");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after a food", "lemon sign", "lemon shaped skull");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after a food", "peau d orange", "orange skin|peau d'orange|orange peel mammogram");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after a food", "olive sign", "olive shaped mass");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after a food", "sausage digit", "sausage fingers");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after an animal", "crow's feet", "crow's feet wrinkles");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after an animal", "pigeon chest", "pigeon breast|pectus carinatum");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after an animal", "cri du chat", "cat cry syndrome");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after an animal", "panda sign", "panda eyes");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical sign or term named after an animal", "tiger striping", "tiger stripes");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "pasteurella", "pasteurellosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "salmonella", "salmonellosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "salmonella", "turtle salmonella");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "salmonella", "reptile salmonella");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "e coli", "e coli o157|hemolytic uremic syndrome");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "e coli", "shiga toxin e coli");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "roundworm", "visceral larva migrans");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "echinococcus", "dog tapeworm|echinococcus granulosus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "trichinosis", "trichinellosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "toxoplasmosis", "congenital toxoplasmosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "giardia", "giardiasis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "cryptosporidium", "cryptosporidiosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "hantavirus", "hantavirus pulmonary syndrome");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "mpox", "monkeypox virus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "swine flu", "swine flu h1n1");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease you can catch from animals", "roundworm", "toxocara canis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something measured at a checkup", "blood pressure", "systolic blood pressure");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something measured at a checkup", "blood pressure", "diastolic blood pressure");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something measured at a checkup", "oxygen saturation", "pulse oximetry|spo2");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something measured at a checkup", "weight", "weight change");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something measured at a checkup", "hearing", "hearing test|audiogram");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something measured at a checkup", "cholesterol", "total cholesterol");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something measured at a checkup", "hearing", "newborn hearing screen");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something measured at a checkup", "temperature", "body temperature");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something measured at a checkup", "heart rate", "apical pulse");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something measured at a checkup", "vision", "vision screening");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a healthy habit", "sleep", "good sleep hygiene");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a healthy habit", "posture", "good posture");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "sclerosis", "amyotrophic lateral sclerosis|als");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "sclerosis", "systemic sclerosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "sclerosis", "tuberous sclerosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "sclerosis", "primary lateral sclerosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "sclerosis", "mesial temporal sclerosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "fibrosis", "hepatic fibrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "fibrosis", "pulmonary fibrosis|idiopathic pulmonary fibrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "fibrosis", "retroperitoneal fibrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "fibrosis", "nephrogenic systemic fibrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "fibrosis", "submucous fibrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "fibrosis", "progressive massive fibrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "fibrosis", "endomyocardial fibrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "thrombosis", "deep vein thrombosis|dvt");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "thrombosis", "cerebral venous sinus thrombosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "thrombosis", "portal vein thrombosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "thrombosis", "renal vein thrombosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "thrombosis", "cavernous sinus thrombosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "thrombosis", "stent thrombosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "necrosis", "avascular necrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "necrosis", "acute tubular necrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "necrosis", "fat necrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "necrosis", "caseous necrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "necrosis", "liquefactive necrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "necrosis", "coagulative necrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "necrosis", "fibrinoid necrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "necrosis", "papillary necrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "stenosis", "aortic stenosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "stenosis", "mitral stenosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "stenosis", "pulmonary stenosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "stenosis", "tricuspid stenosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "stenosis", "spinal stenosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "stenosis", "pyloric stenosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "stenosis", "renal artery stenosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "stenosis", "carotid stenosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "stenosis", "tracheal stenosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "stenosis", "subglottic stenosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "acidosis", "metabolic acidosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "acidosis", "respiratory acidosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "acidosis", "lactic acidosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "ketoacidosis", "diabetic ketoacidosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "acidosis", "renal tubular acidosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "alkalosis", "metabolic alkalosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "alkalosis", "respiratory alkalosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "alkalosis", "contraction alkalosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "ketoacidosis", "alcoholic ketoacidosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "ketosis", "starvation ketosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "keratosis", "actinic keratosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "keratosis", "seborrheic keratosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "steatosis", "nonalcoholic steatosis|hepatic steatosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "cirrhosis", "primary biliary cirrhosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "cirrhosis", "alcoholic cirrhosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "cirrhosis", "cardiac cirrhosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "spherocytosis", "hereditary spherocytosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "ptosis", "breast ptosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "spondylosis", "cervical spondylosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "spondylosis", "lumbar spondylosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "histiocytosis", "histiocytosis x");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "histiocytosis", "langerhans cell histiocytosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "fibromatosis", "desmoid fibromatosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "fibromatosis", "aggressive fibromatosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "nephrosis", "lipoid nephrosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "anastomosis", "arteriovenous anastomosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -osis", "ichthyosis", "lamellar ichthyosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "basal cell carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "squamous cell carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "ductal carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "lobular carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "transitional cell carcinoma|urothelial carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "renal cell carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "hepatocellular carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "small cell carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "large cell carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "medullary carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "papillary carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "follicular carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "anaplastic carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "nasopharyngeal carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "merkel cell carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "embryonal carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "adrenocortical carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "lymphoma", "hodgkin lymphoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "lymphoma", "non hodgkin lymphoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "lymphoma", "burkitt lymphoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "lymphoma", "diffuse large b cell lymphoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "lymphoma", "follicular lymphoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "lymphoma", "mantle cell lymphoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "lymphoma", "marginal zone lymphoma|malt lymphoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "lymphoma", "t cell lymphoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "sarcoma", "ewing sarcoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "sarcoma", "kaposi sarcoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "sarcoma", "synovial sarcoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "sarcoma", "undifferentiated pleomorphic sarcoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "glioma", "optic glioma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "astrocytoma", "pilocytic astrocytoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "astrocytoma", "anaplastic astrocytoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "papilloma", "choroid plexus papilloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "schwannoma", "vestibular schwannoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "neurofibroma", "plexiform neurofibroma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "neuroma", "traumatic neuroma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "neuroma", "morton neuroma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "osteoma", "osteoid osteoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "hemangioma", "cavernous hemangioma|cavernoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "hemangioma", "capillary hemangioma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "granuloma", "pyogenic granuloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "granuloma", "eosinophilic granuloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "granuloma", "swimming pool granuloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "granuloma", "sarcoid granuloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "granuloma", "caseating granuloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "granuloma", "cholesterol granuloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "granuloma", "giant cell granuloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "carcinoma", "thymic carcinoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "pituitary adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "toxic adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "follicular adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "parathyroid adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "adrenal adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "hepatic adenoma|hepatocellular adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "villous adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "tubular adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "tubulovillous adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "serrated adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "pleomorphic adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "bronchial adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "nephrogenic adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "cystadenoma", "serous cystadenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "cystadenoma", "mucinous cystadenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "papilloma", "intraductal papilloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "papilloma", "inverted papilloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "papilloma", "squamous papilloma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "syringoma", "chondroid syringoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "melanoma", "lentigo maligna melanoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "melanoma", "acral lentiginous melanoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "melanoma", "nodular melanoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "melanoma", "superficial spreading melanoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "melanoma", "amelanotic melanoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "melanoma", "uveal melanoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "melanoma", "mucosal melanoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "hematoma", "subdural hematoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "hematoma", "epidural hematoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "hematoma", "intracerebral hematoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "hematoma", "retroperitoneal hematoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "hematoma", "septal hematoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "hematoma", "auricular hematoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "hematoma", "retroplacental hematoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "hematoma", "subungual hematoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "hematoma", "rectus sheath hematoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "cortisol producing adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "teratoma", "mature teratoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "teratoma", "immature teratoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "seminoma", "spermatocytic seminoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "ameloblastoma", "unicystic ameloblastoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "fibroma", "ameloblastic fibroma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "odontoma", "ameloblastic fibro odontoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "odontoma", "compound odontoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "odontoma", "complex odontoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "fibroma", "cementifying fibroma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "fibroma", "ossifying fibroma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "fibroma", "irritation fibroma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "fibroma", "giant cell fibroma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "fibroma", "peripheral ossifying fibroma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "rhabdomyosarcoma", "embryonal rhabdomyosarcoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "rhabdomyosarcoma", "alveolar rhabdomyosarcoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "astrocytoma", "subependymal giant cell astrocytoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "glioblastoma", "glioblastoma multiforme|gbm");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "lymphoma", "primary cns lymphoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "macroadenoma", "pituitary macroadenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "somatotroph adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "corticotroph adenoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "adenoma", "null cell adenoma");  // 2026-11-04 · board audit · same answer

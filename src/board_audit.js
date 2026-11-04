@@ -10093,3 +10093,779 @@ board("Name a medical term with a color in it", 87, "chalky white");  // 2026-11
 board("Name a medical term with a color in it", 87, "silver stain");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
 board("Name a medical term with a color in it", 88, "gram positive purple");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
 board("Name a medical term with a color in it", 88, "gram negative pink");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 45, "red currant jelly sputum|currant jelly sputum");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 46, "cottage cheese like discharge");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 47, "maple syrup urine disease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 47, "apple peel atresia");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 49, "onion bulb neuropathy");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 49, "egg on a string");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 50, "eggshell nails");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 50, "sugar tumor");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 51, "sugar coated spleen|sugar icing spleen");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 52, "bread loafing");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 52, "nutcracker esophagus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 53, "nutcracker syndrome");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 53, "pear shaped bladder");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 54, "pear shaped body");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 55, "apple shaped body");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 55, "strawberry cervix");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 56, "strawberry gallbladder");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 57, "strawberry nevus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 57, "cherry red skin");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 58, "prune belly syndrome");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 59, "prune juice sputum");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 60, "tomato catsup fluid|ketchup like fluid");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 60, "rice bodies");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 61, "rice grain calcifications");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 61, "popcorn cells");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 62, "popcorn lung");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 63, "popcorn sign");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 63, "coffee bean nucleus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 64, "chocolate agar");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 64, "milk alkali syndrome");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 65, "milk spots|milia");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 66, "milk teeth");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 66, "milk fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 67, "milk of magnesia");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 67, "milky urine");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 68, "cheesy discharge");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 69, "cheese workers lung");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 69, "swiss cheese model");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 70, "swiss cheese septum");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 70, "swiss cheese endometrium");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 71, "cottage cheese thighs|cellulite");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 72, "potato nose|rhinophyma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 72, "potato tumor");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 73, "lollipop sign");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 73, "peaches and cream complexion");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 74, "salt wasting");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 75, "salt and pepper chromatin");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 75, "salt and pepper fundus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 76, "salt and pepper retinopathy");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 76, "honey colored crust|honey crusted lesions");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 77, "vinegar test|acetowhite");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 78, "garlic breath");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 78, "bitter almond breath");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 79, "fruity breath");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 80, "beer belly");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 80, "beer potomania");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 81, "champagne glass pelvis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 81, "cola urine");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 82, "tea and toast diet");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 83, "tea colored urine");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 83, "pancake kidney");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 84, "doughnut sign");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 84, "bagel sign");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 85, "cake kidney");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 86, "chicken wire fibrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 86, "chicken fat clot");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 87, "caviar tongue");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 87, "spaghetti and meatballs");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after a food", 88, "macaroni sign");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 45, "bovine spongiform encephalopathy");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 46, "cowpox");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 46, "charley horse");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 47, "swayback");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 47, "bull neck");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 48, "bulldog face");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 49, "bird's nest filter");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 49, "birdshot chorioretinopathy");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 51, "pigeon breeder's lung");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 52, "chicken skin|keratosis pilaris");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 52, "turkey neck");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 53, "duckbill speculum");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 54, "goose bumps|gooseflesh");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 54, "gooseneck deformity");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 55, "parrot beak|parrot beak nails");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 55, "bat ears");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 56, "lupus|wolf");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 57, "lupus vulgaris");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 57, "lupus pernio");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 59, "raccoon eyes|raccoon sign");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 59, "joint mouse");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 60, "rat tail sign");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 60, "rodent ulcer");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 61, "rabbit syndrome");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 62, "bunny lines");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 62, "hare lip|harelip");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 63, "deer fly fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 63, "camel hump");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 64, "elephant man");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 65, "elephant skin");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 65, "zebra bodies");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 66, "tigroid");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 67, "tigroid fundus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 68, "leopard syndrome");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 68, "ape hand deformity");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 69, "simian crease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 70, "simian line");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 70, "baboon syndrome");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 71, "turtle back");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 71, "lizard skin");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 72, "alligator skin");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 73, "crocodile tears syndrome");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 73, "frog face");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 74, "frog breathing|glossopharyngeal breathing");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 74, "toad skin|phrynoderma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 75, "fish eye disease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 76, "fish odor syndrome|trimethylaminuria");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 76, "fish vertebrae|codfish vertebrae");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 78, "starfish hand");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 78, "seahorse|hippocampus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 79, "snail track ulcers");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 79, "wormian bones");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 80, "vermiform appendix|vermis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 81, "butterfly glioma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 81, "butterfly vertebra");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 82, "butterfly fracture");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 82, "moth eaten alopecia");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 83, "moth eaten bone");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 84, "wasp waist");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 84, "anteater nose sign");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 85, "spider fingers|arachnodactyly");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 86, "spider nevus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 86, "sponge kidney|medullary sponge kidney");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 87, "ram's horn nails|onychogryphosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 87, "pigtail catheter|pig tail catheter");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a medical sign or term named after an animal", 88, "pig bel");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 45, "avian influenza|h5n1");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 45, "swine influenza|h1n1");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 46, "bat lyssavirus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 46, "histoplasmosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 46, "cryptococcosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 47, "blastomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 47, "coccidioidomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 47, "sporotrichosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 47, "tinea|dermatophytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 48, "tick paralysis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 48, "alpha gal syndrome|red meat allergy");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 48, "babesiosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 49, "anaplasmosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 49, "tick borne encephalitis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 49, "powassan virus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 50, "colorado tick fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 50, "crimean congo hemorrhagic fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 50, "kyasanur forest disease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 50, "omsk hemorrhagic fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 51, "relapsing fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 51, "tick borne relapsing fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 51, "scrub typhus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 52, "murine typhus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 52, "epidemic typhus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 52, "rickettsialpox");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 53, "boutonneuse fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 53, "african tick bite fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 53, "bartonellosis|bartonella");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 54, "trench fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 54, "cat scratch fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 54, "dog bite infection");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 55, "monkey bite|b virus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 55, "seal finger");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 55, "erysipeloid|erysipelothrix");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 56, "fish tank granuloma|mycobacterium marinum");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 56, "vibrio vulnificus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 56, "vibrio");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 57, "aeromonas");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 57, "streptococcus iniae");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 57, "yersiniosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 58, "plesiomonas");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 58, "campylobacteriosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 60, "bovine tb|mycobacterium bovis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 60, "chlamydia psittaci");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 60, "ornithosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 61, "newcastle disease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 61, "pigeon breeder's lung");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 61, "bird fancier's lung");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 62, "ocular larva migrans");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 62, "cutaneous larva migrans");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 62, "baylisascaris|raccoon roundworm");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 63, "alveolar echinococcosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 63, "pork tapeworm|taenia solium");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 64, "beef tapeworm|taenia saginata");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 64, "fish tapeworm|diphyllobothrium");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 64, "cysticercosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 65, "neurocysticercosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 65, "anisakiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 65, "clonorchiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 65, "opisthorchiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 66, "fascioliasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 66, "paragonimiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 66, "angiostrongylus|rat lungworm");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 67, "gnathostomiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 67, "dirofilariasis|dog heartworm");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 67, "dipylidium|flea tapeworm");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 68, "hymenolepis|rat tapeworm");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 68, "sarcocystis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 68, "toxoplasma gondii");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 69, "african trypanosomiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 69, "american trypanosomiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 70, "visceral leishmaniasis|kala azar");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 70, "cutaneous leishmaniasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 70, "zoonotic malaria|plasmodium knowlesi");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 71, "balantidiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 72, "microsporidiosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 72, "japanese encephalitis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 72, "eastern equine encephalitis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 72, "western equine encephalitis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 73, "venezuelan equine encephalitis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 73, "st louis encephalitis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 73, "la crosse encephalitis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 74, "chikungunya");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 74, "lymphocytic choriomeningitis|lcmv");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 75, "hemorrhagic fever with renal syndrome");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 75, "junin virus|argentine hemorrhagic fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 75, "machupo virus|bolivian hemorrhagic fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 76, "sars");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 76, "h7n9");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 77, "equine influenza");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 77, "vesicular stomatitis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 77, "foot and mouth disease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 78, "pseudocowpox|milker's nodules");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 78, "buffalopox");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 78, "tanapox");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 79, "camelpox");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 79, "contagious ecthyma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 79, "hepatitis e");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 79, "prion disease|variant creutzfeldt jakob disease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 80, "chronic wasting disease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 80, "scrapie");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 80, "woolsorter's disease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 81, "pneumonic plague");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 81, "rabbit fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 81, "deer fly fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 82, "undulant fever|malta fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 82, "leptospira|weil disease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 82, "swineherd's disease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 83, "sodoku");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 83, "haverhill fever");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 83, "streptobacillus moniliformis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 83, "spirillum minus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 84, "mycoplasma haemofelis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 84, "rhodococcus equi");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 84, "streptococcus equi");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 85, "staph pseudintermedius");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 85, "microsporum canis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 85, "trichophyton verrucosum");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 86, "bird mites");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 86, "chiggers");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 86, "myiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 86, "tungiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 87, "hookworm cutaneous");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 87, "strongyloides");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 88, "toxocara cati");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a disease you can catch from animals", 88, "bovine papular stomatitis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 46, "orthostatic blood pressure|orthostatic vitals");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 47, "weight for length");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 47, "length|recumbent length");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 47, "growth chart");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 48, "body fat percentage");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 48, "hip circumference");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 48, "waist to hip ratio");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 49, "neck circumference");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 49, "visual acuity|eye chart|snellen");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 50, "color vision");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 50, "intraocular pressure|eye pressure");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 51, "whisper test");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 51, "tympanometry");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 51, "lipid panel");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 52, "ldl");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 52, "hdl");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 52, "triglycerides");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 53, "fasting glucose");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 53, "hemoglobin a1c");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 54, "hemoglobin");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 54, "hematocrit");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 54, "platelets");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 55, "white blood cell count");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 55, "metabolic panel|bmp|cmp");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 55, "electrolytes");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 56, "sodium");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 56, "potassium");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 57, "creatinine");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 57, "bun");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 57, "egfr");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 58, "urine albumin|microalbumin");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 58, "urinalysis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 58, "alt|ast");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 59, "bilirubin");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 59, "albumin");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 59, "iron|ferritin");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 60, "vitamin b12");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 60, "folate");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 60, "t4|free t4");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 61, "testosterone");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 61, "estrogen");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 61, "fsh");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 62, "pregnancy test");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 62, "hiv test");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 62, "hepatitis c test");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 63, "hepatitis b test");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 63, "sti screening");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 64, "syphilis test");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 64, "tb test|ppd");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 64, "lead level");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 65, "newborn screen");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 65, "bilirubin newborn");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 65, "fetal heart rate");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 66, "fundal height");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 66, "blood type");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 66, "urine protein");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 67, "stool test|fit test|fecal occult blood");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 67, "colonoscopy");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 67, "mammogram");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 68, "hpv test");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 68, "ankle brachial index");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 68, "spirometry|lung function");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 69, "chest x ray");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 69, "ekg rhythm");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 69, "heart sounds|heart murmur");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 70, "lung sounds");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 70, "bowel sounds");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 71, "abdominal exam");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 71, "thyroid exam");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 71, "lymph nodes");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 72, "prostate exam|digital rectal exam");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 72, "testicular exam");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 72, "pelvic exam");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 73, "foot exam|monofilament");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 73, "pulses in feet");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 73, "capillary refill");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 74, "edema");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 74, "range of motion");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 74, "muscle strength");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 75, "gait|walking speed");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 75, "timed up and go");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 75, "fall risk");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 76, "cognitive screening|mini mental|moca");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 76, "phq 9");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 76, "gad 7");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 77, "anxiety screening");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 77, "suicide risk");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 78, "substance use screening");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 78, "audit c");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 78, "domestic violence screening");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 79, "sleep quality");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 79, "physical activity level");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 79, "immunization status");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 80, "vital signs");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 80, "oral health|teeth");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 80, "dental check");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 81, "scoliosis check");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 81, "tanner stage");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 81, "developmental screening");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 82, "autism screening|m chat");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 82, "language development");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 82, "fine motor skills");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 83, "gross motor skills");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 83, "fontanelle");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 83, "red reflex");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 84, "hip exam|ortolani");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 85, "jaundice");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 85, "skin color");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 85, "hydration status");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 86, "mental status");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 86, "affect");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 87, "respirations");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 87, "bone age");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name something measured at a checkup", 88, "blood glucose finger stick");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 45, "eating a balanced diet");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 45, "mediterranean diet");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 46, "dash diet");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 46, "eating lean protein");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 46, "eating legumes|beans");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 46, "eating berries");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 47, "eating leafy greens");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 47, "olive oil");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 47, "limiting red meat");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 47, "limiting fried foods");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 48, "limiting fast food");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 48, "limiting soda");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 48, "avoiding trans fats");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 49, "reading food labels");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 49, "meal prepping");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 49, "eating slowly");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 49, "chewing well");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 50, "not skipping meals");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 50, "intermittent fasting");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 50, "not eating late");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 50, "drinking green tea");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 51, "probiotics|eating yogurt");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 51, "taking vitamins");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 51, "vitamin d");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 52, "omega 3");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 52, "calcium intake");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 52, "maintaining healthy weight");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 52, "tracking steps");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 53, "10000 steps");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 53, "biking|cycling");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 53, "swimming");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 53, "running|jogging");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 54, "hiking");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 54, "dancing");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 54, "pilates");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 55, "tai chi");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 55, "sports");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 55, "gardening");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 55, "playing with kids");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 56, "active commuting");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 56, "standing desk");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 56, "taking breaks from sitting");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 57, "balance exercises");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 57, "warming up");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 57, "cooling down");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 57, "rest days");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 58, "foam rolling");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 58, "massage");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 58, "sauna");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 58, "cold showers");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 59, "napping");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 59, "no screens before bed");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 60, "dark room for sleep");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 60, "waking up early");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 60, "routine");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 60, "morning sunlight");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 61, "limiting news");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 61, "social media detox");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 61, "digital detox");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 61, "mindfulness");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 62, "prayer");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 62, "spending time with family");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 62, "calling friends");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 63, "laughing");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 63, "playing music");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 63, "learning new things");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 63, "puzzles|brain games");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 64, "crossword puzzles");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 64, "setting goals");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 64, "time management");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 64, "saying no");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 65, "setting boundaries");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 65, "self care");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 65, "positive thinking");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 66, "affirmations");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 66, "counseling");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 66, "support groups");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 66, "quitting smoking");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 67, "no vaping");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 67, "avoiding drugs");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 67, "drinking in moderation");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 67, "designated driver");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 68, "not texting and driving");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 68, "following speed limits");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 68, "smoke detectors");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 69, "gun safety");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 69, "childproofing");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 69, "food safety");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 69, "washing produce");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 70, "cooking meat thoroughly");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 70, "covering coughs|cough etiquette");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 70, "staying home when sick");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 70, "wearing a mask");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 71, "hand sanitizer");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 71, "flu shot");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 71, "covid vaccine");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 72, "tetanus booster");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 72, "annual physical");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 72, "eye exams");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 72, "hearing checks");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 73, "blood pressure checks");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 73, "cholesterol checks");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 73, "colonoscopy");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 73, "mammograms");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 74, "pap smears");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 74, "self breast exams");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 74, "testicular self exams");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 75, "monitoring blood sugar");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 75, "taking medications as prescribed");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 75, "medication adherence");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 75, "knowing family history");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 76, "using condoms");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 76, "hpv vaccine");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 76, "prep");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 76, "sun protective clothing");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 77, "wearing sunglasses");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 77, "avoiding tanning beds");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 77, "lifting with legs|proper lifting");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 78, "ergonomic workstation");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 78, "wearing earplugs|hearing protection");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 78, "wearing a life jacket");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 78, "swimming lessons");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 79, "bike helmet");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 79, "knee pads");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 79, "mouthguard for sports");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 80, "clean bedding");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 80, "cleaning the house");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 80, "decluttering");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 80, "fresh air");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 81, "houseplants");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 81, "pets");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 81, "walking the dog");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 81, "nature walks");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 82, "forest bathing");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 82, "unplugging");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 82, "vacation");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 83, "work life balance");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 83, "tongue scraping");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 83, "mouthwash");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 83, "electric toothbrush");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 84, "replacing toothbrush");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 84, "sugar free gum");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 84, "drinking milk");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 84, "whole foods");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 85, "plant based diet");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 85, "eating more protein");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 85, "low sodium diet");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 86, "counting calories");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 86, "weighing yourself");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 86, "journaling food");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 86, "kegel exercises");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 87, "pelvic floor exercises");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 87, "stretching breaks");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 87, "breathing exercises");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 88, "progressive muscle relaxation");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a healthy habit", 88, "visualization");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 46, "glomerulosclerosis|focal segmental glomerulosclerosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 46, "nephrosclerosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 46, "arteriolosclerosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 47, "osteosclerosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 56, "elliptocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 56, "stomatocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 56, "acanthocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 56, "echinocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 57, "poikilocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 57, "anisocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 57, "microcytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 57, "macrocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 57, "reticulocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 58, "lipofuscinosis|neuronal ceroid lipofuscinosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 58, "siderosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 58, "anthracosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 58, "anthracosilicosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 58, "bagassosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 59, "stannosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 59, "baritosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 59, "talcosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 59, "aluminosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 59, "farmer's lung");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 60, "ornithosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 60, "pasteurellosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 60, "yersiniosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 60, "borreliosis|lyme borreliosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 60, "leishmaniosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 61, "dermatophytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 61, "sporotrichosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 61, "chromoblastomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 61, "paracoccidioidomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 61, "pneumocystosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 62, "microsporidiosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 62, "mycobacteriosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 62, "melioidosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 62, "bartonellosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 63, "fasciolosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 63, "angiostrongylosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 63, "strongyloidosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 63, "enterobiosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 63, "trichuriosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 64, "ancylostomiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 64, "pediculosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 64, "demodicosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 64, "xerosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 64, "hidrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 64, "anhidrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 65, "hyperhidrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 65, "bromhidrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 65, "chromhidrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 65, "onychomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 65, "madarosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 66, "blepharoptosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 66, "nephroptosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 66, "visceroptosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 66, "gastroptosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 66, "amaurosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 67, "exostosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 67, "enostosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 67, "hyperostosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 68, "osteopetrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 68, "osteonecrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 68, "osteochondrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 68, "osteoarthrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 68, "chondrocalcinosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 69, "calcinosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 69, "nephrocalcinosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 69, "lipomatosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 69, "angiomatosis|bacillary angiomatosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 69, "papillomatosis|recurrent respiratory papillomatosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 70, "polyposis|familial adenomatous polyposis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 70, "adenomatosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 70, "hamartomatosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 71, "adenosis|sclerosing adenosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 71, "lymphomatosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 71, "carcinomatosis|peritoneal carcinomatosis|leptomeningeal carcinomatosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 72, "gliomatosis cerebri");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 72, "schwannomatosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 72, "melanosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 73, "argyrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 73, "acrocyanosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 73, "carotenosis|carotenemia");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 73, "lymphangioleiomyomatosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 73, "pneumatosis|pneumatosis intestinalis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 73, "myofibrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 74, "phlebosclerosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 74, "agranulocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 74, "plasmacytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 74, "erythroblastosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 75, "reticulosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 75, "nodular fasciitis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 75, "xanthomatosis|cerebrotendinous xanthomatosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 76, "cholesterolosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 76, "adenomyomatosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 76, "pyelonephrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 76, "pyonephrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 77, "psychoneurosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 77, "autohypnosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 77, "dysbiosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 77, "endocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 77, "exocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 77, "pinocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 78, "transcytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 78, "efferocytosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 78, "pyknosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 78, "necroptosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 78, "pyroptosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 79, "ferroptosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 79, "synchondrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 79, "syndesmosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 79, "gomphosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 79, "amphiarthrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 80, "diarthrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 80, "synarthrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 80, "neoarthrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 80, "pseudarthrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 80, "enarthrosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 81, "parakeratosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 81, "dyskeratosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 81, "spongiosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 81, "elastosis|solar elastosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 82, "mucinosis|follicular mucinosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 82, "hyalinosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 82, "lipoidosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 82, "sphingolipidosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 83, "mucopolysaccharidosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 83, "mucolipidosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 83, "glycogenosis|glycogen storage disease");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 83, "gangliosidosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 83, "siderosilicosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 83, "kaolinosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 84, "graphitosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 84, "coniosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 84, "chromomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 84, "lobomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 84, "rhinosporidiosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 85, "zygomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 85, "entomophthoromycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 85, "penicilliosis|talaromycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 85, "emmonsiosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 85, "trichosporonosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 85, "fusariosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 86, "scedosporiosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 86, "phaeohyphomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 86, "hyalohyphomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 86, "keratomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 86, "otomycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 87, "mycosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 87, "helminthosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 87, "ankylostomiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 87, "necatoriasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 87, "isosporiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 87, "cyclosporiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 88, "blastocystosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 88, "dientamoebiasis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -osis", 88, "balantidiosis");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 45, "adenocarcinoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 48, "choriocarcinoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 51, "liposarcoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 51, "fibrosarcoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 51, "angiosarcoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 52, "dermatofibrosarcoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 53, "ganglioglioma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 53, "gangliocytoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 53, "ganglioneuroma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 54, "hemangioblastoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 54, "pineoblastoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 54, "pinealoma|pineocytoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 54, "germinoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 54, "dysgerminoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 55, "esthesioneuroblastoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 56, "osteoblastoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 56, "chondroblastoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 57, "enchondroma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 57, "osteochondroma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 57, "histiocytoma|fibrous histiocytoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 58, "rhabdomyoma|cardiac rhabdomyoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 58, "myoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 58, "fibromyoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 58, "adenomyoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 59, "angioleiomyoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 59, "hibernoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 59, "glomangioma|glomus tumor");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 65, "cystadenocarcinoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 66, "trichoepithelioma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 66, "trichilemmoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 66, "sebaceoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 66, "hidradenoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 67, "poroma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 67, "spiradenoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 67, "cylindroma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 69, "xanthogranuloma|juvenile xanthogranuloma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 70, "fibroxanthoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 70, "hygroma|cystic hygroma|subdural hygroma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 72, "cephalohematoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 73, "biloma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 73, "urinoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 73, "chyloma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 73, "tuberculoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 74, "syphiloma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 74, "leproma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 74, "aspergilloma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 74, "actinomycetoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 74, "histoplasmoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 75, "coccidioidoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 75, "cryptococcoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 75, "toxoplasmoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 75, "cysticercoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 75, "amoeboma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 76, "fecaloma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 76, "lymphoepithelioma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 76, "epithelioma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 76, "endothelioma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 77, "hemangioendothelioma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 77, "hemangiopericytoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 77, "neurilemmoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 77, "perineurioma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 77, "glomus jugulare");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 78, "chemodectoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 78, "apudoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 78, "ppoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 78, "reninoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 78, "aldosteronoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 79, "thecoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 79, "fibrothecoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 79, "luteoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 79, "androblastoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 80, "gonadoblastoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 80, "nephroma|mesoblastic nephroma|cystic nephroma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 81, "cholangioma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 81, "lymphangiomyoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 82, "adamantinoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 83, "cementoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 84, "myoblastoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 85, "medulloepithelioma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 85, "astroblastoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 85, "subependymoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 85, "pleomorphic xanthoastrocytoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 86, "oligoastrocytoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 86, "gliosarcoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 87, "neurocytoma|central neurocytoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 87, "melanocytoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 88, "thyrotropinoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a word ending in -oma (a growth or tumor)", 88, "gonadotropinoma");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE

@@ -25,8 +25,13 @@ tietze syndrome
   (spread a batch across them, since at most 3 of one category play per day); Nursing `nursing`;
   Pharmacy `pharm`; Dental `dental`.
 - **Answer list:** one answer per line, `display name|alias|alias`. Order matters: points come from
-  list position, so put the **most common answers first and the rarest last**. Aim for **60 to 150
-  correct answers** per prompt; a prompt that can't reach about 50 good answers is a bad prompt.
+  list position, so put the **most common answers first and the rarest last**.
+- **Lists must be EXHAUSTIVE: include every single correct answer you can find, with NO upper limit.**
+  Players lose trust when a correct answer is marked wrong, so keep going past the obvious answers
+  into the long tail: rare diseases, eponyms, obscure drugs, regional/brand names, subspecialty items.
+  A finished list is usually 150 to 400+ answers; stop only when you genuinely cannot think of another
+  correct answer. A prompt that can't reach about 80 good answers is a bad prompt; replace it.
+  Fewer, complete prompts beat many thin ones.
 - Put every common spelling of the SAME answer on one line as aliases (abbreviations, brand/generic,
   plain English vs medical term, UK/Australian terms such as paracetamol, adrenaline, sats, nil by mouth).
   Never list a synonym as its own line; that creates unfair point gaps.

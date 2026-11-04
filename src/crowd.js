@@ -907,3 +907,50 @@ crowdAlias("Name a postoperative complication", "post op cognitive dysfunction",
 crowdAlias("Name a postoperative complication", "uti", "urinary tract infection");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a postoperative complication", "pneumonia", "hospital acquired pneumonia");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a postoperative complication", "constipation", "opioid induced constipation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason a filling or crown fails", "inadequate retention", "inadequate retention form|lack of retention");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental behavior management technique", "desensitization", "systematic desensitization");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental specialty", "dental anesthesiology", "anesthesiology");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental specialty", "pediatric", "pedodontist|pediatric dentist");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental specialty", "implant dentistry", "oral implantology");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental specialty", "orthodontics", "dentofacial orthopedics|orthodontics and dentofacial orthopedics");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental specialty", "dental public health", "community dentistry");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral hygiene product", "baking soda toothpaste", "baking soda");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral hygiene product", "toothbrush", "manual toothbrush");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral hygiene product", "toothbrush", "soft bristle toothbrush");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nerve or nerve block used in dentistry", "trigeminal", "cranial nerve v|cn v|fifth cranial nerve");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nerve or nerve block used in dentistry", "facial", "cn vii");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental brand or company", "oral b", "braun");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental brand or company", "crest", "crest pro health");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental brand or company", "coltene", "coltene whaledent");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental brand or company", "premier dental", "premier");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental brand or company", "zoom whitening", "philips zoom");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental brand or company", "hello", "hello products");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental X-ray or imaging", "cephalometric", "lateral cephalometric");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental X-ray or imaging", "posteroanterior skull", "pa cephalometric|frontal ceph");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental X-ray or imaging", "tomography", "tmj tomography");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental X-ray or imaging", "reverse towne", "reverse towne view|towne view");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental X-ray or imaging", "submentovertex", "submentovertex view|jug handle view");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental X-ray or imaging", "sensor", "ccd sensor|cmos sensor");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental X-ray or imaging", "occlusal", "mandibular occlusal|maxillary occlusal|cross sectional occlusal|topographic occlusal");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental X-ray or imaging", "periapical", "anterior periapical|posterior periapical");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of tooth loss", "abscess", "periapical abscess|periodontal abscess");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of tooth loss", "root resorption", "external root resorption");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of tooth loss", "bone loss", "periodontal bone loss");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of tooth loss", "dry mouth", "medication induced dry mouth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental crown", "metal", "full metal crown|fmc|full cast crown|all metal crown");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental crown", "jacket crown", "porcelain jacket crown|pjc");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental crown", "porcelain fused to metal", "metal ceramic crown");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental crown", "pediatric zirconia", "nusmile");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of dental crown", "milled crown", "fully milled crown");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "class i", "angle class i|angle class 1");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "class ii", "angle class ii|angle class 2");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "class iii", "angle class iii|angle class 3");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "division 1", "class ii division 1|class 2 division 1");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "division 2", "class ii division 2|class 2 division 2");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "prognathism", "mandibular prognathism");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "underbite", "reverse overjet|negative overjet");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "overjet", "excessive overjet|increased overjet");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "deep bite", "anterior deep bite|impinging overbite|traumatic deep bite");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "gap", "midline diastema");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "crowding", "crowding of incisors");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of malocclusion", "transposition", "transversion|transposition of teeth");  // 2026-11-04 · board audit · same answer

@@ -811,3 +811,99 @@ crowdAlias("Name a type of IV fluid", "gelofusine", "gelatin solution");  // 202
 crowdAlias("Name a type of IV fluid", "hypertonic saline", "hyperosmolar saline");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a type of IV fluid", "albumin", "albumin 20%");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a type of IV fluid", "sodium bicarbonate", "bicarbonate drip");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical abbreviation", "aox3", "a and o x 4|aox4");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical abbreviation", "pmh", "pmhx");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "apgar score", "apgar at 1 and 5 minutes");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "heel stick", "newborn screening|state newborn screen|guthrie test|pku screening|sickle cell screening|cystic fibrosis screening|galactosemia screening|congenital hypothyroidism screen");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "bilirubin check", "transcutaneous bilirubin|tcb|serum bilirubin|jaundice assessment");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "vitamin k shot", "vitamin k injection");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "hepatitis b vaccine", "hep b shot|hepatitis b immunization");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "cord care", "umbilical cord care");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "skin to skin", "skin to skin contact");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "breastfeeding assessment", "breastfeeding");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "weight", "weight check|daily weight|weight loss check");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "length", "length measurement");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "ballard score", "gestational age");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "reflexes", "rooting reflex|sucking reflex|palmar grasp|plantar grasp|babinski reflex|stepping reflex|tonic neck reflex|fencing reflex|galant reflex");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "fontanelles", "anterior fontanelle|posterior fontanelle");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "caput", "caput succedaneum");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "palate check", "cleft palate check");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "ortolani", "hip click");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "circumcision", "circumcision care");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "hearing screen", "hearing screening|hearing test|oae|abr");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a newborn assessment or procedure", "cchd screen", "pulse oximetry screening|critical congenital heart disease screening");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of immobility", "weakness", "muscle weakness|decreased muscle strength");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of immobility", "kidney stones", "renal calculi");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of immobility", "incontinence", "urinary incontinence|bowel incontinence");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of immobility", "osteoporosis", "disuse osteoporosis|bone demineralization");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of immobility", "muscle atrophy", "disuse atrophy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of immobility", "orthostatic hypotension", "orthostasis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of immobility", "edema", "dependent edema");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of immobility", "contractures", "joint contractures|hip flexion contracture|plantar flexion contracture");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something found in a hospital room", "call light", "nurse call button");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something found in a hospital room", "suction", "wall suction|suction machine|suction catheter|yankauer");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something found in a hospital room", "oxygen outlet", "oxygen flowmeter");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something found in a hospital room", "commode", "bedside commode");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something found in a hospital room", "gown", "patient gown|hospital gown");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something found in a hospital room", "pillows", "pillows for positioning|wedge");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something found in a hospital room", "gloves", "glove box");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something found in a hospital room", "monitor", "cardiac monitor|telemetry monitor");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something found in a hospital room", "iv pump", "infusion pump");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something found in a hospital room", "curtain", "privacy screen");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something found in a hospital room", "get well card", "cards");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a heart attack", "chest pain", "crushing chest pain|substernal chest pain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a heart attack", "chest pressure", "chest heaviness|elephant on chest|elephant sitting on chest");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a heart attack", "sweating", "cool clammy skin|sweaty");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a heart attack", "sense of impending doom", "feeling of doom");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a heart attack", "arm pain", "right arm pain|both arms pain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a heart attack", "epigastric pain", "stomach pain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a heart attack", "vomiting", "nausea and vomiting");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a heart attack", "fatigue", "unexplained fatigue");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a heart attack", "arrhythmia", "vfib|heart block");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a blood transfusion reaction", "hives", "urticaria");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a blood transfusion reaction", "kidney failure", "acute kidney injury");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a blood transfusion reaction", "febrile non hemolytic reaction", "febrile reaction");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a blood transfusion reaction", "high temperature", "temperature increase of 1 degree|temp rise of 1 c");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a blood transfusion reaction", "chills", "rigors");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a blood transfusion reaction", "flushing", "facial flushing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a blood transfusion reaction", "hemoglobin drop", "failure of hemoglobin to rise");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a blood transfusion reaction", "anaphylaxis", "anaphylactic reaction");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a blood transfusion reaction", "hemolytic reaction", "acute hemolytic transfusion reaction|ahtr|hemolysis|abo incompatibility");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a blood transfusion reaction", "gvhd", "transfusion associated graft versus host disease|ta gvhd");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a blood transfusion reaction", "pain at iv site", "burning at iv site");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right patient", "right person");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right drug", "right med");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right dose", "right dosage");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right route", "right route of administration");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right time", "right time and frequency");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right to refuse", "right to refuse medication");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right education", "right patient education|right client education");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right documentation", "right documentation and reporting");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right form", "right formulation|right dosage form");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right indication", "right indication for use|right diagnosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right reason", "right reason for administration");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right response", "right response and evaluation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a right of medication administration", "right preparation", "right reconstitution");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "vest restraint", "jacket restraint");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "mitts", "mittens");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "elbow immobilizers", "elbow restraints|arm immobilizers");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "lap belt", "wheelchair lap belt");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "bed rails", "full side rails|all 4 side rails");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "low stimulation room", "quiet room");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "chemical restraint", "emergency medication|prn sedation|b52|haldol ativan benadryl");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "sitter", "one to one observation|constant observation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "video monitoring", "tele sitter|virtual sitter");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "bed alarm", "bed exit alarm");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "diversion", "sensory activities|distraction");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "de escalation", "verbal de escalation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "toileting schedule", "toileting");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a restraint or restraint alternative", "calm environment", "dim lights|reduce noise");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postoperative complication", "respiratory depression", "respiratory depression from opioids");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postoperative complication", "shock", "hypovolemic shock|septic shock");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postoperative complication", "acute kidney injury", "renal failure");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postoperative complication", "ileus", "paralytic ileus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postoperative complication", "delirium", "postoperative delirium");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postoperative complication", "post op cognitive dysfunction", "cognitive dysfunction");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postoperative complication", "uti", "urinary tract infection");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postoperative complication", "pneumonia", "hospital acquired pneumonia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postoperative complication", "constipation", "opioid induced constipation");  // 2026-11-04 · board audit · same answer

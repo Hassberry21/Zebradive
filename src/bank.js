@@ -21764,6 +21764,672 @@ breakfast sandwiches
 cheese sauce
 `, "2026-11-06");
 
+/* ---- NEW STANDARD DAILY PROMPTS: DENTAL (batch 2026-11-04) ---- */
+P("Name a complication of a tooth extraction","dental","",`
+dry socket|alveolar osteitis
+bleeding|hemorrhage|post extraction bleeding
+infection|post extraction infection
+swelling|edema
+pain|postoperative pain
+bruising|ecchymosis
+trismus|limited mouth opening
+nerve damage|nerve injury|paresthesia
+numbness|lip numbness
+inferior alveolar nerve injury
+lingual nerve injury|tongue numbness
+mental nerve injury
+oroantral communication|sinus opening|sinus perforation
+oroantral fistula
+root fracture|broken root|retained root tip
+root displaced into sinus
+root displaced into submandibular space
+tooth displaced into infratemporal fossa
+crown fracture
+damage to adjacent tooth
+fracture of adjacent restoration
+alveolar bone fracture|buccal plate fracture
+maxillary tuberosity fracture
+mandible fracture|jaw fracture
+tmj dislocation|jaw dislocation
+tmj pain
+hematoma
+sublingual hematoma
+soft tissue injury|torn gums
+lip laceration
+tongue laceration
+burn from handpiece|lip abrasion
+cheek biting after anesthesia|lip biting
+aspiration of tooth|inhaled tooth
+swallowed tooth|ingestion
+subcutaneous emphysema|air emphysema
+osteomyelitis
+cellulitis
+abscess
+fascial space infection
+ludwig angina
+cavernous sinus thrombosis
+bacteremia
+infective endocarditis
+sepsis
+medication related osteonecrosis of the jaw|mronj|bisphosphonate osteonecrosis
+osteoradionecrosis
+delayed healing
+bony sequestrum|sequestra
+sharp bony edges|bone spicules
+food impaction in socket
+bad taste|halitosis
+fever
+nausea and vomiting
+syncope|fainting
+allergic reaction
+local anesthetic toxicity
+methemoglobinemia
+needle breakage
+epinephrine reaction|tachycardia
+hypertension during extraction
+angina during extraction
+uncontrolled bleeding from anticoagulants
+bleeding disorder bleeding
+wrong tooth extracted|wrong site extraction
+periodontal defect on adjacent tooth
+loss of attachment
+bone loss|ridge resorption
+pocket formation behind second molar
+shifting teeth|drifting|space loss
+supraeruption of opposing tooth
+retained tooth fragment
+displaced tooth into canal|tooth in mandibular canal
+inferior alveolar artery bleeding
+greater palatine artery bleeding
+lingual artery injury
+facial nerve palsy
+airway obstruction
+dehiscence|wound dehiscence
+suture problems
+nausea from opioids
+opioid side effects|constipation
+nsaid gastritis
+antibiotic diarrhea|c diff
+antibiotic allergy
+sinusitis
+nosebleed
+eye bruising|periorbital ecchymosis
+dysgeusia|altered taste
+neuroma
+neuropathic pain|chronic pain
+trigeminal neuropathy
+dysesthesia
+death
+`, "2026-11-06");
+
+P("Name a part of a removable partial denture","dental","",`
+clasp
+rest|occlusal rest
+major connector
+minor connector
+denture base
+artificial teeth|denture teeth|acrylic teeth
+retainer|direct retainer
+indirect retainer
+framework|metal framework
+saddle
+palatal strap
+palatal plate|complete palatal plate
+anterior posterior palatal strap|ap strap
+horseshoe connector|u shaped palatal connector
+single palatal bar
+lingual bar
+lingual plate
+sublingual bar
+labial bar
+double lingual bar|kennedy bar
+cingulum bar|continuous bar retainer
+circumferential clasp|akers clasp
+bar clasp|roach clasp
+i bar
+t bar
+y bar
+l bar
+rpi clasp|rpi system
+rpa clasp
+ring clasp
+embrasure clasp|double akers clasp
+back action clasp
+reverse action clasp
+half and half clasp
+combination clasp|wrought wire clasp
+wrought wire
+cast clasp
+retentive arm|retentive clasp arm
+reciprocal arm|bracing arm
+clasp tip
+clasp shoulder
+clasp body
+approach arm
+guide plane|guiding plane
+proximal plate
+cingulum rest
+incisal rest
+lingual rest
+rest seat
+mesial rest
+distal rest
+precision attachment
+semi precision attachment
+stress breaker
+finish line
+external finish line
+internal finish line
+tissue stop
+retention mesh|meshwork
+lattice work
+bead retention
+denture base flange
+buccal flange
+lingual flange
+labial flange
+relief
+tissue relief
+beading
+abutment tooth
+retromolar pad coverage
+tuberosity coverage
+distal extension base
+tooth supported base
+swing lock gate
+hinge
+lock
+acrylic resin base
+cobalt chromium alloy|chrome cobalt
+titanium framework
+nylon base|valplast|flexible base
+tooth colored clasp|esthetic clasp
+`, "2026-11-06");
+
+P("Name a jaw movement or occlusion term","dental","",`
+centric occlusion|maximum intercuspation|mip
+centric relation|cr
+vertical dimension of occlusion|vdo
+vertical dimension of rest
+freeway space|interocclusal rest space
+overbite
+overjet
+protrusion
+retrusion
+lateral excursion|laterotrusion
+working side
+nonworking side|balancing side
+mediotrusion
+opening|depression
+closing|elevation
+rotation|hinge movement
+translation|sliding movement
+bennett movement|bennett shift
+bennett angle
+immediate side shift
+progressive side shift
+condylar guidance|condylar inclination
+incisal guidance|anterior guidance
+canine guidance|canine protected occlusion
+group function
+mutually protected occlusion
+balanced occlusion|bilateral balanced occlusion
+lingualized occlusion
+monoplane occlusion
+curve of spee
+curve of wilson
+monson curve|sphere of monson
+compensating curve
+occlusal plane
+bonwill triangle
+envelope of motion|posselt envelope
+posselt figure
+gothic arch tracing
+terminal hinge axis
+hinge axis
+centric slide|slide in centric
+premature contact|deflective contact
+occlusal interference
+working interference
+balancing interference|nonworking interference
+protrusive interference
+fremitus
+trauma from occlusion|occlusal trauma
+primary occlusal trauma
+secondary occlusal trauma
+occlusal adjustment|equilibration
+selective grinding
+centric stops
+supporting cusps|stamp cusps
+nonsupporting cusps|shearing cusps|guiding cusps
+cusp fossa contact
+cusp marginal ridge contact
+tripodism
+interarch relationship
+intercuspation
+molar relationship
+canine relationship
+angle classification
+class i occlusion
+class ii occlusion
+class iii occlusion
+crossbite
+open bite
+deep bite
+edge to edge
+flush terminal plane
+mesial step
+distal step
+leeway space
+primate space
+facebow transfer
+articulator
+semi adjustable articulator
+fully adjustable articulator
+average value articulator
+hinge articulator
+mounting
+interocclusal record|bite registration
+protrusive record
+lateral record
+centric record
+kinematic axis
+arbitrary hinge axis
+frankfort plane
+axis orbital plane
+camper's plane|ala tragus line
+condylar path
+rotation center
+instantaneous center of rotation
+mandibular deviation
+mandibular deflection
+maximum opening
+condylar translation
+long centric
+freedom in centric
+point centric
+loss of vertical dimension|overclosure
+occlusal splint
+deprogrammer|leaf gauge|lucia jig
+anterior deprogrammer
+bimanual manipulation|dawson technique
+chin point guidance
+neuromuscular occlusion
+tooth contact pattern
+occlusal contact
+articulating paper|shim stock
+t scan
+wear facets
+attrition
+`, "2026-11-06");
+
+P("Name a dental public health or research term","dental","",`
+dmft|dmft index|decayed missing filled teeth
+dmfs
+deft|dmft primary teeth
+community water fluoridation
+optimal fluoride level|0.7 ppm
+prevalence
+incidence
+epidemiology
+sensitivity
+specificity
+positive predictive value|ppv
+negative predictive value|npv
+randomized controlled trial|rct
+cohort study
+case control study
+cross sectional study
+case report
+case series
+systematic review
+meta analysis
+evidence based dentistry
+levels of evidence|evidence pyramid
+p value
+confidence interval
+null hypothesis
+type i error|alpha error
+type ii error|beta error
+statistical power|power
+sample size
+mean
+median
+mode
+standard deviation
+variance
+range
+normal distribution|bell curve
+skewed distribution
+chi square test
+t test
+anova
+correlation
+regression
+odds ratio
+relative risk|risk ratio
+attributable risk
+number needed to treat|nnt
+absolute risk reduction
+bias
+selection bias
+recall bias
+observer bias
+confounding|confounder
+blinding|double blind
+placebo
+control group
+randomization
+validity
+reliability
+inter rater reliability|kappa
+intention to treat
+lead time bias
+hawthorne effect
+pico question
+plaque index
+gingival index
+oral hygiene index|ohi s
+community periodontal index|cpi
+periodontal screening and recording|psr
+dean's fluorosis index
+caries risk assessment|cambra
+icdas
+significant caries index|sic index
+healthy people 2030
+national health and nutrition examination survey|nhanes
+oral health surveillance
+basic screening survey
+school sealant program
+school fluoride mouthrinse program
+fluoride varnish program
+mobile dental clinic
+access to care
+dental health professional shortage area|hpsa
+underserved population
+health disparities
+social determinants of health
+health literacy
+oral health literacy
+medicaid
+chip
+medicare
+community health center|fqhc
+dental therapist
+teledentistry
+primary prevention
+secondary prevention
+tertiary prevention
+herd immunity
+health promotion
+health education
+needs assessment
+program evaluation
+cost effectiveness
+morbidity
+mortality
+endemic
+epidemic
+pandemic
+surveillance
+screening
+risk factor
+protective factor
+water fluoridation cessation
+fluorosis risk
+grand rapids study
+vipeholm study
+hopewood house study
+turku sugar study
+streptococcus mutans transmission
+dental home
+ada|american dental association
+cdc division of oral health
+who oral health
+fdi world dental federation
+ethics committee|irb
+informed consent in research
+hipaa
+`, "2026-11-06");
+
+P("Name a property of a dental material","dental","",`
+strength
+compressive strength
+tensile strength
+flexural strength
+shear strength
+hardness
+elastic modulus|modulus of elasticity|stiffness
+elasticity
+plasticity
+ductility
+malleability
+brittleness
+toughness
+fracture toughness
+resilience
+fatigue resistance|fatigue
+creep
+stress relaxation
+viscoelasticity
+viscosity
+flow
+thixotropy
+wettability|wetting
+contact angle
+surface tension
+adhesion
+cohesion
+bond strength
+polymerization shrinkage
+setting expansion
+hygroscopic expansion
+thermal expansion|coefficient of thermal expansion
+thermal conductivity
+thermal diffusivity
+heat of reaction|exothermic reaction
+setting time
+working time
+gel time
+degree of conversion
+depth of cure
+water sorption
+solubility
+dimensional stability
+dimensional change
+accuracy|detail reproduction
+elastic recovery
+tear strength
+radiopacity
+radiolucency
+translucency
+opacity
+color stability
+shade|hue
+value
+chroma
+fluorescence
+opalescence
+metamerism
+gloss|polishability
+surface roughness
+wear resistance|abrasion resistance
+abrasiveness
+corrosion resistance|corrosion
+tarnish
+galvanism
+biocompatibility
+toxicity
+allergenicity
+antibacterial activity
+fluoride release
+fluoride recharge
+bioactivity
+remineralization
+ph
+density
+porosity
+microleakage
+marginal adaptation|marginal seal
+proportional limit
+elastic limit
+yield strength
+ultimate strength
+percent elongation
+poisson's ratio
+stress
+strain
+stress strain curve
+weibull modulus
+c factor|configuration factor
+filler content|filler loading
+particle size
+cross linking
+glass transition temperature
+melting point|fusion temperature
+casting shrinkage
+sintering shrinkage
+grain size
+crystallinity
+phase transformation|transformation toughening
+low temperature degradation|aging
+handling properties
+consistency
+mixing time
+pot life
+shelf life
+heat resistance
+chemical resistance
+stain resistance
+`, "2026-11-06");
+
+P("Name a dental radiation safety or X-ray physics term","dental","",`
+alara|as low as reasonably achievable
+lead apron
+thyroid collar
+collimation|collimator
+rectangular collimation
+round collimation
+filtration|filter
+aluminum filtration
+inherent filtration
+added filtration
+kilovoltage|kvp
+milliamperage|ma
+exposure time
+mas|milliampere seconds
+inverse square law
+source to image distance|target receptor distance
+position indicating device|pid|cone
+tube head|x ray tube
+cathode
+anode
+tungsten target
+focal spot
+filament
+thermionic emission
+bremsstrahlung|braking radiation
+characteristic radiation
+primary radiation
+secondary radiation
+scatter radiation
+leakage radiation
+compton scatter
+photoelectric effect
+coherent scatter
+ionizing radiation
+ionization
+free radicals
+direct effect
+indirect effect
+deterministic effects
+stochastic effects
+somatic effects
+genetic effects
+latent period
+cumulative effect
+critical organs
+thyroid gland
+lens of eye|cataract risk
+bone marrow
+skin erythema
+radiosensitivity
+law of bergonie and tribondeau
+half value layer
+penetrability
+beam quality
+beam quantity|beam intensity
+density
+contrast
+long scale contrast
+short scale contrast
+sharpness
+penumbra
+magnification
+distortion
+latent image
+film speed
+e speed film
+f speed film
+digital receptor|sensor
+phosphor plate|psp
+ccd|charge coupled device
+cmos
+pixel
+grayscale
+dynamic range
+signal to noise ratio
+effective dose
+absorbed dose|gray|gy
+equivalent dose|sievert|sv
+roentgen
+rad
+rem
+exposure
+background radiation
+dosimeter|film badge
+maximum permissible dose|mpd
+occupational exposure
+position and distance rule|6 feet rule
+operator barrier|protective barrier
+pregnancy and x rays
+selection criteria
+patient selection criteria
+justification
+optimization
+dose limitation
+ncrp
+image gently
+radiation caries
+osteoradionecrosis
+radiation mucositis
+xerostomia from radiation
+timer
+exposure button
+control panel
+x ray generator
+transformer
+step down transformer
+step up transformer
+autotransformer
+alternating current
+direct current|constant potential
+duty cycle
+heat dissipation
+oil bath
+beryllium window
+lead diaphragm
+quality assurance
+step wedge
+retakes
+film processing
+developer
+fixer
+safelight
+darkroom
+infection control for radiography
+`, "2026-11-06");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

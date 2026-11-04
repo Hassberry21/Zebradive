@@ -545,3 +545,26 @@ crowdAlias("Name a nursing theorist", "kolcaba", "kolcaba comfort theory");  // 
 crowdAlias("Name a nursing theorist", "hildegard peplau", "hildegard e peplau");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a nursing theorist", "helen erickson", "erickson tomlin swain");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a nursing job title or role", "case manager", "nurse case manager");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a diet order", "npo", "nothing by mouth after midnight|npo after midnight");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a diet order", "thickened liquids", "nectar thick liquids");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a diet order", "thickened liquids", "honey thick liquids");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing specialty", "nicu", "neonatal intensive care");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing specialty", "ambulatory", "ambulatory care");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing specialty", "picu", "pediatric intensive care");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common body site for pressure injuries", "back of the head", "occipital bone");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common body site for pressure injuries", "elbows", "olecranon");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of delirium", "anticholinergics", "anticholinergic medications");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of delirium", "lithium toxicity", "lithium");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of delirium", "catheters", "urinary catheter|foley catheter");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of an IV", "infection", "iv site infection|local infection");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of an IV", "occlusion", "catheter occlusion");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum complication", "hematoma", "vaginal hematoma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum complication", "postpartum hemorrhage", "secondary postpartum hemorrhage|late postpartum hemorrhage");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum complication", "infection", "endomyometritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of high blood sugar", "dry skin", "warm dry skin|flushed dry skin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of high blood sugar", "infections", "frequent infections");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of high blood sugar", "abdominal pain", "abdominal cramps");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a vital sign or bedside assessment", "heart rate", "apical pulse|radial pulse|brachial pulse");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of wound dressing", "gauze", "sterile gauze");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of wound dressing", "pressure dressing", "pressure bandage");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of wound dressing", "xeroform", "xeroform petrolatum");  // 2026-11-04 · board audit · same answer

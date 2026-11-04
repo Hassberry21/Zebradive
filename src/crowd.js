@@ -1148,3 +1148,76 @@ crowdAlias("Name a cause of a toothache", "recent dental work", "new filling|pos
 crowdAlias("Name a cause of a toothache", "trauma", "tooth trauma");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a cause of a toothache", "angina", "unstable angina");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a cause of a toothache", "ear infection", "otitis media");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a cavity", "white spot", "white spot lesion|chalky white spot");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a cavity", "pain when biting", "pain when chewing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a cavity", "throbbing pain", "throbbing toothache");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a cavity", "swelling", "facial swelling");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a cavity", "bad taste", "bad taste in mouth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a tongue condition", "geographic tongue", "benign migratory glossitis|erythema migrans");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a tongue condition", "coated tongue", "white coated tongue|white tongue");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a tongue condition", "vitamin b12 deficiency", "pernicious anemia|hunter glossitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a tongue condition", "scalloped tongue", "crenated tongue");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a tongue condition", "oral hairy leukoplakia", "hairy leukoplakia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that causes cavities", "juice", "juice boxes");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that causes cavities", "juice", "apple juice");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that causes cavities", "juice", "orange juice");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that causes cavities", "juice", "grape juice");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that causes cavities", "cereal", "sugary cereal");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that causes cavities", "pastries", "toaster pastries|pop tarts");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that causes cavities", "candy", "candy bars");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that causes cavities", "syrup", "corn syrup|high fructose corn syrup");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that causes cavities", "sugar", "brown sugar");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that causes cavities", "sugar", "sucrose|table sugar");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an ingredient in toothpaste", "arginine", "arginine bicarbonate|pro argin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an ingredient in toothpaste", "dicalcium phosphate", "dicalcium phosphate dihydrate");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an ingredient in toothpaste", "saccharin", "sodium saccharin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an ingredient in toothpaste", "dyes", "colorants");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an ingredient in toothpaste", "charcoal", "activated charcoal");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an ingredient in toothpaste", "hydroxyapatite", "hydroxyapatite microcrystals");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bleeding gums", "gingivitis", "plaque induced gingivitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bleeding gums", "flossing", "improper flossing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bleeding gums", "dentures", "ill fitting dentures");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bleeding gums", "pregnancy", "pregnancy gingivitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bleeding gums", "puberty", "puberty gingivitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bleeding gums", "diabetes", "uncontrolled diabetes");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bleeding gums", "nsaids", "ibuprofen|naproxen");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bleeding gums", "leukemia", "acute myeloid leukemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bleeding gums", "leukemia", "acute lymphoblastic leukemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bleeding gums", "leukemia", "chronic leukemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of dry mouth", "antipsychotics", "antipsychotic medications");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of dry mouth", "chemotherapy", "chemotherapy induced");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of dry mouth", "diabetes", "uncontrolled diabetes|polyuria");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical condition that changes dental treatment", "diabetes", "uncontrolled diabetes|hypoglycemia risk");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical condition that changes dental treatment", "high blood pressure", "uncontrolled hypertension");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical condition that changes dental treatment", "stroke", "stroke history|tia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical condition that changes dental treatment", "kidney disease", "chronic kidney disease");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical condition that changes dental treatment", "pregnancy", "pregnancy first trimester");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical condition that changes dental treatment", "asthma", "asthma attack risk");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical condition that changes dental treatment", "copd", "emphysema");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "fluoride toothpaste", "brush with fluoride toothpaste");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "prescription fluoride toothpaste", "high fluoride toothpaste");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "sealants", "pit and fissure sealants");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "fluoridated water", "drink tap water");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "dental checkups", "regular dental checkups|six month checkups");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "cleanings", "professional cleanings");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "cheese after meals", "cheese|dairy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "mouthwash", "antibacterial mouthwash");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "probiotics", "probiotic lozenges");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "silver diamine fluoride", "silver diamine fluoride on early lesions");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "sugar substitutes", "stevia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a way to prevent cavities", "avoid snacking", "avoid grazing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of mouth sores", "canker sores", "minor aphthous ulcer");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of mouth sores", "cold sores", "herpes simplex virus|hsv 1");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of mouth sores", "cold sores", "recurrent herpes labialis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of mouth sores", "shingles", "herpes zoster");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of mouth sores", "dentures", "denture sores|ill fitting denture");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of mouth sores", "braces", "orthodontic wires|braces poking");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of mouth sores", "chemotherapy", "chemotherapy induced mucositis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of mouth sores", "pemphigoid", "mucous membrane pemphigoid");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of mouth sores", "pemphigus", "pemphigus vulgaris");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental insurance or billing term", "cdt code", "ada code|procedure code");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental insurance or billing term", "deductible", "annual deductible");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental insurance or billing term", "hmo", "dhmo");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental insurance or billing term", "ppo", "dppo");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental insurance or billing term", "medicaid", "medicaid dental|denti cal");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental insurance or billing term", "pre authorization", "predetermination of benefits");  // 2026-11-04 · board audit · same answer

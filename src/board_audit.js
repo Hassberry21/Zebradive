@@ -5220,3 +5220,778 @@ board("Name a cause of a toothache", 86, "abfraction");  // 2026-11-04 · INBDE
 board("Name a cause of a toothache", 87, "tooth wear");  // 2026-11-04 · INBDE
 board("Name a cause of a toothache", 87, "exposed dentin");  // 2026-11-04 · INBDE
 board("Name a cause of a toothache", 88, "thin enamel");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 46, "brown spot lesion");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 47, "stained fissure");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 48, "soft dentin|leathery dentin");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 49, "explorer stick|catch with explorer");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 50, "cavitation");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 51, "shadow under enamel|gray shadow");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 52, "marginal ridge breakdown");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 53, "loss of translucency");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 54, "opaque enamel");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 55, "radiolucency at contact point");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 56, "interproximal radiolucency");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 56, "radiolucency under filling");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 57, "occlusal radiolucency");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 58, "cervical radiolucency");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 59, "recurrent decay around filling");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 60, "discolored margin");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 61, "ditched margin");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 62, "lingering pain");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 63, "pain with cold that lingers");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 65, "sharp pain when eating");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 67, "tooth sensitivity");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 68, "dull ache");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 70, "pain on percussion");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 71, "abscess|gum boil");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 72, "fistula|sinus tract");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 74, "tooth discoloration|darkened tooth");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 75, "gray tooth");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 76, "tooth crumbling");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 77, "tooth breaking apart");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 77, "chip in tooth");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 78, "rough spot");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 79, "floss shredding|floss tearing");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 80, "floss catching");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 81, "food trap");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 83, "halitosis");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 84, "positive diagnodent|high laser fluorescence reading");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 85, "transillumination shadow");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 86, "icdas score");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 87, "root surface softening");  // 2026-11-04 · INBDE
+board("Name a sign of a cavity", 88, "yellow brown root lesion");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 45, "glossodynia|burning tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 46, "glossopyrosis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 47, "lingua plicata|scrotal tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 47, "lingua villosa nigra");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 48, "hairy tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 49, "red tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 49, "beefy red tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 50, "smooth tongue|bald tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 51, "iron deficiency anemia");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 51, "folate deficiency");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 52, "riboflavin deficiency|b2 deficiency");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 52, "niacin deficiency|pellagra");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 53, "plummer vinson syndrome");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 53, "celiac disease");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 54, "xerostomia");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 54, "sjogren syndrome");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 55, "magenta tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 55, "raspberry tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 56, "white strawberry tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 57, "toxic shock syndrome");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 57, "acromegaly");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 58, "down syndrome");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 58, "beckwith wiedemann syndrome");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 59, "cretinism|congenital hypothyroidism");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 59, "mucopolysaccharidosis|hurler syndrome");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 60, "lymphangioma");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 60, "hemangioma");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 61, "lingual thyroid");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 61, "granular cell tumor");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 62, "squamous cell carcinoma of tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 62, "traumatic ulcer");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 63, "eosinophilic ulcer|traumatic ulcerative granuloma");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 63, "tongue biting");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 64, "tongue thrust");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 65, "tongue edema|swollen tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 65, "angioedema");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 66, "ludwig angina");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 66, "tongue abscess");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 67, "herpes simplex");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 67, "syphilis|syphilitic glossitis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 68, "interstitial glossitis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 68, "tuberculosis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 69, "histoplasmosis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 70, "candidiasis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 70, "erythematous candidiasis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 71, "pseudomembranous candidiasis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 72, "pemphigus vulgaris");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 72, "erythema multiforme");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 73, "aphthous ulcer");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 73, "fibroma");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 74, "papilloma");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 74, "neurofibroma");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 75, "schwannoma");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 75, "rhabdomyoma");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 76, "lipoma");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 76, "varicosities|caviar tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 77, "hypoglossal nerve palsy|tongue deviation");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 77, "tongue fasciculations|als");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 78, "myasthenia gravis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 78, "dysgeusia|taste disturbance");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 79, "ageusia|loss of taste");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 79, "hypogeusia");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 80, "phantogeusia");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 80, "covid tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 81, "transient lingual papillitis|lie bumps");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 81, "enlarged papillae");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 82, "foliate papillitis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 82, "bifid tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 83, "aglossia");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 83, "microglossia");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 84, "cleft tongue");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 85, "ankyloglossia superior");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 85, "glossoptosis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 86, "tongue tremor");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 86, "orofacial granulomatosis");  // 2026-11-04 · INBDE
+board("Name a tongue condition", 88, "erythroplakia");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 45, "sugary drinks|sugar sweetened beverages");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 45, "regular soda");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 46, "fruit punch");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 46, "kool aid");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 47, "frappuccino|sugary coffee drinks");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 48, "bubble tea|boba");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 48, "milkshakes");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 49, "chocolate milk");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 49, "flavored milk");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 50, "smoothies");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 50, "sweetened yogurt");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 51, "condensed milk");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 51, "baby formula at bedtime");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 55, "cereal bars");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 56, "muffins");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 56, "pancakes with syrup");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 57, "waffles");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 57, "french toast");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 58, "bagels");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 58, "pretzels");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 59, "potato chips");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 59, "french fries");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 60, "goldfish crackers");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 61, "white rice");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 61, "pizza");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 62, "bread");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 62, "tortilla chips");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 63, "popcorn");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 63, "starchy foods");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 64, "fruit snacks");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 64, "fruit leather");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 65, "dried apricots");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 65, "dates");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 66, "figs");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 66, "bananas");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 66, "grapes");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 67, "jam|jelly");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 67, "peanut butter and jelly");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 68, "nutella");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 68, "marshmallows");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 69, "toffee");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 69, "taffy");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 70, "jelly beans");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 70, "licorice");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 71, "sour gummies|sour patch kids");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 72, "hard candies");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 72, "cotton candy");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 73, "candy canes");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 73, "chewing gum with sugar");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 74, "mints");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 74, "brownies");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 75, "cupcakes");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 75, "pie");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 76, "ice pops|popsicles");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 77, "sherbet");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 77, "frozen yogurt");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 78, "sweetened condiments|ketchup");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 78, "barbecue sauce");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 79, "agave");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 79, "maple syrup");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 81, "molasses");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 82, "glucose");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 82, "fructose");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 83, "maltose");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 83, "beer");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 84, "cider");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 84, "mixed drinks|cocktails");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 85, "wine coolers");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 85, "sports gels|energy chews");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 86, "protein bars");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 86, "sweetened oatmeal");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 87, "cough syrup");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 87, "liquid medicines with sugar");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 88, "vitamin gummies");  // 2026-11-04 · INBDE
+board("Name a food or drink that causes cavities", 88, "lemon drops");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 45, "amine fluoride|olaflur");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 45, "stannous chloride");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 46, "zinc chloride");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 46, "zinc oxide");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 47, "zinc lactate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 47, "potassium citrate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 48, "potassium chloride");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 48, "strontium acetate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 49, "cpp acp|recaldent");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 49, "calcium phosphate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 50, "tricalcium phosphate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 50, "calcium glycerophosphate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 51, "sodium trimetaphosphate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 51, "sodium hexametaphosphate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 52, "sodium tripolyphosphate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 52, "tetrapotassium pyrophosphate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 53, "pyrophosphates");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 53, "gantrez|pvm ma copolymer");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 53, "cetylpyridinium chloride|cpc");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 54, "chlorhexidine");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 54, "essential oils");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 55, "eucalyptol");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 55, "thymol");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 56, "methyl salicylate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 56, "spearmint oil");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 57, "wintergreen");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 57, "cinnamon|cinnamaldehyde");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 57, "clove oil|eugenol");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 58, "tea tree oil");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 58, "neem");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 59, "miswak extract");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 59, "aloe vera");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 60, "propolis");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 60, "enzymes|papain|bromelain");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 61, "lactoperoxidase|biotene enzymes");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 61, "lysozyme");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 61, "glucose oxidase");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 62, "probiotics");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 62, "carbamide peroxide");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 63, "calcium peroxide");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 63, "pap|phthalimidoperoxycaproic acid");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 64, "blue covarine");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 64, "perlite");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 65, "alumina|aluminum oxide");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 65, "aluminum hydroxide");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 66, "sodium metaphosphate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 66, "magnesium carbonate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 67, "bentonite clay");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 67, "kaolin");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 68, "pumice");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 68, "diamond powder");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 68, "humectants");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 69, "propylene glycol");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 69, "polyethylene glycol|peg");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 70, "binders|thickeners");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 70, "carbomer");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 71, "sodium carboxymethylcellulose|carboxymethylcellulose");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 71, "hydroxyethyl cellulose");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 72, "guar gum");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 72, "sodium alginate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 72, "gum arabic");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 73, "detergent|surfactant");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 73, "sodium lauroyl sarcosinate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 74, "poloxamer 407");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 74, "sodium methyl cocoyl taurate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 75, "sodium benzoate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 75, "parabens|methylparaben");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 76, "potassium sorbate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 76, "sweeteners");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 76, "sucralose");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 77, "acesulfame potassium");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 77, "aspartame");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 78, "erythritol");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 78, "monk fruit");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 79, "sodium hydroxide");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 80, "trisodium phosphate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 80, "sodium phosphate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 80, "citric acid");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 81, "preservatives");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 82, "mica");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 82, "limonene");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 83, "anethole");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 83, "vanilla");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 84, "coconut oil");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 85, "bioactive glass");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 85, "vitamin e");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 86, "green tea extract");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 86, "cocoa extract|theobromine");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 87, "salt|sodium chloride");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 87, "aloe barbadensis");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 88, "polysorbate");  // 2026-11-04 · INBDE
+board("Name an ingredient in toothpaste", 88, "silicon dioxide");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 46, "calculus|tartar");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 46, "poor oral hygiene");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 47, "hard toothbrush");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 48, "overhanging fillings");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 49, "ill fitting crown");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 50, "food impaction");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 50, "orthodontic appliances");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 51, "mouth breathing");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 51, "necrotizing gingivitis|anug|trench mouth");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 52, "pregnancy tumor");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 54, "menstrual cycle");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 54, "oral contraceptives");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 55, "menopause");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 56, "warfarin|coumadin");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 56, "heparin");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 57, "apixaban|eliquis");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 58, "rivaroxaban|xarelto");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 58, "clopidogrel|plavix");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 59, "fish oil");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 59, "ginkgo");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 60, "vitamin e supplements");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 60, "chemotherapy");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 61, "radiation");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 63, "aplastic anemia");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 64, "idiopathic thrombocytopenic purpura|itp");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 64, "thrombotic thrombocytopenic purpura|ttp");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 65, "dic|disseminated intravascular coagulation");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 66, "hemophilia a");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 66, "hemophilia b");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 67, "factor deficiency");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 67, "liver cirrhosis");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 68, "alcoholism");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 69, "malnutrition");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 70, "vitamin b12 deficiency");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 70, "folate deficiency");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 71, "iron deficiency anemia");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 71, "hiv associated gingivitis");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 72, "linear gingival erythema");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 73, "herpetic gingivostomatitis");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 73, "candidiasis");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 74, "desquamative gingivitis");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 74, "lichen planus");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 75, "mucous membrane pemphigoid");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 75, "pemphigus vulgaris");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 76, "lupus");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 77, "crohn disease");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 77, "wegener granulomatosis|granulomatosis with polyangiitis|strawberry gingivitis");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 78, "sarcoidosis");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 78, "hereditary hemorrhagic telangiectasia");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 79, "ehlers danlos");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 79, "cushing syndrome|steroids");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 80, "kidney disease");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 81, "gingival enlargement");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 81, "cyclosporine");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 82, "nifedipine|calcium channel blockers");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 83, "trauma|injury to gums");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 83, "tongue piercing");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 84, "peri implantitis");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 85, "pericoronitis");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 85, "after dental cleaning");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 86, "after extraction");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 86, "chewing tobacco");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 87, "oral cancer");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 87, "kaposi sarcoma");  // 2026-11-04 · INBDE
+board("Name a cause of bleeding gums", 88, "pyogenic granuloma");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 45, "xerostomia");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 46, "polypharmacy");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 46, "tricyclic antidepressants|amitriptyline");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 47, "ssris");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 47, "benzodiazepines");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 48, "anticonvulsants");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 49, "beta blockers");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 49, "clonidine");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 50, "ace inhibitors");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 50, "calcium channel blockers");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 51, "atropine");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 51, "scopolamine");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 52, "oxybutynin");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 52, "tolterodine");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 53, "diphenhydramine|benadryl");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 53, "pseudoephedrine");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 54, "amphetamines|adderall");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 55, "isotretinoin|accutane");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 55, "bupropion");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 56, "lithium");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 56, "tramadol");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 57, "cyclobenzaprine");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 57, "benztropine");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 58, "glycopyrrolate");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 59, "head and neck radiation");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 59, "radioactive iodine");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 60, "surgery on salivary glands");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 60, "sialadenitis");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 61, "mumps");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 61, "sarcoidosis");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 62, "amyloidosis");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 63, "lupus");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 63, "rheumatoid arthritis");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 64, "scleroderma");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 64, "primary biliary cholangitis");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 65, "hepatitis c");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 65, "ectodermal dysplasia");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 66, "salivary gland aplasia");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 66, "cystic fibrosis");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 67, "hypothyroidism");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 68, "diabetes insipidus");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 68, "kidney failure|dialysis");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 69, "fever");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 69, "vomiting");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 70, "diarrhea");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 70, "burns");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 71, "blood loss|hemorrhage");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 72, "heat exhaustion");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 72, "depression");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 73, "stress");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 73, "panic attack");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 74, "eating disorders");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 74, "tobacco|chewing tobacco");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 75, "vaping");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 75, "cocaine");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 76, "ecstasy|mdma");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 76, "heroin");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 77, "alcohol based mouthwash");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 77, "salty foods");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 78, "caffeinated drinks|coffee");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 78, "energy drinks");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 79, "nasal congestion");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 80, "deviated septum");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 80, "allergies");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 81, "sleep apnea");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 82, "oxygen therapy");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 82, "high altitude");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 83, "dry climate|low humidity");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 83, "air conditioning");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 84, "old age");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 84, "pregnancy");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 85, "dementia");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 85, "multiple sclerosis");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 86, "botox injections");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 86, "covid 19");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 87, "hiv salivary gland disease");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 87, "sialolithiasis");  // 2026-11-04 · INBDE
+board("Name a cause of dry mouth", 88, "tumor of salivary gland");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 45, "recent heart attack|myocardial infarction");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 46, "unstable angina");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 46, "angina");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 47, "congestive heart failure");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 47, "arrhythmia|atrial fibrillation");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 47, "implanted defibrillator|icd");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 48, "congenital heart disease");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 48, "cardiac transplant");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 48, "rheumatic heart disease");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 49, "hypertrophic cardiomyopathy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 49, "mitral valve prolapse");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 50, "hypotension|orthostatic hypotension");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 51, "seizure disorder");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 51, "warfarin therapy|inr");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 52, "doacs|novel anticoagulants");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 52, "antiplatelet therapy|aspirin therapy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 52, "hemophilia");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 53, "von willebrand");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 53, "thrombocytopenia");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 53, "anemia");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 54, "neutropenia");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 55, "lymphoma");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 55, "multiple myeloma");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 55, "head and neck cancer");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 56, "chemotherapy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 56, "bisphosphonate therapy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 57, "denosumab|prolia");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 57, "antiresorptive therapy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 57, "osteonecrosis risk");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 58, "kidney failure|dialysis");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 58, "cirrhosis");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 59, "hepatitis b");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 59, "hepatitis c");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 60, "alcohol use disorder");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 60, "substance abuse|opioid use disorder");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 60, "methamphetamine use");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 61, "cocaine use");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 61, "tuberculosis");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 62, "covid 19");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 62, "measles");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 62, "influenza");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 63, "immunocompromised");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 63, "transplant recipient");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 63, "chronic steroid use");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 64, "addison disease");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 64, "cushing syndrome");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 65, "hyperthyroidism|thyrotoxicosis");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 65, "hypothyroidism");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 65, "pheochromocytoma");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 66, "hyperparathyroidism");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 66, "third trimester|supine hypotensive syndrome");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 67, "breastfeeding");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 68, "sleep apnea");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 68, "cystic fibrosis");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 69, "g6pd deficiency");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 69, "methemoglobinemia");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 70, "pseudocholinesterase deficiency");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 70, "porphyria");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 71, "penicillin allergy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 71, "local anesthetic allergy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 71, "sulfite allergy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 72, "nsaid allergy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 72, "codeine allergy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 73, "nickel allergy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 73, "acrylic allergy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 73, "parkinson disease");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 74, "alzheimer disease");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 74, "multiple sclerosis");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 75, "myasthenia gravis");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 75, "cerebral palsy");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 75, "intellectual disability");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 76, "adhd");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 76, "anxiety disorder|dental phobia");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 76, "depression|maoi use");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 77, "bipolar disorder");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 77, "schizophrenia");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 78, "eating disorders|bulimia");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 78, "glaucoma");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 78, "sjogren syndrome");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 79, "lupus");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 79, "rheumatoid arthritis");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 80, "scleroderma");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 80, "ehlers danlos syndrome");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 80, "marfan syndrome");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 81, "osteogenesis imperfecta");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 81, "hemochromatosis");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 81, "obesity");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 82, "sickle cell anemia");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 82, "thalassemia");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 83, "radiation to jaws");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 83, "cochlear implant");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 83, "ventriculoperitoneal shunt");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 84, "cardiac stent");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 85, "hiv/aids");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 85, "kidney transplant");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 85, "liver transplant");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 86, "bone marrow transplant");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 86, "wheelchair user");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 87, "tmj disorder");  // 2026-11-04 · INBDE
+board("Name a medical condition that changes dental treatment", 88, "prosthetic joint");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 45, "brush twice daily");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 46, "floss daily");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 47, "interdental brushes");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 47, "tongue cleaning");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 48, "fluoride mouth rinse");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 49, "fluoride varnish");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 49, "fluoride gel|fluoride foam");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 50, "fluoride supplements|fluoride drops");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 51, "community water fluoridation");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 52, "salt fluoridation");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 52, "milk fluoridation");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 54, "preventive resin restoration");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 54, "resin infiltration");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 55, "arginine toothpaste");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 56, "cpp acp|mi paste");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 56, "stannous fluoride");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 57, "nano hydroxyapatite toothpaste");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 57, "xylitol mints");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 58, "limit snacks");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 59, "limit frequency of sugar");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 59, "eat sweets with meals");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 60, "avoid sticky foods");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 61, "rinse with water after eating");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 62, "avoid juice");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 62, "avoid sugary drinks at bedtime");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 63, "no bottle in bed");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 64, "wipe infant gums");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 64, "first dental visit by age 1");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 66, "dental x rays|bitewings");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 67, "caries risk assessment");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 67, "treat dry mouth");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 68, "saliva stimulation");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 69, "stop smoking");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 69, "use a straw");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 71, "crunchy vegetables");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 71, "healthy snacks");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 72, "less acidic drinks");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 72, "wait to brush after acid");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 73, "manage acid reflux");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 74, "replace toothbrush");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 74, "supervise kids brushing");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 75, "parents not sharing spoons|avoid saliva sharing");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 76, "treat parents' cavities");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 76, "chlorhexidine varnish");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 77, "povidone iodine");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 79, "vitamin d");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 79, "calcium");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 80, "arginine");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 81, "interim therapeutic restorations");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 82, "remineralization");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 82, "oral hygiene instruction");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 83, "diet counseling");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 84, "motivational interviewing");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 85, "maintain orthodontic hygiene");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 86, "sugar alcohols");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 87, "chew gum after meals");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 87, "brush before bed");  // 2026-11-04 · INBDE
+board("Name a way to prevent cavities", 88, "spit dont rinse");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 45, "recurrent aphthous stomatitis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 46, "major aphthous ulcer");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 46, "herpetiform ulcers");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 47, "primary herpetic gingivostomatitis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 48, "varicella|chickenpox");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 49, "coxsackie virus");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 50, "cytomegalovirus");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 50, "epstein barr virus|mononucleosis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 51, "measles");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 51, "gonorrhea");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 52, "histoplasmosis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 52, "blastomycosis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 53, "mucormycosis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 53, "aspergillosis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 54, "necrotizing gingivitis|anug");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 54, "noma");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 56, "cheek biting");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 56, "tongue biting");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 57, "toothbrush injury");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 57, "hot pizza burn");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 58, "chemical burn|aspirin burn");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 58, "hydrogen peroxide burn");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 59, "mouthwash irritation");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 59, "cinnamon allergy");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 59, "food allergies");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 60, "contact allergy|allergic contact stomatitis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 60, "nickel allergy");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 61, "citrus fruits");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 61, "tomatoes");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 62, "pineapple");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 62, "nuts");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 63, "chocolate");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 63, "coffee");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 64, "sodium lauryl sulfate");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 64, "menstruation|hormonal changes");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 65, "vitamin deficiency");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 65, "zinc deficiency");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 66, "vitamin b deficiency");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 66, "anemia");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 67, "ulcerative colitis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 67, "inflammatory bowel disease");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 68, "pfapa syndrome");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 68, "cyclic neutropenia");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 69, "neutropenia");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 69, "leukemia");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 70, "agranulocytosis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 70, "reactive arthritis|reiter syndrome");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 71, "sweet syndrome");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 71, "magic syndrome");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 72, "lichenoid drug reaction");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 72, "methotrexate");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 73, "nicorandil");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 73, "nsaids");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 74, "beta blockers");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 74, "radiation mucositis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 75, "graft versus host disease");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 75, "bullous pemphigoid");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 77, "paraneoplastic pemphigus");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 77, "linear iga disease");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 78, "dermatitis herpetiformis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 78, "epidermolysis bullosa");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 79, "discoid lupus");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 79, "traumatic ulcerative granuloma");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 80, "necrotizing sialometaplasia");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 80, "squamous cell carcinoma");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 81, "lymphoma");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 81, "histiocytosis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 82, "wegener granulomatosis");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 82, "smoking cessation");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 83, "tobacco");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 83, "alcohol");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 84, "cocaine");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 84, "self injury|factitial injury");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 85, "sharp food|chips");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 85, "dental work injury");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 86, "local anesthetic biting|post anesthesia lip biting");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 86, "cotton roll injury");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 87, "hiv ulcers");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 87, "immune deficiency");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 88, "covid 19");  // 2026-11-04 · INBDE
+board("Name a cause of mouth sores", 88, "monkeypox|mpox");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 45, "cdt");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 46, "icd 10 code|diagnosis code");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 46, "attachment");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 46, "narrative");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 47, "x ray attachment");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 47, "clean claim");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 48, "claim denial|denied claim");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 48, "appeal");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 48, "resubmission");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 49, "electronic claim|edi");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 49, "clearinghouse");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 49, "npi number");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 50, "tax id|tin");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 50, "subscriber");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 51, "dependent");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 51, "policyholder");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 51, "member id");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 52, "group number");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 52, "plan year");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 52, "benefit year");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 53, "calendar year maximum");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 53, "lifetime maximum");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 54, "orthodontic lifetime maximum");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 54, "family deductible");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 55, "100 80 50 coverage");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 55, "preventive coverage");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 55, "basic services");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 56, "major services");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 56, "downgrade|alternate benefit");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 56, "least expensive alternative treatment|leat");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 57, "age limit");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 58, "exclusion");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 58, "pre existing condition");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 58, "replacement clause|5 year replacement");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 59, "benefits verification|eligibility verification");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 59, "breakdown of benefits");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 59, "treatment estimate");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 60, "patient portion");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 60, "insurance portion");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 61, "allowed amount");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 61, "maximum allowable charge|mac");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 61, "contracted fee");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 62, "full fee|office fee");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 62, "ucr fee");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 62, "non covered service");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 63, "adjustment");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 63, "courtesy discount");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 64, "refund");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 64, "overpayment");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 64, "credit balance");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 65, "accounts receivable|ar");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 65, "aging report");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 65, "collections");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 66, "payment plan");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 66, "third party financing|carecredit");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 66, "in house membership plan");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 67, "fee for service");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 68, "epo");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 68, "medicare advantage dental");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 69, "tricare dental");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 69, "fehb dental|fedvip");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 70, "secondary insurance");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 70, "primary insurance");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 71, "birthday rule");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 71, "non duplication of benefits");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 71, "standard coordination|carve out");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 72, "assignment of benefits");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 72, "signature on file");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 72, "hipaa");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 73, "coding audit");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 73, "upcoding");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 74, "unbundling");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 74, "insurance fraud");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 74, "medical necessity");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 75, "narrative report");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 75, "claim form|ada claim form");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 75, "cms 1500");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 76, "remittance");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 76, "era|electronic remittance advice");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 77, "eft|electronic funds transfer");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 77, "posting payments");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 77, "day sheet");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 78, "production");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 78, "collections ratio");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 78, "treatment plan acceptance");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 79, "case acceptance");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 79, "annual max rollover");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 79, "waiting period waiver");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 80, "missing tooth exclusion");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 80, "alternate benefit clause");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 81, "open enrollment");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 81, "cobra");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 82, "hsa|health savings account");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 82, "fsa|flexible spending account");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 82, "hra");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 83, "out of pocket maximum");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 83, "credentialing");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 84, "provider network");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 84, "participating provider");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 84, "non participating provider");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 85, "reimbursement");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 85, "claim number");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 85, "date of service");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 86, "tooth number");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 86, "surface code");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 87, "quadrant code");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 87, "d0120|periodic exam code");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 87, "d1110|adult prophy code");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 88, "d4341|srp code");  // 2026-11-04 · INBDE
+board("Name a dental insurance or billing term", 88, "d2740|crown code");  // 2026-11-04 · INBDE

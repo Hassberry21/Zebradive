@@ -4,10 +4,10 @@ import sys, json
 game, out = sys.argv[1], sys.argv[2]
 t = open(game).read()
 URL = "https://www.zebradive.io/"
-TITLE = "Zebra: Daily Healthcare Trivia Game for Med, Nursing, Pharmacy & Dental Students"
-DESC = ("Zebra is a free daily healthcare trivia game. Name a cause, drug or sign, and the rarer your correct "
-        "answer, the deeper your zebra dives. Medicine, nursing, pharmacy and dental modes, plus board prep "
-        "for USMLE, PANCE, NP boards, NCLEX, NAPLEX and dental boards.")
+TITLE = "ZebraDive: Free Daily Medical Trivia Game and Quiz for Med, Nursing, Pharmacy and Dental"
+DESC = ("ZebraDive (Zebra) is a free daily medical trivia game and quiz, like Krillion for healthcare. Name a cause, "
+        "drug or sign: the rarer your correct answer, the deeper your zebra dives. Medicine, nursing, pharmacy and "
+        "dental modes, a 60-second Daily Stampede, and board prep for USMLE, NCLEX, NAPLEX and PANCE.")
 
 faq = [
  ("What is Zebra?", "Zebra is a free daily trivia game for healthcare students and professionals. Every day you get 7 prompts, like \"Name a cause of chest pain\" or \"Name an antibiotic.\" Correct but obvious answers barely score; rare correct answers send your zebra diving deep. The name comes from the medical saying \"when you hear hoofbeats, think horses, not zebras.\""),
@@ -15,16 +15,18 @@ faq = [
  ("Which fields are included?", "Medicine (for physicians, PAs and NPs), Nursing, Pharmacy and Dental each have their own daily prompts, and Mixed blends them all. Each field gets a new set of 7 prompts every midnight, the same for everyone in that field."),
  ("Is there board exam practice?", "Yes. Board Prep mode has exam-style prompts for USMLE and COMLEX, the PANCE, NP boards (AANP and ANCC), the NCLEX, the NAPLEX and dental boards."),
  ("How are scores ranked?", "After each daily dive you see a bell curve and a percentile that compare you only with people in your own profession and mode, plus a career title from student to the top of your field. Daily streaks track how many days in a row you've played."),
+ ("Is Zebra like Krillion?", "Yes. If you like Krillion, the daily game where rarer correct answers score more, ZebraDive brings the same idea to healthcare: medical, nursing, pharmacy and dental prompts where the rarest correct answer wins. There's also a 60-second Daily Stampede where you name as many answers as you can."),
+ ("Is Zebra a good way to study?", "It's a fun way to review. Every prompt is a quick medical quiz on causes, drugs, signs and anatomy, and seeing the rare answers other players found exposes you to zebras you might see on boards or on the wards."),
  ("Is Zebra free?", "Yes. Zebra is free, needs no account and works in any browser on phone or computer."),
 ]
 
 head = f'''<meta name="description" content="{DESC}">
 <link rel="canonical" href="{URL}">
 <meta name="robots" content="index, follow">
-<meta name="keywords" content="healthcare trivia game, medical trivia, nursing game, pharmacy trivia, dental trivia, NCLEX practice game, USMLE practice game, PANCE practice, NAPLEX practice, daily medical game, medical Wordle">
+<meta name="keywords" content="zebradive, zebra dive, medical trivia, medical quiz, medical trivia game, healthcare trivia game, krillion medical, games like krillion, nursing game, pharmacy trivia, dental trivia, NCLEX practice game, USMLE practice game, PANCE practice, NAPLEX practice, daily medical game, medical Wordle">
 <meta name="theme-color" content="#0c0a20">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Zebra">
+<meta property="og:site_name" content="ZebraDive">
 <meta property="og:url" content="{URL}">
 <meta property="og:title" content="Zebra: the daily healthcare trivia dive">
 <meta property="og:description" content="7 new healthcare prompts every day. Obvious answers barely move you; rare ones send your zebra diving deep. Medicine, nursing, pharmacy, dental and board prep.">
@@ -43,7 +45,7 @@ head = f'''<meta name="description" content="{DESC}">
 <script type="application/ld+json">{json.dumps({
   "@context":"https://schema.org",
   "@graph":[
-    {"@type":"WebSite","@id":URL+"#website","url":URL,"name":"Zebra","alternateName":"Zebradive","description":DESC,"inLanguage":"en"},
+    {"@type":"WebSite","@id":URL+"#website","url":URL,"name":"ZebraDive","alternateName":["Zebra","Zebra Dive","zebradive.io"],"description":DESC,"inLanguage":"en"},
     {"@type":"WebApplication","@id":URL+"#game","name":"Zebra","url":URL,"applicationCategory":"GameApplication",
      "genre":["Trivia","Educational game"],"operatingSystem":"Any (web browser)","isAccessibleForFree":True,
      "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
@@ -60,7 +62,7 @@ analytics = '''<!-- Vercel Web Analytics (only active when hosted on Vercel) -->
 '''
 
 about = '<details class="about"><summary>ABOUT ZEBRA &amp; FAQ</summary>\n' + \
-  '<p>Zebra is a free <strong>daily healthcare trivia game</strong> for medical, nursing, pharmacy, dental, PA and NP students and professionals.</p>\n' + \
+  '<p>ZebraDive (Zebra) is a free <strong>daily medical trivia game and quiz</strong> for medical, nursing, pharmacy, dental, PA and NP students and professionals.</p>\n' + \
   "".join(f"<h3>{q}</h3>\n<p>{a}</p>\n" for q,a in faq) + \
   '<p class="credit">Rarity-scoring mechanic inspired by Krillion. Answer lists and rarity scores are estimates for learning and fun, not medical advice.</p>\n</details>'
 

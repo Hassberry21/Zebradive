@@ -11649,3 +11649,829 @@ board("Name a chronic disease", 87, "common variable immunodeficiency");  // 202
 board("Name a chronic disease", 87, "pernicious anemia");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
 board("Name a chronic disease", 88, "hypopituitarism");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
 board("Name a chronic disease", 88, "diabetes insipidus");  // 2026-11-04 · USMLE/NCLEX/NAPLEX/INBDE
+board("Name a cause of heart palpitations", 70, "sinus tachycardia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "premature atrial contractions|pacs|premature atrial complexes|atrial ectopics");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 65, "multifocal atrial tachycardia|mat");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 65, "av nodal reentrant tachycardia|avnrt");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "av reentrant tachycardia|avrt");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "torsades de pointes|torsades");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 75, "arrhythmogenic right ventricular cardiomyopathy|arvc|arvd");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "complete heart block|third degree heart block|av block");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 65, "bradycardia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 50, "thyroid storm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 65, "hypercalcemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "hyperkalemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "aortic regurgitation|aortic insufficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "mitral regurgitation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "myocarditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "pericarditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "beta blocker withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "theophylline");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "digoxin toxicity|digitalis toxicity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "tricyclic antidepressants|tca overdose");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "methamphetamine|meth");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "mdma|ecstasy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "anticholinergics");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "salbutamol");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 50, "marijuana|cannabis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "benzodiazepine withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "generalized anxiety disorder|gad");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "sepsis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 50, "hypovolemia|blood loss|hemorrhage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "carcinoid syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 65, "insulinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "vasovagal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "orthostatic hypotension");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "high output heart failure");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 65, "arteriovenous fistula|av fistula");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 65, "beriberi|thiamine deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "paget disease of bone");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 50, "perimenopause");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 50, "hormonal changes|menstruation|period");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "chocolate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 45, "tea");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "diet pills|phentermine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "qt prolonging drugs");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "antihistamines");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "antidepressants|ssris");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 65, "hydralazine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "minoxidil");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "nitrates|nitroglycerin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "dihydropyridines|nifedipine|amlodipine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "atropine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "epinephrine|adrenaline");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "dobutamine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "congenital heart disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "atrial septal defect|asd");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "ebstein anomaly");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "mitral stenosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "catecholaminergic polymorphic ventricular tachycardia|cpvt");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "short qt syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 65, "sarcoidosis|cardiac sarcoidosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 75, "inappropriate sinus tachycardia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 70, "opioid withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 65, "subclinical hyperthyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "toxic multinodular goiter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of heart palpitations", 60, "toxic adenoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "de quervain thyroiditis|subacute thyroiditis|granulomatous thyroiditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "postpartum thyroiditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "silent thyroiditis|painless thyroiditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "riedel thyroiditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "toxic multinodular goiter|plummer disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "toxic adenoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "secondary hyperaldosteronism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "cushing disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "ectopic acth syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "adrenal incidentaloma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "adrenocortical carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "21 hydroxylase deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "11 beta hydroxylase deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "17 alpha hydroxylase deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "nelson syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 50, "hyperprolactinemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "craniopharyngioma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "central diabetes insipidus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "nephrogenic diabetes insipidus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "hypoglycemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "hypocalcemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "secondary hyperparathyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "tertiary hyperparathyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "pseudohypoparathyroidism|albright hereditary osteodystrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 75, "pseudopseudohypoparathyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "familial hypocalciuric hypercalcemia|fhh");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "men2b|men 2b");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "medullary thyroid cancer|medullary thyroid carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "papillary thyroid cancer|papillary thyroid carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "follicular thyroid cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "anaplastic thyroid cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "glucagonoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "vipoma|verner morrison");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "somatostatinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "gastrinoma|zollinger ellison syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "neuroendocrine tumor|net");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "euthyroid sick syndrome|sick euthyroid|nonthyroidal illness");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "congenital hypothyroidism|cretinism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "thyroid hormone resistance");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "androgen insensitivity syndrome|testicular feminization");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "5 alpha reductase deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "premature ovarian failure|primary ovarian insufficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "hypogonadotropic hypogonadism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "hypergonadotropic hypogonadism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "laron syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "pituitary adenoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "nonfunctioning pituitary adenoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "lymphocytic hypophysitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "cerebral salt wasting");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "autoimmune polyglandular syndrome|aps|schmidt syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "mccune albright syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "von hippel lindau|vhl");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "primary pigmented nodular adrenocortical disease|carney complex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 50, "obesity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "osteomalacia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "rickets");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "vitamin d deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "hypophosphatemia|x linked hypophosphatemia|vitamin d resistant rickets");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "hyperosmolar hyperglycemic nonketotic state|hhs|hhns");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "subclinical hypothyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "subclinical hyperthyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "struma ovarii");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "inappropriate tsh secretion|tsh secreting adenoma|thyrotropinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "acth deficiency|secondary adrenal insufficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "isolated gonadotropin deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 60, "gestational thyrotoxicosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "amiodarone induced thyroid disease|amiodarone thyrotoxicosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "neonatal diabetes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "cystic fibrosis related diabetes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 65, "steroid induced diabetes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an endocrine disorder", 70, "hyperinsulinism|congenital hyperinsulinism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "ulnar neuropathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "radial nerve palsy|saturday night palsy|wrist drop");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "peroneal nerve palsy|foot drop|fibular nerve palsy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "hypokalemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "hypomagnesemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "cauda equina syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 50, "vitamin b1 deficiency|thiamine deficiency|beriberi");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "vitamin e deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "copper deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "folate deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "vasculitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "polyarteritis nodosa|pan");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "granulomatosis with polyangiitis|gpa|wegener");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "eosinophilic granulomatosis with polyangiitis|egpa|churg strauss");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "rheumatoid arthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "sarcoidosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "hepatitis c|cryoglobulinemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "arsenic poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "mercury poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 65, "thallium poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "organophosphates|organophosphate poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "vincristine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "cisplatin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "paclitaxel|taxanes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "bortezomib");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "thalidomide");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "linezolid");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "fluoroquinolones|ciprofloxacin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "nitrofurantoin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "hiv medications|stavudine|didanosine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "phenytoin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "dapsone");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "amiodarone");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "statins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "colchicine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "nitrous oxide|whippets|laughing gas");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "transverse myelitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "spinal cord compression");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "subacute combined degeneration");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "tabes dorsalis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "syringomyelia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "anterior spinal artery syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "cervical myelopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "seizure|focal seizure");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "migraine aura");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 50, "brain abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "thalamic stroke");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "lateral medullary syndrome|wallenberg");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "bell palsy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "trigeminal neuralgia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "postherpetic neuralgia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "lumbar radiculopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "piriformis syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "brachial plexus injury|stinger|burner");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "brachial neuritis|parsonage turner");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "compartment syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "cold injury|chilblains");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "insect bite|spider bite|snake bite");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "shellfish poisoning|paralytic shellfish poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "tetrodotoxin|pufferfish");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "botulism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "diphtheria");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "lambert eaton syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "paraneoplastic syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "multiple myeloma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "mgus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "waldenstrom macroglobulinemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "amyloid neuropathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "uremia|uremic neuropathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "hypoparathyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "hypercalcemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "hypothermia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "hereditary neuropathy with liability to pressure palsies|hnpp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "fabry disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "refsum disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "adrenomyeloneuropathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "deep vein thrombosis|dvt");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "arterial embolism|acute limb ischemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "raynaud disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "scleroderma|systemic sclerosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "rheumatoid vasculitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "repetitive strain injury");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 50, "conversion disorder|functional neurological disorder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "west nile virus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "lyme radiculopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "cervical spondylosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "whiplash");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "pronator teres syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "guyon canal syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "anterior interosseous syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 60, "lateral femoral cutaneous nerve entrapment");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "celiac disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "bariatric surgery|gastric bypass");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "metformin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "vitamin b6 deficiency|pyridoxine deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "lidocaine toxicity|local anesthetic toxicity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of numbness or tingling", 70, "pregnancy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vaccine-preventable disease", 60, "genital warts");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vaccine-preventable disease", 70, "epiglottitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vaccine-preventable disease", 70, "otitis media");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vaccine-preventable disease", 65, "meningococcal b|men b|meningococcus b|serogroup b");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vaccine-preventable disease", 70, "congenital rubella syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vaccine-preventable disease", 60, "subacute sclerosing panencephalitis|sspe");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vaccine-preventable disease", 60, "h1n1|swine flu");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vaccine-preventable disease", 60, "rsv bronchiolitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "penlight|pen torch");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "vaginal speculum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "nasal speculum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "ear speculum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "headlamp|head mirror");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "bladder scanner");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "tympanometer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "ecg electrodes|electrodes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "cardiac monitor|telemetry");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "capnograph|capnography|end tidal co2 monitor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "cpap machine|cpap|bipap");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "high flow nasal cannula");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "non rebreather mask|non rebreather|nrb");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "venturi mask");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "suction catheter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "urinary drainage bag");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "sequential compression device|scd|compression stockings");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "hypodermic needle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "butterfly needle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "vacutainer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "blood culture bottles");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "sharps container");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "kidney dish|emesis basin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "bedpan|urinal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "walker|zimmer frame");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "cane");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "hearing aid");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "eeg machine|eeg");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "emg machine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "mri machine|mri scanner");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "ct scanner");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "fluoroscope|c arm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "mammography machine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "dexa scanner");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "gamma camera|pet scanner");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "linear accelerator");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "lithotripter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "electrosurgical unit");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "cryoprobe|liquid nitrogen");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "fetoscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "fetal monitor|ctg|cardiotocograph");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "amnioscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "cord clamp|umbilical clamp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "bulb syringe");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "stadiometer|height measure");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "pessary");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "iud inserter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "hysteroscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "ureteroscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "nephroscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "resectoscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "thoracoscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "mediastinoscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "duodenoscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "gastroscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "capsule endoscope|pill camera");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "videolaryngoscope|glidescope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "tracheostomy tube|trach tube");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "combitube|king airway|supraglottic airway");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "magill forceps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "adson forceps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "debakey forceps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "tissue forceps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "mosquito forceps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "rat tooth forceps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "bayonet forceps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "sponge forceps|ring forceps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "towel clip");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "backhaus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "iris scissors");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "suture scissors");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "bandage scissors|trauma shears");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "bard parker|scalpel handle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "periosteal elevator");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "freer elevator");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "kerrison rongeur");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "bone curette");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "bone cutter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "bone rasp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "reamer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "k wire|kirschner wire");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "orthopedic screws|bone screws");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "orthopedic plate|bone plate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "intramedullary nail|im nail");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "external fixator");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "traction device|thomas splint");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "halo|halo brace");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "ace bandage|elastic bandage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "steri strips");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "skin glue|dermabond|tissue adhesive");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "suture needle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "staple remover");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "wound vac|negative pressure wound therapy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "hemoclip|surgical clip");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "endoloop");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "endostapler|gia stapler");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "circular stapler|eea stapler");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "bulldog clamp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "satinsky clamp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "right angle clamp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "crile");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "rochester pean");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "lahey clamp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "duval clamp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "mixter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "malleable retractor|ribbon retractor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "rib spreader|finochietto");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "sternal saw");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "self retaining retractor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "omni retractor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "volkmann retractor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "hohmann retractor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "frazier suction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "poole suction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "pool tip suction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "trephine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "craniotome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "burr|burr drill");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "dural hook");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "nerve hook");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "aneurysm clip");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "embolectomy catheter|fogarty catheter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "guidewire");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "sheath|introducer sheath");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "balloon catheter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "iabp|intra aortic balloon pump");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "impella|ventricular assist device|lvad");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "transcutaneous pacer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "cricothyrotomy kit");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "pericardiocentesis needle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "thoracentesis kit");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "paracentesis needle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "chest drain|pleur evac");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "heimlich valve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "jackson pratt drain|jp drain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "penrose drain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "hemovac");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "blake drain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "t tube");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "nephrostomy tube");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "suprapubic catheter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "coude catheter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "three way catheter|irrigation catheter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "condom catheter|texas catheter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "rectal tube|flexi seal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "sengstaken blakemore tube|minnesota tube");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 60, "dobhoff|feeding tube");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "insulin pump");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "continuous glucose monitor|cgm|dexcom|freestyle libre");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "epipen|epinephrine autoinjector");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "metered dose inhaler|mdi");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "dry powder inhaler");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "humidifier");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "oxygen tank|oxygen cylinder|oxygen concentrator");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "flowmeter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "manometer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "pressure transducer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "vein finder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "bovie pad|grounding pad");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "headlight");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "loupes|surgical loupes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "cytobrush|pap smear brush|spatula");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "endocervical brush");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "punch biopsy tool|biopsy punch");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "comedone extractor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "nail clippers|nail nippers");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "shave biopsy blade");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "cryotherapy gun");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "neurotip|pinwheel|wartenberg wheel");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "visual acuity chart|rosenbaum card");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "ishihara plates");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "amsler grid");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "tonopen|tono pen");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "gonioscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "retinoscope");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "keratometer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "lensometer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "phoropter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "fundus camera");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "dental mirror");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "dental drill");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "dental probe|explorer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "tongue retractor|mouth gag");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "bite block");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "nasal packing|rhino rocket");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "ear curette|cerumen loop");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "alligator forceps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "event monitor|loop recorder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "implantable cardioverter defibrillator|icd");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "lucas device|mechanical cpr device");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "cooling blanket|arctic sun");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "warming blanket|bair hugger");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "blood warmer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "rapid infuser|level 1");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "pressure bag");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "syringe pump");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "pca pump");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "epidural catheter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "spinal anesthesia needle|quincke|whitacre");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "nerve stimulator");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "anesthesia machine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "vaporizer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "laryngeal tube");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "stylet");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "tube exchanger");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "hand held dynamometer|dynamometer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "pinch gauge");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "plethysmograph|body box");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "tens unit");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "hyperbaric chamber");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "radiant warmer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "phototherapy|bili lights");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical instrument or tool", 70, "apnea monitor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a reflex", "accommodation", "near reflex|near triad");  // 2026-11-04 · USMLE · same answer
+board("Name a reflex", 70, "oculovestibular|caloric reflex|cold caloric");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "vestibulospinal reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "optokinetic reflex|okn");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "finger flexor reflex|finger jerk");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "adductor reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "hamstring reflex|medial hamstring|semimembranosus reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "schaefer reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "bing reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "stransky");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "asymmetric tonic neck reflex|atnr");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "symmetric tonic neck reflex|stnr");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "tonic labyrinthine reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "placing reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "babkin reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "positive support reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "neck righting reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "body righting reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "labyrinthine righting");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a reflex", "parachute", "protective extension");  // 2026-11-04 · USMLE · same answer
+board("Name a reflex", 60, "bezold jarisch reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "vasovagal reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "cardiopulmonary reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "j reflex|pulmonary chemoreflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "enterogastric reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "gastroileal reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "rectoanal inhibitory reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "vesicovesical reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "ferguson reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "lordosis reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "tympanic reflex|acoustic reflex|stapedius reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "attenuation reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 70, "menace reflex|blink to threat");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "dazzle reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "trigeminocardiac reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "conditioned reflex|pavlovian reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "unconditioned reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "mayer reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "rossolimo reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "mendel bechterew");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "wartenberg reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a reflex", 60, "pendular reflex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "vulva");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "scrotum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "sinuses|paranasal sinuses");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "epiglottis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "gums|gingiva");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "bulbourethral glands|cowper glands");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "bartholin glands");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "umbilical cord");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "inner ear");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "middle ear");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "vestibular system");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "eardrum|tympanic membrane");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name an organ of the human body", 70, "adipose tissue|fat");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "acalculous cholecystitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "choledocholithiasis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "ascending cholangitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "chronic pancreatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "alcoholic hepatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "fatty liver");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "liver cancer|hepatocellular carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "hepatic congestion|congestive hepatopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "spontaneous bacterial peritonitis|sbp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "tubo ovarian abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "placental abruption");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "uterine rupture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "preeclampsia|hellp syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "acute fatty liver of pregnancy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "miscarriage|spontaneous abortion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "round ligament pain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "epididymitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "prostatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "urinary retention");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "renal infarction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "renal vein thrombosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "aortic dissection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "pulmonary embolism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "pericarditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "esophagitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "boerhaave syndrome|esophageal rupture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "zollinger ellison syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "gastric outlet obstruction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "incarcerated hernia|strangulated hernia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "femoral hernia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "obturator hernia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "spigelian hernia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "hiatal hernia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "toxic megacolon");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "pseudomembranous colitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "infectious colitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "shigella");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "salmonella");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "campylobacter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "e coli|ehec|o157");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "yersinia|pseudoappendicitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "norovirus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "rotavirus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "amoebiasis|entamoeba histolytica");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "ascariasis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "tapeworm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "typhoid");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "mesenteric adenitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "ovarian cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "carcinoid tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "radiation enteritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "microscopic colitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "eosinophilic gastroenteritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "whipple disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "tropical sprue");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "bezoar");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "foreign body ingestion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "gallstone ileus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "midgut volvulus|malrotation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "hirschsprung disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "necrotizing enterocolitis|nec");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "colic|infant colic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "strep throat");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "lead colic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "opioid withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "narcotic bowel syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "methanol poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "iron overdose");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "acetaminophen overdose");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "alcohol withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "uremia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "hyperparathyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "ogilvie syndrome|acute colonic pseudo obstruction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "hereditary pancreatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "hypertriglyceridemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "paroxysmal nocturnal hemoglobinuria|pnh");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "lupus serositis|lupus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "polyarteritis nodosa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "endometrioma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "adenomyosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "ovarian hyperstimulation syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "retroperitoneal hemorrhage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "psoas abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "pelvic congestion syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "interstitial cystitis|bladder pain syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "hydronephrosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "polycystic kidney disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "splenic abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "splenomegaly");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "hepatomegaly");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "abdominal angina|chronic mesenteric ischemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "diabetic radiculopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "aerophagia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "fructose intolerance");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "cholangiocarcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "gallbladder cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "gallbladder polyp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "biliary dyskinesia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "hydatid cyst|echinococcus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "hepatic adenoma rupture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "pancreatic pseudocyst");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "duodenal hematoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "liver laceration");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "slipping rib syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "rib fracture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of abdominal pain", 70, "renal abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "juvenile myoclonic epilepsy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "status epilepticus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "febrile seizures");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "hemorrhagic stroke|intracerebral hemorrhage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "subdural hematoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "epidural hematoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "cerebral venous sinus thrombosis|cvst");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "lacunar stroke");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "vascular malformation|avm|arteriovenous malformation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "cavernous malformation|cavernoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "bacterial meningitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "viral meningitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "herpes encephalitis|hsv encephalitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "brain abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "neurocysticercosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "toxoplasmosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "cryptococcal meningitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "rabies");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "tetanus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "botulism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "lyme neuroborreliosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "hiv dementia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "tension headache");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "medication overuse headache");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "occipital neuralgia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "glossopharyngeal neuralgia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "hemiplegic migraine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "parkinson plus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "drug induced parkinsonism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "wilson disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "sydenham chorea");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "hemiballismus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "myoclonus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "tic disorder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "spinocerebellar ataxia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "ataxia telangiectasia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "cerebellar degeneration");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "alcoholic cerebellar degeneration");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "duchenne muscular dystrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "becker muscular dystrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "myotonic dystrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "facioscapulohumeral dystrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "limb girdle muscular dystrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "polymyositis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "dermatomyositis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "inclusion body myositis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "periodic paralysis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "mcardle disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "pompe disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "mononeuritis multiplex");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "brachial plexopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "erb palsy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "klumpke palsy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "horner syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "ulnar nerve palsy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "radial nerve palsy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "peroneal palsy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "diabetic amyotrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "b12 deficiency neuropathy|subacute combined degeneration");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "krabbe disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "metachromatic leukodystrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "adrenoleukodystrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "tay sachs");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "niemann pick");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "gaucher disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "phenylketonuria");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "neurofibromatosis type 2");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "von hippel lindau");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "dandy walker malformation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "holoprosencephaly");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "anencephaly");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "microcephaly");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "lissencephaly");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "agenesis of the corpus callosum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "tethered cord");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "cauda equina syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "conus medullaris syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "anterior cord syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "central cord syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "spinal stenosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "radiculopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "myelopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "cervical spondylotic myelopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "primary lateral sclerosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "progressive muscular atrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "kennedy disease|spinal bulbar muscular atrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "post concussion syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "chronic traumatic encephalopathy|cte");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "diffuse axonal injury");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "anoxic brain injury|hypoxic ischemic encephalopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "hepatic encephalopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "uremic encephalopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "posterior reversible encephalopathy syndrome|pres");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "reversible cerebral vasoconstriction syndrome|rcvs");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "hypertensive encephalopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "mild cognitive impairment");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "transient global amnesia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "amnesia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "neuroleptic malignant syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "serotonin syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "autonomic dysfunction|dysautonomia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "rem sleep behavior disorder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "cns vasculitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "neurosarcoidosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "autoimmune encephalitis|anti nmda receptor encephalitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "paraneoplastic cerebellar degeneration");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "limbic encephalitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "meningioma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "pituitary adenoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "acoustic neuroma|vestibular schwannoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "medulloblastoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "ependymoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "astrocytoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "oligodendroglioma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "brain metastases");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "cns lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "optic neuritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "internuclear ophthalmoplegia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "cranial nerve palsy|third nerve palsy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "sixth nerve palsy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "ramsay hunt syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "phantom limb pain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "neuropathic pain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "shaken baby syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "kernicterus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "lead encephalopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "reye syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "binswanger disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a neurological disorder", 70, "sleep paralysis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "vestibular schwannoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "ramsay hunt syndrome|herpes zoster oticus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "cholesteatoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "otitis media");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "otosclerosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "barotrauma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "ototoxicity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "gentamicin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "cisplatin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "loop diuretics");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "aspirin toxicity|salicylates");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "quinine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "wernicke encephalopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "cerebellar hemorrhage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "brainstem stroke");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "lateral medullary syndrome|wallenberg syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "aica stroke|anterior inferior cerebellar artery stroke");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "pica stroke");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "basilar migraine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "vertebral artery dissection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "subclavian steal syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "posterior circulation stroke");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of dizziness or vertigo", "arrhythmia", "bradycardia|heart block");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of dizziness or vertigo", 70, "sick sinus syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "ventricular tachycardia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "supraventricular tachycardia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "atrial fibrillation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "hypertrophic cardiomyopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "heart failure");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "pulmonary embolism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "hypovolemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "blood loss|hemorrhage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "gi bleed");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "sepsis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "autonomic neuropathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "multiple system atrophy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "adrenal insufficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "hyponatremia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "hypokalemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "hyperglycemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "pheochromocytoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "b12 deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "head trauma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "whiplash");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "temporal bone fracture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "cerebellopontine angle tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "meningioma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "panic disorder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "phobic postural vertigo");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "sedatives");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "antidepressants");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "antipsychotics");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "antihistamines");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "opioids");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "muscle relaxants");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "alpha blockers|tamsulosin|terazosin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "nitrates");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "diuretics");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "beta blockers");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "sildenafil");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "phenytoin toxicity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "carbamazepine toxicity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "lithium toxicity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "metronidazole");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "heat illness");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "menopause");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "eustachian tube dysfunction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "sinusitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "lyme disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "syphilis otosyphilis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "autoimmune inner ear disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "cogan syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "susac syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "enlarged vestibular aqueduct");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "vestibular paroxysmia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "bilateral vestibulopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "cervical vertigo");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "orthostatic tachycardia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "visual vertigo");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "caffeine withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "cannabis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of dizziness or vertigo", 70, "hunger|skipping meals");  // 2026-11-04 · USMLE/COMLEX · board-testable

@@ -1591,3 +1591,491 @@ board("Name a disease that needs airborne, droplet or contact precautions", 65, 
 board("Name a disease that needs airborne, droplet or contact precautions", 65, "body lice");  // 2026-11-04 · NCLEX
 board("Name a disease that needs airborne, droplet or contact precautions", 65, "cholera");  // 2026-11-04 · NCLEX
 board("Name a disease that needs airborne, droplet or contact precautions", 65, "typhoid");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 50, "diabetic foot");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 50, "coronary artery disease|cad");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 50, "myocardial infarction|heart attack");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 50, "atherosclerosis");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 50, "macrovascular complications");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 50, "microvascular complications");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "heart failure");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "cardiomyopathy|diabetic cardiomyopathy");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "osteomyelitis");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "gangrene");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "cellulitis");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "periodontal disease|periodontitis");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "hyperlipidemia|dyslipidemia");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "urinary tract infections");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "yeast infections|candidiasis");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "sexual dysfunction");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "orthostatic hypotension");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "diabetic diarrhea");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "constipation");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "hypoglycemia unawareness");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "lipohypertrophy");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 55, "osteoporosis");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "diabetic amyotrophy");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "mononeuropathy");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "carpal tunnel syndrome");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "trigger finger");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "dupuytren contracture");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "diabetic dermopathy|shin spots");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "limited joint mobility|diabetic cheiroarthropathy");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "alzheimer disease");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "papillary necrosis");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "emphysematous pyelonephritis");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "malignant otitis externa");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "mucormycosis");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "tuberculosis");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 60, "pancreatic cancer");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 65, "diabetic bullae");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 65, "cranial nerve palsy|third nerve palsy");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 65, "sudomotor dysfunction|anhidrosis");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 65, "resting tachycardia");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 65, "painless mi");  // 2026-11-04 · NCLEX
+board("Name a long-term complication of diabetes", 65, "gustatory sweating");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 50, "hypoperfusion");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 50, "altered level of consciousness");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 50, "lethargy");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 50, "agitation");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "anuria");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "urine output less than 30 ml");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "decreased pulse pressure");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "widened pulse pressure");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "map less than 65|low map");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "low cardiac output");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "bradycardia");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "jugular vein distension|jvd");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "flat neck veins");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "crackles");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "chest pain");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "arrhythmias");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "hives|urticaria");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "angioedema");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "wheezing");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "stridor");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "bounding pulses");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "weakness");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 55, "fatigue");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "sense of impending doom");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "hypoxia");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "hyperglycemia");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "hypoglycemia");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "elevated bun");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "dic");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "bleeding");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "respiratory alkalosis");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "decreased svr");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "increased svr");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "decreased cardiac output");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "cardiac arrest");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "cyanotic lips");  // 2026-11-04 · NCLEX
+board("Name a sign of shock", 60, "sunken eyes");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "agpcnp|adult gerontology primary care np");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 55, "pnp|pediatric nurse practitioner");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 60, "whnp|womens health np");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 60, "nnp|neonatal nurse practitioner");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "enp|emergency nurse practitioner");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 60, "acnp|acute care np");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cmc");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "csc");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 60, "pccn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 65, "tcrn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 65, "cpen");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cfrn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "ctrn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "sane a|sane p");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cwon");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cws");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 65, "chpn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 60, "cne|certified nurse educator");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "nea bc");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "ne bc");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cphq");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cic");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cnn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "crrn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cgrn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "chse");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cpnp");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "nrcme");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "mbe");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "rnfa|crnfa");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cnrn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "scrn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cpps");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "lnc");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cvrn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "aocn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cpon");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cbcn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "c efm|efm");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "rnc ob");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "rnc nic");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "rnc mnn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "gerontological nursing certification|gero bc");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 65, "pmh bc");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "phn|public health nurse");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 55, "bsn rn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 55, "nclex rn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 60, "nclex pn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 60, "compact license|multistate license|nlc");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "cpr certification");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 60, "certified medication aide|cma");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "edd");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "dns|dnsc");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "nd");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "lpn to rn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 60, "rn to bsn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "accelerated bsn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "diploma in nursing|diploma rn");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "graduate certificate");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "post masters certificate");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "enpc");  // 2026-11-04 · NCLEX
+board("Name a nursing degree, license or credential", 75, "stable");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 45, "nrb");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 45, "simple mask");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 45, "bvm");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 50, "noninvasive ventilation|niv");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "aerosol mask");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "oxyhood|head box");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "oxygen tent");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "isolette oxygen");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 55, "blow by oxygen");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "transtracheal catheter");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 65, "oxymizer|reservoir cannula");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "pulse dose oxygen");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 55, "oxygen cylinder|e cylinder");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "liquid oxygen");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 55, "wall oxygen|oxygen flowmeter");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "humidifier|bubble humidifier");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "heated humidified high flow");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "ecmo");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "jet ventilation");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "oscillator|hfov");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "cuirass ventilator|iron lung");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 55, "laryngoscope");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "surgical airway");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "needle cricothyroidotomy");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "fenestrated trach");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "passy muir valve|speaking valve");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "cuffed trach");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "peep valve");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "bain circuit|mapleson circuit");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "jackson rees");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "pocket mask");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "face shield cpr barrier");  // 2026-11-04 · NCLEX
+board("Name an oxygen delivery or airway device", 60, "heat moisture exchanger|hme|artificial nose");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 45, "pt|prothrombin time");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 55, "vancomycin peak");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "tobramycin level");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 55, "valproic acid level|depakote level");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "carbamazepine level|tegretol level");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "theophylline level");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 50, "cbc|complete blood count");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 55, "hematocrit");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "neutrophils");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 65, "cd4 count");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "viral load");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 65, "bilirubin");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "albumin");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "ammonia");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "lipase|amylase");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "lipid panel|cholesterol");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "creatine kinase|ck|cpk");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "uric acid");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "phosphorus|phosphate");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 55, "a1c|hemoglobin a1c");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "t4|free t4");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "cortisol");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "serum osmolality");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "abg|arterial blood gas");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 55, "hcg|beta hcg");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 55, "blood type|type and crossmatch|type and screen");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 55, "culture results|blood cultures");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 50, "drug levels|therapeutic drug levels");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 45, "peak and trough");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "fibrinogen");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "d dimer");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "iron|ferritin");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "b12");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "folate");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "bnp");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "troponin");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "lactate");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "urinalysis");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "urine specific gravity");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "tacrolimus level");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "cyclosporine level");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "methotrexate level");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "salicylate level");  // 2026-11-04 · NCLEX
+board("Name a lab value nurses check before giving a medication", 60, "acetaminophen level");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 45, "concentrated urine");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 55, "increased serum osmolality");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 55, "decreased cvp");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 55, "sticky mucous membranes");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 55, "dry eyes");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 55, "weak cry");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 55, "dry diaper");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 55, "restlessness");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 55, "heat intolerance");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 55, "hypovolemia");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 55, "longitudinal tongue furrows|furrowed tongue");  // 2026-11-04 · NCLEX
+board("Name a sign of dehydration", 55, "hemoconcentration");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 45, "sirs");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 45, "temperature above 38|temperature over 100.4");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "heart rate above 90");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "respiratory rate above 20|respiratory rate over 22");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "systolic below 100");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "wbc above 12000|wbc below 4000");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "lactate above 2|lactate above 4");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "hypoperfusion");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 50, "organ dysfunction");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 45, "septic shock");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 50, "acute kidney injury");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "ards");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "elevated liver enzymes");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "jaundice");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "hyperbilirubinemia");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "coagulopathy");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "decreased gcs");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "malaise");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "hypoglycemia");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "edema");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "positive fluid balance");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "poor feeding in infants");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "apnea in infants");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "temperature instability");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "bulging fontanelle");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "refusal to feed");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "respiratory alkalosis");  // 2026-11-04 · NCLEX
+board("Name a sign of sepsis", 55, "elevated anion gap");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 45, "blood glucose below 70");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "blood glucose below 54");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "restlessness");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "numbness|paresthesia|pins and needles");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "lethargy");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "weak cry in infants|poor feeding in infants|jitteriness in newborns");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "hypothermia");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "cyanosis");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "apnea");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "bradycardia");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "hypotonia");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "unresponsiveness");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "psychosis");  // 2026-11-04 · NCLEX
+board("Name a symptom of low blood sugar", 55, "hemiparesis");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 50, "visual analog scale|vas");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 55, "pasero opioid induced sedation scale|poss");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 55, "aims|abnormal involuntary movement scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 60, "beck depression inventory");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 60, "geriatric depression scale|gds");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "hamilton depression");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 60, "columbia suicide severity|c ssrs");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 60, "sad persons");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "asq|ask suicide screening");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "brief psychiatric rating scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "young mania rating scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "ciwa b");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "dast");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "slums");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 60, "mini cog");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 65, "clock drawing test");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "cdr|clinical dementia rating");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "global deterioration scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "fast scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "nutritional risk screening|nrs 2002");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "snaq");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 70, "brief pain inventory");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 70, "mcgill pain questionnaire");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "cries pain scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "n pass");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "pipp");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 65, "oucher");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "poker chip tool");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 70, "abbey pain scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 65, "pain in advanced dementia");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "nursing delirium screening|nu desc");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "4at");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "dds");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "ashworth scale|modified ashworth");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 65, "fim|functional independence measure");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 60, "oxford scale|muscle strength scale|0 to 5 muscle strength");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 60, "deep tendon reflex scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 55, "pitting edema scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 60, "pulse scale|0 to 4 pulse");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 55, "bristol stool chart|bristol stool scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 70, "iddsi");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "bedside swallow screen|yale swallow");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 65, "stopbang|stop bang");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "epworth sleepiness");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "asthma control test");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "mrc dyspnea scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 65, "borg scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 60, "nyha classification");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "killip");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "dubowitz");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "downes score");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "westley croup score");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "pram");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "pediatric assessment triangle");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 55, "esi|emergency severity index");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "ctas");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "manchester triage");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 60, "start triage");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "jumpstart");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "gcs p");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "rts|revised trauma score");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "iss|injury severity score");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "abcd2");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 60, "cincinnati stroke scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "lams");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "race scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "van");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 70, "caprini");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "padua");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "wells criteria");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "revised cardiac risk index");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "meld");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "child pugh");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "ranson");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "esas|edmonton symptom assessment");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "zarit burden");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 70, "hurt|hits");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 70, "ace score|adverse childhood experiences");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 65, "m chat");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 55, "denver ii|denver developmental");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 70, "ages and stages|asq 3");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 55, "tanner stages");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 55, "snellen");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "rinne|weber");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "whisper test");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "ankle brachial index|abi");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "lace index");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "frail scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 70, "clinical frailty scale");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "vulnerable elders survey|ves 13");  // 2026-11-04 · NCLEX
+board("Name a nursing scale or assessment tool", 75, "spict");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "trauma icu");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "burn icu");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "intermediate care");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "high dependency unit|hdu");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "acute care");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "geriatric psychiatry");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "detox unit|chemical dependency");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "eating disorder unit");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "adolescent unit");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "pediatric er");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 55, "urgent care");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "fast track");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 55, "triage");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "clinical decision unit");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "discharge lounge");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "transfer center");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "bed management");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "patient access");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "patient transport");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "interpreter services");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "patient relations|patient advocate");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "volunteer services");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "foundation");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "marketing");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "finance");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "purchasing|supply chain");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "materials management");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 65, "biomedical engineering|biomed");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "facilities|maintenance|engineering");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "laundry|linen services");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "food services|kitchen");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 55, "speech therapy|speech language pathology");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "audiology");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 55, "ultrasound");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 55, "ct|ct scan");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 55, "mri");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 55, "x ray");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "echo lab|echocardiography");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "ekg department");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "eeg lab");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "vascular lab");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "pulmonary function lab");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "electrophysiology lab|ep lab");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 55, "cardiac rehab");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "pulmonary rehab");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "anticoagulation clinic");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "wound ostomy");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "ostomy clinic");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "lactation");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "child life");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "ethics committee");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "education department");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "staff development");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "employee health");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "occupational health");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "credentialing");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "medical staff office");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "compliance");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "legal");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "utilization review");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "telehealth|tele icu|eicu");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "command center");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "dental");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "ophthalmology");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "ent");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "dermatology");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "plastics");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "vascular surgery");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "cardiothoracic surgery");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "neurosurgery");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 55, "obstetrics");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "reproductive endocrinology|ivf");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "perinatology|maternal fetal medicine");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "genetics");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "allergy");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "endocrinology");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "rheumatology");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "infectious disease");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "geriatrics");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "hospitalist");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "chapel");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "parking");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "information desk");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "lobby");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "waiting room");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "loading dock");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "decontamination");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "isolation unit|biocontainment");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "covid unit");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "seclusion room");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "apheresis");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "transfusion service");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "histology");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "cytology");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 60, "microbiology");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "chemistry lab");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "point of care testing");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "central sterile");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 55, "anesthesia");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "pain management");  // 2026-11-04 · NCLEX
+board("Name a hospital unit or department", 70, "interventional cardiology");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 55, "whole blood");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "potassium phosphate");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 70, "sodium phosphate");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 60, "calcium gluconate");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "d5 with 20 kcl");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 55, "maintenance fluids");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "resuscitation fluids");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "multivitamin infusion|mvi");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "clinimix");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "kabiven|smofkabiven");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "smoflipid");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "omegaven");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "d12.5");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "d15");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 70, "d25");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "d40");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "5% sodium chloride");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "0.33% saline|1 3 ns");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "sodium lactate");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "sodium acetate");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "tham solution");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 60, "glucose saline|dextrose saline");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "4% dextrose 0.18% saline|dextrose 4% saline 0.18%");  // 2026-11-04 · NCLEX
+board("Name a type of IV fluid", 65, "plasma protein fraction|plasmanate");  // 2026-11-04 · NCLEX

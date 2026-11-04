@@ -725,3 +725,89 @@ crowdAlias("Name a disease that needs airborne, droplet or contact precautions",
 crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "esbl", "extended spectrum beta lactamase");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "cre", "carbapenem resistant enterobacteriaceae");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "c diff", "c diff colitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a long-term complication of diabetes", "neuropathy", "peripheral neuropathy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a long-term complication of diabetes", "kidney disease", "diabetic nephropathy|end stage renal disease|esrd|dialysis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a long-term complication of diabetes", "retinopathy", "diabetic retinopathy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a long-term complication of diabetes", "fatty liver", "nonalcoholic fatty liver disease|nafld|masld");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of shock", "cold clammy skin", "cool clammy skin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of shock", "warm flushed skin", "warm skin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "rn", "registered nurse");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "bsn", "bachelor of science in nursing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "lpn", "licensed practical nurse|licensed vocational nurse");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "cna", "certified nursing assistant");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "adn", "associate degree in nursing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "msn", "master of science in nursing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "np", "nurse practitioner");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "dnp", "doctor of nursing practice");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "crna", "certified registered nurse anesthetist");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "cnm", "certified nurse midwife");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "fnp", "family nurse practitioner");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "aprn", "advanced practice registered nurse");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing degree, license or credential", "ccrn", "ccrn k|ccrn p|ccrn neonatal");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oxygen delivery or airway device", "ventilator", "mechanical ventilator");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oxygen delivery or airway device", "trach collar", "trach mask|tracheostomy mask");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oxygen delivery or airway device", "nebulizer", "nebulizer mask");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oxygen delivery or airway device", "oxygen concentrator", "portable oxygen concentrator");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oxygen delivery or airway device", "tracheostomy", "tracheostomy tube");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oxygen delivery or airway device", "t piece", "neopuff|t piece resuscitator");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lab value nurses check before giving a medication", "blood sugar", "blood glucose before insulin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lab value nurses check before giving a medication", "inr", "inr before warfarin|pt inr");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lab value nurses check before giving a medication", "ptt", "ptt before heparin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lab value nurses check before giving a medication", "potassium", "potassium before digoxin|potassium before furosemide");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lab value nurses check before giving a medication", "creatinine", "serum creatinine");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lab value nurses check before giving a medication", "gentamicin level", "aminoglycoside trough|gentamicin trough");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lab value nurses check before giving a medication", "lithium level", "lithium");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lab value nurses check before giving a medication", "respiratory rate", "respiratory rate before opioids");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of dehydration", "sticky saliva", "thick saliva");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of dehydration", "fever", "low grade fever");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of dehydration", "thirst", "increased thirst");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of dehydration", "weight loss", "weight loss of 2 percent|rapid weight loss");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of dehydration", "orthostatic hypotension", "postural hypotension");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of dehydration", "bun to creatinine ratio above 20", "elevated bun to creatinine ratio");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of dehydration", "kidney injury", "acute kidney injury");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of sepsis", "confusion", "delirium");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of sepsis", "chills", "rigors");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of sepsis", "clammy skin", "diaphoresis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of sepsis", "hyperglycemia", "hyperglycemia without diabetes");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of sepsis", "lethargy", "lethargy in infants");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of low blood sugar", "shaking", "jitteriness");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of low blood sugar", "clammy skin", "cool clammy skin");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of low blood sugar", "sweaty", "sweaty palms");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of low blood sugar", "behavior changes", "personality change|unusual behavior");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of low blood sugar", "combativeness", "aggression");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of low blood sugar", "hunger", "hunger pangs");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of low blood sugar", "drowsiness", "sleepiness");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of low blood sugar", "confusion", "disorientation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of low blood sugar", "blurred vision", "vision changes|seeing spots");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of low blood sugar", "slurred speech", "trouble speaking");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of low blood sugar", "clumsiness", "incoordination|unsteady gait|staggering|appears drunk");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing scale or assessment tool", "pain scale", "numeric pain scale");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing scale or assessment tool", "glasgow coma", "coma scale");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing scale or assessment tool", "cows", "clinical opiate withdrawal scale");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing scale or assessment tool", "audit", "audit test");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing scale or assessment tool", "mmse", "mmse 2");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing scale or assessment tool", "ballard", "new ballard");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing scale or assessment tool", "apache", "apache ii");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing scale or assessment tool", "karnofsky", "kps");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing scale or assessment tool", "palliative performance scale", "ppsv2");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a hospital unit or department", "nicu", "neonatal icu");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a hospital unit or department", "picu", "pediatric icu");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a hospital unit or department", "sicu", "surgical icu");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a hospital unit or department", "micu", "medical icu");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a hospital unit or department", "ccu", "coronary care unit");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a hospital unit or department", "psych", "inpatient psychiatry|psych ward");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a hospital unit or department", "nutrition", "clinical nutrition");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a hospital unit or department", "gyn", "gynecology");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a hospital unit or department", "cath lab", "catheterization laboratory");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "d5 1 2 ns", "d5 0.45 ns|d5 half ns");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "normal saline", "isotonic saline");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "half normal saline", "0.45 sodium chloride");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "d5ns", "d5 0.9 ns");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "ringers solution", "ringers");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "blood", "packed cells");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "fresh frozen plasma", "plasma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "potassium chloride", "kcl infusion");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "gelofusine", "gelatin solution");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "hypertonic saline", "hyperosmolar saline");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "albumin", "albumin 20%");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of IV fluid", "sodium bicarbonate", "bicarbonate drip");  // 2026-11-04 · board audit · same answer

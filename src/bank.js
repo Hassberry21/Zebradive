@@ -20144,6 +20144,8 @@ electric toothbrush
 floss before brushing
 `);
 
+/* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
+
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */
 function X(q,txt){ const r=RAW.find(r=>r.q===q); if(!r) throw new Error("no prompt: "+q);
   r.list+="\n"+txt.trim().split("\n").map(s=>s.trim()).filter(Boolean).map(s=>"1 "+s).join("\n"); }

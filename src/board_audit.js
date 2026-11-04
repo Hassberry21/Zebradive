@@ -14269,3 +14269,968 @@ board("Name a cause of anemia", 55, "shwachman diamond syndrome");  // 2026-11-0
 board("Name a cause of anemia", 55, "vitamin e deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
 board("Name a cause of anemia", 55, "riboflavin deficiency");  // 2026-11-04 · USMLE/COMLEX · board-testable
 board("Name a cause of anemia", 55, "starvation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 50, "lumbar strain|back strain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 50, "lumbar sprain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 50, "lumbar disc herniation|disc herniation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of low back pain", "spinal stenosis", "lumbar spinal stenosis");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of low back pain", 50, "radiculopathy|lumbar radiculopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 50, "facet arthropathy|facet joint arthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 50, "spondylosis|lumbar spondylosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 50, "degenerative spondylolisthesis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 50, "isthmic spondylolisthesis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 50, "pars defect|pars fracture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 50, "vertebral fracture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 50, "osteoporotic compression fracture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 50, "metastatic cancer|spinal metastases");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "prostate cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "breast cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "lung cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "primary spinal tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "vertebral osteomyelitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of low back pain", "epidural abscess", "spinal epidural abscess");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of low back pain", 55, "spinal tuberculosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "brucellosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "axial spondyloarthritis|spondyloarthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "psoriatic arthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "reactive arthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "enteropathic arthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "diffuse idiopathic skeletal hyperostosis|dish");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "paget disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "osteomalacia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "hyperparathyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "scheuermann disease|scheuermann kyphosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "kyphosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "lordosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "leg length discrepancy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "transitional vertebra|bertolotti syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "coccydynia|tailbone pain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "sacroiliitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "quadratus lumborum strain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "myofascial pain|trigger points");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "trochanteric bursitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "hip osteoarthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of low back pain", "aortic aneurysm", "abdominal aortic aneurysm");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of low back pain", 55, "aortic dissection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "retroperitoneal hemorrhage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "retroperitoneal fibrosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of low back pain", "kidney stones", "nephrolithiasis");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of low back pain", 55, "renal infarction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "polycystic kidney disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "pelvic inflammatory disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "ovarian cyst");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "ectopic pregnancy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "dysmenorrhea|menstrual cramps");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "labor|preterm labor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "pancreatic cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "penetrating ulcer|posterior duodenal ulcer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "cholecystitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "herpes zoster");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "conus medullaris syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "arachnoiditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "spinal cord tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "failed back surgery syndrome|post laminectomy syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "heavy lifting");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "prolonged sitting");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "poor sleeping position|bad mattress");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "high heels");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "carrying heavy backpack");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "psychological stress");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "somatization");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "sickle cell crisis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "endocarditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "osteitis condensans ilii");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "baastrup disease|kissing spine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "synovial cyst");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "epidural lipomatosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "disc degeneration");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "annular tear");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of low back pain", 55, "spinal fracture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of low back pain", "trauma", "fall");  // 2026-11-04 · USMLE · same answer
+board("Name a vein", 50, "cubital vein");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 50, "dorsal metacarpal veins|dorsal hand veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 50, "dorsal venous network of the hand");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "digital veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "accessory cephalic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "median antebrachial");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "anterior jugular");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "posterior auricular");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "occipital");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "superficial temporal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "maxillary");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "supraorbital");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "angular");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "inferior ophthalmic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "central retinal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "vorticose veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "superior petrosal sinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "inferior petrosal sinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "sphenoparietal sinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "occipital sinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "superior cerebral veins|bridging veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "inferior cerebral veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "superficial middle cerebral");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "deep middle cerebral");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "internal vertebral venous plexus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "external vertebral venous plexus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "basivertebral");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "pericardiophrenic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "bronchial");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "esophageal veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "short gastric");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "right gastric");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "pancreaticoduodenal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "middle colic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "right colic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "ileocolic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "jejunal veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "sigmoid veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "middle rectal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "inferior rectal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "internal pudendal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "external pudendal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "superficial epigastric");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "inferior epigastric");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "superior epigastric");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "thoracoepigastric");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "lateral thoracic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "superficial circumflex iliac");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "deep circumflex iliac");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "deep femoral|profunda femoris vein");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "superficial femoral vein");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a vein", "femoral", "common femoral");  // 2026-11-04 · USMLE · same answer
+board("Name a vein", 55, "medial circumflex femoral");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "genicular veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "gastrocnemius veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "soleal veins|soleal sinuses");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "plantar veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "dorsal metatarsal veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "marginal veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "dorsal vein of the penis|deep dorsal vein");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "prostatic venous plexus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "vesical venous plexus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "uterine venous plexus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "vaginal venous plexus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a vein", "renal", "left renal");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a vein", "renal", "right renal");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a vein", "brachiocephalic", "left brachiocephalic");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a vein", "brachiocephalic", "right brachiocephalic");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a vein", "internal thoracic", "internal mammary vein");  // 2026-11-04 · USMLE · same answer
+board("Name a vein", 55, "superior intercostal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "posterior intercostal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "anterior intercostal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "vena comitans|venae comitantes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a vein", "pulmonary", "superior pulmonary|inferior pulmonary");  // 2026-11-04 · USMLE · same answer
+board("Name a vein", 55, "vitelline veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "left superior vena cava|persistent left svc");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "cerebral veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "sinusoids|hepatic sinusoids");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "venules");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "sphenopalatine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "deep cervical");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "suprascapular");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "transverse cervical");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "thoracoacromial");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "subscapular");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "circumflex scapular");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "thoracodorsal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "profunda brachii");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a vein", "dorsal venous arch", "dorsal venous arch of the foot");  // 2026-11-04 · USMLE · same answer
+board("Name a vein", 55, "lateral marginal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "medial marginal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "accessory saphenous|anterior accessory saphenous");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "giacomini vein");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "cockett perforators");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "dodd perforators");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "boyd perforators");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "hunterian perforators");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "cerebellar veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "superior anastomotic vein");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "inferior anastomotic vein");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "septal vein");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a vein", 55, "choroidal vein");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a vein", "rectal", "hemorrhoidal plexus|rectal venous plexus");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a vein", "superior mesenteric", "smv");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a vein", "inferior mesenteric", "imv");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a nerve", "lateral femoral cutaneous", "lateral cutaneous nerve of thigh|meralgia paresthetica nerve");  // 2026-11-04 · USMLE · same answer
+crowdAlias("Name a nerve", "tibial", "posterior tibial");  // 2026-11-04 · USMLE · same answer
+board("Name a nerve", 55, "superficial radial|superficial branch of radial nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "deep branch of radial nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "palmar cutaneous branch of median");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "recurrent branch of median|thenar branch");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "dorsal cutaneous branch of ulnar");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "deep branch of ulnar");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "superficial branch of ulnar");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "medial brachial cutaneous|medial cutaneous nerve of arm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "intercostobrachial");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "nerve to subclavius");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "upper subscapular");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "lower subscapular");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "nerve to serratus anterior");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "lateral sural cutaneous");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "medial sural cutaneous");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "calcaneal nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "baxter nerve|inferior calcaneal nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "interdigital nerve|morton neuroma nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "nerve to quadratus femoris");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "nerve to obturator internus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "nerve to piriformis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "inferior rectal nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "perineal nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "dorsal nerve of the penis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "dorsal nerve of the clitoris");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "cavernous nerves");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "hypogastric nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "pelvic nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "vesical nerves");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "cardiac nerves");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "carotid sinus nerve|nerve of hering");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "pharyngeal branch of vagus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "external laryngeal nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "internal laryngeal nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "inferior laryngeal nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "anterior vagal trunk");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "posterior vagal trunk");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "hepatic branch of vagus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "celiac branch");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "cervical sympathetic chain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "short ciliary nerves");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "long ciliary nerves");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "infratrochlear");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "supratrochlear");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "anterior ethmoidal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "posterior ethmoidal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "zygomaticotemporal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "zygomaticofacial");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "greater palatine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "lesser palatine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "nasopalatine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "posterior superior alveolar");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "middle superior alveolar");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "anterior superior alveolar");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "masseteric nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "deep temporal nerves");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "nerve to mylohyoid");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "lateral pterygoid nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "medial pterygoid nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "temporal branch of facial");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "zygomatic branch of facial");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "buccal branch of facial");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "marginal mandibular");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "cervical branch of facial");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "posterior auricular nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "lesser petrosal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "transverse cervical nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "supraclavicular nerves");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "third occipital nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "suboccipital nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "spinal nerves");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "dorsal rami");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "ventral rami");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "sinuvertebral nerve|recurrent meningeal nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "inferior cluneal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "middle cluneal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "nerve to vastus medialis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "infrapatellar branch of saphenous");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "anterior femoral cutaneous");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "accessory obturator");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "lumbosacral trunk");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "femoral branch of genitofemoral");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "genital branch of genitofemoral");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "posterior cutaneous nerve of arm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "posterior cutaneous nerve of forearm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "inferior lateral cutaneous nerve of arm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "superior lateral cutaneous nerve of arm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "accessory phrenic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "thoracoabdominal nerves");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "lateral cutaneous branches");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "anterior cutaneous branches");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "enteric nerves");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a nerve", "vagus", "vagal nerve");  // 2026-11-04 · USMLE · same answer
+board("Name a nerve", 55, "cochlear nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a nerve", 55, "vestibular nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "oral cavity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "oropharynx");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "laryngopharynx|hypopharynx");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "nasopharynx");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "parotid gland");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "submandibular gland");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "sublingual gland");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "gastric glands");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "gastric pits");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "mucosa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "submucosa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "muscularis propria|muscularis externa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "serosa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "muscularis mucosae");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "lamina propria");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "g cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "d cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "enterochromaffin like cells|ecl cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "enteroendocrine cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "i cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "s cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "k cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "m cells|microfold cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "enterocytes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "brush border");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "lacteals");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "gastroesophageal junction|z line");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "incisura angularis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "lesser curvature");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "greater curvature");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "pyloric antrum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "pyloric canal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "duodenal bulb");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "major duodenal papilla");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "minor duodenal papilla");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "epiploic appendages|appendices epiploicae");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "rectal ampulla");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "anal columns|columns of morgagni");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "anal crypts");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "anal glands");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "puborectalis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "transverse folds of rectum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "hepatic lobule");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "portal triad");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "bile canaliculi");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "space of disse");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "ito cells|hepatic stellate cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "caudate lobe");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "quadrate lobe");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "right lobe of liver");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "left lobe of liver");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "falciform ligament");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "ligamentum teres");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "hepatoduodenal ligament");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "gastrohepatic ligament");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "gastrosplenic ligament");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "gastrocolic ligament");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "head of pancreas");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "body of pancreas");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "tail of pancreas");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "uncinate process");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "islets of langerhans");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "acinar cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "centroacinar cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "hartmann pouch");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "spiral valve of heister");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "common hepatic duct");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "right hepatic duct");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "left hepatic duct");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "mesoappendix");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "mesocolon|transverse mesocolon|sigmoid mesocolon");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "retroperitoneum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "lesser sac|omental bursa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "epiploic foramen|foramen of winslow");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "morison pouch|hepatorenal pouch");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "pouch of douglas|rectouterine pouch");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "paracolic gutters");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "palatine tonsils");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "taste buds");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "papillae of the tongue");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "frenulum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "incisors");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "molars");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "canines");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "premolars");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "enamel");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "dentin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "pulp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "crypts");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "glycocalyx");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "vallecula");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "piriform recess|piriform sinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "cricopharyngeus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "cardiac notch|angle of his");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the digestive system", 55, "gut associated lymphoid tissue|galt");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "status asthmaticus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "acute respiratory failure");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "ards|acute respiratory distress syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "airway obstruction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "angioedema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "massive hemoptysis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "flash pulmonary edema|acute pulmonary edema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "cardiogenic shock");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "septic shock");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hypovolemic shock");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hemorrhagic shock");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "neurogenic shock");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "obstructive shock");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "ventricular fibrillation|vfib");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "ventricular tachycardia|vtach");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "complete heart block|third degree heart block");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "symptomatic bradycardia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hypertensive emergency|hypertensive crisis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "acute limb ischemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "mesenteric ischemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "subarachnoid hemorrhage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "intracerebral hemorrhage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "epidural hematoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "subdural hematoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "increased intracranial pressure|herniation|brain herniation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "spinal cord compression|cord compression|malignant spinal cord compression");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "encephalitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "myasthenic crisis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "guillain barre syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "delirium tremens");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "alcohol withdrawal seizures");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "wernicke encephalopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hyperosmolar hyperglycemic state|hhs");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "myxedema coma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "pituitary apoplexy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hypercalcemic crisis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hyponatremia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hypocalcemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "tumor lysis syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "neutropenic fever|febrile neutropenia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "superior vena cava syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hyperviscosity syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "leukostasis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "dic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "ttp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hemolytic transfusion reaction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "acute chest syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "splenic sequestration");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "priapism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "paraphimosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "fournier gangrene");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "necrotizing fasciitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "toxic shock syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "ludwig angina");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "retropharyngeal abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "peritonsillar abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "bacterial meningitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "cavernous sinus thrombosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "central retinal artery occlusion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "orbital cellulitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "globe rupture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "chemical eye burn");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hyphema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "perforated viscus|perforated bowel");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "acute mesenteric ischemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "toxic megacolon");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "volvulus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "incarcerated hernia|strangulated hernia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "upper gi bleed|gi bleed");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "variceal bleeding");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "acute liver failure");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "acute pancreatitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "ascending cholangitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "acute kidney injury");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "urinary retention");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "uterine rupture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "umbilical cord prolapse|cord prolapse");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "shoulder dystocia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "amniotic fluid embolism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "preeclampsia|hellp");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "placenta previa bleeding");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "ruptured ectopic");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "acetaminophen overdose");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "opioid overdose");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "tricyclic overdose");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "salicylate poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "cyanide poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "organophosphate poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "methanol poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "ethylene glycol poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "lithium toxicity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "digoxin toxicity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "anticholinergic toxicity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "sympathomimetic toxicity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "snake bite");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "electrocution|electrical injury");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "lightning strike");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "frostbite");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "smoke inhalation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "crush injury");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "traumatic amputation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "flail chest");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hemothorax");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "open pneumothorax|sucking chest wound");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "pelvic fracture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "open fracture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "dislocation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "neonatal resuscitation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "intussusception");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "pyloric stenosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "bronchiolitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "foreign body aspiration");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "button battery ingestion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "suicidal ideation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "acute psychosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "excited delirium");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "acute dystonia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "lactic acidosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hyperthermia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "altitude sickness|hape|hace");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "decompression sickness|the bends");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "air embolism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "fat embolism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "cardiac arrhythmia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "torsades de pointes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "wpw with afib");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "endocarditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hemorrhagic stroke");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "tia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "hypertensive encephalopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "posterior reversible encephalopathy syndrome|pres");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "vertebral artery dissection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "carotid dissection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "temporal arteritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "spinal shock");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "autonomic dysreflexia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "airway burn");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a medical emergency", 55, "inhalation injury");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of leg swelling", "venous insufficiency", "chronic venous insufficiency");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of leg swelling", 55, "superficial thrombophlebitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "ruptured baker cyst");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "knee effusion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "septic arthritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "ankle sprain");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "fracture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "achilles tendon rupture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "gastrocnemius tear|tennis leg");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "hematoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "erysipelas");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "abscess");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "osteomyelitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "radiation lymphedema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "lymph node dissection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "primary lymphedema|milroy disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "lymphedema praecox|meige disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "lymphedema tarda");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "lymphangiosarcoma|stewart treves");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "klippel trenaunay");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of leg swelling", "heart failure", "right heart failure");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of leg swelling", 55, "cor pulmonale");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "tricuspid regurgitation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "pericardial effusion");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "hypoalbuminemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "protein losing enteropathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "kwashiorkor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "acute glomerulonephritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "acute kidney injury");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of leg swelling", "kidney disease", "chronic kidney disease");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of leg swelling", 55, "nephritic syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "pretibial myxedema|graves dermopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "cushing syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "refeeding syndrome|refeeding edema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "idiopathic edema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "cyclic edema|premenstrual edema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "venous obstruction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "ivc thrombosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "ivc filter");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "iliac vein compression");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "pelvic mass");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "ovarian tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "retroperitoneal fibrosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "dependent edema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "immobility");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "paralysis|hemiplegia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "wheelchair use");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "diabetic foot infection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "charcot foot|charcot arthropathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "complex regional pain syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "vasculitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "trauma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "burns");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "snake bite");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "hypersensitivity");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "hormone therapy|oral contraceptives");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "nifedipine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "thiazolidinediones");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "minoxidil");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "hydralazine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "clonidine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "corticosteroids");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "testosterone");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "fludrocortisone");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "insulin edema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "imatinib");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "docetaxel");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of leg swelling", "filariasis", "lymphatic filariasis|elephantiasis");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of leg swelling", 55, "podoconiosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "beriberi|wet beriberi");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a cause of leg swelling", "pregnancy", "pregnancy edema");  // 2026-11-04 · USMLE · same answer
+board("Name a cause of leg swelling", 55, "obstructive sleep apnea");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "hereditary angioedema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "lyme disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "hemarthrosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "popliteal aneurysm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "arteriovenous fistula");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "post phlebitic syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "vein harvest|after cabg");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "sitting for long periods");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "heat edema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "standing all day");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "sodium retention");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "amyloidosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of leg swelling", 55, "sarcoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+crowdAlias("Name a type of cancer", "lung", "small cell carcinoma|oat cell carcinoma");  // 2026-11-04 · USMLE · same answer
+board("Name a type of cancer", 70, "large cell carcinoma|large cell lung cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 75, "bronchioloalveolar carcinoma|adenocarcinoma in situ");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "pancoast tumor|superior sulcus tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "renal cell carcinoma clear cell|clear cell renal cell carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "papillary renal cell carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "diffuse large b cell lymphoma|dlbcl");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "follicular lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "mantle cell lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "marginal zone lymphoma|malt lymphoma|maltoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 75, "adult t cell leukemia lymphoma|adult t cell lymphoma|atll");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 75, "primary cns lymphoma|cns lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "anaplastic large cell lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 75, "sezary syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "lymphoplasmacytic lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 80, "primary effusion lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 80, "enteropathy associated t cell lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "acute promyelocytic leukemia|apl|apml");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "chronic myelomonocytic leukemia|cmml");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 80, "juvenile myelomonocytic leukemia|jmml");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "essential thrombocythemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "myelofibrosis|primary myelofibrosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "plasmacytoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "systemic mastocytosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "hepatosplenic t cell lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "craniopharyngioma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "pilocytic astrocytoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "hemangioblastoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "pinealoma|pineal tumor|pineoblastoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "choroid plexus papilloma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "diffuse intrinsic pontine glioma|dipg");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 75, "atypical teratoid rhabdoid tumor|atrt");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "gastrinoma|zollinger ellison");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "glucagonoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "vipoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "somatostatinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "paraganglioma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "hurthle cell carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "hypopharyngeal cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "oropharyngeal cancer|hpv oropharyngeal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "mucoepidermoid carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "adenoid cystic carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "linitis plastica|signet ring cell carcinoma|diffuse gastric cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "krukenberg tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "barrett esophagus adenocarcinoma|esophageal adenocarcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "esophageal squamous cell carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "pancreatic adenocarcinoma|pancreatic ductal adenocarcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "solid pseudopapillary neoplasm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "ampullary cancer|ampulla of vater cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "klatskin tumor|hilar cholangiocarcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "fibrolamellar carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "hepatic angiosarcoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "pseudomyxoma peritonei");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "serous ovarian carcinoma|high grade serous carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "mucinous ovarian cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "granulosa cell tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "sertoli leydig cell tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "dysgerminoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "yolk sac tumor|endodermal sinus tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "embryonal carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "leydig cell tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "clear cell carcinoma of the vagina|clear cell adenocarcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "sarcoma botryoides");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "uterine sarcoma|uterine leiomyosarcoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "carcinosarcoma|malignant mixed mullerian tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "invasive ductal carcinoma|idc");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "invasive lobular carcinoma|ilc|lobular carcinoma in situ|lcis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "her2 positive breast cancer|her2");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "phyllodes tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "male breast cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "squamous cell carcinoma of the bladder");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "urachal carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "prostate adenocarcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 75, "small cell carcinoma of the prostate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "giant cell tumor of bone|osteoclastoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "fibrosarcoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "synovial sarcoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "undifferentiated pleomorphic sarcoma|malignant fibrous histiocytoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "alveolar soft part sarcoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "malignant peripheral nerve sheath tumor|mpnst|neurofibrosarcoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "epithelioid sarcoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "clear cell sarcoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "desmoplastic small round cell tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "lentigo maligna melanoma|lentigo maligna");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "nodular melanoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "superficial spreading melanoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "acral lentiginous melanoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "amelanotic melanoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "bowen disease|squamous cell carcinoma in situ");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "extramammary paget disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "sebaceous carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "microcystic adnexal carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "cutaneous squamous cell carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "islet cell tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "penile squamous cell carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "carcinoma in situ");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "metastatic cancer|metastasis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "cancer of unknown primary");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "neuroendocrine carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "hodgkin nodular sclerosis|nodular sclerosis hodgkin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "lymphocyte predominant hodgkin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "t cell lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "b cell lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "acute leukemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 55, "chronic leukemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "myeloproliferative neoplasm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "blastic plasmacytoid dendritic cell neoplasm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 75, "large granular lymphocytic leukemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "prolymphocytic leukemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 60, "skin cancer nonmelanoma|nonmelanoma skin cancer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "ocular lymphoma|intraocular lymphoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 75, "conjunctival melanoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 70, "adamantinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "rhabdoid tumor");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "pleuropulmonary blastoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a type of cancer", 65, "nut carcinoma|nut midline carcinoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "postherpetic neuralgia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 50, "shingles|herpes zoster");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "sentinel headache");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "postconcussion syndrome|post concussion syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "hypercapnia|co2 retention");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "hypoxia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "polycythemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "anemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "hyperthyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "hypothyroidism");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "fever");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "strep throat");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "lyme disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "hiv");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "cryptococcal meningitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "toxoplasmosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "neurocysticercosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "malaria");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "dengue");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "sepsis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "pituitary tumor|pituitary adenoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "acoustic neuroma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "brain metastases");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "meningioma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "hypertensive encephalopathy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "eclampsia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "posterior reversible encephalopathy syndrome|pres");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "vasculitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "sarcoidosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "lupus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "cocaine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "nicotine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "oral contraceptives|birth control pills");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "estrogen");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "phosphodiesterase inhibitors|sildenafil|viagra");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "calcium channel blockers");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "hydralazine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "dipyridamole");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "tetracycline|minocycline");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "vitamin a toxicity|hypervitaminosis a");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "isotretinoin");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "corticosteroid withdrawal|steroid withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "opioid withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "alcohol withdrawal");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "sumatriptan overuse|triptan overuse");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "heat exhaustion|heat stroke");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 50, "sunstroke|too much sun");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 50, "noise|loud noise");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 50, "bright lights");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 50, "strong smells|perfume");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 45, "poor posture");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 50, "menopause");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "pregnancy");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "ovulation");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 50, "allergies|allergic rhinitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "dental problems");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "otitis media|ear infection");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "mastoiditis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "cervical spondylosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "whiplash");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "hyponatremia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "hypercalcemia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "kidney failure|uremia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "dialysis headache");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "insomnia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "depression");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 50, "anxiety");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "fibromyalgia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "cyanide poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "lead poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "methanol poisoning");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 65, "airplane headache");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "diving headache");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 65, "cough headache|primary cough headache");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 65, "stabbing headache|ice pick headache|primary stabbing headache");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 65, "short lasting unilateral neuralgiform headache|suna");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "hemiplegic migraine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "retinal migraine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "cadasil");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 65, "moyamoya disease");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "arteriovenous malformation|avm");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "cavernous malformation|cavernoma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "cavernous sinus thrombosis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "orbital cellulitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "optic neuritis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "uveitis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "tolosa hunt syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 70, "raeder syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "eagle syndrome");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "sinus barotrauma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 65, "low csf pressure headache|low pressure headache");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "shunt malfunction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 65, "arachnoid cyst");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 70, "epicrania fugax");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "nasal septal deviation|deviated septum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "hot dog headache");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "aspartame");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "tyramine|aged cheese");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 55, "chocolate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 50, "red wine");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "acute mountain sickness");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 65, "high altitude cerebral edema|hace");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 60, "decompression sickness");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a cause of headache", 65, "cerebral edema");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "epidermal ridges|rete ridges");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "papillary layer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "reticular layer");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "stratum germinativum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 65, "basal cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "corneocytes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "tonofilaments");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 65, "keratohyalin granules");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 65, "lamellar bodies|odland bodies");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "hemidesmosomes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "desmosomes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "dermal epidermal junction|dermoepidermal junction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "subcutis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 50, "fat|adipose tissue");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 50, "sweat pores");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "sweat duct");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "hair root");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "hair papilla|dermal papilla of hair");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 65, "inner root sheath");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 65, "outer root sheath");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 65, "bulge region|hair follicle bulge");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "nail plate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "eponychium");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "hyponychium");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "paronychium|nail fold");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "free edge of nail");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "sensory receptors");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "krause end bulbs");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 65, "hair follicle receptors|root hair plexus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "capillaries");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "dermal capillary loops");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "lymphatic vessels");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "superficial vascular plexus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 65, "deep vascular plexus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "ground substance");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "hyaluronic acid");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "reticular fibers");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "macrophages");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "dendritic cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "dermal dendrocytes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "apoeccrine glands");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "ceruminous glands");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "sebum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "acid mantle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "skin barrier");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "lipid barrier|ceramides");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "subcutaneous adipose tissue");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "superficial fascia");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "fingerprints|dermatoglyphics");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "lanugo");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "vellus hair");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "terminal hair");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "melanosomes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "keratinosomes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 55, "skin appendages|adnexa");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "glomus body");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part or layer of the skin", 60, "mucocutaneous junction");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "nostrils|nares");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "vestibule|nasal vestibule");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "nasal septum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "maxillary sinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "frontal sinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "ethmoid sinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "sphenoid sinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "superior turbinate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "middle turbinate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "inferior turbinate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "meatus|nasal meatus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "choanae");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "olfactory epithelium");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "hard palate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "soft palate");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "uvula");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "vallecula");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "piriform recess|piriform sinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "arytenoid cartilage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "corniculate cartilage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "cuneiform cartilage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "false vocal cords|vestibular folds");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "rima glottidis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "subglottis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "supraglottis");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 65, "laryngeal ventricle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 65, "aryepiglottic folds");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "hyoid bone");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "thyrohyoid membrane");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "cricothyroid membrane");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "adam apple|laryngeal prominence");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "main bronchus|primary bronchus|mainstem bronchus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "right main bronchus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "left main bronchus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "lobar bronchi|secondary bronchi");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "segmental bronchi|tertiary bronchi");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "bronchopulmonary segments");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "alveolar ducts");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "alveolar sacs");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "pores of kohn");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "acinus|pulmonary acinus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "lobule|secondary pulmonary lobule");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "respiratory membrane|blood air barrier");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "pulmonary capillaries");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "bronchial arteries");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "bronchial veins");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "upper lobe");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "middle lobe");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "lower lobe");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "horizontal fissure");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "oblique fissure");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "costodiaphragmatic recess|costophrenic angle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "cardiac notch");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "apex of lung");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "base of lung");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "pleural fluid");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "mucus");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "mucociliary escalator");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "club cells|clara cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "basal cells");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "smooth muscle of airways");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "cartilage plates");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "trachealis muscle");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "phrenic nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "vagus nerve");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "respiratory center|medulla");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "pons");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "central chemoreceptors");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "peripheral chemoreceptors|carotid bodies");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "aortic bodies");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "accessory muscles");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "sternocleidomastoid");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "scalenes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "external intercostals");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "internal intercostals");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "abdominal muscles");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 50, "chest wall|thoracic cage");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "sternum");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 50, "airway");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 50, "upper respiratory tract");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 50, "lower respiratory tract");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "conducting zone");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "respiratory zone");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "pulmonary lymph nodes|hilar lymph nodes");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "tracheobronchial tree");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 55, "lung parenchyma");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "interstitium");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a part of the respiratory system", 60, "pulmonary circulation");  // 2026-11-04 · USMLE/COMLEX · board-testable

@@ -3985,7 +3985,6 @@ board("Name a type of denture or dental prosthesis", 63, "michigan splint|stabil
 board("Name a type of denture or dental prosthesis", 63, "nti");  // 2026-11-04 · INBDE
 board("Name a type of denture or dental prosthesis", 65, "space maintainer");  // 2026-11-04 · INBDE
 board("Name a type of denture or dental prosthesis", 66, "pediatric partial denture|pedo partial|groper appliance");  // 2026-11-04 · INBDE
-board("Name a type of denture or dental prosthesis", 66, "fixed fixed bridge");  // 2026-11-04 · INBDE
 board("Name a type of denture or dental prosthesis", 67, "fixed movable bridge|stress breaker bridge");  // 2026-11-04 · INBDE
 board("Name a type of denture or dental prosthesis", 68, "spring cantilever bridge");  // 2026-11-04 · INBDE
 board("Name a type of denture or dental prosthesis", 69, "inlay bridge|inlay retained bridge");  // 2026-11-04 · INBDE

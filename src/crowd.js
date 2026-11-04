@@ -656,3 +656,72 @@ crowdAlias("Name a mobility aid or assistive device", "cane", "walking stick|sin
 crowdAlias("Name a mobility aid or assistive device", "quad cane", "tripod cane|wide based quad cane");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a mobility aid or assistive device", "mechanical lift", "hoist|patient lift");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a mobility aid or assistive device", "sit to stand lift", "standing lift");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum assessment", "fundus", "fundal position|fundal location|position of fundus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum assessment", "lochia", "lochia color|lochia amount|lochia odor");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum assessment", "bowel", "bowel movement|bowel sounds|flatus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum assessment", "incision", "incision site");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum assessment", "homans sign", "calf tenderness");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum assessment", "vital signs", "temperature");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum assessment", "vital signs", "blood pressure");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum assessment", "pain", "pain level");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum assessment", "bonding", "maternal infant bonding|attachment");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum assessment", "postpartum depression screening", "epds|edinburgh postnatal depression scale");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a postpartum assessment", "rh status", "rhogam eligibility");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "refuse treatment", "right to refuse");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "privacy", "right to privacy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "respect", "right to be treated with respect");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "safe environment", "right to a safe environment");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "pain management", "right to pain management");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "interpreter", "right to an interpreter");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "refuse treatment", "right to refuse medication");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "advance directive", "right to dnr");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "access to medical records", "right to a copy of records");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "emergency care", "right to emergency treatment");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "leave against medical advice", "right to leave");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "visitors", "right to visitors");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient right", "designate a surrogate", "right to medical power of attorney");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a urinary tract infection", "burning with urination", "dysuria");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a urinary tract infection", "blood in urine", "hematuria");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a urinary tract infection", "bacteria in urine", "bacteriuria");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a urinary tract infection", "leukocytes in urine", "positive leukocyte esterase");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a urinary tract infection", "foul smelling urine", "malodorous urine|strong smelling urine");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a urinary tract infection", "suprapubic tenderness", "suprapubic pain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a urinary tract infection", "nausea", "nausea and vomiting");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of a urinary tract infection", "fever", "fever in infants|low grade fever");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an item on a crash cart", "pads", "defibrillator pads");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an item on a crash cart", "dextrose", "dextrose 50|d50w");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an item on a crash cart", "epinephrine", "epinephrine 1 mg|epinephrine 1:10000");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing ethical principle", "veracity", "truthfulness");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing ethical principle", "fidelity", "keeping promises|loyalty");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing ethical principle", "justice", "fairness");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing ethical principle", "autonomy", "respect for autonomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing ethical principle", "advocacy", "patient advocacy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing ethical principle", "dignity", "human dignity|respect for human dignity");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "vital signs", "vital signs on stable patients|temperature|pulse|respirations|blood pressure");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "hygiene care", "hygiene");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "ambulating", "ambulation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "turning and repositioning", "repositioning|positioning");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "bed making", "occupied bed making|changing linens");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "intake and output", "measuring intake");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "measuring output", "recording output");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "weighing patients", "daily weights|height and weight");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "collecting specimens", "urine specimen|stool specimen|sputum specimen");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "transporting patients", "transporting stable patients|discharge transport");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "stocking supplies", "restocking");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "toileting", "urinal|bedpan|helping patients to the bathroom|toilet assistance");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "shaving", "shaving patients");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "covid", "coronavirus|sars cov 2");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "measles", "rubeola");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "rubella", "german measles");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "shingles", "herpes zoster");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "influenza", "influenza a|influenza b");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "meningococcal meningitis", "neisseria meningitidis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "mycoplasma pneumonia", "mycoplasma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "strep throat", "group a streptococcus|streptococcal pharyngitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "hib", "haemophilus influenzae type b");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "conjunctivitis", "viral conjunctivitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "lice", "head lice|pediculosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "vre", "vancomycin resistant enterococcus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "esbl", "extended spectrum beta lactamase");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "cre", "carbapenem resistant enterobacteriaceae");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease that needs airborne, droplet or contact precautions", "c diff", "c diff colitis");  // 2026-11-04 · board audit · same answer

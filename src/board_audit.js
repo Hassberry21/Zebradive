@@ -1361,3 +1361,233 @@ board("Name a mobility aid or assistive device", 70, "gait trainer");  // 2026-1
 board("Name a mobility aid or assistive device", 70, "stander");  // 2026-11-04 · NCLEX
 board("Name a mobility aid or assistive device", 70, "pivot disc|turning disc");  // 2026-11-04 · NCLEX
 board("Name a mobility aid or assistive device", 70, "transport chair");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 40, "respiratory rate under 12|respiratory rate below 10");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 50, "shallow breathing");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 50, "decreased level of consciousness|stupor");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 55, "hypoxia");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 55, "sedation|somnolence");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 60, "unarousable");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 60, "no response to sternal rub");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 60, "slurred speech");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 60, "dizziness");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 65, "constipation");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 65, "urinary retention");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 65, "aspiration");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 65, "respiratory arrest");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 65, "coma");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 65, "hypercapnia|respiratory acidosis");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 70, "limp muscles|flaccid");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 70, "dark lips|purple fingernails|blue fingernails");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 70, "decreased bowel sounds");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 75, "pulmonary edema");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 75, "rhabdomyolysis");  // 2026-11-04 · NCLEX
+board("Name a sign of opioid overdose", 75, "compartment syndrome");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "rubra serosa alba");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "nipples");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "breast engorgement");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "latch");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "urinary output|void");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "perineal integrity|reeda");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "hematoma");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "epidural site");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "sensation return|leg movement after epidural");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "ambulation");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "orthostatic hypotension");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "tdap");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "contraception plan");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "nutrition");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "fatigue");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "support system");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 55, "safe sleep teaching");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 60, "signs of infection");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 60, "intimate partner violence screening");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 60, "deviated uterus|boggy uterus");  // 2026-11-04 · NCLEX
+board("Name a postpartum assessment", 60, "clots");  // 2026-11-04 · NCLEX
+board("Name a patient right", 45, "right to information");  // 2026-11-04 · NCLEX
+board("Name a patient right", 55, "right to know diagnosis");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to know treatment options");  // 2026-11-04 · NCLEX
+board("Name a patient right", 55, "freedom from abuse");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "freedom from discrimination|nondiscrimination");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "freedom from seclusion");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to personal belongings");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to communicate");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to vote");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to make a will");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to refuse research|participate in research");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to appeal discharge");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to discharge planning");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to accommodations|ada accommodations");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to a chaperone");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to access to an advocate|patient advocate");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to have family notified");  // 2026-11-04 · NCLEX
+board("Name a patient right", 55, "right to least restrictive environment");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to die with dignity|death with dignity");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to amend records");  // 2026-11-04 · NCLEX
+board("Name a patient right", 55, "patient bill of rights");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to safe staffing");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to hospice");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to telephone");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to mail");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to be informed of rights");  // 2026-11-04 · NCLEX
+board("Name a patient right", 65, "right to know medications");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 50, "pyuria");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 55, "positive urine culture");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 55, "feeling of incomplete emptying");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "pelvic pressure");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "urinary retention");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "lethargy");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "irritability");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "hypothermia in infants");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "jaundice in newborns");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 65, "decreased appetite");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "agitation");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "malaise");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "dark urine");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "elevated wbc");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "sepsis");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "hypotension");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "tachycardia");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "abdominal pain in children");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "dribbling");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "dyspareunia");  // 2026-11-04 · NCLEX
+board("Name a sign of a urinary tract infection", 60, "hesitancy");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 45, "cardiac monitor");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 55, "ekg leads");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 50, "suction catheter|yankauer");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "suction canister");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 50, "non rebreather mask|nasal cannula|oxygen mask");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 55, "nasopharyngeal airway");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 55, "stylet");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "bougie");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "ett holder");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 55, "end tidal co2 detector|co2 detector");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "lubricant");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "tape");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 50, "iv catheters");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 50, "iv tubing");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "tourniquet");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "alcohol pads");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "needles");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 50, "saline flushes");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "lactated ringers");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "pressure bag");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "blood tubes");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "abg kit");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "central line kit");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "face shield");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "gowns");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "masks");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 55, "diphenhydramine|benadryl");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "methylprednisolone|solumedrol");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 55, "flumazenil");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 55, "nitroglycerin");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 55, "norepinephrine|levophed");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "vecuronium");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 55, "succinylcholine");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "rocuronium");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "etomidate");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "ketamine");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "propofol");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "midazolam|versed");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "diltiazem");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "metoprolol");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "verapamil");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "digoxin");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "furosemide|lasix");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "aspirin");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "albuterol");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "lorazepam|ativan");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "phenylephrine");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "dobutamine");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "isoproterenol");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 55, "transcutaneous pacer|pacing pads");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "code sheet|code record");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "sharps container");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "scissors");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "flashlight|penlight");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 60, "thermometer");  // 2026-11-04 · NCLEX
+board("Name an item on a crash cart", 55, "glucometer");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "equality");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "trustworthiness");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 55, "responsibility");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "professionalism");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "competence");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 55, "nursing code of ethics|ana code of ethics");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "deontology");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 65, "virtue ethics");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "consequentialism");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "solidarity");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "transparency");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "professional boundaries");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 65, "conscientious objection");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 65, "double effect|principle of double effect");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 65, "sanctity of life");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 65, "quality of life");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "equity");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "distributive justice");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "standard of care");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "stewardship");  // 2026-11-04 · NCLEX
+board("Name a nursing ethical principle", 60, "trust");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 40, "assisting with adls|adls");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 45, "bed bath");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 50, "peri care");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 55, "foley catheter care|catheter care");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 55, "denture care");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "nail care");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 65, "hemoccult");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 55, "applying scds|sequential compression devices");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 50, "assisting with meals");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 55, "setting up meal trays");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 55, "encouraging fluids");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 55, "passive range of motion");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 55, "fall precautions");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 65, "bed alarm");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "cleaning equipment");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "cleaning rooms");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "bladder scan");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "incentive spirometer reminder");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "sitz bath");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "enema|tap water enema");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "ice packs");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "warm compress");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "ekg");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "pulse oximetry");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "restraint checks");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "suctioning oral");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "comfort measures");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "companionship");  // 2026-11-04 · NCLEX
+board("Name a task an RN can delegate to a nursing assistant", 60, "back rub");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 50, "meningitis");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 60, "scarlet fever");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "rhinovirus");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 60, "common cold");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 60, "hand foot and mouth disease");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "enterovirus");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "salmonella");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "shigella");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "e coli o157|e coli");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "hepatitis e");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "neonatal herpes");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 55, "bronchiolitis");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "croup|parainfluenza");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "metapneumovirus");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "pinworms");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 70, "bed bugs");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "crusted scabies|norwegian scabies");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 60, "wound infection");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 55, "draining abscess");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 60, "diarrhea");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 60, "gastroenteritis");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 55, "multidrug resistant organism|mdro");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "crkp|klebsiella");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "acinetobacter");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "vrsa");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 60, "avian flu|bird flu|h5n1");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 60, "h1n1|swine flu");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "hemorrhagic fever|lassa fever|marburg");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 60, "epiglottitis");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "fifth disease|erythema infectiosum");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "ringworm|tinea");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "body lice");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "cholera");  // 2026-11-04 · NCLEX
+board("Name a disease that needs airborne, droplet or contact precautions", 65, "typhoid");  // 2026-11-04 · NCLEX

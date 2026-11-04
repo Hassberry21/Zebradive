@@ -7614,3 +7614,864 @@ board("Name a piece of equipment in a dental office", 86, "noise cancelling head
 board("Name a piece of equipment in a dental office", 87, "safety glasses");  // 2026-11-04 · INBDE
 board("Name a piece of equipment in a dental office", 87, "bib");  // 2026-11-04 · INBDE
 board("Name a piece of equipment in a dental office", 88, "toy box|treasure chest");  // 2026-11-04 · INBDE
+board("Name a word ending in -itis", 46, "osteoarthritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 48, "enterocolitis|necrotizing enterocolitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 51, "polyarteritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 53, "poliomyelitis|polio");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 53, "encephalomyelitis|acute disseminated encephalomyelitis|adem");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 57, "chorioamnionitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 58, "endomyometritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 58, "adnexitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 58, "parametritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 58, "funisitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 59, "posthitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 59, "balanoposthitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 59, "proctocolitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 59, "ileocolitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 60, "pancolitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 61, "pericoronitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 61, "osteochondritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 62, "apophysitis|calcaneal apophysitis|tibial tubercle apophysitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 62, "tracheobronchitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 63, "laryngotracheobronchitis|croup");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 63, "rhinosinusitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 63, "pansinusitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 63, "ethmoiditis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 64, "otitis media");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 64, "otitis externa|swimmer's ear");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 64, "malignant otitis externa");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 64, "myringitis|bullous myringitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 65, "petrositis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 65, "endophthalmitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 65, "panophthalmitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 65, "blepharoconjunctivitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 66, "keratoconjunctivitis|vernal keratoconjunctivitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 66, "neuroretinitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 66, "papillitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 66, "cyclitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 67, "iridocyclitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 67, "vitritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 68, "pyelitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 68, "ureteritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 68, "glomerulitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 68, "capillaritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 69, "endarteritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 69, "endophlebitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 69, "periarteritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 70, "myopericarditis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 70, "endomyocarditis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 70, "carditis|rheumatic carditis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 70, "pleuropericarditis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 71, "serositis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 71, "polyserositis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 72, "gastroduodenitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 72, "antritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 73, "hepatitis a");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 73, "hepatitis b");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 73, "hepatitis c");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 74, "hepatitis d");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 74, "hepatitis e");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 74, "steatohepatitis|nash");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 74, "cholangiohepatitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 74, "perihepatitis|fitz hugh curtis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 75, "pylephlebitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 75, "splenitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 75, "pyonephritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 76, "spondylodiscitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 76, "arachnoiditis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 76, "ependymitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 76, "leptomeningitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 76, "pachymeningitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 77, "meningoencephalitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 77, "rhombencephalitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 78, "panencephalitis|subacute sclerosing panencephalitis|sspe");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 78, "leukoencephalitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 78, "polioencephalitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 78, "ganglionitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 78, "polyneuritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 79, "mononeuritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 79, "plexitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 79, "neuromyelitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 80, "fibromyositis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 80, "pyomyositis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 80, "tendovaginitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 80, "onychitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 81, "dactylitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 81, "sesamoiditis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 81, "carpitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 82, "polychondritis|relapsing polychondritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 82, "chondrodermatitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 82, "canaliculitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 83, "tonsillopharyngitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 83, "adenoiditis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 83, "uvulitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 83, "nasopharyngitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 84, "rhinopharyngitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 85, "cryptitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 85, "omentitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 86, "adenitis|mesenteric adenitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 86, "thelitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 86, "funiculitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 87, "deferentitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 87, "vesiculitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 87, "prostatovesiculitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 87, "colpitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 88, "bartholinitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 88, "perineuritis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -itis", 88, "osteoperiostitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 45, "upper arms");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 45, "forearms");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 46, "palms");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 46, "soles");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 46, "index fingers");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 47, "pinky fingers");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 47, "ring fingers");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 47, "middle fingers");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 48, "pinky toes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 48, "eyeballs");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 48, "eye sockets|orbits");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 49, "pupils");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 49, "irises");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 50, "retinas");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 50, "lenses");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 50, "corneas");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 51, "eyelashes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 51, "earlobes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 51, "ear canals");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 52, "middle ears");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 52, "inner ears");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 52, "eustachian tubes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 53, "semicircular canals");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 53, "nasal cavities");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 53, "sinuses|maxillary sinuses");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 54, "frontal sinuses");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 54, "nasal passages");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 54, "cheekbones|zygomatic bones");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 55, "corners of the mouth");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 55, "parietal bones");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 55, "temporal bones");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 56, "nasal bones");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 56, "lacrimal bones");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 57, "palatine bones");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 57, "mandibular condyles");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 57, "sternocleidomastoids");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 58, "trapezius");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 58, "deltoids");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 58, "rotator cuffs");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 59, "latissimus dorsi");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 59, "glutes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 60, "calf muscles|gastrocnemius");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 60, "soleus");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 60, "achilles tendons");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 61, "menisci");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 61, "hip joints");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 61, "sacroiliac joints");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 62, "ribs");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 62, "true ribs");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 62, "floating ribs");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 63, "pleura");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 64, "pulmonary arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 64, "pulmonary veins");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 64, "atria");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 65, "ventricles");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 65, "coronary arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 65, "subclavian arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 66, "axillary arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 66, "brachial arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 66, "radial arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 67, "ulnar arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 67, "renal arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 67, "renal veins");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 68, "ovarian arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 68, "testicular arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 68, "internal carotids");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 69, "vertebral arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 69, "popliteal arteries");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 69, "saphenous veins");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 70, "cephalic veins");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 70, "basilic veins");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 71, "spermatic cords");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 71, "epididymis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 71, "labia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 72, "bartholin glands");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 72, "mammary glands");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 72, "areolas");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 73, "axillary lymph nodes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 73, "inguinal lymph nodes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 73, "groins");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 74, "flanks");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 74, "hip flexors");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 74, "psoas muscles");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 75, "cerebellar hemispheres");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 75, "temporal lobes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 75, "frontal lobes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 76, "parietal lobes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 76, "occipital lobes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 76, "hippocampi");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 77, "amygdalae");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 77, "thalami");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 78, "basal ganglia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 78, "lateral ventricles");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 78, "cranial nerves");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 79, "spinal nerves");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 79, "phrenic nerves");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 79, "median nerves");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 80, "ulnar nerves");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 80, "radial nerves");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 80, "femoral nerves");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 81, "recurrent laryngeal nerves");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 81, "olfactory bulbs");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 81, "cerebral peduncles");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 82, "cerebellar tonsils");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 82, "mammillary bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 83, "arytenoid cartilages");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 83, "false vocal cords");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 84, "thyroid lobes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 84, "salivary glands");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 85, "sublingual glands");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 86, "radii");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 87, "ischium");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 87, "pubic bones");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 88, "condyles");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a body part that comes in pairs", 88, "malleoli|ankle bones");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 45, "addisonian crisis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 45, "arnold chiari malformation|chiari malformation");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 45, "baker cyst");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 45, "bartter syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 46, "gitelman syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 46, "liddle syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 46, "bernard soulier syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 46, "glanzmann thrombasthenia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 46, "wiskott aldrich syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 46, "chediak higashi syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 46, "bruton agammaglobulinemia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 46, "digeorge syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 47, "job syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 47, "kartagener syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 47, "budd chiari syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 47, "caplan syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 47, "felty syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 47, "still disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 47, "horner syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 47, "brown sequard syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 48, "parinaud syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 48, "wallenberg syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 48, "weber syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 48, "benedikt syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 48, "millard gubler syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 48, "gerstmann syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 48, "kluver bucy syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 48, "anton syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 49, "balint syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 49, "wernicke aphasia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 49, "broca aphasia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 49, "todd paralysis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 49, "erb palsy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 49, "klumpke palsy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 49, "volkmann contracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 49, "colles fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 50, "smith fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 50, "bennett fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 50, "rolando fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 50, "jones fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 50, "monteggia fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 50, "galeazzi fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 50, "maisonneuve fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 50, "lisfranc injury");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 51, "chance fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 51, "jefferson fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 51, "salter harris fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 51, "barton fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 51, "pott disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 51, "scheuermann disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 51, "kienbock disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 51, "sever disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 52, "morton neuroma");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 52, "ledderhose disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 52, "sudeck atrophy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 52, "charcot joint");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 52, "charcot triad");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 52, "reynolds pentad");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 52, "whipple triad");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 52, "virchow node");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 53, "sister mary joseph nodule");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 53, "krukenberg tumor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 53, "blumer shelf");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 53, "courvoisier sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 53, "kehr sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 53, "rovsing sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 53, "psoas sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 54, "obturator sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 54, "boas sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 54, "carnett sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 54, "kayser fleischer rings");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 54, "mallory weiss tear");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 54, "boerhaave syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 54, "zenker diverticulum");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 54, "meckel diverticulum");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 55, "plummer vinson syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 55, "menetrier disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 55, "zollinger ellison syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 55, "curling ulcer");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 55, "cushing ulcer");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 55, "dubin johnson syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 55, "rotor syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 55, "gilbert syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 56, "crigler najjar syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 56, "reye syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 56, "caroli disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 56, "klatskin tumor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 56, "ogilvie syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 56, "peutz jeghers syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 56, "gardner syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 56, "turcot syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 57, "lynch syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 57, "cowden syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 57, "li fraumeni syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 57, "von hippel lindau disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 57, "sturge weber syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 57, "bourneville disease|tuberous sclerosis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 57, "von recklinghausen disease|neurofibromatosis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 57, "osler weber rendu syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 58, "ehlers danlos syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 58, "kasabach merritt syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 58, "eisenmenger syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 58, "ebstein anomaly");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 58, "lutembacher syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 58, "dressler syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 58, "prinzmetal angina");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 58, "takotsubo cardiomyopathy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 59, "kussmaul sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 59, "quincke pulse");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 59, "de musset sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 59, "corrigan pulse");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 59, "duroziez sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 59, "traube sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 59, "graham steell murmur");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 59, "carey coombs murmur");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 60, "levine sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 60, "trendelenburg sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 60, "trendelenburg gait");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 60, "gower sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 60, "hoffmann sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 60, "lhermitte sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 60, "uhthoff phenomenon");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 60, "marcus gunn pupil");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 61, "argyll robertson pupil");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 61, "adie pupil");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 61, "battle sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 61, "cushing reflex");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 61, "westermark sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 61, "hampton hump");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 61, "kerley b lines");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 61, "fothergill sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 62, "chadwick sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 62, "goodell sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 62, "hegar sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 62, "braxton hicks contractions");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 62, "asherman syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 62, "meigs syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 62, "stein leventhal syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 62, "mayer rokitansky kuster hauser syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 63, "nelson syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 63, "waterhouse friderichsen syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 63, "hamman rich syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 63, "loffler syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 63, "pancoast tumor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 63, "merkel cell carcinoma");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 63, "hutchinson freckle|hutchinson sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 63, "darier sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 64, "darier disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 64, "bowen disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 64, "paget disease of the breast");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 64, "henoch schonlein purpura|iga vasculitis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 64, "bechterew disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 64, "forestier disease|dish");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 64, "libman sacks endocarditis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 64, "aschoff bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 65, "anitschkow cells");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 65, "reed sternberg cells");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 65, "auer rods");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 65, "howell jolly bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 65, "heinz bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 65, "pappenheimer bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 65, "russell bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 65, "councilman bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 66, "mallory bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 66, "negri bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 66, "lewy body dementia|lewy bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 66, "pick disease|pick bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 66, "hirano bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 66, "cowdry bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 66, "call exner bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 66, "schiller duval bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 67, "michaelis gutmann bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 67, "donovan bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 67, "birbeck granules");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 67, "charcot leyden crystals");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 67, "curschmann spirals");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 67, "schaumann bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 67, "weibel palade bodies");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 68, "barr body");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 68, "kimmelstiel wilson nodules");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 68, "armanni ebstein");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 68, "wernicke korsakoff syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 68, "ganser syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 68, "fregoli delusion");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 68, "cotard delusion");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 68, "de clerambault syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 69, "othello syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 69, "lesch nyhan syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 69, "hartnup disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 69, "menkes disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 69, "refsum disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 69, "krabbe disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 69, "canavan disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 69, "alexander disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 70, "zellweger syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 70, "mcardle disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 70, "von gierke disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 70, "cori disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 70, "andersen disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 70, "hers disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 70, "tarui disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 70, "sanfilippo syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 71, "morquio syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 71, "scheie syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 71, "maroteaux lamy syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 71, "sly syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 71, "edwards syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 71, "patau syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 71, "noonan syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 71, "beckwith wiedemann syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 72, "potter sequence");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 72, "pierre robin sequence");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 72, "treacher collins syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 72, "crouzon syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 72, "apert syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 72, "waardenburg syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 72, "usher syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 72, "kearns sayre syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 73, "leigh syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 73, "leber hereditary optic neuropathy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 73, "stargardt disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 73, "coats disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 73, "best disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 73, "fuchs dystrophy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 73, "vogt koyanagi harada");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 73, "eales disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 74, "hashimoto encephalopathy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 74, "de quervain thyroiditis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 74, "riedel thyroiditis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 74, "plummer disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 74, "jod basedow phenomenon");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 74, "wolff chaikoff effect");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 74, "somogyi effect");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 74, "ludwig angina");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 75, "vincent angina");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 75, "paul bunnell test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 75, "weil felix test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 75, "widal test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 75, "mantoux test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 75, "schilling test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 75, "coombs test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 75, "kleihauer betke test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 76, "weber test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 76, "rinne test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 76, "dix hallpike maneuver");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 76, "kussmaul respiration");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 76, "biot breathing");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 76, "moro reflex");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 76, "landau reflex");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 76, "galant reflex");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 77, "ortolani maneuver");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 77, "barlow maneuver");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 77, "galeazzi sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 77, "thompson test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 77, "drawer test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 77, "hawkins test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 77, "neer test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 77, "speed test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 78, "yergason test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 78, "spurling test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 78, "patrick test|faber test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 78, "thomas test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 78, "ober test");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 78, "pemberton sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 78, "chaddock sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 78, "oppenheim sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 79, "gordon sign");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 79, "hutchinson triad");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 79, "hutchinson teeth");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 79, "charcot marie tooth disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 79, "dejerine sottas disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 79, "lambert eaton syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 79, "miller fisher syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 79, "devic disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 80, "marchiafava bignami disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 80, "binswanger disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 80, "gerstmann straussler scheinker");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 80, "sydenham chorea");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 80, "huntington chorea");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 80, "hallervorden spatz disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 80, "shy drager syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 80, "steele richardson olszewski syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 81, "machado joseph disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 81, "kennedy disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 81, "werdnig hoffmann disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 81, "kugelberg welander disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 81, "dandy walker malformation");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 81, "klippel feil syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 81, "klippel trenaunay syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 81, "parkes weber syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 82, "proteus syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 82, "mccune albright syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 82, "albright hereditary osteodystrophy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 82, "paget von schroetter syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 82, "leriche syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 82, "raynaud disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 82, "cogan syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 82, "susac syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 83, "jarisch herxheimer reaction");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 83, "chagas disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 83, "carrion disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 83, "weil disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 83, "brill zinsser disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 83, "hansen disease|leprosy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 83, "pott fracture");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 83, "lyell syndrome|toxic epidermal necrolysis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 84, "ritter disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 84, "hailey hailey disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 84, "letterer siwe disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 84, "hand schuller christian disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 84, "waldenstrom macroglobulinemia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 84, "castleman disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 84, "rosai dorfman disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 84, "kikuchi disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 85, "evans syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 85, "kostmann syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 85, "shwachman diamond syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 85, "fanconi syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 85, "gordon syndrome");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 85, "dent disease");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 85, "grawitz tumor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 85, "brenner tumor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 86, "sertoli leydig tumor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 86, "leydig cell tumor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 86, "sertoli cell tumor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 86, "warthin tumor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 86, "pindborg tumor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 86, "spitz nevus");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 86, "becker nevus");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 86, "ota nevus|nevus of ota");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 87, "fordyce spots");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 87, "forchheimer spots");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 87, "bitot spots");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 87, "brushfield spots");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 87, "lisch nodules");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 87, "heberden nodes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 87, "bouchard nodes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 87, "terry nails");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 88, "beau lines");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 88, "muehrcke lines");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 88, "mees lines");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a disease or sign named after a person", 88, "lindsay nails");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 45, "malaise");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 45, "lethargy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 45, "somnolence|drowsiness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 46, "polyphagia|increased hunger");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 46, "nocturia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 47, "urgency");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 47, "hesitancy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 47, "weak urine stream");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 47, "urinary retention");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 48, "hematochezia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 49, "orthopnea");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 49, "paroxysmal nocturnal dyspnea|pnd");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 49, "exertional dyspnea");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 49, "tachypnea");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 50, "apnea");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 50, "stridor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 50, "odynophagia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 50, "dyspepsia|indigestion");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 51, "early satiety");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 51, "regurgitation");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 51, "tenesmus");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 51, "fecal urgency");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 51, "steatorrhea|greasy stools");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 52, "pale stools|clay colored stools");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 52, "abdominal distension");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 52, "rectal pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 52, "rectal bleeding");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 52, "anal itching");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 53, "presyncope|lightheadedness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 53, "claudication");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 53, "leg pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 53, "cold extremities");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 54, "cold hands and feet");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 54, "chest tightness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 54, "chest pressure");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 54, "racing heart|tachycardia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 54, "skipped beats");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 55, "exercise intolerance");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 55, "aphasia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 55, "dysarthria");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 55, "ataxia|unsteady gait");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 56, "clumsiness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 56, "weakness on one side|hemiparesis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 56, "paralysis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 56, "paresthesia|pins and needles");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 56, "burning pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 57, "shooting pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 57, "neck pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 57, "shoulder pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 57, "hip pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 58, "knee pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 58, "foot pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 58, "heel pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 58, "wrist pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 58, "jaw pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 58, "toothache");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 59, "facial pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 59, "eye pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 59, "red eye");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 59, "itchy eyes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 59, "watery eyes|tearing");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 60, "dry eyes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 60, "floaters");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 60, "flashes of light");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 60, "vision loss");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 60, "tunnel vision");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 61, "halos around lights");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 61, "eye discharge");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 61, "ear discharge|otorrhea");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 61, "ear fullness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 61, "nasal discharge|rhinorrhea");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 62, "postnasal drip");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 62, "facial pressure|sinus pressure");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 62, "loss of voice|aphonia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 62, "lump in throat|globus");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 62, "bad breath|halitosis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 63, "mouth sores");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 63, "bleeding gums");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 63, "sore tongue");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 63, "metallic taste");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 63, "excessive salivation");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 64, "swollen glands|swollen lymph nodes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 64, "neck mass");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 64, "breast lump");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 64, "breast pain|mastalgia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 64, "nipple discharge");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 64, "vaginal discharge");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 65, "vaginal bleeding");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 65, "vaginal itching");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 65, "painful intercourse|dyspareunia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 65, "painful periods|dysmenorrhea");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 65, "missed period|amenorrhea");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 66, "spotting");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 66, "testicular pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 66, "scrotal swelling");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 66, "erectile dysfunction");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 66, "low libido");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 67, "feeling cold");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 67, "feeling hot");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 67, "clammy skin");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 68, "flushing");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 68, "hives|urticaria");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 68, "blisters");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 68, "skin peeling");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 68, "dry skin");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 69, "skin discoloration");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 69, "petechiae");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 69, "yellow eyes");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 69, "brittle nails");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 69, "thinning hair");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 70, "excess hair growth|hirsutism");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 70, "acne");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 70, "body aches|myalgia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 70, "arthralgia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 71, "muscle spasms");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 71, "joint swelling");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 71, "stiff joints");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 72, "reduced range of motion");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 72, "gait disturbance");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 72, "involuntary movements");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 72, "tics");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 73, "spasticity");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 73, "loss of balance");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 73, "lightheaded");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 73, "spinning sensation");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 73, "brain fog");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 74, "difficulty concentrating");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 74, "forgetfulness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 74, "disorientation");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 74, "delirium");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 74, "agitation");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 75, "restlessness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 75, "depression|depressed mood");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 75, "sadness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 75, "apathy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 75, "anhedonia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 75, "panic attacks");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 76, "nervousness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 76, "feeling of doom|sense of impending doom");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 76, "suicidal thoughts");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 76, "delusions");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 76, "nightmares");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 77, "snoring");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 77, "daytime sleepiness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 77, "sleepwalking");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 77, "night terrors");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 77, "bedwetting|enuresis");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 78, "teeth grinding");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 78, "loss of consciousness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 78, "convulsions");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 78, "aura");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 79, "phonophobia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 79, "neck rigidity");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 79, "nuchal rigidity");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 79, "back stiffness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 79, "sciatica");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 80, "groin pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 80, "flank pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 80, "side pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 80, "stomach ache");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 80, "epigastric pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 80, "right upper quadrant pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 81, "right lower quadrant pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 81, "left lower quadrant pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 81, "periumbilical pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 81, "suprapubic pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 81, "colicky pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 82, "gas pain");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 82, "belching|eructation");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 82, "vomiting coffee grounds");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 82, "projectile vomiting");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 83, "bilious vomiting");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 83, "morning sickness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 83, "motion sickness");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 83, "feeling full");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 83, "slow healing wounds");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 84, "cold sweats");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 84, "anosmia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 84, "ageusia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 85, "dysgeusia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 85, "xerophthalmia");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 85, "jaundiced skin");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 85, "cyanotic lips");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 86, "pallor");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 86, "pitting edema");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 86, "ascites|abdominal swelling");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 87, "sputum production");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 88, "rusty sputum");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 88, "frothy sputum");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a symptom", 88, "coughing at night");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 45, "hemicolectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 45, "sigmoidectomy|sigmoid colectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 46, "proctocolectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 46, "proctectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 47, "antrectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 48, "duodenectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 48, "ileectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 48, "jejunectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 48, "enterectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 49, "cecectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 49, "fistulectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 50, "fissurectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 50, "sphincterectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 51, "choledochectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 52, "metastasectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 52, "wedgectomy|wedge resection");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 52, "bilobectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 53, "thoracectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 53, "sternectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 53, "costectomy|rib resection");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 54, "valvectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 54, "ventriculectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 55, "aneurysmectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 55, "atriectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 57, "ovariectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 57, "clitoridectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 58, "labiectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 58, "hymenectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 58, "posthectomy|circumcision");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 59, "cystoprostatectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 60, "nephroureterectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 61, "pyelectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 61, "vesiculectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 62, "spermatocelectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 62, "hydrocelectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 64, "quadrantectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 65, "hemithyroidectomy|thyroid lobectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 66, "isthmusectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 66, "submandibulectomy|submandibular gland excision");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 66, "sialadenectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 67, "maxillectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 67, "mandibulectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 68, "orbitectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 68, "lensectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 68, "capsulectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 68, "cyclectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 69, "dacryoadenectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 69, "canaliculectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 69, "tarsectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 70, "stapedectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 70, "ossiculectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 70, "labyrinthectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 70, "cochleectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 71, "tympanectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 71, "hemipelvectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 71, "hemicorporectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 72, "hemilaminectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 72, "microdiscectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 72, "vertebrectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 72, "coccygectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 73, "sacrectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 73, "costotransversectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 73, "ostectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 74, "condylectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 74, "coronoidectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 74, "alveolectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 74, "patellectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 75, "sesamoidectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 75, "phalangectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 75, "metatarsectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 76, "carpectomy|proximal row carpectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 76, "trapeziectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 76, "acromionectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 76, "claviculectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 77, "bursectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 77, "ganglionectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 77, "neurectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 78, "topectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 78, "lesionectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 78, "amygdalectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 79, "pinealectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 79, "lipectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 79, "panniculectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 80, "dermatectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 80, "blepharectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 80, "rhytidectomy|facelift");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 80, "platysmectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 81, "onychectomy|nail removal");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 81, "matrixectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 81, "tenectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 81, "myectomy|septal myectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 82, "aponeurectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 82, "varicectomy|vein stripping");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 83, "phlebectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 83, "arteriectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 83, "vagectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 84, "esophagogastrectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 84, "diverticulectomy|meckel diverticulectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 85, "hemiglossectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 85, "laryngopharyngectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 86, "cordectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 86, "arytenoidectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 86, "epiglottectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 87, "mucosectomy|endoscopic mucosal resection");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 87, "papillectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 87, "ampullectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 87, "duodenopancreatectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 88, "splenopancreatectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE
+board("Name a word ending in -ectomy (surgical removal)", 88, "urethrectomy");  // 2026-11-04 · USMLE/NCLEX/INBDE

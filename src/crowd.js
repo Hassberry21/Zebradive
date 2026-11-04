@@ -1375,3 +1375,147 @@ crowdAlias("Name a piece of equipment in a dental office", "drill", "electric ha
 crowdAlias("Name a piece of equipment in a dental office", "drill", "air driven handpiece");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a piece of equipment in a dental office", "bib clip", "bib chain");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a piece of equipment in a dental office", "waiting room", "waiting room chairs");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "fasciitis", "plantar fasciitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "fasciitis", "necrotizing fasciitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "arthritis", "rheumatoid arthritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "arthritis", "psoriatic arthritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "arthritis", "septic arthritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "arthritis", "gouty arthritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "arthritis", "reactive arthritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "spondylitis", "ankylosing spondylitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "colitis", "ulcerative colitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "colitis", "pseudomembranous colitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "colitis", "microscopic colitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "colitis", "ischemic colitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "esophagitis", "eosinophilic esophagitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "esophagitis", "reflux esophagitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "hepatitis", "autoimmune hepatitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "hepatitis", "alcoholic hepatitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "hepatitis", "viral hepatitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "nephritis", "interstitial nephritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "nephritis", "lupus nephritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "cystitis", "interstitial cystitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "cystitis", "hemorrhagic cystitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "arteritis", "giant cell arteritis|temporal arteritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "vaginitis", "atrophic vaginitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "rhinitis", "allergic rhinitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "dermatitis", "atopic dermatitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "dermatitis", "contact dermatitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "dermatitis", "seborrheic dermatitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "dermatitis", "stasis dermatitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "dermatitis", "diaper dermatitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "dermatitis", "perioral dermatitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "neuritis", "optic neuritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "neuritis", "vestibular neuritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "myelitis", "transverse myelitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "pneumonitis", "hypersensitivity pneumonitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "pneumonitis", "radiation pneumonitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "pneumonitis", "aspiration pneumonitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "thyroiditis", "subacute thyroiditis|de quervain thyroiditis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "thyroiditis", "postpartum thyroiditis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "tenosynovitis", "de quervain tenosynovitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "epicondylitis", "lateral epicondylitis|tennis elbow");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "epicondylitis", "medial epicondylitis|golfer's elbow");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "capsulitis", "adhesive capsulitis|frozen shoulder");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "tendinitis", "achilles tendinitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "tendinitis", "patellar tendinitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "tendinitis", "rotator cuff tendinitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "bursitis", "olecranon bursitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "bursitis", "prepatellar bursitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "bursitis", "trochanteric bursitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "bursitis", "pes anserine bursitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "urethritis", "gonococcal urethritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "cholangitis", "primary sclerosing cholangitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "cholangitis", "ascending cholangitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "cholecystitis", "emphysematous cholecystitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "cholecystitis", "acalculous cholecystitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "osteitis", "alveolar osteitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "osteitis", "condensing osteitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "sinusitis", "frontal sinusitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "cellulitis", "orbital cellulitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "cellulitis", "periorbital cellulitis|preseptal cellulitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "vasculitis", "leukocytoclastic vasculitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "vasculitis", "cutaneous vasculitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "colitis", "lymphocytic colitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "colitis", "collagenous colitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "gastritis", "fundic gastritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "gastritis", "atrophic gastritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "gastritis", "h pylori gastritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "gastritis", "erosive gastritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "osteomyelitis", "vertebral osteomyelitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "encephalitis", "limbic encephalitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "encephalitis", "anti nmda receptor encephalitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "neuritis", "brachial neuritis|parsonage turner");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "myositis", "inclusion body myositis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "bursitis", "septic bursitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "hidradenitis", "hidradenitis suppurativa");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "sialadenitis", "submandibular sialadenitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "esophagitis", "candida esophagitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "esophagitis", "pill esophagitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "proctitis", "radiation proctitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "enteritis", "radiation enteritis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "peritonitis", "spontaneous bacterial peritonitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -itis", "mastitis", "periductal mastitis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body part that comes in pairs", "hamstrings", "hamstring muscles");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body part that comes in pairs", "bronchi", "main bronchi");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body part that comes in pairs", "tonsils", "palatine tonsils");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body part that comes in pairs", "humerus", "humeri");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease or sign named after a person", "legg calve perthes disease", "perthes disease");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease or sign named after a person", "capgras delusion", "capgras syndrome");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a disease or sign named after a person", "babinski sign", "babinski reflex");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "loss of appetite", "anorexia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "thirst", "polydipsia|excessive thirst");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "frequent urination", "excessive urination");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "swelling", "leg swelling");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "fainting", "fainting spells");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "chills", "chills and rigors|rigors");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "bruising", "easy bruising");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "cramps", "muscle cramps");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "weakness", "muscle weakness");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "stiffness", "morning stiffness");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "abdominal pain", "cramping abdominal pain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "weight loss", "unexplained weight loss");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "swelling", "edema of ankles");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "cough", "productive cough");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "cough", "dry cough");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "cough", "barking cough");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom", "congestion", "chest congestion");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "colectomy", "total colectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "colectomy", "subtotal colectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "gastrectomy", "partial gastrectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "gastrectomy", "sleeve gastrectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "cystectomy", "pilonidal cystectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "cholecystectomy", "laparoscopic cholecystectomy|lap chole");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "pancreatectomy", "distal pancreatectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "pancreatectomy", "total pancreatectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "hepatectomy", "partial hepatectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "lobectomy", "sleeve lobectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "hysterectomy", "total hysterectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "hysterectomy", "radical hysterectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "hysterectomy", "supracervical hysterectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "hysterectomy", "vaginal hysterectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "hysterectomy", "abdominal hysterectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "oophorectomy", "salpingo oophorectomy|bso");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "laminectomy", "colpectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "prostatectomy", "radical prostatectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "prostatectomy", "simple prostatectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "cystectomy", "radical cystectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "cystectomy", "partial cystectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "nephrectomy", "partial nephrectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "nephrectomy", "radical nephrectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "nephrectomy", "donor nephrectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "orchiectomy", "inguinal orchiectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "mastectomy", "simple mastectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "mastectomy", "radical mastectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "mastectomy", "modified radical mastectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "mastectomy", "double mastectomy|bilateral mastectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "mastectomy", "nipple sparing mastectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "mastectomy", "subcutaneous mastectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "mastectomy", "segmental mastectomy|partial mastectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "thyroidectomy", "total thyroidectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "thyroidectomy", "subtotal thyroidectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "cystectomy", "thyroglossal duct cystectomy|sistrunk");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "adenoidectomy", "tonsillectomy and adenoidectomy|t and a");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "hypophysectomy", "transsphenoidal hypophysectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "endarterectomy", "carotid endarterectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -ectomy (surgical removal)", "laryngectomy", "supraglottic laryngectomy");  // 2026-11-04 · board audit · same answer

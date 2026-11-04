@@ -568,3 +568,39 @@ crowdAlias("Name a vital sign or bedside assessment", "heart rate", "apical puls
 crowdAlias("Name a type of wound dressing", "gauze", "sterile gauze");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a type of wound dressing", "pressure dressing", "pressure bandage");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a type of wound dressing", "xeroform", "xeroform petrolatum");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing diagnosis", "self care deficit", "bathing self care deficit");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing diagnosis", "self care deficit", "feeding self care deficit");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing diagnosis", "self care deficit", "toileting self care deficit");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing diagnosis", "self care deficit", "dressing self care deficit");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a tube, drain or catheter", "foley", "indwelling urinary catheter|indwelling catheter");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a tube, drain or catheter", "straight cath", "intermittent catheter");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a tube, drain or catheter", "shunt", "vp shunt|ventriculoperitoneal shunt");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a tube, drain or catheter", "central line", "non tunneled central line");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of alcohol or opioid withdrawal", "vomiting", "nausea and vomiting");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of alcohol or opioid withdrawal", "hallucinations", "visual hallucinations");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of alcohol or opioid withdrawal", "hallucinations", "auditory hallucinations");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of alcohol or opioid withdrawal", "seizures", "alcohol withdrawal seizures|withdrawal seizures");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing skill learned in school", "wound care", "sterile dressing change");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing skill learned in school", "suctioning", "trach suctioning|oral suctioning|nasotracheal suctioning");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing skill learned in school", "tube feeding", "g tube feeding");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing skill learned in school", "oral care", "mouth care");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a fetal heart rate pattern or monitoring term", "late deceleration", "late decels");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a fetal heart rate pattern or monitoring term", "acceleration", "accels");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a fetal heart rate pattern or monitoring term", "reactive non stress test", "reactive");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nonmedication comfort measure for pain", "ice", "cold therapy|cryotherapy|cold compress");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nonmedication comfort measure for pain", "heat", "heat therapy|warm compress|hot water bottle");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nonmedication comfort measure for pain", "massage", "back rub");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nonmedication comfort measure for pain", "deep breathing", "breathing exercises");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nonmedication comfort measure for pain", "pillows", "positioning with pillows");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nonmedication comfort measure for pain", "rest", "sleep");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nonmedication comfort measure for pain", "distraction", "reading|tv|watching tv|video games|bubbles");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nonmedication comfort measure for pain", "aromatherapy", "essential oils|lavender|peppermint oil");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a defense mechanism", "isolation of affect", "isolation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a defense mechanism", "passive aggression", "passive aggressive behavior");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a defense mechanism", "undoing", "restitution");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a stage of labor or labor and delivery term", "transition", "transition phase");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a stage of labor or labor and delivery term", "pushing", "second stage of labor");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a stage of labor or labor and delivery term", "delivery of placenta", "third stage of labor");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a stage of labor or labor and delivery term", "fourth stage", "fourth stage of labor");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a stage of labor or labor and delivery term", "water breaking", "spontaneous rupture of membranes|srom");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a stage of labor or labor and delivery term", "amniotomy", "artificial rupture of membranes|arom");  // 2026-11-04 · board audit · same answer

@@ -457,3 +457,449 @@ board("Name a type of wound dressing", 75, "eye patch");  // 2026-11-04 · NCLEX
 board("Name a type of wound dressing", 75, "nonstick pad");  // 2026-11-04 · NCLEX
 board("Name a type of wound dressing", 75, "islanded dressing|island dressing");  // 2026-11-04 · NCLEX
 board("Name a type of wound dressing", 75, "burn gel|water jel");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 55, "impaired tissue integrity");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 50, "risk for deficient fluid volume");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for imbalanced fluid volume");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 55, "ineffective peripheral tissue perfusion");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for decreased cardiac tissue perfusion");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for ineffective cerebral tissue perfusion");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 65, "impaired spontaneous ventilation");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "functional urinary incontinence");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "urge urinary incontinence");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "overflow urinary incontinence");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "reflex urinary incontinence");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "perceived constipation");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 60, "risk for constipation");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 60, "impaired oral mucous membrane");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 60, "impaired walking");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "impaired transfer ability");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "impaired bed mobility");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "impaired wheelchair mobility");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for adult pressure injury");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for sudden infant death");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 65, "risk for poisoning");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 65, "risk for suffocation");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for latex allergy reaction");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 65, "ineffective denial");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "compromised family coping");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "disabled family coping");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "defensive coping");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 65, "impaired social interaction");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "chronic sorrow");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 60, "complicated grieving");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "disturbed personal identity");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 65, "chronic low self esteem");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "ineffective role performance");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "parental role conflict");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "impaired parenting");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for impaired parenting");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "ineffective sexuality pattern");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "sexual dysfunction");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 65, "decisional conflict");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 60, "impaired comfort");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 60, "sleep deprivation");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "disturbed thought processes");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "impaired home maintenance");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "ineffective health self management");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for loneliness");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for hypothermia");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for perioperative positioning injury");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "delayed surgical recovery");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for surgical site infection");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "ineffective infant feeding pattern");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "interrupted breastfeeding");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "insufficient breast milk production");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for disturbed maternal fetal dyad");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 60, "labor pain");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for neonatal hyperbilirubinemia");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "neonatal abstinence syndrome");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for delayed development");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for disproportionate growth");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "frail elderly syndrome");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "impaired resilience");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for complicated immigration transition");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "contamination");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "impaired emancipated decision making");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "readiness for enhanced self care");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "ineffective activity planning");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for acute confusion");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for dry eye");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for corneal injury");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "dentition impaired|impaired dentition");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for unstable blood pressure");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for thrombosis");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for allergy reaction");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for ineffective gastrointestinal perfusion");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for ineffective renal perfusion");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for decreased cardiac output");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "ineffective lymphedema self management");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "risk for metabolic syndrome");  // 2026-11-04 · NCLEX
+board("Name a nursing diagnosis", 75, "dysfunctional gastrointestinal motility");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 55, "cortrak");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 55, "nasal trumpet");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 55, "ostomy");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 55, "cecostomy");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "cholecystostomy tube");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "percutaneous drain|ir drain");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "pigtail catheter|pigtail drain");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "hemodialysis catheter");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "bladder irrigation catheter");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "sump drain");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "mini vac");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 65, "ureteral catheter");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 65, "temporary pacemaker wires|epicardial pacing wires");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 65, "mediastinal tube|mediastinal drain");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "pericardial drain");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "intracranial pressure monitor|icp bolt|camino bolt");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 65, "subdural drain");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "intrathecal catheter|pain pump");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "nerve block catheter|on q pump");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "tunneled catheter");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "groshong");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 65, "cordis|introducer sheath");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 65, "femoral line");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "subclavian line");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 60, "internal jugular line|ij line");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 65, "double lumen et tube");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 70, "transpyloric tube");  // 2026-11-04 · NCLEX
+board("Name a tube, drain or catheter", 70, "nasojejunal tube|nj tube");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 50, "rhinorrhea");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 55, "lacrimation");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 55, "mydriasis");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 55, "delirium");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 55, "disorientation");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 60, "hyperreflexia");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 70, "low mood");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 65, "hyperthermia");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 65, "hyperactivity");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 60, "jitteriness");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 65, "sleep disturbance");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 70, "vivid dreams");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 70, "muscle spasms|leg kicks");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 70, "hypersensitivity to light and sound");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 75, "stomach cramps");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 75, "flu like symptoms");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 75, "hyperalgesia");  // 2026-11-04 · NCLEX
+board("Name a symptom of alcohol or opioid withdrawal", 75, "increased respiratory rate");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 55, "head lag gone|no head lag");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 55, "grasp reflex disappears");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 55, "moro reflex disappears");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 55, "rolls front to back");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 55, "rolls back to front");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 55, "sits with support");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "sits unsupported");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 55, "stands alone");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 55, "walks independently");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "walks backward");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "walks up stairs");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "jumps in place");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "throws overhand");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "catches a ball");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "balances on one foot");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "builds tower of 2 blocks");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "builds tower of 6 blocks");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "scribbling");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "imitates sounds");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "says 3 words");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "vocabulary of 50 words");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "three word sentences");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "knows name|says own name");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "identifies body parts");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "recognizes parents");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "social referencing");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "temper tantrums");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "imaginary friends");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "dresses with help");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "brushes teeth with help");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "uses fork");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "rides bicycle with training wheels");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 60, "copies circle");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "copies square");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "copies triangle");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "copies diamond");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "prints letters");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "knows left and right");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "tells time");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "first period");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "voice changes");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "breast development|thelarche");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "pubic hair|pubarche");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "growth spurt");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "abstract thinking");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "identity vs role confusion");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "trust vs mistrust");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "autonomy vs shame and doubt");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "initiative vs guilt");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "industry vs inferiority");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "doubles birth weight");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "triples birth weight");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "anterior fontanel closes");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "posterior fontanel closes");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 65, "first tooth|teething");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 70, "sleeping through the night");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 70, "bladder control");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 70, "bowel control");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 70, "self feeding");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 70, "finger feeding");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 70, "turn taking");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 70, "sharing");  // 2026-11-04 · NCLEX
+board("Name a developmental milestone", 70, "joint attention");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 50, "medication reconciliation");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 45, "iv start");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "iv pump programming");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "hanging iv fluids");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "priming iv tubing");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "flushing an iv|saline flush");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "heparin flush");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "blood culture collection");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "bladder scan");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "straight catheterization|in and out cath");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "ng tube removal");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "checking tube placement");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "gastric residual check");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "ostomy bag change");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "wound packing");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "wound vac change");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "wound assessment");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "pressure injury staging");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 55, "skin assessment");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "measuring intake and output");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "weighing patients");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "orthostatic vital signs");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "apical pulse");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 50, "manual blood pressure");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "pulse oximetry");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "lung auscultation");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "bowel sounds assessment");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "heart sounds auscultation");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "nasal cannula");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "non rebreather mask");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "peak flow");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "sputum collection");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "stool sample");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "hemoccult");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "sitz bath");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 50, "perineal care|peri care");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 50, "foley care|catheter care");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "shaving a patient");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "feeding a patient");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "aspiration precautions");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "seizure precautions");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "isolation precautions");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "denture care");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "nail care");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "hair care");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "hoyer lift");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "gait belt use");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "logrolling");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "ted hose");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "cast care");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "traction care");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "pin site care");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "post op care");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "pre op teaching");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "code cart check");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "defibrillation");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 50, "aed");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 55, "heimlich maneuver|abdominal thrusts");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "newborn assessment");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "apgar scoring");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "fundal assessment");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "vitamin k injection");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "erythromycin eye ointment");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "breastfeeding support");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "safe patient handling");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 55, "delegation");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 55, "prioritization");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 50, "care planning|nursing care plan");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "time management");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "nasal medication");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "inhaler teaching");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "transdermal patch application");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "buccal medication");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "sublingual medication");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 65, "crushing medications");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 40, "medication rights|5 rights|rights of medication administration");  // 2026-11-04 · NCLEX
+board("Name a nursing skill learned in school", 50, "two identifiers|patient identification");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 55, "fetal heart tones|fhr");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 55, "uteroplacental insufficiency");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 55, "cord compression");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 55, "head compression");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "intrauterine resuscitation");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "fetal distress");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "non reassuring fetal status");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "external fetal monitoring");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "internal fetal monitoring");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "intermittent auscultation");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "doppler");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "contraction frequency");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "contraction duration");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "contraction intensity");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "resting tone");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 60, "hypertonus");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "nonreactive");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "fetal acoustic stimulation|vibroacoustic stimulation");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "scalp stimulation");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "oxytocin challenge test");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "negative contraction stress test");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "positive contraction stress test");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "fetal arrhythmia");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "wandering baseline");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "lambda pattern");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "overshoot");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "shoulders|shouldering");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "biphasic deceleration");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "recurrent decelerations");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "episodic decelerations");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "periodic changes");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 65, "amnioinfusion");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 70, "fetal scalp ph");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 70, "fetal pulse oximetry");  // 2026-11-04 · NCLEX
+board("Name a fetal heart rate pattern or monitoring term", 70, "stan|st analysis");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "giving information|informing");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 55, "accepting");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "acknowledging");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "offering general leads");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "sitting with the patient");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "attending behavior");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "sitting at eye level");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "open posture");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "soler");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 60, "i statements");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "encouraging expression of feelings");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "verbalizing the implied");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "formulating a plan of action");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 55, "limit setting|setting limits");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "confrontation");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "humor");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "self disclosure");  // 2026-11-04 · NCLEX
+board("Name a therapeutic communication technique", 65, "clarification");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 55, "progressive muscle relaxation");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 55, "mindfulness");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 60, "cognitive behavioral therapy|cbt");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "reiki");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "cutaneous stimulation");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "vibration");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "bracing");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "immobilization|splint");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "hydrotherapy|warm shower");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 60, "birthing ball");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 60, "counterpressure");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 60, "effleurage");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "hydrotherapy in labor|tub");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "doula support");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 65, "nonnutritive sucking");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "facilitated tucking");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "breastfeeding during procedure");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "white noise");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 60, "companionship|family presence");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "spiritual care");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "ultrasound therapy");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "manual therapy");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "occupational therapy");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "support groups");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "epsom salt bath");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "cupping");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "tai chi");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "dry needling");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "water immersion");  // 2026-11-04 · NCLEX
+board("Name a nonmedication comfort measure for pain", 70, "ice massage");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 65, "minimization");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 65, "withdrawal");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 75, "anticipation");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 75, "affiliation");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 75, "self assertion");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 75, "self observation");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 75, "distortion");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 75, "hypochondriasis");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 75, "omnipotence");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 75, "symbolization");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 75, "substitution");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 75, "fixation");  // 2026-11-04 · NCLEX
+board("Name a defense mechanism", 75, "incorporation");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 45, "first stage");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 50, "active phase");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 55, "false labor");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 55, "true labor");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "fully dilated|10 centimeters");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "station 0|zero station");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "presentation");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "cephalic presentation");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "face presentation");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "brow presentation");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "shoulder presentation|transverse lie");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "lie");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "attitude");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "flexion");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "position");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "occiput anterior|loa|roa");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "occiput posterior|back labor");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "descent");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "internal rotation");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "extension");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "external rotation|restitution");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "expulsion");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "schultze");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "duncan");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "placental separation");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 55, "placenta previa");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 55, "placental abruption");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 55, "cord prolapse");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 55, "meconium");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "amniotic fluid");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "premature rupture of membranes|prom");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 55, "preterm labor");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "term");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "tocolytics");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 60, "magnesium sulfate");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "terbutaline");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "betamethasone");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 60, "forceps");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 60, "vacuum extraction|vacuum");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "bishop score");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "prostaglandins|cervidil|misoprostol|cytotec");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "foley bulb");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "membrane sweep|stripping membranes");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "labor augmentation");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "tachysystole");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "hyperstimulation");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 60, "doula");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 55, "midwife");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "water birth");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 60, "birth plan");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 60, "spinal block");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "pudendal block");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "nitrous oxide");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "natural birth|unmedicated birth");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "delayed cord clamping");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 55, "skin to skin");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "golden hour");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "cord blood");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 55, "umbilical cord");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 50, "placenta|afterbirth");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "uterine atony");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "fundal massage");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "postpartum hemorrhage");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "dystocia");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "macrosomia");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "cephalopelvic disproportion|cpd");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "failure to progress");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "arrest of descent");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "arrest of dilation");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "laboring down");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "purple pushing");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "open glottis pushing");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "mcroberts maneuver");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "suprapubic pressure");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 60, "gravida");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 60, "para");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "gtpal");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 55, "estimated due date|edd|due date");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "naegeles rule");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "gestational age");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "amniotic sac|bag of waters");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "operative vaginal delivery");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "tolac");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "primigravida");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "multipara");  // 2026-11-04 · NCLEX
+board("Name a stage of labor or labor and delivery term", 65, "nulliparous");  // 2026-11-04 · NCLEX

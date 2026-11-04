@@ -1003,3 +1003,68 @@ crowdAlias("Name a part of the mouth", "commissure", "labial commissure|corner o
 crowdAlias("Name a part of the mouth", "vermilion border", "vermilion zone");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a part of the mouth", "fauces", "isthmus of fauces");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a part of the mouth", "tori", "torus palatinus|torus mandibularis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of denture or dental prosthesis", "partial denture", "removable partial denture|rpd");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of denture or dental prosthesis", "bridge", "fixed partial denture|fpd|fixed bridge");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of denture or dental prosthesis", "essix", "essix retainer|clear retainer");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of denture or dental prosthesis", "fixed hybrid denture", "hybrid denture|fixed detachable|prettau bridge");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of denture or dental prosthesis", "implant supported denture", "implant overdenture|implant retained overdenture");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of denture or dental prosthesis", "dentures", "false teeth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of denture or dental prosthesis", "maryland bridge", "resin bonded prosthesis|rochette bridge");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that stains teeth", "coffee", "black coffee|espresso");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that stains teeth", "soda", "dark soda|root beer");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that stains teeth", "berries", "dark berries");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that stains teeth", "pomegranate", "pomegranate juice");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that stains teeth", "mustard", "yellow mustard");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that stains teeth", "tobacco", "tobacco chewing|chewing tobacco");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food or drink that stains teeth", "matcha", "matcha latte");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a TMJ disorder", "pain in front of ear", "preauricular pain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a TMJ disorder", "jaw deviation", "deviation on opening");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a TMJ disorder", "ear fullness", "plugged ear");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a TMJ disorder", "clenching", "clenching during day");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a TMJ disorder", "jaw fatigue", "jaw fatigue after eating");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a TMJ disorder", "bite feels off", "sudden bite change|acute malocclusion");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a TMJ disorder", "swelling", "jaw swelling");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a TMJ disorder", "neck pain", "stiff neck");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a symptom of a TMJ disorder", "headache", "tension headache");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of tooth sensitivity", "enamel erosion", "acid erosion|dental erosion");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of tooth sensitivity", "cavity", "recurrent decay");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of tooth sensitivity", "high filling", "high spot");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of tooth sensitivity", "sugary foods", "sweets|sugar");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of tooth sensitivity", "bulimia", "bulimia nervosa");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of tooth sensitivity", "abfraction", "abfraction lesion");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of tooth sensitivity", "gum disease", "periodontitis|periodontal disease");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a famous person in dental history", "g v black", "father of operative dentistry");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a famous person in dental history", "pierre fauchard", "father of modern dentistry");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a famous person in dental history", "c edmund kells", "first dental x ray");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a famous person in dental history", "trendley dean", "henry trendley dean|h trendley dean");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a famous person in dental history", "per ingvar branemark", "branemark");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a famous person in dental history", "rafael bowen", "rafael l bowen");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a famous person in dental history", "robert tanner freeman", "first african american dental graduate");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a famous person in dental history", "lucy hobbs taylor", "lucy beaman hobbs|lucy hobbs");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a famous person in dental history", "paul revere", "forensic dentistry identification");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cosmetic dental procedure", "teeth whitening", "teeth bleaching");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cosmetic dental procedure", "bonding", "composite bonding|direct composite");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cosmetic dental procedure", "porcelain veneers", "ceramic veneers|emax veneers");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cosmetic dental procedure", "microabrasion", "enamel microabrasion");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cosmetic dental procedure", "gum contouring", "laser gum contouring");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cosmetic dental procedure", "crown lengthening", "esthetic crown lengthening");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cosmetic dental procedure", "botox for gummy smile", "botox");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cosmetic dental procedure", "lip filler", "lip augmentation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cosmetic dental procedure", "tooth reshaping", "teeth shaping");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cosmetic dental procedure", "grillz", "grills|grill");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a job in a dental office", "dental hygienist", "registered dental hygienist|rdh");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a job in a dental office", "dental assistant", "registered dental assistant|rda");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a job in a dental office", "dental assistant", "certified dental assistant|cda");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a job in a dental office", "dentist", "general dentist|dental surgeon");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a job in a dental office", "anesthesiologist", "dental anesthesiologist");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a job in a dental office", "office manager", "front office manager");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a job in a dental office", "receptionist", "dental office receptionist");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a job in a dental office", "practice owner", "dentist owner");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food that is good for your teeth", "cheese", "cottage cheese|cheddar cheese");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food that is good for your teeth", "yogurt", "greek yogurt");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a food that is good for your teeth", "water", "fluoridated water|tap water|mineral water");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bad breath", "dentures", "dirty dentures");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bad breath", "mouth breathing", "mouth breathing at night");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bad breath", "tonsil stones", "tonsilloliths");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bad breath", "liver failure", "fetor hepaticus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of bad breath", "alcohol", "alcoholism");  // 2026-11-04 · board audit · same answer

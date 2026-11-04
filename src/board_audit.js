@@ -3961,3 +3961,604 @@ board("Name a part of the mouth", 86, "internal oblique ridge");  // 2026-11-04 
 board("Name a part of the mouth", 86, "post dam|vibrating line");  // 2026-11-04 · INBDE
 board("Name a part of the mouth", 87, "lingual gingiva");  // 2026-11-04 · INBDE
 board("Name a part of the mouth", 88, "palatal gingiva");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 47, "interim partial denture|treatment partial");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 47, "transitional denture");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 48, "single denture|single complete denture");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 49, "tooth supported overdenture");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 50, "implant supported fixed prosthesis");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 51, "kennedy class i partial|distal extension partial");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 52, "unilateral partial denture");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 53, "swing lock partial");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 53, "attachment retained partial");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 54, "rotational path partial");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 55, "copy denture|duplicate denture");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 56, "surgical obturator");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 57, "interim obturator");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 57, "definitive obturator");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 58, "feeding plate|feeding obturator");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 59, "nasoalveolar molding|nam");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 60, "surgical stent|surgical guide");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 60, "radiation stent|radiation carrier");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 61, "occlusal splint|occlusal guard|bite splint");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 62, "anterior repositioning splint");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 63, "michigan splint|stabilization splint");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 63, "nti");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 65, "space maintainer");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 66, "pediatric partial denture|pedo partial|groper appliance");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 66, "fixed fixed bridge");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 67, "fixed movable bridge|stress breaker bridge");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 68, "spring cantilever bridge");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 69, "inlay bridge|inlay retained bridge");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 70, "fiber reinforced bridge");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 70, "pfm bridge");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 71, "gold bridge");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 72, "composite bridge");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 73, "all on 6");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 74, "teeth in a day");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 76, "cu sil denture");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 76, "soft denture|soft liner denture");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 77, "bps denture|biofunctional prosthetic system");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 78, "suction denture");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 80, "post crown");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 82, "endocrown");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 83, "facial prosthesis");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 83, "orbital prosthesis");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 84, "cranial prosthesis|cranial implant");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 85, "mandibular resection prosthesis|guide flange prosthesis");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 86, "palatal augmentation prosthesis");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 86, "tongue prosthesis");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 87, "lip plumper");  // 2026-11-04 · INBDE
+board("Name a type of denture or dental prosthesis", 88, "cosmetic snap on teeth|snap on smile");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 46, "iced tea");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 46, "chai");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 48, "grape soda|orange soda");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 49, "red sauce|pasta sauce|ketchup");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 49, "soy|teriyaki sauce");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 50, "worcestershire sauce");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 51, "beet juice");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 52, "carrot juice");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 52, "blackcurrant|ribena");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 53, "raspberries");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 54, "mulberries");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 55, "acai bowl");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 55, "purple grapes|grapes");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 56, "plums");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 57, "red cabbage");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 58, "eggplant");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 58, "black olives");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 60, "berry smoothie");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 61, "cherry juice");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 62, "tomato juice");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 63, "v8");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 64, "bloody mary");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 64, "red wine vinegar");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 65, "port wine");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 66, "rose wine");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 66, "dark rum|cocktails");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 67, "whiskey|bourbon");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 68, "cocoa|hot chocolate");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 69, "chocolate");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 69, "licorice|black licorice");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 70, "blue candy|blue dye");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 71, "frosting|colored icing");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 72, "slushies|slurpee");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 73, "jello|gelatin");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 74, "candy with food dye");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 75, "turmeric latte|golden milk");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 75, "curry sauce");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 77, "chili");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 78, "harissa");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 78, "betel leaf|betel nut|paan");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 80, "marijuana smoking");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 81, "cigars");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 81, "soda with caramel coloring");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 82, "yerba mate");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 83, "earl grey");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 84, "herbal tea|hibiscus tea");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 84, "rooibos");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 85, "vinegar");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 86, "squid ink");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 87, "blue spirulina");  // 2026-11-04 · INBDE
+board("Name a food or drink that stains teeth", 88, "cappuccino|latte");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 45, "reduced range of motion");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 46, "deflection on opening");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 47, "closed lock");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 48, "open lock");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 49, "disc displacement with reduction|reciprocal clicking");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 50, "disc displacement without reduction");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 51, "pain on palpation");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 52, "myofascial pain");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 53, "trigger points");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 54, "muscle tenderness");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 55, "toothache without cause|phantom toothache");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 57, "eye pain|pain behind the eyes");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 58, "vertigo");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 60, "hearing loss");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 62, "pain when talking");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 63, "pain when yawning");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 64, "pain when opening wide");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 65, "difficulty opening mouth");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 66, "jaw gets stuck");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 68, "asymmetric jaw movement");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 70, "posterior open bite");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 71, "anterior open bite");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 73, "facial swelling");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 74, "masseter hypertrophy|enlarged masseter");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 75, "cracked teeth");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 76, "scalloped tongue");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 78, "cheek ridging|linea alba");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 79, "throat pain|sore throat");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 80, "difficulty swallowing");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 81, "upper back pain");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 82, "shoulder tension");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 83, "fatigue");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 84, "tingling in face");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 85, "burning sensation");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 86, "dull ache");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 87, "sharp pain");  // 2026-11-04 · INBDE
+board("Name a symptom of a TMJ disorder", 88, "chronic pain");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 45, "bleaching");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 46, "enamel loss");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 47, "soda|carbonated drinks");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 48, "citrus fruits");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 48, "wine");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 49, "sports drinks");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 50, "tooth wear|attrition");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 50, "abrasion");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 51, "toothbrush abrasion");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 52, "aggressive flossing");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 52, "periodontal surgery");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 53, "scaling and root planing|deep cleaning");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 53, "periodontal therapy");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 54, "root exposure");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 55, "cementum loss");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 55, "open dentinal tubules");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 56, "fractured filling");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 57, "leaking filling|microleakage");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 57, "composite shrinkage|polymerization shrinkage");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 58, "postoperative sensitivity");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 59, "deep filling");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 59, "amalgam filling|metal filling");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 60, "galvanic shock");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 62, "vertical root fracture");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 63, "chipped tooth");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 63, "tooth trauma");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 64, "orthodontic treatment|braces");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 65, "temporary crown");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 65, "crown preparation");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 66, "loose crown");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 66, "failing crown");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 67, "root canal needed");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 68, "reversible pulpitis");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 68, "irreversible pulpitis");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 69, "dying nerve|pulp necrosis");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 70, "pericoronitis");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 70, "wisdom tooth eruption");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 71, "clenching");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 72, "parafunction");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 72, "occlusal trauma");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 73, "maxillary sinusitis");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 74, "cold weather");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 74, "hot foods");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 75, "cold drinks|ice cream");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 76, "vomiting");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 78, "frequent swimming|chlorine");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 78, "tartar control toothpaste");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 79, "alcohol mouthwash");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 80, "hydrogen peroxide");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 80, "smoking");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 81, "dry mouth");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 81, "dentinogenesis imperfecta");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 82, "amelogenesis imperfecta");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 83, "enamel hypoplasia");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 83, "molar incisor hypomineralization|mih");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 84, "fluorosis");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 85, "cervical lesions");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 86, "root caries");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 87, "gingivitis");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 87, "referred pain");  // 2026-11-04 · INBDE
+board("Name a cause of tooth sensitivity", 88, "barodontalgia|altitude change|scuba diving");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 46, "edward hartley angle|father of orthodontics");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 47, "alfred civilion fones|father of dental hygiene");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 47, "irene newman|first dental hygienist");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 48, "wilhelm roentgen|roentgen");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 49, "otto walkhoff");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 50, "gardner quincy colton");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 50, "william thomas green morton|w t g morton");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 51, "charles jackson");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 51, "crawford long");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 52, "alfred einhorn|novocaine inventor");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 53, "heinrich braun");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 53, "nils lofgren|lidocaine");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 54, "james beall morrison|foot treadle drill");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 54, "george f green|electric drill");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 55, "john borden|air turbine handpiece");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 55, "robert nelsen");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 56, "john walsh|high speed drill");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 57, "bernhard gottlieb");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 57, "harold loe");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 58, "sigmund socransky");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 58, "jens waerhaug");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 59, "per axelsson");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 60, "joseph muhler");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 61, "samuel stockton white|s s white");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 61, "claudius ash");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 62, "john tomes");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 62, "charles tomes");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 63, "james snell");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 64, "john hunter");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 64, "ambroise pare");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 65, "abulcasis|al zahrawi");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 65, "hippocrates");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 66, "aristotle");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 66, "galen");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 67, "bartolomeo eustachi|eustachius");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 68, "andreas vesalius");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 68, "philip pfaff");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 69, "nicolas dubois de chemant");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 69, "alexis duchateau");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 70, "charles goodyear");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 71, "thomas evans");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 71, "norman kingsley");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 72, "calvin case");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 72, "charles tweed");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 73, "lawrence andrews|straight wire appliance");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 73, "robert ricketts");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 74, "cecil steiner");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 75, "b holly broadbent|broadbent");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 75, "william proffit");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 76, "leonard linkow");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 76, "andre schroeder");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 78, "alan wilson|glass ionomer");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 78, "john mclean");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 79, "takao fusayama");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 79, "nakabayashi|hybrid layer");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 80, "mahmoud torabinejad|mta");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 80, "herbert schilder");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 81, "stephen cohen");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 82, "louis grossman");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 82, "edgar coolidge");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 83, "john ingle");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 83, "weston price");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 84, "emeline roberts jones|first female dentist practicing in us");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 85, "charles c bass|bass technique");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 86, "f w stillman");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 86, "w j charters");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 87, "hermann prinz");  // 2026-11-04 · INBDE
+board("Name a famous person in dental history", 88, "oscar amoedo|father of forensic odontology");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 46, "in office bleaching|power bleaching");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 47, "at home whitening|tray whitening");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 47, "internal bleaching|walking bleach");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 48, "resin infiltration|icon");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 50, "edge bonding");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 40, "no prep veneers|minimal prep veneers|prepless veneers");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 53, "indirect composite veneers");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 54, "veneer replacement");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 54, "all ceramic crowns");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 55, "porcelain crowns");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 56, "emax crowns");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 57, "replace amalgam with composite|amalgam removal");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 58, "white fillings");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 58, "ceramic inlay");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 59, "cosmetic contouring");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 60, "recontouring");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 60, "macroabrasion");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 62, "gingivectomy");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 63, "gingivoplasty");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 65, "depigmentation|gum bleaching");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 66, "connective tissue graft");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 67, "pinhole surgery|chao technique");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 68, "lip repositioning");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 69, "black triangle closure");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 70, "implant supported crown");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 71, "bridge");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 72, "orthodontics");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 72, "clear braces|ceramic braces");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 73, "lingual braces");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 74, "accelerated orthodontics");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 75, "six month smiles|short term orthodontics");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 75, "smile design|digital smile design");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 76, "mock up|trial smile");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 77, "wax up");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 78, "orthognathic surgery|jaw surgery");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 79, "genioplasty");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 79, "chin augmentation");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 80, "dermal fillers");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 81, "facial esthetics");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 83, "tooth tattoos");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 83, "gold caps|gold teeth");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 84, "diamond tooth");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 85, "teeth filing|tooth filing");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 86, "full mouth rehabilitation");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 86, "denture makeover");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 87, "implant supported dentures");  // 2026-11-04 · INBDE
+board("Name a cosmetic dental procedure", 88, "zirconia bridge");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 47, "dental hygiene assistant");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 48, "orthodontic assistant");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 48, "surgical assistant|oral surgery assistant");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 49, "chairside assistant");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 50, "lead assistant");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 50, "dental nurse");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 51, "oral health therapist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 52, "dental hygiene therapist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 52, "dental health aide therapist|dhat");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 53, "community dental health coordinator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 54, "oral and maxillofacial radiologist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 55, "oral pathologist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 56, "nurse anesthetist|crna");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 57, "registered nurse");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 57, "cosmetic dentist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 58, "implant dentist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 59, "dental resident");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 59, "dental student");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 60, "dental intern");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 61, "dental hygiene student");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 61, "denturist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 62, "dental ceramist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 63, "cad cam technician");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 63, "lab manager");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 65, "financial coordinator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 65, "billing coordinator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 66, "collections specialist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 66, "insurance biller");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 67, "patient coordinator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 68, "new patient coordinator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 68, "scheduling coordinator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 69, "call center agent");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 70, "regional manager");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 70, "clinical director");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 71, "practice administrator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 72, "chief dental officer");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 72, "dental consultant");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 73, "equipment technician|repair technician");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 74, "hr manager");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 74, "accountant|bookkeeper");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 75, "it specialist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 76, "social media manager");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 76, "translator|interpreter");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 77, "cleaner|cleaning staff");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 78, "volunteer");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 78, "dental educator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 79, "dental hygiene educator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 80, "public health dentist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 80, "forensic odontologist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 81, "dental photographer");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 81, "radiology technician|x ray tech");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 82, "sterilization coordinator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 83, "infection control coordinator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 83, "safety officer|osha coordinator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 84, "compliance coordinator");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 85, "credentialing specialist");  // 2026-11-04 · INBDE
+board("Name a job in a dental office", 85, "recall coordinator");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 45, "dairy|dairy products");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 47, "kefir");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 48, "plain milk|cow's milk");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 48, "fortified soy milk|almond milk");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 49, "kale");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 49, "lettuce");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 50, "collard greens");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 50, "bok choy");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 51, "arugula");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 51, "swiss chard");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 52, "cauliflower");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 52, "brussels sprouts");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 53, "asparagus");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 53, "crunchy vegetables");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 54, "raw vegetables");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 55, "pears");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 56, "melon|watermelon");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 56, "cantaloupe");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 57, "banana");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 57, "cranberries|unsweetened cranberries");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 58, "cocoa nibs|cacao");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 58, "black tea");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 60, "cashews");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 60, "brazil nuts");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 61, "walnuts");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 61, "peanuts");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 62, "pistachios");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 63, "chia seeds");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 63, "sunflower seeds");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 64, "pumpkin seeds");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 64, "flax seeds");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 65, "quinoa");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 65, "whole grains");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 66, "brown rice");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 66, "oatmeal");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 67, "lean meat|beef");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 67, "turkey");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 68, "pork");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 68, "sardines");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 69, "tuna");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 69, "mackerel");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 70, "shrimp|shellfish");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 70, "oysters");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 71, "lentils");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 72, "chickpeas");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 72, "edamame");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 73, "avocado");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 73, "olive oil");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 74, "coconut oil");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 74, "ginger");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 75, "mint|parsley");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 75, "basil");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 76, "cloves");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 76, "cinnamon");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 77, "turmeric");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 77, "seaweed");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 78, "xylitol candy");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 79, "sugar free candy");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 80, "stevia");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 80, "vitamin d foods");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 81, "calcium rich foods");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 81, "phosphorus rich foods");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 82, "vitamin c foods");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 82, "fiber rich foods");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 83, "probiotics");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 83, "mushrooms");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 84, "tomatoes");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 84, "zucchini");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 85, "radishes");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 85, "jicama");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 86, "snap peas");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 70, "green beans");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 87, "hard boiled eggs");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 87, "peanut butter");  // 2026-11-04 · INBDE
+board("Name a food that is good for your teeth", 88, "hummus");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 45, "sulcular brushing");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 46, "vertical technique");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 46, "horizontal technique");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 47, "roll technique");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 47, "smith bell technique|physiologic technique");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 48, "hand over hand flossing");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 49, "spool method|loop method");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 49, "wrap around method");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 50, "slide floss up and down");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 50, "hug each tooth");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 51, "use 18 inches of floss");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 51, "clean below the gumline");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 52, "floss once a day|floss daily");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 53, "brush after meals");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 53, "brush before bed");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 54, "wait 30 minutes after eating");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 54, "dont brush after acidic food");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 55, "gentle pressure|dont press too hard");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 56, "small circles");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 56, "short strokes");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 57, "pea sized amount");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 57, "rice sized smear for babies");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 58, "supervise children");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 59, "brush for 2 minutes");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 59, "divide into quadrants");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 60, "30 seconds per quadrant");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 60, "brush all surfaces");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 61, "brush the gumline");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 61, "brush the chewing surfaces");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 62, "brush inside surfaces");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 63, "vertical strokes for front teeth");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 63, "toothbrush at 45 degrees to gumline");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 64, "rinse toothbrush");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 64, "let toothbrush air dry");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 65, "store toothbrush upright");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 66, "dont share toothbrush");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 66, "replace after illness");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 67, "frayed bristles");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 67, "use a timer|two minute timer");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 68, "pressure sensor");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 69, "sonic toothbrush");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 69, "oscillating rotating brush");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 70, "use mouthwash");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 70, "use fluoride mouthwash");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 71, "dont rinse after brushing");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 72, "chew sugar free gum");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 72, "brush your gums");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 73, "clean around braces");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 73, "orthodontic flossing");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 74, "super floss for bridges");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 74, "clean under bridge");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 75, "clean implants");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 76, "denture brushing|clean dentures daily");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 76, "soak dentures overnight");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 77, "remove dentures at night");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 77, "single tufted brush");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 78, "floss picks");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 79, "waxed floss");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 79, "unwaxed floss");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 80, "dental tape");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 80, "ptfe floss|glide");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 81, "tongue cleaning");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 82, "disclosing tablets");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 82, "brush the back teeth");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 83, "start in the same place");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 83, "systematic brushing");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 84, "brush tongue back to front");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 84, "rubber tip stimulator");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 85, "toothpicks");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 86, "interdental cleaning");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 86, "soft toothbrush");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 87, "hold brush like a pencil");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 87, "brush with fluoride");  // 2026-11-04 · INBDE
+board("Name a toothbrushing or flossing technique or tip", 88, "low abrasion toothpaste");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 45, "halitosis|oral malodor");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 45, "plaque");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 46, "tartar|calculus");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 46, "periodontitis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 47, "gingivitis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 47, "anug|trench mouth");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 48, "pericoronitis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 48, "peri implantitis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 49, "dry socket");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 49, "tooth extraction");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 50, "open contacts|food impaction");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 50, "leaky fillings");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 51, "ill fitting crowns");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 52, "retainers|aligners");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 52, "braces");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 53, "tongue piercing");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 53, "volatile sulfur compounds|hydrogen sulfide|methyl mercaptan");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 54, "anaerobic bacteria");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 55, "sjogren syndrome");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 56, "snoring");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 56, "sleep apnea");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 57, "tonsillitis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 58, "chronic sinusitis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 58, "nasal foreign body");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 59, "rhinitis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 59, "adenoiditis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 60, "pharyngitis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 60, "bronchitis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 61, "bronchiectasis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 61, "lung abscess");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 62, "pneumonia");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 62, "lung cancer");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 63, "tuberculosis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 63, "zenker diverticulum");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 64, "esophageal cancer");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 64, "achalasia");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 65, "hiatal hernia");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 65, "gastroparesis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 66, "stomach cancer");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 66, "small intestinal bacterial overgrowth|sibo");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 66, "constipation");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 67, "diabetic ketoacidosis|fruity breath");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 67, "uremia|ammonia breath|fishy breath");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 68, "cirrhosis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 69, "trimethylaminuria|fish odor syndrome");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 69, "ketosis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 70, "hunger");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 70, "skipping meals");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 71, "high protein diet");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 72, "cigarettes|tobacco");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 72, "cigars");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 73, "vaping");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 73, "cannabis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 74, "chewing tobacco");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 74, "spicy food");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 75, "curry");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 75, "cheese");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 76, "meat");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 76, "eggs");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 77, "canned fish|tuna");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 77, "sugar");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 78, "milk");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 78, "antihistamines");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 79, "antidepressants");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 79, "chemotherapy");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 80, "radiation therapy");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 80, "dimethyl sulfoxide");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 81, "disulfiram");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 81, "nitrates");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 82, "vitamin supplements");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 82, "stress");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 83, "menstruation");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 83, "pregnancy");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 84, "oral cancer");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 84, "necrotic tumor");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 85, "ulcers");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 85, "thrush|oral candidiasis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 86, "herpes");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 86, "mononucleosis");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 87, "scurvy");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 87, "poor flossing");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 88, "not brushing tongue");  // 2026-11-04 · INBDE
+board("Name a cause of bad breath", 88, "psychogenic halitosis|halitophobia");  // 2026-11-04 · INBDE

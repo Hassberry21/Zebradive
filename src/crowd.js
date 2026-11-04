@@ -1629,3 +1629,43 @@ crowdAlias("Name something in a first aid kit", "hemostatic gauze", "quikclot ga
 crowdAlias("Name something in a first aid kit", "eye pads", "eye patch");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name something in a first aid kit", "thermometer", "thermometer strips");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name something in a first aid kit", "thermometer", "disposable thermometer");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an infection", "mycoplasma", "walking pneumonia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an infection", "leprosy", "hansen disease");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "blood", "whole blood");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "blood", "venous blood");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "blood", "arterial blood");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "menstrual blood", "menses|menstrual fluid");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "semen", "sperm");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "sweat", "sweat apocrine|apocrine sweat");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "sweat", "eccrine sweat");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "snot", "nasal mucus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "saliva", "drool|spit");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "stomach acid", "hydrochloric acid");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "plasma", "blood plasma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a body fluid or secretion", "surfactant", "surfactant fluid");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "heart attack", "mi");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "drowning", "near drowning");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "sprain", "ankle sprain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "broken bone", "hip fracture");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "broken bone", "wrist fracture");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "broken bone", "rib fracture");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "bleeding", "bleeding that won't stop");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "overdose", "opioid overdose");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "blood clot", "leg swelling");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "kidney stones", "kidney stone pain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "dehydration", "dehydration in child");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a reason someone goes to the ER", "cuts", "lacerations needing stitches");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a condition with \"syndrome\" in its name", "edwards syndrome", "trisomy 18");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a condition with \"syndrome\" in its name", "patau syndrome", "trisomy 13");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "red blood cell", "rbcs");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "white blood cell", "wbcs");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "black box warning", "black box");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "black eye", "periorbital ecchymosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "black widow bite", "black widow spider");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "black lung", "black lung disease|coal workers pneumoconiosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "rubella", "rubella german measles");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "cyanosis", "cyanotic|cyanosis central");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "yellow card", "yellow card reporting");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "red reflex", "red reflex test");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "red reflex", "red eye reflex");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term with a color in it", "erythroplakia", "red patch");  // 2026-11-04 · board audit · same answer

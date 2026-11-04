@@ -604,3 +604,55 @@ crowdAlias("Name a stage of labor or labor and delivery term", "delivery of plac
 crowdAlias("Name a stage of labor or labor and delivery term", "fourth stage", "fourth stage of labor");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a stage of labor or labor and delivery term", "water breaking", "spontaneous rupture of membranes|srom");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a stage of labor or labor and delivery term", "amniotomy", "artificial rupture of membranes|arom");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign that a patient is close to death", "apnea", "periods of apnea");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dementia care strategy", "routine", "structured routine|daily routine");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dementia care strategy", "exercise", "regular exercise");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a risk factor for falls", "weakness", "muscle weakness");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lung or breath sound", "rhonchi", "coarse rhonchi");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lung or breath sound", "diminished breath sounds", "diminished");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lung or breath sound", "bronchial", "bronchial breath sounds");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lung or breath sound", "vesicular", "vesicular breath sounds");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lung or breath sound", "stridor", "inspiratory stridor|expiratory stridor|biphasic stridor|crowing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lung or breath sound", "fine crackles", "velcro crackles");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lung or breath sound", "crackles", "bibasilar crackles");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a lung or breath sound", "gurgling", "bubbling");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common pediatric hospital diagnosis", "abuse", "child abuse|non accidental trauma|nat");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a common pediatric hospital diagnosis", "ingestion", "foreign body ingestion|button battery");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a discharge teaching topic", "medications", "medication schedule|medication side effects");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a discharge teaching topic", "activity restrictions", "activity");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a discharge teaching topic", "daily weights", "weight monitoring");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a discharge teaching topic", "pain management", "pain medication");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a discharge teaching topic", "catheter care", "urinary catheter care");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a discharge teaching topic", "smoking cessation", "tobacco cessation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a discharge teaching topic", "exercise", "home exercise program");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of wound", "surgical wound", "surgical incision");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of wound", "pressure injury", "stage 1 pressure injury|stage 2 pressure injury|stage 3 pressure injury|stage 4 pressure injury|stage 1|stage 2|stage 3|stage 4");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of wound", "abrasion", "graze");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a head-to-toe assessment", "neurological assessment", "neuro");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a head-to-toe assessment", "pulses", "apical pulse|peripheral pulses|pedal pulses|radial pulse");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a head-to-toe assessment", "skin", "skin color|skin integrity");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a head-to-toe assessment", "pupils", "pupils equal round reactive|perrla");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a head-to-toe assessment", "sensation", "sensation in extremities");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an injection type or injection site", "intramuscular", "intramuscular injection");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an injection type or injection site", "subcutaneous", "subcutaneous injection");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an injection type or injection site", "intravenous", "intravenous injection");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an injection type or injection site", "intradermal", "intradermal injection");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an injection type or injection site", "vastus lateralis", "anterolateral thigh");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an injection type or injection site", "thigh", "lateral thigh|outer thigh");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an injection type or injection site", "back of arm", "back of upper arm|posterior arm");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an injection type or injection site", "abdomen", "periumbilical|around the belly button");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an injection type or injection site", "buttocks", "upper buttock|gluteal");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an injection type or injection site", "ventrogluteal", "hip");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an injection type or injection site", "intracavernosal", "intracavernous");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "walker", "standard walker|zimmer frame|front wheeled walker|two wheeled walker");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "rollator", "four wheeled walker|trolley walker");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "crutches", "axillary crutches");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "wheelchair", "manual wheelchair");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "power wheelchair", "electric wheelchair");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "gait belt", "transfer belt");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "sliding board", "slide board");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "brace", "knee brace|back brace");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "cane", "walking stick|single point cane");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "quad cane", "tripod cane|wide based quad cane");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "mechanical lift", "hoist|patient lift");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a mobility aid or assistive device", "sit to stand lift", "standing lift");  // 2026-11-04 · board audit · same answer

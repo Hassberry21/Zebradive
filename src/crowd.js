@@ -1519,3 +1519,113 @@ crowdAlias("Name a word ending in -ectomy (surgical removal)", "adenoidectomy", 
 crowdAlias("Name a word ending in -ectomy (surgical removal)", "hypophysectomy", "transsphenoidal hypophysectomy");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a word ending in -ectomy (surgical removal)", "endarterectomy", "carotid endarterectomy");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a word ending in -ectomy (surgical removal)", "laryngectomy", "supraglottic laryngectomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hypercalcemia", "hypercalcemia of malignancy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hyperinsulinemia", "hyperinsulinism");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hyperemesis", "hyperemesis gravidarum");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hypertonic", "hypertonic saline");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hypotonic", "hypotonic saline");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hypertonic", "hypertonic solution");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hypotonic", "hypotonic solution");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hyperosmolar", "hyperosmolality");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hypoosmolar", "hypoosmolality");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hypersensitivity", "hypersensitivity reaction");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hyperbaric", "hyperbaric oxygen");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hypoventilation", "obesity hypoventilation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hyperactivity", "hyperactivity disorder|adhd");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hypogastric", "hypogastric plexus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hyperopia", "hypermetropia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hypertrophy", "hypertrophied");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a medical term that starts with hyper- or hypo-", "hypoperfusion", "hypoperfused");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "aplastic anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "iron deficiency anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "pernicious anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "sickle cell anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "hemolytic anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "megaloblastic anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "macrocytic anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "microcytic anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "normocytic anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "sideroblastic anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "anemia of chronic disease");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "anemia", "fanconi anemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "leukemia", "acute myeloid leukemia|aml");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "leukemia", "acute lymphoblastic leukemia|all");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "leukemia", "chronic myeloid leukemia|cml");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "leukemia", "chronic lymphocytic leukemia|cll");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "leukemia", "hairy cell leukemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "leukemia", "promyelocytic leukemia|apl");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "thalassemia", "alpha thalassemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "thalassemia", "beta thalassemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "ischemia", "myocardial ischemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "ischemia", "mesenteric ischemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "ischemia", "limb ischemia|critical limb ischemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "ischemia", "cerebral ischemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "acidemia", "organic acidemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "acidemia", "propionic acidemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "acidemia", "methylmalonic acidemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "acidemia", "isovaleric acidemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "hypercholesterolemia", "familial hypercholesterolemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "hypercalcemia", "hypercalcemia of malignancy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "polycythemia", "polycythemia vera");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "polycythemia", "secondary polycythemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "viremia", "hiv viremia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "viremia", "hepatitis b viremia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "azotemia", "prerenal azotemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "azotemia", "postrenal azotemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "azotemia", "intrarenal azotemia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a word ending in -emia (a blood condition)", "toxemia", "toxemia of pregnancy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "radiation", "radiation therapy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "sun exposure", "uv radiation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "radiation", "ionizing radiation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "asbestos", "asbestos exposure|mesothelioma risk");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "silica", "crystalline silica");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "betel nut", "betel quid|areca nut");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "hepatitis b", "hepatitis b virus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "hepatitis c", "hepatitis c virus");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "immunosuppression", "immunosuppressants");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "arsenic", "arsenic in water");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "salted fish", "chinese style salted fish");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "diabetes", "diabetes type 2");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "radiation", "prior radiation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "chemotherapy", "prior chemotherapy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "dense breasts", "dense breast tissue");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "radiation", "chest radiation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "obesity", "postmenopausal obesity");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something that raises your cancer risk", "tamoxifen", "tamoxifen endometrial");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "heart disease", "ischemic heart disease|coronary artery disease");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "stroke", "hemorrhagic stroke");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "stroke", "ischemic stroke");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "liver disease", "chronic liver disease");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "poisoning", "unintentional poisoning");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "overdose", "drug overdose");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "overdose", "opioid overdose");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "homicide", "assault");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "fire", "burns");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "neonatal conditions", "perinatal conditions");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "pregnancy complications", "childbirth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "diarrheal disease", "diarrhea");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "malnutrition", "protein energy malnutrition");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "diabetes", "diabetes complications");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "alcohol", "alcohol use disorder");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "parkinson disease", "parkinsons");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "covid", "covid 19");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a leading cause of death", "war", "armed conflict");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "band aids", "adhesive bandages");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "gauze", "sterile gauze pads");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "antibiotic ointment", "triple antibiotic ointment");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "cold pack", "instant cold pack");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "elastic bandage", "crepe bandage");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "elastic bandage", "compression bandage");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "gloves", "nitrile gloves");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "gloves", "latex gloves");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "scissors", "bandage scissors");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "tick remover", "tick tweezers");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "hydrocortisone cream", "hydrocortisone 1%");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "calamine lotion", "calamine");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "emergency blanket", "space blanket|mylar blanket");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "whistle", "emergency whistle");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "tourniquet", "tourniquet cat|combat application tourniquet");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "hemostatic gauze", "quikclot gauze");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "eye pads", "eye patch");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "thermometer", "thermometer strips");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name something in a first aid kit", "thermometer", "disposable thermometer");  // 2026-11-04 · board audit · same answer

@@ -26010,6 +26010,1664 @@ leukocytosis
 leukopenia
 `, "2026-11-06");
 
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE (batch 2026-11-04) ---- */
+P("Name a bedside procedure","tests","",`
+iv placement|iv insertion|peripheral iv|piv|iv start|cannulation|peripheral iv cannulation
+blood draw|venipuncture|phlebotomy
+lumbar puncture|spinal tap|lp
+foley catheter|urinary catheterization|foley placement|bladder catheterization|catheterisation
+arterial blood gas|abg|arterial puncture|arterial stick
+central line|central venous catheter|central line placement|cvc|central venous line
+intubation|endotracheal intubation|ett placement
+paracentesis|abdominal tap
+thoracentesis|pleural tap
+nasogastric tube|ng tube|ng tube placement|nasogastric tube placement
+arterial line|art line|a line|arterial catheter
+cpr|cardiopulmonary resuscitation|chest compressions
+suturing|laceration repair|stitches|sutures
+incision and drainage|i and d|abscess drainage
+chest tube|tube thoracostomy|chest drain
+ekg|ecg|electrocardiogram|12 lead ecg|12 lead ekg
+cardioversion|synchronized cardioversion|electrical cardioversion
+defibrillation|defib
+fingerstick glucose|fingerstick|point of care glucose|capillary blood glucose|accucheck
+bladder scan|bladder ultrasound|post void residual|pvr
+arthrocentesis|joint aspiration|joint tap
+joint injection|steroid injection|intra articular injection
+pericardiocentesis
+bone marrow biopsy|bone marrow aspiration|bone marrow aspirate
+skin biopsy|punch biopsy|shave biopsy
+straight catheterization|in and out catheterization|intermittent catheterization|straight cath
+nasal packing|anterior nasal packing|epistaxis packing
+splinting|splint application
+reduction|closed reduction|fracture reduction|dislocation reduction|joint reduction
+wound debridement|debridement
+wound packing
+dressing change|wound care
+staple removal
+suture removal
+nail removal|toenail removal|nail avulsion|partial nail avulsion
+ingrown toenail removal|wedge resection
+cryotherapy|liquid nitrogen
+foreign body removal
+ear irrigation|ear lavage|cerumen removal|earwax removal|cerumen disimpaction
+digital rectal exam|dre
+fecal disimpaction|disimpaction
+enema
+pelvic exam|speculum exam|bimanual exam
+pap smear|pap test|cervical cytology
+iud insertion|intrauterine device insertion
+nexplanon insertion|contraceptive implant insertion|implant insertion
+endometrial biopsy
+nerve block|regional nerve block|digital block|digital nerve block
+local anesthesia|local anesthetic injection|lidocaine injection
+ultrasound guided iv|ultrasound guided peripheral iv|usgiv
+intraosseous line|io line|io access|intraosseous access|intraosseous needle
+bag valve mask ventilation|bag mask ventilation|bvm|bagging
+oral airway|oropharyngeal airway|opa
+nasal airway|nasopharyngeal airway|npa|nasal trumpet
+laryngeal mask airway|lma|supraglottic airway
+cricothyrotomy|cricothyroidotomy|surgical airway|needle cricothyrotomy
+needle decompression|needle thoracostomy
+tracheostomy|bedside tracheostomy|percutaneous tracheostomy|trach
+tracheostomy change|trach change
+extubation
+suctioning|tracheal suctioning|endotracheal suctioning|oral suctioning
+bronchoscopy|bedside bronchoscopy
+bronchoalveolar lavage|bal
+transcutaneous pacing|external pacing
+transvenous pacing|transvenous pacemaker
+pulmonary artery catheter|swan ganz|swan ganz catheter|right heart catheter
+picc line|peripherally inserted central catheter
+midline catheter|midline
+dialysis catheter|hemodialysis catheter|quinton catheter|trialysis catheter
+temporary dialysis line
+orogastric tube|og tube
+nasojejunal tube|nj tube|feeding tube placement|dobhoff|dobhoff tube
+gastric lavage|stomach pumping|stomach pump
+blakemore tube|sengstaken blakemore tube|minnesota tube|balloon tamponade
+peg tube replacement|g tube replacement|gastrostomy tube replacement
+rectal tube|flexiseal|fecal management system
+suprapubic catheter change|suprapubic catheter
+coude catheter
+three way catheter|bladder irrigation|continuous bladder irrigation|cbi
+urine culture collection|clean catch
+blood culture|blood cultures
+wound culture|wound swab
+throat swab|rapid strep test|strep swab
+nasopharyngeal swab|np swab|flu swab|covid swab
+vaginal swab|wet mount
+tzanck smear|tzanck test
+koh prep|potassium hydroxide prep|skin scraping
+wood lamp exam|woods lamp
+fluorescein exam|fluorescein staining|eye stain
+slit lamp exam
+tonometry|eye pressure check|tonopen
+eye irrigation|ocular irrigation|morgan lens
+corneal foreign body removal|eye foreign body removal|rust ring removal
+lateral canthotomy|canthotomy|cantholysis
+fundoscopy|ophthalmoscopy|dilated eye exam
+otoscopy|ear exam
+tympanocentesis
+myringotomy
+peritonsillar abscess drainage|peritonsillar abscess aspiration|quinsy drainage
+nasal cautery|silver nitrate cautery|chemical cautery
+nasolaryngoscopy|flexible laryngoscopy|nasopharyngoscopy|fiberoptic laryngoscopy
+anoscopy
+thrombosed hemorrhoid excision|hemorrhoid excision|external hemorrhoid incision
+hemorrhoid banding|rubber band ligation
+pilonidal cyst drainage|pilonidal abscess drainage
+paronychia drainage
+felon drainage
+subungual hematoma drainage|nail trephination|trephination
+fishhook removal
+ring removal|ring cutting
+tick removal
+excisional biopsy|excision|skin excision|cyst excision
+mole removal|lesion removal
+electrocautery|electrodesiccation|ed and c|electrodessication and curettage
+curettage
+cyst drainage
+wart removal|wart freezing
+skin tag removal
+hair tourniquet removal
+burn debridement|escharotomy
+fasciotomy
+compartment pressure measurement|compartment pressure check
+casting|cast application
+cast removal
+shoulder reduction|shoulder dislocation reduction
+hip reduction|hip dislocation reduction
+nursemaid elbow reduction|radial head subluxation reduction
+finger dislocation reduction
+patellar reduction|patella reduction
+traction|skeletal traction|traction pin
+ankle brachial index|abi
+doppler|doppler pulse check|bedside doppler
+pulse oximetry|pulse ox|sats|oxygen saturation
+peak flow|peak expiratory flow
+spirometry
+orthostatic vital signs|orthostatics
+pocus|point of care ultrasound|bedside ultrasound
+fast exam|fast|focused assessment with sonography for trauma|efast
+bedside echo|bedside echocardiogram|focused cardiac ultrasound
+lung ultrasound
+nerve conduction|emg
+tilt table test
+blood transfusion|transfusion
+plasmapheresis|plasma exchange
+therapeutic phlebotomy
+heel stick|heel prick|newborn screen
+circumcision|neonatal circumcision
+umbilical line|umbilical catheter|umbilical venous catheter|uvc|umbilical arterial catheter|uac
+exchange transfusion
+suprapubic aspiration|suprapubic tap
+neonatal intubation
+amniotomy|artificial rupture of membranes|arom
+fetal scalp electrode|scalp electrode
+intrauterine pressure catheter|iupc
+membrane sweep|membrane stripping|stripping membranes
+cervical exam|cervical check
+perineal laceration repair|episiotomy repair
+episiotomy
+vaginal delivery
+manual placenta removal|manual removal of placenta
+bakri balloon|uterine balloon tamponade
+culdocentesis
+bartholin cyst drainage|word catheter|bartholin abscess drainage
+colposcopy
+cervical biopsy
+leep|loop electrosurgical excision procedure
+pessary fitting|pessary insertion
+mammotome|breast biopsy
+fine needle aspiration|fna
+core needle biopsy|core biopsy
+thyroid biopsy|thyroid fna
+lymph node biopsy
+liver biopsy
+kidney biopsy|renal biopsy
+paracentesis drain|pigtail catheter|pigtail drain
+pleurx catheter|tunneled pleural catheter
+pleurodesis
+sputum induction|induced sputum
+allergy skin testing|skin prick test|scratch test
+ppd placement|tb skin test|tuberculin skin test|mantoux test
+vaccination|vaccine administration|immunization
+intramuscular injection|im injection|shot
+subcutaneous injection|subq injection|sc injection
+intradermal injection
+trigger point injection
+epidural|epidural placement|epidural catheter
+spinal anesthesia|spinal block
+epidural blood patch|blood patch
+ventriculostomy|evd|external ventricular drain
+icp monitor|bolt|intracranial pressure monitor
+shunt tap|vp shunt tap
+burr hole
+apnea test
+caloric testing|cold calorics|oculovestibular reflex test
+dix hallpike|dix hallpike maneuver
+epley maneuver|canalith repositioning
+tensilon test|edrophonium test
+ice pack test
+lumbar drain
+omt|osteopathic manipulative treatment|osteopathic manipulation
+joint manipulation|manipulation
+cardiac massage|open cardiac massage
+thoracotomy|resuscitative thoracotomy|ed thoracotomy|clamshell thoracotomy
+pericardial window
+diagnostic peritoneal lavage|dpl
+rebound tenderness exam
+sigmoidoscopy|flexible sigmoidoscopy
+sigmoid volvulus decompression|rectal tube decompression
+hernia reduction|incarcerated hernia reduction
+prolapse reduction|rectal prolapse reduction
+paraphimosis reduction
+priapism aspiration|corporal aspiration
+testicular detorsion|manual detorsion
+urethral dilation
+cystoscopy|bedside cystoscopy
+bladder irrigation|manual bladder irrigation
+nephrostomy tube exchange
+dental block|inferior alveolar nerve block
+tooth reimplantation|avulsed tooth reimplantation
+tongue tie release|frenotomy
+jaw reduction|tmj reduction|mandible dislocation reduction
+auricular hematoma drainage|ear hematoma drainage
+nasal foreign body removal|positive pressure technique|mothers kiss
+ear foreign body removal
+`, "2026-11-06");
+
+P("Name a clinical scoring system or decision rule","tests","",`
+glasgow coma scale|gcs|glasgow coma score
+apgar score|apgar
+wells score|wells criteria|wells score for pe|wells score for dvt
+cha2ds2 vasc|chads vasc|chads2 vasc|cha2ds2vasc
+chads2|chads 2
+has bled|hasbled
+curb 65|curb65|crb 65
+perc rule|perc|pulmonary embolism rule out criteria
+heart score|heart pathway
+timi score|timi risk score
+grace score|grace risk score
+nyha classification|new york heart association|nyha class
+child pugh score|child pugh|child turcotte pugh
+meld score|meld|model for end stage liver disease|meld na
+ranson criteria|ransons criteria
+bisap score|bisap
+apache ii|apache|apache score
+sofa score|sofa|sequential organ failure assessment
+qsofa|quick sofa
+sirs criteria|sirs
+news score|news2|national early warning score
+mews|modified early warning score
+centor criteria|centor score|mcisaac score|modified centor
+ottawa ankle rules|ottawa ankle
+ottawa knee rules|ottawa knee
+canadian c spine rule|canadian cervical spine rule
+nexus criteria|nexus
+canadian ct head rule|canadian head ct rule
+pecarn|pecarn rule|pecarn head injury rule
+nihss|nih stroke scale|national institutes of health stroke scale
+abcd2 score|abcd2
+mini mental state exam|mmse|mini mental
+moca|montreal cognitive assessment
+phq 9|phq9|patient health questionnaire
+phq 2
+gad 7|gad7
+cage questionnaire|cage
+audit|audit c|alcohol use disorders identification test
+ciwa|ciwa ar|clinical institute withdrawal assessment
+cows|clinical opiate withdrawal scale
+braden scale|braden score
+morse fall scale|morse score
+apri score|apri
+fib 4|fib4
+maddrey discriminant function|maddrey score|discriminant function
+glasgow blatchford score|blatchford score|gbs
+rockall score
+alvarado score|alvarado
+pediatric appendicitis score|pas
+bishop score
+gail model|gail score
+frax|frax score
+ascvd risk score|pooled cohort equations|ascvd risk calculator
+framingham risk score|framingham
+qrisk|qrisk3
+duke criteria|modified duke criteria
+jones criteria|jones
+light criteria|lights criteria
+mcdonald criteria
+dsm 5 criteria|dsm criteria
+rome iv criteria|rome criteria
+fever pain score|feverpain
+caprini score|caprini
+padua score|padua prediction score
+khorana score
+geneva score|revised geneva score
+years algorithm|years criteria
+san francisco syncope rule
+canadian syncope risk score
+pesi|pesi score|simplified pesi|spesi
+revised cardiac risk index|rcri|lee index
+goldman index|goldman criteria
+asa classification|asa physical status|asa score
+mallampati score|mallampati classification|mallampati
+lemon|lemon assessment
+cormack lehane|cormack lehane grade
+stop bang|stopbang
+epworth sleepiness scale|epworth
+berlin questionnaire
+timed up and go|tug test
+katz index|katz adl
+lawton iadl|lawton scale
+karnofsky performance status|karnofsky|kps
+ecog performance status|ecog|zubrod
+palliative performance scale|pps
+fast scale|functional assessment staging
+gleason score|gleason grade
+tnm staging|tnm
+ann arbor staging|ann arbor
+breslow thickness|breslow depth
+clark level
+bi rads|birads
+li rads|lirads
+ti rads|tirads
+pi rads|pirads
+lung rads
+o rads
+bosniak classification|bosniak
+fleischner criteria|fleischner guidelines
+rule of nines|rule of 9s|wallace rule of nines
+lund browder chart|lund and browder
+parkland formula
+baux score
+injury severity score|iss
+revised trauma score|rts
+abc score|assessment of blood consumption
+shock index
+killip classification|killip class
+forrester classification
+tisdale score
+qtc|bazett formula|bazett
+sgarbossa criteria|sgarbossa
+brugada criteria
+vereckei algorithm
+duke treadmill score
+syntax score
+euroscore|euroscore ii
+sts score|sts risk score
+hunt and hess|hunt hess scale
+fisher scale|modified fisher scale|fisher grade
+wfns scale|wfns grade
+ich score
+spetzler martin grade|spetzler martin
+modified rankin scale|mrs|rankin scale
+barthel index|barthel
+aspects|alberta stroke program early ct score
+race scale|rapid arterial occlusion evaluation
+cincinnati prehospital stroke scale|cincinnati stroke scale
+be fast|befast
+fast stroke|face arm speech time
+four score|full outline of unresponsiveness
+richmond agitation sedation scale|rass
+ramsay sedation scale|ramsay scale
+cam icu|confusion assessment method|cam
+behavioral pain scale|bps
+cpot|critical care pain observation tool
+flacc scale|flacc
+wong baker faces|faces pain scale|wong baker
+numeric pain rating scale|pain scale|nrs|0 to 10 pain scale
+visual analog scale|vas
+painad
+westley croup score|westley score
+pram score|pediatric respiratory assessment measure
+pasi|psoriasis area and severity index
+scorad
+eular criteria|acr eular criteria|acr criteria
+das28|disease activity score
+cdai|crohns disease activity index
+mayo score
+truelove and witts|truelove witts
+harvey bradshaw index
+balthazar score|ct severity index
+marshall score
+atlanta classification|revised atlanta classification
+tokyo guidelines
+charlson comorbidity index|charlson index|charlson
+elixhauser comorbidity index|elixhauser
+kdigo staging|kdigo|kdigo criteria
+rifle criteria|rifle
+akin criteria
+ckd epi|ckd epi equation|egfr equation
+mdrd|mdrd equation
+cockcroft gault|cockcroft gault equation|creatinine clearance equation
+anion gap
+winters formula|winter formula
+osmolal gap
+a a gradient|aa gradient|alveolar arterial gradient
+pf ratio|p f ratio|pao2 fio2 ratio
+berlin definition|berlin criteria
+murray score|lung injury score
+rox index
+gold classification|gold criteria|gold stage
+mmrc dyspnea scale|mmrc
+bode index|bode
+cat score|copd assessment test
+act|asthma control test
+psi|pneumonia severity index|port score
+smart cop|smartcop
+sad persons scale|sad persons
+columbia suicide severity rating scale|c ssrs|columbia scale
+ham d|hamilton depression rating scale|hamilton depression scale
+madrs
+beck depression inventory|bdi
+edinburgh postnatal depression scale|epds|edinburgh scale
+ybocs|yale brown obsessive compulsive scale
+aims|abnormal involuntary movement scale
+panss
+young mania rating scale|ymrs
+mdq|mood disorder questionnaire
+asrs|adult adhd self report scale
+vanderbilt|vanderbilt assessment scale
+m chat|mchat|modified checklist for autism in toddlers
+ages and stages questionnaire|asq
+denver developmental screening|denver ii|ddst
+tanner staging|tanner stages|sexual maturity rating
+ballard score|new ballard score
+silverman andersen score|silverman score
+downes score
+bhutani nomogram|bhutani
+rochester criteria
+philadelphia criteria
+boston criteria
+step by step approach|step by step
+kocher criteria
+lrinec score|lrinec
+cures score
+ankle brachial index|abi
+ceap classification|ceap
+rutherford classification
+fontaine classification|fontaine
+glasgow outcome scale|gos
+waterlow score
+norton scale
+must|malnutrition universal screening tool
+mna|mini nutritional assessment
+nrs 2002|nutritional risk screening
+sga|subjective global assessment
+clinical frailty scale|cfs|rockwood frailty scale
+fried frailty phenotype
+stratify
+hendrich ii|hendrich fall risk
+morisky scale
+ottawa sah rule|ottawa subarachnoid hemorrhage rule
+canadian tia score
+essen stroke risk score
+hats|hats score
+atria score
+orbit score
+dapt score
+precise dapt
+crusade score
+gwtg hf score|get with the guidelines
+seattle heart failure model
+maggic score
+hcm risk scd
+heart failure stages|acc aha stages|stages a to d
+cha2ds2 va
+mascc score|mascc
+cisne score
+ipi|international prognostic index|r ipi
+iss staging|international staging system
+rai staging|rai stage
+binet staging|binet
+dipss|ipss r|ipss|international prognostic scoring system
+sokal score
+eutos score
+nottingham grade|nottingham score|elston ellis
+oncotype dx|oncotype|recurrence score
+mammaprint
+bloom richardson
+figo staging|figo
+masaoka staging|masaoka
+dukes staging|dukes classification
+pecarn abdominal
+pecarn cervical spine
+cats rule
+chalice rule
+new orleans criteria|new orleans head ct rule
+nexus chest ct rule
+nexus ii
+canadian ct head
+ottawa foot rule
+pittsburgh knee rules|pittsburgh knee
+sf 36|short form 36
+eq 5d
+fim|functional independence measure
+gross motor function classification|gmfcs
+asia impairment scale|asia scale|asia score
+spurling test score
+oswestry disability index|odi
+womac|womac index
+koos
+dash score|quick dash
+boston carpal tunnel questionnaire
+kellgren lawrence grade|kellgren lawrence|kl grade
+outerbridge classification|outerbridge
+salter harris classification|salter harris
+garden classification|garden
+weber classification|danis weber
+lauge hansen classification|lauge hansen
+schatzker classification|schatzker
+gustilo anderson classification|gustilo
+neer classification|neer
+mangled extremity severity score|mess
+denver criteria|modified denver criteria
+memphis criteria
+abcde rule|abcde of melanoma
+seven point checklist|glasgow seven point checklist
+fitzpatrick scale|fitzpatrick skin type
+duke activity status index|dasi
+mets|metabolic equivalents
+borg scale|borg rpe|rating of perceived exertion
+6 minute walk test|six minute walk
+zung scale|zung self rating depression scale
+geriatric depression scale|gds
+cornell scale|cornell scale for depression in dementia
+clock drawing test|clock test
+mini cog|minicog
+slums|saint louis university mental status
+ad8
+4at
+nu desc
+icdsc|intensive care delirium screening checklist
+glasgow alcoholic hepatitis score|gahs
+lille model|lille score
+abic score
+west haven criteria|west haven
+king college criteria|kings college criteria
+clichy criteria
+milan criteria
+ucsf criteria
+barcelona clinic liver cancer|bclc|bclc staging
+rumack matthew nomogram|acetaminophen nomogram|rumack matthew
+done nomogram
+burch wartofsky point scale|burch wartofsky
+`, "2026-11-06");
+
+P("Name a genetic or molecular lab technique","tests","",`
+pcr|polymerase chain reaction
+dna sequencing|sequencing
+karyotype|karyotyping|chromosome analysis|cytogenetics
+fish|fluorescence in situ hybridization
+western blot|immunoblot|protein blot
+southern blot
+northern blot
+elisa|enzyme linked immunosorbent assay|eia|enzyme immunoassay
+rt pcr|reverse transcriptase pcr|reverse transcription pcr
+qpcr|real time pcr|quantitative pcr|rt qpcr
+sanger sequencing
+next generation sequencing|ngs|massively parallel sequencing|high throughput sequencing
+whole genome sequencing|wgs
+whole exome sequencing|wes|exome sequencing
+microarray|dna microarray|gene chip|expression microarray
+chromosomal microarray|cma|array cgh|comparative genomic hybridization|acgh
+gel electrophoresis|agarose gel electrophoresis|electrophoresis
+southwestern blot
+rflp|restriction fragment length polymorphism
+crispr|crispr cas9|gene editing
+flow cytometry|facs|fluorescence activated cell sorting
+immunohistochemistry|ihc
+in situ hybridization|ish
+cish|chromogenic in situ hybridization
+gene therapy
+cloning|molecular cloning|dna cloning
+recombinant dna|recombinant dna technology
+transfection
+transformation|bacterial transformation
+transduction|viral transduction
+knockout mouse|gene knockout|knockout
+knock in|knock in mouse
+transgenic mouse|transgenic animal|transgenics
+rna interference|rnai|sirna|small interfering rna|shrna
+antisense oligonucleotide|aso
+restriction enzyme digestion|restriction digest|restriction enzymes
+ligation|dna ligation
+plasmid prep|miniprep|plasmid isolation
+dna extraction|dna isolation
+rna extraction|rna isolation
+nanodrop|spectrophotometry
+mass spectrometry|mass spec|ms
+tandem mass spectrometry|ms ms|tandem mass spec
+maldi tof|maldi
+lc ms|liquid chromatography mass spectrometry
+hplc|high performance liquid chromatography
+chromatography
+protein electrophoresis|serum protein electrophoresis|spep
+immunofixation|immunofixation electrophoresis|ife
+hemoglobin electrophoresis|hb electrophoresis
+sds page|polyacrylamide gel electrophoresis|page
+2d gel electrophoresis|two dimensional gel electrophoresis
+isoelectric focusing
+immunoprecipitation|ip|co immunoprecipitation|co ip
+chip|chromatin immunoprecipitation
+chip seq
+rna seq|rna sequencing|transcriptomics
+single cell rna seq|scrna seq|single cell sequencing
+atac seq
+methylation analysis|methylation specific pcr|bisulfite sequencing
+multiplex pcr
+nested pcr
+digital pcr|ddpcr|droplet digital pcr
+allele specific pcr|arms pcr
+mlpa|multiplex ligation dependent probe amplification
+linkage analysis
+gwas|genome wide association study
+snp array|snp genotyping|genotyping
+str analysis|short tandem repeat analysis|dna fingerprinting|dna profiling
+paternity testing
+triplet repeat analysis|repeat expansion testing|repeat primed pcr
+hla typing|tissue typing
+liquid biopsy|cell free dna|cfdna|ctdna
+nipt|non invasive prenatal testing|cell free fetal dna|nipt testing
+amniocentesis
+chorionic villus sampling|cvs
+preimplantation genetic testing|pgt|pgd|preimplantation genetic diagnosis
+carrier screening|carrier testing
+newborn screening
+genetic testing
+pharmacogenomic testing|pharmacogenetics|pgx
+tumor genomic profiling|tumor sequencing|foundationone|comprehensive genomic profiling
+microsatellite instability testing|msi testing|msi
+mismatch repair immunohistochemistry|mmr ihc
+brca testing|brca1 brca2 testing
+bcr abl pcr|bcr abl testing
+jak2 testing|jak2 v617f
+egfr mutation testing
+kras testing
+her2 testing|her2 fish
+alk testing
+cytogenetic banding|g banding|giemsa banding
+spectral karyotyping|sky
+q banding
+optical genome mapping
+long read sequencing|nanopore sequencing|pacbio|third generation sequencing
+pyrosequencing
+illumina sequencing|sequencing by synthesis
+shotgun sequencing
+metagenomic sequencing|metagenomics|mngs
+16s rrna sequencing|16s sequencing
+nucleic acid amplification test|naat|nucleic acid amplification
+tma|transcription mediated amplification
+lamp|loop mediated isothermal amplification
+bdna|branched dna assay
+hybrid capture
+viral load testing|viral load
+genexpert|xpert mtb rif
+gene expression profiling
+reporter gene assay|luciferase assay|luciferase reporter assay
+gfp tagging|green fluorescent protein|fluorescent tagging
+confocal microscopy
+fluorescence microscopy|immunofluorescence
+direct immunofluorescence|dif
+indirect immunofluorescence|iif
+electron microscopy|em
+radioimmunoassay|ria
+chemiluminescence immunoassay|clia
+lateral flow assay|rapid antigen test|lateral flow
+agglutination assay|latex agglutination
+complement fixation test
+hemagglutination inhibition
+neutralization assay
+plaque assay
+cell culture|tissue culture
+organoids|organoid culture
+stem cell culture|ipsc|induced pluripotent stem cells
+hybridoma|hybridoma technology|monoclonal antibody production
+phage display
+yeast two hybrid
+site directed mutagenesis|mutagenesis
+pcr mutagenesis
+dna footprinting
+electrophoretic mobility shift assay|emsa|gel shift assay
+nuclease protection assay
+ribosome profiling
+proteomics
+metabolomics
+genomics
+epigenomics
+bioinformatics
+sequence alignment|blast
+cdna synthesis|cdna library
+genomic library
+southern hybridization
+dot blot
+slot blot
+colony hybridization
+x inactivation analysis|humara assay|clonality assay
+t cell receptor gene rearrangement|tcr gene rearrangement
+immunoglobulin gene rearrangement|igh rearrangement|b cell clonality
+mrd testing|minimal residual disease|measurable residual disease
+clonoseq
+chimerism analysis
+crispr screen
+base editing
+prime editing
+zinc finger nucleases|zfn
+talens|talen
+gene drive
+sirna knockdown|knockdown
+morpholino
+mrna vaccine technology|mrna synthesis|in vitro transcription
+viral vectors|aav vector|lentiviral vector
+car t cell manufacturing|car t
+dna barcoding
+microdissection|laser capture microdissection
+fret|forster resonance energy transfer
+x ray crystallography|crystallography
+nmr spectroscopy|nuclear magnetic resonance
+cryo em|cryo electron microscopy
+circular dichroism
+pulse field gel electrophoresis|pfge
+mlst|multilocus sequence typing
+spoligotyping
+ribotyping
+whole genome amplification
+rolling circle amplification
+emulsion pcr
+bridge amplification
+hot start pcr
+touchdown pcr
+colony pcr
+inverse pcr
+race pcr|rapid amplification of cdna ends
+methylation array
+sister chromatid exchange
+chromosome breakage test|deb test|diepoxybutane test|mitomycin c test
+comet assay
+ames test
+tunel assay
+mtt assay
+cell viability assay
+annexin v staining
+`, "2026-11-06");
+
+P("Name a biostatistics or epidemiology term","care","",`
+sensitivity
+specificity
+positive predictive value|ppv
+negative predictive value|npv
+incidence
+prevalence
+p value
+confidence interval|ci|95 percent confidence interval
+relative risk|risk ratio|rr
+odds ratio|or
+number needed to treat|nnt
+number needed to harm|nnh
+absolute risk reduction|arr|risk difference
+relative risk reduction|rrr
+attributable risk
+mean|average
+median
+mode
+standard deviation|sd
+variance
+standard error|standard error of the mean|sem
+type i error|alpha error|false positive error
+type ii error|beta error|false negative error
+power|statistical power
+null hypothesis
+alternative hypothesis
+bias
+selection bias
+recall bias
+confounding|confounder|confounding variable
+lead time bias
+length time bias
+observer bias|detection bias
+hawthorne effect
+pygmalion effect|rosenthal effect
+measurement bias|information bias
+publication bias
+attrition bias|loss to follow up
+berkson bias
+healthy worker effect
+volunteer bias|self selection bias
+sampling bias
+late look bias
+procedure bias|performance bias
+response bias
+reporting bias
+interviewer bias
+misclassification bias
+spectrum bias
+verification bias|work up bias
+immortal time bias
+survivorship bias
+randomized controlled trial|rct|randomised controlled trial
+cohort study|prospective cohort|retrospective cohort|longitudinal study
+case control study
+cross sectional study|prevalence study
+case report
+case series
+ecological study
+meta analysis
+systematic review
+crossover study|crossover trial
+cluster randomized trial
+pragmatic trial
+non inferiority trial|noninferiority
+equivalence trial
+superiority trial
+phase i trial|phase 1
+phase ii trial|phase 2
+phase iii trial|phase 3
+phase iv trial|phase 4|postmarketing surveillance
+blinding|double blind|single blind|masking
+randomization|randomisation
+allocation concealment
+placebo
+placebo effect
+nocebo effect
+intention to treat|itt|intention to treat analysis
+per protocol analysis|as treated analysis
+control group
+case fatality rate|case fatality ratio
+mortality rate|death rate
+morbidity
+crude mortality rate
+age adjusted rate|age standardization|standardized mortality ratio|smr
+infant mortality rate
+maternal mortality ratio|maternal mortality rate
+neonatal mortality rate
+perinatal mortality rate
+life expectancy
+years of potential life lost|ypll
+qaly|quality adjusted life year
+daly|disability adjusted life year
+attack rate
+secondary attack rate
+basic reproduction number|r0|r naught
+effective reproduction number|rt|re
+herd immunity|community immunity
+herd immunity threshold
+epidemic
+pandemic
+endemic
+outbreak
+cluster
+sporadic
+incubation period
+latent period
+serial interval
+epidemic curve|epi curve
+index case|patient zero|primary case
+contact tracing
+surveillance|disease surveillance
+passive surveillance
+active surveillance
+sentinel surveillance
+notifiable disease|reportable disease
+quarantine
+isolation
+point source outbreak
+propagated outbreak
+common source outbreak
+vector
+reservoir
+fomite
+zoonosis
+chain of infection
+epidemiologic triad|epidemiological triangle|agent host environment
+web of causation
+bradford hill criteria|hill criteria
+causation|causality
+correlation
+association
+dose response|dose response relationship|biological gradient
+temporality
+statistical significance
+clinical significance
+effect size
+cohen d
+likelihood ratio|lr
+positive likelihood ratio|lr plus
+negative likelihood ratio|lr minus
+pretest probability
+posttest probability
+receiver operating characteristic|roc curve|roc
+area under the curve|auc|c statistic
+cutoff|cut off point|threshold
+false positive
+false negative
+true positive
+true negative
+two by two table|2x2 table|contingency table
+gold standard|reference standard
+accuracy
+precision|reliability
+validity
+internal validity
+external validity|generalizability
+reproducibility
+inter rater reliability|interrater reliability|kappa|cohen kappa
+test retest reliability
+cronbach alpha
+normal distribution|gaussian distribution|bell curve
+skewed distribution|skewness|positive skew|negative skew
+bimodal distribution
+kurtosis
+range
+interquartile range|iqr
+percentile
+quartile
+z score|standard score
+t test|student t test
+paired t test
+anova|analysis of variance
+chi square test|chi square|chi squared
+fisher exact test
+mann whitney u test|mann whitney|wilcoxon rank sum
+wilcoxon signed rank test
+kruskal wallis test
+pearson correlation|pearson r|correlation coefficient
+spearman correlation|spearman rho
+linear regression|regression
+logistic regression
+multivariate analysis|multivariable regression
+cox proportional hazards|cox regression
+hazard ratio|hr
+kaplan meier curve|kaplan meier|survival curve|survival analysis
+log rank test
+censoring
+coefficient of determination|r squared
+parametric test
+nonparametric test|non parametric test
+degrees of freedom
+sample size
+sample size calculation|power calculation
+bonferroni correction|multiple comparisons
+subgroup analysis
+interim analysis
+stopping rule
+data safety monitoring board|dsmb
+forest plot
+funnel plot
+heterogeneity|i squared
+fixed effects model
+random effects model
+stratification|stratified analysis
+matching
+restriction
+propensity score|propensity score matching
+instrumental variable
+mendelian randomization
+effect modification|interaction
+collider bias
+reverse causality|reverse causation
+regression to the mean
+ecological fallacy
+simpson paradox
+primary prevention
+secondary prevention
+tertiary prevention
+quaternary prevention
+screening
+case definition
+population at risk
+denominator
+numerator
+rate
+ratio
+proportion
+risk
+odds
+cumulative incidence
+incidence density|incidence rate|person time
+point prevalence
+period prevalence
+lifetime prevalence
+person years
+exposure
+outcome
+endpoint|primary endpoint
+secondary endpoint
+surrogate endpoint|surrogate outcome
+composite endpoint
+dependent variable|outcome variable
+independent variable|predictor variable
+categorical variable|nominal variable
+ordinal variable
+continuous variable
+dichotomous variable|binary variable
+interval variable
+ratio variable
+histogram
+box plot|box and whisker plot
+scatter plot
+bar graph
+pie chart
+outlier
+missing data
+imputation
+bootstrapping
+bayes theorem|bayesian statistics
+frequentist statistics
+prior probability
+markov model
+decision analysis
+cost effectiveness analysis|cost effectiveness
+cost benefit analysis
+cost utility analysis
+icer|incremental cost effectiveness ratio
+sensitivity analysis
+nnt to screen|number needed to screen
+pre post study|before after study
+quasi experimental study
+natural experiment
+nested case control study
+case crossover study
+qualitative research
+focus group
+survey
+questionnaire
+informed consent
+irb|institutional review board|ethics committee
+helsinki declaration|declaration of helsinki
+nuremberg code
+belmont report
+good clinical practice|gcp
+clinicaltrials gov|trial registration
+consort|consort statement
+strobe
+prisma
+cochrane|cochrane review
+level of evidence|levels of evidence|hierarchy of evidence|evidence pyramid
+evidence based medicine|ebm
+pico|picot
+grade|grade system
+absolute risk
+baseline risk
+risk factor
+protective factor
+population attributable risk|population attributable fraction|paf
+attributable risk percent|attributable fraction
+vaccine efficacy
+vaccine effectiveness
+herd effect
+efficacy
+effectiveness
+efficiency
+yield
+case ascertainment
+underreporting
+iceberg phenomenon
+latency
+cohort effect
+period effect
+age effect
+crude rate
+specific rate
+adjusted rate
+direct standardization
+indirect standardization
+census
+vital statistics
+birth rate|crude birth rate
+fertility rate|total fertility rate
+dependency ratio
+demographic transition
+epidemiologic transition
+health disparities|health inequities
+social determinants of health
+seroprevalence
+cutoff value
+youden index
+`, "2026-11-06");
+
+P("Name a patient safety or quality improvement term","care","",`
+root cause analysis|rca
+near miss|close call|good catch
+sentinel event
+adverse event
+medication error|med error
+never event
+time out|surgical time out|universal protocol
+hand hygiene|hand washing|handwashing
+pdsa cycle|pdsa|plan do study act|pdca|plan do check act
+fishbone diagram|ishikawa diagram|cause and effect diagram
+swiss cheese model|swiss cheese
+just culture
+checklist|surgical safety checklist|who surgical safety checklist
+sbar|situation background assessment recommendation
+handoff|handover|hand off communication
+two patient identifiers|patient identification|two identifiers
+read back|repeat back|closed loop communication|teach back for orders
+fmea|failure mode and effects analysis|failure modes and effects analysis
+lean|lean methodology
+six sigma|lean six sigma
+run chart
+control chart|statistical process control|spc
+pareto chart|pareto principle|80 20 rule
+process map|flowchart|process mapping|value stream map
+incident report|incident reporting|occurrence report|event report
+safety culture|culture of safety
+high reliability organization|hro|high reliability
+crew resource management|crm
+teamstepps
+huddle|safety huddle
+debrief|debriefing
+briefing
+cus words|cus|concerned uncomfortable safety issue
+two challenge rule
+stop the line
+speak up|speaking up
+psychological safety
+disclosure|error disclosure|apology
+second victim
+burnout|clinician burnout
+alarm fatigue
+alert fatigue
+workarounds|workaround
+normalization of deviance
+hindsight bias
+anchoring bias|anchoring
+availability bias|availability heuristic
+premature closure
+confirmation bias
+diagnostic error|diagnostic errors|misdiagnosis
+cognitive bias
+human factors|human factors engineering|ergonomics
+forcing function
+redundancy
+standardization|standardisation
+standard work
+protocol
+clinical pathway|care pathway|clinical guideline
+order set|standard order set
+bundle|care bundle
+central line bundle|clabsi bundle
+ventilator bundle|vap bundle
+sepsis bundle
+clabsi|central line associated bloodstream infection
+cauti|catheter associated urinary tract infection
+vap|ventilator associated pneumonia
+ssi|surgical site infection
+hai|hospital acquired infection|healthcare associated infection|nosocomial infection
+hapi|hospital acquired pressure injury|pressure ulcer prevention
+falls|fall prevention|falls with injury
+wrong site surgery|wrong side surgery
+wrong patient|wrong patient error
+retained foreign object|retained surgical item|retained sponge
+site marking|surgical site marking
+sharps injury|needlestick injury|needlestick
+high alert medications|high alert medication
+look alike sound alike|lasa|look alike sound alike drugs
+tall man lettering|tallman lettering
+do not use list|do not use abbreviations|dangerous abbreviations
+trailing zero
+leading zero
+medication reconciliation|med rec
+barcode scanning|barcode medication administration|bcma|bar code scanning
+cpoe|computerized provider order entry|computerised physician order entry
+clinical decision support|cds
+electronic health record|ehr|emr|electronic medical record
+smart pump|smart pumps|smart infusion pump
+independent double check|double check
+five rights|rights of medication administration
+automated dispensing cabinet|pyxis|omnicell
+unit dose
+rapid response team|rrt|medical emergency team|met
+early warning score|news|mews
+condition h|condition help
+code team
+escalation of care|chain of command
+failure to rescue
+readmission rate|30 day readmission|readmissions
+mortality rate|risk adjusted mortality
+length of stay|los
+hospital acquired condition|hac
+patient experience|patient satisfaction
+hcahps|press ganey
+core measures
+quality measures|quality metrics|quality indicators
+structure process outcome|donabedian model|donabedian
+process measure
+outcome measure
+balancing measure
+benchmarking|benchmark
+dashboard|quality dashboard
+scorecard
+aim statement|smart aim
+key driver diagram|driver diagram
+change idea
+model for improvement
+iom six aims|stees|safe timely effective efficient equitable patient centered
+to err is human
+crossing the quality chasm
+institute for healthcare improvement|ihi
+joint commission|tjc|jcaho
+national patient safety goals|npsg
+leapfrog|leapfrog group
+ahrq|agency for healthcare research and quality
+patient safety indicators|psi
+patient safety organization|pso
+nqf|national quality forum
+cms|centers for medicare and medicaid services
+never events list|serious reportable events
+pay for performance|p4p|value based purchasing
+hospital readmissions reduction program|hrrp
+mips|merit based incentive payment system
+accreditation
+credentialing
+privileging
+peer review
+morbidity and mortality conference|m and m|m&m|mortality and morbidity
+case review
+audit|clinical audit|chart audit
+audit and feedback
+gemba|gemba walk|leadership rounding
+5 whys|five whys
+5s|sort set shine standardize sustain
+kaizen|kaizen event|rapid improvement event
+kanban
+poka yoke|mistake proofing|error proofing
+muda|waste|eight wastes
+value added
+bottleneck
+throughput
+flow|patient flow
+cycle time
+takt time
+dmaic|define measure analyze improve control
+sipoc
+spaghetti diagram
+a3|a3 report|a3 thinking
+hierarchy of controls|hierarchy of intervention effectiveness
+latent errors|latent conditions|latent failure
+active errors|active failure
+slip
+lapse
+mistake
+violation
+sharp end
+blunt end
+system error|systems thinking|systems approach
+blame culture|culture of blame
+accountability
+reliability
+resilience|resilience engineering|safety ii
+safety i
+error
+harm|preventable harm
+preventable adverse event
+adverse drug event|ade|adverse drug reaction|adr
+iatrogenic|iatrogenesis
+overdiagnosis
+overtreatment
+low value care
+choosing wisely
+shared decision making
+teach back|teach back method
+health literacy
+interpreter use|medical interpreter|language services
+patient engagement|patient and family engagement
+family presence
+patient and family centered care|patient centered care
+informed consent
+advance directive
+fall risk assessment|morse fall scale
+bed alarm
+restraint reduction|restraint
+pressure injury prevention|turning schedule|repositioning
+vte prophylaxis|dvt prophylaxis|vte prevention
+antimicrobial stewardship|antibiotic stewardship
+infection prevention|infection control
+isolation precautions|contact precautions
+environmental cleaning
+sterile technique|aseptic technique
+chlorhexidine bathing|chg bathing
+catheter removal|nurse driven catheter removal protocol
+daily sedation interruption|sedation vacation|spontaneous awakening trial
+spontaneous breathing trial|sbt
+head of bed elevation|hob elevation
+early mobility|early mobilization
+delirium prevention
+glycemic control
+handoff tool|ipass|i pass
+whiteboard|communication board
+bedside shift report
+interdisciplinary rounds|multidisciplinary rounds
+discharge planning
+transitions of care|care transitions
+warm handoff
+follow up call|post discharge phone call
+care coordination
+telemetry monitoring
+alarm management
+critical results|critical value reporting|critical lab values
+closed loop referral
+diagnostic stewardship
+second opinion
+diagnostic timeout
+differential diagnosis
+cognitive forcing strategies|debiasing
+simulation|simulation training|in situ simulation
+mock code
+competency|competency assessment
+continuing education
+certification
+duty hours|resident duty hours
+fatigue|fatigue management
+sterile cockpit|no interruption zone
+interruptions|distractions
+workload|staffing ratios|nurse staffing
+nurse to patient ratio
+sitter|patient observer
+telesitter|video monitoring
+tracer methodology|tracer
+mock survey
+fair and just culture
+error reporting system|voluntary reporting
+mandatory reporting
+apology laws|i'm sorry laws
+communication and resolution program|carp|crp
+malpractice|medical malpractice
+risk management
+liability
+patient safety officer
+quality improvement|qi
+quality assurance|qa
+performance improvement|pi
+continuous quality improvement|cqi
+total quality management|tqm
+clinical governance
+value|value based care
+triple aim|quadruple aim|quintuple aim
+evidence based practice|ebp
+implementation science
+sustainability
+stakeholder
+champion|physician champion|unit champion
+gap analysis
+baseline data
+statistical significance
+special cause variation
+common cause variation
+upper control limit|lower control limit|control limits
+shift|trend|run rules
+annotated run chart
+qi project
+`, "2026-11-06");
+
+P("Name a healthcare system or insurance term","care","",`
+medicare
+medicaid
+deductible
+copay|copayment
+coinsurance
+premium
+out of pocket maximum|out of pocket limit|oop max|out of pocket
+hmo|health maintenance organization
+ppo|preferred provider organization
+epo|exclusive provider organization
+pos plan|point of service plan
+high deductible health plan|hdhp
+hsa|health savings account
+fsa|flexible spending account
+hra|health reimbursement arrangement|health reimbursement account
+affordable care act|aca|obamacare
+prior authorization|prior auth|preauthorization|pre authorization|precertification
+referral
+in network|network
+out of network
+primary care provider|pcp|primary care physician
+gatekeeper
+formulary|drug formulary
+tier|formulary tier
+generic substitution
+step therapy|fail first
+claim|insurance claim
+denial|claim denial|denied claim
+appeal|claim appeal
+explanation of benefits|eob
+cpt code|cpt|current procedural terminology
+icd 10|icd code|icd 10 code|diagnosis code|icd
+hcpcs|hcpcs code
+drg|diagnosis related group|ms drg
+rvu|relative value unit|wrvu|work rvu
+fee for service|ffs
+capitation
+bundled payment|bundled payments|episode based payment
+value based care|value based payment|value based reimbursement
+pay for performance|p4p
+accountable care organization|aco
+medicare advantage|medicare part c|part c
+medicare part a|part a
+medicare part b|part b
+medicare part d|part d
+medigap|medicare supplement
+donut hole|coverage gap
+dual eligible|dual eligibles|medi medi
+chip|childrens health insurance program|schip
+tricare
+va|veterans affairs|veterans health administration|vha
+indian health service|ihs
+cobra
+hipaa
+emtala
+stark law
+anti kickback statute|anti kickback law
+false claims act
+uninsured
+underinsured
+universal health care|universal coverage
+single payer|single payer system
+national health service|nhs
+socialized medicine
+beveridge model
+bismarck model
+national health insurance model
+out of pocket model
+public option
+individual mandate
+employer sponsored insurance|employer based insurance|group health plan
+self insured plan|self funded plan|erisa
+marketplace|health insurance marketplace|exchange|healthcare gov
+open enrollment
+special enrollment period
+qualifying life event
+premium tax credit|subsidy|subsidies
+cost sharing reduction|csr
+bronze plan|silver plan|gold plan|platinum plan|metal tiers
+catastrophic plan
+essential health benefits
+preexisting condition|pre existing condition
+guaranteed issue
+community rating
+medical loss ratio|mlr
+actuarial value
+risk adjustment|hcc|hierarchical condition category
+risk pool
+adverse selection
+moral hazard
+utilization review|ur
+utilization management
+case management|case manager
+care coordination
+medical necessity
+peer to peer|peer to peer review
+observation status|observation stay|observation
+inpatient admission|inpatient status
+two midnight rule
+skilled nursing facility|snf
+long term care|ltc
+long term acute care|ltach|ltac
+inpatient rehabilitation facility|irf|acute rehab
+home health|home health care
+hospice
+palliative care
+durable medical equipment|dme
+assisted living
+nursing home
+adult day care
+respite care
+ambulatory surgery center|asc
+urgent care
+retail clinic|minute clinic
+emergency department|er visit
+federally qualified health center|fqhc|community health center
+critical access hospital|cah
+safety net hospital
+disproportionate share hospital|dsh|dsh payments
+academic medical center|teaching hospital
+gme|graduate medical education
+340b|340b program
+certificate of need|con
+cms|centers for medicare and medicaid services
+hhs|department of health and human services
+cdc|centers for disease control
+fda|food and drug administration
+nih
+ahrq
+joint commission|tjc
+ncqa
+hedis
+star ratings|medicare star ratings
+mips|merit based incentive payment system
+macra
+qpp|quality payment program
+apm|alternative payment model
+mssp|medicare shared savings program
+shared savings
+shared risk|two sided risk|downside risk
+global budget
+global payment
+reference pricing
+price transparency
+chargemaster|charge master
+facility fee
+balance billing
+surprise billing|surprise medical bill
+no surprises act
+good faith estimate
+allowed amount|allowable
+usual and customary|ucr|usual customary and reasonable
+reimbursement
+coordination of benefits|cob
+primary insurance|secondary insurance
+subrogation
+workers compensation|workers comp
+disability insurance
+short term disability
+long term disability
+ssdi|social security disability insurance
+ssi|supplemental security income
+life insurance
+dental insurance
+vision insurance
+travel insurance
+supplemental insurance
+gap insurance
+accident insurance
+critical illness insurance
+indemnity plan|indemnity insurance
+managed care|managed care organization|mco
+pbm|pharmacy benefit manager
+rebate|drug rebate
+copay card|copay coupon|manufacturer coupon
+patient assistance program|pap
+specialty pharmacy
+mail order pharmacy
+generic drug
+brand name drug
+biosimilar
+awp|average wholesale price
+wac|wholesale acquisition cost
+mac|maximum allowable cost
+dispensing fee
+clean claim
+superbill
+encounter form
+billing|medical billing
+coding|medical coding
+upcoding
+unbundling
+modifier|modifier 25
+evaluation and management|e and m|e m codes|em code
+place of service code
+npi|national provider identifier
+tax id|tin
+ein
+credentialing
+provider enrollment
+fee schedule|medicare physician fee schedule
+conversion factor
+gpci|geographic practice cost index
+sustainable growth rate|sgr
+opps|outpatient prospective payment system
+ipps|inpatient prospective payment system
+prospective payment system|pps
+cost report
+outlier payment
+readmission penalty|hrrp
+hac reduction program
+value based purchasing|hvbp
+hcahps
+meaningful use|promoting interoperability
+ehr|emr|electronic health record
+health information exchange|hie
+interoperability
+telehealth|telemedicine
+remote patient monitoring|rpm
+patient portal
+advance beneficiary notice|abn
+notice of privacy practices
+release of information|roi
+medical record
+informed consent
+advance directive|living will
+healthcare proxy|health care power of attorney|durable power of attorney for health care
+polst|molst|physician orders for life sustaining treatment
+dnr|do not resuscitate
+guardian|guardianship
+ombudsman
+patient bill of rights
+grievance
+malpractice insurance|medical malpractice insurance
+tort reform
+damages cap
+medical liability
+defensive medicine
+claims made policy
+occurrence policy
+tail coverage
+locum tenens|locums
+rvu productivity
+salary model
+private practice
+group practice
+hospital employed physician
+concierge medicine|concierge practice|direct primary care|dpc
+cash pay|self pay
+sliding scale|sliding fee scale
+charity care
+medical debt
+collections
+payment plan
+health share|health care sharing ministry
+short term health plan|short term limited duration insurance
+association health plan
+medicaid expansion
+medicaid waiver|1115 waiver|section 1115 waiver
+dsrip
+managed medicaid
+fee for service medicaid
+spend down|medicaid spend down
+look back period
+asset test
+income eligibility|fpl|federal poverty level
+payroll tax
+irmaa
+part b premium
+initial enrollment period
+late enrollment penalty
+special needs plan|snp|d snp
+pace|program of all inclusive care for the elderly
+hospital at home
+transitional care management|tcm
+chronic care management|ccm
+annual wellness visit|awv
+welcome to medicare visit|ippe
+preventive services
+copay accumulator
+maximizer program
+narrow network
+tiered network
+network adequacy
+any willing provider
+direct contracting|aco reach
+patient centered medical home|pcmh|medical home
+health system
+integrated delivery network|idn|integrated delivery system
+vertical integration
+horizontal integration
+consolidation|hospital mergers
+nonprofit hospital|not for profit hospital
+for profit hospital
+community benefit
+gross domestic product spending|health spending|national health expenditure
+cost shifting
+price discrimination
+iron triangle|access cost quality
+triple aim|quadruple aim
+population health
+social determinants of health|sdoh
+health equity
+`, "2026-11-06");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

@@ -306,6 +306,12 @@
   "Name a cause of meningitis or encephalitis": "2026-11-04",
   "Name a lab stain or culture medium": "2026-11-04",
   "Name an autoantibody": "2026-11-04",
-  "Name a finding on a peripheral blood smear": "2026-11-04"
+  "Name a finding on a peripheral blood smear": "2026-11-04",
+  "Name a bedside procedure": "2026-11-04",
+  "Name a clinical scoring system or decision rule": "2026-11-04",
+  "Name a genetic or molecular lab technique": "2026-11-04",
+  "Name a biostatistics or epidemiology term": "2026-11-04",
+  "Name a patient safety or quality improvement term": "2026-11-04",
+  "Name a healthcare system or insurance term": "2026-11-04"
  }
 }

@@ -1068,3 +1068,83 @@ crowdAlias("Name a cause of bad breath", "mouth breathing", "mouth breathing at 
 crowdAlias("Name a cause of bad breath", "tonsil stones", "tonsilloliths");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a cause of bad breath", "liver failure", "fetor hepaticus");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a cause of bad breath", "alcohol", "alcoholism");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "scaling", "hand scaling");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "polishing", "coronal polishing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "rinse", "pre procedural mouth rinse");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "x rays", "bitewing x rays");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "x rays", "panoramic x ray");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "x rays", "full mouth x rays");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "oral hygiene instructions", "brushing instructions");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "oral hygiene instructions", "flossing instructions");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "fluoride", "fluoride varnish");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "rinse", "chlorhexidine rinse");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "polishing", "selective polishing");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "polishing", "polishing with prophy paste");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "scaling", "supragingival scaling");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a step in a dental cleaning visit", "caries risk assessment", "caries risk");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental X-ray error", "reticulation", "reticulation of emulsion");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental X-ray error", "blurry image", "patient movement|motion blur");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "custom trays", "bleaching trays");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "in office whitening", "power bleaching|chairside whitening");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "in office whitening", "in office bleaching");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "opalescence", "opalescence go");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "opalescence", "opalescence boost");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "whitening pens", "teeth whitening pen");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "oil pulling", "coconut oil pulling");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "internal bleaching", "walking bleach technique");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "custom trays", "nightguard vital bleaching");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "microabrasion", "enamel microabrasion");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "veneers", "porcelain veneers");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "veneers", "composite veneers");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a teeth whitening method or product", "whitening toothpaste", "whitening toothpaste with peroxide");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of teeth grinding (bruxism)", "flat teeth", "flattened cusps");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of teeth grinding (bruxism)", "abfraction", "abfraction lesions");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of teeth grinding (bruxism)", "bone thickening", "torus mandibularis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of teeth grinding (bruxism)", "tmj clicking", "jaw clicking");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of teeth grinding (bruxism)", "jaw pain", "morning jaw pain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of teeth grinding (bruxism)", "headache", "tension headache");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a sign of teeth grinding (bruxism)", "headache", "temporal headache");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a pediatric dentistry term or procedure", "pulpotomy", "pulpotomy with mta");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a pediatric dentistry term or procedure", "pulpotomy", "formocresol pulpotomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a pediatric dentistry term or procedure", "pulpotomy", "ferric sulfate pulpotomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a pediatric dentistry term or procedure", "pulpectomy", "pulpectomy with zinc oxide eugenol");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a pediatric dentistry term or procedure", "stainless steel crown", "ssc");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a pediatric dentistry term or procedure", "sealants", "fissure sealant");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a pediatric dentistry term or procedure", "nitrous oxide", "nitrous oxide sedation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a pediatric dentistry term or procedure", "papoose board", "papoose");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental implants", "implant failure", "early implant failure");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental implants", "implant failure", "late implant failure");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental implants", "bone loss", "marginal bone loss|crestal bone loss");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental implants", "screw loosening", "prosthetic screw loosening");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental implants", "fractured implant", "implant fracture");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental implants", "implant failure", "loss of implant");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a complication of dental implants", "bruising", "swelling and bruising");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of crooked teeth", "losing baby teeth early", "premature loss of primary teeth|early loss of baby teeth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of crooked teeth", "late loss of baby teeth", "prolonged retention of primary teeth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of crooked teeth", "pacifier use", "prolonged pacifier use");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a course or subject in dental school", "anatomy", "gross anatomy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a course or subject in dental school", "public health", "community dentistry|dental public health");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a course or subject in dental school", "radiology", "oral radiology");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a course or subject in dental school", "oral pathology", "oral and maxillofacial pathology");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a course or subject in dental school", "pathology", "general pathology");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a course or subject in dental school", "dental materials", "dental biomaterials");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a course or subject in dental school", "occlusion", "occlusion and tmj");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an infection control step in a dental office", "hand washing", "hand washing before and after gloves");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an infection control step in a dental office", "gloves", "nitrile gloves");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an infection control step in a dental office", "gloves", "sterile gloves");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an infection control step in a dental office", "spore testing", "spore test log");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an infection control step in a dental office", "sterilization", "steam sterilization");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an infection control step in a dental office", "barriers", "surface barriers");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an infection control step in a dental office", "barriers", "chair barrier");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an infection control step in a dental office", "rubber dam", "rubber dam isolation");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an infection control step in a dental office", "gloves", "change gloves between patients");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a toothache", "cavity", "deep cavity");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a toothache", "periapical abscess", "apical abscess|tooth abscess");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a toothache", "tooth fracture", "crown fracture");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a toothache", "cracked filling", "broken filling");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a toothache", "cavity", "root caries");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a toothache", "teething", "erupting tooth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a toothache", "recent dental work", "new filling|post operative sensitivity");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a toothache", "trauma", "tooth trauma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a toothache", "angina", "unstable angina");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a cause of a toothache", "ear infection", "otitis media");  // 2026-11-04 · board audit · same answer

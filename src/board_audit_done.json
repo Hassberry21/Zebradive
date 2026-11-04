@@ -1,1 +1,15 @@
-{"_note":"Prompts whose answer lists have been audited for board-testable content (src/BOARD_AUDIT.md). Keys are exact prompt texts; values are the audit date.","done":{}}
+{
+ "_note": "Prompts whose answer lists have been audited for board-testable content (src/BOARD_AUDIT.md). Keys are exact prompt texts; values are the audit date.",
+ "done": {
+  "Name something included in a nursing handoff report": "2026-11-04",
+  "Name a piece of PPE or infection control measure": "2026-11-04",
+  "Name a patient position": "2026-11-04",
+  "Name a warning sign of stroke": "2026-11-04",
+  "Name a hospital emergency code": "2026-11-04",
+  "Name a sign of respiratory distress": "2026-11-04",
+  "Name a sign of abuse or neglect": "2026-11-04",
+  "Name an activity of daily living": "2026-11-04",
+  "Name a nursing theorist": "2026-11-04",
+  "Name a nursing job title or role": "2026-11-04"
+ }
+}

@@ -532,3 +532,16 @@ crowd("Name a heart condition", 65, "dextrocardia");  // 2026-11-04 · 2 players
 crowd("Name a part of the eye", 71, "uvea|uveal tract");  // 2026-11-04 · 2 players · iris+ciliary body+choroid
 crowdAlias("Name a lung disease", "pneumocystis", "pjp|pneumocystis jirovecii|pneumocystis pneumonia");  // 2026-11-04 · 2 players · same infection
 crowd("Name a cause of nausea and vomiting", 73, "metformin");  // 2026-11-04 · 2 players · common GI side effect
+crowdAlias("Name something included in a nursing handoff report", "mental status", "cognitive status|baseline mental status");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a piece of PPE or infection control measure", "isolation", "isolation precautions|transmission based precautions");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient position", "lateral", "lateral recumbent");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a patient position", "left lateral", "left side lying");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a warning sign of stroke", "slurred speech", "expressive aphasia|brocas aphasia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a warning sign of stroke", "trouble understanding speech", "receptive aphasia|wernickes aphasia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a warning sign of stroke", "visual field cut", "homonymous hemianopia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a hospital emergency code", "code gray", "code grey");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing theorist", "betty neuman", "betty newman");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing theorist", "kolcaba", "kolcaba comfort theory");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing theorist", "hildegard peplau", "hildegard e peplau");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing theorist", "helen erickson", "erickson tomlin swain");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a nursing job title or role", "case manager", "nurse case manager");  // 2026-11-04 · board audit · same answer

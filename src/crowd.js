@@ -954,3 +954,52 @@ crowdAlias("Name a type of malocclusion", "deep bite", "anterior deep bite|impin
 crowdAlias("Name a type of malocclusion", "gap", "midline diastema");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a type of malocclusion", "crowding", "crowding of incisors");  // 2026-11-04 · board audit · same answer
 crowdAlias("Name a type of malocclusion", "transposition", "transversion|transposition of teeth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "canine", "eyetooth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "central incisor", "maxillary central incisor|mandibular central incisor");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "lateral incisor", "maxillary lateral incisor|mandibular lateral incisor");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "upper canine", "maxillary canine");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "lower canine", "mandibular canine");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "first premolar", "maxillary first premolar|mandibular first premolar");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "second premolar", "maxillary second premolar|mandibular second premolar");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "first molar", "maxillary first molar|mandibular first molar");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "second molar", "maxillary second molar|mandibular second molar");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "wisdom tooth", "maxillary third molar|mandibular third molar");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "turner tooth", "turner hypoplasia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a type of tooth", "hutchinson incisors", "hutchinsonian teeth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral or dental condition", "epulis", "pregnancy tumor");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral or dental condition", "gingival hyperplasia", "drug induced gingival enlargement|phenytoin gingival hyperplasia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral or dental condition", "koplik spots", "measles");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral or dental condition", "tooth erosion", "erosion|dental erosion");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral or dental condition", "fluorosis", "dental fluorosis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a muscle of the head or neck", "digastric", "anterior digastric|posterior digastric");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a muscle of the head or neck", "platysma", "platysma myoides");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a habit that harms teeth", "grinding", "bruxism while awake|daytime clenching");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a habit that harms teeth", "hard candy", "chewing hard candy");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a habit that harms teeth", "nail biting", "onychophagia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a habit that harms teeth", "vomiting", "frequent vomiting|self induced vomiting");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral lesion or growth", "fibroma", "traumatic fibroma");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral lesion or growth", "torus", "torus palatinus|torus mandibularis");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral lesion or growth", "pyogenic granuloma", "pregnancy tumor|granuloma gravidarum");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral lesion or growth", "hairy leukoplakia", "oral hairy leukoplakia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a dental implant", "abutment", "implant abutment");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a dental implant", "crown", "implant crown");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of a dental implant", "implant analog", "lab analog");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral surgery procedure", "canine exposure", "impacted canine exposure");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name an oral surgery procedure", "frenectomy", "tongue tie release");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental instrument", "periodontal probe", "marquis probe|ufc probe|williams probe|who probe");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental instrument", "matrix band", "tofflemire retainer");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental instrument", "cryer elevator", "east west elevator|cryer");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental material", "amalgam", "silver amalgam|dental amalgam");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental material", "zirconia", "y tzp|yttria stabilized zirconia");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental material", "gypsum", "plaster of paris|type ii plaster");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental material", "alginate", "irreversible hydrocolloid");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental material", "agar", "reversible hydrocolloid");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a dental material", "polyvinyl siloxane", "addition silicone|vinyl polysiloxane|vps");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the mouth", "teeth", "tooth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the mouth", "tonsils", "palatine tonsils");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the mouth", "vestibule", "oral vestibule|buccal vestibule|labial vestibule");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the mouth", "lips", "upper lip|lower lip");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the mouth", "commissure", "labial commissure|corner of mouth");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the mouth", "vermilion border", "vermilion zone");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the mouth", "fauces", "isthmus of fauces");  // 2026-11-04 · board audit · same answer
+crowdAlias("Name a part of the mouth", "tori", "torus palatinus|torus mandibularis");  // 2026-11-04 · board audit · same answer

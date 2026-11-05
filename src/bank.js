@@ -31657,6 +31657,1118 @@ facial palsy affecting lips|bell palsy
 lip scar
 `, "2026-11-07");
 
+P("Name a classic buzzword in oral pathology","dental","",`
+soap bubble|soap bubble appearance|multilocular
+ground glass|ground glass appearance
+cotton wool|cotton wool appearance
+sunburst|sunburst appearance|sunray
+onion skin|onion skinning
+hair on end|hair on end skull
+floating teeth|teeth floating in air
+punched out lesions|punched out radiolucencies
+moth eaten|moth eaten bone
+honeycomb|honeycomb appearance
+tennis racket|tennis racquet
+scalloping between roots|scalloped borders
+inverted pear|inverted pear shaped radiolucency
+heart shaped radiolucency
+tear drop radiolucency|teardrop
+target lesions|bullseye lesions
+driven snow|driven snow appearance
+ghost cells
+ghost teeth
+shell teeth
+tulip shaped pulp|thistle tube pulp
+flame shaped pulp
+chevron pulp|crescent shaped pulp
+rootless teeth
+bulbous crowns
+taurodontism|taurodont
+dilaceration
+hutchinson incisors|screwdriver incisors
+mulberry molars
+peg lateral|peg shaped lateral
+dens in dente|dens invaginatus
+talon cusp
+loss of lamina dura
+widened pdl space|symmetric widening of the pdl
+garre periostitis|onion skin periosteum
+sequestrum
+involucrum
+sclerotic border|corticated border
+expansile lesion
+cortical expansion
+knife edge resorption|root resorption knife edge
+spiked root resorption
+mixed radiolucent radiopaque
+flocculent radiopacities
+cherub face|eyes to heaven|heavenward gaze
+leontiasis ossea|lion face
+cafe au lait spots|coast of maine
+coast of california
+starry sky|starry sky pattern
+orphan annie nuclei
+psammoma bodies
+liesegang rings
+chinese characters|chinese letters
+owl eye inclusions|owl's eye
+tombstone|row of tombstones
+string of pearls
+saw tooth rete ridges|sawtooth rete pegs
+civatte bodies|colloid bodies
+max joseph spaces
+wickham striae
+russell bodies
+verocay bodies
+antoni a|antoni a tissue
+antoni b|antoni b tissue
+reed sternberg cells
+tzanck cells|acantholytic cells
+intraepithelial clefting|suprabasilar clefting
+subepithelial clefting|subepithelial split
+nikolsky sign
+cobblestone mucosa|cobblestoning
+strawberry gingivitis
+strawberry tongue
+raspberry tongue
+koplik spots
+mucous patches
+snail track ulcers
+hunter glossitis|beefy red tongue
+bald tongue|depapillated tongue
+hairy tongue
+leathery mucosa
+corrugated mucosa|wrinkled appearance
+milky white opalescent mucosa|disappears on stretching
+wipes off|rubs off
+cannot be wiped off
+verrucous|cauliflower like
+pedunculated
+sessile
+fluctuant
+blanches on pressure|diascopy positive
+mucin pooling
+keratin pearls
+dyskeratosis
+koilocytes
+palisading nuclei|peripheral palisading
+reverse polarization|vickers gallagher
+parakeratinized corrugated lining|corrugated parakeratin
+basal palisading
+satellite cysts|daughter cysts
+cribriform pattern|swiss cheese pattern
+perineural invasion
+tadpole cells
+signet ring cells
+clear cells
+multinucleated giant cells
+foreign body giant cells
+langhans giant cells
+caseating granulomas
+sulfur granules
+birbeck granules|tennis racket granules
+hemosiderin
+amyloid|apple green birefringence
+dystrophic calcification
+eggshell calcification
+hyperkeratosis
+acanthosis
+pseudoepitheliomatous hyperplasia
+hourglass shape|dumbbell shaped
+bilateral multilocular radiolucencies
+shadow cells
+duct like structures
+plexiform pattern
+follicular pattern
+basaloid cells
+stellate reticulum like cells
+`, "2026-11-07");
+P("Name an operative or restorative dentistry term","dental","",`
+filling|restoration
+cavity preparation|cavity prep|tooth preparation
+outline form
+resistance form
+retention form
+convenience form
+extension for prevention
+removal of remaining caries|caries removal
+finishing enamel walls
+toilet of the cavity|cleaning the preparation
+pulpal floor
+axial wall
+gingival floor|gingival wall|gingival seat
+cavosurface margin
+cavosurface angle
+line angle
+point angle
+isthmus
+dovetail|occlusal dovetail
+proximal box|box form
+retention groove|retention grooves
+retention locks
+slot preparation
+tunnel preparation
+minimally invasive dentistry|minimal intervention
+selective caries removal|partial caries removal
+stepwise excavation
+indirect pulp cap|indirect pulp capping
+direct pulp cap|direct pulp capping
+pulp exposure
+affected dentin
+infected dentin
+remaining dentin thickness
+bevel
+butt joint
+unsupported enamel
+enamel margin
+undercut
+convergence|occlusal convergence
+divergence
+taper
+matrix band|matrix
+tofflemire|tofflemire retainer
+sectional matrix
+wedge|wooden wedge
+contact|proximal contact|contact point
+open contact
+overhang|restoration overhang
+marginal ridge
+embrasure
+occlusal anatomy
+carving
+burnishing
+polishing
+finishing
+condensation|amalgam condensation
+trituration
+amalgam
+composite|composite resin|tooth colored filling
+glass ionomer|gic
+resin modified glass ionomer|rmgi
+compomer
+flowable composite
+packable composite|bulk fill composite
+microfill composite
+nanofill composite|nanohybrid
+hybrid composite
+sealant|pit and fissure sealant
+preventive resin restoration|prr
+liner
+base
+calcium hydroxide|dycal
+mta|mineral trioxide aggregate
+biodentine
+zinc oxide eugenol|zoe
+varnish|cavity varnish|copal varnish
+etch|acid etch|phosphoric acid
+total etch|etch and rinse
+self etch
+selective etch
+universal adhesive
+bonding agent|adhesive|dentin bonding agent
+primer
+hybrid layer
+smear layer
+resin tags
+wet bonding|moist bonding
+collagen collapse
+microleakage
+polymerization shrinkage
+c factor|configuration factor
+incremental layering|incremental technique
+curing light|light curing|photopolymerization
+depth of cure
+oxygen inhibited layer
+postoperative sensitivity
+recurrent caries|secondary caries
+marginal breakdown|ditching
+creep
+corrosion
+tarnish
+galvanism
+mercury|mercury hygiene
+amalgam bonding
+pins|retentive pins|pin retained restoration
+slot retained amalgam
+core buildup|buildup|core
+post and core
+rubber dam|dental dam
+isolation|cotton roll isolation
+retraction cord
+class i restoration|class i cavity
+class ii restoration|class ii cavity
+class iii restoration|class iii cavity
+class iv restoration|class iv cavity
+class v restoration|class v cavity
+class vi restoration|class vi cavity
+mo|do|mod filling
+inlay
+onlay
+overlay
+veneer
+direct restoration
+indirect restoration
+shade selection|shade matching
+opacity|translucency
+anatomic layering
+art|atraumatic restorative treatment
+interim therapeutic restoration|itr
+temporary filling|cavit
+irm
+caries risk
+caries arrest|silver diamine fluoride|sdf
+resin infiltration|icon
+remineralization
+demineralization
+white spot lesion
+cervical lesion|noncarious cervical lesion
+abfraction
+abrasion
+erosion
+attrition
+cracked tooth
+cuspal coverage
+cusp fracture
+high speed handpiece|high speed
+slow speed handpiece|low speed
+bur|carbide bur|diamond bur
+spoon excavator|excavator
+hatchet
+hoe
+gingival margin trimmer|gmt
+enamel chisel
+amalgam carrier
+condenser|plugger
+burnisher
+carver|hollenback carver|discoid cleoid
+articulating paper
+occlusal adjustment
+proximal caries
+occlusal caries
+root caries
+rampant caries
+arrested caries
+caries detector dye
+`, "2026-11-07");
+P("Name a fixed prosthodontics term","dental","",`
+crown|cap
+bridge|fixed partial denture|fpd|fixed bridge
+abutment
+pontic
+retainer
+connector
+veneer
+inlay
+onlay
+post and core
+core buildup|buildup
+implant crown
+cantilever bridge
+maryland bridge|resin bonded bridge|resin bonded fixed partial denture
+fixed fixed bridge
+fixed movable bridge|nonrigid connector
+pier abutment
+ante law|ante's law
+crown to root ratio
+ferrule|ferrule effect
+biologic width|supracrestal tissue attachment
+finish line|margin
+chamfer
+heavy chamfer
+shoulder
+shoulder with bevel|beveled shoulder
+knife edge|feather edge
+slice preparation
+axial reduction
+occlusal reduction
+incisal reduction
+functional cusp bevel
+taper|total occlusal convergence
+path of insertion|path of draw
+resistance form
+retention form
+undercut
+axial groove|proximal groove
+box
+die
+die spacer
+master cast|working cast
+impression|final impression
+digital impression|intraoral scan
+gingival retraction|retraction cord|gingival displacement
+double cord technique
+shade|shade selection|shade guide
+value
+hue
+chroma
+translucency
+provisional|temporary crown|provisional restoration
+custom provisional
+cementation|luting
+try in
+seating
+marginal fit|marginal adaptation
+marginal gap
+open margin
+overcontoured crown
+emergence profile
+occlusal clearance
+occlusal adjustment
+centric relation
+maximum intercuspation|centric occlusion
+canine guidance
+group function
+mutually protected occlusion
+anterior guidance
+working side
+nonworking side|balancing side
+interference
+facebow|face bow
+articulator|semi adjustable articulator
+occlusal registration|bite registration
+pontic design
+ridge lap pontic|saddle pontic
+modified ridge lap pontic
+ovate pontic
+hygienic pontic|sanitary pontic
+conical pontic|bullet pontic
+pfm|porcelain fused to metal
+full cast crown|full gold crown|fgc
+all ceramic crown
+zirconia crown|zirconia
+lithium disilicate|emax|e max
+monolithic crown
+layered crown
+three quarter crown|partial veneer crown
+seven eighths crown
+pinledge
+endocrown
+telescopic crown|double crown
+coping
+metal coping
+framework
+porcelain fracture|chipping
+debonding|crown came off
+cement washout
+zinc phosphate cement
+glass ionomer cement
+resin cement
+resin modified glass ionomer cement|rmgi cement
+zinc polycarboxylate
+temporary cement|temp bond
+dual cure cement
+silane
+hydrofluoric acid etching
+air abrasion|sandblasting
+cad cam|cad/cam
+cerec
+milling
+pressed ceramic
+sintering
+glaze|glazing
+stain
+wax up|diagnostic wax up
+mockup
+smile design|digital smile design
+full mouth rehabilitation
+vertical dimension of occlusion|vdo
+occlusal plane
+splinted crowns|splinting
+long span bridge
+secondary caries
+endodontically treated tooth
+fiber post
+cast post
+prefabricated post
+remake
+`, "2026-11-07");
+P("Name a dental laboratory step or term","dental","",`
+wax up|wax pattern|waxing
+pour up|pouring the model|pouring stone
+model|cast|stone cast
+die
+die trimming|ditching the die
+die spacer
+die hardener
+sectioned model|die system|pindex
+articulator mounting|mounting casts
+facebow transfer
+spruing|sprue
+sprue former
+investing|investment
+investment material
+gypsum bonded investment
+phosphate bonded investment
+silica bonded investment
+casting ring
+ring liner
+burnout|wax elimination
+casting|lost wax technique
+centrifugal casting machine
+induction casting
+crucible
+flux
+divesting
+pickling
+finishing and polishing
+metal finishing
+porcelain application|layering porcelain
+opaque layer
+dentin porcelain|body porcelain
+enamel porcelain|incisal porcelain
+porcelain firing|firing
+vacuum firing
+glaze firing|glazing
+stain and glaze
+condensation of porcelain
+porcelain furnace
+pressing|heat pressing|pressed ceramic
+milling|cad cam milling
+3d printing|additive manufacturing
+scanning|lab scanner
+design software|exocad
+sintering
+sintering furnace
+zirconia milling
+denture setup|tooth setup|tooth arrangement
+wax try in
+wax rim|occlusion rim
+baseplate|record base
+custom tray|individual tray
+border molding
+boxing the impression
+beading
+flasking
+dewaxing|boil out
+packing acrylic|compression molding
+injection molding
+processing|curing acrylic
+deflasking
+remount|laboratory remount
+selective grinding
+denture finishing
+denture polishing
+denture reline
+denture rebase
+denture repair
+heat cure acrylic
+cold cure acrylic|self cure acrylic
+light cure acrylic
+pmma|polymethyl methacrylate
+monomer
+polymer
+dough stage
+partial denture framework
+surveying|survey
+surveyor
+duplicating the cast|refractory cast
+blockout
+relief wax
+framework casting
+cobalt chromium|chrome cobalt
+titanium
+type iv stone|die stone
+type iii stone|dental stone
+plaster|type ii plaster
+model trimmer
+vibrator
+vacuum mixer
+bunsen burner|torch
+wax carver|wax instruments
+pkt instruments|pk thomas
+inlay wax
+baseplate wax
+sticky wax
+utility wax
+boxing wax
+bite registration
+lab prescription|lab slip|work authorization
+shade guide|shade tab
+model analysis
+ortho model|study model
+thermoforming|vacuum forming
+essix retainer
+night guard|occlusal splint
+mouthguard|sports guard
+bleaching tray
+retainer fabrication
+wire bending
+soldering
+laser welding
+electropolishing
+sandblasting|airborne particle abrasion
+heat treatment
+porcelain repair
+quality control
+remake
+dental technician|lab tech
+cdt|certified dental technician
+digital lab
+`, "2026-11-07");
+P("Name a cephalometric landmark, plane or measurement","dental","",`
+sella|s point
+nasion|n point
+a point|subspinale|point a
+b point|supramentale|point b
+pogonion|pog
+menton|me
+gnathion|gn
+gonion|go
+porion|po
+orbitale|or
+anterior nasal spine|ans
+posterior nasal spine|pns
+basion|ba
+articulare|ar
+condylion|co
+pterygoid point|pt point
+pterygomaxillary fissure|ptm
+upper incisor tip|incision superius
+lower incisor tip|incision inferius
+upper incisor apex
+lower incisor apex
+soft tissue nasion
+pronasale|nose tip
+subnasale|sn
+labrale superius|ls
+labrale inferius|li
+stomion
+soft tissue pogonion
+soft tissue menton
+columella
+glabella
+bolton point
+key ridge
+pterygoid vertical
+frankfort horizontal plane|frankfort plane|fh plane
+sn line|sella nasion line|sn plane
+mandibular plane|go me plane
+palatal plane|ans pns plane
+occlusal plane|functional occlusal plane
+facial plane|n pog
+a pog line
+e line|ricketts esthetic line|esthetic line
+s line|steiner s line
+h line|holdaway line
+burstone line|b line
+nasion perpendicular|mcnamara line
+basion nasion plane|ba n
+facial axis
+sna|sna angle
+snb|snb angle
+anb|anb angle
+wits appraisal|wits
+fma|frankfort mandibular plane angle
+fmia|frankfort mandibular incisor angle
+impa|incisor mandibular plane angle
+tweed triangle
+sn mp|sn to mandibular plane angle|sn gogn
+y axis angle|y axis
+facial angle
+angle of convexity
+gonial angle
+saddle angle|n s ar
+articular angle|s ar go
+jarabak ratio|facial height ratio
+interincisal angle
+u1 to sn|upper incisor to sn
+u1 to na
+l1 to nb
+u1 to palatal plane
+lower incisor to a pog
+holdaway ratio
+nasolabial angle
+mentolabial sulcus
+upper lip to e line
+lower lip to e line
+anterior face height|afh|total face height
+lower anterior face height|lafh
+upper anterior face height
+posterior face height|pfh
+anterior cranial base
+posterior cranial base
+cranial base angle
+effective midface length|co a
+effective mandibular length|co gn
+maxillomandibular differential
+ramus height
+mandibular body length
+facial depth
+facial taper
+mandibular arc
+lower facial height angle
+steiner analysis
+downs analysis
+tweed analysis
+ricketts analysis
+mcnamara analysis
+harvold analysis
+jarabak analysis
+burstone analysis|coges
+holdaway analysis
+legan and burstone
+sassouni analysis
+bjork analysis
+wylie analysis
+cvm|cervical vertebral maturation
+superimposition
+hyoid bone position
+airway space|pharyngeal airway
+sella turcica
+`, "2026-11-07");
+P("Name a problem with dentures","dental","",`
+loose dentures|poor retention|denture slipping
+sore spots|denture sores|denture ulcer|traumatic ulcer
+denture stomatitis|denture related stomatitis
+angular cheilitis
+oral thrush|candidiasis
+bad breath|denture odor
+trouble eating|difficulty chewing
+trouble speaking|speech problems|lisping
+whistling
+clicking dentures|clacking teeth
+gagging
+broken denture|cracked denture|denture fracture
+denture tooth came off|lost tooth from denture
+staining|stained dentures
+plaque buildup|calculus on dentures
+cheek biting
+tongue biting
+lip biting
+bone loss|ridge resorption|residual ridge resorption
+flabby ridge|fibrous ridge
+combination syndrome|kelly syndrome
+epulis fissuratum|denture induced fibrous hyperplasia
+inflammatory papillary hyperplasia|papillary hyperplasia
+leaf fibroma|fibroepithelial polyp
+denture irritation
+burning mouth
+dry mouth|xerostomia
+increased salivation|too much saliva
+taste changes|loss of taste
+hot food burns|reduced temperature sensation
+food trapped under denture
+poor fit|ill fitting dentures
+rocking denture|unstable denture|instability
+upper denture dropping
+lower denture lifting|floating lower denture
+wrong bite|malocclusion of dentures
+collapsed bite|loss of vertical dimension|overclosure
+increased vertical dimension|open vertical dimension
+sunken face|collapsed face|aged facial appearance
+deepened nasolabial folds
+jaw pain|tmj pain
+facial muscle soreness
+headaches
+mental nerve compression|lip numbness
+pain on biting
+denture adhesive overuse|zinc toxicity from adhesive
+allergy to acrylic|monomer allergy
+residual monomer irritation
+wear of denture teeth
+worn out dentures|old dentures
+cosmetic dissatisfaction|fake looking teeth
+wrong shade
+teeth too big or too small
+midline off
+too much gum showing
+lip support problems
+self consciousness|psychological adjustment|denture anxiety
+denture lost|lost dentures
+denture left in overnight
+porosity
+warping|warped denture
+denture discoloration from bleach
+denture cleaner damage
+dropped denture breaking
+clasp broken|broken clasp
+loose clasp|clasp loosened
+partial denture rocking
+abutment tooth decay
+abutment tooth loss|abutment tooth mobility
+gum recession around abutments
+food stuck around clasps
+metal taste
+overdenture attachment wear|locator wear
+o ring wear
+loose implant overdenture
+peri implantitis
+torus interference
+undercut problems|bony undercut
+sharp bony ridges|bone spicule
+knife edge ridge
+aspiration of denture|swallowed denture
+choking on food
+nutrition problems|poor nutrition
+avoiding hard foods
+squamous cell carcinoma under denture
+sleeping with dentures
+pneumonia risk|aspiration pneumonia
+need for reline
+need for rebase
+`, "2026-11-07");
+P("Name something people fear about going to the dentist","dental","",`
+pain
+needles|shots|injections
+drill|dental drill
+drill noise|sound of the drill
+cost|price|bill
+bad news|finding cavities
+being judged|judgment|shame about teeth
+root canal
+tooth extraction|pulling teeth
+gagging
+choking
+loss of control
+lying back in the chair|being reclined
+numbness
+anesthesia not working|not getting numb
+waking up during sedation
+sedation|being put under
+general anesthesia
+smell of the office
+taste of materials
+bright lights
+masks|faces covered
+dental tools|sharp instruments
+scraping
+cleaning
+x rays|radiation
+bleeding
+blood
+being lectured about flossing
+lecture about smoking
+having to open wide
+jaw pain
+spit sink|saliva
+water in throat
+suction
+rubber dam
+claustrophobia
+panic attack
+fainting
+past bad experience
+childhood trauma
+strangers in personal space
+germs|infection
+needle breaking
+nerve damage
+swelling afterward
+dry socket
+dentures|needing dentures
+losing teeth
+bad breath
+being late or waiting
+long appointments
+missing work
+insurance problems
+upselling|unnecessary treatment
+dentist mistakes|malpractice
+allergic reaction
+heart racing from epinephrine|epinephrine
+nitrous oxide|laughing gas
+fluoride|fluoride treatment taste
+braces
+wisdom teeth removal
+implants
+gum surgery
+deep cleaning|scaling and root planing
+probing|gum measuring
+bitewing tab|x ray tab gagging
+impressions|impression goo
+cold air|air spray
+sensitivity|sensitive teeth
+crown prep
+not being able to swallow
+not being able to talk
+not being able to breathe
+nose breathing difficulty
+sneezing or coughing in chair
+drooling
+embarrassment
+being touched
+students practicing
+vibration
+heat from the drill
+burning smell
+crying kids in waiting room
+white coat syndrome
+dentophobia|odontophobia
+`, "2026-11-07");
+P("Name a component or function of saliva","dental","",`
+water
+amylase|salivary amylase|ptyalin
+lipase|lingual lipase
+lysozyme
+lactoferrin
+iga|secretory iga|siga|immunoglobulin a
+igg
+igm
+mucin|mucins|mucus
+muc5b
+muc7
+statherin
+histatins|histatin
+proline rich proteins|prps
+cystatins
+salivary peroxidase|sialoperoxidase|lactoperoxidase
+myeloperoxidase
+thiocyanate
+hypothiocyanite
+defensins
+cathelicidin|ll 37
+agglutinin|salivary agglutinin|gp340
+secretory leukocyte protease inhibitor|slpi
+carbonic anhydrase vi|gustin
+kallikrein
+epidermal growth factor|egf
+nerve growth factor|ngf
+bicarbonate
+phosphate
+calcium
+sodium
+potassium
+chloride
+fluoride
+magnesium
+zinc
+urea
+ammonia
+uric acid
+glucose
+cortisol
+hormones|steroid hormones
+albumin
+enzymes
+proteins
+electrolytes
+white blood cells|leukocytes
+epithelial cells
+bacteria|oral microbiome
+lubrication
+buffering|acid buffering|ph buffering
+remineralization|remineralizing teeth
+digestion|starch digestion
+fat digestion
+taste|taste perception|dissolving tastants
+swallowing|bolus formation
+speech|helps you talk
+cleansing|oral clearance|washing away food
+antimicrobial|antibacterial|fighting germs
+antifungal
+antiviral
+pellicle formation|acquired pellicle
+protecting teeth|protecting enamel
+wound healing
+tissue repair
+moistening the mouth|keeping mouth moist
+neutralizing acid
+preventing cavities
+dilution of sugars
+supersaturation with calcium phosphate
+thermal protection
+excretion of drugs
+diagnostic fluid|salivary diagnostics
+water balance|thirst signal
+mastication|chewing aid
+denture retention
+nitrate|nitrite
+salivary ph|ph
+flow rate|salivary flow
+resting saliva|unstimulated saliva
+stimulated saliva
+serous saliva
+mucous saliva
+gingival crevicular fluid
+`, "2026-11-07");
+P("Name a condition treated by an oral and maxillofacial surgeon","dental","",`
+impacted wisdom teeth|impacted third molars|wisdom teeth
+impacted canine
+non restorable teeth|hopeless teeth
+broken jaw|jaw fracture|mandible fracture
+facial fractures|facial trauma
+le fort fracture
+zygomatic fracture|cheekbone fracture
+orbital floor fracture|blowout fracture
+nasal fracture
+condylar fracture
+dentoalveolar fracture
+avulsed tooth
+jaw cyst|odontogenic cyst
+dentigerous cyst
+odontogenic keratocyst
+radicular cyst|periapical cyst
+ameloblastoma
+odontoma
+jaw tumor
+oral cancer|mouth cancer|squamous cell carcinoma
+head and neck cancer
+salivary gland tumor
+pleomorphic adenoma
+salivary stone|sialolithiasis
+mucocele
+ranula
+tmj disorder|tmd
+tmj ankylosis
+tmj dislocation
+tmj internal derangement|disc displacement
+tmj arthritis
+condylar hyperplasia
+cleft lip
+cleft palate
+alveolar cleft
+craniofacial anomalies|craniosynostosis
+jaw deformity|dentofacial deformity
+underbite|mandibular prognathism|class iii skeletal
+overbite|retrognathia|class ii skeletal
+open bite|skeletal open bite
+facial asymmetry
+obstructive sleep apnea|sleep apnea
+missing teeth|edentulism
+bone loss|atrophic ridge
+oral infection|odontogenic infection
+facial abscess
+ludwig angina
+cellulitis
+osteomyelitis
+osteonecrosis of the jaw|mronj
+osteoradionecrosis
+oroantral fistula|oroantral communication
+dry socket
+nerve injury|inferior alveolar nerve injury|lingual nerve injury
+trigeminal neuralgia
+suspicious oral lesion
+leukoplakia
+lichen planus
+fibroma
+torus|tori
+exostosis
+frenum problem|tongue tie|ankyloglossia
+lip tie
+pericoronitis
+facial cosmetic concerns|aging face
+small chin|microgenia
+fibrous dysplasia
+central giant cell granuloma
+cherubism
+gardner syndrome
+basal cell nevus syndrome|gorlin syndrome
+hemifacial microsomia
+pierre robin sequence
+treacher collins syndrome
+coronoid hyperplasia
+eagle syndrome
+masseter hypertrophy
+osteoma
+osteosarcoma
+lymphoma
+neck mass
+lacerations|facial lacerations
+dog bite
+gunshot wound
+burns
+skin cancer of the face
+salivary gland infection|sialadenitis
+parotid tumor
+sinus problems from teeth|odontogenic sinusitis
+root tip in sinus
+supernumerary teeth|mesiodens
+ankylosed teeth
+alveolar ridge defects
+severe dental anxiety
+`, "2026-11-07");
+P("Name a cause of facial asymmetry","dental","",`
+bell palsy|facial palsy|facial nerve palsy
+stroke
+normal variation|natural asymmetry
+aging
+trauma|facial injury
+jaw fracture|mandible fracture
+zygomatic fracture|cheekbone fracture
+orbital fracture
+nasal fracture|broken nose
+malunion of a fracture
+condylar fracture in childhood
+dental abscess|tooth infection
+facial swelling|cellulitis
+missing teeth
+tooth loss on one side
+unilateral chewing|chewing on one side
+crossbite|unilateral posterior crossbite
+functional shift|mandibular shift
+midline shift|dental midline shift
+malocclusion
+tmj disorder
+tmj ankylosis
+condylar hyperplasia
+hemimandibular hyperplasia
+hemimandibular elongation
+condylar hypoplasia|condylar agenesis
+juvenile idiopathic arthritis|jia
+idiopathic condylar resorption
+hemifacial microsomia|craniofacial microsomia
+goldenhar syndrome|oculoauriculovertebral spectrum
+treacher collins syndrome
+cleft lip
+cleft palate
+craniosynostosis
+plagiocephaly|positional plagiocephaly|flat head
+torticollis|congenital muscular torticollis
+parry romberg syndrome|progressive hemifacial atrophy
+linear scleroderma|en coup de sabre
+hemifacial hypertrophy|hemihyperplasia
+beckwith wiedemann syndrome
+proteus syndrome
+klippel trenaunay syndrome
+sturge weber syndrome
+neurofibromatosis|nf1|plexiform neurofibroma
+fibrous dysplasia
+mccune albright syndrome
+paget disease
+cherubism
+ossifying fibroma
+ameloblastoma
+odontogenic keratocyst
+jaw cyst
+jaw tumor
+osteoma
+osteochondroma of the condyle
+osteosarcoma
+chondrosarcoma
+parotid tumor|salivary gland tumor
+pleomorphic adenoma
+lymphoma
+hemangioma
+vascular malformation
+arteriovenous malformation|avm
+lymphatic malformation|cystic hygroma
+lipoma
+masseter hypertrophy|masseteric hypertrophy
+bruxism
+sialadenitis|parotitis
+mumps
+oral cancer
+skin cancer
+facial surgery
+orthognathic surgery complications
+radiation therapy in childhood
+botox
+filler asymmetry
+ptosis|drooping eyelid
+horner syndrome
+ramsay hunt syndrome
+facial nerve tumor
+acoustic neuroma surgery
+parotidectomy|facial nerve damage after parotidectomy
+lyme disease
+moebius syndrome
+hemifacial spasm
+lipodystrophy|hiv lipoatrophy
+silent sinus syndrome
+sinus tumor
+orbital tumor
+`, "2026-11-07");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

@@ -410,6 +410,16 @@
   "Name a route of drug administration": "2026-11-05",
   "Name an antiviral drug": "2026-11-05",
   "Name an inhaler or asthma/COPD medication": "2026-11-05",
-  "Name a drug that prolongs the QT interval": "2026-11-05"
+  "Name a drug that prolongs the QT interval": "2026-11-05",
+  "Name an opioid": "2026-11-05",
+  "Name a pharmaceutical company": "2026-11-05",
+  "Name a pharmacokinetics or pharmacology term": "2026-11-05",
+  "Name a drug for smoking cessation or addiction treatment": "2026-11-05",
+  "Name a drug for thyroid disease": "2026-11-05",
+  "Name a drug used in anesthesia or surgery": "2026-11-05",
+  "Name a medication that comes as a skin patch": "2026-11-05",
+  "Name a drug for Parkinson or Alzheimer disease": "2026-11-05",
+  "Name a drug or supplement that treats anemia": "2026-11-05",
+  "Name a drug for heart failure": "2026-11-05"
  }
 }

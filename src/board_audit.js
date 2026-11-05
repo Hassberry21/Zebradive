@@ -21849,3 +21849,593 @@ board("Name a drug that prolongs the QT interval", 78, "eliglustat|cerdelga");  
 board("Name a drug that prolongs the QT interval", 78, "macimorelin");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a drug that prolongs the QT interval", 78, "mifepristone|korlym");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a drug that prolongs the QT interval", 78, "pimavanserin|nuplazid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 50, "opiates|opioid agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 80, "desomorphine|krokodil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "ohmefentanyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "3 methylfentanyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "alpha methylfentanyl|china white");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "mt 45");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "ah 7921");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 75, "tianeptine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "normethadone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "dipipanone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "dextropropoxyphene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "nicomorphine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "hydromorphinol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "meptazinol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "eptazocine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "tapentadol er|nucynta er");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "benzhydrocodone|apadaz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "morphine naltrexone|embeda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "oxycodone naloxone|targiniq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "oxycodone naltrexone|troxyca");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "sufentanil sublingual");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "fentanyl buccal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "enkephalins|endorphins|endogenous opioids|dynorphin|beta endorphin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an opioid", 85, "oripavine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 55, "merck kgaa|emd serono");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "hoechst");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "rhone poulenc");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "marion merrell dow");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "pharmacia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "glaxo wellcome");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "bausch and lomb");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "alcon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "zoetis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "elanco");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "torrent pharmaceuticals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "alkem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "intas|accord healthcare");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "biocon|biocon biologics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "hetero");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "macleods");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "jubilant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "granules india");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "natco");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "wockhardt");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "ranbaxy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "camber pharmaceuticals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "ascend laboratories");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "ajanta pharma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "strides pharma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "unichem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "lannett");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "greenstone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "prasco");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "breckenridge");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "rising pharmaceuticals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "xiromed");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "avkare");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "major pharmaceuticals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "rugby");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "qualitest");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "west ward");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "akorn");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "american regent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "b braun");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "icu medical");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "procter and gamble|p&g");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "reckitt|reckitt benckiser");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "prestige consumer healthcare");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "chattem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "mitsubishi tanabe");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "santen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "kissei");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "meiji seika");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "nippon shinyaku");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "leo pharma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "orion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "gedeon richter");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "krka");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "polpharma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "stada");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "zentiva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "merz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "bial");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "esteve");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "almirall");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "chiesi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "angelini");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "zambon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "alfasigma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "pierre fabre");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "guerbet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "idorsia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "actelion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "vifor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "octapharma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "lonza");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "catalent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "samsung bioepis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "sk biopharm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "hanmi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "yuhan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "daewoong");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "sinopharm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "sinovac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "cansino");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "fosun pharma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "hansoh");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "innovent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "junshi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "zai lab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "hutchmed");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "legend biotech");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "akeso");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "cspc");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "sino biopharm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "serum institute of india");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "bharat biotech");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "biological e");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "aspen pharmacare");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "adcock ingram");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "eva pharma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "julphar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "tabuk");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "spimaco");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "pharmaniaga");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "kalbe farma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "unilab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "csl seqirus|seqirus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "bavarian nordic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "valneva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "emergent biosolutions|emergent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "dynavax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "curevac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "arcturus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "vaxcyte");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "united therapeutics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "axsome");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "intra cellular therapies");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "acadia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "sage therapeutics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "supernus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "harmony biosciences");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "karuna");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "cerevel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "madrigal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "intercept");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "ionis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "arrowhead");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "crispr therapeutics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "intellia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "editas");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "bluebird bio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "spark therapeutics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "ultragenyx");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "ptc therapeutics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "argenx");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "genmab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "ascendis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "zealand pharma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "blueprint medicines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "mirati");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "turning point");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "loxo oncology");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "kite pharma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "juno therapeutics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "immunomedics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "karyopharm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "deciphera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "agios");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "puma biotechnology");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "clovis oncology");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "tesaro");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "coherus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "amphastar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "adamis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "kaleo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "salix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "ironwood");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "ardelyx");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "phathom");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "vanda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "eagle pharmaceuticals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "pacira");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "heron therapeutics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "collegium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "assertio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "currax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "avadel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "corcept");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "rhythm pharmaceuticals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "xeris");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "mannkind");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "dechra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "virbac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "vetoquinol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "norbrook");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "ceva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "phibro");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "recursion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmaceutical company", 80, "relay therapeutics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 40, "adme");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 45, "pharmacokinetics|pk");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 45, "pharmacodynamics|pd");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "therapeutic window|therapeutic range");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "narrow therapeutic index|nti");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "minimum effective concentration|mec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "minimum toxic concentration");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "onset of action|onset");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "duration of action|duration");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "time to peak");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "peak concentration");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "trough concentration");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "cmin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "css|steady state concentration");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "accumulation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "accumulation factor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "dosing interval|tau");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "elimination rate constant|ke|kel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "absorption rate constant|ka");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "hepatic clearance");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "renal clearance");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "creatinine clearance|crcl|cockcroft gault");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "glomerular filtration rate|gfr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "tubular secretion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "tubular reabsorption");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "enterohepatic recirculation|enterohepatic circulation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "biliary excretion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "extraction ratio|hepatic extraction ratio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "intrinsic clearance");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "flow limited|perfusion limited");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "capacity limited");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "michaelis menten kinetics|michaelis menten|km|vmax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "nonlinear kinetics|saturable kinetics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "linear kinetics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "one compartment model");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "two compartment model|multicompartment model");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "alpha phase|distribution phase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "beta phase|elimination phase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "redistribution");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "context sensitive half time|context sensitive half life");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "free fraction|unbound fraction|fu|free drug");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "albumin binding");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "alpha 1 acid glycoprotein");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "displacement");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "blood brain barrier");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "placental transfer");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "p glycoprotein|p gp|efflux transporter");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "cyp450|cytochrome p450|cyp3a4|cyp2d6|cyp2c9|cyp2c19|cyp1a2");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "phase i metabolism|phase 1 reactions|oxidation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "phase ii metabolism|phase 2 reactions|conjugation|glucuronidation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "acetylation|slow acetylators|fast acetylators");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "sulfation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "methylation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "hydrolysis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "active metabolite");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "toxic metabolite");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "poor metabolizer|ultrarapid metabolizer|extensive metabolizer");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "polymorphism|genetic polymorphism");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "pharmacogenetics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "drug interaction|drug drug interaction");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "cyp inducer|inducer");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "cyp inhibitor|inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "substrate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "competitive antagonist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "noncompetitive antagonist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "irreversible antagonist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "physiologic antagonist|functional antagonist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "chemical antagonist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "allosteric modulator|positive allosteric modulator|negative allosteric modulator");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "full agonist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "intrinsic activity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "spare receptors|receptor reserve");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "up regulation|upregulation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "down regulation|downregulation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "desensitization");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "sensitization");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "dependence|physical dependence");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "withdrawal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "cross tolerance");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "additive effect|additive");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "potentiation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "antagonism");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "emax|maximal efficacy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "ec50");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "td50");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "margin of safety");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "quantal dose response");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "graded dose response");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "kd|dissociation constant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "ki|inhibition constant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "ic50");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "selectivity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "specificity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "idiosyncratic reaction");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "adverse drug reaction|adr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "placebo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "nocebo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "pharmacovigilance");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "bioequivalent|generic equivalence");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "therapeutic equivalence|orange book");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "pharmaceutical equivalence");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "bcs|biopharmaceutics classification system");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "pka");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "ionization|henderson hasselbalch");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "ion trapping");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "lipophilicity|lipid solubility");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "partition coefficient|log p");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "passive diffusion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "active transport");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "facilitated diffusion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "pinocytosis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "lag time");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "mean residence time");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "apparent volume of distribution|vd");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "total body clearance|cl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "dose adjustment|renal dose adjustment");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "therapeutic drug monitoring|tdm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "population pharmacokinetics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "bayesian dosing");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "toxicokinetics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "chronopharmacology");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "drug holiday");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "rebound effect");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "paradoxical reaction");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "mechanism of action|moa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "time dependent killing");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "concentration dependent killing");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "post antibiotic effect");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "mic|minimum inhibitory concentration");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for smoking cessation or addiction treatment", 65, "nicotine mouth spray|nicorette quickmist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for smoking cessation or addiction treatment", 65, "diazepam|valium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for smoking cessation or addiction treatment", 65, "lorazepam|ativan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for smoking cessation or addiction treatment", 65, "phenobarbital");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for smoking cessation or addiction treatment", 65, "thiamine|vitamin b1");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for smoking cessation or addiction treatment", 65, "folic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for smoking cessation or addiction treatment", 65, "n acetylcysteine|nac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for smoking cessation or addiction treatment", 65, "bupropion naltrexone|contrave");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for smoking cessation or addiction treatment", 65, "levomethadyl acetate|laam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for smoking cessation or addiction treatment", 65, "heroin assisted treatment|diacetylmorphine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for smoking cessation or addiction treatment", 65, "prazosin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "titration|dose titration");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 65, "side effect|side effects");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 65, "adverse effect");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "contraindication");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "teratogen|teratogenicity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "hypersensitivity|drug allergy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 70, "bolus|iv bolus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "dose dumping");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "dissolution|dissolution rate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "solubility");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "permeability");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "biosimilar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "generic drug|generic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "orphan drug");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "off label use|off label");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "g protein coupled receptor|gpcr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "second messenger|camp");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "signal transduction");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "nuclear receptor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "ligand gated ion channel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "receptor tyrosine kinase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "structure activity relationship|sar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 80, "pharmacophore");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 80, "mbc|minimum bactericidal concentration");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "time above mic|t>mic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "auc mic|auc/mic ratio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "peak mic ratio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "addiction");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "ideal body weight|ibw");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 75, "body surface area|bsa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacokinetics or pharmacology term", 80, "adjusted body weight");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for thyroid disease", 50, "thyroid hormone|thyroid hormone replacement");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for thyroid disease", 50, "antithyroid drugs|thionamides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for thyroid disease", 60, "nadolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for thyroid disease", 60, "iopanoic acid|ipodate|iodinated contrast agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for thyroid disease", 60, "lithium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for thyroid disease", 60, "glucocorticoids|steroids|prednisone|methylprednisolone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for thyroid disease", 60, "perchlorate|potassium perchlorate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for thyroid disease", 65, "pralsetinib|gavreto");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "halothane|fluothane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "enflurane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 60, "methoxyflurane|penthrox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 60, "xenon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "thiopental|pentothal|sodium thiopental");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 60, "fospropofol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "remimazolam|byfavo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "atracurium|tracrium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "pancuronium|pavulon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 60, "mivacurium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 60, "neuromuscular blockers|paralytics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "edrophonium|enlon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "sufentanil|sufenta|dsuvia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "alfentanil|alfenta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "meperidine|demerol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "ketorolac|toradol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "acetaminophen iv|ofirmev|iv tylenol|acetaminophen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "ibuprofen iv|caldolor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "gabapentin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "pregabalin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "liposomal bupivacaine|exparel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "bupivacaine meloxicam|zynrelef");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "mepivacaine|carbocaine|polocaine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "chloroprocaine|nesacaine|clorotekal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "tetracaine|pontocaine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "prilocaine|citanest");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "articaine|septocaine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "procaine|novocain");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "benzocaine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "cocaine topical|cocaine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "emla|lidocaine prilocaine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "epinephrine|adrenaline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "norepinephrine|levophed");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "vasopressin|vasostrict");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "labetalol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "hydralazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "nitroglycerin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "nicardipine|cardene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "clevidipine|cleviprex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "nitroprusside|nipride");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "droperidol|inapsine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "granisetron");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "palonosetron");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "aprepitant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "amisulpride|barhemsys");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "promethazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "metoclopramide|reglan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "famotidine|pepcid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "sodium citrate|bicitra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "cefoxitin|mefoxin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "cefotetan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "cefuroxime");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "vancomycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "clindamycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "metronidazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "gentamicin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "ampicillin sulbactam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "ertapenem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "chlorhexidine|chloraprep|hibiclens");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "povidone iodine|betadine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "enoxaparin|lovenox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "aminocaproic acid|amicar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "desmopressin|ddavp");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "thrombin topical|recothrom");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "fibrin sealant|tisseel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "aprotinin|trasylol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "flumazenil|romazicon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "naloxone|narcan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "albumin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "lactated ringers|lr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "normal saline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "hetastarch|hespan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "calcium chloride");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "magnesium sulfate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "mannitol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "furosemide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "hydrocortisone|stress dose steroids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "lorazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "oxytocin|pitocin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "methylergonovine|methergine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "carboprost|hemabate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "misoprostol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "terbutaline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "nitric oxide|inhaled nitric oxide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "heliox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "oxygen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "methylene blue");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "indocyanine green|icg");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "isosulfan blue|lymphazurin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "fluorescein");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "hyaluronidase|hylenex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "botulinum toxin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "clonidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "adenosine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "milrinone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "dobutamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "alprostadil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "cardioplegia|del nido cardioplegia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "intralipid|lipid emulsion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "sodium bicarbonate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "physostigmine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "bivalirudin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "argatroban");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "vitamin k|phytonadione");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "kcentra|prothrombin complex concentrate|4 factor pcc");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "idarucizumab|praxbind");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "andexanet alfa|andexxa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used in anesthesia or surgery", 65, "alvimopan|entereg");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 55, "combipatch|estradiol norethindrone patch");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 55, "climara pro|estradiol levonorgestrel patch");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 80, "ketoprofen patch");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 80, "loxoprofen patch");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 80, "felbinac patch");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 80, "tulobuterol patch");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 80, "bisoprolol patch");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 80, "donepezil patch|adlarity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 80, "sumatriptan patch|zecuity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 80, "zolmitriptan patch|qtrypta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 80, "lidocaine tetracaine patch|synera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 80, "iontophoretic fentanyl|ionsys");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a skin patch", 80, "isosorbide dinitrate patch");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 50, "carbidopa|lodosyn");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "foscarbidopa foslevodopa|vyalev");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "carbidopa levodopa entacapone|stalevo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 50, "dopamine agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 50, "mao b inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 50, "comt inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 50, "anticholinergics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 50, "cholinesterase inhibitors|acetylcholinesterase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 50, "nmda antagonist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 50, "anti amyloid antibodies|anti amyloid monoclonal antibodies");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "pergolide|permax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "lisuride");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "piribedil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "biperiden|akineton");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "procyclidine|kemadrin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "quetiapine|seroquel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "clozapine|clozaril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "droxidopa|northera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "midodrine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "fludrocortisone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "tacrine|cognex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "huperzine a");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for Parkinson or Alzheimer disease", 70, "ergoloid mesylates|hydergine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "polysaccharide iron complex|niferex|poly iron");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "carbonyl iron|feosol carbonyl|icar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "heme iron polypeptide|proferrin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "ferric maltol|accrufer|feraccru");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "iron bisglycinate|ferrous bisglycinate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 40, "iv iron|intravenous iron");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 45, "sodium ferric gluconate|ferrlecit");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 45, "intrinsic factor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 45, "leucovorin|folinic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 40, "esas|erythropoiesis stimulating agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 45, "methoxy polyethylene glycol epoetin beta|mircera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "roxadustat|evrenzo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "vitamin b6|pyridoxine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "copper|copper supplement");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "rituximab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "ivig|intravenous immunoglobulin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "ravulizumab|ultomiris");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "pegcetacoplan|empaveli");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "iptacopan|fabhalta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "danicopan|voydeya");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "crovalimab|piasky");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "sutimlimab|enjaymo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "imetelstat|rytelo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "l glutamine|endari");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "exagamglogene|casgevy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "lovotibeglogene|lyfgenia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "betibeglogene|zynteglo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "deferiprone|ferriprox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "antithymocyte globulin|atg|atgam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "cyclosporine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "androgens|danazol|oxymetholone|anadrol|nandrolone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "multivitamin with iron|prenatal vitamins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug or supplement that treats anemia", 70, "momelotinib|ojjaara");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 40, "ace inhibitors|ace inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 40, "beta blockers|beta blocker|evidence based beta blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 40, "arni|arnis|angiotensin receptor neprilysin inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 40, "sglt2 inhibitors|sglt2 inhibitor|gliflozins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 40, "mras|mineralocorticoid receptor antagonists|aldosterone antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 40, "diuretics|loop diuretics|loop diuretic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 45, "arbs|arb|angiotensin receptor blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 50, "captopril|capoten");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 50, "ramipril|altace");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 50, "quinapril|accupril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 50, "fosinopril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 50, "trandolapril|mavik");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 50, "perindopril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 50, "benazepril|lotensin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "nebivolol|bystolic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 50, "candesartan|atacand");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 50, "nitrates|nitroglycerin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "chlorothiazide iv|diuril iv");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "tolvaptan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "levosimendan|simdax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "nesiritide|natrecor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "nitroprusside");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "inotropes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "acoramidis|attruby");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "vutrisiran|amvuttra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "patisiran|onpattro");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "eplontersen|wainua");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "mavacamten|camzyos");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "iron|iv iron|ferric carboxymaltose|injectafer|ferric derisomaltose");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "patiromer|veltassa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "sodium zirconium cyclosilicate|lokelma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "semaglutide|wegovy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "tirzepatide|zepbound");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for heart failure", 70, "hydrochlorothiazide|hctz|chlorthalidone|thiazide diuretics");  // 2026-11-05 · NAPLEX · board-testable

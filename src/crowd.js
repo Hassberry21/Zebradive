@@ -2549,3 +2549,184 @@ crowdAlias("Name a drug that prolongs the QT interval", "nortriptyline", "pamelo
 crowdAlias("Name a drug that prolongs the QT interval", "imipramine", "tofranil");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a drug that prolongs the QT interval", "desipramine", "norpramin");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a drug that prolongs the QT interval", "doxepin", "sinequan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "morphine", "ms contin|kadian|roxanol|morphine sulfate|duramorph|infumorph|mitigo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "oxycodone", "oxaydo|xtampza|endocet|percodan|oxycodone acetaminophen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "hydrocodone", "hydrocodone acetaminophen|hycodan|tussionex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "codeine", "tylenol with codeine|tylenol 3|tylenol #3|codeine phosphate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "tramadol", "conzip|ultracet|tramadol acetaminophen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "fentanyl", "actiq|fentora|abstral|subsys|lazanda|fentanyl patch");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "buprenorphine", "zubsolv|brixadi|buprenex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "methadone", "methadose");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "hydromorphone", "exalgo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "opium", "opium tincture");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "dihydrocodeine", "synalgos dc");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "alfentanil", "alfenta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "nitazenes", "metonitazene");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "heroin", "diamorphine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "kratom", "7 hydroxymitragynine|7 oh");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "loperamide", "imodium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "diphenoxylate", "difenoxin|motofen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "eluxadoline", "viberzi");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "propoxyphene", "darvocet");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "dezocine", "dalgan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an opioid", "etorphine", "m99");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "sanofi", "sanofi aventis|aventis|sanofi pasteur|sanofi genzyme");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "sun pharma", "sun pharmaceutical");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "hikma", "hikma pharmaceuticals");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "fresenius kabi", "fresenius");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "baxter", "baxter international");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "astellas", "astellas pharma");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "sumitomo", "sumitomo pharma|sumitomo dainippon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "takeda", "takeda pharmaceutical");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "otsuka", "otsuka pharmaceutical");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "ono", "ono pharmaceutical");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "chugai", "chugai pharmaceutical");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "boehringer ingelheim", "boehringer");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "hengrui", "jiangsu hengrui");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "wuxi", "wuxi apptec|wuxi biologics");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "jazz pharmaceuticals", "jazz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "neurocrine", "neurocrine biosciences");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "alnylam", "alnylam pharmaceuticals");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "moderna", "moderna therapeutics");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "sarepta", "sarepta therapeutics");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "incyte", "incyte corporation");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmaceutical company", "bayer", "bayer healthcare|bayer consumer");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacokinetics or pharmacology term", "half life", "t1/2|t half|elimination half life");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacokinetics or pharmacology term", "bioavailability", "f");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacokinetics or pharmacology term", "first pass effect", "first pass metabolism|presystemic metabolism");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "nicotine patch", "nicoderm|nicoderm cq|habitrol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "nicotine gum", "nicorette|nicorette gum");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "nicotine lozenge", "nicorette lozenge|commit lozenge");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "nicotine inhaler", "nicotrol inhaler|nicotrol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "nicotine nasal spray", "nicotrol ns");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "varenicline", "champix|apo varenicline");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "bupropion", "bupropion sr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "buprenorphine", "buprenex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "suboxone", "zubsolv|bunavail");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "methadone", "dolophine|methadose|diskets");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "naltrexone", "revia|depade");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "naloxone", "kloxxado|zimhi|rextovy|evzio");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "nalmefene", "selincro|zurnai");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "clonidine", "catapres|kapvay");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "gabapentin", "neurontin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "topiramate", "topamax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "baclofen", "lioresal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "cytisine", "cytisinicline|tabex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "nortriptyline", "pamelor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for smoking cessation or addiction treatment", "oxazepam", "serax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "levothyroxine", "levo t|thyquidity|ermeza|eltroxin|t4|l thyroxine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "liothyronine", "triostat");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "armour thyroid", "np thyroid|nature throid|thyroid usp|porcine thyroid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "propranolol", "inderal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "potassium iodide", "thyroshield|iosat|thyrosafe");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "lugol solution", "lugol's iodine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "radioactive iodine", "sodium iodide i 131");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "cholestyramine", "colestipol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "lenvatinib", "lenvima");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "sorafenib", "nexavar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "cabozantinib", "cabometyx");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "vandetanib", "caprelsa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "selpercatinib", "retevmo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "carbimazole", "neo mercazole");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "methimazole", "northyx");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for thyroid disease", "liotrix", "thyrolar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "propofol", "diprivan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "lidocaine", "xylocaine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "fentanyl", "sublimaze");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "ketamine", "ketalar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "sevoflurane", "ultane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "desflurane", "suprane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "isoflurane", "forane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "nitrous oxide", "laughing gas|n2o");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "etomidate", "amidate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "methohexital", "brevital");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "dexmedetomidine", "precedex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "succinylcholine", "anectine|quelicin|suxamethonium|sux");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "rocuronium", "zemuron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "vecuronium", "norcuron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "cisatracurium", "nimbex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "neostigmine", "bloxiverz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "glycopyrrolate", "robinul");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "scopolamine patch", "scopolamine|transderm scop");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "morphine", "duramorph");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "hydromorphone", "dilaudid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "remifentanil", "ultiva");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "bupivacaine", "marcaine|sensorcaine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "ropivacaine", "naropin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "phenylephrine", "neo synephrine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "ephedrine", "akovaz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "ondansetron", "zofran");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "dexamethasone", "decadron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "tranexamic acid", "cyklokapron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used in anesthesia or surgery", "dantrolene", "dantrium|ryanodex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a skin patch", "nicotine patch", "nicoderm|nicoderm cq|habitrol|nicotrol patch");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a skin patch", "fentanyl patch", "transdermal fentanyl");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a skin patch", "lidocaine patch", "ztlido|lidocaine 4% patch|aspercreme lidocaine patch");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a skin patch", "birth control patch", "zafemy|contraceptive patch|norelgestromin ethinyl estradiol patch");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a skin patch", "scopolamine patch", "motion sickness patch|hyoscine patch");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a skin patch", "nitroglycerin patch", "nitro dur|minitran|transdermal nitroglycerin|glyceryl trinitrate patch");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a skin patch", "estrogen patch", "vivelle dot|alora|minivelle|menostar|dotti|lyllana|estraderm");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a skin patch", "diclofenac patch", "licart");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a skin patch", "salonpas", "icy hot patch|tiger balm patch|bengay patch");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "carbidopa levodopa", "dhivy|crexont|parcopa|l dopa|co careldopa|madopar|benserazide levodopa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "pramipexole", "mirapex er");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "ropinirole", "requip xl");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "apomorphine", "apokyn|kynmobi|onapgo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "bromocriptine", "parlodel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "cabergoline", "dostinex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "selegiline", "eldepryl|zelapar|emsam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "safinamide", "xadago");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "entacapone", "comtan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "tolcapone", "tasmar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "opicapone", "ongentys");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "istradefylline", "nourianz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "amantadine", "gocovri|osmolex|symmetrel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "trihexyphenidyl", "artane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "pimavanserin", "nuplazid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "rivastigmine", "exelon patch");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "donepezil", "adlarity");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "galantamine", "reminyl");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "memantine", "namenda xr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for Parkinson or Alzheimer disease", "namzaric", "donepezil memantine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "iron", "iron supplements|feosol|slow fe|fer in sol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "ferrous gluconate", "fergon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "ferrous fumarate", "ferretts|hemocyte");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "ferric carboxymaltose", "ferinject");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "iron dextran", "infed|dexferrum|cosmofer");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "iron isomaltoside", "ferric derisomaltose");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "vitamin b12", "b12 injection|nascobal|hydroxocobalamin|methylcobalamin|cobalamin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "folic acid", "folvite|l methylfolate|deplin|5 mthf");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "epoetin", "epoetin alfa|retacrit");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "daprodustat", "hif ph inhibitors|jesduvroq");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "vadadustat", "vafseo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "blood transfusion", "prbcs|packed red blood cells|red blood cell transfusion");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "vitamin c", "ascorbic acid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "prednisone", "corticosteroids|steroids");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "eculizumab", "soliris");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "hydroxyurea", "droxia|siklos");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "voxelotor", "oxbryta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "crizanlizumab", "adakveo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "deferoxamine", "desferal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "deferasirox", "exjade|jadenu");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "furosemide", "furoscix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "lisinopril", "zestril|prinivil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "enalapril", "vasotec|enalaprilat");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "metoprolol succinate", "metoprolol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "carvedilol", "coreg cr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "bisoprolol", "zebeta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "losartan", "cozaar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "valsartan", "diovan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "spironolactone", "aldactone|carospir");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "eplerenone", "inspra");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "finerenone", "kerendia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "sotagliflozin", "inpefa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "digoxin", "lanoxin|digitalis");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "hydralazine", "apresoline");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "isosorbide dinitrate", "isordil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "bidil", "isosorbide dinitrate hydralazine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "bumetanide", "bumex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "torsemide", "demadex|soaanz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "metolazone", "zaroxolyn");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "milrinone", "primacor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "dobutamine", "dobutrex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for heart failure", "tafamidis", "vyndaqel|vyndamax");  // 2026-11-05 · NAPLEX · same answer

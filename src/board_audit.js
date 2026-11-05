@@ -20544,3 +20544,655 @@ board("Name a physical exam sign named after a person", 80, "brückner test|bruc
 board("Name a physical exam sign named after a person", 80, "schirmer test");  // 2026-11-04 · USMLE/COMLEX · board-testable
 board("Name a physical exam sign named after a person", 80, "seidel test");  // 2026-11-04 · USMLE/COMLEX · board-testable
 board("Name a physical exam sign named after a person", 75, "biot respiration");  // 2026-11-04 · USMLE/COMLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 45, "glp 1 agonists|glp1 agonists|glp 1 receptor agonists|semaglutide|ozempic|wegovy|liraglutide|victoza|dulaglutide|trulicity|tirzepatide|mounjaro|exenatide extended release");  // 2026-11-05 · NAPLEX · thyroid C-cell tumor boxed warning
+board("Name a drug with a boxed (black box) warning", 50, "lithium|lithobid");  // 2026-11-05 · NAPLEX · lithium toxicity boxed warning
+board("Name a drug with a boxed (black box) warning", 55, "metronidazole|flagyl");  // 2026-11-05 · NAPLEX · carcinogenic in rodents
+board("Name a drug with a boxed (black box) warning", 75, "tinidazole|tindamax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 50, "zolpidem|ambien|z drugs|eszopiclone|lunesta|zaleplon|sonata");  // 2026-11-05 · NAPLEX · complex sleep behaviors
+board("Name a drug with a boxed (black box) warning", 50, "combined oral contraceptives|oral contraceptives|birth control pills|combined hormonal contraceptives|ocps|ocp|xulane|ortho evra|nuvaring");  // 2026-11-05 · NAPLEX · smoking and CV events
+board("Name a drug with a boxed (black box) warning", 50, "botulinum toxin|botox|onabotulinumtoxina|dysport|xeomin");  // 2026-11-05 · NAPLEX · distant toxin spread
+board("Name a drug with a boxed (black box) warning", 55, "ketorolac|toradol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 65, "tamoxifen|nolvadex");  // 2026-11-05 · NAPLEX · uterine cancer, stroke, PE
+board("Name a drug with a boxed (black box) warning", 70, "raloxifene|evista");  // 2026-11-05 · NAPLEX · VTE, stroke
+board("Name a drug with a boxed (black box) warning", 70, "febuxostat|uloric");  // 2026-11-05 · NAPLEX · CV death
+board("Name a drug with a boxed (black box) warning", 65, "phenytoin iv|fosphenytoin|cerebyx|iv phenytoin");  // 2026-11-05 · NAPLEX · CV risk with rapid infusion
+board("Name a drug with a boxed (black box) warning", 75, "disopyramide|norpace");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "mexiletine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "propafenone|rythmol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "quinidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "ibutilide|corvert");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "midodrine|proamatine");  // 2026-11-05 · NAPLEX · supine hypertension
+board("Name a drug with a boxed (black box) warning", 85, "droxidopa|northera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "itraconazole|sporanox");  // 2026-11-05 · NAPLEX · CHF
+board("Name a drug with a boxed (black box) warning", 85, "flucytosine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "amphotericin b|ampho b|amphotericin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "mefloquine");  // 2026-11-05 · NAPLEX · neuropsychiatric
+board("Name a drug with a boxed (black box) warning", 75, "lindane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "acitretin|soriatane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "azathioprine|imuran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "sirolimus|rapamune");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "belatacept|nulojix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "basiliximab|simulect");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "antithymocyte globulin|thymoglobulin|atg");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "rituximab|rituxan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "alemtuzumab|lemtrada|campath");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 65, "trastuzumab|herceptin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "ado trastuzumab emtansine|kadcyla|t dm1");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "doxorubicin|adriamycin|anthracyclines|daunorubicin|epirubicin|idarubicin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "bleomycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "cisplatin|carboplatin|platinum agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "vincristine");  // 2026-11-05 · NAPLEX · fatal if given intrathecally
+board("Name a drug with a boxed (black box) warning", 80, "irinotecan|camptosar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "paclitaxel|taxol|docetaxel|taxotere|taxanes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "ifosfamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "cytarabine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "fludarabine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "cladribine|mavenclad");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "arsenic trioxide|trisenox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "oral tretinoin|all trans retinoic acid|atra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "fondaparinux|arixtra");  // 2026-11-05 · NAPLEX · spinal/epidural hematoma
+board("Name a drug with a boxed (black box) warning", 85, "ticlopidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "vorapaxar|zontivity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "desmopressin nasal|noctiva|nocdurna");  // 2026-11-05 · NAPLEX · hyponatremia
+board("Name a drug with a boxed (black box) warning", 75, "tolvaptan|samsca|jynarque");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "sodium phosphate tablets|osmoprep|visicol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "pramlintide|symlin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "bupropion|wellbutrin|zyban");  // 2026-11-05 · NAPLEX · suicidality
+board("Name a drug with a boxed (black box) warning", 85, "thioridazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "loxapine inhaled|adasuve");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "olanzapine pamoate|zyprexa relprevv");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "alosetron|lotronex");  // 2026-11-05 · NAPLEX · ischemic colitis
+board("Name a drug with a boxed (black box) warning", 60, "misoprostol|cytotec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "mifepristone|mifeprex|korlym");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 65, "ribavirin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "interferon|interferons|peginterferon|interferon alfa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "abacavir|ziagen");  // 2026-11-05 · NAPLEX · HLA-B*5701 hypersensitivity
+board("Name a drug with a boxed (black box) warning", 75, "nevirapine|viramune");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "zidovudine|azt|retrovir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "stavudine|didanosine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "entecavir|baraclude|lamivudine|epivir|tenofovir|viread|emtricitabine|truvada|hbv nucleoside analogs");  // 2026-11-05 · NAPLEX · HBV exacerbation on discontinuation
+board("Name a drug with a boxed (black box) warning", 75, "hepatitis c direct acting antivirals|sofosbuvir|harvoni|epclusa|mavyret|ledipasvir");  // 2026-11-05 · NAPLEX · HBV reactivation
+board("Name a drug with a boxed (black box) warning", 80, "ganciclovir|valganciclovir|valcyte");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "cidofovir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "foscarnet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "maraviroc|selzentry");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "tipranavir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "polymyxin b|colistin|polymyxins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "bedaquiline|sirturo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "telavancin|vibativ");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "isoniazid|inh");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "acetaminophen injection|iv acetaminophen|ofirmev|acetaminophen combination products");  // 2026-11-05 · NAPLEX · hepatotoxicity
+board("Name a drug with a boxed (black box) warning", 85, "ezogabine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "mitoxantrone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "teriflunomide|aubagio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "tocilizumab|actemra|sarilumab|kevzara");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "eculizumab|soliris|ravulizumab|ultomiris");  // 2026-11-05 · NAPLEX · meningococcal infection
+board("Name a drug with a boxed (black box) warning", 75, "omalizumab|xolair");  // 2026-11-05 · NAPLEX · anaphylaxis
+board("Name a drug with a boxed (black box) warning", 70, "salmeterol|serevent|labas|long acting beta agonists");  // 2026-11-05 · NAPLEX · asthma-related death (single-agent LABA)
+board("Name a drug with a boxed (black box) warning", 85, "pegloticase|krystexxa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "rasburicase|elitek");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "dantrolene oral|dantrium oral");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "intrathecal baclofen|lioresal intrathecal|gablofen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "danazol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "oxytocin|pitocin");  // 2026-11-05 · NAPLEX · not for elective induction
+board("Name a drug with a boxed (black box) warning", 75, "terbutaline");  // 2026-11-05 · NAPLEX · not for prolonged tocolysis
+board("Name a drug with a boxed (black box) warning", 85, "dinoprostone|cervidil|prepidil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "carboprost|hemabate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "iron dextran|infed");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "ferumoxytol|feraheme");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "phytonadione injection|iv vitamin k|vitamin k injection");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "protamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "flumazenil|romazicon");  // 2026-11-05 · NAPLEX · seizures
+board("Name a drug with a boxed (black box) warning", 75, "nitroprusside|nipride|sodium nitroprusside");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "dopamine");  // 2026-11-05 · NAPLEX · extravasation
+board("Name a drug with a boxed (black box) warning", 85, "aliskiren|tekturna");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "entresto|sacubitril valsartan");  // 2026-11-05 · NAPLEX · fetal toxicity
+board("Name a drug with a boxed (black box) warning", 80, "macitentan|opsumit");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "riociguat|adempas");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "minoxidil oral|oral minoxidil|loniten");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "epidural clonidine|duraclon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "gadolinium|gadolinium contrast");  // 2026-11-05 · NAPLEX · NSF
+board("Name a drug with a boxed (black box) warning", 80, "methylene blue|provayblue");  // 2026-11-05 · NAPLEX · serotonin syndrome
+board("Name a drug with a boxed (black box) warning", 80, "miltefosine|impavido");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "oxandrolone|anabolic steroids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "ospemifene|osphena");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "duavee|conjugated estrogens bazedoxifene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 70, "disulfiram|antabuse");  // 2026-11-05 · NAPLEX · never give to intoxicated patient
+board("Name a drug with a boxed (black box) warning", 75, "lapatinib|tykerb");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "sunitinib|sutent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "pazopanib|votrient");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "nilotinib|tasigna");  // 2026-11-05 · NAPLEX · QT
+board("Name a drug with a boxed (black box) warning", 80, "ponatinib|iclusig");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "vandetanib|caprelsa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "regorafenib|stivarga");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "idelalisib|zydelig");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "blinatumomab|blincyto");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 75, "car t cell therapy|car t|axicabtagene ciloleucel|yescarta|tisagenlecleucel|kymriah");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "teclistamab|tecvayli");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "enfortumab vedotin|padcev");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "brentuximab vedotin|adcetris");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "obinutuzumab|gazyva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 80, "panitumumab|vectibix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "gemtuzumab ozogamicin|mylotarg");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "inotuzumab ozogamicin|besponsa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug with a boxed (black box) warning", 85, "belantamab mafodotin|blenrep");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 75, "spectinomycin|trobicin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 70, "lincomycin|lincocin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 75, "sulfisoxazole|gantrisin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "erythromycin sulfisoxazole|pediazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 80, "meropenem vaborbactam|vabomere");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 80, "imipenem relebactam|recarbrio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "aztreonam avibactam|emblaveo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "cefepime enmetazobactam|exblifep");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "gepotidacin|blujepa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "pivmecillinam|pivya|mecillinam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "sulopenem|orlynvah");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "tebipenem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 80, "ceftizoxime");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "cefoperazone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "cefamandole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "cefonicid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "cephradine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "loracarbef");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "cephapirin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "ticarcillin clavulanate|timentin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "azlocillin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "temocillin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "bacampicillin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 80, "besifloxacin|besivance");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 75, "gatifloxacin|zymaxid|tequin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "sparfloxacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "trovafloxacin|trovan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "lomefloxacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "grepafloxacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "enoxacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 90, "cinoxacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "oxytetracycline|terramycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "chlortetracycline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "dirithromycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 90, "troleandomycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "capreomycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "aminosalicylic acid|para aminosalicylic acid|pas");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "netilmicin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 90, "sisomicin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "paromomycin|humatin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 75, "mafenide|sulfamylon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 75, "silver sulfadiazine|silvadene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 80, "sulfacetamide|bleph 10");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "ozenoxacin|xepi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "nitrofurazone|furacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 90, "virginiamycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "tyrothricin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 85, "contezolid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antibiotic", 88, "solithromycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 40, "dimenhydrinate|dramamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 50, "ranitidine|zantac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 55, "alka seltzer|sodium bicarbonate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 55, "maalox|mylanta|aluminum hydroxide|magnesium hydroxide|antacids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 50, "rolaids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "trimebutine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 55, "diphenhydramine|benadryl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "hydroxyzine|vistaril|atarax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "lorazepam|ativan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "dexamethasone|decadron");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "netupitant palonosetron|akynzeo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "rolapitant|varubi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "amisulpride|barhemsys");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 75, "nabilone|cesamet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "ginger");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "peppermint oil|ibgard");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "vitamin b6|pyridoxine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "cyclizine|marezine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 80, "metopimazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 55, "glycopyrrolate|robinul");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "tenapanor|ibsrela");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "crofelemer|mytesi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "h pylori triple therapy|triple therapy|prevpac|lansoprazole amoxicillin clarithromycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "bismuth quadruple therapy|quadruple therapy|pylera|bismuth subcitrate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 55, "calcium polycarbophil|fibercon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "methylcellulose|citrucel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 55, "wheat dextrin|benefiber");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "sorbitol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "sodium picosulfate|clenpiq|prepopik|pico salax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "alvimopan|entereg");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "naldemedine|symproic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "tincture of opium|opium tincture|paregoric");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "clonidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "codeine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "colestipol|colestid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "colesevelam|welchol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 55, "probiotics|lactobacillus|culturelle|saccharomyces boulardii|florastor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 55, "lactase|lactaid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "beano|alpha galactosidase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "activated charcoal|charcoal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "adalimumab|humira");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "ustekinumab|stelara");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "risankizumab|skyrizi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "mirikizumab|omvoh");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "guselkumab|tremfya");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "certolizumab|cimzia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "golimumab|simponi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "tofacitinib|xeljanz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "upadacitinib|rinvoq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "ozanimod|zeposia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "etrasimod|velsipity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "azathioprine|imuran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "mercaptopurine|6 mercaptopurine|6 mp|purinethol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "methotrexate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "prednisone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "hydrocortisone enema|cortenema|proctofoam|hydrocortisone suppository");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "balsalazide|colazal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "olsalazine|dipentum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "preparation h|phenylephrine rectal|hemorrhoid cream");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "nitroglycerin ointment|rectiv");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "nifedipine ointment");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "vancomycin oral|oral vancomycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "fidaxomicin|dificid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 55, "metronidazole|flagyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "neomycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "obeticholic acid|ocaliva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "elafibranor|iqirvo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "seladelpar|livdelzi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "resmetirom|rezdiffra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "cholic acid|cholbam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "odevixibat|bylvay");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "maralixibat|livmarli");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "teduglutide|gattex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "somatropin zorbtive");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "pancreatin|zenpep|pancreaze|viokace");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "baclofen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "bethanechol|urecholine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "cisapride|propulsid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "buspirone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "mirtazapine|remeron");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 65, "amitriptyline|elavil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "dupilumab|dupixent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 70, "fluticasone swallowed");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "lactitol|pizensy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "castor oil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a GI medication (nausea, reflux or bowel)", 60, "magnesium sulfate|epsom salt");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 55, "paroxetine|paxil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "carbimazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "aliskiren|tekturna");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "fluconazole|diflucan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "voriconazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "itraconazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "ketoconazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 60, "efavirenz|sustiva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 60, "phenobarbital");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "lamotrigine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "primidone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "trimethadione");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 80, "paramethadione");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "retinoids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "alitretinoin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 80, "trifarotene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "adapalene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "tretinoin topical");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "fluorouracil|5 fu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "capecitabine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "chlorambucil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "busulfan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "cisplatin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "doxorubicin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "imatinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "anastrozole|aromatase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "exemestane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "goserelin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "leuprolide|lupron");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "bicalutamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "flutamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "enzalutamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "abiraterone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "apalutamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "ulipristal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "carboprost");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "dinoprost");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "methylergonovine|methergine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "triptans");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "phenindione");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "acenocoumarol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "direct oral anticoagulants|doacs|apixaban|rivaroxaban|dabigatran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "fibrates|fenofibrate|gemfibrozil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "niacin high dose");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "mipomersen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "atenolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "nitroprusside");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "minoxidil|oral minoxidil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "ganciclovir|valganciclovir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "primaquine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "mebendazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "albendazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "kanamycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "tobramycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "amikacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "nitrofurantoin|macrobid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "tigecycline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "telavancin|vibativ");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "progestins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "oral contraceptives|birth control pills");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "ospemifene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "teriflunomide|aubagio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "azathioprine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "cyclosporine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "tacrolimus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "sirolimus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "fingolimod|gilenya");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "cladribine|mavenclad");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "mitoxantrone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "methylene blue");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 60, "methamphetamine|meth");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "heroin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "caffeine high dose");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "high dose vitamin d");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "fish high in mercury|mercury");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "herbal supplements|black cohosh|dong quai|pennyroyal|blue cohosh");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "sulfonylureas|glyburide|glipizide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "qsymia|phentermine topiramate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "contrave|naltrexone bupropion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "glasdegib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "tolvaptan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "bisphosphonates|alendronate|fosamax|zoledronic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "denosumab|prolia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "romosozumab|evenity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "teriparatide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "dupilumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "tofacitinib|jak inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "ozanimod");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 80, "cenobamate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "vigabatrin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "felbamate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "iodinated contrast");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "lindane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 65, "live vaccines|mmr vaccine|varicella vaccine|live attenuated vaccines|yellow fever vaccine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 70, "hpv vaccine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug to avoid in pregnancy", 75, "pseudoephedrine|sudafed");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "fluticasone cream|cutivate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "amcinonide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "halcinonide|halog");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "diflorasone|psorcon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "prednicarbate|dermatop");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "alclometasone|aclovate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "flurandrenolide|cordran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "hydrocortisone valerate|westcort");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "hydrocortisone butyrate|locoid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "topical steroid|topical corticosteroid|steroid cream");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "lotrisone|clotrimazole betamethasone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "tolnaftate|tinactin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "butenafine|lotrimin ultra|mentax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "naftifine|naftin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "sertaconazole|ertaczo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "oxiconazole|oxistat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "sulconazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "luliconazole|luzu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "efinaconazole|jublia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "tavaborole|kerydin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "nystatin triamcinolone|mycolog");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "gentamicin cream");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "erythromycin gel|erythromycin topical");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "benzoyl peroxide clindamycin|benzaclin|duac|onexton");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "epiduo|adapalene benzoyl peroxide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "cabtreo|twyneo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "sodium sulfacetamide sulfur|sulfur");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "minocycline foam|amzeeq|zilxi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "oxymetazoline cream|rhofade");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 70, "brimonidine gel|mirvaso");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "benzocaine|lanacane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "tetracaine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "dibucaine|nupercainal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "diphenhydramine cream|benadryl cream");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 50, "hydrogen peroxide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 50, "rubbing alcohol|isopropyl alcohol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 50, "povidone iodine|betadine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "chlorhexidine|hibiclens");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "gentian violet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "silver nitrate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "podophyllin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "salicylic acid plaster|compound w|wart remover");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "cryotherapy spray|freeze away");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "calcipotriene betamethasone|taclonex|enstilar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "calcitriol ointment|vectical");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "anthralin|dritho");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "retinol|retinol cream");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "vitamin e oil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "bag balm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "lanolin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "sunscreen|zinc oxide sunscreen|titanium dioxide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "diaper rash cream|desitin|boudreaux");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "a and d ointment");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "hydrocolloid|duoderm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "honey|medihoney");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "mafenide|sulfamylon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "lidocaine tetracaine|pliaglis|synera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "methyl salicylate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "ketoprofen topical");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "crotamiton|eurax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "abametapir|xeglyze");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "pyrethrins|rid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 55, "finasteride topical");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "ingenol mebutate|picato");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "tirbanibulin|klisyri");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "diclofenac 3 percent|solaraze");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "sinecatechins|veregen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "kojic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "glycolic acid|alpha hydroxy acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "lactic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "colloidal oatmeal|aveeno");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "cetaphil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "emollient|moisturizer");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "barrier cream");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "hydrocortisone acetate pramoxine|pramosone|proctofoam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "preparation h");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "estradiol cream|estrace cream|premarin cream");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "testosterone gel|androgel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "neomycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "polymyxin b");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 65, "erythromycin benzoyl peroxide|benzamycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "zinc pyrithione|head and shoulders");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a topical skin medication", 60, "ketoconazole shampoo|nizoral");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 65, "aldactazide|spironolactone hctz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "amiloride hctz|moduretic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "vaptans|vasopressin antagonist|vasopressin receptor antagonist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "dichlorphenamide|keveyis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "brinzolamide|dorzolamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 65, "thiazide like diuretic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 65, "mineralocorticoid receptor antagonist|aldosterone antagonist|mra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "sglt2 inhibitors|empagliflozin|dapagliflozin|jardiance|farxiga");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "caffeine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "alcohol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "theophylline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 75, "hypertonic saline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "atenolol chlorthalidone|tenoretic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "lisinopril hctz|zestoretic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "losartan hctz|hyzaar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "natriuretic peptide|nesiritide|natrecor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 75, "dopamine renal dose");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "dandelion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "parsley");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 75, "hibiscus tea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 75, "cranberry juice");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 70, "coffee");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 75, "green tea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 75, "lithium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "demeclocycline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 75, "esaxerenone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "mersalyl|mercurial diuretics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "ammonium chloride");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "aminophylline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "ethoxzolamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "ticrynafen|tienilic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "muzolimine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "mefruside");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "clopamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "metyrapone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "benzthiazide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diuretic", 80, "chlorthalidone atenolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 55, "treximet|sumatriptan naproxen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 55, "caffeine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 55, "excedrin migraine|aspirin acetaminophen caffeine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 55, "fioricet|butalbital acetaminophen caffeine|butalbital|fiorinal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "cambia|diclofenac potassium|diclofenac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "elyxyb|celecoxib oral solution|celecoxib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "promethazine|phenergan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "chlorpromazine|thorazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "droperidol|inapsine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "haloperidol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "ondansetron|zofran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "diphenhydramine|benadryl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "migraine cocktail");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "iv fluids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "valproate iv|depacon|valproic acid|depakote|divalproex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 65, "methysergide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 65, "isometheptene|midrin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "cgrp antagonists|cgrp monoclonal antibodies|gepants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 55, "metoprolol|lopressor|toprol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "timolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "atenolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "nadolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "duloxetine|cymbalta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "flunarizine|sibelium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "cinnarizine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "lisinopril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "gabapentin|neurontin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "zonisamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "levetiracetam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "memantine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "pizotifen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "cyproheptadine|periactin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "ginger");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "oxygen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "lidocaine nasal|sphenopalatine ganglion block|nerve block|occipital nerve block|greater occipital nerve block");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "tramadol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 65, "butorphanol nasal|stadol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 65, "opioids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "meperidine|demerol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "prednisone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "indomethacin|indocin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "dimenhydrinate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "meclizine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a migraine medication", 60, "acupuncture");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "lorazepam|ativan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "clonazepam|klonopin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "benzodiazepines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "gabapentin|neurontin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "pregabalin|lyrica");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "tubocurarine|curare");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "neuromuscular blocker|neuromuscular blocking agent|paralytic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "quinine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "magnesium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "orphengesic|orphenadrine aspirin caffeine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "soma compound|carisoprodol aspirin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "meprobamate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "afloqualone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "chlormezanone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "doxacurium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "rapacuronium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "gallamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "sugammadex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "intrathecal baclofen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "phenol injection");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "tetrahydrocannabinol|nabiximols|sativex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "cannabis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "clonidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "cyproheptadine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "dantrolene for malignant hyperthermia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a muscle relaxant", 60, "mephenesin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 55, "70 30 insulin|premixed insulin|novolog mix|humalog mix|humulin 70 30");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 55, "sulfonylureas|sulfonylurea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 55, "dpp 4 inhibitors|gliptins|dpp4 inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 55, "sglt2 inhibitors|sglt2 inhibitor|gliflozins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 55, "glp 1 agonists|glp 1 receptor agonists|glp1");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "thiazolidinediones|glitazones|tzds");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "meglitinides|glinides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "alpha glucosidase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "biguanides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 55, "metformin er|glumetza|fortamet|glucophage xr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "jentadueto|linagliptin metformin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "synjardy|empagliflozin metformin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "xigduo|dapagliflozin metformin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "glyxambi|empagliflozin linagliptin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "trijardy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "qtern|dapagliflozin saxagliptin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "kombiglyze|saxagliptin metformin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "invokamet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "segluromet|steglujan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "kazano|oseni");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "actoplus met|duetact");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "glucovance|glyburide metformin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 88, "acetohexamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 65, "glipizide er|glucotrol xl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 65, "micronized glyburide|glynase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 55, "glucose tablets");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "diazoxide|proglycem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 65, "lantidra|donislecel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 60, "albiglutide|tanzeum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 88, "gemigliptin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a diabetes medication", 88, "voglibose");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 55, "tyrosine kinase inhibitor|tki|tkis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 60, "jak inhibitor|jak inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 60, "cdk4 6 inhibitor|cdk4/6 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 60, "btk inhibitor|btk inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 60, "egfr inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 60, "braf inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 60, "mek inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 60, "alk inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 60, "mtor inhibitor|mtor inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 60, "pi3k inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 60, "vegfr inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 60, "multikinase inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "sirolimus|rapamune");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "inavolisib|itovebi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "ensartinib|ensacove");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "sunvozertinib|zegfrovy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "zongertinib|hernexeos");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "taletrectinib|ibtrozi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "avutometinib|avmapki");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "mirdametinib|gomekli");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "ripasudil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "fasudil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "lestaurtinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "tandutinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "sapanisertib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "copanlisib|aliqopa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "umbralisib|ukoniq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "leniolisib|joenja");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "dovitinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "vatalanib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "cediranib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "anlotinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "apatinib|rivoceranib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "surufatinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "icotinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "almonertinib|aumolertinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "furmonertinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "olmutinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "poziotinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "pyrotinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "orelabrutinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "tirabrutinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "remibrutinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "rilzabrutinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "evobrutinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "tolebrutinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "fenebrutinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "filgotinib|jyseleca");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "peficitinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "delgocitinib|anzupgo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "brepocitinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "povorcitinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "itacitinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "trilaciclib|cosela");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "dalpiciclib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "radotinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "flumatinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "vorolanib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "sitravatinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "savolitinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "glumetinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "iruplinalkib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "masitinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "pexidartinib|turalio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "vimseltinib|romvimza");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "pimicotinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "entospletinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a kinase inhibitor (many end in -tinib)", 88, "oclacitinib|apoquel");  // 2026-11-05 · NAPLEX · board-testable

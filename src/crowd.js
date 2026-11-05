@@ -2076,3 +2076,179 @@ crowd("Name an occupational lung exposure or disease", 85, "pneumoconiosis|pneum
 crowd("Name an organ of the human body", 58, "organ of corti|spiral organ");  // 2026-11-05 · 4 players · sensory organ of hearing; ear/cochlea listed
 crowd("Name an organ of the human body", 82, "organum vasculosum of the lamina terminalis|ovlt|organ vasculosum of lamina terminalis|organ vasculosom of lamina terminalis");  // 2026-11-05 · 1 player · circumventricular organ
 crowdAlias("Name something included in a nursing handoff report", "vital signs", "heart rate");  // 2026-11-05 · 1 player · a vital sign
+crowdAlias("Name a drug with a boxed (black box) warning", "natalizumab", "tysabri");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antibiotic", "cefazolin", "kefzol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antibiotic", "doxycycline", "doxycycline hyclate|vibramycin|doryx|acticlate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antibiotic", "minocycline", "minocin|solodyn");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antibiotic", "vancomycin", "oral vancomycin|firvanq|vancocin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antibiotic", "tobramycin", "tobramycin inhaled|tobi");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antibiotic", "amikacin", "amikacin liposome|arikayce");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antibiotic", "penicillin", "penicillin g potassium|pfizerpen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antibiotic", "cefuroxime", "cefuroxime axetil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antibiotic", "sulbactam durlobactam", "xacduro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "doxylamine pyridoxine", "doxylamine|unisom");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "scopolamine patch", "transderm scop|transdermal scopolamine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "pepto bismol", "bismuth");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "sodium phosphate", "osmoprep|sodium phosphate tablets");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "golytely", "plenvu|moviprep|nulytely|trilyte");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "octreotide", "sandostatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "cholestyramine", "questran");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "mesalamine", "mesalamine suppository|canasa|rowasa|mesalamine enema");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "omeprazole", "omeprazole sodium bicarbonate|zegerid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "metoclopramide", "metoclopramide nasal|gimoti");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "budesonide", "budesonide oral suspension|eohilia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "ursodiol", "ursodeoxycholic acid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "docusate", "stool softener|stool softeners");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "famotidine", "h2 blocker|h2 blockers|h2 receptor antagonist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "ondansetron", "5 ht3 antagonist|5ht3 antagonist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "aprepitant", "nk1 antagonist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a GI medication (nausea, reflux or bowel)", "psyllium", "fiber supplement|bulk forming laxative");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "ace inhibitors", "zestril|prinivil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "isotretinoin", "absorica|claravis");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "tetracycline", "vibramycin|minocycline");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "methimazole", "tapazole");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "arbs", "sacubitril valsartan|entresto");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "nsaids", "naproxen|aleve|indomethacin|ketorolac|diclofenac|celecoxib|meloxicam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "vitamin a", "vitamin a high dose|retinol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "tazarotene", "tazorac");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "methotrexate", "trexall");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "cyclophosphamide", "cytoxan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "dutasteride", "avodart");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "mifepristone", "mifeprex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "dihydroergotamine", "dhe");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "warfarin", "jantoven");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "statins", "simvastatin|rosuvastatin|lovastatin|pravastatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "lomitapide", "juxtapid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "amiodarone", "cordarone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "dronedarone", "multaq");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "riociguat", "adempas");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "macitentan", "opsumit");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "ambrisentan", "letairis");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "bosentan", "tracleer");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "ribavirin", "rebetol|copegus");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "miltefosine", "impavido");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "quinine", "qualaquin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "thalidomide", "thalomid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "lenalidomide", "revlimid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "pomalidomide", "pomalyst");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "penicillamine", "cuprimine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "fluoroquinolones", "levofloxacin|moxifloxacin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "sulfonamides", "bactrim|tmp smx");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "lithium", "lithobid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "valproate", "divalproex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "carbamazepine", "tegretol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "phenytoin", "dilantin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "topiramate", "topamax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "benzodiazepines", "alprazolam|xanax|diazepam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "estrogens", "estradiol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "testosterone", "androgens|anabolic steroids");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "danazol", "danocrine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "clomiphene", "clomid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "letrozole", "femara");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "raloxifene", "evista");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "mycophenolate", "myfortic");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "radioactive iodine", "i 131");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "alcohol", "ethanol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "tobacco", "smoking|cigarettes");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "marijuana", "thc");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "opioids", "oxycodone|morphine|hydrocodone|fentanyl|codeine|tramadol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "glp 1 agonists", "wegovy|liraglutide|tirzepatide|mounjaro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "sglt2 inhibitors", "empagliflozin|dapagliflozin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "phentermine", "adipex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "orlistat", "xenical");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "vismodegib", "erivedge");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "sonidegib", "odomzo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "hydroxyurea", "hydrea");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "tetracycline", "sumycin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "ace inhibitors", "captopril|ramipril");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug to avoid in pregnancy", "arbs", "irbesartan|olmesartan|telmisartan|candesartan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "hydrocortisone", "cortisone cream|cortaid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "triamcinolone", "triamcinolone acetonide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "betamethasone", "betamethasone dipropionate|diprolene|betamethasone valerate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "clobetasol", "clobex|olux");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "ciclopirox", "penlac|loprox");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "nystatin", "mycostatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "neosporin", "polysporin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "ivermectin cream", "ivermectin lotion|sklice");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "tretinoin", "renova|altreno|atralin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "lidocaine", "xylocaine|lmx 4");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "capsaicin", "zostrix|qutenza");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "menthol", "biofreeze|icy hot|bengay");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "diclofenac gel", "pennsaid|flector");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "aloe vera gel", "aloe");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "permethrin", "nix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "fluorouracil", "carac");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "imiquimod", "zyclara");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "trichloroacetic acid", "tca");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "cantharidin", "cantharone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "hydroquinone", "tri luma");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "azelaic acid", "azelex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "urea cream", "carmol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "doxepin cream", "prudoxin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "nitroglycerin ointment", "nitro paste");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "mupirocin", "centany");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "silver sulfadiazine", "ssd");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "metronidazole gel", "metrocream|noritate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "clindamycin gel", "clindagel|evoclin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "tazarotene", "arazlo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "salicylic acid", "stridex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "selenium sulfide", "selsun");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a topical skin medication", "coal tar", "t gel|neutrogena t gel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "hydrochlorothiazide", "esidrix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "metolazone", "mykrox");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "spironolactone", "carospir");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "maxzide", "triamterene hctz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "conivaptan", "vaprisol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "tolvaptan", "samsca|jynarque");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "methazolamide", "neptazane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "thiazide diuretic", "thiazides");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "urea", "ure na");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "mannitol", "osmitrol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "chlorthalidone", "thalitone|hygroton");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diuretic", "indapamide", "lozol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "sumatriptan", "onzetra|tosymra|zembrace");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "rizatriptan", "maxalt mlt");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "naproxen", "aleve|anaprox");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "aspirin", "bayer");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "ketorolac", "toradol|sprix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "metoclopramide", "reglan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "prochlorperazine", "compazine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "magnesium", "magnesium sulfate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "dexamethasone", "decadron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "dihydroergotamine", "migranal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "ergotamine", "ergomar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "topiramate", "trokendi|qudexy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "propranolol", "inderal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "amitriptyline", "elavil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "nortriptyline", "pamelor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "venlafaxine", "effexor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "verapamil", "calan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "candesartan", "atacand");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "riboflavin", "vitamin b2");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "coq10", "coenzyme q10");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "butterbur", "petasites");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "botox", "onabotulinumtoxina");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "almotriptan", "axert");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "cefaly", "gammacore|vagus nerve stimulator|neuromodulation device");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a migraine medication", "symbravo", "meloxicam rizatriptan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a muscle relaxant", "baclofen", "fleqsuvy|gablofen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a muscle relaxant", "skelaxin", "metaxall");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a muscle relaxant", "dantrolene", "ryanodex|revonto");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a muscle relaxant", "botox", "botulinum toxin|onabotulinumtoxina|dysport|xeomin|myobloc|rimabotulinumtoxinb|daxxify");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a muscle relaxant", "succinylcholine", "quelicin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a muscle relaxant", "pancuronium", "pavulon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a muscle relaxant", "mivacurium", "mivacron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "lantus", "semglee|rezvoglar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "humalog", "admelog|lyumjev");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "nph insulin", "humulin n|novolin n|isophane insulin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "regular insulin", "humulin r|novolin r|u 500|humulin r u 500");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "tolbutamide", "orinase");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "chlorpropamide", "diabinese");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "gliclazide", "diamicron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "glucagon", "zegalogue|dasiglucagon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "vildagliptin", "galvus");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "miglitol", "glyset");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "soliqua", "insulin glargine lixisenatide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "xultophy", "insulin degludec liraglutide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a diabetes medication", "ozempic", "oral semaglutide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a kinase inhibitor (many end in -tinib)", "imatinib", "glivec");  // 2026-11-05 · NAPLEX · same answer

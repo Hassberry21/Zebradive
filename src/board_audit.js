@@ -21196,3 +21196,656 @@ board("Name a kinase inhibitor (many end in -tinib)", 88, "vimseltinib|romvimza"
 board("Name a kinase inhibitor (many end in -tinib)", 88, "pimicotinib");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a kinase inhibitor (many end in -tinib)", 88, "entospletinib");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a kinase inhibitor (many end in -tinib)", 88, "oclacitinib|apoquel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 60, "pentobarbital|nembutal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 60, "thiopental");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 60, "ketamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 60, "propofol|diprivan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 60, "benzodiazepines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 60, "clorazepate|tranxene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 60, "nitrazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 60, "buccal midazolam|buccolam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 75, "ethotoin|peganone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 75, "mephenytoin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 80, "mephobarbital|mebaral");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 80, "trimethadione|tridione");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 75, "gabapentin enacarbil|horizant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 70, "acth|corticotropin|acthar|h p acthar gel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 65, "prednisolone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 75, "bromide|potassium bromide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 75, "ketogenic diet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 75, "magnesium sulfate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 75, "pyridoxine|vitamin b6");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 75, "allopregnanolone|brexanolone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 75, "soticlestat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 75, "xen1101|azetukalner");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 80, "levetiracetam iv");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 80, "lamotrigine odt");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 85, "paraldehyde");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 85, "valnoctamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 85, "progabide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 85, "beclamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiepileptic (antiseizure) drug", 85, "oxazolidinediones");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 55, "fondaparinux|arixtra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 60, "inotropes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 60, "moderate sedation agents|sedation agents|moderate sedation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 60, "general anesthetics|anesthetic agents|inhaled anesthetics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 60, "etomidate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 60, "liposomal drugs|liposomal doxorubicin|doxil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 60, "amphotericin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "fentanyl patch|transdermal fentanyl|duragesic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "buprenorphine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "hydromorphone high potency");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "morphine oral solution concentrated|concentrated morphine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "carboplatin|cisplatin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "doxorubicin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "cyclophosphamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "capecitabine|oral chemotherapy agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "arsenic trioxide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "concentrated electrolytes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "calcium chloride|calcium gluconate|iv calcium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "nicardipine iv|clevidipine|cleviprex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "phenytoin iv|fosphenytoin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "ziconotide|prialt");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "immunosuppressants|oral immunosuppressants|tacrolimus|cyclosporine|azathioprine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 65, "epoprostenol|flolan|veletri|treprostinil|remodulin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 70, "carbamazepine|tegretol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 70, "metformin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 75, "propylthiouracil|ptu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 75, "pregnancy category x drugs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a high-alert medication", 75, "pediatric liquid medications");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 55, "aleve pm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 55, "z drugs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 55, "orexin antagonists|dual orexin receptor antagonists|dora");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 55, "benzodiazepines|benzos");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "nonbenzodiazepine hypnotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "sedative hypnotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "olanzapine|zyprexa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "trimipramine|surmontil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "promethazine|phenergan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "chlorpheniramine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "cyproheptadine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "pregabalin|lyrica");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "tiagabine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "guanfacine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "agomelatine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "diazepam|valium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "oxazepam|serax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "chlordiazepoxide|librium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "nitrazepam|mogadon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "flunitrazepam|rohypnol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "midazolam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "pentobarbital|nembutal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "phenobarbital");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "amobarbital|amytal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "meprobamate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "methaqualone|quaalude");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "glutethimide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "ethchlorvynol|placidyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "dexmedetomidine|precedex|igalmi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "propofol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "lemon balm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "glycine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "ashwagandha");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "hops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "gaba supplement");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "tart cherry juice");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a sleep medication", 60, "alcohol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 55, "betaxolol|betoptic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "levobunolol|betagan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "carteolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "metipranolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 55, "prostaglandin analogs|prostaglandin analog");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "beta blocker drops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "carbonic anhydrase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "alpha agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "tafluprost|zioptan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "echothiophate|phospholine iodide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "carbachol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "physostigmine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "homatropine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "scopolamine drops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "low dose atropine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "tropicamide phenylephrine|paremyd");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "aceclidine|vizz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "reproxalap");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "rimexolone|vexol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "zylet|loteprednol tobramycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "neosporin ophthalmic|neomycin polymyxin gramicidin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "polysporin ophthalmic|polymyxin bacitracin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "sulfacetamide|bleph 10");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "blephamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "gentamicin|garamycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "levofloxacin|quixin|iquix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "voriconazole drops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "amphotericin drops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "idoxuridine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "vidarabine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "lodoxamide|alomide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "nedocromil|alocril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "pemirolast|alamast");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "epinastine|elestat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "azelastine eye drops|optivar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "emedastine|emadine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "cetirizine eye drops|zerviate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "diclofenac ophthalmic|voltaren ophthalmic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "flurbiprofen|ocufen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "suprofen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "lidocaine gel|akten");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "chloroprocaine gel|iheezo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "lissamine green|rose bengal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "trypan blue");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "cysteamine|cystaran|cystadrops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "cenegermin|oxervate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "tear ointment|lacri lube|refresh pm|genteal gel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "fluorouracil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "interferon drops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "carbachol intraocular|miostat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "ranibizumab|lucentis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "aflibercept|eylea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "bevacizumab|avastin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "faricimab|vabysmo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "brolucizumab|beovu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "pegcetacoplan|syfovre");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "avacincaptad pegol|izervay");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "triamcinolone|triesence|xipere");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "fluocinolone implant|iluvien|yutiq|retisert");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "verteporfin|visudyne");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "ocriplasmin|jetrea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "riboflavin|photrexa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "fusidic acid|fucithalmic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an eye drop medication", 60, "atropine sulfate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 55, "glucocorticoids|glucocorticoid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 55, "mineralocorticoids|mineralocorticoid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 55, "inhaled corticosteroids|ics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 55, "topical steroids|topical corticosteroids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 55, "intranasal steroids|nasal steroids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 55, "systemic steroids|oral steroids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 65, "aldosterone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 88, "corticosterone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 88, "11 deoxycortisol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "triamcinolone hexacetonide|aristospan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "dexamethasone sodium phosphate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "hydrocortisone sodium succinate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "methylprednisolone sodium succinate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "prednisolone acetate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "fluocinolone|synalar|derma smoothe|capex|iluvien|yutiq|retisert");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "diflorasone|psorcon|apexicon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "halcinonide|halog");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "flurandrenolide|cordran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "hydrocortisone butyrate|locoid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "hydrocortisone valerate|westcort");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 88, "clocortolone|cloderm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 88, "diflucortolone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 88, "fluocortolone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 88, "fluprednidene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "clobetasone|eumovate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 88, "meprednisone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 88, "cortivazol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 88, "prednylidene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "budesonide formoterol|symbicort");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "fluticasone salmeterol|advair|wixela");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "fluticasone vilanterol|breo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "trelegy|breztri");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "dulera|mometasone formoterol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "hydrocortisone acetate pramoxine|proctofoam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "anusol hc");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "hydrocortisone enema|cortenema");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "tobradex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a corticosteroid", 70, "lotrisone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "nitrofurans");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "lincosamides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "glycopeptides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "lipopeptides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "oxazolidinones");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "monobactams");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "polymyxins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "streptogramins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "glycylcyclines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "beta lactams|beta lactam antibiotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "beta lactamase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "quinolones");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "nucleoside analogs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "nnrtis|non nucleoside reverse transcriptase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "entry inhibitors|ccr5 antagonists|fusion inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "capsid inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "hcv protease inhibitors|ns5a inhibitors|ns5b inhibitors|daas|direct acting antivirals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "m2 inhibitors|adamantanes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "cap dependent endonuclease inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "allylamines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "antiprotozoals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "antimycobacterials|antituberculars");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "central alpha 2 agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "dihydropyridines|dihydropyridine ccbs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "non dihydropyridines|non dihydropyridine ccbs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "renin inhibitors|direct renin inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "aldosterone antagonists|mineralocorticoid receptor antagonists|mras");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "if channel inhibitors|funny channel inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "cardiac myosin inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "sodium channel blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "class i antiarrhythmics|class ii antiarrhythmics|class iii antiarrhythmics|class iv antiarrhythmics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "potassium channel blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "inotropes|positive inotropes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "vasopressors|pressors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "phosphodiesterase inhibitors|pde3 inhibitors|pde4 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "prostacyclin analogs|prostacyclins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "anti anginals|antianginals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "lipid lowering agents|antihyperlipidemics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "omega 3 fatty acids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "cetp inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "mtp inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "sirna therapies|antisense oligonucleotides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "factor xa inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "direct thrombin inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "glycoprotein iib iiia inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "pentasaccharides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "hematopoietic growth factors|esas|erythropoiesis stimulating agents|colony stimulating factors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "thrombopoietin receptor agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "iron supplements");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "insulin secretagogues");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "amylin analogs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "gip glp 1 agonists|dual incretin agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "glucocorticoids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "mineralocorticoids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "thyroid hormones");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "antithyroid drugs|thionamides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "progestins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "estrogens");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "androgens|anabolic steroids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "gnrh antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "vasopressin analogs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "calcimimetics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "vitamin d analogs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "phosphate binders");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "potassium binders");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "rankl inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "sclerostin inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "pth analogs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "urinary antispasmodics|antimuscarinics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "beta 3 agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "alpha agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "cholinergic agonists|parasympathomimetics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "sympathomimetics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "sympatholytics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "ganglionic blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "acetylcholinesterase inhibitors|anticholinesterases");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "cholinesterase reactivators");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "saba|short acting beta agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "laba|long acting beta agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "sama|short acting muscarinic antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "lama|long acting muscarinic antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "methylxanthines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "anti il 5 agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "anti ige antibodies");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "mucolytics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "h1 antihistamines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "antispasmodics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "prokinetics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "osmotic laxatives");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "stimulant laxatives");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "bulk forming laxatives");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "stool softeners");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "antidiarrheals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "5 ht3 antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "nk1 antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "dopamine antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "cannabinoids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "aminosalicylates|5 asa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "bile acids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "pancreatic enzymes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "peripheral opioid antagonists|pamoras");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "guanylate cyclase c agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "chloride channel activators");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "ndris");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "atypical antidepressants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "serotonin modulators");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "nassas");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "typical antipsychotics|first generation antipsychotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "atypical antipsychotics|second generation antipsychotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "mood stabilizers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "anxiolytics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "barbiturates");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "z drugs|nonbenzodiazepine hypnotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "melatonin agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "vmat2 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "opioid antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "partial opioid agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "nicotinic receptor partial agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "gabapentinoids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "carbamates");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "skeletal muscle relaxants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "ergot alkaloids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "ditans");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "cgrp monoclonal antibodies");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "nmda receptor antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "s1p receptor modulators");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "interferons");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "calcineurin inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "mtor inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "antimetabolite immunosuppressants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "il 17 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "il 23 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "il 6 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "il 1 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "integrin inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "b cell depleting agents|anti cd20 antibodies");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "t cell costimulation blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "bcr abl inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "egfr inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "her2 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "vegf inhibitors|angiogenesis inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "cdk4 6 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "parp inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "proteasome inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "immunomodulatory drugs|imids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "btk inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "bcl 2 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "pd 1 inhibitors|pd l1 inhibitors|ctla 4 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "bispecific antibodies");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "antibody drug conjugates|adcs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "car t cell therapies");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "topoisomerase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "epipodophyllotoxins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "nitrogen mustards");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "nitrosoureas");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "hypomethylating agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "hdac inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "folate antagonists|antifolates");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "purine analogs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "pyrimidine analogs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "serds|selective estrogen receptor degraders");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "retinoids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "keratolytics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "emollients");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "pediculicides|scabicides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "antiseptics|disinfectants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "mydriatics|cycloplegics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "miotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "immunoglobulins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "antitoxins|antivenoms");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "antidotes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "chelating agents|chelators");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "radiopharmaceuticals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "contrast agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "electrolytes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "vitamins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "minerals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "probiotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "herbal supplements");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "tocolytics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "uterotonics|oxytocics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "abortifacients");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "fertility drugs|ovulation inducers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "hormone replacement therapy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "emergency contraceptives");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "xanthine oxidase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "uricosurics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "urate oxidases|uricases");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "antigout agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "gold salts");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "depolarizing neuromuscular blockers|nondepolarizing neuromuscular blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "reversal agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "dissociative anesthetics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "psychedelics|hallucinogens");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "amphetamines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "wakefulness promoting agents|eugeroics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "smoking cessation aids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "weight loss drugs|anti obesity medications");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "lipase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "sglt1 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "alpha 2 delta ligands");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "rho kinase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "prostaglandins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "h pylori agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug class", 70, "cytoprotectants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "orogastric|og tube");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "nasojejunal|nj tube");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "peribulbar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "sub tenon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "suprachoroidal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intrabursal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "periarticular");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "infiltration|local infiltration");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "caudal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intracoronary");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intraduodenal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intrahepatic|hepatic arterial infusion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intrapericardial");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intratumoral");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intralymphatic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intracavitary");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intra amniotic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intracorneal|intrastromal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intraprostatic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intratesticular");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "intranodal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "insufflation|snorting");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "smoking|smoked");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "swish and swallow|swish and spit");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "oral mucosal|transmucosal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a route of drug administration", 75, "hypodermoclysis|clysis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "nucleoside analogs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "neuraminidase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "protease inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "integrase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "nrtis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "nnrtis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "haart|art|antiretroviral therapy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "laninamivir|inavir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "sotrovimab|bebtelovimab|evusheld|tixagevimab cilgavimab|pemivibart|pemgarda|covid monoclonal antibodies");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "palivizumab|synagis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "nirsevimab|beyfortus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "clesrovimab|enflonsia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "interferon alfa|peginterferon alfa|pegasys|intron a");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "velpatasvir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "ledipasvir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "glecaprevir|pibrentasvir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "voxilaprevir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "grazoprevir|elbasvir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "ombitasvir paritaprevir ritonavir|viekira pak|technivie");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "dasabuvir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "asunaprevir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "tenofovir disoproxil fumarate|tdf");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "lonafarnib|zokinvy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "darunavir cobicistat|prezcobix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "atazanavir cobicistat|evotaz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "amprenavir|agenerase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "delavirdine|rescriptor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "zalcitabine|ddc|hivid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "fomivirsen|vitravene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "vaccinia immune globulin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "idoxuridine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "vidarabine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "nitazoxanide|alinia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "hepatitis b immune globulin|hbig");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "varicella zoster immune globulin|varizig");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "cmv immune globulin|cytogam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 65, "rabies immune globulin|rig");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "inosine pranobex|isoprinosine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "tromantadine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "amenamevir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "sorivudine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiviral drug", 88, "brivudine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "saba|short acting beta agonist|rescue inhaler");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "laba|long acting beta agonist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "lama|long acting muscarinic antagonist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "sama|short acting muscarinic antagonist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "ics|inhaled corticosteroid|inhaled steroid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "ics laba|combination inhaler");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "laba lama");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "triple therapy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "maintenance inhaler|controller inhaler");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "mart|smart therapy|single maintenance and reliever therapy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "nebulizer|nebulized albuterol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "spacer|aerochamber|valved holding chamber");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "peak flow meter");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "bevespi|glycopyrrolate formoterol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "utibron|indacaterol glycopyrrolate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "duaklir|aclidinium formoterol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "arformoterol|brovana");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "vilanterol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "leukotriene modifiers|leukotriene receptor antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 88, "depemokimab|exdensur");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "biologics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "prednisolone|orapred");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "hydrocortisone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "racemic epinephrine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "isoproterenol|isuprel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "ketamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "oxygen|supplemental oxygen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "doxycycline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "n acetylcysteine|acetylcysteine|mucomyst");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "dornase alfa|pulmozyme");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "hypertonic saline nebulized");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "guaifenesin|mucinex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "alpha 1 antitrypsin|prolastin|aralast|zemaira|glassia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "nintedanib|ofev");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "pirfenidone|esbriet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "ivacaftor|kalydeco|trikafta|elexacaftor tezacaftor ivacaftor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "tobramycin inhaled|tobi|bethkis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "aztreonam inhaled|cayston");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "amikacin liposome|arikayce");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "treprostinil inhaled|tyvaso");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "iloprost inhaled|ventavis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "mannitol inhaled|bronchitol|aridol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an inhaler or asthma/COPD medication", 60, "methacholine|provocholine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 50, "macrolides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 50, "fluoroquinolones|quinolones");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 50, "antipsychotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 55, "tricyclic antidepressants|tcas");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 55, "class ia antiarrhythmics|class iii antiarrhythmics|antiarrhythmics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 55, "azole antifungals|azoles");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "ssris");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "5 ht3 antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "granisetron|kytril|sancuso");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "dolasetron|anzemet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "palonosetron|aloxi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "prochlorperazine|compazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "promethazine|phenergan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "trimethobenzamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "amisulpride|barhemsys");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "sertraline|zoloft");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "fluoxetine|prozac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "paroxetine|paxil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "clomipramine|anafranil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "trimipramine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "protriptyline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "maprotiline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "desvenlafaxine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "aripiprazole|abilify");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "asenapine|saphris");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "lurasidone|latuda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "clozapine|clozaril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "fluphenazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "perphenazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "trifluoperazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "thiothixene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "loxapine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "mesoridazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "sertindole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "sulpiride");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "levomethadyl|laam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "buprenorphine|butrans|belbuca");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "hydrocodone er|hysingla");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "propoxyphene|darvon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "gemifloxacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "ofloxacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "norfloxacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "sparfloxacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "grepafloxacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "gatifloxacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "telithromycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "roxithromycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "itraconazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "isavuconazonium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "lefamulin|xenleta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "delamanid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "pretomanid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "clofazimine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "foscarnet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "rilpivirine|edurant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "efavirenz|sustiva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "lopinavir ritonavir|kaletra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "saquinavir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "atazanavir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "fostemsavir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "lenacapavir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "primaquine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "piperaquine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "artesunate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "tafenoquine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "amantadine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "dasatinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "lapatinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "sunitinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "pazopanib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "crizotinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "ceritinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "osimertinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "encorafenib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "lenvatinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "cabozantinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "sorafenib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "bosutinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "gilteritinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "quizartinib|vanflyta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "glasdegib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "ivosidenib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "mobocertinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "selpercatinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "entrectinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "toremifene|fareston");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "vorinostat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "romidepsin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "panobinostat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "anagrelide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "papaverine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "bepridil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "probucol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "ivabradine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "isradipine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "nicardipine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "vernakalant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "adenosine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "tetrabenazine|xenazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "deutetrabenazine|austedo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "valbenazine|ingrezza");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "pitolisant|wakix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "atomoxetine|strattera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "galantamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "dexmedetomidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "isoflurane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "desflurane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "halothane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "methohexital");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "terbutaline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "albuterol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "salmeterol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "formoterol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "sibutramine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "tegaserod");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "octreotide|sandostatin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "pasireotide|signifor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "lanreotide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "leuprolide|lupron|androgen deprivation therapy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "degarelix|firmagon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "abiraterone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "enzalutamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "apalutamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "relugolin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "bicalutamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "alfuzosin|uroxatral");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "tolterodine|detrol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "fesoterodine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "siponimod");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "ozanimod");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "ebastine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "mizolastine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "ketanserin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "lofexidine|lucemyra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "sodium stibogluconate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "meglumine antimoniate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "cesium chloride");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "eliglustat|cerdelga");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "macimorelin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "mifepristone|korlym");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that prolongs the QT interval", 78, "pimavanserin|nuplazid");  // 2026-11-05 · NAPLEX · board-testable

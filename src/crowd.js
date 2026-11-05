@@ -2252,3 +2252,300 @@ crowdAlias("Name a diabetes medication", "soliqua", "insulin glargine lixisenati
 crowdAlias("Name a diabetes medication", "xultophy", "insulin degludec liraglutide");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a diabetes medication", "ozempic", "oral semaglutide");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a kinase inhibitor (many end in -tinib)", "imatinib", "glivec");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "keppra", "spritam|elepsia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "dilantin", "phenytek");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "depakote", "depakene|depacon|sodium valproate|epilim");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "lamictal", "subvenite");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "tegretol", "carbatrol|equetro|epitol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "topamax", "trokendi|qudexy|eprontia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "trileptal", "oxtellar xr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "phenobarbital", "luminal|sezaby");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "clonazepam", "rivotril");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "midazolam", "seizalam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "diazepam", "libervant");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "methsuximide", "celontin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "lacosamide", "motpoly");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "vigabatrin", "vigadrone|vigafyde");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "everolimus", "afinitor|afinitor disperz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "rufinamide", "inovelon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "zonisamide", "zonisade");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "ezogabine", "potiga");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiepileptic (antiseizure) drug", "sulthiame", "ospolot");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "insulin", "iv insulin|subcutaneous insulin|insulin drip|u 500 insulin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "heparin", "unfractionated heparin|heparin drip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "opioids", "dilaudid|oxycodone|hydrocodone|meperidine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "potassium chloride", "potassium phosphate|iv potassium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "chemotherapy", "antineoplastics|chemo|oral chemotherapy|cytotoxic drugs");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "methotrexate", "oral methotrexate|weekly methotrexate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "digoxin", "lanoxin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "warfarin", "coumadin|jantoven");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "doacs", "blood thinners|dabigatran|edoxaban");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "enoxaparin", "lovenox|dalteparin|fragmin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "tpa", "tenecteplase|tnkase|reteplase");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "epinephrine", "adrenaline");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "iv adrenergic agonists", "vasopressors|pressors|epinephrine drip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "iv adrenergic antagonists", "propranolol iv|metoprolol iv|labetalol iv");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "amiodarone", "antiarrhythmics|iv antiarrhythmics");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "benzodiazepines iv", "lorazepam iv|diazepam iv");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "midazolam", "versed");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "chloral hydrate", "oral moderate sedation for children");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "propofol", "diprivan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "ketamine", "ketalar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "neuromuscular blockers", "cisatracurium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "hypertonic saline", "sodium chloride greater than 0.9%|concentrated sodium chloride|23.4% sodium chloride");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "sterile water for injection", "sterile water");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "dextrose 20% or higher", "dextrose 50%|concentrated dextrose");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "tpn", "total parenteral nutrition|ppn");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "epidural medications", "epidural");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "intrathecal medications", "intrathecal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "oxytocin", "iv oxytocin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "vasopressin", "vasostrict");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "nitroprusside", "nipride");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "sulfonylureas", "glimepiride|oral hypoglycemics");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "liposomal amphotericin", "ambisome");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "conventional amphotericin", "amphotericin b deoxycholate|fungizone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "promethazine iv", "phenergan iv");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "esmolol", "brevibloc");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "argatroban", "direct thrombin inhibitors");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "bivalirudin", "angiomax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "eptifibatide", "glycoprotein iib iiia inhibitors|integrilin|tirofiban|abciximab");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "doacs", "factor xa inhibitors|eliquis|xarelto");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "barbiturates", "pentobarbital|phenobarbital");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "radiocontrast", "contrast media|iv contrast");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "methadone", "dolophine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "local anesthetics", "bupivacaine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a high-alert medication", "digoxin immune fab", "digifab");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "ambien", "ambien cr|edluar|intermezzo|zolpimist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "unisom", "unisom sleeptabs");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "benadryl", "sominex|nytol|unisom sleepgels");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "tylenol pm", "acetaminophen diphenhydramine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "advil pm", "ibuprofen diphenhydramine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "trazodone", "desyrel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "amitriptyline", "elavil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "hydroxyzine", "vistaril|atarax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "gabapentin", "neurontin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "clonidine", "catapres");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "prazosin", "minipress");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "butabarbital", "butisol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "valerian", "valerian root");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "magnesium", "magnesium glycinate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "cbd", "cannabidiol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "cannabis", "marijuana|thc");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "tryptophan", "l tryptophan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a sleep medication", "lavender oil", "lavender");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "artificial tears", "carboxymethylcellulose|refresh tears|genteal|blink|thera tears|theratears|polyvinyl alcohol|soothe");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "naphazoline", "clear eyes|opcon a|visine a");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "ketotifen", "claritin eye");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "pataday", "patanol|pazeo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "latanoprost", "xelpros");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "timolol", "betimol|istalol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "vyzulta", "latanoprostene bunod");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "omlonti", "omidenepag");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "atropine", "isopto atropine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "phenylephrine", "mydfrin|neo synephrine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "ryzumvi", "phentolamine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "pilocarpine", "qlosi|isopto carpine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "miebo", "perfluorohexyloctane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "tyrvaya", "varenicline nasal spray");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "loteprednol", "alrex|inveltys");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "prednisolone acetate", "prednisolone|pred mild|omnipred|prednisolone phosphate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "dexamethasone", "dexycu|ozurdex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "fluorometholone", "flarex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "tobradex", "tobramycin dexamethasone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "maxitrol", "neomycin polymyxin dexamethasone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "polytrim", "polymyxin trimethoprim");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "erythromycin ointment", "ilotycin|erythromycin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "moxifloxacin", "moxeza");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "gatifloxacin", "zymar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "natamycin", "natacyn");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "cromolyn", "crolom|opticrom");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "ketorolac", "acuvail");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "bromfenac", "bromsite|prolensa|xibrom");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "nepafenac", "ilevro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "proparacaine", "alcaine|ophthaine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "tetracaine", "altacaine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "fluorescein", "ak fluor|fluress");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "brimonidine", "alphagan p");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "cosopt", "dorzolamide timolol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "combigan", "brimonidine timolol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "simbrinza", "brinzolamide brimonidine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "rocklatan", "netarsudil latanoprost");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "travatan", "travatan z|izba");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "durysta", "bimatoprost implant");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "idose", "travoprost implant");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "hypochlorous acid", "avenova");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "muro 128", "sodium chloride 5%");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "serum tears", "autologous serum tears");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an eye drop medication", "mitomycin", "mitosol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "prednisone", "rayos|prednisone intensol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "prednisolone", "millipred|pediapred|prelone|pred forte");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "methylprednisolone", "depo medrol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "dexamethasone", "hemady|dexamethasone intensol|ozurdex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "hydrocortisone", "solu cortef|alkindi|cortisol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "triamcinolone", "nasacort|zilretta|triesence|xipere|aristocort");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "betamethasone", "celestone soluspan|diprolene|betamethasone valerate|luxiq");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "budesonide", "uceris|rhinocort|tarpeyo|eohilia|ortikos");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "fluticasone", "arnuity|armonair|cutivate|xhance");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "mometasone", "asmanex|elocon|sinuva");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "beclomethasone", "beconase|qnasl");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "ciclesonide", "alvesco|omnaris|zetonna");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "flunisolide", "aerospan|nasarel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "clobetasol", "temovate|clobex|olux|impoyz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "deoxycorticosterone", "doca|desoxycorticosterone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "loteprednol", "lotemax|alrex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "difluprednate", "durezol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "fluorometholone", "fml|flarex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "rimexolone", "vexol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "desonide", "desowen|verdeso");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "fluocinonide", "lidex|vanos");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "halobetasol", "ultravate|bryhali|lexette");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "desoximetasone", "topicort");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "amcinonide", "cyclocort");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "alclometasone", "aclovate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a corticosteroid", "prednicarbate", "dermatop");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug class", "antibiotics", "antibacterials|antimicrobials");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug class", "anthelmintics", "antiparasitics");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug class", "alpha blockers", "alpha 1 blockers");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug class", "antiandrogens", "androgen receptor inhibitors");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug class", "vaccines", "toxoids");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug class", "general anesthetics", "inhaled anesthetics");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "oral", "per os|enteral oral");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "intravenous", "iv push|iv piggyback|iv infusion|iv bolus");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "intramuscular", "im injection");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "subcutaneous", "subcut|hypodermic");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "sublingual", "under the tongue");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "buccal", "cheek");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "rectal", "per rectum");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "vaginal", "pv|per vagina|intravaginal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "transdermal", "td");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "topical", "cutaneous|dermal|on the skin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "inhaled", "inh|pulmonary");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "intranasal", "in");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "ophthalmic", "ocular|topical ophthalmic");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "otic", "auricular");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "intrathecal", "it|subarachnoid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "intra articular", "ia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "intravitreal", "ivt");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "intraperitoneal", "ip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "endotracheal", "et|via ett");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "enteral", "ng");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "enteral", "gastrostomy|peg tube");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "jejunostomy", "j tube");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "intravesical", "bladder instillation");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "urethral", "intraurethral");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "intracavernosal", "intracavernous");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "intracerebroventricular", "icv|intraventricular");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "perineural", "regional anesthesia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "periodontal", "intragingival");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "dental", "dental intracanal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "nebulized", "nebulizer|aerosol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a route of drug administration", "implant", "subcutaneous implant");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "acyclovir", "sitavig");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "amantadine", "symmetrel|gocovri");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "paxlovid", "nirmatrelvir ritonavir");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "ribavirin", "virazole|rebetol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "tenofovir alafenamide", "taf");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "telbivudine", "tyzeka");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "lamivudine", "epivir hbv");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "truvada", "emtricitabine tenofovir");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "descovy", "emtricitabine tenofovir alafenamide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "biktarvy", "bictegravir emtricitabine tenofovir alafenamide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "dovato", "dolutegravir lamivudine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "juluca", "dolutegravir rilpivirine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "triumeq", "abacavir dolutegravir lamivudine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "cabenuva", "cabotegravir rilpivirine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "lopinavir ritonavir", "lopinavir");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "enfuvirtide", "t 20");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiviral drug", "ganciclovir", "zirgan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "albuterol", "accuneb|proair respiclick|proair digihaler");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "advair", "advair diskus|advair hfa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "airduo", "airduo respiclick|airduo digihaler");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "symbicort", "breyna");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "dulera", "mometasone formoterol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "breo", "fluticasone furoate vilanterol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "trelegy", "trelegy ellipta|fluticasone umeclidinium vilanterol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "breztri", "budesonide glycopyrrolate formoterol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "anoro", "anoro ellipta|umeclidinium vilanterol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "stiolto", "stiolto respimat|tiotropium olodaterol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "duoneb", "combivent respimat|ipratropium albuterol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "airsupra", "albuterol budesonide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "spiriva", "spiriva handihaler|spiriva respimat");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "seebri", "lonhala magnair");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "incruse", "incruse ellipta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "tudorza", "tudorza pressair");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "serevent", "serevent diskus");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "flovent", "flovent hfa|flovent diskus|arnuity ellipta|armonair digihaler");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "pulmicort", "pulmicort flexhaler|pulmicort respules");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "qvar", "qvar redihaler");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "asmanex", "asmanex twisthaler|asmanex hfa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "theophylline", "elixophyllin|theochron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "nedocromil", "tilade");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "prednisone", "oral steroids");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "dexamethasone", "decadron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "epinephrine", "adrenaline|epipen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "terbutaline", "brethine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "metaproterenol", "alupent");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "bitolterol", "tornalate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "magnesium sulfate", "iv magnesium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an inhaler or asthma/COPD medication", "azithromycin", "zithromax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "levofloxacin", "levaquin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "dronedarone", "multaq");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "cisapride", "propulsid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "oxytocin", "pitocin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "vardenafil", "levitra");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "vandetanib", "caprelsa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "fingolimod", "gilenya");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "iloperidone", "fanapt");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "ketoconazole", "nizoral");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "erythromycin", "ery tab");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "arsenic trioxide", "arsenic|trisenox");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "ribociclib", "kisqali");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "artemether lumefantrine", "lumefantrine|coartem");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "chloroquine", "aralen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "quinine", "qualaquin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "pentamidine", "pentam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "bedaquiline", "sirturo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "tacrolimus", "prograf");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "nilotinib", "tasigna");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "escitalopram", "lexapro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "methadone", "dolophine|methadose");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "venlafaxine", "effexor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "trazodone", "desyrel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "mirtazapine", "remeron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "droperidol", "inapsine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "thioridazine", "mellaril");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "pimozide", "orap");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "chlorpromazine", "thorazine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "olanzapine", "zyprexa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "risperidone", "risperdal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "paliperidone", "invega");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "domperidone", "motilium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "metoclopramide", "reglan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "sotalol", "betapace");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "ibutilide", "corvert");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "amiodarone", "cordarone|pacerone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "disopyramide", "norpace");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "flecainide", "tambocor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "propafenone", "rythmol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "ranolazine", "ranexa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "loperamide", "imodium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "famotidine", "pepcid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "donepezil", "aricept");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "solifenacin", "vesicare");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "mirabegron", "myrbetriq");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "tizanidine", "zanaflex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "terfenadine", "seldane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "astemizole", "hismanal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "eribulin", "halaven");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "fluconazole", "diflucan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "voriconazole", "vfend");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "posaconazole", "noxafil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "azithromycin", "z pak");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "clarithromycin", "biaxin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "moxifloxacin", "avelox");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "ciprofloxacin", "cipro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "amitriptyline", "elavil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "nortriptyline", "pamelor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "imipramine", "tofranil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "desipramine", "norpramin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that prolongs the QT interval", "doxepin", "sinequan");  // 2026-11-05 · NAPLEX · same answer

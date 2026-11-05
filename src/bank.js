@@ -33283,6 +33283,1320 @@ periochip|chlorhexidine chip
 irrigation|subgingival irrigation
 `, "2026-11-07");
 
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE (batch 2026-11-05, board-first) ---- */
+P("Name a poisoning or toxic exposure","clinical","",`
+acetaminophen overdose|acetaminophen|paracetamol|paracetamol overdose|tylenol|apap
+aspirin overdose|aspirin|salicylate toxicity|salicylates|salicylism
+carbon monoxide poisoning|carbon monoxide|co poisoning
+opioid overdose|opioids|opiates|opioid toxicity
+heroin overdose|heroin|diamorphine
+fentanyl overdose|fentanyl
+morphine overdose|morphine
+methadone toxicity|methadone
+oxycodone overdose|oxycodone
+tramadol toxicity|tramadol
+benzodiazepine overdose|benzodiazepines|benzos
+tricyclic antidepressant overdose|tricyclic antidepressants|tca overdose|tcas|tca
+amitriptyline overdose|amitriptyline
+organophosphate poisoning|organophosphates|organophosphate
+carbamate poisoning|carbamates
+nerve agents|sarin|vx|tabun|soman
+cyanide poisoning|cyanide|hydrogen cyanide
+lead poisoning|lead|plumbism
+arsenic poisoning|arsenic
+mercury poisoning|mercury
+iron overdose|iron toxicity|iron poisoning|iron
+lithium toxicity|lithium
+digoxin toxicity|digoxin|digitalis toxicity|digitalis
+methanol poisoning|methanol|wood alcohol
+ethylene glycol poisoning|ethylene glycol|antifreeze
+isopropyl alcohol poisoning|isopropyl alcohol|isopropanol|rubbing alcohol
+ethanol intoxication|ethanol|alcohol intoxication|alcohol poisoning
+beta blocker overdose|beta blockers|beta blocker toxicity
+calcium channel blocker overdose|calcium channel blockers|ccb overdose
+anticholinergic toxicity|anticholinergics|anticholinergic poisoning
+atropine poisoning|atropine
+jimsonweed|datura|jimson weed|datura stramonium
+deadly nightshade|atropa belladonna|belladonna
+diphenhydramine overdose|diphenhydramine|benadryl
+cocaine toxicity|cocaine
+amphetamine toxicity|amphetamines|amphetamine
+methamphetamine toxicity|methamphetamine|meth|crystal meth
+mdma toxicity|mdma|ecstasy|molly
+pcp intoxication|phencyclidine|pcp|angel dust
+lsd|lysergic acid diethylamide
+synthetic cannabinoids|k2|spice
+cannabis intoxication|cannabis|marijuana|thc
+cannabinoid hyperemesis syndrome
+bath salts|synthetic cathinones|cathinones
+methemoglobinemia|methaemoglobinaemia
+nitrites|nitrite poisoning|poppers|amyl nitrite
+dapsone toxicity|dapsone
+benzocaine methemoglobinemia|benzocaine
+warfarin overdose|warfarin|coumadin
+superwarfarin rodenticide|brodifacoum|superwarfarin|long acting anticoagulant rodenticide
+heparin overdose|heparin
+serotonin syndrome
+neuroleptic malignant syndrome|nms
+ssri overdose|ssris|ssri
+bupropion overdose|bupropion|wellbutrin
+venlafaxine overdose|venlafaxine
+antipsychotic overdose|antipsychotics
+quetiapine overdose|quetiapine
+clozapine toxicity|clozapine
+theophylline toxicity|theophylline|aminophylline
+caffeine overdose|caffeine
+isoniazid overdose|isoniazid|inh
+sulfonylurea overdose|sulfonylureas|sulfonylurea
+insulin overdose|insulin
+metformin toxicity|metformin|metformin associated lactic acidosis
+valproate toxicity|valproic acid|valproate|depakote
+phenytoin toxicity|phenytoin|dilantin
+carbamazepine toxicity|carbamazepine|tegretol
+clonidine overdose|clonidine
+local anesthetic systemic toxicity|last|local anaesthetic toxicity|lidocaine toxicity|bupivacaine toxicity
+colchicine toxicity|colchicine
+methotrexate toxicity|methotrexate
+vitamin a toxicity|hypervitaminosis a|vitamin a
+vitamin d toxicity|hypervitaminosis d|vitamin d
+baclofen toxicity|baclofen
+gamma hydroxybutyrate|ghb
+ketamine|ketamine intoxication
+barbiturate overdose|barbiturates|phenobarbital
+zolpidem overdose|zolpidem|ambien
+dextromethorphan|dxm
+loperamide toxicity|loperamide
+nicotine poisoning|nicotine|liquid nicotine
+inhalant abuse|inhalants|huffing|solvent abuse
+toluene|toluene toxicity
+hydrocarbon aspiration|hydrocarbons|kerosene|gasoline
+caustic ingestion|caustics|corrosive ingestion
+alkali ingestion|lye|sodium hydroxide|drain cleaner
+acid ingestion|hydrochloric acid|sulfuric acid
+hydrofluoric acid|hf burns|hydrofluoric acid burns
+button battery ingestion|button battery
+hydrogen sulfide|sewer gas|h2s
+chlorine gas|chlorine
+phosgene
+ammonia inhalation|ammonia
+smoke inhalation
+methylene chloride
+carbon tetrachloride
+botulism|clostridium botulinum|botulinum toxin
+tetanus|tetanus toxin|tetanospasmin
+paralytic shellfish poisoning|saxitoxin
+ciguatera|ciguatoxin|ciguatera fish poisoning
+scombroid|scombroid poisoning|histamine fish poisoning
+pufferfish poisoning|tetrodotoxin|fugu
+neurotoxic shellfish poisoning|brevetoxin
+amnesic shellfish poisoning|domoic acid
+amanita phalloides|death cap|death cap mushroom|amatoxin|amanita poisoning
+destroying angel|amanita virosa|amanita bisporigera
+amanita muscaria|fly agaric|muscimol|ibotenic acid
+psilocybin mushrooms|psilocybin|magic mushrooms
+gyromitra|false morel|gyromitrin
+cortinarius|orellanine
+inocybe|clitocybe|muscarinic mushrooms|muscarine
+coprinus|coprine|inky cap
+foxglove|digitalis purpurea
+oleander|nerium oleander|yellow oleander
+lily of the valley|convallaria
+water hemlock|cicuta|cicutoxin
+poison hemlock|conium maculatum|coniine
+castor bean|ricin
+rosary pea|abrin|abrus precatorius
+monkshood|aconite|aconitum|aconitine
+yew|taxus|taxine
+mistletoe
+pokeweed
+lantana
+dieffenbachia|dumb cane
+philodendron
+rattlesnake envenomation|rattlesnake|rattlesnake bite|crotalid envenomation|pit viper
+copperhead|copperhead bite
+cottonmouth|water moccasin
+coral snake|coral snake bite|elapid envenomation
+black widow spider|black widow|latrodectus|latrodectism
+brown recluse spider|brown recluse|loxosceles|loxoscelism
+scorpion sting|scorpion|centruroides|bark scorpion
+hymenoptera sting|bee sting|wasp sting|hornet sting
+fire ant stings|fire ants
+box jellyfish|chironex
+jellyfish sting|jellyfish
+stonefish|stonefish sting
+stingray injury|stingray
+lionfish
+cone snail|conotoxin
+blue ringed octopus
+gila monster|gila monster bite
+tick paralysis
+cantharidin|spanish fly|blister beetle
+thallium poisoning|thallium
+cadmium|cadmium poisoning|itai itai disease
+chromium|chromium toxicity
+copper toxicity|copper
+zinc toxicity|zinc|metal fume fever
+manganese toxicity|manganese|manganism
+cobalt toxicity|cobalt|cobalt cardiomyopathy
+bismuth toxicity|bismuth
+gold toxicity|gold salts
+aluminum toxicity|aluminium toxicity|aluminum
+selenium toxicity|selenosis|selenium
+barium poisoning|barium
+fluoride poisoning|fluoride
+boric acid|boric acid poisoning
+paraquat|paraquat poisoning
+glyphosate
+strychnine|strychnine poisoning
+sodium fluoroacetate|compound 1080|fluoroacetate
+zinc phosphide|phosphine|aluminum phosphide
+bromethalin
+pyrethroids
+dinitrophenol|2 4 dinitrophenol|dnp
+camphor
+methyl salicylate|oil of wintergreen
+eucalyptus oil
+tea tree oil
+pennyroyal oil
+nutmeg
+ergotism|ergot|ergotamine
+kratom
+yohimbine
+ephedra|ephedrine
+ackee|ackee fruit|hypoglycin|jamaican vomiting sickness
+star fruit|carambola
+cassava|cyanogenic glycosides|konzo
+apricot pits|amygdalin|laetrile
+grayanotoxin|mad honey
+lathyrism|grass pea
+aflatoxin|aflatoxins
+pyrrolizidine alkaloids|comfrey|bush tea
+aristolochic acid|aristolochia|aristolochic acid nephropathy|chinese herb nephropathy
+germander
+khat|cathinone
+salvia divinorum
+nitrous oxide abuse|nitrous oxide|whippets
+sodium nitroprusside cyanide toxicity|nitroprusside
+radiation poisoning|acute radiation syndrome
+polonium 210|polonium
+dioxin|tcdd
+polychlorinated biphenyls|pcbs
+mustard gas|sulfur mustard
+lewisite
+tear gas|cs gas|pepper spray
+xylazine|tranq
+nitazenes
+carfentanil
+clenbuterol
+sodium azide
+acrylamide
+n hexane
+methyl bromide
+ethylene oxide
+cardiac glycoside plants|cardiac glycosides
+toad venom|bufotoxin|bufo toad
+`, "2026-11-07");
+P("Name a cause of muscle weakness","clinical","",`
+myasthenia gravis|mg
+guillain barre syndrome|guillain-barre syndrome|gbs|acute inflammatory demyelinating polyneuropathy|aidp
+amyotrophic lateral sclerosis|als|lou gehrig disease|motor neuron disease|mnd
+stroke|cerebrovascular accident|cva
+multiple sclerosis|ms
+lambert eaton myasthenic syndrome|lambert-eaton syndrome|lems|lambert eaton
+botulism|clostridium botulinum
+duchenne muscular dystrophy|duchenne|dmd
+becker muscular dystrophy|becker
+myotonic dystrophy|dystrophia myotonica|steinert disease
+polymyositis
+dermatomyositis
+inclusion body myositis|ibm
+hypokalemia|hypokalaemia|low potassium
+hyperkalemia|hyperkalaemia|high potassium
+hypercalcemia|hypercalcaemia
+hypophosphatemia|hypophosphataemia
+hypomagnesemia|hypomagnesaemia
+hypermagnesemia|hypermagnesaemia
+hypothyroidism|hypothyroid myopathy
+hyperthyroidism|thyrotoxic myopathy|thyrotoxicosis
+thyrotoxic periodic paralysis
+hypokalemic periodic paralysis
+hyperkalemic periodic paralysis
+cushing syndrome|cushings|hypercortisolism
+steroid myopathy|glucocorticoid myopathy|corticosteroid myopathy
+statin myopathy|statins|statin induced myopathy
+rhabdomyolysis
+spinal cord compression|cord compression
+transverse myelitis
+spinal muscular atrophy|sma|werdnig hoffmann disease
+polio|poliomyelitis
+post polio syndrome
+west nile virus|west nile
+tick paralysis
+organophosphate poisoning|organophosphates
+critical illness myopathy
+critical illness polyneuropathy
+diabetic neuropathy|diabetic amyotrophy
+vitamin b12 deficiency|b12 deficiency|subacute combined degeneration
+vitamin d deficiency|osteomalacia
+primary hyperparathyroidism|hyperparathyroidism
+adrenal insufficiency|addison disease|addisons
+hyperaldosteronism|conn syndrome|primary aldosteronism
+mcardle disease|glycogen storage disease type v|myophosphorylase deficiency
+pompe disease|acid maltase deficiency|glycogen storage disease type ii
+carnitine palmitoyltransferase deficiency|cpt ii deficiency|cpt deficiency
+mitochondrial myopathy
+kearns sayre syndrome
+melas
+cervical myelopathy|cervical spondylotic myelopathy
+radiculopathy
+peripheral neuropathy
+chronic inflammatory demyelinating polyneuropathy|cidp
+charcot marie tooth disease|cmt|hereditary motor and sensory neuropathy
+brown sequard syndrome
+anterior spinal artery syndrome
+epidural abscess|spinal epidural abscess
+brain tumor|brain tumour
+todd paralysis|todds paralysis|postictal paralysis
+conversion disorder|functional neurological disorder
+polymyalgia rheumatica|pmr
+chronic fatigue syndrome|myalgic encephalomyelitis
+hiv myopathy|hiv
+zidovudine myopathy|zidovudine|azt
+colchicine myopathy|colchicine
+hydroxychloroquine myopathy|hydroxychloroquine
+alcoholic myopathy|alcohol
+cocaine
+aminoglycosides|aminoglycoside induced neuromuscular blockade
+neuromuscular blocking agents|succinylcholine
+d penicillamine induced myasthenia|penicillamine
+immune checkpoint inhibitor myositis|checkpoint inhibitors
+viral myositis|influenza myositis
+trichinosis|trichinella|trichinellosis
+toxoplasmosis myositis
+pyomyositis
+sarcoidosis|sarcoid myopathy
+necrotizing autoimmune myopathy|immune mediated necrotizing myopathy|imnm
+anti hmgcr myopathy
+antisynthetase syndrome
+paraneoplastic syndrome
+lyme disease|lyme radiculopathy
+diphtheria|diphtheritic neuropathy
+porphyria|acute intermittent porphyria|aip
+lead poisoning|lead neuropathy
+arsenic poisoning
+thallium poisoning
+hexacarbon neuropathy|n hexane
+snake envenomation|elapid envenomation|coral snake
+ciguatera
+paralytic shellfish poisoning|saxitoxin
+tetrodotoxin|pufferfish poisoning
+hypoglycemia|hypoglycaemia
+hyponatremia|hyponatraemia
+renal failure|uremia|uraemic myopathy
+anemia|anaemia
+heart failure
+copd|chronic obstructive pulmonary disease
+cancer cachexia|cachexia
+sarcopenia
+disuse atrophy|deconditioning
+malnutrition
+multiple system atrophy
+acromegaly
+congenital myasthenic syndrome
+limb girdle muscular dystrophy|lgmd
+facioscapulohumeral muscular dystrophy|fshd|facioscapulohumeral dystrophy
+emery dreifuss muscular dystrophy
+oculopharyngeal muscular dystrophy|opmd
+congenital muscular dystrophy
+central core disease
+nemaline myopathy
+centronuclear myopathy|myotubular myopathy
+myotonia congenita|thomsen disease
+paramyotonia congenita
+andersen tawil syndrome
+kennedy disease|spinobulbar muscular atrophy|sbma
+primary lateral sclerosis|pls
+progressive muscular atrophy
+multifocal motor neuropathy|mmn
+monomelic amyotrophy|hirayama disease
+brachial plexopathy|parsonage turner syndrome|brachial neuritis|neuralgic amyotrophy
+lumbosacral plexopathy
+cauda equina syndrome
+conus medullaris syndrome
+syringomyelia|syrinx
+spinal cord infarction
+spinal dural arteriovenous fistula
+hereditary spastic paraplegia
+friedreich ataxia
+adrenoleukodystrophy|adrenomyeloneuropathy
+htlv 1 associated myelopathy|tropical spastic paraparesis|htlv 1
+tabes dorsalis|neurosyphilis
+copper deficiency myelopathy|copper deficiency
+vitamin e deficiency
+thiamine deficiency|beriberi
+eosinophilic myositis|eosinophilia myalgia syndrome
+amyloid myopathy|amyloidosis
+hypopituitarism
+pheochromocytoma
+pyridostigmine overdose|cholinergic crisis
+myasthenic crisis
+neuromyelitis optica|nmo
+acute flaccid myelitis
+rabies|paralytic rabies
+tetanus
+miller fisher syndrome
+acute motor axonal neuropathy|aman
+vasculitic neuropathy|mononeuritis multiplex
+`, "2026-11-07");
+P("Name a cause of bleeding or easy bruising","clinical","",`
+von willebrand disease|vwd|von willebrand
+hemophilia a|haemophilia a|factor viii deficiency|factor 8 deficiency
+hemophilia b|haemophilia b|christmas disease|factor ix deficiency|factor 9 deficiency
+immune thrombocytopenia|itp|immune thrombocytopenic purpura|idiopathic thrombocytopenic purpura
+disseminated intravascular coagulation|dic|consumptive coagulopathy
+thrombotic thrombocytopenic purpura|ttp|adamts13 deficiency
+hemolytic uremic syndrome|hus|haemolytic uraemic syndrome
+heparin induced thrombocytopenia|hit
+warfarin|coumadin|warfarin toxicity|supratherapeutic inr
+heparin
+low molecular weight heparin|enoxaparin|lmwh
+direct oral anticoagulants|doacs|noacs
+apixaban|eliquis
+rivaroxaban|xarelto
+dabigatran|pradaxa
+aspirin
+clopidogrel|plavix
+nsaids|nonsteroidal anti inflammatory drugs|ibuprofen
+thrombolytics|tpa|alteplase|fibrinolytic therapy
+vitamin k deficiency|vitamin k deficiency bleeding|hemorrhagic disease of the newborn
+liver disease|cirrhosis|liver failure
+uremia|uremic platelet dysfunction|chronic kidney disease|uraemia
+bernard soulier syndrome|gp1b deficiency
+glanzmann thrombasthenia|gpiib iiia deficiency
+scurvy|vitamin c deficiency
+ehlers danlos syndrome|eds
+leukemia|leukaemia
+acute promyelocytic leukemia|apl|apml|acute promyelocytic leukaemia
+acute myeloid leukemia|aml
+acute lymphoblastic leukemia|all
+aplastic anemia|aplastic anaemia
+myelodysplastic syndrome|mds
+bone marrow infiltration|myelophthisis
+multiple myeloma|myeloma
+amyloidosis|al amyloidosis
+waldenstrom macroglobulinemia|waldenstrom
+hypersplenism|splenomegaly
+cushing syndrome|cushings|hypercortisolism
+corticosteroids|steroids|glucocorticoids
+senile purpura|actinic purpura|bateman purpura
+henoch schonlein purpura|hsp|iga vasculitis
+vasculitis
+wiskott aldrich syndrome
+hereditary hemorrhagic telangiectasia|hht|osler weber rendu syndrome|osler weber rendu
+child abuse|non accidental trauma|nonaccidental injury
+elder abuse
+domestic violence|intimate partner violence
+trauma
+factor vii deficiency
+factor x deficiency
+factor xi deficiency|hemophilia c|haemophilia c|rosenthal syndrome
+factor xiii deficiency
+factor v deficiency|parahemophilia
+afibrinogenemia|hypofibrinogenemia
+dysfibrinogenemia
+prothrombin deficiency|factor ii deficiency
+combined factor v and viii deficiency
+acquired hemophilia|acquired haemophilia|factor viii inhibitor
+acquired von willebrand syndrome|heyde syndrome
+platelet storage pool disease|storage pool disorder|dense granule deficiency
+gray platelet syndrome|grey platelet syndrome
+hermansky pudlak syndrome
+chediak higashi syndrome
+may hegglin anomaly|myh9 related disorder
+alpha 2 antiplasmin deficiency
+plasminogen activator inhibitor 1 deficiency|pai 1 deficiency
+quebec platelet disorder
+scott syndrome
+thrombocytopenia absent radius syndrome|tar syndrome
+congenital amegakaryocytic thrombocytopenia
+fanconi anemia|fanconi anaemia
+gestational thrombocytopenia
+hellp syndrome
+placental abruption|abruptio placentae
+amniotic fluid embolism
+neonatal alloimmune thrombocytopenia|fnait|nait
+post transfusion purpura
+massive transfusion|dilutional coagulopathy
+trauma induced coagulopathy
+hypothermia
+sepsis
+meningococcemia|meningococcal sepsis|neisseria meningitidis|purpura fulminans
+rocky mountain spotted fever|rmsf
+dengue|dengue hemorrhagic fever
+ebola|ebola virus disease
+viral hemorrhagic fever|lassa fever|marburg
+hantavirus|hemorrhagic fever with renal syndrome
+leptospirosis|weil disease
+hiv|hiv associated thrombocytopenia
+hepatitis c|hcv
+epstein barr virus|ebv|infectious mononucleosis|mono
+malaria
+lupus|sle|systemic lupus erythematosus
+antiphospholipid syndrome|lupus anticoagulant hypoprothrombinemia syndrome
+evans syndrome
+hypothyroidism
+alcohol use disorder|alcoholism|alcohol
+malnutrition
+malabsorption|celiac disease|coeliac disease
+cystic fibrosis
+prolonged antibiotics|antibiotics|cephalosporins
+ssris|selective serotonin reuptake inhibitors|ssri
+fish oil|omega 3 fatty acids
+ginkgo biloba|ginkgo
+garlic supplements
+vitamin e
+quinine|quinine induced thrombocytopenia
+valproate|valproic acid
+chemotherapy|myelosuppressive chemotherapy
+linezolid
+vancomycin induced thrombocytopenia
+ibrutinib
+glycoprotein iib iiia inhibitors|abciximab|eptifibatide|tirofiban
+prasugrel
+ticagrelor
+cilostazol
+dipyridamole
+argatroban|direct thrombin inhibitors|bivalirudin
+fondaparinux
+rodenticide ingestion|brodifacoum|superwarfarin
+snake envenomation|rattlesnake bite|venom induced consumptive coagulopathy
+kasabach merritt syndrome|kasabach merritt phenomenon
+giant cavernous hemangioma
+marfan syndrome
+osteogenesis imperfecta
+pseudoxanthoma elasticum
+cutis laxa
+amyloid angiopathy
+cryoglobulinemia|cryoglobulinaemia
+hypergammaglobulinemic purpura of waldenstrom
+paraproteinemia|monoclonal gammopathy
+myeloproliferative neoplasms
+essential thrombocythemia|essential thrombocytosis|et
+polycythemia vera|pv
+primary myelofibrosis|myelofibrosis
+chronic myeloid leukemia|cml
+chronic lymphocytic leukemia|cll
+lymphoma
+paroxysmal nocturnal hemoglobinuria|pnh
+megaloblastic anemia|b12 deficiency|folate deficiency
+hemophagocytic lymphohistiocytosis|hlh
+cardiopulmonary bypass
+ecmo|extracorporeal membrane oxygenation
+left ventricular assist device|lvad
+aortic stenosis
+psychogenic purpura|gardner diamond syndrome|autoerythrocyte sensitization
+factitious disorder|munchausen
+easy bruising syndrome|purpura simplex
+`, "2026-11-07");
+P("Name a cause of heart failure","clinical","",`
+coronary artery disease|cad|ischemic heart disease|ischaemic heart disease|ischemic cardiomyopathy
+myocardial infarction|heart attack|mi
+hypertension|high blood pressure|htn|hypertensive heart disease
+dilated cardiomyopathy|dcm
+hypertrophic cardiomyopathy|hcm|hocm
+restrictive cardiomyopathy
+aortic stenosis
+aortic regurgitation|aortic insufficiency
+mitral regurgitation|mitral insufficiency
+mitral stenosis
+alcoholic cardiomyopathy|alcohol|alcohol use disorder
+viral myocarditis|myocarditis
+coxsackievirus|coxsackie b
+chagas disease|trypanosoma cruzi|chagas cardiomyopathy
+amyloidosis|cardiac amyloidosis
+transthyretin amyloidosis|attr amyloidosis|attr
+al amyloidosis|light chain amyloidosis
+sarcoidosis|cardiac sarcoidosis
+hemochromatosis|haemochromatosis|iron overload
+doxorubicin|anthracyclines|anthracycline cardiotoxicity|adriamycin
+trastuzumab|herceptin
+peripartum cardiomyopathy|postpartum cardiomyopathy
+takotsubo cardiomyopathy|takotsubo|stress cardiomyopathy|broken heart syndrome
+tachycardia induced cardiomyopathy|tachycardiomyopathy
+atrial fibrillation|afib|af
+constrictive pericarditis
+cardiac tamponade|pericardial tamponade
+diabetes mellitus|diabetes|diabetic cardiomyopathy
+hyperthyroidism|thyrotoxicosis|thyroid storm
+hypothyroidism
+anemia|anaemia|severe anemia
+beriberi|wet beriberi|thiamine deficiency
+arteriovenous fistula|av fistula
+paget disease of bone|paget disease
+pregnancy
+obesity
+obstructive sleep apnea|osa|sleep apnea
+pulmonary hypertension
+cor pulmonale|right heart failure
+copd|chronic obstructive pulmonary disease
+pulmonary embolism|pe
+infective endocarditis|endocarditis
+rheumatic heart disease|rheumatic fever
+ventricular septal defect|vsd
+atrial septal defect|asd
+patent ductus arteriosus|pda
+tetralogy of fallot
+coarctation of the aorta|aortic coarctation
+hypoplastic left heart syndrome|hlhs
+eisenmenger syndrome
+ebstein anomaly
+transposition of the great arteries|tga
+truncus arteriosus
+total anomalous pulmonary venous return|tapvr
+duchenne muscular dystrophy|duchenne|dmd
+becker muscular dystrophy
+myotonic dystrophy
+friedreich ataxia
+arrhythmogenic right ventricular cardiomyopathy|arvc|arrhythmogenic cardiomyopathy
+left ventricular noncompaction|lv noncompaction|noncompaction cardiomyopathy
+loeffler endocarditis|loffler endocarditis|eosinophilic myocarditis|hypereosinophilic syndrome
+endomyocardial fibrosis
+carcinoid heart disease|carcinoid syndrome
+radiation induced heart disease|radiation
+cocaine|cocaine cardiomyopathy
+methamphetamine|methamphetamine cardiomyopathy
+anabolic steroids
+nsaids|nonsteroidal anti inflammatory drugs
+thiazolidinediones|pioglitazone|rosiglitazone|glitazones
+non dihydropyridine calcium channel blockers|verapamil|diltiazem
+dronedarone
+itraconazole
+tnf alpha inhibitors|infliximab
+cyclophosphamide
+5 fluorouracil|5 fu|fluorouracil
+immune checkpoint inhibitor myocarditis|checkpoint inhibitor myocarditis
+clozapine myocarditis|clozapine
+tyrosine kinase inhibitors|sunitinib|imatinib
+cobalt cardiomyopathy|cobalt
+excess sodium intake|dietary indiscretion|high salt diet
+medication nonadherence|noncompliance
+fluid overload|volume overload
+chronic kidney disease|ckd|renal failure
+hypocalcemia|hypocalcaemia
+hypophosphatemia|hypophosphataemia
+selenium deficiency|keshan disease
+carnitine deficiency
+pheochromocytoma|catecholamine cardiomyopathy
+acromegaly
+cushing syndrome
+fabry disease
+pompe disease
+danon disease
+lupus|sle|systemic lupus erythematosus|libman sacks endocarditis
+systemic sclerosis|scleroderma
+rheumatoid arthritis
+giant cell myocarditis
+hiv|hiv cardiomyopathy
+lyme carditis|lyme disease
+diphtheria|diphtheritic myocarditis
+covid 19|sars cov 2|covid myocarditis
+influenza myocarditis|influenza
+parvovirus b19
+trichinosis|trichinella
+toxoplasmosis
+complete heart block|third degree heart block|bradycardia
+sick sinus syndrome
+right ventricular pacing|pacing induced cardiomyopathy
+premature ventricular contractions|pvc induced cardiomyopathy|pvcs
+ventricular aneurysm|left ventricular aneurysm
+papillary muscle rupture
+ventricular septal rupture
+acute aortic dissection|aortic dissection
+tricuspid regurgitation
+pulmonic stenosis|pulmonary stenosis
+mitral valve prolapse
+prosthetic valve dysfunction|prosthetic valve thrombosis
+cardiac myxoma|atrial myxoma|myxoma
+cardiac tumors|cardiac tumours
+pericardial effusion
+high output heart failure
+sepsis|septic cardiomyopathy
+anorexia nervosa
+hereditary hemorrhagic telangiectasia|hht
+multiple myeloma
+polycythemia vera
+renal artery stenosis
+hyperaldosteronism
+preeclampsia|pre eclampsia
+twin twin transfusion syndrome
+anomalous left coronary artery from the pulmonary artery|alcapa|bland white garland syndrome
+kawasaki disease
+emery dreifuss muscular dystrophy
+laminopathy|lmna cardiomyopathy
+titin truncating variants|ttn cardiomyopathy
+barth syndrome
+kearns sayre syndrome
+hurler syndrome|mucopolysaccharidosis
+hemoglobinopathy|thalassemia|beta thalassemia major
+sickle cell disease|sickle cell anemia
+cardiac transplant rejection|allograft rejection
+chronic thromboembolic pulmonary hypertension|cteph
+interstitial lung disease
+obesity hypoventilation syndrome
+`, "2026-11-07");
+P("Name a cause of erectile dysfunction","clinical","",`
+atherosclerosis|vascular disease|vasculogenic erectile dysfunction
+diabetes mellitus|diabetes|diabetic neuropathy
+hypertension|high blood pressure|htn
+smoking|tobacco|cigarette smoking
+psychogenic erectile dysfunction|performance anxiety|psychogenic
+depression
+anxiety
+hypogonadism|low testosterone|testosterone deficiency
+hyperprolactinemia|hyperprolactinaemia|prolactinoma
+beta blockers|beta blocker
+thiazide diuretics|thiazides|hydrochlorothiazide
+spironolactone
+ssris|selective serotonin reuptake inhibitors|ssri
+tricyclic antidepressants|tcas
+antipsychotics
+5 alpha reductase inhibitors|finasteride|dutasteride
+gnrh agonists|leuprolide|androgen deprivation therapy|adt
+ketoconazole
+cimetidine
+opioids|opiates
+alcohol|alcohol use disorder|alcoholism
+cocaine
+marijuana|cannabis
+anabolic steroids
+radical prostatectomy|prostatectomy
+prostate cancer radiation|pelvic radiation|radiation therapy
+transurethral resection of the prostate|turp
+spinal cord injury
+multiple sclerosis|ms
+parkinson disease|parkinsons
+stroke
+peyronie disease|peyronies
+priapism|post priapism fibrosis
+dyslipidemia|hyperlipidemia|high cholesterol
+obesity
+metabolic syndrome
+coronary artery disease|cad
+peripheral artery disease|pad|peripheral vascular disease
+leriche syndrome|aortoiliac occlusive disease
+chronic kidney disease|ckd|renal failure
+liver cirrhosis|cirrhosis
+hypothyroidism
+hyperthyroidism
+cushing syndrome
+klinefelter syndrome
+kallmann syndrome
+pituitary tumor|pituitary adenoma
+aging|age
+obstructive sleep apnea|osa|sleep apnea
+venous leak|venoocclusive dysfunction|corpus cavernosum venous leak
+pelvic trauma|pelvic fracture
+penile fracture
+urethral injury
+bicycle riding|perineal compression
+abdominoperineal resection|rectal cancer surgery
+cystectomy|radical cystectomy
+pelvic surgery
+cauda equina syndrome
+lumbar disc herniation
+peripheral neuropathy
+alcoholic neuropathy
+temporal lobe epilepsy|epilepsy
+dementia|alzheimer disease
+multiple system atrophy|shy drager syndrome
+relationship problems|relationship conflict
+stress
+post traumatic stress disorder|ptsd
+benzodiazepines
+anticonvulsants|antiepileptics
+phenytoin
+carbamazepine
+gabapentin
+pregabalin
+clonidine
+methyldopa
+digoxin
+fibrates|gemfibrozil
+h2 blockers
+metoclopramide
+antiandrogens|bicalutamide|flutamide
+abiraterone
+cyproterone acetate|cyproterone
+estrogen therapy|estrogens
+lithium
+mirtazapine
+venlafaxine|snris
+haloperidol
+risperidone
+amphetamines
+heroin
+methadone
+lupus|sle
+scleroderma|systemic sclerosis
+sickle cell disease
+hemochromatosis|haemochromatosis
+hiv
+chronic prostatitis|chronic pelvic pain syndrome
+benign prostatic hyperplasia|bph
+lichen sclerosus|balanitis xerotica obliterans
+phimosis
+epispadias|bladder exstrophy
+pelvic floor dysfunction
+cavernosal fibrosis
+heavy metal exposure|lead poisoning
+hyperestrogenism
+adrenal insufficiency|addison disease
+acromegaly
+chronic heart failure|heart failure
+copd|chronic obstructive pulmonary disease
+anemia|anaemia
+guillain barre syndrome
+amyloidosis
+syringomyelia
+spina bifida
+transverse myelitis
+tabes dorsalis|neurosyphilis
+vascular steal syndrome|pelvic steal syndrome
+`, "2026-11-07");
+P("Name a cause of infertility","clinical","",`
+polycystic ovary syndrome|pcos|polycystic ovarian syndrome|stein leventhal syndrome
+endometriosis
+pelvic inflammatory disease|pid
+chlamydia|chlamydia trachomatis
+gonorrhea|gonorrhoea|neisseria gonorrhoeae
+tubal factor infertility|tubal occlusion|blocked fallopian tubes|tubal blockage
+hydrosalpinx
+varicocele
+klinefelter syndrome|47 xxy|xxy
+turner syndrome|45 x|45 xo
+kallmann syndrome
+hyperprolactinemia|hyperprolactinaemia|prolactinoma
+hypothyroidism
+hyperthyroidism
+asherman syndrome|intrauterine adhesions|intrauterine synechiae
+uterine fibroids|leiomyomas|leiomyoma|fibroids
+primary ovarian insufficiency|premature ovarian failure|premature ovarian insufficiency|poi
+advanced maternal age|age|diminished ovarian reserve
+cystic fibrosis|congenital bilateral absence of the vas deferens|cbavd
+kartagener syndrome|primary ciliary dyskinesia
+androgen insensitivity syndrome|testicular feminization
+5 alpha reductase deficiency
+congenital adrenal hyperplasia|cah|21 hydroxylase deficiency
+mullerian agenesis|mayer rokitansky kuster hauser syndrome|mrkh
+cryptorchidism|undescended testes|undescended testicle
+mumps orchitis|mumps
+sheehan syndrome|postpartum pituitary necrosis
+hypothalamic amenorrhea|functional hypothalamic amenorrhea
+anorexia nervosa|eating disorders
+female athlete triad|excessive exercise
+obesity
+low body weight|underweight
+anabolic steroids|exogenous testosterone|testosterone therapy
+chemotherapy
+radiation therapy|radiation
+smoking|tobacco
+alcohol|alcohol use disorder
+marijuana|cannabis
+hypogonadotropic hypogonadism
+hypergonadotropic hypogonadism
+hemochromatosis|haemochromatosis
+pituitary adenoma|pituitary tumor
+craniopharyngioma
+cushing syndrome
+adrenal insufficiency
+diabetes mellitus|diabetes
+celiac disease|coeliac disease
+sickle cell disease
+lupus|sle
+antiphospholipid syndrome
+fragile x premutation|fragile x
+galactosemia|galactosaemia
+y chromosome microdeletion|azoospermia factor deletion
+azoospermia
+oligospermia|oligozoospermia|low sperm count
+asthenozoospermia|low sperm motility
+teratozoospermia|abnormal sperm morphology
+retrograde ejaculation
+erectile dysfunction|ed
+ejaculatory duct obstruction
+vasectomy
+testicular torsion
+testicular cancer
+testicular trauma
+orchitis
+epididymitis
+prostatitis
+sertoli cell only syndrome
+antisperm antibodies
+hypospadias
+spinal cord injury
+diabetic autonomic neuropathy
+retroperitoneal lymph node dissection
+inguinal hernia repair
+heat exposure|hot tubs
+sulfasalazine
+spironolactone
+ketoconazole
+finasteride
+opioids
+gnrh agonists
+ssris
+cimetidine
+colchicine
+nitrofurantoin
+methotrexate
+cyclophosphamide
+nsaids
+cervical stenosis
+cervical factor infertility|hostile cervical mucus
+cone biopsy|leep|cervical conization
+uterine septum|septate uterus
+bicornuate uterus
+unicornuate uterus
+uterus didelphys
+des exposure|diethylstilbestrol|t shaped uterus
+endometrial polyps|uterine polyps
+adenomyosis
+chronic endometritis
+genital tuberculosis|tuberculosis
+schistosomiasis|genital schistosomiasis
+mycoplasma genitalium
+ectopic pregnancy|prior ectopic pregnancy
+pelvic adhesions|adhesions
+ruptured appendix|appendicitis
+inflammatory bowel disease|crohn disease
+luteal phase defect
+luteinized unruptured follicle syndrome
+ovarian cysts|endometrioma
+ovarian surgery|oophorectomy
+autoimmune oophoritis
+gonadal dysgenesis|swyer syndrome|46 xy gonadal dysgenesis
+pure gonadal dysgenesis|46 xx gonadal dysgenesis
+fsh receptor mutation|resistant ovary syndrome
+aromatase deficiency
+17 alpha hydroxylase deficiency
+noonan syndrome
+myotonic dystrophy
+balanced translocation|robertsonian translocation
+xx male syndrome|de la chapelle syndrome
+prader willi syndrome
+laurence moon bardet biedl syndrome|bardet biedl syndrome
+hyperthecosis|ovarian hyperthecosis
+androgen secreting tumor
+non classic congenital adrenal hyperplasia
+chronic kidney disease
+liver cirrhosis|cirrhosis
+hiv
+vaginismus
+dyspareunia
+infrequent intercourse|timing of intercourse
+young syndrome
+heavy metal exposure|lead exposure
+`, "2026-11-07");
+P("Name a cause of abnormal vaginal bleeding","clinical","",`
+uterine fibroids|leiomyoma|leiomyomas|fibroids|myoma
+endometrial polyps|uterine polyps
+adenomyosis
+endometrial cancer|endometrial carcinoma|uterine cancer
+endometrial hyperplasia
+cervical cancer|cervical carcinoma
+ectopic pregnancy
+spontaneous abortion|miscarriage|threatened abortion
+placental abruption|abruptio placentae
+placenta previa|placenta praevia
+vasa previa|vasa praevia
+uterine rupture
+hydatidiform mole|molar pregnancy|gestational trophoblastic disease
+choriocarcinoma
+anovulation|anovulatory bleeding|ovulatory dysfunction
+polycystic ovary syndrome|pcos
+hypothyroidism
+hyperthyroidism
+hyperprolactinemia|hyperprolactinaemia|prolactinoma
+von willebrand disease|vwd
+coagulopathy|bleeding disorder
+anticoagulants|warfarin|doacs
+thrombocytopenia|itp
+leukemia|leukaemia
+liver disease|cirrhosis
+chronic kidney disease|ckd
+perimenopause|menopausal transition
+puberty|immature hpo axis|menarche
+atrophic vaginitis|vaginal atrophy|genitourinary syndrome of menopause
+cervicitis
+chlamydia
+gonorrhea|gonorrhoea
+trichomoniasis|trichomonas
+pelvic inflammatory disease|pid
+endometritis
+postpartum endometritis
+retained products of conception|retained placenta
+postpartum hemorrhage|postpartum haemorrhage|uterine atony
+subinvolution of placental site
+cervical polyp|cervical polyps
+cervical ectropion|cervical ectopy
+cervical intraepithelial neoplasia|cin|cervical dysplasia
+vaginal cancer
+vulvar cancer
+uterine sarcoma|leiomyosarcoma
+ovarian cancer
+granulosa cell tumor|granulosa cell tumour
+thecoma
+estrogen secreting tumor
+fallopian tube cancer
+breakthrough bleeding|oral contraceptive pills|ocps|combined hormonal contraception
+progestin only contraception|progestin only pill|mini pill
+depot medroxyprogesterone acetate|depo provera|dmpa
+contraceptive implant|nexplanon|etonogestrel implant
+intrauterine device|iud|copper iud
+levonorgestrel iud|hormonal iud|mirena
+emergency contraception|plan b
+missed pills
+hormone replacement therapy|hrt|menopausal hormone therapy
+tamoxifen
+unopposed estrogen
+ssris
+antipsychotics
+corticosteroids
+herbal supplements|ginseng|ginkgo
+foreign body|retained tampon|vaginal foreign body
+trauma|genital trauma|vaginal laceration
+sexual assault
+child sexual abuse
+endometriosis
+arteriovenous malformation|uterine avm
+cesarean scar defect|isthmocele|niche
+asherman syndrome
+chronic endometritis
+tuberculous endometritis|genital tuberculosis
+pyometra
+uterine prolapse|pelvic organ prolapse
+lichen sclerosus
+cushing syndrome
+adrenal hyperplasia|congenital adrenal hyperplasia
+stress|psychological stress
+anorexia nervosa|eating disorders
+excessive exercise
+obesity
+rapid weight loss
+diabetes mellitus
+sarcoma botryoides|embryonal rhabdomyosarcoma
+precocious puberty
+mccune albright syndrome
+neonatal withdrawal bleeding|maternal estrogen withdrawal
+endometrial stromal sarcoma
+carcinosarcoma|malignant mixed mullerian tumor
+gestational trophoblastic neoplasia
+placental site trophoblastic tumor
+placenta accreta|placenta accreta spectrum|placenta increta|placenta percreta
+cervical pregnancy
+cesarean scar pregnancy
+implantation bleeding
+subchorionic hematoma|subchorionic haemorrhage
+incompetent cervix|cervical insufficiency
+preterm labor|preterm labour
+bloody show|labor|labour
+ovarian cyst rupture|hemorrhagic ovarian cyst
+corpus luteum cyst
+luteal phase defect
+hemophilia carrier
+platelet function disorder
+factor xi deficiency
+glanzmann thrombasthenia
+bernard soulier syndrome
+lupus|sle
+hiv
+vaginal adenosis
+condyloma acuminata|genital warts
+herpes simplex|genital herpes|hsv
+syphilis
+endometrial biopsy
+cervical conization|leep
+pessary ulceration
+radiation vaginitis|pelvic radiation
+`, "2026-11-07");
+P("Name a cause of a neck mass","clinical","",`
+reactive lymphadenopathy|reactive lymph node|lymphadenitis
+thyroid nodule|thyroid nodules
+goiter|goitre|multinodular goiter
+thyroglossal duct cyst
+branchial cleft cyst|branchial cyst|second branchial cleft cyst
+squamous cell carcinoma of the head and neck|head and neck squamous cell carcinoma|hnscc|head and neck cancer
+hpv associated oropharyngeal cancer|oropharyngeal cancer|oropharyngeal squamous cell carcinoma
+nasopharyngeal carcinoma
+laryngeal cancer
+papillary thyroid carcinoma|papillary thyroid cancer
+follicular thyroid carcinoma|follicular thyroid cancer
+medullary thyroid carcinoma|medullary thyroid cancer
+anaplastic thyroid carcinoma|anaplastic thyroid cancer
+hodgkin lymphoma|hodgkin disease|hodgkins lymphoma
+non hodgkin lymphoma|nhl
+metastatic lymphadenopathy|metastatic cancer|lymph node metastasis
+virchow node|troisier sign|left supraclavicular node
+graves disease
+hashimoto thyroiditis|hashimotos|chronic lymphocytic thyroiditis
+subacute thyroiditis|de quervain thyroiditis|granulomatous thyroiditis
+riedel thyroiditis
+acute suppurative thyroiditis
+thyroid cyst
+cystic hygroma|lymphatic malformation|cystic lymphangioma
+dermoid cyst
+epidermoid cyst|epidermal inclusion cyst|sebaceous cyst
+lipoma
+hemangioma|haemangioma|infantile hemangioma
+carotid body tumor|carotid body tumour|paraganglioma|chemodectoma
+glomus vagale|vagal paraganglioma
+schwannoma|neurilemmoma
+neurofibroma
+pleomorphic adenoma|benign mixed tumor
+warthin tumor|warthin tumour|papillary cystadenoma lymphomatosum
+mucoepidermoid carcinoma
+adenoid cystic carcinoma
+parotitis
+mumps
+sialadenitis
+sialolithiasis|salivary stone|salivary gland stone
+submandibular gland enlargement
+ranula|plunging ranula
+laryngocele
+zenker diverticulum|pharyngoesophageal diverticulum
+parathyroid adenoma
+parathyroid carcinoma
+parathyroid cyst
+infectious mononucleosis|mono|epstein barr virus|ebv
+cytomegalovirus|cmv
+hiv
+toxoplasmosis
+cat scratch disease|bartonella henselae|bartonella
+tuberculosis|scrofula|tuberculous lymphadenitis
+atypical mycobacterial lymphadenitis|nontuberculous mycobacteria|mycobacterium avium complex|mai
+actinomycosis|actinomyces
+streptococcal pharyngitis|strep throat
+peritonsillar abscess|quinsy
+retropharyngeal abscess
+parapharyngeal abscess
+deep neck space infection|deep neck infection
+ludwig angina
+lemierre syndrome|fusobacterium necrophorum
+cellulitis
+abscess
+kawasaki disease
+kikuchi disease|kikuchi fujimoto disease|histiocytic necrotizing lymphadenitis
+rosai dorfman disease|sinus histiocytosis with massive lymphadenopathy
+castleman disease
+sarcoidosis
+sjogren syndrome
+igg4 related disease
+kimura disease
+langerhans cell histiocytosis
+leukemia|leukaemia|chronic lymphocytic leukemia|cll
+acute lymphoblastic leukemia
+plasmacytoma
+lymphangioma
+venous malformation
+arteriovenous malformation
+carotid artery aneurysm|carotid aneurysm
+pseudoaneurysm
+jugular vein thrombosis|internal jugular vein thrombosis
+cervical rib
+sternocleidomastoid tumor of infancy|fibromatosis colli|congenital muscular torticollis
+teratoma|cervical teratoma
+thymic cyst|cervical thymic cyst
+ectopic thyroid
+lingual thyroid
+bronchogenic cyst
+lymphoepithelial cyst
+hiv associated parotid lymphoepithelial cysts
+tularemia|francisella tularensis
+plague|yersinia pestis|bubonic plague
+brucellosis
+histoplasmosis
+coccidioidomycosis
+syphilis
+rubella
+measles
+adenovirus
+herpes simplex virus
+diphtheria|bull neck
+hemangiopericytoma
+liposarcoma
+rhabdomyosarcoma
+neuroblastoma
+merkel cell carcinoma
+melanoma|metastatic melanoma
+skin cancer|cutaneous squamous cell carcinoma
+lung cancer|pancoast tumor
+breast cancer
+stomach cancer|gastric cancer
+esophageal cancer|oesophageal cancer
+renal cell carcinoma
+salivary duct carcinoma
+acinic cell carcinoma
+mucosa associated lymphoid tissue lymphoma|malt lymphoma
+burkitt lymphoma
+follicular lymphoma
+diffuse large b cell lymphoma|dlbcl
+thyroid lymphoma
+desmoid tumor|aggressive fibromatosis
+nodular fasciitis
+pilomatrixoma|pilomatricoma
+keloid
+subcutaneous emphysema
+esophageal duplication cyst
+amyloidosis
+drug induced lymphadenopathy|phenytoin pseudolymphoma|phenytoin
+serum sickness
+lupus|sle
+rheumatoid arthritis
+still disease|adult onset still disease
+dental abscess|odontogenic infection
+scalp infection|tinea capitis
+lice|pediculosis capitis
+`, "2026-11-07");
+P("Name a movement disorder","clinical","",`
+parkinson disease|parkinsons disease|parkinsons|pd|idiopathic parkinson disease
+essential tremor|benign essential tremor|familial tremor
+huntington disease|huntingtons disease|huntington chorea|huntingtons
+tardive dyskinesia|td
+restless legs syndrome|rls|willis ekbom disease
+wilson disease|wilsons disease|hepatolenticular degeneration
+sydenham chorea|st vitus dance|rheumatic chorea
+tourette syndrome|tourettes|gilles de la tourette syndrome
+dystonia
+acute dystonia|acute dystonic reaction
+drug induced parkinsonism|neuroleptic induced parkinsonism
+akathisia
+hemiballismus|ballismus|hemiballism
+chorea
+athetosis
+choreoathetosis
+myoclonus
+asterixis|negative myoclonus|flapping tremor
+tremor
+tics|tic disorder
+parkinsonism
+progressive supranuclear palsy|psp|steele richardson olszewski syndrome
+multiple system atrophy|msa|shy drager syndrome
+corticobasal degeneration|cbd|corticobasal syndrome
+dementia with lewy bodies|lewy body dementia|dlb
+vascular parkinsonism
+normal pressure hydrocephalus|nph
+cerebellar ataxia|ataxia
+friedreich ataxia
+spinocerebellar ataxia|sca
+ataxia telangiectasia|louis bar syndrome
+creutzfeldt jakob disease|cjd
+neuroleptic malignant syndrome|nms
+serotonin syndrome
+cervical dystonia|spasmodic torticollis|torticollis
+blepharospasm
+oromandibular dystonia
+meige syndrome
+writer cramp|writers cramp|focal hand dystonia
+musician dystonia
+spasmodic dysphonia|laryngeal dystonia
+hemifacial spasm
+dopa responsive dystonia|segawa syndrome|segawa disease
+early onset generalized dystonia|dyt1 dystonia|torsion dystonia|dystonia musculorum deformans
+paroxysmal kinesigenic dyskinesia|pkd
+paroxysmal nonkinesigenic dyskinesia
+paroxysmal exercise induced dyskinesia
+rapid onset dystonia parkinsonism
+x linked dystonia parkinsonism|lubag
+myoclonus dystonia
+levodopa induced dyskinesia|peak dose dyskinesia
+on off phenomenon|wearing off
+freezing of gait
+rest tremor|resting tremor
+intention tremor|cerebellar tremor
+physiologic tremor|enhanced physiologic tremor
+orthostatic tremor
+holmes tremor|rubral tremor|midbrain tremor
+dystonic tremor
+drug induced tremor
+psychogenic tremor|functional tremor
+functional movement disorder|psychogenic movement disorder
+palatal myoclonus|palatal tremor
+opsoclonus myoclonus syndrome|dancing eyes dancing feet|opsoclonus myoclonus ataxia
+hypnic jerks|sleep starts
+periodic limb movement disorder|periodic limb movements of sleep|plmd
+rem sleep behavior disorder|rbd
+bruxism
+stiff person syndrome|stiff man syndrome
+hyperekplexia|startle disease
+juvenile myoclonic epilepsy|jme
+progressive myoclonic epilepsy
+unverricht lundborg disease
+lafora disease
+post hypoxic myoclonus|lance adams syndrome
+spinal myoclonus
+propriospinal myoclonus
+neuroacanthocytosis|chorea acanthocytosis
+mcleod syndrome
+benign hereditary chorea
+huntington disease like 2|hdl2
+dentatorubral pallidoluysian atrophy|drpla
+pantothenate kinase associated neurodegeneration|pkan|hallervorden spatz disease
+neurodegeneration with brain iron accumulation|nbia
+aceruloplasminemia
+neuroferritinopathy
+fahr disease|primary familial brain calcification
+juvenile huntington disease|westphal variant
+chorea gravidarum
+lupus chorea|sle chorea
+antiphospholipid syndrome chorea
+polycythemia vera chorea
+hyperglycemic hemichorea|nonketotic hyperglycemic hemichorea|diabetic striatopathy
+pandas|pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections
+pans
+autoimmune encephalitis|anti nmda receptor encephalitis
+kernicterus|bilirubin encephalopathy
+cerebral palsy|dyskinetic cerebral palsy|athetoid cerebral palsy
+lesch nyhan syndrome
+glutaric aciduria type 1
+rett syndrome
+stereotypies|stereotypic movement disorder
+tardive dystonia
+tardive akathisia
+rabbit syndrome
+manganism|manganese toxicity
+mptp induced parkinsonism|mptp
+carbon monoxide parkinsonism
+postencephalitic parkinsonism|encephalitis lethargica
+dementia pugilistica|chronic traumatic encephalopathy|cte
+juvenile parkinsonism
+parkin related parkinson disease|park2
+lrrk2 parkinson disease
+gaucher associated parkinsonism
+episodic ataxia
+spinocerebellar ataxia type 3|machado joseph disease
+fragile x associated tremor ataxia syndrome|fxtas
+ataxia with vitamin e deficiency
+multiple system atrophy cerebellar type|msa c|olivopontocerebellar atrophy
+paraneoplastic cerebellar degeneration
+alcoholic cerebellar degeneration
+provisional tic disorder|transient tic disorder
+chronic motor tic disorder|chronic vocal tic disorder|persistent tic disorder
+mirror movements
+alien limb phenomenon|alien hand syndrome
+painful legs and moving toes
+belly dancer dyskinesia
+spasmus nutans
+jumping frenchmen of maine
+sandifer syndrome
+benign paroxysmal torticollis of infancy
+shuddering attacks
+task specific tremor|primary writing tremor
+neuropathic tremor
+pisa syndrome
+camptocormia
+`, "2026-11-07");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

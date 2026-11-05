@@ -3575,3 +3575,135 @@ crowdAlias("Name an herbal supplement", "st johns wort", "hypericum");  // 2026-
 crowdAlias("Name an herbal supplement", "ginseng", "korean ginseng|panax ginseng|red ginseng");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name an herbal supplement", "kanna", "sceletium");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name an herbal supplement", "garlic", "aged garlic extract");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "flu shot", "fluzone|flucelvax|afluria|fluarix|flulaval|fluzone quadrivalent");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "covid", "comirnaty|spikevax|mnexspike|nuvaxovid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "tetanus", "daptacel|infanrix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "tetanus", "tenivac|tdvax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "tetanus", "tetanus toxoid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "tetanus", "diphtheria|diphtheria vaccine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "tetanus", "pertussis|whooping cough vaccine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "mmr", "measles|measles vaccine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "mmr", "mumps|mumps vaccine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "mmr", "rubella|rubella vaccine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "hepatitis b", "engerix b|recombivax hb");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "hpv", "gardasil 9");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "polio", "ipol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "shingles", "recombinant zoster vaccine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "pneumonia", "prevnar 20");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "pcv13", "prevnar 13");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "ppsv23", "pneumovax 23");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "meningococcal", "meningococcal conjugate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "men b", "menb");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "men abcwy", "penmenvy|menabcwy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "hib", "pedvaxhib|acthib|hiberix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "rabies", "imovax|rabavert");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "yellow fever", "stamaril");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "typhoid", "ty21a");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "cholera", "dukoral");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "smallpox", "monkeypox vaccine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "malaria", "rts s|r21 matrix m");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "pediarix", "dtap hepb ipv");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "pentacel", "dtap ipv hib");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "vaxelis", "dtap ipv hib hepb");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "kinrix", "dtap ipv");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "flumist", "laiv");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "fluzone high dose", "high dose flu vaccine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "fluad", "adjuvanted flu vaccine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "flublok", "recombinant flu vaccine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "flu shot", "cell based flu vaccine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "oral polio", "sabin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vaccine", "polio", "salk");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "cefaclor", "ceclor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "cefuroxime", "cefuroxime axetil|zinacef");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "cefditoren", "spectracef");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "cefotetan", "cefotan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "cefmetazole", "zefazone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "ceftizoxime", "cefizox");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "cefoperazone", "cefobid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "moxalactam", "latamoxef");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "ceftazidime", "tazicef");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "cephalothin", "cefalotin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "cephapirin", "cefapirin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cephalosporin", "cephradine", "cefradine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "xanax", "xanax xr|niravam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "valium", "diastat|valtoco|libervant");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "ativan", "loreev xr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "klonopin", "rivotril");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "versed", "nayzilam|seizalam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "onfi", "sympazan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "etizolam", "etilaam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "bromazepam", "lexotan|lexomil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "nitrazepam", "mogadon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "lormetazepam", "noctamid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "rohypnol", "roofies");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "brotizolam", "lendormin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "prazepam", "centrax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "halazepam", "paxipam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a benzodiazepine", "tofisopam", "grandaxin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antipsychotic", "seroquel", "quetiapine xr|seroquel xr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antipsychotic", "abilify", "aripiprazole odt|abilify discmelt|abilify mycite");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antipsychotic", "abilify", "abilify asimtufii");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antipsychotic", "risperdal", "risperidone odt|risperdal m tab");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antipsychotic", "zyprexa", "olanzapine odt|zyprexa zydis");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antipsychotic", "clozaril", "clozapine odt|fazaclo|versacloz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antipsychotic", "invega", "paliperidone er");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antipsychotic", "loxapine", "loxapine inhaled|adasuve");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antipsychotic", "haldol", "haloperidol lactate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "retail", "chain pharmacy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "hospital", "inpatient pharmacy|health system pharmacy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "ambulatory care", "clinic pharmacist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "nuclear", "radiopharmacy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "long term care", "nursing home pharmacy|ltc pharmacy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "emergency medicine", "ed pharmacist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "infectious disease", "antimicrobial stewardship pharmacist|id pharmacist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "oncology", "hematology oncology pharmacist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "transplant", "solid organ transplant pharmacist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "psychiatric", "bcpp");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "pediatric", "nicu pharmacist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "drug information", "drug information center");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "poison control", "poison control center|poison information specialist|spi");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "research", "investigational drug pharmacist|investigational drug service");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "pharmacy manager", "pharmacy supervisor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "pharmacy director", "chief pharmacy officer|cpo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "independent pharmacy", "pharmacy owner|independent pharmacy owner");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "floater", "relief pharmacist|per diem pharmacist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "overnight pharmacist", "night pharmacist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "resident", "residency");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "pharmacy technician", "cpht");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "telepharmacy", "remote pharmacist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "managed care", "pharmacy benefit manager");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "fda", "fda reviewer");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "public health service", "public health pharmacist|usphs|commissioned corps");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "indian health service", "ihs");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "military", "army pharmacist|navy pharmacist|air force pharmacist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "veterinary pharmacy", "vet pharmacy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "academia", "faculty");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy job or setting", "sterile compounding", "cleanroom");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "zoloft", "lustral");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "prozac", "sarafem|prozac weekly");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "lexapro", "cipralex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "celexa", "cipramil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "paxil", "paxil cr|pexeva|brisdelle|seroxat");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "luvox", "luvox cr|faverin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "effexor", "effexor xr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "pristiq", "khedezla");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "cymbalta", "drizalma");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "milnacipran", "ixel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "wellbutrin", "wellbutrin sr|wellbutrin xl|aplenzin|forfivo|zyban");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "remeron", "remeron soltab");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "trazodone", "desyrel|oleptro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "nefazodone", "serzone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "trintellix", "brintellix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "nortriptyline", "aventyl");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "desipramine", "norpramin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "doxepin", "sinequan|silenor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "trimipramine", "surmontil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "protriptyline", "vivactil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "amoxapine", "asendin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "maprotiline", "ludiomil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "moclobemide", "manerix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "auvelity", "dextromethorphan bupropion");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "agomelatine", "valdoxan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "tianeptine", "stablon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "reboxetine", "edronax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidepressant", "emsam", "selegiline transdermal");  // 2026-11-05 · NAPLEX · same answer

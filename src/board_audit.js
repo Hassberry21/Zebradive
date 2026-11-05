@@ -24312,3 +24312,175 @@ board("Name an herbal supplement", 75, "hops");  // 2026-11-05 · NAPLEX · boar
 board("Name an herbal supplement", 75, "skullcap");  // 2026-11-05 · NAPLEX · board-testable
 board("Name an herbal supplement", 80, "california poppy");  // 2026-11-05 · NAPLEX · board-testable
 board("Name an herbal supplement", 75, "turkey tail");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "mmr ii|priorix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "zostavax|live zoster vaccine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "h5n1 vaccine|bird flu vaccine|audenz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "adenovirus vaccine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "live attenuated vaccines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "inactivated vaccines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "mrna vaccines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "toxoid vaccines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "conjugate vaccines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "subunit vaccines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "viral vector vaccines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "hepatitis e vaccine|hecolin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 65, "enterovirus 71 vaccine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 80, "lyme vaccine|lymerix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 85, "plague vaccine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vaccine", 85, "q fever vaccine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 45, "first generation cephalosporins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 45, "second generation cephalosporins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 45, "third generation cephalosporins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 45, "fourth generation cephalosporins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 45, "fifth generation cephalosporins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "ceftibuten|cedax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefoselis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefozopran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefcapene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefetamet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefteram");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "flomoxef");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefminox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefbuperazone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefazedone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefatrizine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefroxadine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefaloridine|cephaloridine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefacetrile");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 85, "cefquinome");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cephalosporin", 80, "cefoperazone sulbactam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 45, "chlordiazepoxide clidinium|librax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 45, "chlordiazepoxide amitriptyline|limbitrol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "camazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "clotiazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "cloxazolam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "doxefazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "ethyl loflazepate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "fludiazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "flutazolam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "flutoprazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "haloxazolam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "mexazolam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "nordazepam|nordiazepam|desmethyldiazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "oxazolam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "rilmazafone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "tetrazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "meclonazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "flubromazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 88, "deschloroetizolam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 80, "adinazolam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a benzodiazepine", 90, "gidazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 45, "olanzapine fluoxetine|symbyax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 45, "perphenazine amitriptyline|triavil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "chlorprothixene|taractan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "mesoridazine|serentil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "promazine|sparine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "triflupromazine|vesprin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "levomepromazine|methotrimeprazine|nozinan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "pericyazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "pipotiazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "penfluridol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "fluspirilene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "benperidol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "bromperidol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "melperone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "pipamperone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "tiapride");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "levosulpiride");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "remoxipride");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "sertindole|serdolect");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "zotepine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "blonanserin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "perospirone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "phenothiazines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "butyrophenones");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "thioxanthenes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "dibenzodiazepines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antipsychotic", 85, "benzamides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "pharmacist in charge|pic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "primary care pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "503b outsourcing facility");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "central fill pharmacy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "hospice pharmacist|palliative care pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "pain management pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "operating room pharmacist|or pharmacy|anesthesia pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "bone marrow transplant pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "nephrology pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "neurology pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "neonatal pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "women's health pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "internal medicine pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "surgery pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "anticoagulation clinic pharmacist|anticoagulation clinic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "diabetes educator|cdces");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "medication therapy management|mtm pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "transitions of care pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "population health pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "pharmacogenomics pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "automation pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "340b coordinator");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "medication safety officer|medication safety pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "clinical trials pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "fellowship|pharmacy fellow");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "iv technician|sterile compounding technician");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "pharmacy buyer|purchasing technician");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "remote order entry|remote verification");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "call center pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "prior authorization pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "health plan pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "medical information pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "pharmacovigilance|drug safety");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "medical affairs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "health economics and outcomes research|heor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "quality assurance pharmacist|quality control");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "manufacturing pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "board of pharmacy inspector|pharmacy inspector");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "correctional pharmacist|prison pharmacy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "preceptor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "grocery store pharmacy|supermarket pharmacy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "outpatient pharmacy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "discharge pharmacy|meds to beds");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "dialysis center pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "hiv pharmacist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "publix|heb|meijer|safeway|albertsons|giant eagle|hy vee|wegmans|winn dixie|food lion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "sam's club");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "target pharmacy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "duane reade");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "boots");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "shoppers drug mart");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "alto pharmacy|capsule pharmacy|pillpack");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "cost plus drugs|mark cuban cost plus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "accredo|cvs specialty|alliance rx|optum specialty");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 70, "omnicare|pharmerica");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 75, "wholesaler|drug wholesaler|mckesson|cardinal health|cencora");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 80, "pharmaceutical sales|drug rep");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 80, "dea diversion investigator");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy job or setting", 80, "p&t committee|pharmacy and therapeutics committee");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 40, "ssris|ssri|selective serotonin reuptake inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 40, "snris|snri|serotonin norepinephrine reuptake inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "tricyclic antidepressants|tcas|tricyclics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "maois|mao inhibitors|monoamine oxidase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "atypical antidepressants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "serotonin modulators");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "tetracyclic antidepressants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "ndri|norepinephrine dopamine reuptake inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "dosulepin|dothiepin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "lofepramine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "mianserin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "l methylfolate|deplin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "st john's wort|hypericum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "sam e|s adenosylmethionine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "opipramol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "iprindole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "nialamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "iproniazid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "pirlindole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 70, "amineptine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 75, "olanzapine fluoxetine|symbyax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 80, "brexpiprazole|rexulti");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 80, "quetiapine xr|seroquel xr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 80, "aripiprazole|abilify");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 85, "cariprazine|vraylar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 80, "ketamine|ketalar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 80, "lithium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidepressant", 85, "liothyronine augmentation|t3 augmentation");  // 2026-11-05 · NAPLEX · board-testable

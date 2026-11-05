@@ -23482,3 +23482,182 @@ board("Name a drug that comes from a plant or natural source", 75, "squalene|sha
 board("Name a drug that comes from a plant or natural source", 75, "chitosan");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a drug that comes from a plant or natural source", 75, "podophyllin");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a drug that comes from a plant or natural source", 75, "bee venom|apitoxin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 40, "alpha blockers|alpha 1 blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 40, "pde5 inhibitors|pde 5 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "5 alpha reductase inhibitors|5 ari");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "antimuscarinics|anticholinergics|bladder antispasmodics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "beta 3 agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "imidafenacin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "propiverine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "finasteride tadalafil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "papaverine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "phentolamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "testosterone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "onabotulinumtoxina bladder|botox bladder");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "hyoscyamine|levsin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "bethanechol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "pygeum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "rye grass pollen|cernilton");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "udenafil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "lodenafil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "mirodenafil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "eroxon|topical gel for ed");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "duloxetine for stress incontinence");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 70, "vaginal estrogen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 80, "yohimbine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for BPH, overactive bladder or erectile dysfunction", 85, "beta sitosterol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 40, "ace inhibitors|ace inhibitor|pril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 40, "arbs|arb|angiotensin receptor blockers|sartan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 40, "beta blockers|beta blocker|olol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 40, "calcium channel blockers|ccbs|ccb");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 40, "diuretics|water pill|thiazide diuretics|thiazides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "alpha blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "central alpha agonists|alpha 2 agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "vasodilators");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "lisinopril hctz|zestoretic|prinzide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "losartan hctz|hyzaar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "valsartan hctz|diovan hct");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "olmesartan hctz|benicar hct");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "amlodipine benazepril|lotrel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "amlodipine valsartan|exforge");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "amlodipine olmesartan|azor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "amlodipine telmisartan|twynsta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "amlodipine perindopril|prestalia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "atenolol chlorthalidone|tenoretic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "bisoprolol hctz|ziac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "metoprolol hctz|lopressor hct");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "triamterene hctz|maxzide|dyazide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "spironolactone hctz|aldactazide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "azilsartan chlorthalidone|edarbyclor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "olmesartan amlodipine hctz|tribenzor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "amlodipine valsartan hctz|exforge hct");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "nebivolol valsartan|byvalson");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "metoprolol succinate|toprol xl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "carvedilol er|coreg cr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "propranolol er|inderal la|innopran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "penbutolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "carteolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "nifedipine er|procardia xl|adalat cc");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "levamlodipine|conjupri");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "amlodipine suspension|katerzia|norliqva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "diltiazem er|cardizem cd|cardizem la|tiazac|cartia xt");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "verapamil er|calan sr|isoptin sr|verelan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "trandolapril verapamil|tarka");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "lisinopril oral solution|qbrelis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "chlorothiazide|diuril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "methyclothiazide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "finerenone|kerendia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "guanabenz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 65, "metyrosine|demser");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 85, "moxonidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 85, "rilmenidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 85, "celiprolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a blood pressure medication", 88, "cilnidipine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 40, "ssris|ssri|selective serotonin reuptake inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 40, "snris|snri");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 40, "antidepressants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 40, "antipsychotics|neuroleptics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 40, "benzodiazepines|benzos");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 40, "stimulants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 40, "mood stabilizers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "tricyclic antidepressants|tcas");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "maois|mao inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "anxiolytics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "atypical antipsychotics|second generation antipsychotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "typical antipsychotics|first generation antipsychotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "long acting injectable antipsychotics|lais");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "olanzapine fluoxetine|symbyax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "perphenazine amitriptyline|triavil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "chlordiazepoxide amitriptyline|limbitrol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "dextroamphetamine|dexedrine|zenzedi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "methamphetamine|desoxyn");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "serdexmethylphenidate|azstarys");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "dextromethorphan quinidine|nuedexta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "gepirone|exxua");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "clorazepate|tranxene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "clobazam|onfi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "triazolam|halcion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "daridorexant|quviviq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "lofexidine|lucemyra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "buprenorphine|suboxone|subutex|sublocade|brixadi|zubsolv");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "benztropine|cogentin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "trihexyphenidyl|artane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "l methylfolate|deplin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "dexmedetomidine sublingual|igalmi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "chlorprothixene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "mesoridazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "promazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "levomepromazine|methotrimeprazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "penfluridol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "blonanserin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "perospirone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "zotepine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "melperone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "benperidol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "tetrabenazine|xenazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "milnacipran|savella");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 65, "mianserin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 70, "memantine|namenda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 70, "donepezil|aricept");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 75, "rivastigmine|exelon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 75, "galantamine|razadyne");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 75, "st john's wort");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 80, "s adenosylmethionine|same");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 75, "sodium oxybate|xyrem|xywav|lumryz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 80, "pitolisant|wakix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 70, "zaleplon|sonata");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 75, "estazolam|prosom");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 75, "flurazepam|dalmane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 80, "quazepam|doral");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 80, "tasimelteon|hetlioz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 70, "varenicline|chantix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a psychiatric medication", 70, "methadone|dolophine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "nalmefene|opvee|zurnai|revex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "dmps|unithiol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "bromocriptine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "black widow antivenin|latrodectus antivenin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "coral snake antivenin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "botulism antitoxin|bat|heptavalent botulinum antitoxin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "babybig|botulism immune globulin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "diphtheria antitoxin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "rabies immune globulin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "tetanus immune globulin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "hyaluronidase|hylenex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "dimethyl sulfoxide|dmso");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 65, "desmopressin|ddavp");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 75, "sodium zirconium cyclosilicate|lokelma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 75, "multiple dose activated charcoal|mdac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 75, "urinary alkalinization|urine alkalinization");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 80, "penicillin g for amanita");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 70, "edrophonium|tensilon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antidote", 75, "trientine|syprine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a birth control method", 65, "hormonal iud|levonorgestrel iud|lng iud");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a birth control method", 65, "lo loestrin fe|loestrin|junel|microgestin|blisovi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a birth control method", 65, "alesse|aviane|levora|nordette|portia|lutera|lessina");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a birth control method", 65, "apri|desogen|kariva|azurette|mircette");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a birth control method", 65, "natazia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a birth control method", 65, "tyblume");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a birth control method", 65, "balcoltra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a birth control method", 65, "beyaz|safyral");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a birth control method", 65, "taytulla");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a birth control method", 65, "symptothermal method");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "dexbrompheniramine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "trimeprazine|alimemazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "azatadine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "phenindamine|nolahist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "pyrilamine|mepyramine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "tripelennamine|pbz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "antazoline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "mequitazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "oxatomide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "levocabastine|livostin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "roxatidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 70, "h3 antagonists|pitolisant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 75, "doxepin|silenor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antihistamine", 80, "h3 antagonist|wakix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ADHD medication", 65, "amphetamine er|adzenys xr odt|adzenys er|dyanavel xr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ADHD medication", 65, "aptensio xr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ADHD medication", 65, "armodafinil|nuvigil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ADHD medication", 65, "tricyclic antidepressants|desipramine|imipramine|nortriptyline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ADHD medication", 65, "alpha 2 agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ADHD medication", 65, "pemoline|cylert");  // 2026-11-05 · NAPLEX · board-testable

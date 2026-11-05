@@ -3118,3 +3118,191 @@ crowdAlias("Name a drug that comes from a plant or natural source", "captopril",
 crowdAlias("Name a drug that comes from a plant or natural source", "streptomycin", "streptomyces");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a drug that comes from a plant or natural source", "scopolamine", "jimsonweed|datura|hyoscine");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a drug that comes from a plant or natural source", "etoposide", "podophyllotoxin|podophyllum|teniposide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "sildenafil", "revatio");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "tadalafil", "adcirca|entadfi");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "oxybutynin", "ditropan xl|oxytrol|gelnique");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "tolterodine", "detrol la");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "trospium", "sanctura");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "darifenacin", "enablex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "solifenacin", "vesicare ls");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "jalyn", "dutasteride tamsulosin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "alprostadil", "caverject|edex|muse");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "trimix", "papaverine phentolamine alprostadil|bimix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "desmopressin", "noctiva|nocdurna|ddavp");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "imipramine", "tofranil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "flavoxate", "urispas");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for BPH, overactive bladder or erectile dysfunction", "saw palmetto", "serenoa repens");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "metoprolol", "metoprolol tartrate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "labetalol", "trandate|normodyne");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "bisoprolol", "zebeta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "nadolol", "corgard");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "pindolol", "visken");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "acebutolol", "sectral");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "betaxolol", "kerlone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "timolol", "blocadren");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "felodipine", "plendil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "isradipine", "dynacirc");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "nicardipine", "cardene");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "nisoldipine", "sular");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "lercanidipine", "zanidip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "captopril", "capoten");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "enalapril", "epaned");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "fosinopril", "monopril");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "moexipril", "univasc");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "perindopril", "aceon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "trandolapril", "mavik");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "irbesartan", "avalide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "eprosartan", "teveten");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "hydrochlorothiazide", "microzide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "chlorthalidone", "thalitone|hygroton");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "indapamide", "lozol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "metolazone", "zaroxolyn");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "bumetanide", "bumex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "torsemide", "demadex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "spironolactone", "carospir");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "amiloride", "midamor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "triamterene", "dyrenium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "clonidine", "catapres tts|kapvay");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "guanfacine", "tenex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "methyldopa", "aldomet");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "terazosin", "hytrin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "phenoxybenzamine", "dibenzyline");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "hydralazine", "apresoline");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "minoxidil", "loniten");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "sodium nitroprusside", "nipride");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "fenoldopam", "corlopam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "clevidipine", "cleviprex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "aprocitentan", "tryvio");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a blood pressure medication", "esmolol", "brevibloc");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "aripiprazole", "aripiprazole lauroxil|aristada");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "aripiprazole", "abilify maintena|abilify asimtufii");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "risperidone", "risperdal consta|perseris|uzedy|rykindo|risvan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "paliperidone", "invega sustenna|invega trinza|invega hafyera|paliperidone palmitate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "haloperidol", "haloperidol decanoate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "fluphenazine", "fluphenazine decanoate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "olanzapine", "olanzapine pamoate|zyprexa relprevv");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "lithium", "lithium carbonate|lithobid|eskalith|lithium citrate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "valproate", "depakote er");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "adderall", "adderall xr|amphetamine salts");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "ritalin", "metadate|methylin|quillivant|aptensio|jornay pm|cotempla|relexxii");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "clonidine", "clonidine er");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "guanfacine", "guanfacine er");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "bupropion", "bupropion xl|wellbutrin xl|aplenzin|forfivo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "xanax", "alprazolam xr|xanax xr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "doxepin", "doxepin low dose|silenor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "aripiprazole", "abilify mycite");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "asenapine", "asenapine patch|secuado");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "loxapine", "loxapine inhaled|adasuve");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "olanzapine", "olanzapine odt|zyprexa zydis");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "venlafaxine", "venlafaxine er|effexor xr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "trazodone", "trazodone er|oleptro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "clozapine", "clozapine odt|fazaclo|versacloz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a psychiatric medication", "dexmethylphenidate", "dexmethylphenidate xr|focalin xr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "naloxone", "evzio|kloxxado|zimhi|rextovy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "n acetylcysteine", "acetadote");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "flumazenil", "romazicon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "atropine", "atropen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "pralidoxime", "protopam|duodote|atnaa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "physostigmine", "antilirium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "vitamin k", "aquamephyton|mephyton");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "prothrombin complex concentrate", "4 factor pcc|balfaxar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "fomepizole", "antizol|4 mp");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "ethanol", "alcohol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "methylene blue", "provayblue");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "deferoxamine", "desferal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "dimercaprol", "british anti lewisite");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "edta", "calcium edta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "succimer", "chemet");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "prussian blue", "radiogardase");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "potassium iodide", "thyrosafe|iosat");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "dtpa", "pentetate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "dantrolene", "dantrium|ryanodex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "cyproheptadine", "periactin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "benzodiazepines", "midazolam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "lipid emulsion", "ilet");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "insulin", "hyperinsulinemia euglycemia therapy|hiet");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "octreotide", "sandostatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "thiamine", "vitamin b1");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "glucarpidase", "voraxaze");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "uridine triacetate", "vistogard");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "levocarnitine", "carnitor|l carnitine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "dexrazoxane", "zinecard|totect");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "mesna", "mesnex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "amifostine", "ethyol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "activated charcoal", "actidose");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "whole bowel irrigation", "golytely");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "oxygen", "100% oxygen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "antivenom", "crotalidae polyvalent immune fab|anavip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "sugammadex", "bridion");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "neostigmine", "bloxiverz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "phentolamine", "regitine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "silibinin", "legalon sil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "cyanide antidote kit", "lilly kit|nithiodote");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antidote", "ipecac", "syrup of ipecac");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "condom", "male condom|external condom");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "paragard", "copper t");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "tubal ligation", "bilateral tubal ligation|btl");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "vasectomy", "no scalpel vasectomy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "salpingectomy", "bilateral salpingectomy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "plan b", "plan b one step|levonorgestrel emergency contraception|my way|take action|aftera");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "depo provera", "dmpa|medroxyprogesterone injection");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "implant", "implanon|etonogestrel implant|the rod");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "patch", "zafemy|contraceptive patch");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "nuvaring", "ethinyl estradiol etonogestrel ring|ekyra|haloette");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "mini pill", "camila|errin|heather|jencycla");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "opill", "norgestrel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "slynd", "drospirenone only pill");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "seasonique", "extended cycle pills|amethyst|lybrel|quartette");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "yaz", "ocella|gianvi|loryna|nikki");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "sprintec", "mononessa|estarylla");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "tri sprintec", "ortho tri cyclen|tri estarylla");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "diaphragm", "caya");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "sponge", "contraceptive sponge");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "spermicide", "vcf|spermicidal gel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "phexxi", "vaginal ph modulator");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "female condom", "fc2");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "withdrawal", "coitus interruptus");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "fertility awareness", "calendar method|standard days method");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "cervical mucus method", "billings method");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "natural cycles app", "fertility app");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a birth control method", "lactational amenorrhea", "lam|breastfeeding");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "benadryl", "sominex|nytol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "claritin", "alavert");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "zyrtec", "reactine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "allegra", "telfast");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "clarinex", "aerius|neoclarityn");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "meclizine", "bonine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "dramamine", "gravol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "brompheniramine", "dimetane|lodrane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "carbinoxamine", "karbinal|arbinoxa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "triprolidine", "actifed|zymine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "dexchlorpheniramine", "polaramine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "olopatadine", "pazeo|patanase");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "azelastine", "astepro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "ketotifen", "alaway|zaditen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "epinastine", "elestat");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "bepotastine", "bepreve");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "alcaftadine", "lastacaft");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "emedastine", "emadine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "bilastine", "blexten");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "acrivastine", "semprex d");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "zyrtec d", "cetirizine pseudoephedrine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "claritin d", "loratadine pseudoephedrine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "allegra d", "fexofenadine pseudoephedrine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "h1 blocker", "h1 antihistamines|h1 receptor antagonist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "h2 blocker", "h2 antihistamines|h2 receptor antagonist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "cimetidine", "tagamet");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "ranitidine", "zantac");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antihistamine", "nizatidine", "axid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "non stimulant", "nonstimulant");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "adderall", "mixed amphetamine salts|amphetamine dextroamphetamine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "ritalin", "ritalin sr|metadate cd");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "concerta", "methylphenidate er|osmotic release methylphenidate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "vyvanse", "elvanse");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "intuniv", "guanfacine er");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "kapvay", "clonidine er");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "evekeo", "amphetamine sulfate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "azstarys", "serdexmethylphenidate dexmethylphenidate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "quillichew er", "quillivant xr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "modafinil", "provigil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ADHD medication", "onyda xr", "clonidine oral suspension");  // 2026-11-05 · NAPLEX · same answer

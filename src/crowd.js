@@ -3306,3 +3306,121 @@ crowdAlias("Name an ADHD medication", "azstarys", "serdexmethylphenidate dexmeth
 crowdAlias("Name an ADHD medication", "quillichew er", "quillivant xr");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name an ADHD medication", "modafinil", "provigil");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name an ADHD medication", "onyda xr", "clonidine oral suspension");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "hydrocodone", "hydrocodone acetaminophen|lortab");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "oxycodone", "oxycodone acetaminophen|endocet");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "codeine", "tylenol with codeine|tylenol 3|acetaminophen codeine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "tramadol", "ultracet|tramadol acetaminophen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "naproxen", "naproxen sodium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "aspirin", "bayer|ecotrin|bufferin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "diclofenac", "voltaren gel|diclofenac gel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "lidocaine", "lidoderm|lidocaine patch");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "morphine", "morphine sulfate|ms contin|kadian");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "fentanyl", "fentanyl patch|duragesic");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "buprenorphine", "butrans|buprenorphine patch|belbuca");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "sufentanil", "sufentanil sublingual|dsuvia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "ketorolac", "ketorolac nasal|sprix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "meloxicam", "meloxicam iv|anjeso");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "bupivacaine", "liposomal bupivacaine|exparel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "tramadol", "tramadol er|conzip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "hydrocodone", "hydrocodone er|hysingla|zohydro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "acetaminophen", "acetaminophen iv|ofirmev");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a painkiller", "ibuprofen", "ibuprofen iv|caldolor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "advil", "motrin ib|advil liqui gels");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "tylenol", "tylenol extra strength");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "aspirin", "bayer aspirin|baby aspirin|ecotrin|bufferin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "aleve", "naproxen sodium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "excedrin", "excedrin migraine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "claritin", "claritin reditabs");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "tylenol", "children's tylenol|infant tylenol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "advil", "children's motrin|infant motrin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "benadryl", "children's benadryl");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "claritin", "children's claritin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "zyrtec", "children's zyrtec");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "hydrocortisone cream", "cortaid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "zaditor", "alaway");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "artificial tears", "refresh|systane|genteal|blink tears");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "mucinex", "mucinex dm|mucinex d|mucinex fast max");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "robitussin", "robitussin dm");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "phenylephrine", "sudafed pe");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "nasacort", "nasacort allergy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "flonase", "flonase sensimist");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "nexium", "nexium 24hr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "lansoprazole", "prevacid 24hr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "pepcid", "pepcid ac|pepcid complete");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "cimetidine", "tagamet hb");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "milk of magnesia", "phillips milk of magnesia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "imodium", "imodium a d");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "unisom", "unisom sleeptabs");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "nicorette", "nicoderm cq");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "nicorette", "nicorette gum");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "plan b", "plan b one step|my way|take action|aftera|option 2");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "monistat", "monistat 1|monistat 3|monistat 7");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "lotrimin", "gyne lotrimin|clotrimazole vaginal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "azo", "azo standard");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "lamisil", "terbinafine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "lotrimin", "lotrimin af");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "gold bond", "gold bond powder");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "cortizone", "cortizone 10");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "benadryl", "benadryl itch cream");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "differin", "differin gel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "benzoyl peroxide", "panoxyl");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "salicylic acid", "stridex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "compound w", "salicylic acid wart remover");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "carmex", "chapstick|blistex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "voltaren gel", "voltaren arthritis gel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "lidocaine patch", "aspercreme lidocaine|salonpas lidocaine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "preparation h", "phenylephrine hemorrhoid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "swim ear", "isopropyl alcohol ear drops");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "head lice treatment", "pyrethrins");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "narcan", "narcan nasal spray|naloxone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "glucose tablets", "glucose gel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "multivitamin", "centrum|one a day");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an over-the-counter medication", "iron supplements", "iron|slow fe|feosol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication dosage form", "capsule", "hard gelatin capsule");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication dosage form", "gel cap", "soft gelatin capsule");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication dosage form", "lollipop", "oral transmucosal lozenge");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a common medication side effect", "dizziness", "lightheadedness");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a common medication side effect", "yeast infection", "thrush|oral candidiasis");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a common medication side effect", "dependence", "abuse potential");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a common medication side effect", "dry cough", "bradykinin cough");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a common medication side effect", "low blood pressure", "first dose hypotension");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a common medication side effect", "swelling", "ankle swelling|peripheral edema");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "adderall", "stimulants");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "tapentadol", "nucynta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "oxymorphone", "opana");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "morphine", "ms contin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "codeine", "tylenol 3|tylenol with codeine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "fentanyl", "duragesic|sublimaze");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "sufentanil", "dsuvia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "remifentanil", "ultiva");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "methadone", "dolophine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "suboxone", "subutex|sublocade|butrans|belbuca");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "butorphanol", "stadol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "pentazocine", "talwin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "tramadol", "ultram");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "cocaine", "coca");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "ritalin", "concerta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "adderall", "evekeo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "dextroamphetamine", "dexedrine|zenzedi");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "methamphetamine", "desoxyn|crystal meth");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "phentermine", "adipex|lomaira");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "modafinil", "provigil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "armodafinil", "nuvigil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "chlordiazepoxide", "librium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "temazepam", "restoril");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "eszopiclone", "lunesta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "zaleplon", "sonata");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "suvorexant", "belsomra");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "xyrem", "xywav|lumryz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "ketamine", "special k");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "cenobamate", "xcopri");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "marijuana", "weed");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "dronabinol", "syndros");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "nabilone", "cesamet");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "lsd", "acid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "cathinone", "synthetic cathinones|mephedrone|alpha pvp|flakka");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "cathinone", "khat");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "testosterone", "androgel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "nandrolone", "deca durabolin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "oxandrolone", "oxandrin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a controlled substance", "promethazine with codeine", "cheratussin ac|robitussin ac");  // 2026-11-05 · NAPLEX · same answer

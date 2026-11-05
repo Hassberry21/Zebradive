@@ -23661,3 +23661,380 @@ board("Name an ADHD medication", 65, "armodafinil|nuvigil");  // 2026-11-05 · N
 board("Name an ADHD medication", 65, "tricyclic antidepressants|desipramine|imipramine|nortriptyline");  // 2026-11-05 · NAPLEX · board-testable
 board("Name an ADHD medication", 65, "alpha 2 agonists");  // 2026-11-05 · NAPLEX · board-testable
 board("Name an ADHD medication", 65, "pemoline|cylert");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 40, "nsaids|nsaid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 40, "opioids|opiates|narcotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "analgesics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "fioricet|butalbital");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "excedrin|aspirin acetaminophen caffeine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "goody's powder|bc powder");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "midol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "icy hot");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "bengay");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "aspercreme|trolamine salicylate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "salonpas");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "biofreeze");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "cox 2 inhibitors|coxibs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "oliceridine|olinvyk");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "ibuprofen famotidine|duexis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "naproxen esomeprazole|vimovo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "celecoxib tramadol|seglentis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "bupivacaine meloxicam|zynrelef");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "fenoprofen|nalfon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "tolmetin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "meclofenamate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "choline magnesium trisalicylate|trilisate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "magnesium salicylate|doans");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "benzhydrocodone|apadaz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "rimegepant|nurtec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "ubrogepant|ubrelvy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "lasmiditan|reyvow");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "rizatriptan|maxalt");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "zolmitriptan|zomig");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "eletriptan|relpax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "naratriptan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "almotriptan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "frovatriptan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "methoxyflurane|penthrox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "entonox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 70, "phenylbutazone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 75, "nortriptyline|pamelor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 75, "milnacipran|savella");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 75, "methocarbamol|robaxin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 75, "tizanidine|zanaflex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 80, "corticosteroids|cortisone shot|steroid injection");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 75, "arnica");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 75, "willow bark");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 75, "kratom");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a painkiller", 80, "tiger balm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "goody's powder|bc powder");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "desitin|diaper rash cream|zinc oxide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "a and d ointment");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "aquaphor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "vaseline|petroleum jelly");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "eucerin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "cerave");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "lanacane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "anbesol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "zilactin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "kank a");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "act fluoride rinse");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "visine a|naphcon a|opcon a|naphazoline pheniramine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "lumify|brimonidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "clear eyes|naphazoline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "murine ear drops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "auro dri");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "ocean nasal spray");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "vicks sinex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "delsym");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "triaminic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "dimetapp");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "contac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "dristan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "alka seltzer plus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "tylenol cold");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "advil cold and sinus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "claritin d");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "zyrtec d");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "allegra d");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "gaviscon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "ex lax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "fleet enema|fleet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "glycerin suppository");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "benefiber");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "konsyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "peri colace");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "kaopectate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "align|culturelle|florastor|probiotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "nauzene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "sominex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "nytol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "simply sleep");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "nicorette lozenge|nicotine lozenge");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "vagistat|tioconazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "uristat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "cystex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "lotrimin ultra|butenafine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "desenex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "micatin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "selsun blue|selenium sulfide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "nizoral a d|ketoconazole shampoo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "head and shoulders|pyrithione zinc");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "t gel|coal tar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "dermarest");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "sarna");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "domeboro|aluminum acetate|burow's solution");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "oatmeal bath|aveeno");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "bactine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "betadine|povidone iodine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "hibiclens|chlorhexidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "clearasil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "proactiv");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "dr scholl's freeze away");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "campho phenique");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "sucrets");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "mentholatum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "tiger balm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "capsaicin cream|capzasin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "anusol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "natroba");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "sklice");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "pinworm medicine|pin x|reese's pinworm|pyrantel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "bronkaid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "asthmanefrin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "rivive");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "oral rehydration salts");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "prenatal vitamins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "vitamin c");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "vitamin b12");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "folic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "calcium|caltrate|citracal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "magnesium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "zinc");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "fish oil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "cold eeze");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "elderberry|sambucol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "arnica|arnicare");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "alli|orlistat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "replens");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "hydrocortisone 1%");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "aluminum hydroxide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "sodium bicarbonate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "glycerin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "mineral oil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 70, "alpha galactosidase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 75, "baking soda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 75, "pyrethrins piperonyl butoxide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 80, "pramoxine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an over-the-counter medication", 80, "camphor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "film coated tablet|coated tablet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "sugar coated tablet|dragee");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "scored tablet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "multilayer tablet|bilayer tablet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "vaginal tablet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "dispersible tablet|tablet for oral suspension");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "soluble tablet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "sprinkle capsule|capsule sprinkle");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "pulvule");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "oral drops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "oral concentrate|intensol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "mixture");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "linctus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "magma|milk");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "aromatic water");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "fluidextract|extract");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "glycerite");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "jelly");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "mucilage");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "aerosol|aerosol foam|topical aerosol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "soft mist inhaler|respimat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "nebule|respule");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "nasal powder");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "nasal drops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "eye gel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "eye insert|ocular insert|lacrisert");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "intravitreal implant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "vaginal suppository|vaginal insert|ovule");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "rectal enema|retention enema");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "intrauterine system");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "transdermal gel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "transdermal spray");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "iontophoretic system");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "medicated plaster|plaster");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "poultice|cataplasm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "lyophilized powder for injection");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "powder for injection|powder for reconstitution");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "on body injector|onpro");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "subcutaneous implant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "extended release injectable suspension");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "drug eluting stent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "wafer implant|gliadel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "intravaginal insert");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "osmotic tablet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "matrix tablet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "bead filled capsule");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "orally disintegrating film|odf");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "sublingual film");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "sublingual spray");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "buccal tablet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "lingual spray");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "mouth spray|oral spray");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "oral paste");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "periodontal chip");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "effervescent granules");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 70, "immediate release|ir tablet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 75, "vaginal cream");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 75, "urethral suppository|muse");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 75, "premixed iv bag|premix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 75, "cartridge|insulin cartridge");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication dosage form", 75, "medicated soap");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "heartburn|acid reflux");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "abdominal pain|stomach pain|stomach cramps");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "bloating|gas|flatulence");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "dry eyes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "runny nose|nasal congestion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "sore throat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "flushing|hot flashes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "night sweats");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "chills");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "fever|drug fever");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hives|urticaria");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "injection site reaction|injection site pain");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "metallic taste|taste changes|dysgeusia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "increased appetite");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "nightmares|vivid dreams");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "agitation|irritability");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hallucinations");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "memory problems|memory loss");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "trouble concentrating|brain fog");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "muscle cramps|leg cramps");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "joint pain|arthralgia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "weakness");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "numbness|tingling|paresthesia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "seizures");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "frequent urination");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "urinary incontinence");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "orange urine|red urine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "green urine|blue urine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "black stools");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "acne");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "skin discoloration|hyperpigmentation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "dry skin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "nail changes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hair growth");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "breast tenderness");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "irregular periods|spotting|breakthrough bleeding");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "delayed ejaculation|anorgasmia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "birth defects|teratogenicity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "high blood pressure|hypertension");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "high cholesterol|hyperlipidemia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "diabetes|new onset diabetes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hypothyroidism");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hypomagnesemia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hyperuricemia|gout");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "metabolic acidosis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "anemia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hemolytic anemia|hemolysis|hemolysis in g6pd deficiency");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "neutropenia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "leukopenia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "pancytopenia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "bone marrow suppression|myelosuppression");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "infections|increased infection risk");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "cancer risk|secondary malignancy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "blood clots|dvt|vte|thrombosis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "stroke");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "heart attack|myocardial infarction");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "heart failure");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "arrhythmia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "torsades de pointes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "av block");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "shortness of breath|dyspnea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "bronchospasm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "wheezing");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "interstitial lung disease|pneumonitis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "nosebleeds|epistaxis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hematuria");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "kidney stones");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "acute kidney injury");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "interstitial nephritis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "cholestasis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "jaundice");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "elevated liver enzymes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hepatitis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "drug induced liver injury");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "cataracts");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "glaucoma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "optic neuritis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "retinopathy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "vision changes|visual disturbances");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "vertigo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "ataxia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "slurred speech");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "restless legs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "parkinsonism");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "malignant hyperthermia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hyperthermia|heat intolerance");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "photosensitivity rash");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "dress syndrome|drug reaction with eosinophilia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "toxic epidermal necrolysis|ten");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "fixed drug eruption");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "erythema multiforme");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "contact dermatitis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "stretch marks|striae");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "avascular necrosis|osteonecrosis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "fractures");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "adrenal suppression");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "growth suppression");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hypogonadism");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hyperprolactinemia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "galactorrhea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "amenorrhea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "rebound hypertension");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "rebound congestion|rhinitis medicamentosa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "medication overuse headache|rebound headache");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "paradoxical excitation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "anticholinergic effects");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "cinchonism");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "digoxin toxicity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "lithium toxicity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "methemoglobinemia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "serum sickness");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "jarisch herxheimer reaction");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "infusion reaction");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "cytokine release syndrome");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "tumor lysis syndrome");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "progressive multifocal leukoencephalopathy|pml");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "posterior reversible encephalopathy|pres");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hyperammonemia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "reflex tachycardia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "gingivitis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "tooth decay|dental caries");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "dehydration");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "hiccups");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "excessive salivation|sialorrhea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "stomatitis|mouth sores|mucositis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "esophagitis|pill esophagitis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a common medication side effect", 65, "nephrogenic diabetes insipidus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 40, "schedule ii drugs|schedule ii|c ii");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 45, "schedule i drugs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 45, "opioids|narcotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 45, "benzodiazepines|benzos");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "nalbuphine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "eluxadoline|viberzi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "difenoxin|motofen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "opium tincture|paregoric|laudanum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "dexmethylphenidate|focalin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "phendimetrazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "lorcaserin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "solriamfetol|sunosi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "clorazepate|tranxene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "oxazepam|serax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "triazolam|halcion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "estazolam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "flurazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "quazepam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "remimazolam|byfavo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "clobazam|onfi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "lemborexant|dayvigo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "daridorexant|quviviq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "butalbital|fioricet|fiorinal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "pentobarbital|nembutal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "secobarbital|seconal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "methohexital|brevital");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "lacosamide|vimpat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "brivaracetam|briviact");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "perampanel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "methaqualone|quaalude");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "bufotenine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "oxymetholone|anadrol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "stanozolol|winstrol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "trenbolone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "boldenone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "methyltestosterone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "hydrocodone cough syrup|tussionex|hycodan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "u 47700");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "acetylfentanyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "fentanyl analogs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 70, "2c b");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 85, "fluoxymesterone|androxy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 75, "hashish|hash");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a controlled substance", 85, "gabapentin");  // 2026-11-05 · NAPLEX · board-testable

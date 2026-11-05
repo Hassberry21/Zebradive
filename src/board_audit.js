@@ -22774,3 +22774,711 @@ board("Name a vasopressor or ICU drip", 80, "alteplase|tpa");  // 2026-11-05 · 
 board("Name a vasopressor or ICU drip", 75, "oxytocin|pitocin");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a vasopressor or ICU drip", 80, "calcium gluconate drip|calcium chloride drip");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a vasopressor or ICU drip", 85, "bumetanide drip");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 45, "nsaids|nonsteroidal anti inflammatory drugs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 45, "prednisolone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "diclofenac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "sulindac|clinoril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "ketorolac|toradol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "meloxicam|mobic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "etoricoxib|arcoxia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "piroxicam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "ketoprofen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "diflunisal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "uricosurics|uricosuric agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "dotinurad");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "topiroxostat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "rilonacept|arcalyst");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "il 1 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug used to treat gout", 75, "sodium bicarbonate|potassium citrate|urine alkalinization");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "nalmefene nasal|opvee");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "flunisolide nasal|nasarel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "nasal steroids|intranasal corticosteroids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "xylometazoline|otrivin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "naphazoline nasal|privine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "tetrahydrozoline nasal|tyzine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "levmetamfetamine|vicks vapoinhaler");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "ketorolac nasal|sprix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "fentanyl nasal|lazanda|instanyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "nafarelin|synarel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "oxytocin nasal|syntocinon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "testosterone nasal|natesto");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "glucagon nasal|baqsimi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "varenicline nasal|tyrvaya");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "metoclopramide nasal|gimoti");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "xlear|xylitol nasal spray");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a medication that comes as a nasal spray", 70, "capsaicin nasal spray|sinus buster");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "rifabutin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "rifapentine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "prasugrel|effient");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "ticagrelor|brilinta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "apixaban|eliquis|doacs|rivaroxaban|dabigatran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "grapefruit juice");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "azithromycin|zithromax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "doxycycline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "amoxicillin clavulanate|augmentin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "nafcillin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "dicloxacillin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "isoniazid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "itraconazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "ketoconazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "miconazole|miconazole gel|monistat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "griseofulvin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "cimetidine|tagamet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "gemfibrozil|lopid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "cholestyramine|questran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "fluvoxamine|luvox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "tramadol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "dronedarone|multaq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "corticosteroids|prednisone|dexamethasone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "testosterone|anabolic steroids|oxandrolone|danazol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "estrogens|oral contraceptives");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "ritonavir|protease inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "nirmatrelvir ritonavir|paxlovid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "disulfiram|antabuse");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "multivitamins|ensure|enteral feeds|tube feeds");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 65, "cannabis|cbd|cannabidiol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 70, "green tea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "chamomile");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 70, "glucosamine|glucosamine chondroitin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 70, "ginger");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 70, "turmeric|curcumin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 70, "coenzyme q10|coq10");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 70, "vitamin e");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "bromelain");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "feverfew");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 80, "saw palmetto");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 70, "fluvastatin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "rosuvastatin|crestor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "lovastatin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "diltiazem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 80, "propylthiouracil|methimazole|antithyroid drugs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "bosentan|tracleer");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "nevirapine|efavirenz|nnrtis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "leflunomide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "cyclosporine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 80, "posaconazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "tetracycline|minocycline|tetracyclines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "moxifloxacin|avelox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "quinine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "sulfinpyrazone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "cefotetan|cefoperazone|cephalosporins with mtt side chain");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "penicillin high dose iv");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "fluorouracil|5 fu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 75, "imatinib|gleevec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 80, "goldenseal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that interacts with warfarin", 80, "licorice");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "liothyronine|cytomel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 65, "rabeprazole|aciphex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 70, "dexlansoprazole|dexilant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "oxacillin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 80, "nafcillin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 80, "demeclocycline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 85, "azithromycin suspension|zithromax capsules");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "sorafenib|nexavar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "cabozantinib|cabometyx");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "afatinib|gilotrif");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "trametinib|mekinist");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "dabrafenib|tafinlar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "temozolomide|temodar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "bethanechol|urecholine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 70, "metoclopramide|reglan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 80, "domperidone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "trospium|sanctura");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "penicillamine|cuprimine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "trientine|syprine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "zinc acetate|galzin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "deferasirox|exjade");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 85, "tacrolimus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "itraconazole solution|sporanox oral solution");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "voriconazole|vfend");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "erythromycin base|erythromycin stearate|ery tab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 70, "glipizide|glucotrol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "repaglinide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "nateglinide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 60, "semaglutide oral|rybelsus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "ivermectin|stromectol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 80, "levodopa|carbidopa levodopa|sinemet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 80, "selegiline odt|zelapar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "zolpidem|ambien");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 85, "eszopiclone|lunesta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 85, "zaleplon|sonata");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 85, "ramelteon|rozerem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 85, "suvorexant|belsomra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 85, "nisoldipine|sular");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "cilostazol|pletal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug best taken on an empty stomach", 75, "fexofenadine|allegra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "primary engineering control|pec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "secondary engineering control|sec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "compounding aseptic isolator|cai");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "compounding aseptic containment isolator|caci");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "containment ventilated enclosure|cve|powder hood");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "hepa filter|high efficiency particulate air filter");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "iso class 7|iso 7");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "iso class 8|iso 8");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "segregated compounding area|sca");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "clean room suite|cleanroom");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "air changes per hour|ach");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "gloved fingertip test|gloved fingertip sampling");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "usp grade|nf grade|api|active pharmaceutical ingredient");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "ointment base|hydrocarbon base|absorption base|water removable base|water soluble base");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "petrolatum|white petrolatum|vaseline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "lanolin|anhydrous lanolin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "aquaphor|eucerin|cold cream");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "polyethylene glycol|peg base");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "plo gel|pluronic lecithin organogel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "versabase|lipoderm|pentravan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "cocoa butter|theobroma oil|fattibase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "polybase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "ora plus|ora sweet|ora blend|syrspend");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "simple syrup|syrup");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "methylcellulose");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "suspending agent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "emulsifying agent|emulsifier");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "wetting agent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "levigating agent|mineral oil|glycerin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "preservative|benzalkonium chloride|parabens|benzyl alcohol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "lactose|diluent|filler");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "microcrystalline cellulose");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "magnesium stearate|lubricant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "spatulation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "pulverization by intervention");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "fusion method");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "comminution|particle size reduction");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "wet gum method|continental method|dry gum method|english method|bottle method");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "aliquot method");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "alligation|alligation alternate|alligation medial");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "specific gravity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "displacement factor|density factor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "percent strength|w/w|w/v|v/v");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "ratio strength");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "milliequivalents|meq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "osmolarity|isotonicity|sodium chloride equivalent|e value");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "sensitivity requirement|minimum weighable quantity|least weighable quantity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "usp 795");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "usp 797");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "usp 800");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "beaker");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "pipette|pipet|micropipette");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "syringe|oral syringe|luer lock syringe");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "filter needle|vented needle|needle");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 65, "funnel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "sieve|mesh screen|sifter");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "stirring rod|glass rod");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "hot plate|magnetic stirrer|stir plate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 75, "water bath");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 75, "homogenizer");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 75, "ointment mill|three roller mill");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 75, "crimper|decrimper");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 75, "ph meter|ph paper");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "troche mold|lozenge mold|gummy mold");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 75, "tablet triturate mold");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "punch method|capsule punch method");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "automated compounding device|acd|baxa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "iv admixture");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 75, "tpn compounding|total parenteral nutrition|tpn");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "closed system transfer device|cstd");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "hazardous drug spill kit|spill kit");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "chemo gown|chemotherapy gloves|double gloving");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "deactivation|decontamination");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "sterile 70% isopropyl alcohol|sterile ipa|ipa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "sporicidal agent|sporicidal disinfectant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "aseptic technique");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "first air");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "critical site");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "terminal sterilization|autoclave|steam sterilization");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "dry heat sterilization|depyrogenation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "filter sterilization|0.22 micron filter|sterilizing filter");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 75, "bubble point test|filter integrity test");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "endotoxin testing|lal test|bacterial endotoxins test");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "sterility testing");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "category 1 csp|category 2 csp|category 3 csp");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "immediate use csp|immediate use");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "master formulation record|mfr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "compounding record|cr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "certificate of analysis|coa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "safety data sheet|sds|msds");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "bulk drug substance");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "batch compounding|batch record");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "low risk level|medium risk level|high risk level");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "503a|503b|outsourcing facility");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "pcab|pcab accreditation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 75, "usp 825");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "viable air sampling|surface sampling|environmental monitoring");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "pressure differential|negative pressure|positive pressure");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "pass through chamber|pass through");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "hand hygiene|surgical scrub");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "gown|shoe covers|hair cover|face mask|beard cover|sterile gloves");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "stability|chemical stability|physical stability");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "incompatibility|incompatibilities");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "percent error");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "reconstitution");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "coring");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "large volume parenteral|lvp");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "single dose vial|multiple dose vial");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "magic mouthwash");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "flavoring|flavoring agent|flavorx");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "sweetener");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "antioxidant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a compounding term or piece of compounding equipment", 70, "buffer|buffering agent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "esterified estrogens|menest");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "estropipate|ogen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "synthetic conjugated estrogens|cenestin|enjuvia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "mestranol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "methyltestosterone|android|testred");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "fluoxymesterone|androxy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "norgestimate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "desogestrel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "drospirenone|slynd|yaz|yasmin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "etonogestrel|nexplanon|nuvaring");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "norgestrel|opill");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "segesterone|annovera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "hydroxyprogesterone caproate|makena");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "progestins|progestogens");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "combined oral contraceptives|birth control pills|the pill");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "hormone replacement therapy|hrt|menopausal hormone therapy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "prempro|premphase|conjugated estrogens medroxyprogesterone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "activella|estradiol norethindrone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "angeliq|drospirenone estradiol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "bijuva|estradiol progesterone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "duavee|conjugated estrogens bazedoxifene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "femhrt|jinteli");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "tibolone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "fezolinetant|veozah");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "toremifene|fareston");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "bazedoxifene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "fulvestrant|faslodex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "elacestrant|orserdu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "aromatase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "triptorelin|trelstar|triptodur");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "histrelin|vantas|supprelin la");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "nafarelin|synarel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "gnrh agonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "cetrorelix|cetrotide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "ganirelix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "gnrh antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "flutamide|eulexin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "nilutamide|nilandron");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "apalutamide|erleada");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "darolutamide|nubeqa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "cyproterone acetate|androcur");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "dutasteride|avodart");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "5 alpha reductase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "antiandrogens");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "androgen deprivation therapy|adt");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "oxymetholone|anadrol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "stanozolol|winstrol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "anabolic steroids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "follitropin alfa|gonal f");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "follitropin beta|follistim");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "urofollitropin|bravelle");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "testosterone pellets|testopel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "puberty blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a hormone therapy or sex hormone drug", 65, "dihydrotestosterone|dht|androstanolone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 40, "glp 1 agonists|glp 1 injections");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "liraglutide|victoza|saxenda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "exenatide|byetta|bydureon bcise");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "pramlintide|symlin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "certolizumab|cimzia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "golimumab|simponi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "sarilumab|kevzara");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "anakinra|kineret");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "canakinumab|ilaris");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "tralokinumab|adbry");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "lebrikizumab|ebglyss");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "omalizumab|xolair");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "mepolizumab|nucala");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "benralizumab|fasenra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "tezepelumab|tezspire");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "brodalumab|siliq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "bimekizumab|bimzelx");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "guselkumab|tremfya");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "tildrakizumab|ilumya");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "mirikizumab|omvoh");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "dalteparin|fragmin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "dihydroergotamine injection|dhe 45");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "inclisiran|leqvio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "abaloparatide|tymlos");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "denosumab|prolia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "romosozumab|evenity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "interferon beta|avonex|rebif|betaseron|extavia|plegridy|peginterferon beta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "epoetin|epogen|procrit|retacrit");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "darbepoetin|aranesp");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "vitamin b12 injection|cyanocobalamin injection|b12 shots");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "medroxyprogesterone subq|depo subq provera 104");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "hcg|human chorionic gonadotropin|novarel|pregnyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "lanreotide|somatuline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "methylnaltrexone|relistor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "c1 esterase inhibitor|haegarda|cinryze|berinert");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "icatibant|firazyr|sajazir");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "lanadelumab|takhzyro");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "garadacimab|andembry");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "factor viii|advate|eloctate|altuviiio|factor ix|benefix|alprolix|clotting factor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "concizumab|alhemo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "marstacimab|hympavzi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "immune globulin subcutaneous|hizentra|cuvitru|hyqvia|xembify|scig");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "treprostinil|remodulin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "sotatercept|winrevair");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "setmelanotide|imcivree");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "teduglutide|gattex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "parathyroid hormone|natpara|yorvipath|palopegteriparatide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "burosumab|crysvita");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "asfotase alfa|strensiq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "vosoritide|voxzogo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "alprostadil|caverject|edex|trimix|penile injection");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "furoscix|furosemide subq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "enfuvirtide|fuzeon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "peginterferon alfa|pegasys");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "tbo filgrastim|granix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "sargramostim|leukine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "plerixafor|mozobil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "pegcetacoplan|empaveli");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "zilucoplan|zilbrysq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "efgartigimod subq|vyvgart hytrulo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "rozanolixizumab|rystiggo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "belimumab|benlysta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "tesamorelin|egrifta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 65, "bremelanotide|vyleesi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 70, "emicizumab|hemlibra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 75, "abatacept subq|orencia clickject|abatacept");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug patients inject themselves at home", 75, "tocilizumab subq|actemra actpen|tocilizumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 45, "darzalex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "imbruvica");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "ibrance");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "xtandi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "tagrisso");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "ocrevus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "cosentyx");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "taltz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "tremfya");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "otezla");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "xeljanz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "orencia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "actemra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "simponi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "remicade");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "rituxan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "herceptin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "avastin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "perjeta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "enhertu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "tecentriq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "imfinzi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "yervoy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "lynparza");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "calquence");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "venclexta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "jakafi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "pomalyst");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "kyprolis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "velcade");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "carvykti");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "padcev");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "trodelvy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "verzenio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "kisqali");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 45, "eylea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "lucentis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "vabysmo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "prolia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "xgeva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "repatha");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "praluent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "leqvio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "nurtec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "ubrelvy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "aimovig");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "vraylar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "rexulti");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "caplyta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "trintellix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "latuda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "invega sustenna");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "abilify maintena");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "austedo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "ingrezza");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 45, "vyvanse");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "concerta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "ritalin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "strattera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "ambien");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "valium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "ativan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "klonopin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "wellbutrin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "cymbalta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "effexor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "paxil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "celexa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "neurontin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "topamax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "lamictal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "depakote");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "suboxone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "narcan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "oxycontin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "percocet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "vicodin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "norco");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "aricept");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "namenda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "tecfidera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "kesimpta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "gilenya");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "tysabri");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "copaxone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "spinraza");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "zolgensma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "kalydeco");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "vyndaqel|vyndamax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "camzyos");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "brilinta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "pradaxa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "lovenox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "toprol xl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "coreg");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "diovan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "cozaar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "benicar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "zestril|prinivil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "cardizem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 70, "lanoxin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "zetia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "tradjenta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "janumet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "glucophage");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "actos");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "invokana");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "victoza");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "saxenda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "rybelsus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "humalog");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "novolog");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "tresiba");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "toujeo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "xolair");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "nucala");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "fasenra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "tezspire");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "trelegy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "breo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "anoro");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "flovent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "pulmicort");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "nasonex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "allegra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "benadryl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "mucinex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "aleve");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "prilosec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "pepcid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "protonix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "linzess");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "xifaxan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 50, "entyvio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 70, "omvoh");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "zeposia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "lialda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "levitra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "flomax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "premarin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "yaz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "nexplanon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "mirena");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "zytiga");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "erleada");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "nubeqa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "cabometyx");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "lenvima");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "libtayo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 70, "jemperli");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "gleevec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "tasigna");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "sprycel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "brukinsa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "yescarta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "reblozyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "promacta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "soliris");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "ultomiris");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "hemlibra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "benlysta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 70, "verquvo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "genvoya");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "descovy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "truvada");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "triumeq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "dovato");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "cabenuva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "symtuza");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "prezista");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "odefsey");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "tivicay");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "harvoni");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "epclusa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "mavyret");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "valtrex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "tamiflu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "veklury");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "zithromax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "augmentin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "gardasil 9");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "prevnar 20");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "arexvy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "abrysvo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "beyfortus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 55, "comirnaty");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "spikevax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 45, "botox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "restasis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "xiidra");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "opzelura");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 70, "cibinqo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "olumiant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 70, "sotyktu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 70, "bimzelx");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "epipen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "imitrex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "qulipta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "ajovy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "emgality");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "chantix");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "xyrem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "xywav");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 60, "spravato");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 70, "auvelity");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "cobenfy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "zyprexa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "risperdal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "pristiq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a top-selling brand-name drug", 65, "focalin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "secnidazole|solosec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "artesunate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "artemisinin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "dihydroartemisinin piperaquine|eurartesim");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "atovaquone|mepron");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "proguanil|paludrine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "quinidine gluconate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "sulfadoxine pyrimethamine|fansidar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "sulfadiazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "trimethoprim sulfamethoxazole|bactrim");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "iodoquinol|yodoxin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "diloxanide furoate|furamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "sodium stibogluconate|pentostam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "meglumine antimoniate|glucantime");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "amphotericin b|liposomal amphotericin|ambisome");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "pentamidine|pentam|nebupent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "suramin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "melarsoprol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "eflornithine|ornidyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "fexinidazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "moxidectin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "triclabendazole|egaten");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "niclosamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "oxamniquine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "levamisole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "thiabendazole|mintezol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "piperazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "bithionol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "benzyl alcohol lotion|ulesfia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "abametapir|xeglyze");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "crotamiton|eurax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "pyrethrins piperonyl butoxide|rid|a 200");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "sulfur ointment|precipitated sulfur");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "benzyl benzoate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "lotilaner|xdemvy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "furazolidone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "quinacrine|atabrine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "halofantrine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "amodiaquine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "pyronaridine|pyramax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "fumagillin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "antimalarials");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "anthelmintics|dewormer");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "pediculicides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "scabicides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 70, "antiprotozoals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 75, "doxycycline|vibramycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 80, "clindamycin|cleocin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 90, "emodepside");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiparasitic drug", 90, "tribendimidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "theophylline|tea leaves");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "theobromine|cocoa|cacao");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "hyoscyamine|henbane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 65, "pilocarpine|jaborandi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 65, "ergotamine|ergot|ergot fungus|claviceps purpurea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "methylergonovine|ergonovine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "vancomycin|amycolatopsis orientalis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "erythromycin|saccharopolyspora erythraea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "tetracycline|streptomyces aureofaciens");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "amphotericin b|streptomyces nodosus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "nystatin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "griseofulvin|penicillium griseofulvum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "doxorubicin|streptomyces peucetius|anthracyclines|daunorubicin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "bleomycin|streptomyces verticillus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "dactinomycin|actinomycin d");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "mitomycin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 65, "sirolimus|rapamycin|streptomyces hygroscopicus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "tacrolimus|streptomyces tsukubaensis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "mycophenolate|mycophenolic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 65, "ivermectin|avermectin|streptomyces avermitilis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "irinotecan|topotecan|camptothecin|happy tree|camptotheca");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "trabectedin|sea squirt|yondelis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "eribulin|sea sponge|halichondrin b");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 80, "cytarabine|caribbean sponge");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 65, "eptifibatide|rattlesnake venom");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "bivalirudin|hirudin|leeches|lepirudin|desirudin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 65, "fish oil|omega 3 fatty acids|lovaza");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "lanolin|sheep wool");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "chondroitin|glucosamine|shellfish");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "hyaluronic acid|rooster comb");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "salmon calcitonin|calcitonin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 65, "armour thyroid|desiccated thyroid|pig thyroid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "pancrelipase|creon|pig pancreas enzymes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "streptokinase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "urokinase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "asparaginase|pegaspargase|erwinia asparaginase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "collagenase|clostridium histolyticum|xiaflex|santyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "hyaluronidase");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 80, "chymopapain|papaya");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "bromelain|pineapple");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "antivenom|crofab|anavip|horse serum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "digifab|digoxin immune fab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "antithymocyte globulin|atgam|thymoglobulin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "ivig|immune globulin|plasma derived");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "hcg|human chorionic gonadotropin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "menotropins|menopur|urofollitropin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 65, "epinephrine|adrenal glands|adrenaline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "protamine|salmon sperm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "fecal microbiota|vowst|rebyota");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "oseltamivir|star anise|shikimic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "guaifenesin|guaiac tree");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "emetine|ipecac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "cantharidin|blister beetle|spanish fly|ycanth");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "cytisine|cytisinicline|laburnum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "khellin|ammi visnaga");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "cromolyn|cromolyn sodium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 80, "amiodarone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "diosgenin|wild yam|mexican yam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "yohimbine|yohimbe");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 65, "castor oil|castor bean|ricinoleic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "camphor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "eucalyptus oil|eucalyptol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "tea tree oil|melaleuca");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "st john's wort|hypericum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "ginkgo|ginkgo biloba");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "milk thistle|silymarin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "huperzine a|club moss");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "lobeline|lobelia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "strychnine|nux vomica");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "tetrodotoxin|pufferfish");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "mescaline|peyote");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "dmt|ayahuasca");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "lsd|lysergic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "aloe|aloe vera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 65, "psyllium|metamucil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 70, "cascara|cascara sagrada");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "hyoscine butylbromide|buscopan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "squalene|shark liver oil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "chitosan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "podophyllin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that comes from a plant or natural source", 75, "bee venom|apitoxin");  // 2026-11-05 · NAPLEX · board-testable

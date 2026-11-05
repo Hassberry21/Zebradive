@@ -2900,3 +2900,221 @@ crowdAlias("Name a vasopressor or ICU drip", "labetalol drip", "labetalol");  //
 crowdAlias("Name a vasopressor or ICU drip", "esmolol", "brevibloc");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a vasopressor or ICU drip", "diltiazem drip", "diltiazem|cardizem drip");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a vasopressor or ICU drip", "amiodarone drip", "amiodarone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "allopurinol", "aloprim|xanthine oxidase inhibitors");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "colchicine", "mitigare|gloperba|lodoco");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "indomethacin", "indocin|tivorbex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "naproxen", "aleve|naprosyn|anaprox");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "probenecid", "benemid|probalan|col probenecid|colchicine probenecid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "prednisone", "corticosteroids|steroids|glucocorticoids");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "lesinurad", "zurampic|duzallo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "sulfinpyrazone", "anturane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "rasburicase", "elitek");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "anakinra", "kineret");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "canakinumab", "ilaris");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "triamcinolone injection", "triamcinolone|kenalog|intra articular steroid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "methylprednisolone", "medrol|depo medrol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "corticotropin", "acthar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "losartan", "cozaar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "fenofibrate", "tricor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "vitamin c", "ascorbic acid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug used to treat gout", "cherry extract", "tart cherry|cherries");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "fluticasone", "flonase sensimist|fluticasone furoate nasal|veramyst|xhance");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "afrin", "vicks sinex|zicam nasal|dristan 12 hour|mucinex nasal spray");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "naloxone", "kloxxado|rextovy|naloxone nasal spray");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "saline", "saline nasal spray|ocean|simply saline|ayr|sodium chloride nasal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "budesonide", "rhinocort allergy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "triamcinolone", "nasacort allergy 24hr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "azelastine", "astepro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "ryaltris", "olopatadine mometasone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "beclomethasone nasal", "beconase aq");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "ciclesonide", "zetonna");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "phenylephrine nasal", "neo synephrine nasal|4 way");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "sumatriptan nasal", "onzetra xsail|tosymra");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "zolmitriptan nasal", "zomig nasal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "dihydroergotamine nasal", "trudhesa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "butorphanol nasal", "stadol ns");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "desmopressin", "ddavp nasal|noctiva|stimate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "calcitonin nasal", "miacalcin nasal|fortical");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "nicotine nasal spray", "nicotrol ns");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "flumist", "live attenuated influenza vaccine|laiv");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "mupirocin nasal", "bactroban nasal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a medication that comes as a nasal spray", "cocaine", "goprelto|numbrino");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "aspirin", "asa|salicylates");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "ibuprofen", "meloxicam|diclofenac|ketorolac|celecoxib");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "naproxen", "aleve");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "amiodarone", "cordarone|pacerone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "fluconazole", "diflucan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "bactrim", "tmp smx|septra|sulfamethoxazole");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "vitamin k", "phytonadione|mephyton");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "rifampin", "rifampicin|rifadin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "clopidogrel", "plavix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "fish oil", "omega 3|omega 3 fatty acids");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "ginkgo", "ginkgo biloba");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "st john's wort", "hypericum");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "cranberry juice", "cranberry");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "green leafy vegetables", "vitamin k rich foods|kale|spinach|broccoli");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "alcohol", "ethanol|binge drinking");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "carbamazepine", "tegretol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "phenytoin", "dilantin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "levofloxacin", "levaquin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "ciprofloxacin", "cipro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "clarithromycin", "biaxin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "voriconazole", "vfend");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "omeprazole", "prilosec");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "simvastatin", "zocor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "fenofibrate", "tricor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "sertraline", "zoloft");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "fluoxetine", "prozac");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "propafenone", "rythmol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "tamoxifen", "nolvadex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "capecitabine", "xeloda");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "allopurinol", "zyloprim");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "levothyroxine", "synthroid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that interacts with warfarin", "enoxaparin", "lovenox");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "levothyroxine", "levoxyl|unithroid|tirosint|euthyrox");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "risedronate", "actonel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "ibandronate", "boniva");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "omeprazole", "prilosec|proton pump inhibitors");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "pantoprazole", "protonix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "esomeprazole", "nexium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "lansoprazole", "prevacid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "penicillin v", "pen vk|penicillin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "rifampin", "rifadin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "isoniazid", "inh");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "didanosine", "videx");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "sucralfate", "carafate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "captopril", "capoten");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "zafirlukast", "accolate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "iron supplements", "ferrous sulfate|iron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "nilotinib", "tasigna");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "abiraterone", "zytiga");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "lapatinib", "tykerb");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "erlotinib", "tarceva");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "pazopanib", "votrient");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "mercaptopurine", "purixan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug best taken on an empty stomach", "efavirenz", "sustiva");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "mortar and pestle", "mortar|pestle|wedgwood mortar|glass mortar|porcelain mortar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "spatula", "stainless steel spatula|plastic spatula");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "graduated cylinder", "graduate|conical graduate|cylindrical graduate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "balance", "class a balance|class iii prescription balance|torsion balance|electronic balance|analytical balance");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "ointment slab", "pill tile|ointment paper|parchment paper");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "capsule machine", "capsule filling machine|profill");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "laminar flow hood", "laminar airflow workbench|lafw|horizontal laminar flow hood|vertical laminar flow hood");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "isolator", "bsc|class ii bsc");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "iso class 5", "iso 5");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "anteroom", "ante area");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "buffer room", "buffer area");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "media fill test", "aseptic technique validation");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "garbing", "donning and doffing|ppe");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "base", "vehicle");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "geometric dilution", "geometric mixing");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "beyond use date", "bud");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "gelatin capsule", "capsule|vegetable capsule|capsule sizes|size 0 capsule");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a compounding term or piece of compounding equipment", "hazardous drug", "niosh list|niosh hazardous drug list");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "estrogen", "estrace|vivelle|climara|divigel|estrogel|evamist|vagifem|estring|femring|imvexxy|yuvafem");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "testosterone", "androgel|testim|fortesta|axiron|vogelxo|natesto|androderm|aveed|xyosted|jatenzo|tlando|kyzatrex|testosterone cypionate|depo testosterone|testosterone enanthate|testosterone undecanoate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "prasterone", "dhea|intrarosa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "progesterone", "prometrium|crinone|endometrin|progesterone in oil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "medroxyprogesterone", "depo subq provera 104");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "norethindrone", "aygestin|camila|errin|nora be|micronor|norethisterone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "levonorgestrel", "plan b|mirena|kyleena|liletta|skyla");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "dienogest", "natazia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "megestrol", "megace");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "ospemifene", "osphena");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "tamoxifen", "nolvadex|soltamox");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "raloxifene", "evista");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "clomiphene", "serophene");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "exemestane", "aromasin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "leuprolide", "lupron depot|eligard|fensolvi|camcevi");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "degarelix", "firmagon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "relugolix", "orgovyx|myfembree|relugolix estradiol norethindrone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "elagolix", "oriahnn");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "bicalutamide", "casodex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "enzalutamide", "xtandi");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "abiraterone", "zytiga|yonsa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "spironolactone", "aldactone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "finasteride", "proscar|propecia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "danazol", "danocrine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "oxandrolone", "oxandrin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "nandrolone", "deca durabolin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "hcg", "novarel|pregnyl|ovidrel|choriogonadotropin alfa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "menotropins", "menopur|hmg");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "mifepristone", "mifeprex|korlym");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a hormone therapy or sex hormone drug", "estrogen", "estradiol valerate|delestrogen");  // 2026-11-05 · NAPLEX · same drug
+crowdAlias("Name a hormone therapy or sex hormone drug", "estrogen", "estradiol cypionate|depo estradiol");  // 2026-11-05 · NAPLEX · same drug
+crowdAlias("Name a hormone therapy or sex hormone drug", "norethindrone", "norethindrone acetate");  // 2026-11-05 · NAPLEX · same drug
+crowdAlias("Name a drug patients inject themselves at home", "insulin", "insulin pen|lantus|humalog|novolog|tresiba|basaglar|levemir|toujeo|insulin glargine|insulin lispro|insulin aspart");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "epipen", "auvi q|adrenaclick|symjepi|epinephrine auto injector");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "mounjaro", "zepbound");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "humira", "amjevita|hadlima|hyrimoz|cyltezo|yusimry|simlandi");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "skyrizi", "risankizumab");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "stelara", "ustekinumab|wezlana|selarsdi");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "methotrexate injection", "otrexup|rasuvo|reditrex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "testosterone", "testosterone cypionate|xyosted|testosterone enanthate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "glucagon", "gvoke|zegalogue|glucagon emergency kit");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "sumatriptan injection", "zembrace");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "emgality", "galcanezumab");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "ajovy", "fremanezumab");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "copaxone", "glatopa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "kesimpta", "ofatumumab");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "neupogen", "zarxio|nivestym");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "neulasta", "udenyca|fulphila");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "fertility drugs", "follitropin|menopur|ovidrel|cetrotide|ganirelix|leuprolide|lupron");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "octreotide", "sandostatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "somatropin", "genotropin|norditropin|humatrope|omnitrope|nutropin|zomacton|sogroya|skytrofa|ngenla");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug patients inject themselves at home", "apomorphine", "apokyn");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "ivermectin", "stromectol|sklice|soolantra");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "metronidazole", "flagyl");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "albendazole", "albenza");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "mebendazole", "vermox|emverm");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "praziquantel", "biltricide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "chloroquine", "aralen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "hydroxychloroquine", "plaquenil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "permethrin", "elimite|nix");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "pyrantel pamoate", "pin x|reese's pinworm|pyrantel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "nitazoxanide", "alinia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "tinidazole", "tindamax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "mefloquine", "lariam");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "tafenoquine", "krintafel|arakoda");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "quinine", "qualaquin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "pyrimethamine", "daraprim");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "paromomycin", "humatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "miltefosine", "impavido");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "nifurtimox", "lampit");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "diethylcarbamazine", "dec|hetrazan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "spinosad", "natroba");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiparasitic drug", "malathion", "ovide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "aspirin", "salicin|salicylic acid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "morphine", "papaver somniferum|opium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "digoxin", "digitalis|digitoxin|digitalis lanata");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "quinine", "cinchona");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "penicillin", "penicillium|penicillium notatum");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "paclitaxel", "pacific yew|docetaxel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "caffeine", "coffee|tea|coffea");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "nicotine", "tobacco");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "atropine", "deadly nightshade|atropa belladonna");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "vincristine", "madagascar periwinkle|vinblastine|vinca");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "artemisinin", "qinghaosu|artemisia annua");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "cocaine", "coca plant");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "ephedrine", "ma huang");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "metformin", "galega officinalis|goat's rue");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "colchicine", "colchicum");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "warfarin", "dicoumarol|spoiled sweet clover");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "insulin", "pig pancreas|bovine insulin|porcine insulin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "premarin", "pregnant mare urine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "exenatide", "exendin 4");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "botox", "botulinum toxin|clostridium botulinum");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "cyclosporine", "tolypocladium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "lovastatin", "aspergillus terreus|mevastatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "reserpine", "rauwolfia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "galantamine", "daffodil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "capsaicin", "capsicum");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "menthol", "peppermint");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "senna", "sennosides");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "cannabidiol", "marijuana|thc|dronabinol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "psilocybin", "magic mushrooms|psilocybe");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "ziconotide", "prialt");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "captopril", "brazilian pit viper|bothrops jararaca");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "streptomycin", "streptomyces");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "scopolamine", "jimsonweed|datura|hyoscine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that comes from a plant or natural source", "etoposide", "podophyllotoxin|podophyllum|teniposide");  // 2026-11-05 · NAPLEX · same answer

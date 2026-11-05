@@ -2730,3 +2730,173 @@ crowdAlias("Name a drug for heart failure", "metolazone", "zaroxolyn");  // 2026
 crowdAlias("Name a drug for heart failure", "milrinone", "primacor");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a drug for heart failure", "dobutamine", "dobutrex");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a drug for heart failure", "tafamidis", "vyndaqel|vyndamax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "methotrexate", "trexall|otrexup|rasuvo|reditrex|rheumatrex|mtx");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "prednisone", "deltasone|glucocorticoids|steroids|corticosteroids");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "humira", "amjevita|hadlima|hyrimoz|cyltezo|yusimry|idacio|hulio|yuflyma|simlandi|abrilada");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "enbrel", "erelzi|eticovo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "infliximab", "inflectra|renflexis|avsola|zymfentra");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "golimumab", "simponi aria");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "sulfasalazine", "azulfidine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "rituximab", "truxima|ruxience|riabni");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "tocilizumab", "tofidence|tyenne");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "naproxen", "aleve|naprosyn");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "celecoxib", "celebrex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "azathioprine", "imuran");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "cyclosporine", "neoral|gengraf");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "gold", "ridaura|gold sodium thiomalate|myochrysine|aurothioglucose|gold salts");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for rheumatoid arthritis", "minocycline", "minocin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "nyquil", "vicks nyquil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "dayquil", "vicks dayquil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "robitussin", "robitussin dm|tussin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "mucinex", "mucinex dm|mucinex d|mucinex fast max|humibid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "dextromethorphan", "dxm");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "sudafed", "sudafed 12 hour");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "phenylephrine", "sudafed pe");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "tylenol cold", "tylenol cold and flu|tylenol sinus");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "coricidin", "coricidin hbp");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "vicks vaporub", "vaporub|vicks");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "cough drops", "halls|halls cough drops|lozenges|throat lozenges");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "zinc lozenges", "cold eeze");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "emergen c", "vitamin c");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "saline nasal spray", "ocean spray|simply saline|ayr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "neti pot", "nasal irrigation|sinus rinse|neilmed");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "afrin", "vicks sinex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "humidifier", "vaporizer");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "claritin d", "loratadine pseudoephedrine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "zyrtec d", "cetirizine pseudoephedrine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "chlorpheniramine", "chlor trimeton");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "benzonatate", "tessalon perles");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "codeine cough syrup", "guaifenesin codeine|cheratussin ac|robitussin ac|tussi organidin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "promethazine dm", "promethazine codeine|phenergan with codeine|promethazine vc");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cough or cold product", "hycodan", "tussionex|hydromet|tussicaps");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "benzoyl peroxide", "bpo|panoxyl|clearasil|oxy|proactiv|clean and clear");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "salicylic acid", "stridex|neutrogena oil free acne wash");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "tretinoin", "retin a micro|atralin|altreno|avita|renova");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "isotretinoin", "absorica|claravis|amnesteem|myorisan|zenatane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "doxycycline", "vibramycin|doryx|acticlate|targadox|oracea");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "minocycline", "minocin|solodyn|ximino|minolira");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "clindamycin", "cleocin t|clindagel|evoclin|clindesse");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "erythromycin", "erygel|erythromycin topical");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "spironolactone", "aldactone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "birth control pills", "oral contraceptives|combined oral contraceptives");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "azelaic acid", "finacea|azelex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "tazarotene", "tazorac|arazlo|fabior");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "dapsone gel", "dapsone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "sulfur", "sulfur wash|sodium sulfacetamide sulfur|plexion|sumadan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "sodium sulfacetamide", "klaron|ovace");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "trifarotene", "aklief");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "epiduo", "epiduo forte|adapalene benzoyl peroxide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "benzaclin", "clindamycin benzoyl peroxide|acanya|neuac");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "amzeeq", "minocycline foam|zilxi");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for acne", "glycolic acid", "alpha hydroxy acids|aha");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a weight-loss drug", "semaglutide", "rybelsus|oral wegovy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a weight-loss drug", "phentermine", "adipex p|lomaira|ionamin|fastin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a weight-loss drug", "liraglutide", "victoza");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a weight-loss drug", "contrave", "mysimba");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a weight-loss drug", "metformin", "glucophage");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a weight-loss drug", "diethylpropion", "tenuate|amfepramone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a weight-loss drug", "phendimetrazine", "bontril");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a weight-loss drug", "benzphetamine", "didrex|regimex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a weight-loss drug", "plenity", "cellulose citric acid hydrogel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a weight-loss drug", "topiramate", "topamax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "alendronate", "binosto|fosamax plus d");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "risedronate", "atelvia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "zoledronic acid", "zometa|zoledronate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "calcium", "calcium carbonate|calcium citrate|citracal|caltrate|os cal|tums");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "vitamin d", "cholecalciferol|vitamin d3|ergocalciferol|vitamin d2");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "denosumab", "jubbonti|ospomyv|stoboclo|conexxence|xgeva");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "teriparatide", "bonsity");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "calcitonin", "miacalcin|fortical|calcitonin salmon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "estrogen", "estradiol|premarin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "tibolone", "livial");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "strontium ranelate", "protelos");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "etidronate", "didronel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "pamidronate", "aredia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug for osteoporosis", "calcitriol", "rocaltrol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that commonly causes drowsiness", "benzodiazepines", "benzos|alprazolam|diazepam|lorazepam|klonopin|clonazepam|temazepam|restoril");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that commonly causes drowsiness", "opioids", "morphine|codeine|fentanyl|tramadol|hydromorphone|methadone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that commonly causes drowsiness", "suvorexant", "lemborexant|dayvigo|daridorexant|quviviq");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that commonly causes drowsiness", "doxepin", "silenor|sinequan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that commonly causes drowsiness", "metoclopramide", "reglan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that commonly causes drowsiness", "doxylamine", "nyquil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that commonly causes drowsiness", "meclizine", "antivert|bonine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug that commonly causes drowsiness", "clonidine", "catapres|kapvay");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug pulled from the market", "fen phen", "pondimin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug pulled from the market", "darvon", "darvocet");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug pulled from the market", "thalidomide", "kevadon|contergan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug pulled from the market", "xigris", "drotrecogin alfa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug pulled from the market", "phenylpropanolamine", "dexatrim");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug pulled from the market", "ephedra", "ma huang");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug pulled from the market", "opana er", "oxymorphone er");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a drug pulled from the market", "makena", "hydroxyprogesterone caproate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "amiodarone", "cordarone|pacerone|nexterone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "metoprolol", "lopressor|toprol xl");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "diltiazem", "cardizem");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "digoxin", "lanoxin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "adenosine", "adenocard|adenoscan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "lidocaine", "xylocaine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "sotalol", "betapace|sotylize");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "flecainide", "tambocor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "propafenone", "rythmol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "verapamil", "calan|isoptin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "procainamide", "pronestyl|procan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "quinidine", "quinidine gluconate|quinidine sulfate|quinaglute");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "esmolol", "brevibloc");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "ibutilide", "corvert");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "mexiletine", "mexitil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "disopyramide", "norpace");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "magnesium sulfate", "magnesium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "propranolol", "inderal");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "carvedilol", "coreg");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "nadolol", "corgard");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antiarrhythmic drug", "bisoprolol", "zebeta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "controlled substances act", "csa|comprehensive drug abuse prevention and control act");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "hipaa", "health insurance portability and accountability act|privacy rule");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "food drug and cosmetic act", "fdca|fd&c act|federal food drug and cosmetic act");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "kefauver harris amendment", "drug efficacy amendment");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "obra 90", "omnibus budget reconciliation act");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "poison prevention packaging act", "ppa|pppa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "combat methamphetamine epidemic act", "cmea|pseudoephedrine limits");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "drug supply chain security act", "drug quality and security act|dqsa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "hatch waxman act", "drug price competition and patent term restoration act");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "dshea", "dietary supplement health and education act");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "ryan haight act", "ryan haight online pharmacy consumer protection act");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "medicare part d", "medicare modernization act");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "340b program", "340b drug pricing program");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "dea registration", "dea number");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "dea form 222", "csos");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "dea form 106", "theft or loss report");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "partial fill rules", "partial fills");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "transfer rules", "prescription transfers");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "prescription monitoring program", "pmp");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "patient counseling requirement", "offer to counsel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "rems", "risk evaluation and mitigation strategies");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "orange book", "approved drug products with therapeutic equivalence evaluations");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "usp 795", "nonsterile compounding");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "usp 797", "sterile compounding");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "usp 800", "hazardous drugs");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a pharmacy law or regulation", "board of pharmacy", "state board of pharmacy|state pharmacy practice act");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "norepinephrine", "norepi|noradrenaline");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "epinephrine", "adrenaline|epi drip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "vasopressin", "vasostrict|pitressin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "phenylephrine", "neo synephrine|neo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "dopamine", "intropin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "dobutamine", "dobutrex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "milrinone", "primacor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "propofol", "diprivan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "midazolam", "versed|midazolam drip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "lorazepam drip", "ativan drip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "ketamine", "ketamine drip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "fentanyl", "fentanyl drip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "hydromorphone drip", "dilaudid drip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "cisatracurium", "nimbex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "heparin drip", "heparin|unfractionated heparin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "insulin drip", "regular insulin infusion|insulin infusion");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "nitroglycerin drip", "nitroglycerin|tridil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "nitroprusside", "nipride|nitropress");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "nicardipine", "cardene");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "clevidipine", "cleviprex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "labetalol drip", "labetalol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "esmolol", "brevibloc");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "diltiazem drip", "diltiazem|cardizem drip");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a vasopressor or ICU drip", "amiodarone drip", "amiodarone");  // 2026-11-05 · NAPLEX · same answer

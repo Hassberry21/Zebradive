@@ -22439,3 +22439,338 @@ board("Name a drug for heart failure", 70, "sodium zirconium cyclosilicate|lokel
 board("Name a drug for heart failure", 70, "semaglutide|wegovy");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a drug for heart failure", 70, "tirzepatide|zepbound");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a drug for heart failure", 70, "hydrochlorothiazide|hctz|chlorthalidone|thiazide diuretics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 40, "dmards|csdmards|conventional dmards|disease modifying antirheumatic drugs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 45, "biologics|biologic dmards|bdmards");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 45, "tnf inhibitors|tnf alpha inhibitors|anti tnf");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 45, "jak inhibitors|tsdmards");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 50, "prednisolone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 50, "methylprednisolone|medrol|depo medrol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 50, "triamcinolone injection|kenalog injection|intra articular steroid injection");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 50, "filgotinib|jyseleca");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 50, "peficitinib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "canakinumab|ilaris");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "olokizumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 45, "nsaids|nonsteroidal anti inflammatory drugs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 50, "meloxicam|mobic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 50, "diclofenac|voltaren|arthrotec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 50, "indomethacin|indocin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "etodolac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "nabumetone|relafen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "piroxicam|feldene");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "ketoprofen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "sulindac|clinoril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "oxaprozin|daypro");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "penicillamine|cuprimine|depen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "chloroquine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "iguratimod");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for rheumatoid arthritis", 75, "bucillamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "advil cold and sinus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "aleve d");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "dimetapp");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "triaminic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "little remedies");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "zarbees|zarbee's");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "hylands");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "children's mucinex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "pediacare");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "vicks vapo drops|vicks drops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "ricola");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "luden's");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "cepacol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "chloraseptic|phenol spray|throat spray");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "sucrets");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "elderberry|sambucol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "echinacea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "oscillococcinum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "breathe right strips|nasal strips");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "flonase|fluticasone nasal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "nasacort");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "allegra d|fexofenadine pseudoephedrine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "brompheniramine|dimetapp cold and cough");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "triprolidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "expectorant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "antitussive|cough suppressant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "decongestant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "carbetapentane");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "menthol rub|mentholatum");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "tiger balm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "xlear|xylitol nasal spray");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "umcka|pelargonium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "olbas oil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "buckley's");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "contac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "comtrex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "vicks 44");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "benylin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "lemsip");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "beechams");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "strepsils");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "night nurse");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cough or cold product", 65, "covonia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 45, "topical retinoids|retinoids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 45, "oral antibiotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 45, "topical antibiotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "tetracycline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "trimethoprim sulfamethoxazole|bactrim");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "yaz|drospirenone ethinyl estradiol|yasmin|beyaz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "ortho tri cyclen|norgestimate ethinyl estradiol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "estrostep|norethindrone ethinyl estradiol ferrous fumarate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "cabtreo|clindamycin adapalene benzoyl peroxide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "twyneo|tretinoin benzoyl peroxide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "ziana|veltin|clindamycin tretinoin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "benzamycin|erythromycin benzoyl peroxide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "prednisone|oral steroids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "intralesional triamcinolone|kenalog injection|cortisone shot");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "flutamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "cyproterone acetate|diane 35|dianette");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "hydrocolloid patches|pimple patches|acne patches");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for acne", 65, "resorcinol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 40, "glp 1 agonists|glp 1 receptor agonists|glp1|glp 1s");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "sibutramine|meridia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "lorcaserin|belviq");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "fenfluramine|fen phen|pondimin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "dexfenfluramine|redux");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "rimonabant|acomplia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "phenylpropanolamine|dexatrim|acutrim");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "ephedra|ma huang");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "ephedrine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "amphetamine|dextroamphetamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "methamphetamine|desoxyn");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "mazindol|sanorex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "garcinia cambogia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "green tea extract");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "glucomannan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "cagrilintide|cagrisema");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "human chorionic gonadotropin|hcg");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "dinitrophenol|dnp");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a weight-loss drug", 75, "clenbuterol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for osteoporosis", 50, "serms|selective estrogen receptor modulators");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for osteoporosis", 50, "anabolic agents|pth analogs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for osteoporosis", 50, "rankl inhibitor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for osteoporosis", 80, "tiludronate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for osteoporosis", 80, "clodronate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for osteoporosis", 80, "neridronate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for osteoporosis", 80, "minodronate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for osteoporosis", 80, "alfacalcidol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for osteoporosis", 80, "eldecalcitol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for osteoporosis", 80, "sodium fluoride");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug for osteoporosis", 80, "parathyroid hormone|natpara|preotact");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 40, "antihistamines|first generation antihistamines|sedating antihistamines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 40, "muscle relaxants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "sleep aids|sleeping pills|hypnotics|sedatives");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "eszopiclone|lunesta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "zaleplon|sonata");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "ramelteon|rozerem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "antipsychotics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "risperidone|risperdal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "chlorpromazine|thorazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "haloperidol|haldol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "clozapine|clozaril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "tricyclic antidepressants|tcas");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "nortriptyline|pamelor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "imipramine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "nefazodone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "antiepileptics|anticonvulsants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "phenytoin|dilantin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "primidone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "clobazam|onfi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "zonisamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "cenobamate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "perampanel|fycompa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "barbiturates|butalbital|fioricet|secobarbital");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "sodium oxybate|xyrem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "dexmedetomidine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "propofol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "ketamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "prochlorperazine|compazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "scopolamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "oxybutynin|ditropan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "cyproheptadine|periactin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "brompheniramine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "clemastine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "carbinoxamine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "tylenol pm|advil pm|zzzquil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "dextromethorphan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "guanfacine|intuniv|tenex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "prazosin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "dronabinol|marinol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "nabilone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "buprenorphine|suboxone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "metaxalone|skelaxin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "orphenadrine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "tetrabenazine|xenazine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "pramipexole|mirapex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "ropinirole|requip");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "trihexyphenidyl");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "benztropine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "kava");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 65, "valerian");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug that commonly causes drowsiness", 70, "cetirizine|zyrtec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 45, "astemizole|hismanal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "mibefradil|posicor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "grepafloxacin|raxar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "gatifloxacin|tequin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "temafloxacin|omniflox");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "levomethadyl|orlaam|laam");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "pergolide|permax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "rapacuronium|raplon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "benoxaprofen|oraflex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "zomepirac|zomax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "suprofen|suprol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "ticrynafen|selacryn|tienilic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "nomifensine|merital");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "zimelidine|zelmid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "encainide|enkaid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "flosequinan|manoplax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "lumiracoxib|prexige");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "rimonabant|acomplia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "ximelagatran|exanta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "ezogabine|potiga|retigabine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "aducanumab|aduhelm");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "phenformin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "gemtuzumab ozogamicin|mylotarg");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "phenacetin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "bendectin|doxylamine pyridoxine dicyclomine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "oxbryta|voxelotor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "pepaxto|melphalan flufenamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "ukoniq|umbralisib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "blenrep|belantamab mafodotin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "farydak|panobinostat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "lartruvo|olaratumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "zinbryta|daclizumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "practolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "thioridazine|mellaril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "mesoridazine|serentil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "sertindole|serdolect");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "alpidem");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "elixir sulfanilamide|sulfanilamide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "nefazodone brand|serzone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "nizatidine|axid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 85, "metamizole|dipyrone|novalgin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 85, "flunitrazepam|rohypnol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "pholcodine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 85, "phenylbutazone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 85, "nefazodone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 80, "natalizumab|tysabri");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 85, "triclosan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a drug pulled from the market", 85, "thimerosal|merthiolate|mercurochrome");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 40, "beta blockers|class ii antiarrhythmics");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 40, "calcium channel blockers|class iv antiarrhythmics|non dihydropyridine calcium channel blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 45, "class i antiarrhythmics|sodium channel blockers|class ia|class ib|class ic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 45, "class iii antiarrhythmics|potassium channel blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 88, "tocainide|tonocard");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "phenytoin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 88, "moricizine|ethmozine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 88, "encainide|enkaid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "vernakalant|brinavess");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "bretylium|bretylol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 88, "azimilide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "atenolol|tenormin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "acebutolol|sectral");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "timolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "pindolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "landiolol|rapiblyk");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "ivabradine|corlanor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "isoproterenol|isuprel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "etripamil|cardamyst");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 88, "cibenzoline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 88, "pilsicainide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 88, "aprindine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 88, "ajmaline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 88, "prajmaline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 88, "lorcainide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antiarrhythmic drug", 75, "bepridil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "pure food and drug act|1906 pure food and drug act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "harrison narcotic act|harrison narcotics tax act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "orphan drug act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "prescription drug marketing act|pdma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "prescription drug user fee act|pdufa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "fda modernization act|fdama");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "fda amendments act|fdaaa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "food and drug administration safety and innovation act|fdasia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "21st century cures act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "biologics price competition and innovation act|bpcia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "compounding quality act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "section 503a");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "section 503b|outsourcing facilities");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "anabolic steroid control act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "secure and responsible drug disposal act|drug disposal act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "support act|substance use disorder prevention that promotes opioid recovery and treatment");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "mainstreaming addiction treatment act|mat act|x waiver elimination");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "affordable care act|aca|obamacare");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "inflation reduction act|ira|drug price negotiation");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "medicaid drug rebate program");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "sherley amendment");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 60, "schedule i|c i|schedule 1");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 60, "schedule iii|c iii|schedule 3");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 60, "schedule iv|c iv|schedule 4");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 60, "schedule v|c v|schedule 5");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 60, "controlled substance schedules|drug schedules");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "dea form 41|destruction of controlled substances");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "biennial inventory|controlled substance inventory");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "schedule iii iv refill limits|5 refills in 6 months");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "emergency schedule ii prescription|7 day follow up");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "electronic prescribing for controlled substances|epcs");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "tamper resistant prescription pads|tamper resistant pad law");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "drug utilization review|dur|prospective dur");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "medication guides|med guides");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "patient package inserts|ppi for estrogens");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "usp 825|radiopharmaceuticals");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "cgmp|current good manufacturing practices");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "nabp|model state pharmacy act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "collaborative practice agreement|cpa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "naloxone standing order");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "good samaritan law");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "pseudoephedrine logbook|meth logbook");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "dea exempt narcotics|schedule v otc sales");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "adverse event reporting|medwatch");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "vaers|vaccine adverse event reporting system");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "national childhood vaccine injury act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "prep act|public readiness and emergency preparedness act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "corresponding responsibility");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 65, "tamper evident packaging|federal anti tampering act|tylenol murders");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 70, "schedule ii no refills|no refills on schedule ii");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 75, "anti kickback statute");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 75, "false claims act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 75, "stark law");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 75, "hitech act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 80, "fair packaging and labeling act");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 75, "nda|new drug application");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 75, "anda|abbreviated new drug application");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 75, "ind|investigational new drug application");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 75, "emergency use authorization|eua");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 75, "drug recalls|fda recall classes|class i recall");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 75, "tech check tech");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a pharmacy law or regulation", 75, "pharmacy technician ratio|technician ratio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "isoproterenol|isuprel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "terlipressin|terlivaz");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "methylene blue");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "hydrocortisone|stress dose steroids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "morphine drip");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "remifentanil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "pentobarbital|pentobarbital coma");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "vecuronium");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "bivalirudin|angiomax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "argatroban");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "eptifibatide|integrilin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "tirofiban|aggrastat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "cangrelor|kengreal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "lidocaine drip");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "procainamide drip");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "nesiritide|natrecor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "epoprostenol|flolan|veletri");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "treprostinil|remodulin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "inhaled nitric oxide|ino|inomax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "furosemide drip|lasix drip|furosemide infusion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "octreotide drip|octreotide|sandostatin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "pantoprazole drip|protonix drip");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "magnesium sulfate drip|magnesium sulfate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "hypertonic saline|3% saline");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "n acetylcysteine|acetylcysteine|acetadote");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 70, "naloxone drip");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 75, "sodium bicarbonate drip|bicarb drip|sodium bicarbonate infusion");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 80, "tpn|total parenteral nutrition");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 80, "alteplase|tpa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 75, "oxytocin|pitocin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 80, "calcium gluconate drip|calcium chloride drip");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a vasopressor or ICU drip", 85, "bumetanide drip");  // 2026-11-05 · NAPLEX · board-testable

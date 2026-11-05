@@ -36252,6 +36252,1601 @@ kemp test|kemp's test|quadrant test of lumbar spine
 clunk test
 `, "2026-11-07");
 
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE part 3 (batch 2026-11-05, board-first) ---- */
+P("Name a receptor in the human body","science","",`
+alpha-1 adrenergic receptor|alpha-1|alpha 1|alpha1|alpha-1 receptor|alpha 1 receptor
+alpha-2 adrenergic receptor|alpha-2|alpha 2|alpha2|alpha-2 receptor|alpha 2 receptor
+beta-1 adrenergic receptor|beta-1|beta 1|beta1|beta-1 receptor|beta 1 receptor
+beta-2 adrenergic receptor|beta-2|beta 2|beta2|beta-2 receptor|beta 2 receptor
+beta-3 adrenergic receptor|beta-3|beta 3|beta3|beta-3 receptor
+m1 muscarinic receptor|m1|m1 receptor
+m2 muscarinic receptor|m2|m2 receptor
+m3 muscarinic receptor|m3|m3 receptor
+m4 muscarinic receptor|m4|m4 receptor
+m5 muscarinic receptor|m5|m5 receptor
+muscarinic receptor|muscarinic acetylcholine receptor|machr|muscarinic
+nicotinic acetylcholine receptor|nicotinic receptor|nachr|nicotinic
+nicotinic nm receptor|nm receptor|muscle nicotinic receptor|neuromuscular nicotinic receptor
+nicotinic nn receptor|nn receptor|neuronal nicotinic receptor|ganglionic nicotinic receptor
+d1 dopamine receptor|d1|d1 receptor
+d2 dopamine receptor|d2|d2 receptor
+d3 dopamine receptor|d3|d3 receptor
+d4 dopamine receptor|d4|d4 receptor
+d5 dopamine receptor|d5|d5 receptor
+dopamine receptor
+h1 histamine receptor|h1|h1 receptor
+h2 histamine receptor|h2|h2 receptor
+h3 histamine receptor|h3|h3 receptor
+h4 histamine receptor|h4|h4 receptor
+v1 vasopressin receptor|v1|v1 receptor|v1a receptor
+v2 vasopressin receptor|v2|v2 receptor
+v1b vasopressin receptor|v3 receptor|v1b receptor
+5-ht1a receptor|5-ht1a|5ht1a|serotonin 1a receptor
+5-ht1b/1d receptor|5-ht1b|5-ht1d|5ht1b|5ht1d|5-ht1b receptor|5-ht1d receptor|triptan receptor
+5-ht2a receptor|5-ht2a|5ht2a|serotonin 2a receptor
+5-ht2b receptor|5-ht2b|5ht2b
+5-ht2c receptor|5-ht2c|5ht2c
+5-ht3 receptor|5-ht3|5ht3|serotonin 3 receptor
+5-ht4 receptor|5-ht4|5ht4
+5-ht1f receptor|5-ht1f|5ht1f
+5-ht6 receptor|5-ht6
+5-ht7 receptor|5-ht7
+serotonin receptor|5-ht receptor
+gaba-a receptor|gaba a|gabaa|gaba-a
+gaba-b receptor|gaba b|gabab|gaba-b
+nmda receptor|nmda|n-methyl-d-aspartate receptor
+ampa receptor|ampa
+kainate receptor|kainate
+metabotropic glutamate receptor|mglur
+glutamate receptor
+glycine receptor
+mu opioid receptor|mu|mu receptor|mor|mu opioid
+kappa opioid receptor|kappa|kappa receptor|kor
+delta opioid receptor|delta receptor|dor|delta opioid
+nociceptin receptor|nop receptor|orl1
+opioid receptor
+cb1 cannabinoid receptor|cb1|cb1 receptor
+cb2 cannabinoid receptor|cb2|cb2 receptor
+insulin receptor
+igf-1 receptor|igf-1r|igf1r|insulin-like growth factor 1 receptor
+glucagon receptor
+glp-1 receptor|glp-1r|glp1 receptor|glp-1
+gip receptor|gipr
+tsh receptor|tshr|thyrotropin receptor
+lh receptor|lhr|lh/hcg receptor|lhcgr
+fsh receptor|fshr
+acth receptor|mc2r|mc2 receptor|melanocortin 2 receptor
+mc4 receptor|mc4r|melanocortin 4 receptor
+mc1 receptor|mc1r|melanocortin 1 receptor
+gnrh receptor|gnrhr
+trh receptor
+crh receptor|crhr
+ghrh receptor
+growth hormone receptor|ghr|gh receptor
+prolactin receptor|prlr
+oxytocin receptor
+pth receptor|pth1r|pth/pthrp receptor|parathyroid hormone receptor
+calcium-sensing receptor|casr|calcium sensing receptor
+calcitonin receptor
+vitamin d receptor|vdr
+thyroid hormone receptor|tr|thyroid receptor
+glucocorticoid receptor|gr|cortisol receptor
+mineralocorticoid receptor|mr|aldosterone receptor
+estrogen receptor|er|oestrogen receptor|er alpha|er beta
+progesterone receptor|pr
+androgen receptor|ar|testosterone receptor
+retinoic acid receptor|rar|rar alpha
+retinoid x receptor|rxr
+ppar-gamma|ppar gamma|pparg|ppar-γ
+ppar-alpha|ppar alpha|ppara
+ppar-delta|ppar delta|ppar beta/delta
+liver x receptor|lxr
+farnesoid x receptor|fxr|bile acid receptor
+pregnane x receptor|pxr
+constitutive androstane receptor|car
+at1 receptor|at1|angiotensin ii type 1 receptor|at1r|angiotensin receptor
+at2 receptor|at2|angiotensin ii type 2 receptor
+endothelin receptor|eta receptor|etb receptor|endothelin a receptor
+natriuretic peptide receptor|npr-a|anp receptor|bnp receptor|guanylyl cyclase a
+adenosine a1 receptor|a1 receptor|adenosine a1
+adenosine a2a receptor|a2a receptor|adenosine a2a
+adenosine a2b receptor|a2b receptor
+adenosine a3 receptor|a3 receptor
+p2y12 receptor|p2y12|adp receptor
+p2x receptor|p2x7|p2x3
+gpiib/iiia|glycoprotein iib/iiia|gp2b3a|gpiib-iiia|integrin alphaiib beta3
+gpib|glycoprotein ib|gpib-ix-v|von willebrand factor receptor
+par-1|protease-activated receptor 1|thrombin receptor|par1
+thromboxane receptor|tp receptor|txa2 receptor
+prostaglandin e2 receptor|ep receptor|ep2|ep4
+prostacyclin receptor|ip receptor
+leukotriene receptor|cyslt1|cysteinyl leukotriene receptor
+ldl receptor|ldlr|low-density lipoprotein receptor
+scavenger receptor|sr-b1|cd36|scavenger receptor class b1
+transferrin receptor|tfr1|cd71
+asialoglycoprotein receptor|asgpr
+mannose receptor|cd206
+tlr4|toll-like receptor 4
+tlr2|toll-like receptor 2
+tlr3|toll-like receptor 3
+tlr5|toll-like receptor 5
+tlr7|toll-like receptor 7
+tlr9|toll-like receptor 9
+toll-like receptor|tlr
+nod2|nod-like receptor|nlr|card15
+nlrp3|nalp3|inflammasome receptor
+rig-i|rig-i-like receptor|ddx58
+cd14|lps receptor
+cd4|cd4 receptor
+cd8
+t-cell receptor|tcr|t cell receptor
+b-cell receptor|bcr|b cell receptor
+ccr5|cc chemokine receptor 5
+cxcr4
+chemokine receptor
+fc receptor|fc gamma receptor|fcgr|fc-gamma receptor
+fc epsilon receptor|fceri|fcεri|ige receptor
+neonatal fc receptor|fcrn|brambell receptor
+cd16|fcgriii
+cd32|fcgrii
+cd64|fcgri
+complement receptor 1|cr1|cd35
+complement receptor 2|cr2|cd21|ebv receptor
+complement receptor 3|cr3|cd11b/cd18|mac-1
+c5a receptor|c5ar|cd88
+c3a receptor
+il-2 receptor|cd25|il2r|interleukin-2 receptor
+il-6 receptor|il6r|tocilizumab target
+il-1 receptor|il1r
+il-4 receptor|il4r|il-4 receptor alpha
+il-5 receptor|il5r
+il-17 receptor|il17r
+il-23 receptor
+tnf receptor|tnfr|tnfr1|tnfr2
+fas|cd95|fas receptor|apo-1
+trail receptor|death receptor 5|dr5
+interferon receptor|ifnar|ifn-gamma receptor
+epo receptor|epor|erythropoietin receptor
+tpo receptor|mpl|thrombopoietin receptor|c-mpl
+g-csf receptor|csf3r
+gm-csf receptor|csf2r
+m-csf receptor|csf1r
+egfr|epidermal growth factor receptor|her1|erbb1
+her2|her2/neu|erbb2|neu
+her3|erbb3
+vegf receptor|vegfr|vegfr2|kdr
+pdgf receptor|pdgfr|pdgfr alpha
+fgf receptor|fgfr|fgfr3
+c-kit|kit|cd117|stem cell factor receptor
+ret|ret receptor
+alk|anaplastic lymphoma kinase
+ros1
+met|c-met|hepatocyte growth factor receptor
+flt3
+trk receptor|trka|tropomyosin receptor kinase|ntrk
+tgf-beta receptor|tgfbr
+bmp receptor|bmpr2
+notch receptor|notch
+patched|ptch1|hedgehog receptor
+frizzled|wnt receptor
+lrp5|lrp6
+rank|receptor activator of nf-kappab
+pd-1|programmed death 1|cd279
+ctla-4|cd152
+cd28
+lfa-1|cd11a/cd18
+vla-4|alpha4 beta1 integrin|cd49d
+alpha4 beta7 integrin|a4b7
+integrin
+ace2|angiotensin-converting enzyme 2
+cd46|measles receptor
+icam-1|cd54|rhinovirus receptor
+car receptor|coxsackievirus and adenovirus receptor
+p antigen|globoside|parvovirus b19 receptor
+duffy antigen|darc|duffy receptor
+glycophorin a
+dectin-1
+siglec
+killer immunoglobulin-like receptor|kir
+nkg2d
+olfactory receptor
+taste receptor|t1r|t2r|bitter taste receptor|sweet taste receptor
+rhodopsin
+cone opsin|photopsin
+melanopsin
+trpv1|capsaicin receptor|vanilloid receptor
+trpm8|cold receptor|menthol receptor
+trpa1
+piezo1|piezo2|piezo
+pacinian corpuscle|lamellar corpuscle
+meissner corpuscle|tactile corpuscle
+merkel disc|merkel cell|merkel receptor
+ruffini ending|ruffini corpuscle
+free nerve ending|nociceptor
+muscle spindle
+golgi tendon organ
+baroreceptor|carotid sinus baroreceptor|aortic arch baroreceptor
+peripheral chemoreceptor|carotid body|aortic body
+central chemoreceptor
+j receptor|juxtacapillary receptor
+pulmonary stretch receptor|slowly adapting stretch receptor|hering-breuer receptor
+irritant receptor|rapidly adapting receptor
+osmoreceptor
+hair cell|cochlear hair cell|vestibular hair cell
+thermoreceptor
+proprioceptor
+mechanoreceptor
+photoreceptor|rod|cone
+volume receptor|atrial stretch receptor|low-pressure baroreceptor
+ryanodine receptor|ryr|ryr1|ryr2
+ip3 receptor|inositol trisphosphate receptor|ip3r
+dihydropyridine receptor|dhpr|l-type calcium channel receptor
+sigma receptor|sigma-1 receptor
+trace amine-associated receptor|taar1
+orexin receptor|hypocretin receptor|ox1r|ox2r
+melatonin receptor|mt1|mt2
+ghrelin receptor|ghs-r
+leptin receptor|ob-r|lepr
+adiponectin receptor|adipor1
+cck receptor|cholecystokinin receptor|cck1|cck2
+gastrin receptor|cckb receptor
+secretin receptor
+somatostatin receptor|sstr|sstr2
+motilin receptor
+nk1 receptor|neurokinin-1 receptor|substance p receptor|tacr1
+cgrp receptor|calcitonin gene-related peptide receptor
+amylin receptor
+bradykinin receptor|b2 receptor|b1 receptor
+kisspeptin receptor|gpr54|kiss1r
+neuropeptide y receptor|npy receptor|y1 receptor
+apelin receptor
+urotensin receptor
+relaxin receptor|rxfp1
+s1p receptor|sphingosine-1-phosphate receptor|s1p1
+lpa receptor|lysophosphatidic acid receptor
+free fatty acid receptor|gpr40|ffar1
+tgr5|gpbar1
+succinate receptor|gpr91
+hcar2|niacin receptor|gpr109a
+insulin-like growth factor 2 receptor|igf-2r|mannose-6-phosphate receptor|m6p receptor
+megalin|lrp2
+cubilin|intrinsic factor receptor
+low-density lipoprotein receptor-related protein 1|lrp1
+vldl receptor|vldlr
+ror1|receptor tyrosine kinase-like orphan receptor 1
+eph receptor|ephrin receptor
+semaphorin receptor|plexin|neuropilin
+robo receptor|roundabout
+dcc|netrin receptor
+p75 neurotrophin receptor|p75ntr
+gfr alpha|gdnf receptor
+il-7 receptor|il7r|cd127
+il-12 receptor
+il-13 receptor
+il-31 receptor
+common gamma chain|il2rg|gamma c
+cd40
+cd19
+cd3
+nkp46|natural cytotoxicity receptor
+trem2
+mertk
+axl
+tyro3
+`, "2026-11-07");
+P("Name an ion channel, pump or transporter","science","",`
+na/k atpase|sodium-potassium pump|na+/k+ atpase|sodium potassium atpase|na k atpase|sodium pump
+nkcc2|na-k-2cl cotransporter|nkcc|slc12a1|na/k/2cl cotransporter|furosemide target
+ncc|na-cl cotransporter|thiazide-sensitive cotransporter|slc12a3|nacl cotransporter
+enac|epithelial sodium channel|amiloride-sensitive sodium channel
+cftr|cystic fibrosis transmembrane conductance regulator|cftr chloride channel
+sglt2|sodium-glucose cotransporter 2|slc5a2
+sglt1|sodium-glucose cotransporter 1|slc5a1
+glut4|glucose transporter 4|slc2a4
+glut1|glucose transporter 1|slc2a1
+glut2|glucose transporter 2|slc2a2
+glut3|glucose transporter 3
+glut5|fructose transporter|slc2a5
+h/k atpase|proton pump|h+/k+ atpase|gastric proton pump|hydrogen potassium atpase
+romk|renal outer medullary potassium channel|kir1.1|kcnj1
+l-type calcium channel|l-type ca channel|cav1.2|dihydropyridine receptor channel|l type calcium channel
+t-type calcium channel|cav3|t type calcium channel
+n-type calcium channel|cav2.2|n type calcium channel
+p/q-type calcium channel|cav2.1|p/q type calcium channel
+hcn channel|funny channel|if channel|hyperpolarization-activated cyclic nucleotide-gated channel|hcn4|funny current
+ryanodine receptor channel|ryr1 channel|ryr2 channel|ryanodine receptor calcium release channel
+serca|sarcoplasmic reticulum calcium atpase|serca2a|sarco/endoplasmic reticulum ca atpase
+pmca|plasma membrane calcium atpase
+ncx|sodium-calcium exchanger|na/ca exchanger|na+/ca2+ exchanger
+aquaporin-2|aqp2|aquaporin 2
+aquaporin-1|aqp1
+aquaporin-3|aqp3
+aquaporin-4|aqp4
+aquaporin
+p-glycoprotein|p-gp|mdr1|abcb1|multidrug resistance protein 1
+pendrin|slc26a4
+nis|sodium-iodide symporter|sodium iodide symporter|slc5a5
+voltage-gated sodium channel|fast sodium channel|nav channel|sodium channel
+nav1.5|scn5a|cardiac sodium channel
+nav1.7|scn9a
+nav1.1|scn1a
+voltage-gated potassium channel|kv channel|delayed rectifier potassium channel|potassium channel
+herg|kv11.1|kcnh2|ikr channel
+kcnq1|kvlqt1|iks channel|kv7.1
+kcnq2|kcnq3|kv7.2|m-channel
+katp channel|atp-sensitive potassium channel|kir6.2|sur1|sulfonylurea receptor|kcnj11|abcc8
+gaba-a chloride channel|gaba-a receptor channel
+nicotinic receptor channel|nicotinic acetylcholine receptor channel
+nmda receptor channel
+glycine receptor channel
+5-ht3 receptor channel
+calcium-activated potassium channel|bk channel|sk channel|kca channel|maxi-k channel
+inward rectifier potassium channel|kir channel|kir2.1|ik1 channel|kcnj2
+girk|g protein-coupled inwardly rectifying potassium channel|kir3|ikach|kcnj5|girk4
+two-pore potassium channel|k2p channel|trek-1|task-1
+clc chloride channel|clc-1|clcnkb|clc-kb|clc-5
+calcium-activated chloride channel|tmem16a|anoctamin-1
+na/h exchanger|nhe3|sodium-hydrogen exchanger|nhe1|na+/h+ exchanger|sodium hydrogen antiporter
+h+ atpase|v-type atpase|vacuolar h+ atpase|v-atpase|proton atpase
+cl/hco3 exchanger|band 3|ae1|anion exchanger 1|chloride-bicarbonate exchanger|slc4a1
+nbce1|sodium bicarbonate cotransporter|slc4a4
+kcc2|k-cl cotransporter|kcc
+nkcc1|slc12a2
+copper transporting atpase atp7b|atp7b|wilson atpase
+atp7a|menkes atpase
+dmt1|divalent metal transporter 1|slc11a2
+ferroportin|slc40a1
+zip4|zinc transporter|slc39a4
+napi-iia|sodium-phosphate cotransporter|slc34a1
+urat1|slc22a12|uric acid transporter
+glut9|slc2a9
+oat1|organic anion transporter|slc22a6
+oct2|organic cation transporter|slc22a2
+mate1|multidrug and toxin extrusion protein
+oatp1b1|slco1b1|organic anion transporting polypeptide
+mrp2|abcc2|multidrug resistance-associated protein 2
+bsep|bile salt export pump|abcb11
+ntcp|sodium taurocholate cotransporting polypeptide|slc10a1
+asbt|apical sodium bile acid transporter|ibat|slc10a2
+abca1|atp-binding cassette a1
+abcg5/g8|abcg5|abcg8|sterolin
+npc1l1|niemann-pick c1-like 1|ezetimibe target
+mdr3|abcb4
+abcd1|ald protein
+sert|serotonin transporter|5-htt|slc6a4
+net|norepinephrine transporter|slc6a2
+dat|dopamine transporter|slc6a3
+vmat2|vesicular monoamine transporter 2|slc18a2
+vmat1
+vacht|vesicular acetylcholine transporter
+choline transporter|cht1|high-affinity choline transporter
+gat-1|gaba transporter|slc6a1
+eaat2|glt-1|glutamate transporter|slc1a2
+vglut|vesicular glutamate transporter
+glyt1|glycine transporter
+mct1|monocarboxylate transporter|slc16a1
+mct8|thyroid hormone transporter|slc16a2
+lat1|large neutral amino acid transporter|slc7a5
+b0at1|slc6a19|neutral amino acid transporter|hartnup transporter
+rbat|slc3a1|cystine transporter|slc7a9
+y+lat1|slc7a7
+pept1|peptide transporter 1|slc15a1
+pept2
+cnt|concentrative nucleoside transporter
+ent1|equilibrative nucleoside transporter|slc29a1
+folate transporter|reduced folate carrier|rfc|slc19a1
+pcft|proton-coupled folate transporter
+thiamine transporter|thtr1|slc19a2
+svct2|vitamin c transporter|svct1
+smvt|sodium multivitamin transporter
+mitochondrial calcium uniporter|mcu
+adenine nucleotide translocase|ant|adp/atp translocase
+ucp1|thermogenin|uncoupling protein 1
+atp synthase|complex v|f0f1 atpase
+mitochondrial pyruvate carrier|mpc
+carnitine-acylcarnitine translocase|cact
+octn2|carnitine transporter|slc22a5
+ip3 receptor channel|ip3 receptor calcium channel
+orai1|crac channel|store-operated calcium channel|stim1
+trpv1 channel|capsaicin channel
+trpv4
+trpv5|trpv6|epithelial calcium channel
+trpm6|magnesium channel|trpm7
+trpc6|trpc
+trpa1 channel
+piezo1 channel|piezo2 channel|piezo channel
+asic|acid-sensing ion channel
+p2x7 channel|p2x channel
+connexin|gap junction|cx43|connexin 26|gjb2
+pannexin|panx1
+claudin-16|paracellin-1|claudin 16
+claudin-19
+porin|vdac|voltage-dependent anion channel
+mitochondrial permeability transition pore|mptp
+hv1|voltage-gated proton channel
+cng channel|cyclic nucleotide-gated channel
+bestrophin|best1
+polycystin-2|pkd2|trpp2
+mucolipin-1|trpml1
+atp2a1|serca1
+atp2c1|spca1|hailey-hailey atpase
+atp1a3
+kir4.1|kcnj10
+kcne1|mink
+scn4a|nav1.4
+cacna1s|cav1.1
+clcn1
+hcn1
+trpm4
+slc26a3|dra|down-regulated in adenoma
+slc26a6|pat1
+slc4a11
+nbc3|slc4a7
+ae2|slc4a2
+kcc4
+nhe2
+sglt4
+glut10|slc2a10
+glut12
+ctr1|copper transporter 1|slc31a1
+znt8|slc30a8
+cnnm2
+abcg2|bcrp|breast cancer resistance protein
+mrp1|abcc1
+mrp4|abcc4
+abca4|abcr|rim protein
+abcc6|mrp6
+abcb7
+abcd3|pmp70
+tap|transporter associated with antigen processing|tap1|tap2
+sec61|translocon
+tom complex|tom20|tom40
+tim complex|tim23
+nuclear pore complex|nuclear pore
+`, "2026-11-07");
+P("Name a general pathology term","science","",`
+hypertrophy
+hyperplasia
+atrophy
+metaplasia
+dysplasia
+anaplasia
+apoptosis|programmed cell death
+necrosis
+coagulative necrosis
+liquefactive necrosis
+caseous necrosis|caseation
+fat necrosis|enzymatic fat necrosis
+fibrinoid necrosis
+gangrenous necrosis|gangrene
+dry gangrene
+wet gangrene
+gas gangrene
+granuloma|granulomatous inflammation
+caseating granuloma
+noncaseating granuloma
+acute inflammation
+chronic inflammation
+inflammation
+edema|oedema
+exudate
+transudate
+pus|purulent exudate|suppurative inflammation
+abscess
+ulcer|ulceration
+fibrinous inflammation|fibrinous exudate
+serous inflammation
+chemotaxis
+margination
+rolling
+diapedesis|transmigration|extravasation
+phagocytosis
+opsonization|opsonisation
+respiratory burst|oxidative burst
+healing
+regeneration
+repair
+granulation tissue
+fibrosis
+scar|scarring|cicatrix
+keloid
+hypertrophic scar
+wound contraction
+primary intention|healing by first intention
+secondary intention|healing by second intention
+angiogenesis|neovascularization
+neoplasia|neoplasm|tumor|tumour
+benign
+malignant|malignancy
+carcinoma
+sarcoma
+carcinoma in situ|in situ carcinoma
+invasion
+metastasis|metastases
+grade|tumor grade|grading
+stage|tumor stage|staging|tnm staging
+desmoplasia|desmoplastic reaction
+differentiation
+hamartoma
+choristoma|heterotopia|heterotopic rest
+teratoma
+paraneoplastic syndrome
+cachexia
+oncogene
+tumor suppressor gene|tumour suppressor gene
+proto-oncogene
+two-hit hypothesis|knudson hypothesis
+carcinogen|carcinogenesis
+infarct|infarction
+red infarct|hemorrhagic infarct|haemorrhagic infarct
+pale infarct|white infarct|anemic infarct
+thrombus|thrombosis
+mural thrombus
+lines of zahn
+postmortem clot|post-mortem clot|chicken fat clot
+virchow triad|virchow's triad
+embolus|embolism
+thromboembolism
+fat embolism
+air embolism|gas embolism
+amniotic fluid embolism
+paradoxical embolism
+saddle embolus
+hemorrhage|haemorrhage|bleeding
+petechiae|petechia
+purpura
+ecchymosis|ecchymoses|bruise
+hematoma|haematoma
+hyperemia|hyperaemia|active hyperemia
+congestion|passive congestion
+nutmeg liver|chronic passive congestion of liver
+heart failure cells|hemosiderin-laden macrophages|siderophages
+shock
+ischemia|ischaemia
+hypoxia
+reperfusion injury|ischemia-reperfusion injury
+free radical injury|reactive oxygen species|ros
+lipid peroxidation
+cell injury
+reversible cell injury
+irreversible cell injury
+cellular swelling|hydropic change|cloudy swelling|hydropic degeneration
+fatty change|steatosis|fatty degeneration
+blebbing|membrane blebbing
+myelin figures
+pyknosis
+karyorrhexis
+karyolysis
+cytoplasmic eosinophilia|increased eosinophilia
+chromatolysis|central chromatolysis
+red neuron|red neurons|eosinophilic neuronal necrosis
+dystrophic calcification
+metastatic calcification
+psammoma body|psammoma bodies
+calcification
+amyloidosis|amyloid
+apple-green birefringence
+congo red
+hyaline change|hyalinization|hyaline
+hyaline arteriolosclerosis
+hyperplastic arteriolosclerosis|onion skinning
+arteriosclerosis
+atherosclerosis
+fatty streak
+lipofuscin|wear and tear pigment
+hemosiderin|hemosiderosis|haemosiderin
+anthracosis
+melanin
+bilirubin|icterus|jaundice
+intracellular accumulation
+mallory body|mallory-denk body|mallory hyaline
+russell body|russell bodies
+councilman body|councilman bodies|acidophilic body
+negri body|negri bodies
+lewy body|lewy bodies
+pick body|pick bodies
+hirano body|hirano bodies
+neurofibrillary tangle|neurofibrillary tangles
+senile plaque|neuritic plaque|amyloid plaque
+asteroid body|asteroid bodies
+schaumann body|schaumann bodies
+langhans giant cell|langhans cell
+foreign body giant cell
+reed-sternberg cell|reed sternberg cell
+epithelioid cell|epithelioid histiocyte|epithelioid macrophage
+foam cell|foam cells
+aschoff body|aschoff bodies
+anitschkow cell|caterpillar cell
+call-exner body|call-exner bodies
+auer rod|auer rods
+dohle body|döhle bodies|dohle bodies
+toxic granulation
+left shift
+leukocytosis
+leukemoid reaction
+acute phase reactant|acute phase reactants|acute phase response
+c-reactive protein|crp
+esr|erythrocyte sedimentation rate|sed rate
+fever|pyrexia
+cytokine
+autophagy
+pyroptosis
+necroptosis
+ferroptosis
+caspase|caspases
+intrinsic pathway of apoptosis|mitochondrial pathway
+extrinsic pathway of apoptosis|death receptor pathway
+cytochrome c
+bcl-2
+p53
+senescence|cellular senescence
+telomere shortening|telomere
+heat shock protein|stress protein|chaperone
+involution
+hypoplasia
+aplasia
+agenesis
+atresia
+dysgenesis|dysgenesis of organ
+malformation
+deformation
+disruption
+sequence
+syndrome
+cyst
+pseudocyst
+fistula
+sinus tract
+stenosis
+stricture
+diverticulum
+polyp
+papilloma
+adenoma
+blastoma
+pleomorphism|nuclear pleomorphism
+hyperchromasia|hyperchromatism
+mitotic figure|atypical mitoses|mitoses
+nuclear to cytoplasmic ratio|n:c ratio|n/c ratio
+loss of polarity
+atypia|cellular atypia
+koilocyte|koilocytes|koilocytosis
+signet ring cell|signet ring cells
+keratin pearl|keratin pearls|squamous pearl
+rosette|homer wright rosette|flexner-wintersteiner rosette
+pseudopalisading
+palisading
+verocay body|antoni a|antoni b
+orphan annie eye nuclei|orphan annie nuclei
+nuclear grooves|coffee bean nuclei
+clear cell
+small round blue cell tumor|small round blue cells
+tumor marker|tumour marker
+tumor necrosis|tumour necrosis
+seeding|transcoelomic spread
+hematogenous spread|haematogenous spread
+lymphatic spread
+sentinel lymph node|sentinel node
+virchow node|virchows node
+sister mary joseph nodule
+krukenberg tumor|krukenberg tumour
+field effect|field cancerization
+clonality|monoclonal
+host response
+immune surveillance
+warburg effect|aerobic glycolysis
+hallmarks of cancer
+angiogenic switch
+epithelial-mesenchymal transition|emt
+anoikis
+contact inhibition
+immortalization|immortalisation
+sclerosis
+induration
+cirrhosis
+hyperkeratosis
+parakeratosis
+acanthosis
+spongiosis
+acantholysis
+dyskeratosis
+cholesterolosis|cholesterol cleft|cholesterol clefts
+xanthoma
+xanthelasma
+gout tophus|tophus|tophi
+ochronosis
+argyria
+lead line|lead lines
+crystal deposition
+glycogen storage|glycogen accumulation
+hyalinosis
+mucoid degeneration|myxoid degeneration|myxomatous degeneration
+cystic medial degeneration|cystic medial necrosis
+elastosis|solar elastosis
+cytomegaly
+inclusion body|inclusion bodies
+cowdry body|cowdry type a inclusion
+owl eye inclusion|owl's eye inclusion
+guarnieri body|guarnieri bodies
+molluscum body|henderson-patterson body
+ferruginous body|asbestos body
+curschmann spirals
+charcot-leyden crystals
+creola bodies
+zebra body|zebra bodies
+gaucher cell|crumpled tissue paper
+birbeck granule|birbeck granules
+michaelis-gutmann body
+splendore-hoeppli phenomenon
+sulfur granule|sulfur granules
+liesegang rings
+hypersensitivity reaction|hypersensitivity
+type i hypersensitivity|immediate hypersensitivity|anaphylaxis
+type ii hypersensitivity|antibody-mediated hypersensitivity
+type iii hypersensitivity|immune complex disease|immune complex hypersensitivity
+type iv hypersensitivity|delayed type hypersensitivity|dth
+arthus reaction
+serum sickness
+autoimmunity
+graft rejection|transplant rejection
+hyperacute rejection
+graft versus host disease|gvhd
+sepsis
+septic shock
+hypovolemic shock|hypovolaemic shock
+cardiogenic shock
+disseminated intravascular coagulation|dic
+hypercoagulability|thrombophilia
+stasis
+endothelial injury|endothelial dysfunction
+recanalization|recanalisation
+organization of thrombus|organisation
+thrombus propagation
+watershed infarct|watershed zone
+lacunar infarct|lacune
+contraction band necrosis
+wallerian degeneration
+gliosis
+spheroid|axonal spheroid
+cavitation
+ghon complex|ghon focus
+apoptotic body|apoptotic bodies
+`, "2026-11-07");
+P("Name a genetics or inheritance term","science","",`
+autosomal dominant|ad inheritance|autosomal dominant inheritance
+autosomal recessive|ar inheritance|autosomal recessive inheritance
+x-linked recessive|xlr|x linked recessive
+x-linked dominant|xld|x linked dominant
+x-linked|x linked|sex-linked|sex linked
+y-linked|holandric inheritance|y linked
+mitochondrial inheritance|maternal inheritance
+anticipation|genetic anticipation
+genomic imprinting|imprinting
+mosaicism|mosaic
+germline mosaicism|gonadal mosaicism
+somatic mosaicism
+incomplete penetrance|penetrance|reduced penetrance|nonpenetrance
+variable expressivity|expressivity
+pleiotropy
+loss of heterozygosity|loh
+uniparental disomy|upd
+isodisomy
+heterodisomy
+hardy-weinberg equilibrium|hardy-weinberg|hardy weinberg|hardy-weinberg principle
+heteroplasmy
+homoplasmy
+robertsonian translocation
+reciprocal translocation|balanced translocation
+translocation
+nondisjunction|non-disjunction
+frameshift mutation|frameshift
+point mutation
+missense mutation|missense
+nonsense mutation|nonsense
+silent mutation|synonymous mutation
+splice site mutation|splice-site mutation
+trinucleotide repeat expansion|triplet repeat expansion|trinucleotide repeat|repeat expansion
+dominant negative|dominant negative mutation
+gain of function|gain-of-function mutation
+loss of function|loss-of-function mutation
+haploinsufficiency
+locus heterogeneity
+allelic heterogeneity
+genetic heterogeneity
+phenocopy
+linkage disequilibrium
+linkage|genetic linkage
+lyonization|x-inactivation|x inactivation|lyonisation
+skewed x-inactivation|skewed lyonization
+barr body
+de novo mutation|new mutation|sporadic mutation
+founder effect
+genetic drift
+bottleneck effect|population bottleneck
+consanguinity
+carrier|heterozygous carrier
+homozygous|homozygote
+heterozygous|heterozygote
+compound heterozygote|compound heterozygosity
+hemizygous|hemizygosity
+genotype
+phenotype
+allele
+locus
+dominant
+recessive
+codominance|codominant
+incomplete dominance|semidominance
+epistasis
+polygenic inheritance|polygenic
+multifactorial inheritance|multifactorial
+aneuploidy
+euploidy
+polyploidy
+triploidy
+tetraploidy
+trisomy
+monosomy
+deletion
+microdeletion
+duplication
+inversion
+pericentric inversion
+paracentric inversion
+ring chromosome
+isochromosome
+insertion
+contiguous gene syndrome
+copy number variant|copy number variation|cnv
+karyotype
+fish|fluorescence in situ hybridization
+microarray|chromosomal microarray|cma
+whole exome sequencing|wes|exome sequencing
+whole genome sequencing|wgs
+pcr|polymerase chain reaction
+southern blot
+northern blot
+western blot
+sanger sequencing
+pedigree
+proband|propositus|index case
+recurrence risk
+bayesian analysis|bayes theorem
+lod score
+recombination|crossing over
+recombination frequency|centimorgan
+meiosis
+mitosis
+meiosis i nondisjunction
+meiosis ii nondisjunction
+anaphase lag
+gametogenesis
+gamete
+zygote
+chromosome
+autosome
+sex chromosome
+chromatid|sister chromatid
+centromere
+telomere
+acrocentric chromosome|acrocentric
+metacentric chromosome|metacentric
+submetacentric chromosome|submetacentric
+p arm|short arm
+q arm|long arm
+x chromosome
+y chromosome
+sry|sex-determining region y
+pseudoautosomal region|par1
+fragile site
+dynamic mutation
+premutation
+methylation|dna methylation
+epigenetics|epigenetic
+histone acetylation
+histone modification
+chromatin remodeling|chromatin remodelling
+heterochromatin
+euchromatin
+gene expression
+transcription
+translation
+codon
+anticodon
+exon
+intron
+promoter
+enhancer
+silencer
+splicing|alternative splicing
+reading frame|open reading frame
+start codon
+stop codon|termination codon
+wobble
+degeneracy of genetic code
+transition mutation|transition
+transversion mutation|transversion
+indel
+in-frame deletion
+single nucleotide polymorphism|snp
+polymorphism
+variant of uncertain significance|vus
+pathogenic variant
+benign variant
+mutation
+germline mutation
+somatic mutation
+driver mutation
+passenger mutation
+two-hit hypothesis|knudson two-hit hypothesis|knudson hypothesis
+tumor suppressor|tumour suppressor
+oncogene
+proto-oncogene
+dna repair defect|dna repair
+mismatch repair|mmr
+microsatellite instability|msi
+nucleotide excision repair
+base excision repair
+homologous recombination
+nonhomologous end joining|nhej
+genetic counseling|genetic counselling
+carrier screening
+newborn screening
+prenatal diagnosis
+amniocentesis
+chorionic villus sampling|cvs
+cell-free dna|cfdna|nipt|noninvasive prenatal testing
+preimplantation genetic testing|pgd|pgt
+cascade testing
+predictive testing|presymptomatic testing
+genetic testing
+sex-limited inheritance|sex-limited
+sex-influenced inheritance|sex-influenced
+digenic inheritance
+oligogenic inheritance
+pseudodominance
+semi-lethal
+lethal allele|lethal gene
+mendelian inheritance|mendelian
+law of segregation|segregation
+law of independent assortment|independent assortment
+punnett square
+test cross
+wild type
+null allele|amorph
+hypomorph|hypomorphic allele
+hypermorph
+neomorph
+antimorph
+modifier gene
+gene dosage|dosage compensation
+x-inactivation center|xist
+imprinting center
+parent of origin effect
+maternal effect
+genetic load
+heterozygote advantage|heterozygous advantage|balanced polymorphism
+natural selection
+inbreeding|inbreeding coefficient
+coefficient of relationship
+assortative mating
+gene flow|migration
+allele frequency|gene frequency
+genotype frequency
+carrier frequency
+obligate carrier
+manifesting heterozygote|manifesting carrier
+chimerism|chimera
+microchimerism
+partial trisomy
+segmental aneuploidy
+mosaic trisomy
+confined placental mosaicism
+unbalanced translocation
+derivative chromosome
+marker chromosome|supernumerary marker chromosome
+dicentric chromosome
+acentric fragment
+chromothripsis
+gene amplification|amplification
+double minutes
+homogeneously staining region|hsr
+fusion gene
+philadelphia chromosome|bcr-abl
+transposon|transposable element|jumping gene
+retrotransposon
+alu element
+line element|line-1
+tandem repeat
+microsatellite|short tandem repeat|str
+minisatellite|vntr
+pseudogene
+gene family
+haplotype
+haplogroup
+genome-wide association study|gwas
+polygenic risk score
+heritability
+concordance|twin concordance
+monozygotic twins|identical twins
+dizygotic twins|fraternal twins
+age-dependent penetrance
+nonsense-mediated decay|nonsense-mediated mrna decay
+premature stop codon|premature termination codon
+readthrough
+exon skipping
+cryptic splice site
+promoter mutation
+regulatory mutation
+neutral mutation
+conditional mutation
+mutagen
+mutation rate
+transcription factor
+gene
+genome
+mitochondrial dna|mtdna
+threshold effect
+replicative segregation
+mitochondrial bottleneck
+genetic mapping
+physical map
+position effect
+gene therapy
+crispr|crispr-cas9|gene editing
+antisense oligonucleotide|aso
+`, "2026-11-07");
+P("Name an infection a traveler could bring home","micro","",`
+malaria|plasmodium
+falciparum malaria|plasmodium falciparum|p falciparum
+vivax malaria|plasmodium vivax|p vivax
+ovale malaria|plasmodium ovale|p ovale
+malariae malaria|plasmodium malariae|quartan malaria
+knowlesi malaria|plasmodium knowlesi
+dengue|dengue fever|breakbone fever
+severe dengue|dengue hemorrhagic fever|dengue shock syndrome
+typhoid fever|typhoid|enteric fever|salmonella typhi
+paratyphoid fever|paratyphoid|salmonella paratyphi
+traveler's diarrhea|travelers diarrhea|travellers diarrhoea|montezuma's revenge|delhi belly
+enterotoxigenic e coli|etec
+hepatitis a|hep a|hav
+hepatitis e|hep e|hev
+hepatitis b|hep b|hbv
+chikungunya|chikv
+zika|zika virus
+schistosomiasis|bilharzia|swimmer's itch|katayama fever
+leishmaniasis
+cutaneous leishmaniasis|oriental sore
+visceral leishmaniasis|kala-azar
+rabies
+cholera|vibrio cholerae
+yellow fever
+measles|rubeola
+tuberculosis|tb
+multidrug-resistant tuberculosis|mdr-tb|xdr-tb
+giardiasis|giardia
+amebiasis|amoebiasis|entamoeba histolytica|amebic dysentery
+amebic liver abscess|amoebic liver abscess
+cryptosporidiosis|cryptosporidium
+cyclosporiasis|cyclospora
+shigellosis|shigella|bacillary dysentery
+campylobacter|campylobacteriosis
+nontyphoidal salmonella|salmonellosis
+norovirus|cruise ship diarrhea|norwalk virus
+rickettsial infection|rickettsiosis
+african tick bite fever|rickettsia africae
+mediterranean spotted fever|boutonneuse fever|rickettsia conorii
+scrub typhus|orientia tsutsugamushi
+murine typhus|endemic typhus
+epidemic typhus|louse-borne typhus
+leptospirosis|weil disease|weil's disease
+strongyloidiasis|strongyloides
+cutaneous larva migrans|creeping eruption
+hookworm|ancylostoma|necator
+ascariasis|ascaris
+trichuriasis|whipworm
+cysticercosis|taenia solium|neurocysticercosis
+tapeworm|taeniasis
+echinococcosis|hydatid disease|echinococcus
+fascioliasis|fasciola
+clonorchiasis|chinese liver fluke
+opisthorchiasis
+paragonimiasis|lung fluke
+filariasis|lymphatic filariasis|elephantiasis
+loiasis|loa loa|african eye worm
+onchocerciasis|river blindness
+dracunculiasis|guinea worm
+african trypanosomiasis|sleeping sickness
+chagas disease|american trypanosomiasis|trypanosoma cruzi
+japanese encephalitis
+tick-borne encephalitis|tbe
+west nile virus|west nile fever
+lassa fever
+ebola|ebola virus disease|evd
+marburg virus|marburg hemorrhagic fever
+crimean-congo hemorrhagic fever|cchf
+hantavirus|hemorrhagic fever with renal syndrome
+mers|middle east respiratory syndrome
+covid-19|sars-cov-2|covid
+influenza|flu
+avian influenza|bird flu|h5n1
+legionnaires disease|legionella|legionellosis
+meningococcal disease|meningococcus|neisseria meningitidis
+polio|poliomyelitis
+diphtheria
+pertussis|whooping cough
+mumps
+rubella|german measles
+varicella|chickenpox
+mpox|monkeypox
+scabies
+tungiasis|tunga penetrans|chigoe flea|jigger
+myiasis|botfly|bot fly
+head lice|pediculosis
+bed bugs|bedbugs
+gonorrhea|gonorrhoea
+chlamydia
+syphilis
+hiv
+chancroid
+lymphogranuloma venereum|lgv
+granuloma inguinale|donovanosis
+melioidosis|burkholderia pseudomallei
+brucellosis|undulant fever|malta fever
+q fever|coxiella burnetii
+anthrax
+plague|yersinia pestis|bubonic plague
+tularemia|rabbit fever
+histoplasmosis
+coccidioidomycosis|valley fever
+blastomycosis
+paracoccidioidomycosis
+talaromycosis|penicilliosis|talaromyces marneffei
+sporotrichosis
+chromoblastomycosis
+mycetoma|madura foot
+tinea imbricata
+pityriasis versicolor|tinea versicolor
+leprosy|hansen disease|hansen's disease
+buruli ulcer|mycobacterium ulcerans
+yaws
+trachoma
+lyme disease|borreliosis
+relapsing fever|tick-borne relapsing fever|louse-borne relapsing fever
+bartonellosis|carrion disease|oroya fever
+trench fever|bartonella quintana
+cat scratch disease
+toxoplasmosis
+trichinellosis|trichinosis
+angiostrongyliasis|angiostrongylus cantonensis|rat lungworm
+gnathostomiasis
+anisakiasis|anisakis
+toxocariasis|visceral larva migrans
+enterobiasis|pinworm
+diphyllobothriasis|fish tapeworm
+hymenolepiasis|dwarf tapeworm
+sparganosis
+ciguatera
+scombroid poisoning|scombroid
+vibrio vulnificus
+vibrio parahaemolyticus
+aeromonas
+plesiomonas
+yersiniosis|yersinia enterocolitica
+blastocystis
+dientamoeba
+balantidiasis|balantidium
+cystoisosporiasis|isosporiasis|cystoisospora
+microsporidiosis
+tropical sprue
+epidemic keratoconjunctivitis|adenovirus
+hand foot and mouth disease|enterovirus 71|ev71
+oropouche virus|oropouche fever
+mayaro virus
+ross river virus|epidemic polyarthritis
+sindbis virus
+o'nyong-nyong
+rift valley fever
+sandfly fever|pappataci fever
+kyasanur forest disease
+nipah virus
+hendra virus
+herpes b virus|macaque b virus|cercopithecine herpesvirus
+sars|severe acute respiratory syndrome
+hepatitis d|hep d|delta hepatitis
+htlv-1
+candida auris
+carbapenem-resistant enterobacterales|cre|carbapenemase-producing organism|ndm-1
+esbl colonization|esbl|extended-spectrum beta-lactamase
+mrsa
+primary amebic meningoencephalitis|naegleria fowleri
+acanthamoeba keratitis
+pneumonic plague
+diphtheria cutaneous|cutaneous diphtheria
+`, "2026-11-07");
+P("Name a microbiology identification test","micro","",`
+catalase test|catalase
+coagulase test|coagulase
+optochin sensitivity|optochin test|optochin
+bacitracin sensitivity|bacitracin test|bacitracin
+camp test|camp factor test
+oxidase test|oxidase|cytochrome oxidase test
+urease test|urease
+lactose fermentation|lactose fermentation test
+hemolysis pattern|blood agar hemolysis|hemolysis on blood agar|haemolysis pattern
+quellung reaction|quellung test|capsular swelling test
+india ink stain|india ink
+koh prep|koh preparation|potassium hydroxide prep
+germ tube test|germ tube
+elek test|elek plate test
+weil-felix reaction|weil-felix test|weil felix
+heterophile antibody test|monospot|monospot test|paul-bunnell test
+string test|string test for vibrio
+hippurate hydrolysis|hippurate test
+pyr test|pyr|pyrrolidonyl arylamidase test
+bile esculin test|bile esculin|bile esculin agar
+indole test|indole|spot indole test
+maldi-tof|maldi-tof ms|mass spectrometry identification
+16s rrna sequencing|16s sequencing|16s rrna gene sequencing
+gram stain|gram staining
+ziehl-neelsen stain|acid-fast stain|afb smear|acid fast stain|kinyoun stain
+auramine-rhodamine stain|fluorochrome stain|auramine stain
+giemsa stain|giemsa
+wright stain|wright-giemsa
+methylene blue stain|loeffler methylene blue
+gomori methenamine silver|gms stain|methenamine silver stain
+pas stain|periodic acid-schiff stain
+mucicarmine stain|mucicarmine
+warthin-starry stain|dieterle stain
+calcofluor white stain|calcofluor white
+fontana-tribondeau stain
+albert stain
+capsule stain
+spore stain|schaeffer-fulton stain|endospore stain
+flagella stain
+dark-field microscopy|darkfield microscopy|dark field examination
+wet mount|saline wet mount
+hanging drop test|hanging drop motility
+motility test|motility medium|sim motility
+triple sugar iron agar|tsi agar|tsi
+sim medium|sulfide indole motility
+mio medium
+citrate test|simmons citrate|citrate utilization test
+methyl red test|methyl red|mr test
+voges-proskauer test|vp test|voges proskauer
+imvic|imvic tests
+nitrate reduction test|nitrate reduction
+gelatinase test|gelatin liquefaction
+dnase test|dnase agar
+lecithinase test|nagler reaction|nagler test|egg yolk agar
+lipase test
+decarboxylase test|moeller decarboxylase|lysine decarboxylase test|ldc
+ornithine decarboxylase test
+arginine dihydrolase test
+phenylalanine deaminase test|pda test
+tryptophanase test
+esculin hydrolysis
+starch hydrolysis test
+casein hydrolysis test
+tween 80 hydrolysis
+bile solubility test|bile solubility
+salt tolerance test|6.5 percent nacl test|nacl tolerance
+growth at 42 degrees|temperature tolerance test
+growth in 40 percent bile
+cetrimide agar test
+pigment production test|pyocyanin production|pigment production
+fluorescence test|pyoverdin fluorescence
+niacin accumulation test|niacin test
+catalase at 68 degrees|heat-stable catalase test
+arylsulfatase test
+tellurite reduction test|tellurite test
+pyrazinamidase test
+thiophene-2-carboxylic acid hydrazide test|tch test
+mannitol fermentation|mannitol salt agar|msa
+sorbitol maconkey agar|smac agar|sorbitol fermentation
+eosin methylene blue agar|emb agar
+hektoen enteric agar|hektoen agar
+xld agar|xylose lysine deoxycholate agar
+salmonella shigella agar|ss agar
+tcbs agar|thiosulfate citrate bile salts sucrose agar
+chocolate agar|chocolate agar growth
+thayer-martin agar|modified thayer-martin|vpn medium
+regan-lowe medium|bordet-gengou agar
+loeffler medium|tinsdale agar
+tellurite blood agar
+charcoal yeast extract agar|bcye agar|buffered charcoal yeast extract
+lowenstein-jensen medium|lj medium
+middlebrook agar|middlebrook 7h10
+sabouraud agar|sabouraud dextrose agar
+czapek-dox agar
+bird seed agar|niger seed agar|caffeic acid agar
+corn meal agar|cornmeal agar chlamydospore
+chromagar|chromogenic agar
+cary-blair transport medium
+anaerobic culture
+blood culture
+urine culture
+sputum culture
+stool culture
+csf culture
+throat culture|throat swab culture
+wound culture
+fungal culture
+viral culture|shell vial culture
+cell culture cytopathic effect|cytopathic effect|cpe
+antibiotic susceptibility testing|antimicrobial susceptibility testing|ast
+disk diffusion test|kirby-bauer test|kirby bauer
+minimum inhibitory concentration|mic
+minimum bactericidal concentration|mbc
+broth microdilution
+agar dilution
+e-test|etest|epsilometer test
+d-test|d test|clindamycin d-test
+cefinase test|beta-lactamase test|nitrocefin test
+cefoxitin screen|oxacillin screen
+meca pcr|meca detection
+vancomycin screen agar
+modified hodge test|carbapenemase inhibition test|carba np test
+esbl confirmatory test|double disk synergy test
+nitrocefin disk
+latex agglutination test|latex agglutination
+cocountercurrent immunoelectrophoresis
+cryptococcal antigen test|crag|cryptococcal antigen
+galactomannan assay|galactomannan
+beta-d-glucan assay|beta glucan assay
+histoplasma antigen test|urine histoplasma antigen
+urine legionella antigen|legionella urinary antigen
+pneumococcal urinary antigen|streptococcus pneumoniae urine antigen
+rapid strep test|rapid antigen detection test|rapid strep antigen
+rapid influenza test|rapid influenza antigen test
+rsv antigen test
+rotavirus antigen test
+c difficile toxin immunoassay|c diff toxin eia
+c difficile glutamate dehydrogenase antigen|gdh antigen test
+stool ova and parasite exam|ova and parasites|o and p
+modified acid-fast stain for cryptosporidium|modified kinyoun for parasites
+trichrome stain|trichrome stain for stool
+scotch tape test|cellophane tape test|pinworm tape test
+thick and thin blood smear|malaria smear|peripheral smear for malaria
+rapid diagnostic test for malaria|malaria rdt|malaria antigen test
+buffy coat examination
+bone marrow culture
+knott concentration test
+skin snip
+nasal scraping|slit skin smear
+tzanck smear|tzanck test
+direct fluorescent antibody|dfa|dfa test
+indirect immunofluorescence assay|ifa
+enzyme-linked immunosorbent assay|elisa
+western blot confirmation|immunoblot
+complement fixation test|cft
+hemagglutination inhibition test|hai test
+agglutination test
+widal test|widal
+rpr test|rpr|rapid plasma reagin
+vdrl test|vdrl
+treponemal antibody test|fta-abs|tp-pa|treponemal eia
+darkfield for syphilis|treponeme darkfield
+tuberculin skin test|ppd|mantoux test|tst
+interferon gamma release assay|igra|quantiferon|t-spot
+histoplasmin skin test
+coccidioidin skin test|spherulin skin test
+casoni test
+lepromin test
+schick test
+dick test
+frei test
+nucleic acid amplification test|naat
+pcr|polymerase chain reaction|real-time pcr|qpcr
+multiplex pcr panel|respiratory pcr panel|gi pcr panel
+line probe assay
+genexpert|xpert mtb/rif|cepheid xpert
+whole genome sequencing|wgs identification
+metagenomic sequencing|metagenomic next-generation sequencing
+pulsed-field gel electrophoresis|pfge
+ribotyping
+spa typing
+mlst|multilocus sequence typing
+phage typing
+serotyping|serogrouping
+biotyping
+api strip|api 20e|api system
+vitek|vitek 2
+biolog|carbon source utilization panel
+automated blood culture system|bactec
+microscan
+flow cytometry identification
+fluorescence in situ hybridization|peptide nucleic acid fish|pna fish
+t2 magnetic resonance assay
+satellite phenomenon|satellitism test
+x and v factor requirement|x and v factors|hemin and nad requirement
+porphyrin test|ald test
+lancefield grouping
+sodium polyanethol sulfonate test|sps test
+litmus milk test
+fermentation tube test
+carbohydrate utilization test|sugar fermentation test
+rapid urease test for h pylori|clo test|campylobacter-like organism test
+urea breath test
+h pylori stool antigen
+`, "2026-11-07");
+P("Name a section or element of a history and physical (H&P)","care","",`
+chief complaint|cc|presenting complaint
+history of present illness|hpi
+past medical history|pmh|medical history
+past surgical history|psh|surgical history
+medications|medication list|current medications|meds
+allergies|allergy history|drug allergies
+family history|fh
+social history|sh
+review of systems|ros
+physical exam|physical examination
+vital signs|vitals
+general appearance|general survey
+assessment
+plan
+assessment and plan|a and p
+differential diagnosis|ddx
+problem list
+code status|dnr status|advance directives|goals of care
+immunizations|vaccination history|immunization history
+obstetric history|ob history|gynecologic history|ob/gyn history|menstrual history
+sexual history
+travel history
+occupational history|work history
+identifying data|patient identifiers|demographics|age and sex
+source of history|historian|source and reliability
+reliability of history
+onset
+location
+duration
+character|quality|description of symptom
+aggravating factors|exacerbating factors
+relieving factors|alleviating factors
+radiation
+timing
+severity|severity scale|pain score
+associated symptoms|associated manifestations
+context|setting
+pertinent positives
+pertinent negatives
+diet history|nutrition history
+exercise history|activity level
+tobacco use|smoking history|pack-years
+alcohol use|etoh history|alcohol history
+substance use|drug use history|illicit drug use
+caffeine use
+living situation|home situation
+support system
+functional status|activities of daily living|adls|iadls
+developmental history
+birth history|perinatal history
+growth history|growth chart
+hospitalizations|prior hospitalizations
+prior imaging and labs|previous studies|outside records
+health maintenance|preventive care|screening history
+blood transfusion history|transfusion history
+religious or cultural beliefs|cultural history|spiritual history
+firearm access|gun safety|home safety
+intimate partner violence screening|domestic violence screening|ipv screening
+depression screening
+fall risk assessment
+pain history
+sleep history
+blood pressure|bp
+heart rate|pulse|hr
+respiratory rate|rr
+temperature|temp
+oxygen saturation|spo2|pulse oximetry|o2 sat
+height
+weight
+body mass index|bmi
+pain scale|pain rating
+orthostatic vital signs|orthostatics
+constitutional review|constitutional symptoms
+heent|head eyes ears nose throat
+head exam
+eye exam|ophthalmologic exam|ocular exam
+fundoscopic exam|funduscopic examination|ophthalmoscopy
+pupils|pupillary exam|perrla
+extraocular movements|eom
+visual acuity
+ear exam|otoscopic exam
+nose exam|nasal exam
+oropharynx exam|oral exam|mouth and throat exam
+neck exam
+thyroid exam
+lymph node exam|lymphatic exam|lymphadenopathy exam
+jugular venous pressure|jvp|jvd assessment
+carotid exam|carotid bruit
+chest exam|thorax exam
+lung exam|pulmonary exam|respiratory exam
+auscultation
+percussion
+palpation
+inspection
+cardiovascular exam|cardiac exam|heart exam
+point of maximal impulse|pmi|apical impulse
+heart sounds|s1 and s2
+murmur assessment|murmurs rubs and gallops
+peripheral pulses|pulse exam
+capillary refill
+abdominal exam|abdomen exam
+bowel sounds
+liver span|hepatic exam
+spleen exam|splenic palpation
+rebound tenderness|peritoneal signs
+costovertebral angle tenderness|cva tenderness
+rectal exam|digital rectal exam|dre
+genitourinary exam|gu exam
+pelvic exam
+breast exam
+prostate exam
+testicular exam
+musculoskeletal exam|msk exam
+joint exam
+range of motion|rom
+spine exam|back exam
+gait assessment|gait
+extremities exam|extremity exam
+edema assessment|peripheral edema exam
+skin exam|dermatologic exam|integumentary exam
+nail exam
+neurologic exam|neuro exam
+mental status exam|mse
+level of consciousness|alertness|glasgow coma scale|gcs
+orientation
+cranial nerve exam|cranial nerves
+motor exam|strength testing|muscle strength
+sensory exam|sensation testing
+reflexes|deep tendon reflexes|dtrs
+babinski sign|plantar reflex
+cerebellar exam|coordination testing|finger to nose
+romberg test
+meningeal signs|nuchal rigidity|kernig and brudzinski
+psychiatric exam|psychiatric review|mood and affect
+cognition|cognitive screening|mini-mental status exam|mmse|moca
+speech and language assessment
+labs|laboratory data|laboratory results
+imaging results|radiology results
+electrocardiogram|ekg|ecg
+intake and output|i and o|ins and outs
+medication reconciliation
+allergy reactions|reaction to allergen
+dosage and frequency of medications
+over-the-counter medications|otc medications
+herbal supplements|supplements|vitamins
+adherence|compliance history
+chronology of symptoms|timeline
+progression of illness
+previous episodes|prior similar episodes
+hospital course
+interval history|subjective update
+objective data
+subjective
+summary statement|one-liner|patient summary
+impression
+recommendations
+disposition
+follow-up plan|follow up
+patient education|counseling
+consultations|consults requested
+prophylaxis|dvt prophylaxis|stress ulcer prophylaxis
+diet order
+activity order
+anticipatory guidance
+pedigree|family pedigree
+genetic history
+pets and animal exposure|animal exposure
+sick contacts|exposure history
+insurance and access|health care access
+advance care planning|health care proxy|durable power of attorney
+primary care provider|pcp
+emergency contact
+risk factors
+goals and values
+`, "2026-11-07");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

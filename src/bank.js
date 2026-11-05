@@ -29524,6 +29524,860 @@ chorizo
 pate
 `, "2026-11-07");
 
+/* ---- NEW STANDARD DAILY PROMPTS: NURSING part 3 (batch 2026-11-05, board-first) ---- */
+P("Name a symptom of lupus","nursing","",`
+butterfly rash|malar rash
+joint pain|arthralgia|arthritis
+fatigue
+fever|low grade fever
+photosensitivity|sun sensitivity
+hair loss|alopecia
+mouth ulcers|oral ulcers|mouth sores
+raynaud phenomenon|raynauds
+kidney problems|lupus nephritis|nephritis
+proteinuria|protein in urine|foamy urine
+hematuria|blood in urine
+chest pain|pleuritic chest pain|pain with deep breathing
+pleuritis|pleurisy
+pleural effusion
+pericarditis
+pericardial effusion
+discoid rash|discoid lesions
+swelling|edema
+swollen joints|joint swelling
+morning stiffness
+muscle pain|myalgia
+weight loss
+swollen lymph nodes|lymphadenopathy
+anemia|hemolytic anemia
+low white blood cells|leukopenia
+lymphopenia
+low platelets|thrombocytopenia
+blood clots|thrombosis|antiphospholipid syndrome
+miscarriage|recurrent pregnancy loss
+headache
+seizures
+psychosis
+depression
+anxiety
+cognitive problems|lupus fog|brain fog|memory problems
+stroke
+peripheral neuropathy|numbness
+dry eyes|sjogren syndrome
+dry mouth
+shortness of breath|dyspnea
+cough
+pulmonary hypertension
+interstitial lung disease
+shrinking lung syndrome
+libman sacks endocarditis
+myocarditis
+accelerated atherosclerosis|coronary artery disease
+hypertension
+vasculitis
+livedo reticularis
+purpura
+urticaria|hives
+nasal ulcers
+skin rash
+subacute cutaneous lupus
+lupus profundus|lupus panniculitis
+chilblains|chilblain lupus
+nail fold changes
+splenomegaly|enlarged spleen
+hepatomegaly
+abdominal pain
+nausea|vomiting
+diarrhea
+pancreatitis
+serositis
+jaccoud arthropathy
+avascular necrosis
+osteoporosis
+neonatal lupus|congenital heart block
+eye inflammation|uveitis|scleritis
+retinal vasculitis|cotton wool spots
+optic neuritis
+loss of appetite
+malaise
+sleep problems
+mood swings
+transverse myelitis
+aseptic meningitis
+chorea
+night sweats
+hearing loss
+ringing in ears|tinnitus
+vertigo
+fingertip ulcers|digital ulcers
+leg ulcers
+dry skin
+confusion|delirium
+`, "2026-11-07");
+
+P("Name a side effect of radiation therapy","nursing","",`
+fatigue
+skin changes|skin irritation|radiation dermatitis|skin redness|erythema
+dry skin|dry desquamation
+moist desquamation|peeling skin|blistering
+itching|pruritus
+hair loss in the treated area|hair loss|alopecia
+nausea|vomiting
+diarrhea
+mouth sores|mucositis|stomatitis
+dry mouth|xerostomia
+taste changes|loss of taste
+difficulty swallowing|dysphagia
+sore throat
+esophagitis
+loss of appetite|anorexia
+weight loss
+bone marrow suppression|low blood counts|myelosuppression
+anemia
+low white blood cells|leukopenia|neutropenia
+low platelets|thrombocytopenia
+infection
+radiation pneumonitis|pneumonitis
+pulmonary fibrosis|lung fibrosis
+cough
+shortness of breath
+cystitis|radiation cystitis
+urinary frequency|urinary urgency|painful urination
+proctitis|radiation proctitis
+rectal bleeding
+enteritis|radiation enteritis
+bowel obstruction|strictures
+fistula
+infertility|sterility
+early menopause|ovarian failure
+erectile dysfunction|sexual dysfunction
+vaginal dryness
+vaginal stenosis
+lymphedema
+fibrosis|tissue fibrosis
+skin hyperpigmentation|darkening of skin
+telangiectasia
+skin atrophy
+poor wound healing
+osteoradionecrosis
+bone fractures|pathologic fractures
+dental caries|radiation caries|tooth decay
+trismus|jaw stiffness
+thick saliva
+hearing loss
+hypothyroidism
+cognitive changes|memory problems
+brain edema|cerebral edema
+headache
+radiation necrosis
+cataracts
+dry eyes
+secondary cancer|secondary malignancy
+heart disease|radiation induced heart disease|cardiotoxicity
+pericarditis
+coronary artery disease
+growth problems in children|stunted growth
+myelopathy|spinal cord damage
+plexopathy|brachial plexopathy
+peripheral neuropathy
+radiation recall
+somnolence syndrome
+hoarseness|voice changes
+loss of eyelashes
+nasal dryness
+ear infections|otitis media
+lhermitte sign
+hepatitis|radiation hepatitis
+nephritis|radiation nephritis
+hemorrhagic cystitis
+incontinence
+depression
+anxiety
+sleep problems|insomnia
+edema|swelling
+breast swelling
+breast shrinkage
+nipple soreness
+sweat gland loss|decreased sweating
+lymphopenia
+teratogenicity|birth defects
+skin ulceration
+`, "2026-11-07");
+
+P("Name a symptom of COPD","nursing","",`
+shortness of breath|dyspnea
+chronic cough|cough
+sputum production|mucus production|productive cough|increased sputum
+wheezing
+chest tightness
+barrel chest
+pursed lip breathing
+use of accessory muscles|accessory muscle use
+tripod position|tripoding
+fatigue
+frequent respiratory infections|frequent chest infections
+cyanosis|blue lips
+clubbing|digital clubbing
+weight loss|cachexia
+diminished breath sounds|decreased breath sounds
+prolonged expiration|prolonged expiratory phase
+hypoxemia|low oxygen|low sats
+hypercapnia|co2 retention|high co2
+respiratory acidosis
+exacerbations|copd flare
+dyspnea on exertion|breathlessness on exertion
+exercise intolerance
+orthopnea
+morning headaches
+confusion
+anxiety
+depression
+insomnia
+edema|swelling in ankles|leg swelling
+cor pulmonale|right sided heart failure
+jugular venous distension|jvd
+pulmonary hypertension
+polycythemia
+crackles
+rhonchi
+hyperresonance on percussion|hyperresonance
+increased ap diameter
+flattened diaphragm
+pink puffer
+blue bloater
+muscle wasting
+loss of appetite
+difficulty speaking in full sentences
+nasal flaring
+tachypnea|rapid breathing
+tachycardia
+hoover sign
+dynamic hyperinflation|air trapping
+pneumothorax
+osteoporosis
+weakness
+frequent throat clearing
+hemoptysis
+chest pain
+nocturnal desaturation
+decreased activity tolerance
+poor concentration
+irritability
+somnolence|co2 narcosis
+asterixis
+plethora|ruddy complexion
+leaning forward on arms
+distant heart sounds
+thick sputum|tenacious sputum
+purulent sputum|change in sputum color|green sputum|yellow sputum
+breathlessness when eating
+early satiety
+decreased chest expansion
+intercostal retractions
+paradoxical breathing
+decreased tactile fremitus
+social isolation
+hepatomegaly
+frequent colds
+chest congestion
+pulsus paradoxus
+waking up breathless
+hypoventilation
+`, "2026-11-07");
+
+P("Name a symptom of anemia","nursing","",`
+fatigue|tiredness
+weakness
+pale skin|pallor
+shortness of breath|dyspnea|dyspnea on exertion
+dizziness|lightheadedness
+rapid heart rate|tachycardia
+palpitations
+cold hands and feet|cold intolerance
+headache
+chest pain|angina
+brittle nails
+spoon nails|koilonychia
+pica|geophagia|craving dirt|amylophagia|craving starch
+pagophagia|ice cravings
+restless legs
+hair loss
+sore tongue|glossitis|smooth tongue
+cracks at corners of mouth|angular cheilitis
+pale conjunctiva|conjunctival pallor
+pale nail beds
+jaundice|yellow skin
+dark urine
+splenomegaly|enlarged spleen
+numbness and tingling|peripheral neuropathy
+memory problems|confusion
+irritability
+difficulty concentrating
+fainting|syncope
+exercise intolerance
+heart murmur|flow murmur
+heart failure
+orthostatic hypotension
+tinnitus|pulsatile tinnitus|whooshing in ears
+loss of appetite
+poor growth in children
+developmental delay
+frequent infections
+difficulty swallowing|plummer vinson syndrome|esophageal webs
+beefy red tongue
+loss of vibration sense
+loss of proprioception
+ataxia|unsteady gait
+depression
+leg cramps
+sleepiness
+decreased work capacity
+mood changes
+widened pulse pressure
+bounding pulse
+capillary refill delay
+insomnia
+bone pain|bone deformities
+hand foot syndrome|dactylitis
+gallstones
+leg ulcers
+pain crisis
+priapism
+frontal bossing
+chipmunk facies
+fast breathing|tachypnea
+low blood pressure|hypotension
+lethargy
+apathy
+blurred vision
+retinal hemorrhages
+dry hair
+dry skin
+easy bruising
+bleeding gums
+petechiae
+fever
+decreased libido
+erectile dysfunction
+nail ridges
+brittle hair
+increased cardiac output
+cardiomegaly
+`, "2026-11-07");
+
+P("Name a sign of pain in a nonverbal patient","nursing","",`
+grimacing|facial grimace
+moaning|groaning
+crying
+restlessness|agitation
+guarding|guarding the painful area|holding the painful area
+wincing
+frowning|furrowed brow
+clenched jaw|jaw clenching
+clenched fists
+rigid posture|rigidity|tense body|increased muscle tone|muscle tension
+increased heart rate|tachycardia
+increased blood pressure|hypertension
+increased respiratory rate|rapid breathing
+sweating|diaphoresis
+dilated pupils
+withdrawal from touch|pulling away
+rubbing the painful area|touching the painful area|pointing to painful area
+rocking
+pacing
+calling out|yelling|screaming
+striking out|combativeness|aggression
+resisting care|resistance to turning
+labored breathing
+noisy breathing
+fidgeting
+tossing and turning
+decreased appetite|refusing food
+sleep disturbance|insomnia|sleeping less
+withdrawn|social withdrawal|decreased interaction
+confusion|increased confusion
+irritability
+changes in activity|decreased activity
+inconsolable crying|difficult to console
+kicking legs|legs drawn up|flexed knees
+arched back|arching
+high pitched cry
+whimpering
+sighing
+splinting
+holding breath
+nasal flaring
+quivering chin|chin quiver
+tremors
+eyes tightly closed|squeezed eyes
+facial expression changes
+lip biting
+tearing|tears|tearful eyes
+ventilator asynchrony|fighting the ventilator|coughing on ventilator
+oxygen desaturation
+pallor
+flushing
+nausea
+immobility|lying very still
+limping
+protective posturing
+reluctance to move|refusing to move|reduced mobility
+repetitive movements
+self injurious behavior|head banging
+wandering
+picking at clothes
+mood changes
+depression
+increased vocalizations
+verbal outbursts|cursing
+grunting
+tense shoulders
+stiff limbs
+squirming
+raised upper lip|raised eyebrows
+deepened nasolabial folds
+open mouth|mouth stretched open
+tight lips|pursed lips
+eye twitching
+rapid blinking|blinking rapidly
+pulling at lines|pulling at tubes
+leaning to one side
+curled up|fetal position
+stiff gait
+refusing to walk
+sleeping more
+crying out with movement
+bracing
+`, "2026-11-07");
+
+P("Name a risk factor for preterm labor","nursing","",`
+previous preterm birth|history of preterm birth|prior preterm delivery
+multiple pregnancy|twins|triplets|multiples
+short cervix|cervical shortening
+cervical insufficiency|incompetent cervix
+urinary tract infection|uti
+bacterial vaginosis
+sexually transmitted infections|stis|chlamydia|gonorrhea|trichomoniasis
+chorioamnionitis|intraamniotic infection
+smoking|tobacco use
+drug use|substance use|cocaine|methamphetamine
+alcohol use
+preeclampsia
+high blood pressure|hypertension
+diabetes|gestational diabetes
+placenta previa
+placental abruption|abruptio placentae
+polyhydramnios
+premature rupture of membranes|prom|pprom
+uterine abnormalities|bicornuate uterus|septate uterus
+uterine fibroids
+previous cervical surgery|leep|cone biopsy
+short interpregnancy interval|pregnancies close together
+teen pregnancy|maternal age under 17|young maternal age
+advanced maternal age|maternal age over 35
+low prepregnancy weight|underweight
+obesity
+poor nutrition|malnutrition
+inadequate prenatal care|lack of prenatal care
+stress|chronic stress
+domestic violence|intimate partner violence
+low socioeconomic status|poverty
+black race|african american
+ivf|in vitro fertilization|assisted reproductive technology
+vaginal bleeding|bleeding in pregnancy
+periodontal disease|gum disease|periodontitis
+anemia
+fetal anomalies|birth defects
+trauma|abdominal trauma|falls
+long working hours|standing for long periods
+physical abuse
+kidney disease
+thyroid disease
+lupus
+antiphospholipid syndrome
+asthma
+depression
+sickle cell disease
+group b strep
+pyelonephritis
+asymptomatic bacteriuria
+fever
+appendicitis
+abdominal surgery during pregnancy
+dehydration
+uterine overdistension
+diethylstilbestrol exposure|des exposure
+low education level
+single marital status|unmarried
+lack of social support
+air pollution
+high altitude
+obstetric cholestasis|intrahepatic cholestasis of pregnancy
+fetal growth restriction|iugr
+male fetus
+previous second trimester loss|previous miscarriage
+multiple induced abortions
+short stature
+low vitamin d
+cmv infection
+malaria
+hiv
+syphilis
+covid 19
+influenza
+listeria
+oligohydramnios
+cervical funneling
+positive fetal fibronectin|fetal fibronectin
+maternal infection
+hyperemesis gravidarum
+placenta accreta
+fetal demise of a twin
+`, "2026-11-07");
+
+P("Name a symptom of bipolar mania","nursing","",`
+elevated mood|euphoria|feeling on top of the world
+irritability|irritable mood|easily angered
+grandiosity|grandiose delusions|inflated self esteem|inflated sense of importance|believing they are famous
+decreased need for sleep|not sleeping|insomnia|sleeping only a few hours|feeling rested after little sleep
+pressured speech|rapid speech|talkativeness|excessive talking
+racing thoughts
+flight of ideas|jumping from topic to topic
+distractibility
+increased goal directed activity
+risky behavior|reckless behavior|impulsivity
+excessive spending|spending sprees|shopping sprees
+hypersexuality|increased sex drive|sexual indiscretion|reckless sex|promiscuity
+psychomotor agitation|agitation
+restlessness|inability to sit still
+increased energy
+poor judgment
+clang associations
+hallucinations|auditory hallucinations|visual hallucinations
+delusions
+paranoia|paranoid delusions
+psychosis|loss of touch with reality
+aggression|hostility
+anger outbursts
+poor concentration
+weight loss
+not eating|forgetting to eat|decreased appetite
+dehydration
+exhaustion
+reckless driving|speeding
+gambling
+substance use|alcohol use|binge drinking|drug use
+flamboyant dress|bright clothing|excessive makeup|inappropriate dress
+loud speech|loudness
+intrusiveness
+manipulative behavior
+lack of insight|denial of illness
+inappropriate humor|joking
+sexually provocative behavior
+disinhibition
+starting many projects|taking on many projects
+quitting job|impulsive decisions
+giving away money
+writing excessively
+excessive phone calls|excessive texting
+pacing
+hyperactivity
+labile mood|mood swings
+belief in special powers
+religious preoccupation|feeling connected to god
+feeling invincible
+rapid shifts of topic|tangentiality
+loose associations
+difficulty following conversation
+demanding behavior
+argumentativeness|picking fights
+violence
+legal problems
+relationship problems
+increased socialization|excessive sociability
+excessive self confidence|overconfidence
+neglect of hygiene|poor hygiene
+neglect of responsibilities
+catatonia
+difficulty being interrupted
+unrealistic plans
+unwise investments|reckless investments
+heightened creativity
+increased productivity
+heightened senses
+thought disorder
+talking to strangers
+singing
+excessive laughter
+excessive optimism
+low frustration tolerance
+impatience
+interrupting others
+overcommitting
+`, "2026-11-07");
+
+P("Name a food high in oxalate","nursing","",`
+spinach
+rhubarb
+beets|beetroot
+beet greens
+swiss chard
+almonds|almond milk|almond flour
+cashews
+peanuts|peanut butter
+nuts
+chocolate|cocoa|dark chocolate
+tea|black tea|iced tea
+sweet potatoes
+potatoes|potato chips|french fries
+soy|soybeans|tofu|soy milk|tempeh|edamame
+navy beans
+bran|wheat bran|bran flakes
+okra
+raspberries
+blackberries
+kiwi
+figs
+dates
+star fruit|carambola
+parsley
+leeks
+collard greens
+kale
+celery
+carrots
+green beans
+sesame seeds|tahini
+pecans
+hazelnuts
+pine nuts
+walnuts
+buckwheat
+quinoa
+amaranth
+millet
+whole wheat bread
+cornmeal|grits
+miso
+cranberries
+rutabaga
+turnips
+parsnips
+eggplant
+tomato sauce|tomatoes
+dandelion greens
+purslane
+sorrel
+cassava
+taro
+yams
+instant coffee
+beer
+vitamin c supplements|high dose vitamin c
+carob
+black pepper
+cinnamon
+turmeric
+cumin
+fennel seeds
+lentils
+refried beans
+kidney beans
+pinto beans
+black beans
+chia seeds
+rice bran
+wheat germ
+brown rice
+whole wheat pasta
+mustard greens
+goji berries
+gooseberries
+currants
+marmalade
+baked beans
+white beans|cannellini beans
+fava beans
+chickpeas|garbanzo beans
+bulgur
+rye
+semolina|durum wheat
+brazil nuts
+pistachios
+sunflower seeds
+pumpkin seeds
+green tea|matcha
+poppy seeds
+nutmeg
+ginger
+oregano
+`, "2026-11-07");
+
+P("Name a nursing action during a seizure","nursing","",`
+time the seizure|note the time|note duration
+protect the head|cushion the head|place pillow under head|something soft under head
+turn on side|side lying position|recovery position|lateral position
+stay with the patient|do not leave the patient
+do not restrain|avoid restraints|do not hold down
+nothing in the mouth|do not put anything in the mouth
+loosen tight clothing|loosen clothing|loosen collar
+clear the area|move objects away|remove nearby objects|remove harmful objects
+lower to the floor|ease to the floor
+call for help
+maintain airway|airway management
+suction|suction secretions
+oxygen|apply oxygen
+padded side rails|pad side rails|keep side rails up
+lower the bed|bed in lowest position
+observe and document|document the seizure
+note type of movements|note tonic and clonic phases
+note body parts involved
+note eye deviation
+note incontinence
+check level of consciousness after
+neuro checks|neurological assessment
+vital signs after the seizure
+check blood glucose|fingerstick glucose
+give benzodiazepine|lorazepam|ativan|diazepam|midazolam
+iv access|establish iv access
+give antiepileptic|fosphenytoin|levetiracetam|keppra|phenytoin
+reorient after|reorientation
+let the patient rest|allow sleep postictal
+privacy|provide privacy
+remove glasses
+call 911 if over 5 minutes|call emergency services
+call rapid response
+status epilepticus protocol|monitor for status epilepticus
+pulse oximetry
+cardiac monitoring
+remove dentures
+check for injuries after
+check tongue for bites
+note aura
+note postictal state
+reassure the patient
+call provider|notify provider
+seizure precautions
+suction at bedside
+oxygen at bedside
+emergency medications at bedside
+fall precautions
+check medication levels|antiepileptic drug levels
+note triggers
+monitor for aspiration
+ensure safety
+avoid giving food or fluids|do not give oral medications during seizure
+assess breathing
+jaw thrust
+nasopharyngeal airway|nasal airway
+bag valve mask|ambu bag
+eeg monitoring
+note pupil changes
+assess motor strength after
+check temperature
+give rectal diazepam|diastat
+intranasal midazolam|nayzilam
+buccal midazolam
+magnesium sulfate for eclampsia
+dim lights|quiet environment
+seizure diary|seizure log
+note where seizure started|note focal onset
+note level of consciousness during seizure
+note respirations during seizure
+note skin color|note cyanosis
+note automatisms
+provide oral care after
+change linens after
+anticipate intubation
+give glucose if hypoglycemic|give dextrose
+give thiamine
+assess for todd paralysis|postictal weakness
+swallow screen before eating
+note time to recovery
+`, "2026-11-07");
+
+P("Name a symptom of PTSD","nursing","",`
+flashbacks
+nightmares|bad dreams|dreams about the trauma
+intrusive memories|intrusive thoughts|unwanted memories
+avoidance|avoiding reminders|avoiding news
+hypervigilance|constant alertness|scanning surroundings
+exaggerated startle response|easily startled|jumpy
+insomnia|trouble sleeping
+irritability
+angry outbursts|anger
+difficulty concentrating
+emotional numbness|numbing
+detachment|feeling detached|alienation|estrangement from others
+guilt|survivor guilt
+shame
+depression
+anxiety
+panic attacks
+loss of interest|anhedonia
+negative thoughts|negative beliefs about self
+memory problems|amnesia for the trauma|dissociative amnesia|inability to remember parts of the trauma
+dissociation
+depersonalization
+derealization
+self destructive behavior|reckless behavior
+substance use|alcohol use
+suicidal thoughts|suicidal ideation
+self blame
+distorted blame
+fear
+horror
+hopelessness
+social withdrawal|isolation
+relationship problems
+trust issues|difficulty trusting
+inability to feel positive emotions
+physical reactions to reminders|sweating|racing heart
+avoiding people or places|avoiding crowds
+avoiding thoughts or feelings|avoiding conversations about the trauma
+psychological distress at reminders
+re experiencing|reliving the event
+night sweats
+headaches
+stomach problems|gi problems
+chronic pain
+fatigue
+hyperarousal
+aggression
+violence
+feeling on edge|feeling keyed up
+sense of foreshortened future
+emotional dysregulation
+crying spells
+mood swings
+low self esteem
+reenactment in play
+trauma themed play
+regression in children|bedwetting
+separation anxiety
+clinginess
+flat affect
+impaired functioning
+job problems
+eating changes
+chest pain
+dizziness
+trembling
+hyperventilation
+somatic complaints
+sleeping with lights on|fear of the dark
+feeling unsafe
+pessimism
+anniversary reactions
+sexual dysfunction|decreased libido
+teeth grinding
+muscle tension
+restlessness
+fear of recurrence
+overprotectiveness of loved ones
+avoiding sleep
+`, "2026-11-07");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

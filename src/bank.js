@@ -37847,6 +37847,810 @@ risk factors
 goals and values
 `, "2026-11-07");
 
+/* ---- NEW STANDARD DAILY PROMPTS: PHARMACY (batch 2026-11-05) ---- */
+P("Name a drug that must be stored in the refrigerator","pharm","",`
+insulin
+vaccines
+insulin glargine|lantus|basaglar|toujeo|semglee
+insulin lispro|humalog|admelog|lyumjev
+insulin aspart|novolog|fiasp
+insulin detemir|levemir
+insulin degludec|tresiba
+nph insulin|humulin n|novolin n
+regular insulin|humulin r|novolin r
+semaglutide|ozempic|wegovy
+tirzepatide|mounjaro|zepbound
+liraglutide|victoza|saxenda
+dulaglutide|trulicity
+exenatide|byetta|bydureon
+adalimumab|humira
+etanercept|enbrel
+dupilumab|dupixent
+latanoprost|xalatan
+amoxicillin clavulanate suspension|augmentin suspension
+amoxicillin suspension
+penicillin vk suspension
+cephalexin suspension
+epoetin alfa|epogen|procrit|retacrit
+darbepoetin|aranesp
+filgrastim|neupogen|zarxio|nivestym
+pegfilgrastim|neulasta|udenyca|fulphila
+teriparatide|forteo
+abaloparatide|tymlos
+evolocumab|repatha
+alirocumab|praluent
+erenumab|aimovig
+fremanezumab|ajovy
+galcanezumab|emgality
+secukinumab|cosentyx
+ixekizumab|taltz
+ustekinumab|stelara
+risankizumab|skyrizi
+guselkumab|tremfya
+certolizumab|cimzia
+golimumab|simponi
+omalizumab|xolair
+mepolizumab|nucala
+benralizumab|fasenra
+tezepelumab|tezspire
+denosumab|prolia|xgeva
+romosozumab|evenity
+infliximab|remicade
+rituximab|rituxan
+trastuzumab|herceptin
+bevacizumab|avastin
+pembrolizumab|keytruda
+nivolumab|opdivo
+succinylcholine|anectine|quelicin
+rocuronium|zemuron
+cisatracurium|nimbex
+atracurium
+lorazepam injection|ativan injection
+famotidine injection
+carboprost|hemabate
+methylergonovine|methergine
+dinoprostone|cervidil|prepidil
+vasopressin|vasostrict
+hyaluronidase|hylenex
+alprostadil injection|prostin vr
+trimix
+promethazine suppository
+tafluprost
+netarsudil|rhopressa
+rocklatan
+chloramphenicol eye drops
+proparacaine
+carmustine|bicnu
+carfilzomib
+asparaginase|pegaspargase|oncaspar
+daunorubicin
+doxorubicin
+liposomal doxorubicin|doxil
+epirubicin
+vinblastine
+vincristine
+vinorelbine
+bleomycin
+fludarabine
+thiotepa
+trabectedin
+interferon|interferon alfa|interferon beta|avonex|rebif|betaseron|plegridy
+glatiramer|copaxone
+ofatumumab|kesimpta
+natalizumab|tysabri
+ocrelizumab|ocrevus
+alemtuzumab
+abatacept|orencia
+tocilizumab|actemra
+sarilumab|kevzara
+anakinra|kineret
+canakinumab|ilaris
+belimumab|benlysta
+somatropin|growth hormone|genotropin|norditropin|humatrope|omnitrope
+octreotide|sandostatin|sandostatin lar
+lanreotide|somatuline
+leuprolide injection|eligard
+follitropin|gonal f|follistim
+choriogonadotropin alfa|ovidrel
+cetrorelix|cetrotide
+calcitonin|miacalcin
+desmopressin injection|ddavp injection
+tuberculin|ppd|tubersol|aplisol
+immune globulin|ivig|hizentra|gamunex
+rho d immune globulin|rhogam
+hepatitis b immune globulin
+tetanus immune globulin
+rabies immune globulin
+botulinum toxin|botox|dysport|xeomin
+emicizumab|hemlibra
+factor viii|advate|eloctate
+factor ix|benefix|alprolix
+caplacizumab
+eculizumab|soliris
+ravulizumab|ultomiris
+lanadelumab|takhzyro
+pramlintide|symlin
+naltrexone extended release|vivitrol
+risperidone long acting injection|risperdal consta
+nuvaring before dispensing|nuvaring|etonogestrel ring
+amphotericin b
+caspofungin|cancidas
+ampicillin solution
+penicillin g benzathine|bicillin l a
+penicillin g procaine|bicillin c r
+erythromycin ethylsuccinate suspension
+dornase alfa|pulmozyme
+tobramycin inhaled|tobi
+aztreonam inhaled|cayston
+palivizumab|synagis
+nirsevimab|beyfortus
+mmr vaccine|mmr ii
+varicella vaccine|varivax
+shingrix
+zostavax
+rotavirus vaccine|rotateq|rotarix
+influenza vaccine|flu shot
+flumist
+covid vaccine|comirnaty|spikevax
+hpv vaccine|gardasil
+hepatitis b vaccine|engerix b|heplisav b
+hepatitis a vaccine|havrix|vaqta
+pneumococcal vaccine|prevnar|pneumovax
+tdap|boostrix|adacel
+rsv vaccine|arexvy|abrysvo
+meningococcal vaccine|menveo|bexsero
+typhoid oral vaccine|vivotif
+yellow fever vaccine
+rabies vaccine
+bcg vaccine
+interleukin 2|aldesleukin
+thyrotropin alfa|thyrogen
+latanoprostene bunod
+probiotics|refrigerated probiotics
+oral vancomycin solution|firvanq
+valganciclovir oral solution|valcyte solution
+lorazepam oral concentrate|lorazepam intensol
+digoxin immune fab|digifab
+liothyronine injection|triostat
+`, "2026-11-07");
+P("Name an immunosuppressant drug","pharm","",`
+prednisone
+tacrolimus|prograf|envarsus|astagraf|fk506
+cyclosporine|neoral|sandimmune|gengraf
+mycophenolate mofetil|cellcept|mycophenolate|mmf
+methotrexate
+azathioprine|imuran
+corticosteroids|steroids|glucocorticoids
+mycophenolic acid|myfortic
+sirolimus|rapamune|rapamycin
+everolimus|zortress
+basiliximab|simulect
+antithymocyte globulin|thymoglobulin|atgam|atg
+belatacept|nulojix
+methylprednisolone|solu medrol|medrol
+prednisolone
+dexamethasone
+hydrocortisone
+budesonide
+leflunomide|arava
+teriflunomide|aubagio
+cyclophosphamide|cytoxan
+hydroxychloroquine|plaquenil
+sulfasalazine
+mercaptopurine|6 mp
+thioguanine
+voclosporin|lupkynis
+rituximab|rituxan
+alemtuzumab|campath|lemtrada
+adalimumab|humira
+etanercept|enbrel
+infliximab|remicade
+certolizumab|cimzia
+golimumab|simponi
+abatacept|orencia
+tocilizumab|actemra
+sarilumab|kevzara
+anakinra|kineret
+canakinumab|ilaris
+rilonacept|arcalyst
+ustekinumab|stelara
+secukinumab|cosentyx
+ixekizumab|taltz
+brodalumab|siliq
+bimekizumab|bimzelx
+guselkumab|tremfya
+risankizumab|skyrizi
+tildrakizumab|ilumya
+mirikizumab|omvoh
+vedolizumab|entyvio
+natalizumab|tysabri
+belimumab|benlysta
+anifrolumab|saphnelo
+obinutuzumab|gazyva
+ocrelizumab|ocrevus
+ofatumumab|kesimpta
+ublituximab|briumvi
+inebilizumab|uplizna
+satralizumab|enspryng
+eculizumab|soliris
+ravulizumab|ultomiris
+efgartigimod|vyvgart
+tofacitinib|xeljanz
+baricitinib|olumiant
+upadacitinib|rinvoq
+ruxolitinib|jakafi
+abrocitinib|cibinqo
+ritlecitinib|litfulo
+deucravacitinib|sotyktu
+filgotinib
+fingolimod|gilenya
+siponimod|mayzent
+ozanimod|zeposia
+ponesimod|ponvory
+etrasimod|velsipity
+cladribine|mavenclad
+mitoxantrone
+dimethyl fumarate|tecfidera
+diroximel fumarate|vumerity
+monomethyl fumarate|bafiertam
+glatiramer|copaxone
+interferon beta
+apremilast|otezla
+dupilumab|dupixent
+teplizumab|tzield
+siltuximab|sylvant
+avacopan|tavneos
+penicillamine
+gold|auranofin|gold salts
+chlorambucil
+fludarabine
+pentostatin
+bendamustine
+thalidomide
+lenalidomide
+pomalidomide
+muromonab cd3|okt3
+daclizumab|zenapax|zinbryta
+efalizumab|raptiva
+ivig|intravenous immunoglobulin
+calcineurin inhibitors
+mtor inhibitors
+antimetabolites
+jak inhibitors
+tnf inhibitors
+s1p receptor modulators
+anti cd20 antibodies
+costimulation blockers
+il 17 inhibitors
+il 23 inhibitors
+il 6 inhibitors
+il 1 inhibitors
+pimecrolimus|elidel
+tacrolimus ointment|protopic
+ruxolitinib cream|opzelura
+cyclosporine eye drops|restasis|cequa|vevye
+`, "2026-11-07");
+P("Name a drug for psoriasis or eczema","pharm","",`
+hydrocortisone|hydrocortisone cream|cortizone
+topical steroids|topical corticosteroids|steroid cream
+triamcinolone|kenalog
+clobetasol|temovate|clobex|olux|impoyz
+betamethasone|diprolene|betamethasone dipropionate|betamethasone valerate|luxiq
+dupilumab|dupixent
+methotrexate|otrexup|rasuvo
+moisturizer|emollients|cerave|eucerin|aquaphor|vaseline|petrolatum
+tacrolimus ointment|protopic|tacrolimus
+pimecrolimus|elidel
+crisaborole|eucrisa
+calcipotriene|calcipotriol|dovonex|sorilux
+calcipotriene betamethasone|taclonex|enstilar|wynzora
+calcitriol ointment|vectical
+tazarotene|tazorac
+halobetasol|ultravate|bryhali|lexette
+halobetasol tazarotene|duobrii
+coal tar|t gel|psoriasin
+salicylic acid
+anthralin|dithranol|zithranol
+urea cream
+fluocinonide|lidex|vanos
+fluocinolone|synalar|derma smoothe
+mometasone|elocon
+desonide|desowen|verdeso
+desoximetasone|topicort
+fluticasone cream|cutivate
+amcinonide
+halcinonide|halog
+diflorasone|psorcon
+alclometasone|aclovate
+prednicarbate|dermatop
+hydrocortisone butyrate|locoid
+hydrocortisone valerate|westcort
+clocortolone|cloderm
+flurandrenolide tape|cordran tape
+ruxolitinib cream|opzelura
+roflumilast cream|zoryve
+tapinarof|vtama
+delgocitinib|anzupgo
+cyclosporine|neoral|gengraf
+acitretin|soriatane
+apremilast|otezla
+deucravacitinib|sotyktu
+prednisone|oral steroids
+methylprednisolone|medrol
+adalimumab|humira
+etanercept|enbrel
+infliximab|remicade
+certolizumab|cimzia
+golimumab|simponi
+ustekinumab|stelara
+secukinumab|cosentyx
+ixekizumab|taltz
+brodalumab|siliq
+bimekizumab|bimzelx
+guselkumab|tremfya
+risankizumab|skyrizi
+tildrakizumab|ilumya
+spesolimab|spevigo
+tralokinumab|adbry
+lebrikizumab|ebglyss
+nemolizumab|nemluvio
+abrocitinib|cibinqo
+upadacitinib|rinvoq
+baricitinib|olumiant
+tofacitinib|xeljanz
+alefacept|amevive
+efalizumab|raptiva
+mycophenolate|cellcept
+azathioprine|imuran
+hydroxyurea
+fumaric acid esters|fumaderm|dimethyl fumarate|skilarence
+phototherapy|nb uvb|narrowband uvb|light therapy
+puva|psoralen uva|methoxsalen|oxsoralen
+bleach baths|dilute bleach bath
+wet wraps
+colloidal oatmeal|aveeno
+antihistamines|hydroxyzine|atarax
+diphenhydramine|benadryl
+doxepin cream|zonalon|prudoxin
+pramoxine
+menthol|sarna
+ketoconazole cream|ketoconazole shampoo|nizoral
+selenium sulfide|selsun
+lactic acid|ammonium lactate|amlactin|lac hydrin
+mahonia aquifolium|oregon grape
+indigo naturalis
+`, "2026-11-07");
+P("Name a drug that should be taken with food","pharm","",`
+nsaids
+ibuprofen|advil|motrin
+naproxen|aleve|naprosyn
+metformin|glucophage
+prednisone|steroids|corticosteroids
+aspirin
+meloxicam|mobic
+diclofenac|voltaren
+celecoxib|celebrex
+indomethacin|indocin
+ketorolac|toradol
+etodolac
+nabumetone|relafen
+piroxicam|feldene
+methylprednisolone|medrol dose pack
+dexamethasone
+prednisolone
+amoxicillin clavulanate|augmentin
+nitrofurantoin|macrobid|macrodantin
+metronidazole|flagyl
+doxycycline|doryx|vibramycin
+cefuroxime axetil|ceftin
+cefpodoxime|vantin
+clarithromycin er|biaxin xl
+griseofulvin
+itraconazole capsules|sporanox capsules
+posaconazole delayed release|noxafil
+ketoconazole
+atovaquone|mepron
+atovaquone proguanil|malarone
+mefloquine|lariam
+artemether lumefantrine|coartem
+chloroquine
+hydroxychloroquine|plaquenil
+primaquine
+albendazole|albenza
+praziquantel|biltricide
+nitazoxanide|alinia
+ritonavir|norvir
+darunavir|prezista
+atazanavir|reyataz
+nelfinavir
+saquinavir
+rilpivirine|edurant
+etravirine
+odefsey|complera|juluca
+genvoya|stribild
+valganciclovir|valcyte
+carvedilol|coreg
+metoprolol|lopressor|toprol xl
+propranolol
+lovastatin|mevacor
+spironolactone
+lithium|lithobid
+carbamazepine|tegretol
+valproate|depakote|valproic acid
+lurasidone|latuda
+ziprasidone|geodon
+vilazodone|viibryd
+gabapentin enacarbil|horizant
+gabapentin gralise|gralise
+pregabalin cr|lyrica cr
+azathioprine|imuran
+sulfasalazine|azulfidine
+allopurinol|zyloprim
+potassium chloride|k dur|klor con|potassium supplements
+calcium carbonate|tums|os cal|caltrate
+magnesium supplements
+fat soluble vitamins|vitamin a|vitamin e|vitamin k
+fish oil|omega 3|lovaza
+icosapent ethyl|vascepa
+fenofibrate|tricor|lofibra
+niacin|niaspan
+orlistat|alli|xenical
+pancrelipase|creon|zenpep|pancreatic enzymes
+acarbose|precose
+miglitol
+glyburide
+glimepiride|amaryl
+sitagliptin metformin|janumet
+linagliptin metformin|jentadueto
+empagliflozin metformin|synjardy
+sulfonylureas
+galantamine|razadyne
+rivastigmine|exelon
+bromocriptine
+mifepristone|korlym
+capecitabine|xeloda
+imatinib|gleevec
+bosutinib|bosulif
+palbociclib|ibrance
+regorafenib|stivarga
+venetoclax|venclexta
+ursodiol|actigall
+colesevelam|welchol
+rivaroxaban|xarelto
+pentoxifylline|trental
+zileuton er|zyflo cr
+varenicline|chantix
+`, "2026-11-07");
+P("Name a drug that commonly causes constipation","pharm","",`
+opioids|narcotics
+morphine|ms contin
+oxycodone|oxycontin|percocet
+hydrocodone|vicodin|norco
+codeine|tylenol 3
+fentanyl|duragesic
+hydromorphone|dilaudid
+methadone
+tramadol|ultram
+tapentadol|nucynta
+buprenorphine|suboxone|butrans
+loperamide|imodium
+diphenoxylate atropine|lomotil
+iron|ferrous sulfate|iron supplements
+calcium carbonate|tums|calcium supplements
+calcium citrate
+aluminum hydroxide|amphojel|aluminum antacids
+sucralfate|carafate
+bismuth subsalicylate|pepto bismol
+sevelamer|renvela|renagel
+lanthanum|fosrenol
+calcium acetate|phoslo
+ferric citrate|auryxia
+sucroferric oxyhydroxide|velphoro
+patiromer|veltassa
+sodium polystyrene sulfonate|kayexalate
+cholestyramine|questran
+colestipol|colestid
+colesevelam|welchol
+verapamil|calan|isoptin
+diltiazem|cardizem
+nifedipine
+amlodipine
+calcium channel blockers
+clonidine|catapres
+anticholinergics
+oxybutynin|ditropan
+tolterodine|detrol
+solifenacin|vesicare
+darifenacin|enablex
+trospium|sanctura
+fesoterodine|toviaz
+benztropine|cogentin
+trihexyphenidyl|artane
+dicyclomine|bentyl
+hyoscyamine|levsin
+scopolamine
+glycopyrrolate|robinul
+diphenhydramine|benadryl
+hydroxyzine
+chlorpheniramine
+promethazine
+amitriptyline|elavil
+nortriptyline|pamelor
+imipramine
+desipramine
+doxepin
+clomipramine
+tricyclic antidepressants|tcas
+paroxetine|paxil
+clozapine|clozaril
+olanzapine|zyprexa
+quetiapine|seroquel
+chlorpromazine|thorazine
+thioridazine
+antipsychotics
+ondansetron|zofran
+alosetron|lotronex
+eluxadoline|viberzi
+octreotide|sandostatin
+vincristine|oncovin
+vinblastine
+vinorelbine
+thalidomide
+bortezomib|velcade
+pomalidomide
+ixazomib
+gabapentin|neurontin
+pregabalin|lyrica
+cyclobenzaprine|flexeril
+tizanidine
+baclofen
+memantine
+pramipexole
+ropinirole
+amantadine
+nsaids|ibuprofen|naproxen
+diuretics|furosemide|hydrochlorothiazide
+glp 1 agonists|semaglutide|ozempic|tirzepatide|mounjaro|liraglutide
+multivitamins with iron|prenatal vitamins
+barium sulfate|barium contrast
+`, "2026-11-07");
+P("Name a drug that can cause thrombocytopenia","pharm","",`
+heparin|hit|heparin induced thrombocytopenia|unfractionated heparin
+enoxaparin|lovenox|low molecular weight heparin
+chemotherapy|cytotoxic chemotherapy
+carboplatin|paraplatin
+cisplatin
+oxaliplatin
+gemcitabine|gemzar
+cytarabine|ara c
+fludarabine
+cladribine
+azacitidine|vidaza
+decitabine|dacogen
+temozolomide|temodar
+lomustine|ccnu
+carmustine|bcnu
+busulfan
+melphalan
+cyclophosphamide
+ifosfamide
+thiotepa
+bendamustine|treanda
+doxorubicin
+daunorubicin
+mitomycin
+topotecan
+etoposide
+docetaxel
+fluorouracil|5 fu
+methotrexate
+mercaptopurine
+thioguanine
+hydroxyurea
+pemetrexed
+bortezomib|velcade
+carfilzomib
+lenalidomide|revlimid
+pomalidomide
+thalidomide
+venetoclax
+ruxolitinib|jakafi
+fedratinib
+imatinib|gleevec
+dasatinib
+nilotinib
+bosutinib
+ponatinib
+trastuzumab emtansine|kadcyla
+trastuzumab deruxtecan|enhertu
+gemtuzumab ozogamicin|mylotarg
+inotuzumab ozogamicin
+brentuximab vedotin
+polatuzumab
+olaparib
+niraparib|zejula
+rucaparib
+talazoparib
+car t cell therapy
+blinatumomab
+interferon|peginterferon
+linezolid|zyvox
+vancomycin
+trimethoprim sulfamethoxazole|bactrim|tmp smx
+penicillins|piperacillin tazobactam|zosyn
+cephalosporins|ceftriaxone
+rifampin
+quinine|qualaquin|tonic water
+quinidine
+procainamide
+amiodarone
+abciximab|reopro
+eptifibatide|integrilin
+tirofiban|aggrastat
+glycoprotein iib iiia inhibitors
+ticlopidine
+valproate|valproic acid|depakote
+carbamazepine|tegretol
+phenytoin|dilantin
+lamotrigine
+ethosuximide
+felbamate
+nsaids
+gold salts|auranofin
+penicillamine
+hydrochlorothiazide|thiazides
+methyldopa
+cimetidine|ranitidine|famotidine|h2 blockers
+ganciclovir|valganciclovir
+zidovudine|azt
+foscarnet
+sulfonamides
+chloramphenicol
+deferasirox
+azathioprine
+desmopressin|desmopressin in type 2b von willebrand disease
+clopidogrel|plavix
+rituximab
+alemtuzumab|lemtrada
+`, "2026-11-07");
+P("Name an inactive ingredient (excipient) in medications","pharm","",`
+lactose|lactose monohydrate
+microcrystalline cellulose|avicel|cellulose
+magnesium stearate
+starch|corn starch|potato starch|pregelatinized starch
+gelatin|gelatin capsule
+sucrose|sugar
+mannitol
+sorbitol
+dextrose|glucose
+talc
+silicon dioxide|colloidal silicon dioxide|silica
+titanium dioxide
+stearic acid
+croscarmellose sodium|ac di sol
+sodium starch glycolate|explotab
+crospovidone
+povidone|polyvinylpyrrolidone|pvp
+hydroxypropyl methylcellulose|hypromellose|hpmc
+hydroxypropyl cellulose
+methylcellulose
+ethylcellulose
+carboxymethylcellulose|cmc
+polyethylene glycol|peg|macrogol
+polysorbate 80|tween 80
+polysorbate 20
+sodium lauryl sulfate|sls
+propylene glycol
+glycerin|glycerol
+ethanol|alcohol
+benzyl alcohol
+parabens|methylparaben|propylparaben
+benzalkonium chloride
+sodium benzoate
+potassium sorbate
+sorbic acid
+benzoic acid
+chlorobutanol
+phenol
+thimerosal
+edetate disodium|edta
+citric acid
+sodium citrate
+sodium bicarbonate
+sodium chloride
+dyes|food dyes|color additives
+fd&c yellow 5|tartrazine
+fd&c red 40|allura red
+fd&c blue 1
+fd&c yellow 6
+iron oxide
+shellac
+carnauba wax
+beeswax
+paraffin
+mineral oil
+petrolatum|white petrolatum
+lanolin
+cetyl alcohol
+stearyl alcohol
+cetostearyl alcohol
+isopropyl myristate
+dimethicone
+cyclomethicone
+carbomer|carbopol
+xanthan gum
+acacia|gum arabic
+tragacanth
+guar gum
+sodium alginate|alginic acid
+agar
+pectin
+bentonite
+kaolin
+calcium phosphate|dibasic calcium phosphate|dicalcium phosphate
+calcium carbonate
+calcium sulfate
+magnesium carbonate
+aspartame
+saccharin
+sucralose
+acesulfame potassium
+stevia
+xylitol
+maltitol
+flavors|flavoring|cherry flavor|grape flavor
+menthol
+vanillin
+simple syrup
+cocoa butter|theobroma oil
+hard fat|witepsol
+polyethylene oxide
+cellulose acetate
+eudragit|methacrylic acid copolymer
+cellulose acetate phthalate
+hypromellose phthalate
+polyvinyl alcohol
+triethyl citrate
+dibutyl sebacate
+castor oil|polyoxyl 35 castor oil|cremophor el|kolliphor
+soybean oil
+sesame oil
+peanut oil|arachis oil
+corn oil
+cottonseed oil
+olive oil
+coconut oil
+medium chain triglycerides
+lecithin|soy lecithin|egg lecithin
+cyclodextrins|sulfobutylether beta cyclodextrin|captisol
+hydroxypropyl beta cyclodextrin
+albumin
+aluminum hydroxide adjuvant|alum
+formaldehyde
+water for injection|sterile water
+sodium metabisulfite|sulfites
+sodium bisulfite
+ascorbic acid
+butylated hydroxytoluene|bht
+butylated hydroxyanisole|bha
+tocopherol|vitamin e
+propyl gallate
+hydrochloric acid
+sodium hydroxide
+phosphate buffer|sodium phosphate
+acetate buffer
+tromethamine|tris
+trehalose
+glycine
+arginine
+poloxamer|pluronic
+glyceryl behenate|compritol
+sodium stearyl fumarate
+fumaric acid
+tartaric acid
+malic acid
+`, "2026-11-07");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

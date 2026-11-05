@@ -3424,3 +3424,154 @@ crowdAlias("Name a controlled substance", "testosterone", "androgel");  // 2026-
 crowdAlias("Name a controlled substance", "nandrolone", "deca durabolin");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a controlled substance", "oxandrolone", "oxandrin");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name a controlled substance", "promethazine with codeine", "cheratussin ac|robitussin ac");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a beta blocker (ends in -olol)", "metoprolol", "metoprolol succinate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a beta blocker (ends in -olol)", "metoprolol", "metoprolol tartrate");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a beta blocker (ends in -olol)", "timolol", "timolol ophthalmic|betimol|istalol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a beta blocker (ends in -olol)", "landiolol", "rapiblyk");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ACE inhibitor (ends in -pril)", "zestoretic", "lisinopril hctz|prinzide");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ACE inhibitor (ends in -pril)", "vaseretic", "enalapril hctz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ACE inhibitor (ends in -pril)", "lotrel", "benazepril amlodipine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ACE inhibitor (ends in -pril)", "tarka", "trandolapril verapamil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ACE inhibitor (ends in -pril)", "lisinopril", "lisinopril oral solution|qbrelis");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ACE inhibitor (ends in -pril)", "enalapril", "enalapril oral solution|epaned");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ACE inhibitor (ends in -pril)", "enalaprilat", "vasotec iv");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ARB (ends in -sartan)", "hyzaar", "losartan hctz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ARB (ends in -sartan)", "exforge", "amlodipine valsartan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ARB (ends in -sartan)", "azor", "amlodipine olmesartan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ARB (ends in -sartan)", "twynsta", "amlodipine telmisartan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an ARB (ends in -sartan)", "tribenzor", "olmesartan amlodipine hctz");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "amphotericin b", "amphotericin b deoxycholate|fungizone|conventional amphotericin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "amphotericin b", "liposomal amphotericin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "abelcet", "amphotericin lipid complex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "nystatin", "mycostatin|nystop|bio statin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "clotrimazole", "clotrimazole troche|mycelex troche");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "miconazole", "miconazole buccal|oravig");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "ketoconazole", "ketoconazole shampoo|nizoral shampoo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "terbinafine", "terbinex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "econazole", "spectazole|ecoza");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "sertaconazole", "ertaczo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "oxiconazole", "oxistat");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "sulconazole", "exelderm");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "luliconazole", "luzu");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "ciclopirox", "loprox|ciclodan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "naftifine", "naftin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "butenafine", "mentax|lotrimin ultra");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "tolnaftate", "tinactin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "undecylenic acid", "fungi nail|desenex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "griseofulvin", "gris peg|grifulvin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "flucytosine", "ancobon|5 flucytosine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "posaconazole", "posaconazole dr");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "itraconazole", "tolsura|onmel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "terconazole", "terazol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "tioconazole", "vagistat|monistat 1");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an antifungal drug (often ends in -azole)", "butoconazole", "gynazole|femstat");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an anticoagulant or antiplatelet drug", "heparin", "unfractionated heparin|ufh|heparin sodium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an anticoagulant or antiplatelet drug", "lovenox", "clexane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an anticoagulant or antiplatelet drug", "tinzaparin", "innohep");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an anticoagulant or antiplatelet drug", "betrixaban", "bevyxxa");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an anticoagulant or antiplatelet drug", "aspirin", "asa|baby aspirin|ecotrin|durlaza");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an anticoagulant or antiplatelet drug", "aggrenox", "aspirin dipyridamole");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an anticoagulant or antiplatelet drug", "ticlopidine", "ticlid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an anticoagulant or antiplatelet drug", "anagrelide", "agrylin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an anticoagulant or antiplatelet drug", "tpa", "cathflo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an anticoagulant or antiplatelet drug", "defibrotide", "defitelio");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "statin", "hmg coa reductase inhibitors");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "bile acid sequestrant", "bile acid resins");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "crestor", "ezallor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "simvastatin", "flolipid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "lovastatin", "altoprev");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "fluvastatin", "lescol xl");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "vytorin", "ezetimibe simvastatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "roszet", "ezetimibe rosuvastatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "caduet", "amlodipine atorvastatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "niacin", "niacor|nicotinic acid|vitamin b3|slo niacin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "fenofibrate", "fenoglide|lipofen|antara|fibricor|triglide|fenofibric acid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "clofibrate", "atromid s");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "fish oil", "omega 3 acid ethyl esters|omtryg");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "nexlizet", "bempedoic acid ezetimibe");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "volanesorsen", "waylivra");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "cholestyramine", "locholest");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "colestipol", "flavored colestid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "plant sterols", "plant stanols|benecol|take control");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "red yeast rice", "monacolin k");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "psyllium", "metamucil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a cholesterol-lowering drug", "fish oil", "krill oil");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "nivolumab", "nivolumab hyaluronidase|opdivo qvantig");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "pembrolizumab", "pembrolizumab berahyaluronidase|keytruda qlex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "atezolizumab", "atezolizumab hyaluronidase|tecentriq hybreza");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "trastuzumab", "trastuzumab hyaluronidase|herceptin hylecta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "rituximab", "rituximab hyaluronidase|rituxan hycela");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "daratumumab", "daratumumab hyaluronidase|darzalex faspro");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "bevacizumab", "bevacizumab awwb|mvasi|zirabev");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "trastuzumab", "trastuzumab biosimilar|ogivri|kanjinti|herzuma|trazimera|ontruzant");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "tocilizumab", "tocilizumab biosimilar|tofidence|tyenne");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "natalizumab", "natalizumab biosimilar|tyruko");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "nipocalimab", "imaavy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "eculizumab", "eculizumab biosimilar|bkemv|epysqli");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "garadacimab", "andembry");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "infliximab", "infliximab dyyb|inflectra|renflexis|avsola|ixifi|zymfentra");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "adalimumab", "adalimumab biosimilar|amjevita|hadlima|hyrimoz|cyltezo|yusimry|simlandi|idacio|hulio|yuflyma|abrilada");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "ustekinumab", "ustekinumab biosimilar|wezlana|selarsdi|pyzchiva|otulfi|imuldosa|yesintek|steqeyma");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "denosumab", "denosumab biosimilar|jubbonti|wyost|ospomyv|xbryk|stoboclo|osenvelt|conexxence|bomyntra");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "omalizumab", "omalizumab biosimilar|omlyclo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "lecanemab", "lecanemab subq|leqembi iqlik");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "sotrovimab", "xevudy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "obiltoxaximab", "anthim");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a monoclonal antibody (ends in -mab)", "golimumab", "simponi aria");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "cyclophosphamide", "neosar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "cisplatin", "platinol");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "carboplatin", "paraplatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "doxorubicin", "liposomal doxorubicin|doxil|caelyx");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "epirubicin", "ellence");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "idarubicin", "idamycin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "mitoxantrone", "novantrone");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "vincristine", "vincasar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "vincristine", "liposomal vincristine|marqibo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "vinblastine", "velban");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "etoposide", "vepesid|toposar|etopophos");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "irinotecan", "liposomal irinotecan|onivyde");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "gemcitabine", "infugem");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "5 fluorouracil", "adrucil|efudex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "methotrexate", "trexall");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "pemetrexed", "pemfexy");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "pralatrexate", "folotyn");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "cytarabine", "cytosar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "azacitidine", "onureg");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "fludarabine", "fludara");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "cladribine", "leustatin");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "clofarabine", "clolar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "nelarabine", "arranon");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "mercaptopurine", "purixan");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "thioguanine", "tabloid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "hydroxyurea", "droxia");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "melphalan", "evomela|hepzato");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "bendamustine", "bendeka|belrapzo|vivimusta");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "busulfan", "busulfex");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "thiotepa", "tepadina");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "carmustine", "bicnu|gliadel");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "lomustine", "ceenu|gleostine");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "streptozocin", "zanosar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "dacarbazine", "dtic");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "procarbazine", "matulane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "altretamine", "hexalen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "trabectedin", "yondelis");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "lurbinectedin", "zepzelca");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "mechlorethamine", "mustargen|valchlor");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "bleomycin", "blenoxane");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "dactinomycin", "cosmegen");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "mitomycin", "mutamycin|jelmyto|zusduri");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "asparaginase", "elspar|erwinaze|rylaze");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "asparaginase", "oncaspar");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "tretinoin", "vesanoid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "ixabepilone", "ixempra");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "omacetaxine", "synribo");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "romidepsin", "istodax");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "vorinostat", "zolinza");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "belinostat", "beleodaq");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "thalidomide", "thalomid");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "pomalidomide", "pomalyst");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name a chemotherapy drug", "niraparib", "zejula");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an herbal supplement", "st johns wort", "hypericum");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an herbal supplement", "ginseng", "korean ginseng|panax ginseng|red ginseng");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an herbal supplement", "kanna", "sceletium");  // 2026-11-05 · NAPLEX · same answer
+crowdAlias("Name an herbal supplement", "garlic", "aged garlic extract");  // 2026-11-05 · NAPLEX · same answer

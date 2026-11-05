@@ -24038,3 +24038,277 @@ board("Name a controlled substance", 70, "2c b");  // 2026-11-05 · NAPLEX · bo
 board("Name a controlled substance", 85, "fluoxymesterone|androxy");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a controlled substance", 75, "hashish|hash");  // 2026-11-05 · NAPLEX · board-testable
 board("Name a controlled substance", 85, "gabapentin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 55, "propranolol er|inderal la|innopran xl|hemangeol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 55, "betaxolol ophthalmic|betoptic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 60, "carvedilol phosphate|coreg cr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 60, "sotalol af|sorine|sotylize");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 65, "nadolol bendroflumethiazide|corzide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 65, "bisoprolol hctz|ziac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 65, "atenolol chlorthalidone|tenoretic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 65, "metoprolol hctz|lopressor hct|dutoprol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 75, "cardioselective beta blockers|beta 1 selective");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 75, "nonselective beta blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 75, "mixed alpha beta blockers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 80, "befunolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 80, "bevantolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 80, "arotinolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 80, "cloranolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 80, "indenolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 80, "mepindolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 80, "nipradilol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 80, "tertatolol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 80, "xamoterol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a beta blocker (ends in -olol)", 80, "nebivolol valsartan|byvalson");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ACE inhibitor (ends in -pril)", 55, "benazepril hctz|lotensin hct");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ACE inhibitor (ends in -pril)", 60, "quinapril hctz|accuretic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ACE inhibitor (ends in -pril)", 60, "captopril hctz|capozide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ACE inhibitor (ends in -pril)", 60, "moexipril hctz|uniretic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ACE inhibitor (ends in -pril)", 65, "perindopril amlodipine|prestalia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ACE inhibitor (ends in -pril)", 80, "alacepril");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ACE inhibitor (ends in -pril)", 80, "omapatrilat");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ARB (ends in -sartan)", 55, "valsartan hctz|diovan hct");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ARB (ends in -sartan)", 55, "irbesartan hctz|avalide");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ARB (ends in -sartan)", 55, "olmesartan hctz|benicar hct");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ARB (ends in -sartan)", 55, "telmisartan hctz|micardis hct");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ARB (ends in -sartan)", 55, "candesartan hctz|atacand hct");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ARB (ends in -sartan)", 60, "azilsartan chlorthalidone|edarbyclor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ARB (ends in -sartan)", 60, "amlodipine valsartan hctz|exforge hct");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an ARB (ends in -sartan)", 65, "eprosartan hctz|teveten hct");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 45, "azoles|azole antifungals|triazoles|imidazoles");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 45, "echinocandins");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 45, "polyenes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 45, "allylamines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 70, "selenium sulfide|selsun");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 70, "whitfield's ointment|benzoic acid salicylic acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 70, "potassium iodide|sski");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 70, "natamycin|natacyn|pimaricin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 70, "boric acid suppositories|boric acid");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 70, "amorolfine|loceryl|curanail");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 80, "bifonazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 85, "fenticonazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 85, "isoconazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 88, "omoconazole");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 85, "haloprogin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 85, "triacetin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 80, "gentian violet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 80, "zinc pyrithione");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an antifungal drug (often ends in -azole)", 85, "clioquinol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 40, "blood thinners");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 45, "doacs|noacs|direct oral anticoagulants");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 45, "lmwh|low molecular weight heparin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 45, "p2y12 inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 45, "gp iib iiia inhibitors|glycoprotein iib iiia inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 45, "direct thrombin inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 45, "factor xa inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 45, "vitamin k antagonists");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 45, "thrombolytics|fibrinolytics|clot busters");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "nadroparin|fraxiparine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "danaparoid|orgaran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "sulfinpyrazone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "triflusal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "indobufen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "dextran 40");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "phenindione");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "fluindione");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "dicoumarol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "protein c concentrate|ceprotin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "antithrombin|thrombate|atryn");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "anistreplase|apsac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an anticoagulant or antiplatelet drug", 70, "sodium citrate|citrate anticoagulant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "niacin lovastatin|advicor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "niacin simvastatin|simcor");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "bezafibrate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "ciprofibrate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "pemafibrate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "omega 3 carboxylic acids|epanova");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "anacetrapib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "evacetrapib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "torcetrapib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "dalcetrapib");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "plozasiran|redemplo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "dextrothyroxine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "policosanol");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "oat beta glucan|oat bran");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "garlic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "bergamot");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a cholesterol-lowering drug", 70, "guggul");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "pertuzumab trastuzumab hyaluronidase|phesgo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "ado trastuzumab emtansine|kadcyla|t dm1");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "inotuzumab ozogamicin|besponsa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "gemtuzumab ozogamicin|mylotarg");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "loncastuximab tesirine|zynlonta");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "belantamab mafodotin|blenrep");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "telisotuzumab vedotin|emrelis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "datopotamab deruxtecan|datroway");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "zolbetuximab|vyloy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "cosibelimab|unloxcyt");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "avelumab|bavencio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "tafasitamab|monjuvi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "ibritumomab tiuxetan|zevalin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "tositumomab|bexxar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "ranibizumab|lucentis|byooviz|cimerli|susvimo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "faricimab|vabysmo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "brolucizumab|beovu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "emapalumab|gamifant");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "axatilimab|niktimvo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "crovalimab|piasky");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "sutimlimab|enjaymo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "concizumab|alhemo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "depemokimab|exdensur");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "gantenerumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "solanezumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "crenezumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "bapineuzumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "prasinezumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "bococizumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "odronextamab|lynozyfic");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "zanidatamab|ziihera");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "zenocutuzumab|bizengri");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "clesrovimab|enflonsia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "pemivibart|pemgarda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "tixagevimab cilgavimab|evusheld");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "casirivimab imdevimab|regen cov");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "bamlanivimab etesevimab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "bebtelovimab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "atoltivimab maftivimab odesivimab|inmazeb");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "ibalizumab|trogarzo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "tanezumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "muromonab cd3|okt3|orthoclone");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "daclizumab|zinbryta|zenapax");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 75, "efalizumab|raptiva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 85, "linvoseltamab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 80, "olokizumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 85, "sirukumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 85, "clazakizumab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 85, "narsoplimab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 80, "penpulimab|penpulimab kcqx");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 85, "catumaxomab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a monoclonal antibody (ends in -mab)", 80, "ivonescimab");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 45, "alkylating agents");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 45, "antimetabolites");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 45, "anthracyclines");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 45, "taxanes");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 45, "vinca alkaloids");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 45, "platinum agents|platinum compounds");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 45, "topoisomerase inhibitors");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 45, "nitrosoureas");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "daunorubicin cytarabine liposomal|vyxeos");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "valrubicin|valstar");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "teniposide|vumon");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "floxuridine|fudr");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "tegafur|s 1|teysuno");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "raltitrexed|tomudex");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "decitabine cedazuridine|inqovi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "pentostatin|nipent");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "melphalan flufenamide|pepaxto");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "calaspargase|asparlas");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "panobinostat|farydak");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "ixazomib|ninlaro");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "selinexor|xpovio");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "rucaparib|rubraca");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "talazoparib|talzenna");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "mitotane|lysodren");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "tazemetostat|tazverik");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "sacituzumab govitecan|trodelvy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "enfortumab vedotin|padcev");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "trastuzumab deruxtecan|enhertu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "brentuximab vedotin|adcetris");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "polatuzumab vedotin|polivy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "mirvetuximab soravtansine|elahere");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "tisotumab vedotin|tivdak");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "ado trastuzumab emtansine|kadcyla");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "gemtuzumab ozogamicin|mylotarg");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "inotuzumab ozogamicin|besponsa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 70, "imatinib|gleevec");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "rituximab|rituxan");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "trastuzumab|herceptin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "bevacizumab|avastin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "cetuximab|erbitux");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "pembrolizumab|keytruda");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "nivolumab|opdivo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "ipilimumab|yervoy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "ibrutinib|imbruvica");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "osimertinib|tagrisso");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "palbociclib|ibrance");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "erlotinib|tarceva");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 75, "dasatinib|sprycel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 80, "aldesleukin|interleukin 2|proleukin");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 80, "interferon alfa");  // 2026-11-05 · NAPLEX · board-testable
+board("Name a chemotherapy drug", 80, "intravesical bcg|bcg");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "noni juice");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "mangosteen");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "acai");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "goji berry");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "maitake");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "shiitake");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "kudzu");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "catnip");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "american ginseng|panax quinquefolius");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "black walnut");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "wormwood");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "juniper berry");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "horsetail");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "tart cherry");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "bitter orange|synephrine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "green coffee bean extract");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "glucomannan|konjac");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "hoodia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "guarana");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "yerba mate");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "kola nut");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "hibiscus");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "pau d'arco");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "chaparral");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "pennyroyal");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "sassafras");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "aristolochia");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "germander");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "bladderwrack|kelp");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "borage oil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "black currant oil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "hemp seed oil");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "damiana");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "muira puama");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "catuaba");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "tongkat ali|longjack");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "fadogia agrestis");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "saffron");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "black pepper|piperine|bioperine");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "fennel");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "triphala");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "amla|indian gooseberry");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "guggul|guggulsterones");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "brahmi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "shatavari");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "guduchi|giloy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "arjuna");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "jatamansi");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "meadowsweet");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "magnolia bark");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "phellodendron");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "jujube");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "he shou wu|fo ti");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "blue cohosh");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "raspberry leaf|red raspberry leaf tea");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "nettle root");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "eyebright");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "elderflower");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "pelargonium|umckaloabo");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "osha root");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "thyme extract");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "ivy leaf");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "horehound");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "artichoke");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "yellow dock");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "banaba");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "pycnogenol|pine bark extract");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "goldenrod");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "cleavers");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "red root");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "calendula");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "chicory root");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "oat straw");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 75, "hops");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 75, "skullcap");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 80, "california poppy");  // 2026-11-05 · NAPLEX · board-testable
+board("Name an herbal supplement", 75, "turkey tail");  // 2026-11-05 · NAPLEX · board-testable

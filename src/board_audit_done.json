@@ -452,6 +452,15 @@
   "Name an over-the-counter medication": "2026-11-05",
   "Name a medication dosage form": "2026-11-05",
   "Name a common medication side effect": "2026-11-05",
-  "Name a controlled substance": "2026-11-05"
+  "Name a controlled substance": "2026-11-05",
+  "Name a beta blocker (ends in -olol)": "2026-11-05",
+  "Name an ACE inhibitor (ends in -pril)": "2026-11-05",
+  "Name an ARB (ends in -sartan)": "2026-11-05",
+  "Name an antifungal drug (often ends in -azole)": "2026-11-05",
+  "Name an anticoagulant or antiplatelet drug": "2026-11-05",
+  "Name a cholesterol-lowering drug": "2026-11-05",
+  "Name a monoclonal antibody (ends in -mab)": "2026-11-05",
+  "Name a chemotherapy drug": "2026-11-05",
+  "Name an herbal supplement": "2026-11-05"
  }
 }

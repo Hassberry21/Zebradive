@@ -42391,6 +42391,1310 @@ hypogammaglobulinemia|antibody deficiency
 terminal illness|palliative care|advanced cancer
 `, "2026-11-08");
 
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE part 4 (batch 2026-11-06, board-first) ---- */
+P("Name a cause of hypokalemia","clinical","",`
+vomiting|emesis|hyperemesis gravidarum|recurrent vomiting
+diarrhea|diarrhoea|chronic diarrhea
+loop diuretics|loop diuretic|furosemide|lasix|bumetanide|torsemide|torasemide|ethacrynic acid
+thiazide diuretics|thiazide diuretic|thiazides|hydrochlorothiazide|hctz|chlorthalidone|indapamide|metolazone
+insulin|insulin therapy|insulin administration|exogenous insulin
+beta-2 agonists|beta agonists|beta 2 agonist|albuterol|salbutamol|terbutaline|salmeterol|ritodrine
+primary hyperaldosteronism|conn syndrome|conns syndrome|primary aldosteronism|aldosterone producing adenoma|aldosteronoma
+bartter syndrome|bartters syndrome
+gitelman syndrome|gitelmans syndrome
+liddle syndrome|liddles syndrome
+hypomagnesemia|hypomagnesaemia|magnesium deficiency|low magnesium
+distal renal tubular acidosis|type 1 rta|type 1 renal tubular acidosis|distal rta
+proximal renal tubular acidosis|type 2 rta|type 2 renal tubular acidosis|proximal rta
+diabetic ketoacidosis|dka|treatment of dka|insulin treatment of dka
+licorice ingestion|licorice|liquorice|black licorice|glycyrrhizin|glycyrrhizic acid
+cushing syndrome|cushings syndrome|hypercortisolism|cushing disease
+ectopic acth syndrome|ectopic acth|small cell lung cancer|small cell carcinoma of the lung
+metabolic alkalosis|alkalosis|alkalemia
+nasogastric suction|ng suction|gastric suction|nasogastric tube drainage
+hypertrophic pyloric stenosis|pyloric stenosis
+laxative abuse|laxatives|laxative use
+bulimia nervosa|bulimia|purging
+anorexia nervosa
+refeeding syndrome
+hypokalemic periodic paralysis|familial hypokalemic periodic paralysis|familial periodic paralysis
+thyrotoxic periodic paralysis
+hyperthyroidism|thyrotoxicosis|graves disease
+amphotericin b|amphotericin
+aminoglycosides|gentamicin|tobramycin|amikacin
+cisplatin
+apparent mineralocorticoid excess|ame|11 beta hydroxysteroid dehydrogenase 2 deficiency|11 beta hsd2 deficiency
+11-beta hydroxylase deficiency|11 beta hydroxylase deficiency|congenital adrenal hyperplasia 11 beta hydroxylase
+17-alpha hydroxylase deficiency|17 alpha hydroxylase deficiency
+renal artery stenosis|renovascular hypertension|fibromuscular dysplasia
+secondary hyperaldosteronism
+renin secreting tumor|reninoma|juxtaglomerular cell tumor
+malignant hypertension
+glucocorticoid remediable aldosteronism|gra|familial hyperaldosteronism type 1
+glucocorticoids|corticosteroids|steroids|prednisone|hydrocortisone|dexamethasone
+fludrocortisone|mineralocorticoids
+vipoma|verner morrison syndrome|wdha syndrome|pancreatic cholera
+villous adenoma
+cholera|vibrio cholerae
+ureterosigmoidostomy
+high output ileostomy|ileostomy
+enterocutaneous fistula|intestinal fistula|pancreatic fistula
+acetazolamide|carbonic anhydrase inhibitors|topiramate
+osmotic diuresis|mannitol|glycosuria|hyperglycemia
+theophylline|theophylline toxicity|aminophylline
+caffeine|caffeine toxicity
+pseudoephedrine|sympathomimetics
+catecholamine excess|epinephrine|adrenaline|stress
+pheochromocytoma|phaeochromocytoma
+dobutamine
+high dose penicillins|penicillin|nafcillin|piperacillin|ticarcillin|carbenicillin|non-reabsorbable anions
+barium poisoning|barium
+chloroquine overdose|chloroquine|hydroxychloroquine overdose
+low potassium intake|poor dietary intake|inadequate intake|starvation|malnutrition
+alcohol use disorder|alcoholism|chronic alcohol use
+excessive sweating|heavy exercise|profuse sweating
+cystic fibrosis
+hypercalcemia|hypercalcaemia
+fanconi syndrome
+multiple myeloma
+ifosfamide
+tenofovir
+foscarnet
+toluene|glue sniffing|toluene inhalation
+sjogren syndrome|sjogrens syndrome
+post obstructive diuresis|postobstructive diuresis
+recovery phase of acute tubular necrosis|polyuric phase of atn|diuretic phase of atn
+hypothermia|therapeutic hypothermia
+vitamin b12 therapy|treatment of megaloblastic anemia|folate therapy
+gm-csf|granulocyte macrophage colony stimulating factor|g-csf|filgrastim
+acute myeloid leukemia|aml|lysozymuria|acute myelomonocytic leukemia
+pseudohypokalemia|leukocytosis|spurious hypokalemia
+sodium bicarbonate|bicarbonate therapy
+potassium binders|sodium polystyrene sulfonate|kayexalate|patiromer|sodium zirconium cyclosilicate
+hemodialysis|dialysis|low potassium dialysate
+peritoneal dialysis
+plasmapheresis
+congenital chloride diarrhea|congenital chloridorrhea
+geophagia|clay ingestion|pica
+gossypol|cottonseed oil
+carbenoxolone
+posaconazole|itraconazole
+leptospirosis
+cystinosis|nephropathic cystinosis
+wilson disease
+deoxycorticosterone producing tumor|doc secreting tumor
+adrenocortical carcinoma|adrenal carcinoma
+geller syndrome|activating mineralocorticoid receptor mutation
+east syndrome|sesame syndrome|kcnj10 mutation
+familial hyperaldosteronism type 2|familial hyperaldosteronism type 3
+bilateral adrenal hyperplasia|idiopathic hyperaldosteronism
+cirrhosis
+salt wasting nephropathy
+`, "2026-11-08");
+
+P("Name a cause of short stature","clinical","",`
+constitutional growth delay|constitutional delay of growth and puberty|constitutional delay|cdgp
+familial short stature|genetic short stature
+turner syndrome|45 x|45x|45 xo|monosomy x|gonadal dysgenesis
+achondroplasia|fgfr3 mutation
+growth hormone deficiency|gh deficiency|ghd|isolated growth hormone deficiency
+hypothyroidism|acquired hypothyroidism|hashimoto thyroiditis
+congenital hypothyroidism|cretinism
+down syndrome|trisomy 21
+cushing syndrome|cushings syndrome|hypercortisolism|cushing disease
+chronic glucocorticoid therapy|corticosteroids|glucocorticoids|steroids|prednisone
+celiac disease|coeliac disease|gluten sensitive enteropathy|celiac sprue
+crohn disease|crohns disease
+ulcerative colitis|inflammatory bowel disease|ibd
+malnutrition|undernutrition|protein energy malnutrition|protein calorie malnutrition
+kwashiorkor
+marasmus
+chronic kidney disease|ckd|chronic renal failure|chronic renal insufficiency
+renal osteodystrophy|ckd mineral bone disorder
+renal tubular acidosis|rta
+prader willi syndrome|prader-willi
+noonan syndrome
+russell silver syndrome|silver russell syndrome
+intrauterine growth restriction|iugr|small for gestational age|sga|fetal growth restriction
+psychosocial deprivation|psychosocial short stature|psychosocial dwarfism|emotional deprivation|child neglect
+craniopharyngioma
+hypopituitarism|panhypopituitarism
+laron syndrome|growth hormone insensitivity|growth hormone receptor deficiency|laron dwarfism
+nutritional rickets|rickets|vitamin d deficiency|vitamin d deficient rickets
+x-linked hypophosphatemic rickets|hypophosphatemic rickets|xlh|vitamin d resistant rickets
+osteogenesis imperfecta|brittle bone disease
+mucopolysaccharidoses|mucopolysaccharidosis|mps
+hurler syndrome|mps i|mps 1
+hunter syndrome|mps ii|mps 2
+morquio syndrome|mps iv|mps 4
+maroteaux lamy syndrome|mps vi|mps 6
+sly syndrome|mps vii
+cystic fibrosis
+sickle cell disease|sickle cell anemia
+beta thalassemia major|thalassemia|thalassaemia|cooley anemia
+congenital heart disease|cyanotic heart disease|cyanotic congenital heart disease
+fetal alcohol syndrome|fetal alcohol spectrum disorder|fas
+precocious puberty|central precocious puberty
+congenital adrenal hyperplasia|cah|21 hydroxylase deficiency
+mccune albright syndrome
+pseudohypoparathyroidism|albright hereditary osteodystrophy|aho
+shox deficiency|shox haploinsufficiency
+leri weill dyschondrosteosis|leri-weill syndrome
+langer mesomelic dysplasia
+hypochondroplasia
+thanatophoric dysplasia
+achondrogenesis
+spondyloepiphyseal dysplasia|sed|spondyloepiphyseal dysplasia congenita
+diastrophic dysplasia
+pseudoachondroplasia
+multiple epiphyseal dysplasia
+metaphyseal chondrodysplasia|schmid metaphyseal chondrodysplasia|jansen metaphyseal chondrodysplasia
+cartilage hair hypoplasia|mckusick metaphyseal chondrodysplasia
+ellis van creveld syndrome|chondroectodermal dysplasia
+jeune syndrome|asphyxiating thoracic dystrophy
+campomelic dysplasia
+cleidocranial dysplasia
+kniest dysplasia
+metatropic dysplasia
+acromesomelic dysplasia
+geleophysic dysplasia
+osteopetrosis
+pycnodysostosis
+hypophosphatasia
+williams syndrome|williams beuren syndrome
+22q11.2 deletion syndrome|digeorge syndrome|velocardiofacial syndrome
+cornelia de lange syndrome
+seckel syndrome
+smith lemli opitz syndrome
+rubinstein taybi syndrome
+kabuki syndrome
+aarskog syndrome|aarskog scott syndrome
+bloom syndrome
+fanconi anemia|fanconi anaemia
+dubowitz syndrome
+3-m syndrome|3m syndrome
+floating harbor syndrome
+mulibrey nanism
+microcephalic osteodysplastic primordial dwarfism|mopd
+meier gorlin syndrome
+trisomy 18|edwards syndrome
+trisomy 13|patau syndrome
+cri du chat syndrome|5p deletion
+wolf hirschhorn syndrome|4p deletion
+hutchinson gilford progeria|progeria
+cockayne syndrome
+werner syndrome
+nijmegen breakage syndrome
+short syndrome
+costello syndrome
+cardiofaciocutaneous syndrome
+juvenile idiopathic arthritis|jia|juvenile rheumatoid arthritis
+poorly controlled type 1 diabetes|mauriac syndrome
+hiv infection|hiv
+chronic infection|tuberculosis
+intestinal parasites|helminth infection|intestinal helminthiasis
+chronic liver disease|biliary atresia
+inhaled corticosteroids|severe asthma
+stimulant medications|methylphenidate|amphetamine|adhd stimulants
+cranial irradiation|spinal irradiation|radiation therapy
+chemotherapy|childhood cancer treatment
+idiopathic short stature
+septo optic dysplasia|de morsier syndrome
+pituitary hypoplasia|ectopic posterior pituitary|pituitary stalk interruption syndrome
+prop1 mutation|pit1 mutation|combined pituitary hormone deficiency
+langerhans cell histiocytosis|histiocytosis x
+traumatic brain injury|head trauma
+primary igf-1 deficiency|igf1 deficiency|igf-1 gene defect
+igf-1 receptor defect|igf1 resistance
+stat5b deficiency
+bioinactive growth hormone|kowarski syndrome
+donohue syndrome|leprechaunism
+glycogen storage disease|von gierke disease|gsd type 1
+mucolipidosis
+mitochondrial disease
+diamond blackfan anemia
+shwachman diamond syndrome
+nephropathic cystinosis|cystinosis
+nephrogenic diabetes insipidus
+bartter syndrome
+zinc deficiency
+iron deficiency anemia|chronic anemia
+anorexia nervosa
+congenital infection|torch infection|congenital rubella
+maternal smoking
+congenital hypopituitarism
+`, "2026-11-08");
+
+P("Name a cause of pulmonary hypertension","clinical","",`
+left heart failure|left heart disease|congestive heart failure|chf|heart failure|left ventricular failure
+copd|chronic obstructive pulmonary disease|emphysema|chronic bronchitis
+chronic thromboembolic pulmonary hypertension|cteph|chronic thromboembolic disease|recurrent pulmonary emboli
+idiopathic pulmonary arterial hypertension|ipah|primary pulmonary hypertension|idiopathic pah
+obstructive sleep apnea|osa|sleep apnoea|obstructive sleep apnoea|sleep disordered breathing
+mitral stenosis|rheumatic mitral stenosis
+mitral regurgitation
+aortic stenosis
+aortic regurgitation
+interstitial lung disease|ild|pulmonary fibrosis
+idiopathic pulmonary fibrosis|ipf
+systemic sclerosis|scleroderma
+crest syndrome|limited cutaneous systemic sclerosis|limited scleroderma
+systemic lupus erythematosus|sle|lupus
+mixed connective tissue disease|mctd
+hiv infection|hiv|hiv associated pah
+portopulmonary hypertension|portal hypertension|cirrhosis
+ventricular septal defect|vsd
+atrial septal defect|asd
+patent ductus arteriosus|pda
+eisenmenger syndrome|eisenmenger physiology
+schistosomiasis|schistosoma mansoni
+heritable pulmonary arterial hypertension|familial pah|bmpr2 mutation
+fenfluramine|dexfenfluramine|fen-phen
+aminorex
+benfluorex
+methamphetamine|amphetamines|amphetamine
+cocaine
+dasatinib
+toxic rapeseed oil
+l-tryptophan
+interferon|interferon alpha|interferon beta
+sickle cell disease|sickle cell anemia
+thalassemia|beta thalassemia|thalassaemia
+chronic hemolytic anemia
+high altitude|chronic high altitude exposure|altitude
+chronic mountain sickness|monge disease
+obesity hypoventilation syndrome|pickwickian syndrome
+kyphoscoliosis|chest wall deformity
+neuromuscular disease|neuromuscular weakness|amyotrophic lateral sclerosis
+sarcoidosis
+pulmonary langerhans cell histiocytosis|histiocytosis x
+lymphangioleiomyomatosis|lam
+neurofibromatosis type 1|nf1|von recklinghausen disease
+polycythemia vera
+essential thrombocythemia
+chronic myeloid leukemia|cml
+myelofibrosis|myeloproliferative neoplasms|myeloproliferative disorders
+splenectomy|asplenia
+gaucher disease
+glycogen storage disease
+hypothyroidism
+hyperthyroidism|thyrotoxicosis|graves disease
+chronic kidney disease|end stage renal disease|esrd|hemodialysis
+arteriovenous fistula|av fistula
+fibrosing mediastinitis|mediastinal fibrosis
+pulmonary tumor thrombotic microangiopathy
+pulmonary artery sarcoma|pulmonary artery tumor
+tumor emboli
+pulmonary artery stenosis|pulmonary artery obstruction
+pulmonary veno-occlusive disease|pvod
+pulmonary capillary hemangiomatosis
+persistent pulmonary hypertension of the newborn|pphn|persistent fetal circulation
+meconium aspiration syndrome
+cystic fibrosis
+bronchiectasis
+bronchopulmonary dysplasia|bpd
+congenital diaphragmatic hernia
+pulmonary hypoplasia
+heart failure with preserved ejection fraction|hfpef|diastolic dysfunction|diastolic heart failure
+heart failure with reduced ejection fraction|hfref|systolic dysfunction|systolic heart failure
+restrictive cardiomyopathy
+hypertrophic cardiomyopathy|hcm
+constrictive pericarditis
+cor triatriatum
+pulmonary vein stenosis
+congenital mitral stenosis|supravalvular mitral ring
+acute pulmonary embolism|pulmonary embolism|pe|massive pulmonary embolism
+pneumoconiosis|silicosis|coal workers pneumoconiosis|asbestosis
+alpha-1 antitrypsin deficiency|alpha 1 antitrypsin deficiency|a1at deficiency
+hypersensitivity pneumonitis
+rheumatoid arthritis
+dermatomyositis|polymyositis
+sjogren syndrome|sjogrens syndrome
+combined pulmonary fibrosis and emphysema|cpfe
+tuberculosis sequelae|post tuberculosis lung disease
+takayasu arteritis
+hereditary hemorrhagic telangiectasia|hht|osler weber rendu syndrome|alk1 mutation
+down syndrome|trisomy 21
+truncus arteriosus
+atrioventricular septal defect|av canal defect|endocardial cushion defect
+total anomalous pulmonary venous return|tapvr|tapvc
+transposition of the great arteries|tga
+mitomycin c
+cyclophosphamide|alkylating agents
+bosutinib
+ponatinib
+carfilzomib
+leflunomide
+st johns wort
+phenylpropanolamine
+indirubin|qing dai
+trichloroethylene
+selective serotonin reuptake inhibitors in pregnancy|ssri in pregnancy
+intravenous drug use|talc granulomatosis|foreign body emboli
+hydatid disease|echinococcosis
+adenotonsillar hypertrophy|enlarged tonsils and adenoids|chronic upper airway obstruction
+pneumonectomy|lung resection
+alveolar hypoventilation|central hypoventilation
+pulmonary arteritis
+anorexigens|appetite suppressants
+`, "2026-11-08");
+
+P("Name a cause of granulomatous inflammation","clinical","",`
+tuberculosis|tb|mycobacterium tuberculosis|scrofula|pott disease|lupus vulgaris
+sarcoidosis|sarcoid
+crohn disease|crohns disease
+granulomatosis with polyangiitis|gpa|wegener granulomatosis|wegeners granulomatosis|wegeners
+eosinophilic granulomatosis with polyangiitis|egpa|churg strauss syndrome|churg-strauss
+histoplasmosis|histoplasma capsulatum|histoplasma
+coccidioidomycosis|valley fever|coccidioides
+blastomycosis|blastomyces
+cryptococcosis|cryptococcus
+leprosy|hansen disease|mycobacterium leprae
+syphilis|tertiary syphilis|gumma|treponema pallidum
+cat scratch disease|bartonella henselae|bartonella
+berylliosis|chronic beryllium disease|beryllium
+foreign body reaction|foreign body granuloma|foreign body
+suture granuloma|suture material
+chronic granulomatous disease|cgd|nadph oxidase deficiency
+giant cell arteritis|temporal arteritis
+takayasu arteritis
+primary biliary cholangitis|primary biliary cirrhosis|pbc
+subacute granulomatous thyroiditis|de quervain thyroiditis|subacute thyroiditis|granulomatous thyroiditis
+hypersensitivity pneumonitis|extrinsic allergic alveolitis|farmers lung|bird fanciers lung|pigeon breeders lung
+schistosomiasis|schistosoma
+listeriosis|granulomatosis infantiseptica|listeria monocytogenes|listeria
+brucellosis|brucella
+tularemia|francisella tularensis
+nontuberculous mycobacteria|mycobacterium avium complex|mac|mai|atypical mycobacteria|ntm
+mycobacterium marinum|fish tank granuloma|swimming pool granuloma
+lymphogranuloma venereum|lgv
+granuloma inguinale|donovanosis|klebsiella granulomatis
+paracoccidioidomycosis
+sporotrichosis|sporothrix schenckii|rose gardener disease
+aspergillosis|chronic necrotizing aspergillosis
+toxoplasmosis|toxoplasma lymphadenitis
+leishmaniasis|cutaneous leishmaniasis
+q fever|coxiella burnetii
+yersinia|yersinia enterocolitica|yersinia pseudotuberculosis
+typhoid fever|salmonella typhi|typhoid
+melioidosis|burkholderia pseudomallei
+glanders|burkholderia mallei
+rhinoscleroma|klebsiella rhinoscleromatis
+chromoblastomycosis
+mycetoma|madura foot|eumycetoma
+rhinosporidiosis
+toxocariasis|visceral larva migrans|toxocara
+silicosis
+talc granulomatosis|talc|intravenous drug use
+granuloma annulare
+rheumatoid nodule|rheumatoid arthritis
+necrobiosis lipoidica
+xanthogranulomatous pyelonephritis
+xanthogranulomatous cholecystitis
+idiopathic granulomatous mastitis|granulomatous mastitis
+granulomatous prostatitis
+bcg vaccine|bcg|intravesical bcg|bacillus calmette guerin
+common variable immunodeficiency|cvid|glild
+blau syndrome|nod2 mutation
+chalazion
+orofacial granulomatosis|cheilitis granulomatosa|melkersson rosenthal syndrome
+hodgkin lymphoma
+seminoma
+sarcoid-like reaction|immune checkpoint inhibitors|checkpoint inhibitor therapy
+drug induced granulomatous hepatitis|allopurinol|quinidine|drug reaction
+tattoo granuloma|tattoo ink
+silicone granuloma|silicone injection|dermal filler granuloma
+zirconium granuloma|zirconium
+aluminum|aluminium granuloma
+titanium
+ruptured epidermoid cyst|ruptured epidermal cyst|ruptured epidermal inclusion cyst
+keratin granuloma
+gout|tophus|tophaceous gout
+cholesterol granuloma
+aspiration pneumonia|vegetable matter aspiration|aspiration of food particles
+sperm granuloma
+starch granuloma
+paraffinoma|oleogranuloma|mineral oil granuloma|lipogranuloma
+sea urchin granuloma
+primary angiitis of the central nervous system|granulomatous angiitis of the cns|pacns
+granulomatous interstitial nephritis
+granulomatous gastritis
+granulomatous rosacea|lupus miliaris disseminatus faciei
+interstitial granulomatous dermatitis
+granulomatous orchitis
+whipple disease|tropheryma whipplei
+nocardiosis|nocardia
+actinomycosis|actinomyces
+fungal infection|endemic mycoses
+pneumocystis pneumonia|pneumocystis jirovecii
+mucormycosis
+candidiasis|chronic mucocutaneous candidiasis
+leishmania donovani|visceral leishmaniasis|kala azar
+strongyloidiasis|strongyloides
+enterobius granuloma|pinworm
+fascioliasis|fasciola hepatica
+interferon gamma receptor deficiency|il-12 receptor deficiency|mendelian susceptibility to mycobacterial disease
+hot tub lung
+`, "2026-11-08");
+
+P("Name a cause of neutropenia","clinical","",`
+chemotherapy|cytotoxic chemotherapy|myelosuppressive chemotherapy|chemotherapy induced neutropenia
+viral infection|post viral neutropenia|viral suppression
+sepsis|overwhelming sepsis|bacterial sepsis
+benign ethnic neutropenia|duffy null associated neutrophil count|duffy null phenotype|constitutional neutropenia|danc
+autoimmune neutropenia|primary autoimmune neutropenia
+clozapine
+carbamazepine
+propylthiouracil|ptu
+methimazole|carbimazole|thionamides|antithyroid drugs
+sulfasalazine
+trimethoprim sulfamethoxazole|tmp smx|bactrim|co-trimoxazole|cotrimoxazole
+dapsone
+ticlopidine
+deferiprone
+procainamide
+beta lactam antibiotics|penicillins|cephalosporins|nafcillin|oxacillin
+vancomycin
+rituximab|late onset neutropenia
+ganciclovir|valganciclovir
+zidovudine|azt
+linezolid
+chloramphenicol
+levamisole|levamisole adulterated cocaine|cocaine
+azathioprine
+mycophenolate|mycophenolate mofetil|cellcept
+methotrexate
+cyclophosphamide
+6-mercaptopurine|mercaptopurine|6-mp
+hydroxyurea|hydroxycarbamide
+colchicine toxicity|colchicine
+metamizole|dipyrone
+phenytoin
+valproate|valproic acid
+ethosuximide
+felbamate
+captopril|ace inhibitors
+mirtazapine
+chlorpromazine|phenothiazines
+olanzapine
+nsaids|ibuprofen|indomethacin
+gold salts|auranofin
+penicillamine
+leflunomide
+tnf inhibitors|infliximab|etanercept|adalimumab
+tocilizumab|il-6 inhibitors
+alemtuzumab
+lenalidomide
+imatinib|tyrosine kinase inhibitors
+interferon|interferon alpha|peginterferon
+flucytosine
+pyrimethamine
+quinine
+spironolactone
+aminoglutethimide
+aminopyrine
+benzene exposure|benzene
+arsenic
+alcohol|alcohol use disorder|alcoholism
+cyclic neutropenia|elane mutation
+severe congenital neutropenia|kostmann syndrome|kostmann disease
+shwachman diamond syndrome
+chediak higashi syndrome
+felty syndrome
+systemic lupus erythematosus|sle|lupus
+rheumatoid arthritis
+sjogren syndrome|sjogrens syndrome
+large granular lymphocytic leukemia|lgl leukemia|t-lgl leukemia|t cell large granular lymphocytic leukemia
+aplastic anemia|aplastic anaemia
+myelodysplastic syndrome|mds|myelodysplasia
+acute myeloid leukemia|aml
+acute lymphoblastic leukemia|all
+chronic lymphocytic leukemia|cll
+hairy cell leukemia
+lymphoma|non-hodgkin lymphoma
+multiple myeloma
+bone marrow infiltration|myelophthisis|myelophthisic anemia|marrow metastases
+myelofibrosis|primary myelofibrosis
+radiation|radiation therapy|ionizing radiation|acute radiation syndrome
+vitamin b12 deficiency|cobalamin deficiency|pernicious anemia
+folate deficiency|folic acid deficiency
+copper deficiency
+zinc toxicity|excess zinc
+hypersplenism|splenomegaly|splenic sequestration
+cirrhosis|portal hypertension
+anorexia nervosa|starvation|severe malnutrition
+epstein barr virus|ebv|infectious mononucleosis|mono
+hiv|hiv infection|aids
+cytomegalovirus|cmv
+viral hepatitis|hepatitis b|hepatitis c|hepatitis a
+parvovirus b19|parvovirus
+measles|rubeola
+rubella
+influenza|flu
+varicella|chickenpox|varicella zoster virus
+dengue fever|dengue
+respiratory syncytial virus|rsv
+hhv-6|human herpesvirus 6|roseola
+covid-19|sars-cov-2|covid
+typhoid fever|salmonella typhi|typhoid
+tuberculosis|disseminated tuberculosis|miliary tuberculosis
+brucellosis
+rickettsial infection|rocky mountain spotted fever
+ehrlichiosis|ehrlichia
+anaplasmosis|anaplasma
+malaria
+visceral leishmaniasis|kala azar|leishmaniasis
+disseminated histoplasmosis|histoplasmosis
+tularemia
+psittacosis
+hemophagocytic lymphohistiocytosis|hlh|macrophage activation syndrome
+paroxysmal nocturnal hemoglobinuria|pnh
+dyskeratosis congenita
+fanconi anemia|fanconi anaemia
+glycogen storage disease type 1b|gsd 1b
+barth syndrome
+whim syndrome|cxcr4 mutation
+cohen syndrome
+pearson syndrome
+reticular dysgenesis
+cartilage hair hypoplasia
+hermansky pudlak syndrome type 2
+griscelli syndrome
+gata2 deficiency
+x-linked agammaglobulinemia|bruton agammaglobulinemia
+hyper igm syndrome
+wiskott aldrich syndrome|x-linked neutropenia
+neonatal alloimmune neutropenia|alloimmune neonatal neutropenia
+maternal preeclampsia|maternal hypertension|pregnancy induced hypertension
+neonatal sepsis
+chronic idiopathic neutropenia|chronic benign neutropenia
+pseudoneutropenia|increased margination
+graves disease|hyperthyroidism
+`, "2026-11-08");
+
+P("Name a cause of sudden cardiac death","clinical","",`
+coronary artery disease|cad|ischemic heart disease|ihd|atherosclerotic heart disease|coronary heart disease
+acute myocardial infarction|myocardial infarction|mi|heart attack|stemi|acute coronary syndrome
+hypertrophic cardiomyopathy|hcm|hocm|hypertrophic obstructive cardiomyopathy
+long qt syndrome|lqts|congenital long qt syndrome|romano ward syndrome
+jervell and lange nielsen syndrome|jervell lange-nielsen syndrome
+brugada syndrome
+arrhythmogenic right ventricular cardiomyopathy|arvc|arvd|arrhythmogenic right ventricular dysplasia|arrhythmogenic cardiomyopathy
+catecholaminergic polymorphic ventricular tachycardia|cpvt
+wolff parkinson white syndrome|wpw|wolff-parkinson-white|ventricular preexcitation|pre-excitation
+commotio cordis
+anomalous aortic origin of a coronary artery|anomalous coronary artery|anomalous coronary artery origin|aaoca|congenital coronary anomaly
+anomalous left coronary artery from the pulmonary artery|alcapa|bland white garland syndrome
+myocarditis|viral myocarditis|acute myocarditis
+dilated cardiomyopathy|dcm|idiopathic dilated cardiomyopathy
+aortic stenosis|severe aortic stenosis
+aortic dissection|ruptured aortic aneurysm|aortic rupture
+marfan syndrome
+pulmonary embolism|pe|massive pulmonary embolism|saddle embolus
+cocaine|cocaine use
+ventricular fibrillation|vfib|v fib|vf
+ventricular tachycardia|vtach|v tach|vt|sustained ventricular tachycardia
+torsades de pointes|torsades|polymorphic ventricular tachycardia
+hyperkalemia|hyperkalaemia
+hypokalemia|hypokalaemia
+hypomagnesemia|hypomagnesaemia
+hypocalcemia|hypocalcaemia
+drug induced long qt|acquired long qt syndrome|qt prolonging drugs|drug induced qt prolongation
+tricyclic antidepressant overdose|tca overdose|tricyclic overdose
+methadone
+antipsychotics|haloperidol|thioridazine
+macrolides|azithromycin|erythromycin
+class ia antiarrhythmics|quinidine|procainamide|disopyramide
+class iii antiarrhythmics|sotalol|dofetilide|ibutilide
+class ic antiarrhythmics|flecainide|encainide|cast trial
+digoxin toxicity|digitalis toxicity|digoxin
+loperamide abuse|loperamide
+short qt syndrome
+early repolarization syndrome|j wave syndrome
+idiopathic ventricular fibrillation
+cardiac sarcoidosis|sarcoidosis
+chagas disease|chagas cardiomyopathy|trypanosoma cruzi
+cardiac tamponade|pericardial tamponade
+myocardial rupture|ventricular free wall rupture|cardiac rupture
+mitral valve prolapse|arrhythmic mitral valve prolapse|mvp
+myocardial bridging|myocardial bridge
+coronary vasospasm|prinzmetal angina|vasospastic angina|variant angina
+spontaneous coronary artery dissection|scad
+kawasaki disease|coronary artery aneurysm
+left ventricular noncompaction|lvnc|noncompaction cardiomyopathy
+takotsubo cardiomyopathy|stress cardiomyopathy|broken heart syndrome|apical ballooning syndrome
+heart failure|congestive heart failure|chf|heart failure with reduced ejection fraction|hfref
+ischemic cardiomyopathy|post infarction scar|prior myocardial infarction|ventricular aneurysm
+complete heart block|third degree av block|third degree heart block|complete av block
+asystole|bradyasystolic arrest
+pulseless electrical activity|pea
+sick sinus syndrome
+progressive cardiac conduction disease|lenegre disease|lev disease
+repaired tetralogy of fallot|tetralogy of fallot|tof
+transposition of the great arteries|tga|mustard procedure|senning procedure
+ebstein anomaly
+eisenmenger syndrome
+congenital aortic stenosis|supravalvular aortic stenosis|williams syndrome
+pulmonary hypertension|pulmonary arterial hypertension
+cardiac amyloidosis|amyloidosis|transthyretin amyloidosis
+hemochromatosis|iron overload cardiomyopathy
+fabry disease
+danon disease
+duchenne muscular dystrophy|dmd
+becker muscular dystrophy
+myotonic dystrophy|steinert disease|myotonic dystrophy type 1
+emery dreifuss muscular dystrophy
+lamin a/c cardiomyopathy|lmna cardiomyopathy|laminopathy
+friedreich ataxia
+timothy syndrome|long qt type 8
+andersen tawil syndrome|long qt type 7
+giant cell myocarditis
+hypertensive heart disease|left ventricular hypertrophy|lvh
+anorexia nervosa|starvation
+methamphetamine|amphetamines|amphetamine
+anabolic steroids|anabolic androgenic steroids
+alcoholic cardiomyopathy|alcohol
+holiday heart syndrome|binge drinking
+inhalant abuse|sudden sniffing death|huffing|volatile substance abuse
+electrocution|electrical injury|electric shock
+lightning strike
+hypothermia
+obstructive sleep apnea|osa|sleep apnoea
+pheochromocytoma|phaeochromocytoma
+atrial myxoma|cardiac myxoma|cardiac tumor
+cardiac rhabdomyoma
+coronary artery embolism|coronary embolism
+infective endocarditis|endocarditis
+syphilitic aortitis|coronary ostial stenosis
+bicuspid aortic valve
+peripartum cardiomyopathy
+hyperthyroidism|thyroid storm
+diabetic autonomic neuropathy
+cardiac contusion|blunt cardiac injury
+atrial fibrillation with preexcitation|pre-excited atrial fibrillation
+hydroxychloroquine|chloroquine
+antihistamines|terfenadine|astemizole
+cisapride
+ondansetron
+fluoroquinolones|levofloxacin|moxifloxacin
+arsenic trioxide
+`, "2026-11-08");
+
+P("Name a structure of the knee","body","",`
+anterior cruciate ligament|acl
+posterior cruciate ligament|pcl
+medial collateral ligament|mcl|tibial collateral ligament
+lateral collateral ligament|lcl|fibular collateral ligament
+medial meniscus
+lateral meniscus
+patella|kneecap|knee cap
+femur|distal femur|femoral condyle|femoral condyles
+tibia|proximal tibia|tibial plateau
+fibula|fibular head|head of fibula|proximal fibula
+patellar ligament|patellar tendon|ligamentum patellae
+quadriceps tendon
+popliteal artery
+popliteal vein
+popliteal fossa
+tibial nerve
+common fibular nerve|common peroneal nerve
+popliteus|popliteus muscle|popliteus tendon
+pes anserinus|pes anserine|goose foot
+sartorius|sartorius tendon
+gracilis|gracilis tendon
+semitendinosus|semitendinosus tendon
+semimembranosus|semimembranosus tendon
+biceps femoris|biceps femoris tendon
+iliotibial band|it band|iliotibial tract|itb
+gastrocnemius|medial head of gastrocnemius|lateral head of gastrocnemius
+plantaris
+quadriceps|quadriceps femoris|quadriceps muscle
+vastus medialis|vastus medialis obliquus|vmo
+vastus lateralis
+vastus intermedius
+rectus femoris
+articularis genus
+prepatellar bursa
+superficial infrapatellar bursa|infrapatellar bursa
+deep infrapatellar bursa
+suprapatellar bursa|suprapatellar pouch|suprapatellar recess
+pes anserine bursa|anserine bursa
+semimembranosus bursa|gastrocnemius semimembranosus bursa
+infrapatellar fat pad|hoffa fat pad|hoffas fat pad
+suprapatellar fat pad|quadriceps fat pad
+medial patellofemoral ligament|mpfl
+medial patellar retinaculum|medial retinaculum
+lateral patellar retinaculum|lateral retinaculum
+anterolateral ligament
+posterolateral corner|plc
+posteromedial corner
+arcuate ligament|arcuate popliteal ligament
+oblique popliteal ligament
+posterior oblique ligament
+popliteofibular ligament
+fabellofibular ligament
+fabella
+transverse ligament of the knee|transverse meniscal ligament|anterior intermeniscal ligament|intermeniscal ligament
+ligament of humphrey|anterior meniscofemoral ligament
+ligament of wrisberg|posterior meniscofemoral ligament
+coronary ligaments of the knee|meniscotibial ligaments|coronary ligament
+joint capsule|knee joint capsule|articular capsule
+synovial membrane|synovium
+articular cartilage|hyaline cartilage
+tibial tuberosity|tibial tubercle
+gerdy tubercle|gerdys tubercle|lateral tibial tubercle
+intercondylar notch|intercondylar fossa
+intercondylar eminence|tibial spines|tibial eminence
+trochlear groove|femoral trochlea|trochlea|patellar surface of femur
+medial femoral condyle
+lateral femoral condyle
+medial tibial plateau|medial tibial condyle
+lateral tibial plateau|lateral tibial condyle
+medial epicondyle of femur|medial femoral epicondyle
+lateral epicondyle of femur|lateral femoral epicondyle
+adductor tubercle
+adductor magnus tendon|adductor magnus
+superior medial genicular artery
+superior lateral genicular artery
+inferior medial genicular artery
+inferior lateral genicular artery
+middle genicular artery
+descending genicular artery
+anterior tibial recurrent artery
+genicular anastomosis|patellar anastomosis
+genicular nerves
+saphenous nerve
+infrapatellar branch of saphenous nerve|infrapatellar nerve
+medial sural cutaneous nerve
+lateral sural cutaneous nerve
+great saphenous vein|long saphenous vein
+small saphenous vein|short saphenous vein|lesser saphenous vein
+popliteal lymph nodes
+patellofemoral joint
+tibiofemoral joint|medial tibiofemoral compartment|lateral tibiofemoral compartment
+proximal tibiofibular joint|superior tibiofibular joint
+medial plica|synovial plica|plica
+ligamentum mucosum|infrapatellar plica
+suprapatellar plica
+popliteal hiatus
+medial patellotibial ligament
+medial patellomeniscal ligament
+deep medial collateral ligament|deep mcl
+superficial medial collateral ligament|superficial mcl
+anterior horn of medial meniscus
+posterior horn of medial meniscus
+anterior horn of lateral meniscus
+posterior horn of lateral meniscus
+meniscal root|meniscal roots
+anteromedial bundle of acl
+posterolateral bundle of acl
+anterolateral bundle of pcl
+posteromedial bundle of pcl
+tibial collateral ligament bursa
+iliotibial band bursa
+subpopliteal recess|popliteus bursa
+gastrocnemius bursa
+medial facet of patella
+lateral facet of patella
+apex of patella|patellar apex
+base of patella
+`, "2026-11-08");
+
+P("Name a structure of the shoulder","body","",`
+rotator cuff
+supraspinatus|supraspinatus tendon
+infraspinatus|infraspinatus tendon
+teres minor
+subscapularis|subscapularis tendon
+deltoid|deltoid muscle
+glenoid|glenoid fossa|glenoid cavity
+glenoid labrum|labrum
+humeral head|head of humerus
+acromion|acromion process
+clavicle|collarbone|collar bone|distal clavicle
+scapula|shoulder blade
+coracoid process|coracoid
+acromioclavicular joint|ac joint
+glenohumeral joint|shoulder joint
+sternoclavicular joint|sc joint
+scapulothoracic joint|scapulothoracic articulation
+subacromial bursa|subdeltoid bursa|subacromial subdeltoid bursa|subacromial-subdeltoid bursa
+subcoracoid bursa
+subscapular bursa|subscapular recess
+long head of biceps tendon|biceps tendon|long head of biceps|lhb
+short head of biceps
+biceps anchor|biceps labral complex|superior labrum
+bicipital groove|intertubercular groove|intertubercular sulcus
+greater tuberosity|greater tubercle
+lesser tuberosity|lesser tubercle
+anatomical neck of humerus|anatomical neck
+surgical neck of humerus|surgical neck
+coracoacromial ligament
+coracoclavicular ligament|coracoclavicular ligaments
+conoid ligament
+trapezoid ligament
+acromioclavicular ligament|ac ligament
+coracohumeral ligament
+superior glenohumeral ligament
+middle glenohumeral ligament
+inferior glenohumeral ligament|inferior glenohumeral ligament complex
+transverse humeral ligament
+rotator interval
+coracoacromial arch
+axillary nerve
+suprascapular nerve
+suprascapular notch|scapular notch
+spinoglenoid notch
+superior transverse scapular ligament|suprascapular ligament
+inferior transverse scapular ligament|spinoglenoid ligament
+musculocutaneous nerve
+long thoracic nerve
+dorsal scapular nerve
+thoracodorsal nerve
+upper subscapular nerve
+lower subscapular nerve
+lateral pectoral nerve
+medial pectoral nerve
+radial nerve
+brachial plexus
+axillary artery
+axillary vein
+posterior circumflex humeral artery
+anterior circumflex humeral artery
+suprascapular artery
+circumflex scapular artery
+subscapular artery
+thoracoacromial artery|thoracoacromial trunk
+dorsal scapular artery
+cephalic vein
+deltopectoral groove|deltopectoral interval
+quadrangular space|quadrilateral space
+triangular space
+triangular interval
+pectoralis major
+pectoralis minor
+trapezius
+serratus anterior
+latissimus dorsi
+teres major
+rhomboid major
+rhomboid minor
+levator scapulae
+coracobrachialis
+long head of triceps|triceps
+omohyoid|inferior belly of omohyoid
+subclavius
+spine of scapula|scapular spine
+supraspinous fossa
+infraspinous fossa
+subscapular fossa
+neck of scapula|scapular neck
+supraglenoid tubercle
+infraglenoid tubercle
+superior angle of scapula
+inferior angle of scapula
+medial border of scapula|vertebral border of scapula
+lateral border of scapula|axillary border of scapula
+deltoid tuberosity
+acromial angle
+glenohumeral joint capsule|shoulder capsule|joint capsule
+axillary recess|axillary pouch
+synovial membrane|synovium
+glenoid articular cartilage|articular cartilage
+costoclavicular ligament
+sternoclavicular ligament|anterior sternoclavicular ligament|posterior sternoclavicular ligament
+interclavicular ligament
+sternoclavicular articular disc
+acromioclavicular articular disc
+axillary lymph nodes
+axilla|armpit
+proximal humerus|humerus
+anterior band of inferior glenohumeral ligament
+posterior band of inferior glenohumeral ligament
+`, "2026-11-08");
+
+P("Name a structure of the pelvis or perineum","body","",`
+urinary bladder|bladder
+uterus|womb
+prostate|prostate gland
+rectum
+ovary|ovaries
+fallopian tube|uterine tube|oviduct|salpinx
+vagina
+cervix|uterine cervix
+ureter|pelvic ureter
+urethra
+anal canal
+anus
+sigmoid colon
+pubic symphysis|symphysis pubis
+sacrum
+coccyx|tailbone|tail bone
+ilium|iliac bone
+ischium
+pubis|pubic bone
+hip bone|os coxae|innominate bone|coxal bone
+acetabulum
+obturator foramen
+sacroiliac joint|si joint
+ischial tuberosity|sit bone|sitting bone
+ischial spine
+greater sciatic foramen
+lesser sciatic foramen
+greater sciatic notch
+lesser sciatic notch
+sacrospinous ligament
+sacrotuberous ligament
+iliolumbar ligament
+anterior sacroiliac ligament
+posterior sacroiliac ligament
+interosseous sacroiliac ligament
+levator ani
+pubococcygeus
+puborectalis
+iliococcygeus
+coccygeus|ischiococcygeus
+pelvic diaphragm|pelvic floor
+obturator internus
+piriformis
+perineal membrane|urogenital diaphragm
+deep transverse perineal muscle|deep transverse perineal
+superficial transverse perineal muscle|superficial transverse perineal
+external urethral sphincter|sphincter urethrae|rhabdosphincter
+internal urethral sphincter
+external anal sphincter
+internal anal sphincter
+perineal body|central tendon of the perineum
+bulbospongiosus|bulbocavernosus
+ischiocavernosus
+deep perineal pouch|deep perineal space
+superficial perineal pouch|superficial perineal space
+colles fascia|superficial perineal fascia
+ischioanal fossa|ischiorectal fossa
+pudendal nerve
+pudendal canal|alcock canal|alcocks canal
+internal pudendal artery
+internal pudendal vein
+internal iliac artery|hypogastric artery
+external iliac artery
+common iliac artery
+internal iliac vein
+external iliac vein
+uterine artery
+ovarian artery
+superior vesical artery
+inferior vesical artery
+vaginal artery
+middle rectal artery
+inferior rectal artery
+superior rectal artery
+obturator artery
+obturator nerve
+superior gluteal artery
+inferior gluteal artery
+median sacral artery
+lateral sacral artery
+umbilical artery|medial umbilical ligament
+pelvic splanchnic nerves|nervi erigentes
+inferior hypogastric plexus|pelvic plexus
+superior hypogastric plexus|presacral nerve
+sacral plexus
+sciatic nerve
+ganglion impar|ganglion of walther
+sacral sympathetic trunk
+broad ligament
+round ligament of the uterus|round ligament
+ovarian ligament|ligament of the ovary|proper ovarian ligament
+suspensory ligament of the ovary|infundibulopelvic ligament
+cardinal ligament|transverse cervical ligament|mackenrodt ligament
+uterosacral ligament
+pubocervical fascia|pubocervical ligament
+puboprostatic ligament
+pubovesical ligament
+mesosalpinx
+mesovarium
+mesometrium
+rectouterine pouch|pouch of douglas|cul de sac|rectouterine space
+vesicouterine pouch
+rectovesical pouch
+retropubic space|space of retzius|prevesical space
+presacral space|retrorectal space
+rectovaginal septum
+rectoprostatic fascia|denonvilliers fascia
+endopelvic fascia
+arcus tendineus levator ani|tendinous arch of levator ani
+arcus tendineus fasciae pelvis
+anococcygeal ligament|anococcygeal body
+seminal vesicles|seminal vesicle
+vas deferens|ductus deferens
+ejaculatory ducts|ejaculatory duct
+bulbourethral glands|cowper glands|cowpers glands
+greater vestibular glands|bartholin glands|bartholins glands
+paraurethral glands|skene glands|skenes glands
+penis
+bulb of penis
+crus of penis|crura of penis
+corpus cavernosum|corpora cavernosa
+corpus spongiosum
+glans penis
+tunica albuginea
+bucks fascia|deep fascia of penis
+clitoris
+crus of clitoris|crura of clitoris
+glans clitoris
+vestibular bulbs|bulb of vestibule
+labia majora
+labia minora
+vestibule|vaginal vestibule|vulval vestibule
+vulva
+mons pubis
+scrotum
+testis|testicle|testes
+epididymis
+spermatic cord
+hymen
+vaginal fornix|fornix of vagina
+urogenital triangle
+anal triangle
+pelvic inlet|pelvic brim|linea terminalis|superior pelvic aperture
+pelvic outlet|inferior pelvic aperture
+true pelvis|lesser pelvis|pelvic cavity
+false pelvis|greater pelvis
+iliac crest
+anterior superior iliac spine|asis
+anterior inferior iliac spine|aiis
+posterior superior iliac spine|psis
+posterior inferior iliac spine
+iliac fossa
+arcuate line of ilium|iliopectineal line|pectineal line|pecten pubis
+iliopubic eminence|iliopectineal eminence
+pubic arch|subpubic angle
+pubic tubercle
+pubic crest
+superior pubic ramus
+inferior pubic ramus
+ischial ramus|ischiopubic ramus
+obturator membrane
+obturator canal
+sacral promontory
+sacral foramina
+sacral hiatus
+sacral canal
+coccygeal plexus
+trigone|bladder trigone
+detrusor muscle|detrusor
+bladder neck
+prostatic urethra
+membranous urethra
+spongy urethra|penile urethra
+external urethral orifice|urethral meatus
+navicular fossa|fossa navicularis
+rectal ampulla
+dentate line|pectinate line
+anal columns|columns of morgagni
+anal valves|anal sinuses
+anorectal junction|anorectal ring
+transverse rectal folds|valves of houston
+internal iliac lymph nodes
+external iliac lymph nodes
+obturator lymph nodes
+superficial inguinal lymph nodes|inguinal lymph nodes
+sacral lymph nodes
+perineal nerve
+dorsal nerve of the penis
+dorsal nerve of the clitoris
+inferior rectal nerve|inferior anal nerve
+posterior scrotal nerves|posterior labial nerves
+perineal artery
+dorsal artery of the penis
+deep artery of the penis|cavernosal artery
+artery of the bulb of the penis
+deep dorsal vein of the penis
+prostatic venous plexus|santorini plexus
+vesical venous plexus
+uterine venous plexus
+rectal venous plexus|hemorrhoidal plexus
+pampiniform plexus
+iliacus
+psoas major|psoas
+gonadal vein|ovarian vein
+lumbosacral trunk
+`, "2026-11-08");
+
+P("Name a structure in the thorax or mediastinum","body","",`
+heart
+lung|lungs
+aorta|thoracic aorta
+aortic arch|arch of the aorta
+ascending aorta
+descending thoracic aorta|descending aorta
+esophagus|oesophagus|thoracic esophagus
+trachea|windpipe
+thymus|thymus gland
+superior vena cava|svc
+inferior vena cava|ivc
+pulmonary trunk|main pulmonary artery|pulmonary artery
+right pulmonary artery
+left pulmonary artery
+pulmonary veins|pulmonary vein
+main bronchus|mainstem bronchus|primary bronchus|main bronchi
+right main bronchus
+left main bronchus
+carina
+phrenic nerve
+vagus nerve|cn x|vagus|cranial nerve 10
+left recurrent laryngeal nerve|recurrent laryngeal nerve
+thoracic duct
+azygos vein|azygos
+hemiazygos vein
+accessory hemiazygos vein
+brachiocephalic vein|innominate vein|left brachiocephalic vein
+brachiocephalic trunk|innominate artery|brachiocephalic artery
+left common carotid artery
+left subclavian artery
+sympathetic trunk|sympathetic chain|thoracic sympathetic trunk
+greater splanchnic nerve
+lesser splanchnic nerve
+least splanchnic nerve
+pericardium|pericardial sac
+fibrous pericardium
+serous pericardium
+parietal pericardium
+visceral pericardium|epicardium
+pericardial cavity
+pleura|pleurae
+visceral pleura
+parietal pleura
+pleural cavity|pleural space
+diaphragm
+ribs|rib
+sternum|breastbone|breast bone
+manubrium
+body of the sternum|sternal body|gladiolus
+xiphoid process|xiphoid
+sternal angle|angle of louis|manubriosternal joint
+costal cartilage|costal cartilages
+thoracic vertebrae|thoracic spine
+external intercostal muscles|external intercostals
+internal intercostal muscles|internal intercostals
+innermost intercostal muscles|innermost intercostals
+intercostal nerves|intercostal nerve
+intercostal arteries|posterior intercostal arteries
+anterior intercostal arteries
+intercostal veins
+internal thoracic artery|internal mammary artery|lima
+internal thoracic vein|internal mammary vein
+ligamentum arteriosum
+right atrium
+left atrium
+right ventricle
+left ventricle
+mitral valve|bicuspid valve
+tricuspid valve
+aortic valve
+pulmonary valve|pulmonic valve
+interventricular septum
+interatrial septum|atrial septum
+fossa ovalis
+left atrial appendage|left auricle
+right atrial appendage|right auricle
+papillary muscles
+chordae tendineae
+sinoatrial node|sa node
+atrioventricular node|av node
+bundle of his|his bundle
+coronary sinus
+right coronary artery|rca
+left main coronary artery|left coronary artery
+left anterior descending artery|lad|anterior interventricular artery
+left circumflex artery|circumflex artery|lcx
+great cardiac vein
+crista terminalis
+moderator band|septomarginal trabecula
+hilum of the lung|pulmonary hilum|lung hilum|hilum
+root of the lung|lung root
+mediastinal lymph nodes
+hilar lymph nodes|bronchopulmonary lymph nodes
+subcarinal lymph nodes|inferior tracheobronchial nodes
+paratracheal lymph nodes
+aortopulmonary window|ap window
+cardiac plexus
+pulmonary plexus
+esophageal plexus|oesophageal plexus
+pericardiacophrenic artery
+pericardiacophrenic vein
+bronchial arteries|bronchial artery
+bronchial veins
+esophageal arteries
+superior mediastinum
+anterior mediastinum
+middle mediastinum
+posterior mediastinum
+inferior mediastinum
+transverse pericardial sinus
+oblique pericardial sinus
+costodiaphragmatic recess|costophrenic recess|costophrenic angle
+costomediastinal recess
+pectoralis major
+pectoralis minor
+serratus anterior
+breast|mammary gland|breasts
+nipple
+right upper lobe
+right middle lobe
+right lower lobe
+left upper lobe
+left lower lobe
+lingula
+oblique fissure|major fissure
+horizontal fissure|minor fissure
+bronchi|bronchus
+lobar bronchi|secondary bronchi
+segmental bronchi|tertiary bronchi
+bronchopulmonary segments
+bronchioles
+alveoli|alveolus
+pulmonary ligament|inferior pulmonary ligament
+superior thoracic aperture|thoracic inlet
+inferior thoracic aperture|thoracic outlet
+left superior intercostal vein
+musculophrenic artery
+stellate ganglion|cervicothoracic ganglion
+thoracic sympathetic ganglia
+endothoracic fascia
+transversus thoracis
+subcostal muscles
+levatores costarum
+suprapleural membrane|sibson fascia
+cervical pleura|cupula
+esophageal hiatus|oesophageal hiatus
+aortic hiatus
+caval opening|caval foramen|vena caval foramen
+right crus of the diaphragm
+left crus of the diaphragm
+central tendon of the diaphragm
+lymphatic duct|right lymphatic duct
+cisterna chyli
+thymic remnant|thymic fat
+paravertebral gutter|paravertebral space
+costovertebral joints
+costotransverse joints
+sternocostal joints
+first rib
+false ribs
+floating ribs
+true ribs
+thoracic intervertebral discs
+spinal cord|thoracic spinal cord
+intercostal lymph nodes
+parasternal lymph nodes|internal mammary lymph nodes
+left vagus nerve
+right vagus nerve
+anterior vagal trunk
+posterior vagal trunk
+thoracic cage|rib cage
+`, "2026-11-08");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

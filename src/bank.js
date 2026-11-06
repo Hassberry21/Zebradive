@@ -49013,6 +49013,682 @@ borage oil
 ephedra|ma huang
 `, "2026-11-08");
 
+P("Name a drug usually taken at bedtime or in the evening","pharm","",`
+simvastatin|zocor
+zolpidem|ambien|edluar
+trazodone|desyrel
+melatonin
+statins
+lovastatin|mevacor|altoprev
+pravastatin|pravachol
+fluvastatin|lescol
+mirtazapine|remeron
+quetiapine|seroquel
+diphenhydramine|benadryl|zzzquil|unisom sleepgels
+doxylamine|unisom sleeptabs
+eszopiclone|lunesta
+zaleplon|sonata
+temazepam|restoril
+triazolam|halcion
+flurazepam|dalmane
+estazolam|prosom
+suvorexant|belsomra
+lemborexant|dayvigo
+daridorexant|quviviq
+ramelteon|rozerem
+doxepin|silenor
+amitriptyline|elavil
+nortriptyline|pamelor
+hydroxyzine|vistaril|atarax
+doxazosin|cardura
+terazosin|hytrin
+prazosin|minipress
+alpha blockers
+montelukast|singulair
+donepezil|aricept
+olanzapine|zyprexa
+cyclobenzaprine|flexeril
+tizanidine|zanaflex
+gabapentin|neurontin
+clonazepam|klonopin
+clonidine|catapres
+nph insulin|humulin n|novolin n
+insulin glargine|lantus|basaglar
+metformin er|glucophage xr|glumetza|fortamet
+senna|senokot
+bisacodyl|dulcolax
+famotidine|pepcid
+h2 blockers
+desmopressin|ddavp|nocdurna|noctiva
+tretinoin|retin-a|retinoids
+adapalene|differin
+tazarotene|tazorac|arazlo
+trifarotene|aklief
+latanoprost|xalatan
+bimatoprost|lumigan
+travoprost|travatan z
+tafluprost|zioptan
+latanoprostene bunod|vyzulta
+netarsudil|rhopressa
+netarsudil latanoprost|rocklatan
+prostaglandin analog eye drops
+lurasidone|latuda
+clozapine|clozaril
+phenobarbital
+perampanel|fycompa
+ropinirole|requip
+pramipexole|mirapex
+gabapentin enacarbil|horizant
+carbidopa levodopa er|rytary
+sodium oxybate|xyrem|xywav
+sodium oxybate extended release|lumryz
+promethazine|phenergan
+cyproheptadine|periactin
+chlorpheniramine|chlor-trimeton
+cetirizine|zyrtec
+levocetirizine|xyzal
+nyquil
+tylenol pm|advil pm|aleve pm|excedrin pm
+magnesium|magnesium glycinate|magnesium oxide
+valerian
+chamomile
+tart cherry
+levothyroxine|synthroid
+verapamil er|verelan pm|covera-hs
+diltiazem er|cardizem la
+delayed-release prednisone|rayos
+mesalamine enema|rowasa|mesalamine suppository|canasa
+hydrocortisone enema|cortenema
+miconazole vaginal|monistat
+clotrimazole vaginal
+terconazole|terazol
+metronidazole vaginal gel|metrogel vaginal|nuvessa
+clindamycin vaginal|cleocin vaginal|clindesse
+estradiol vaginal cream|estrace cream
+estradiol vaginal tablet|vagifem|yuvafem
+conjugated estrogens vaginal cream|premarin vaginal cream
+prasterone|intrarosa
+boric acid suppository
+progesterone|prometrium
+permethrin|elimite|nix
+artificial tears ointment|lacrilube|refresh pm
+erythromycin eye ointment
+fluoride rinse|act fluoride
+prescription fluoride toothpaste|prevident
+glycerin suppository
+`, "2026-11-08");
+P("Name a drug used in pregnancy, labor or delivery","pharm","",`
+oxytocin|pitocin
+magnesium sulfate|mag sulfate|mgso4
+prenatal vitamins|prenatal vitamin
+folic acid|folate
+misoprostol|cytotec
+betamethasone|celestone
+rho(d) immune globulin|rhogam|rhophylac|winrho|anti-d
+labetalol|trandate
+nifedipine|procardia|adalat
+methylergonovine|methergine
+carboprost|hemabate
+dinoprostone|cervidil|prepidil
+epidural|epidural anesthesia
+bupivacaine|marcaine|sensorcaine
+ropivacaine|naropin
+lidocaine|xylocaine
+fentanyl|sublimaze
+penicillin g|pfizerpen
+ampicillin
+cefazolin|ancef
+clindamycin|cleocin
+hydralazine|apresoline
+insulin
+methyldopa|aldomet
+aspirin low dose|baby aspirin|low-dose aspirin
+dexamethasone|decadron
+terbutaline|brethine
+indomethacin|indocin
+tranexamic acid|txa|cyklokapron
+iron|ferrous sulfate|iron supplement
+doxylamine pyridoxine|diclegis|bonjesta
+pyridoxine|vitamin b6
+ondansetron|zofran
+metoclopramide|reglan
+promethazine|phenergan
+acetaminophen|tylenol
+docusate|colace
+levothyroxine|synthroid
+propylthiouracil|ptu
+methimazole|tapazole
+heparin
+enoxaparin|lovenox
+metformin|glucophage
+glyburide|diabeta
+calcium carbonate|tums
+famotidine|pepcid
+tdap vaccine|tdap|boostrix|adacel
+influenza vaccine|flu shot
+rsv vaccine|abrysvo
+covid vaccine|covid-19 vaccine
+nitrous oxide|laughing gas
+morphine
+nalbuphine|nubain
+butorphanol|stadol
+meperidine|demerol
+remifentanil
+intrathecal morphine|duramorph|spinal morphine
+chloroprocaine|nesacaine
+propofol
+ketamine
+succinylcholine
+ephedrine
+phenylephrine
+naloxone|narcan
+nitroglycerin
+hydroxyprogesterone caproate|makena|17-ohp
+vaginal progesterone|progesterone|prometrium|crinone|endometrin
+azithromycin|zithromax
+erythromycin
+gentamicin
+nitrofurantoin|macrobid
+cephalexin|keflex
+amoxicillin
+valacyclovir|valtrex
+acyclovir|zovirax
+zidovudine|azt|retrovir
+antiretroviral therapy|art
+penicillin g benzathine|bicillin l-a
+metronidazole|flagyl
+clotrimazole vaginal|clotrimazole
+miconazole|monistat
+mifepristone|mifeprex
+methotrexate
+lamivudine
+hepatitis b immune globulin|hbig
+hepatitis b vaccine|engerix-b
+erythromycin eye ointment|erythromycin ophthalmic
+vitamin k|phytonadione|aquamephyton
+vitamin d
+dha|omega-3|fish oil
+calcium
+zuranolone|zurzuvae
+brexanolone|zulresso
+sertraline|zoloft
+fluoxetine|prozac
+bupropion|wellbutrin
+buprenorphine|subutex
+methadone
+nicotine replacement
+oxytocin antagonist|atosiban
+ritodrine|yutopar
+carbetocin|duratocin
+sulprostone
+sodium citrate|bicitra
+glycopyrrolate|robinul
+scopolamine patch|transderm scop
+diphenhydramine|benadryl
+loratadine|claritin
+cetirizine|zyrtec
+budesonide inhaled|pulmicort
+albuterol|ventolin
+prednisone
+hydroxychloroquine|plaquenil
+azathioprine|imuran
+lamotrigine|lamictal
+levetiracetam|keppra
+nicardipine|cardene
+calcium gluconate
+cabergoline|dostinex
+bromocriptine|parlodel
+lanolin|nipple cream
+ibuprofen|motrin|advil
+ketorolac|toradol
+oxycodone|roxicodone
+hydrocodone acetaminophen|norco
+witch hazel pads|tucks
+benzocaine spray|dermoplast
+simethicone|gas-x
+senna|senokot
+polyethylene glycol|miralax
+mmr vaccine postpartum|mmr
+varicella vaccine postpartum
+medroxyprogesterone|depo-provera
+levonorgestrel iud|mirena
+etonogestrel implant|nexplanon
+norethindrone|minipill|camila|micronor
+fibrinogen concentrate|riastap
+recombinant factor viia|novoseven
+`, "2026-11-08");
+
+P("Name a drug that can cause depression or suicidal thoughts","pharm","",`
+isotretinoin|accutane|absorica|claravis
+montelukast|singulair
+varenicline|chantix
+antidepressants
+interferon alfa|interferon|peginterferon|pegasys
+corticosteroids|steroids|prednisone
+beta blockers|propranolol|inderal
+oral contraceptives|birth control pills|hormonal contraceptives
+levetiracetam|keppra
+antiepileptics|antiseizure drugs
+finasteride|propecia|proscar
+efavirenz|sustiva
+mefloquine|lariam
+reserpine
+benzodiazepines
+alcohol
+opioids
+metoclopramide|reglan
+ssris|fluoxetine|sertraline|paroxetine|citalopram|escitalopram
+snris|venlafaxine|duloxetine|desvenlafaxine
+bupropion|wellbutrin|zyban
+atomoxetine|strattera
+tetrabenazine|xenazine
+deutetrabenazine|austedo
+valbenazine|ingrezza
+topiramate|topamax
+phenobarbital
+vigabatrin|sabril
+perampanel|fycompa
+brivaracetam|briviact
+gabapentin|neurontin
+pregabalin|lyrica
+lamotrigine|lamictal
+carbamazepine|tegretol
+oxcarbazepine|trileptal
+zonisamide|zonegran
+tiagabine|gabitril
+valproate|depakote
+lacosamide|vimpat
+felbamate|felbatol
+ethosuximide|zarontin
+rufinamide|banzel
+clobazam|onfi
+cenobamate|xcopri
+eslicarbazepine|aptiom
+primidone|mysoline
+phenytoin|dilantin
+medroxyprogesterone|depo-provera
+levonorgestrel iud|mirena
+etonogestrel implant|nexplanon
+gnrh agonists|leuprolide|lupron
+goserelin|zoladex
+androgen deprivation therapy
+anabolic steroid withdrawal|anabolic steroids
+dutasteride|avodart
+clonidine|catapres
+methyldopa|aldomet
+digoxin
+dexamethasone|decadron
+methylprednisolone|medrol
+cosyntropin|acth
+rimonabant|acomplia
+naltrexone bupropion|contrave
+semaglutide|wegovy|ozempic
+liraglutide|saxenda
+tirzepatide|zepbound
+roflumilast|daliresp
+apremilast|otezla
+brodalumab|siliq
+interleukin-2|aldesleukin
+tamoxifen
+aromatase inhibitors|letrozole|anastrozole
+ribavirin
+amantadine|symmetrel
+levodopa|sinemet
+sodium oxybate|xyrem
+zolpidem|ambien
+eszopiclone|lunesta
+suvorexant|belsomra
+barbiturates
+dronabinol|marinol
+stimulant withdrawal|amphetamine withdrawal
+modafinil|provigil
+cocaine withdrawal
+ketamine|esketamine
+aripiprazole|abilify
+quetiapine|seroquel
+fluoroquinolones|ciprofloxacin|levofloxacin
+cycloserine|seromycin
+ethionamide
+oseltamivir|tamiflu
+chloroquine|hydroxychloroquine
+tafenoquine
+dolutegravir|tivicay
+rilpivirine|edurant
+raltegravir|isentress
+bictegravir|biktarvy
+progestins
+tacrolimus
+procarbazine
+`, "2026-11-08");
+P("Name a drug given by intramuscular (IM) injection","pharm","",`
+vaccines
+influenza vaccine|flu shot
+epinephrine|epipen|adrenaline|auvi-q
+ceftriaxone|rocephin
+penicillin g benzathine|bicillin l-a|bicillin
+medroxyprogesterone|depo-provera
+vitamin b12|cyanocobalamin|b12 shot
+ketorolac|toradol
+testosterone cypionate|depo-testosterone
+testosterone enanthate|delatestryl
+haloperidol|haldol
+haloperidol decanoate|haldol decanoate
+olanzapine|zyprexa intramuscular
+ziprasidone|geodon im
+lorazepam|ativan
+midazolam|versed
+naloxone|narcan
+glucagon|glucagen
+promethazine|phenergan
+hydroxyzine|vistaril
+diphenhydramine|benadryl
+ondansetron|zofran
+methylprednisolone acetate|depo-medrol
+triamcinolone|kenalog
+dexamethasone|decadron
+betamethasone|celestone soluspan
+vitamin k|phytonadione
+hepatitis b vaccine|engerix-b|recombivax|heplisav
+tdap vaccine|tdap|boostrix|adacel
+tetanus toxoid|td|tenivac
+hpv vaccine|gardasil
+covid-19 vaccine|covid vaccine
+shingrix|zoster vaccine
+pneumococcal vaccine|prevnar|vaxneuvance|capvaxive|pneumovax
+hepatitis a vaccine|havrix|vaqta
+meningococcal vaccine|menveo|menquadfi|bexsero|trumenba|penbraya
+rsv vaccine|arexvy|abrysvo|mresvia
+dtap vaccine|daptacel|infanrix|pediarix|pentacel|vaxelis
+hib vaccine|acthib|pedvaxhib
+polio vaccine|ipol|ipv
+rabies vaccine|imovax|rabavert
+rabies immune globulin|hyperrab|kedrab|imogam
+hepatitis b immune globulin|hbig
+tetanus immune globulin|hypertet
+rho(d) immune globulin|rhogam
+immune globulin im|gamastan
+nirsevimab|beyfortus
+palivizumab|synagis
+clesrovimab|enflonsia
+paliperidone palmitate|invega sustenna|invega trinza|invega hafyera
+aripiprazole long-acting|abilify maintena|abilify asimtufii|aristada
+risperidone microspheres|risperdal consta
+olanzapine pamoate|zyprexa relprevv
+fluphenazine decanoate
+chlorpromazine|thorazine
+naltrexone extended-release|vivitrol
+leuprolide|lupron depot
+triptorelin|trelstar
+fulvestrant|faslodex
+octreotide lar|sandostatin lar
+lanreotide
+hydroxyprogesterone caproate|makena
+estradiol valerate|delestrogen
+estradiol cypionate|depo-estradiol
+testosterone undecanoate|aveed
+nandrolone
+chorionic gonadotropin|hcg|pregnyl|novarel
+progesterone in oil
+ampicillin
+cefazolin|ancef
+cefotaxime|claforan
+cefuroxime|zinacef
+cefepime|maxipime
+ertapenem|invanz
+gentamicin
+tobramycin
+amikacin
+streptomycin
+penicillin g procaine
+penicillin g benzathine procaine|bicillin c-r
+ampicillin sulbactam|unasyn
+clindamycin|cleocin
+colistimethate
+capreomycin|capastat
+pentamidine
+morphine
+hydromorphone|dilaudid
+meperidine|demerol
+nalbuphine|nubain
+butorphanol|stadol
+buprenorphine|buprenex
+methadone
+fentanyl
+ketamine|ketalar
+succinylcholine
+atropine
+pralidoxime|2-pam
+atropine pralidoxime autoinjector|duodote
+diazepam autoinjector|diazepam
+physostigmine
+neostigmine
+glycopyrrolate|robinul
+scopolamine
+dimenhydrinate|dramamine
+prochlorperazine|compazine
+trimethobenzamide|tigan
+metoclopramide|reglan
+droperidol|inapsine
+methocarbamol|robaxin
+orphenadrine|norflex
+oxytocin|pitocin
+methylergonovine|methergine
+carboprost|hemabate
+magnesium sulfate
+iron dextran|infed
+thiamine|vitamin b1
+pyridoxine|vitamin b6
+folic acid injection
+hydroxocobalamin
+vitamin a
+interferon beta-1a|avonex
+botulinum toxin|botox|dysport|xeomin|daxxify
+corticotropin|acthar gel|acth
+cosyntropin|cortrosyn
+gold sodium thiomalate|myochrysine|aurothioglucose
+methotrexate injection
+dimercaprol|bal|british anti-lewisite
+edetate calcium disodium|calcium edta
+deferoxamine|desferal
+leucovorin
+fosphenytoin|cerebyx
+phenobarbital
+chlordiazepoxide|librium
+benztropine|cogentin
+furosemide|lasix
+hydralazine
+sumatriptan|imitrex statdose
+dihydroergotamine|dhe 45
+cabotegravir|apretude
+cabotegravir rilpivirine|cabenuva
+pegaspargase|oncaspar
+asparaginase erwinia|rylaze|erwinaze
+bleomycin
+interferon alfa-2b|intron a
+`, "2026-11-08");
+P("Name a drug that should be separated from antacids, calcium or iron","pharm","",`
+levothyroxine|synthroid|levoxyl|unithroid|euthyrox|tirosint
+ciprofloxacin|cipro
+tetracycline|sumycin
+doxycycline|vibramycin|doryx|acticlate
+levofloxacin|levaquin
+alendronate|fosamax
+fluoroquinolones|quinolones
+tetracyclines
+bisphosphonates
+minocycline|minocin|solodyn
+moxifloxacin|avelox
+risedronate|actonel|atelvia
+ibandronate|boniva
+dolutegravir|tivicay
+bictegravir|biktarvy
+integrase inhibitors|instis
+raltegravir|isentress
+elvitegravir|genvoya|stribild
+cabotegravir|vocabria
+dolutegravir lamivudine|dovato
+dolutegravir abacavir lamivudine|triumeq
+dolutegravir rilpivirine|juluca
+cefdinir|omnicef
+iron|ferrous sulfate|iron supplements
+ferrous gluconate|fergon
+ferrous fumarate
+polysaccharide iron complex|niferex
+mycophenolate mofetil|cellcept
+penicillamine|cuprimine|depen
+trientine|syprine|cuvrior
+ketoconazole|nizoral
+itraconazole capsules|itraconazole|sporanox
+atazanavir|reyataz
+rilpivirine|edurant
+ledipasvir sofosbuvir|harvoni
+sofosbuvir velpatasvir|epclusa
+dasatinib|sprycel
+erlotinib|tarceva
+gefitinib|iressa
+pazopanib|votrient
+nilotinib|tasigna
+bosutinib|bosulif
+neratinib|nerlynx
+sotorasib|lumakras
+acalabrutinib capsules|calquence
+eltrombopag|promacta|alvaiz
+gabapentin|neurontin
+digoxin|lanoxin
+phenytoin|dilantin
+chloroquine|aralen
+hydroxychloroquine|plaquenil
+fexofenadine|allegra
+mesalamine delayed release|asacol|lialda|delzicol
+bisacodyl|dulcolax
+baloxavir|xofluza
+liothyronine|cytomel
+thyroid desiccated|armour thyroid|np thyroid
+ofloxacin
+norfloxacin|noroxin
+gemifloxacin|factive
+delafloxacin|baxdela
+demeclocycline|declomycin
+omadacycline|nuzyra
+sarecycline|seysara
+etidronate|didronel
+zinc supplements|zinc
+sodium fluoride
+strontium ranelate
+deferiprone|ferriprox
+cefuroxime axetil|ceftin
+cefpodoxime|vantin
+mycophenolic acid|myfortic
+methyldopa|aldomet
+levodopa|sinemet
+captopril|capoten
+sotalol|betapace
+atenolol|tenormin
+dipyridamole|persantine
+isoniazid|inh
+ethambutol|myambutol
+nitrofurantoin|macrobid|macrodantin
+azithromycin|zithromax
+tipranavir
+enteric-coated tablets|enteric coated aspirin
+pancrelipase|creon|zenpep
+sucralfate|carafate
+estramustine|emcyt
+`, "2026-11-08");
+
+P("Name a drug that can cause tremor","pharm","",`
+lithium|lithobid
+valproate|valproic acid|divalproex|depakote
+albuterol|ventolin|proair|salbutamol
+levothyroxine|synthroid
+caffeine
+theophylline|aminophylline
+tacrolimus|prograf
+cyclosporine|neoral|sandimmune
+amiodarone|pacerone|cordarone
+beta agonists|beta-2 agonists
+ssris
+fluoxetine|prozac
+sertraline|zoloft
+paroxetine|paxil
+citalopram|celexa
+escitalopram|lexapro
+tricyclic antidepressants|tcas
+amitriptyline|elavil
+nortriptyline|pamelor
+venlafaxine|effexor
+duloxetine|cymbalta
+bupropion|wellbutrin
+stimulants
+amphetamine|adderall
+methylphenidate|ritalin
+pseudoephedrine|sudafed
+epinephrine|adrenaline
+metoclopramide|reglan
+antipsychotics
+haloperidol|haldol
+risperidone|risperdal
+aripiprazole|abilify
+prochlorperazine|compazine
+corticosteroids|steroids|prednisone
+lamotrigine|lamictal
+carbamazepine|tegretol
+phenytoin|dilantin
+gabapentin|neurontin
+salmeterol|serevent
+terbutaline|brethine
+levalbuterol|xopenex
+formoterol
+nicotine
+alcohol withdrawal
+benzodiazepine withdrawal
+cocaine
+methamphetamine
+mdma|ecstasy
+liothyronine|cytomel
+thyroid hormone|armour thyroid
+interferon alfa
+cytarabine
+thalidomide
+mycophenolate|cellcept
+sirolimus
+insulin|hypoglycemia
+sulfonylureas
+mexiletine
+lidocaine toxicity
+flecainide
+calcium channel blockers|flunarizine|cinnarizine
+acyclovir|valacyclovir
+trimethoprim sulfamethoxazole|bactrim
+vigabatrin
+topiramate
+tiagabine
+oxcarbazepine
+tetrabenazine
+cholinesterase inhibitors|donepezil
+atomoxetine|strattera
+opioid withdrawal
+baclofen withdrawal
+promethazine
+droperidol
+meperidine
+trazodone
+clozapine
+olanzapine
+quetiapine
+ziprasidone
+lurasidone
+cariprazine
+brexpiprazole
+lumateperone
+pimozide
+fluphenazine
+perphenazine
+chlorpromazine
+thioridazine
+loxapine
+`, "2026-11-08");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

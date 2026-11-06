@@ -475,6 +475,16 @@
   "Name a drug that commonly causes constipation": "2026-11-05",
   "Name a drug that can cause thrombocytopenia": "2026-11-05",
   "Name an inactive ingredient (excipient) in medications": "2026-11-05",
-  "Name a drug given in an outpatient infusion center": "2026-11-05"
+  "Name a drug given in an outpatient infusion center": "2026-11-05",
+  "Name a cause of hypotension": "2026-11-06",
+  "Name a cause of tachycardia": "2026-11-06",
+  "Name a cause of bradycardia": "2026-11-06",
+  "Name a cause of low oxygen saturation": "2026-11-06",
+  "Name a cause of high blood sugar": "2026-11-06",
+  "Name a cause of low blood sugar": "2026-11-06",
+  "Name a cause of respiratory acidosis or alkalosis": "2026-11-06",
+  "Name a trigger of an asthma attack": "2026-11-06",
+  "Name a trigger of a migraine": "2026-11-06",
+  "Name a complication of obesity": "2026-11-06"
  }
 }

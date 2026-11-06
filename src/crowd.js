@@ -3707,3 +3707,65 @@ crowdAlias("Name an antidepressant", "agomelatine", "valdoxan");  // 2026-11-05 
 crowdAlias("Name an antidepressant", "tianeptine", "stablon");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name an antidepressant", "reboxetine", "edronax");  // 2026-11-05 · NAPLEX · same answer
 crowdAlias("Name an antidepressant", "emsam", "selegiline transdermal");  // 2026-11-05 · NAPLEX · same answer
+
+// ===== 2026-11-06 nightly answer review =====
+crowd("Name a blood test", 76, "vitamin b2|riboflavin|b2 level|b2");  // 2026-11-06 · 1 player · plasma riboflavin test, like other vitamin levels
+crowd("Name a blood test", 76, "vitamin b3|niacin|b3 level|b3");  // 2026-11-06 · 1 player · niacin level, orderable reference-lab test
+crowd("Name a blood test", 76, "vitamin b5|pantothenic acid|b5 level|b5");  // 2026-11-06 · 1 player · pantothenic acid level, orderable reference-lab test
+crowdAlias("Name a blood test", "blood sugar", "fingerstick glucose|finger stick glucose|figner stick glucose|fsbg");  // 2026-11-06 · 1 player · same test
+crowdAlias("Name a cause of abdominal pain", "kidney stones", "nephrolithiasis|urolithiasis");  // 2026-11-06 · 1 player · same thing
+crowd("Name a cause of abdominal pain", 88, "schistosomiasis|bilharzia");  // 2026-11-06 · 1 player · intestinal/hepatosplenic schistosomiasis causes abdominal pain
+crowd("Name a cause of abdominal pain", 88, "septic pelvic thrombophlebitis|ovarian vein thrombosis");  // 2026-11-06 · 1 player · postpartum fever with lower abdominal pain
+crowdAlias("Name a cause of abdominal pain", "yersinia", "yersinia enterocolitica|yersenia entericolitica|yersiniosis");  // 2026-11-06 · 1 player · same organism
+crowdAlias("Name a cause of chronic cough", "tuberculosis", "primary progressive tuberculosis|pulmonary tuberculosis");  // 2026-11-06 · 1 player · TB form
+crowdAlias("Name a cause of dizziness or vertigo", "bppv", "benign paroxysmal vertigo|benign paroxysmal positional vertigo|benign paroxysmal vertifo");  // 2026-11-06 · 1 player · same thing
+crowdAlias("Name a cause of dizziness or vertigo", "cerebellar tumor", "medulloblastoma");  // 2026-11-06 · 1 player · cerebellar tumor type
+crowdAlias("Name a cause of dizziness or vertigo", "menieres disease", "merniers|menierres|meniers");  // 2026-11-06 · 1 player · spelling
+crowd("Name a cause of dizziness or vertigo", 87, "nsaids|nsaid|nsaid usage|nsaid use");  // 2026-11-06 · 1 player · dizziness is a labeled NSAID adverse effect
+crowdAlias("Name a cause of meningitis or encephalitis", "anti nmda receptor encephalitis", "anti nmda");  // 2026-11-06 · 1 player · abbreviation
+crowdAlias("Name a cause of non-anion gap metabolic acidosis", "diarrhea", "cholera");  // 2026-11-06 · 1 player · cause via diarrhea (same mechanism)
+crowdAlias("Name a cause of numbness or tingling", "brachial plexus injury", "brachial plexopathy");  // 2026-11-06 · 1 player · same thing
+crowd("Name a cause of secondary hypertension", 85, "clonidine withdrawal|clonidine rebound|rebound hypertension");  // 2026-11-06 · 1 player · recognized drug-withdrawal hypertension
+crowdAlias("Name a cause of swollen lymph nodes", "conjunctivitis", "viral conjunctivitis|viral conjuntivitis");  // 2026-11-06 · 1 player · preauricular node; conjunctivitis already counts
+crowdAlias("Name a cause or type of dementia", "frontotemporal dementia", "pick body|pick bodies|picks disease");  // 2026-11-06 · 1 player · histology of pick disease (already an alias)
+crowd("Name a chronic disease", 69, "bartter syndrome|bartter");  // 2026-11-06 · 1 player · inherited chronic tubulopathy
+crowd("Name a chronic disease", 69, "fanconi anemia|fanconi|fanconi syndrome");  // 2026-11-06 · 1 player · chronic inherited disease (either meaning)
+crowd("Name a chronic disease", 69, "gitelman syndrome|gitelmans syndrome|gittelmans syndrome|gittelman syndrome");  // 2026-11-06 · 1 player · inherited chronic tubulopathy
+crowd("Name a chronic disease", 69, "hypoplastic left heart syndrome|hlhs");  // 2026-11-06 · 1 player · lifelong single-ventricle disease
+crowd("Name a chronic disease", 69, "menieres disease|meniere disease|menieres");  // 2026-11-06 · 1 player · chronic inner-ear disease
+crowd("Name a chronic disease", 69, "personality disorder|personality disorders");  // 2026-11-06 · 1 player · chronic psychiatric condition
+crowd("Name a chronic disease", 40, "pots|postural orthostatic tachycardia syndrome");  // 2026-11-06 · 4 players · chronic dysautonomia
+crowdAlias("Name a chronic disease", "chronic venous insufficiency", "venous insufficiency");  // 2026-11-06 · 1 player · same thing
+crowdAlias("Name a drug that causes hyperkalemia", "ace inhibitors", "quinapril");  // 2026-11-06 · 1 player · ACE inhibitor (lisinopril already an alias)
+crowdAlias("Name a drug with a boxed (black box) warning", "nsaids", "ibuprofen|naproxen");  // 2026-11-06 · 1 player · NSAID boxed warning
+crowdAlias("Name a genetic disorder", "carnitine deficiency", "carnitine shuttle deficiency|cpt deficiency|carnitine palmitoyltransferase deficiency");  // 2026-11-06 · 1 player · same group
+crowdAlias("Name a healthcare profession", "radiologic technologist", "radiology technician|radiology tech|radiology technologist");  // 2026-11-06 · 1 player · same job
+crowd("Name a heart condition", 74, "ectopia cordis");  // 2026-11-06 · 1 player · congenital heart displacement outside the chest
+crowdAlias("Name a lab stain or culture medium", "nnn medium", "novy nicolle|novy macneal nicolle medium|nnn");  // 2026-11-06 · 1 player · same medium
+crowdAlias("Name a lung disease", "organizing pneumonia", "cryptogenic organizing pneumonia");  // 2026-11-06 · 1 player · full name (cop already counts)
+crowdAlias("Name a medical imaging test", "ct chest", "high resolution ct chest|hrct|high resolution ct");  // 2026-11-06 · 1 player · CT chest protocol
+crowdAlias("Name a medical imaging test", "low dose ct", "low dose radiation ct");  // 2026-11-06 · 1 player · same test
+crowdAlias("Name a mental health disorder", "munchausen", "factitious disorder imposed on another|munchausen syndrome by proxy");  // 2026-11-06 · 1 player · DSM-5 name of munchausen by proxy
+crowdAlias("Name a chronic disease", "multiple sclerosis", "ms");  // 2026-11-06 · 4 players · abbreviation
+crowdAlias("Name a chronic disease", "als", "motor neuron disease|mnd");  // 2026-11-06 · 3 players · UK term for ALS
+crowdAlias("Name a chronic disease", "lupus", "sle|systemic lupus erythematosus");  // 2026-11-06 · 3 players · abbreviation
+crowdAlias("Name a chronic disease", "inflammatory bowel disease", "ibd");  // 2026-11-06 · 3 players · abbreviation
+crowdAlias("Name a healthcare profession", "medical coder", "billing|medical billing|billing specialist");  // 2026-11-06 · 2 players · medical biller already counts
+crowd("Name a gland in the body", 79, "anal glands|anal gland|anal crypt glands");  // 2026-11-06 · 2 players · real glands (cryptoglandular fistula)
+crowdAlias("Name a cause of dizziness or vertigo", "menieres disease", "menierres|merniers|meniers");  // 2026-11-06 · 2 players · spelling
+crowdAlias("Name a cause of abdominal pain", "crohns disease", "ibd|inflammatory bowel disease");  // 2026-11-06 · 2 players · umbrella of crohns/UC
+crowdAlias("Name a common reason for a primary care visit", "std testing", "sexually transmitted infection|sti|std|sti testing");  // 2026-11-06 · 2 players · same visit reason
+crowd("Name a cause of abdominal pain", 80, "abdominal trauma|trauma|blunt abdominal trauma");  // 2026-11-06 · 2 players · standard cause
+crowdAlias("Name an endocrine disorder", "congenital adrenal hyperplasia", "cah");  // 2026-11-06 · 2 players · abbreviation
+crowdAlias("Name a cause of heart palpitations", "heart attack", "mi|myocardial infarction");  // 2026-11-06 · 2 players · abbreviation
+crowdAlias("Name a cause of chronic cough", "interstitial lung disease", "ild");  // 2026-11-06 · 2 players · abbreviation
+crowdAlias("Name a gland in the body", "sebaceous", "sebbhoreic|seborrheic");  // 2026-11-06 · 2 players · misnamed sebaceous gland
+crowdAlias("Name a chronic disease", "primary sclerosing cholangitis", "psc");  // 2026-11-06 · 2 players · abbreviation
+crowd("Name a cause of abdominal pain", 80, "ascites|tense ascites");  // 2026-11-06 · 2 players · distension discomfort, SBP
+crowdAlias("Name a chronic disease", "ulcerative colitis", "uc");  // 2026-11-06 · 2 players · abbreviation
+crowdAlias("Name a chronic disease", "heart failure", "hfref|hfpef");  // 2026-11-06 · 2 players · heart failure subtype
+crowdAlias("Name a common reason for a primary care visit", "foot pain", "toe pain");  // 2026-11-06 · 2 players · part of foot pain
+crowdAlias("Name a cause of abdominal pain", "pregnancy", "childbirth|labour");  // 2026-11-06 · 2 players · labor pain (labor already an alias)
+crowd("Name a chronic disease", 56, "atherosclerosis|atherosclerotic disease");  // 2026-11-06 · 2 players · chronic arterial disease
+crowdAlias("Name a chronic disease", "macular degeneration", "amd|age related macular degeneration|armd");  // 2026-11-06 · 2 players · abbreviation
+crowd("Name a chronic disease", 56, "ehlers danlos syndrome|eds|ehlers danlos");  // 2026-11-06 · 2 players · chronic inherited connective tissue disorder

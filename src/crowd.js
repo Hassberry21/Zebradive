@@ -3745,7 +3745,6 @@ crowdAlias("Name a lab stain or culture medium", "nnn medium", "novy nicolle|nov
 crowdAlias("Name a lung disease", "organizing pneumonia", "cryptogenic organizing pneumonia");  // 2026-11-06 · 1 player · full name (cop already counts)
 crowdAlias("Name a medical imaging test", "ct chest", "high resolution ct chest|hrct|high resolution ct");  // 2026-11-06 · 1 player · CT chest protocol
 crowdAlias("Name a medical imaging test", "low dose ct", "low dose radiation ct");  // 2026-11-06 · 1 player · same test
-crowdAlias("Name a mental health disorder", "munchausen", "factitious disorder imposed on another|munchausen syndrome by proxy");  // 2026-11-06 · 1 player · DSM-5 name of munchausen by proxy
 crowdAlias("Name a chronic disease", "multiple sclerosis", "ms");  // 2026-11-06 · 4 players · abbreviation
 crowdAlias("Name a chronic disease", "als", "motor neuron disease|mnd");  // 2026-11-06 · 3 players · UK term for ALS
 crowdAlias("Name a chronic disease", "lupus", "sle|systemic lupus erythematosus");  // 2026-11-06 · 3 players · abbreviation
@@ -3769,3 +3768,4 @@ crowdAlias("Name a cause of abdominal pain", "pregnancy", "childbirth|labour"); 
 crowd("Name a chronic disease", 56, "atherosclerosis|atherosclerotic disease");  // 2026-11-06 · 2 players · chronic arterial disease
 crowdAlias("Name a chronic disease", "macular degeneration", "amd|age related macular degeneration|armd");  // 2026-11-06 · 2 players · abbreviation
 crowd("Name a chronic disease", 56, "ehlers danlos syndrome|eds|ehlers danlos");  // 2026-11-06 · 2 players · chronic inherited connective tissue disorder
+crowd("Name a chronic disease", 69, "primary aldosteronism|conn syndrome|conns syndrome|hyperaldosteronism");  // 2026-11-06 · 1 player · chronic endocrine disease; "conns syndrome" was auto-correcting to down syndrome

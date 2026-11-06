@@ -1140,23 +1140,24 @@ const TopDive={ c:{},
     if(h && !fresh && Date.now()-h.at<60000) return h.v;
     try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/zebra_top",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:day,p_field:field,p_kind:kind})});
       if(!r.ok) return null; const x=(await r.json())[0]; const v=x&&x.n?{top:+x.top,n:+x.n,nTop:+x.n_top}:null; this.c[k]={at:Date.now(),v}; return v; }catch(e){ return null; } },
-  async ever(kind,field,fresh){ if(!Scores.on()) return null; const k="ever|"+kind+"|"+field, h=this.c[k];
+  async ever(kind,field,fresh){ if(!Scores.on()) return null; const since=todayKey().slice(0,8)+"01", k="ever|"+kind+"|"+field+"|"+since, h=this.c[k];
     if(h && !fresh && Date.now()-h.at<60000) return h.v;
-    try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/zebra_top_alltime",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_field:field,p_kind:kind})});
+    try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/zebra_top_alltime",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_field:field,p_kind:kind,p_since:since})});
       if(!r.ok) return null; const x=(await r.json())[0]; const v=x&&x.top!=null?{top:+x.top,day:x.day,nTop:+x.n_top}:null; this.c[k]={at:Date.now(),v}; return v; }catch(e){ return null; } } };
+const monthName=()=>new Date(todayKey()+"T12:00:00").toLocaleDateString("en-US",{month:"long"}).toUpperCase();
 const topFmt=(kind,x)=> kind==="daily"? (x*10).toLocaleString()+" µm" : x.toLocaleString()+" pts";
 function topResultHTML(kind,total,t,e){
   if(!t) return "";
   const what0 = kind==="daily"? "DEEPEST DIVE" : "STAMPEDE SCORE";
   if(e && total>=e.top && !(total===e.top && e.nTop>1) && t.n>1)
-    return `<div class="topbox rec"><div class="tt">👑 ALL-TIME RECORD! THE ${kind==="daily"?"DEEPEST DIVE":"HIGHEST STAMPEDE SCORE"} EVER</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">${kind==="daily"?"NO ONE HAS EVER DIVED DEEPER IN THIS DAILY":"NO ONE HAS EVER SCORED HIGHER IN THE STAMPEDE"}</div></div>`;
+    return `<div class="topbox rec"><div class="tt">👑 MONTHLY RECORD! THE ${kind==="daily"?"DEEPEST DIVE":"HIGHEST STAMPEDE SCORE"} OF ${monthName()}</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">${kind==="daily"?"NO ONE HAS DIVED DEEPER IN THIS DAILY ALL MONTH":"NO ONE HAS SCORED HIGHER IN THE STAMPEDE ALL MONTH"}</div></div>`;
   const what = kind==="daily"? "DEEPEST DIVE" : "TOP STAMPEDE SCORE", others=t.n-1;
   if(total>=t.top){
     if(t.n<=1) return `<div class="topbox rec"><div class="tt">🏆 YOU HOLD TODAY'S ${what}</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">FIRST TO PLAY TODAY. CAN ANYONE BEAT IT?</div></div>`;
     if(total===t.top && t.nTop>1) return `<div class="topbox rec"><div class="tt">🏆 YOU TIED TODAY'S ${what}</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">SHARED WITH ${t.nTop-1} OTHER${t.nTop>2?"S":""} · ${t.n} ${peers().toUpperCase()} TODAY</div></div>`;
     return `<div class="topbox rec"><div class="tt">👑 NEW RECORD! YOU SET TODAY'S ${what}</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">${kind==="daily"?"DEEPER":"MORE POINTS"} THAN ALL ${others} OTHER ${peers().toUpperCase()} TODAY</div></div>`;
   }
-  return `<div class="topbox"><div class="tt">🏆 TODAY'S ${what}</div><div class="tv">${topFmt(kind,t.top)}</div><div class="ts">YOU WERE ${topFmt(kind,t.top-total)} SHORT · ${t.n} ${peers().toUpperCase()} SO FAR${e&&e.top>t.top?` · ALL-TIME RECORD ${topFmt(kind,e.top)}`:""}</div></div>`;
+  return `<div class="topbox"><div class="tt">🏆 TODAY'S ${what}</div><div class="tv">${topFmt(kind,t.top)}</div><div class="ts">YOU WERE ${topFmt(kind,t.top-total)} SHORT · ${t.n} ${peers().toUpperCase()} SO FAR${e&&e.top>t.top?` · ${monthName()} BEST ${topFmt(kind,e.top)}`:""}</div></div>`;
 }
 const isRecord=(total,t)=> t && total>=t.top && !(total===t.top && t.nTop>1);
 async function homeTop(){
@@ -1168,9 +1169,9 @@ async function homeTop(){
   const today=(kind,t,mine)=>{ if(!t) return `<div><div class="ts">TODAY</div><div class="tv">—</div><div class="ts">BE THE FIRST!</div></div>`;
     const me = mine!=null && isRecord(mine,t);
     return `<div><div class="ts">TODAY</div><div class="tv">${topFmt(kind,t.top)}</div><div class="ts">${me?"👑 THAT'S YOU!":mine!=null?"YOU: "+topFmt(kind,mine):"CAN YOU BEAT IT?"}</div></div>`; };
-  const ever=(kind,e,mine)=>{ if(!e) return `<div><div class="ts">ALL-TIME</div><div class="tv">—</div><div class="ts">&nbsp;</div></div>`;
+  const ever=(kind,e,mine)=>{ if(!e) return `<div><div class="ts">BEST IN ${monthName()}</div><div class="tv">—</div><div class="ts">&nbsp;</div></div>`;
     const me = mine!=null && mine>=e.top && e.day===day && e.nTop===1;
-    return `<div><div class="ts">ALL-TIME</div><div class="tv">${topFmt(kind,e.top)}</div><div class="ts">${me?"👑 THAT'S YOU!":"SET "+fmtDay(e.day)}</div></div>`; };
+    return `<div><div class="ts">BEST IN ${monthName()}</div><div class="tv">${topFmt(kind,e.top)}</div><div class="ts">${me?"👑 THAT'S YOU!":"SET "+fmtDay(e.day)}</div></div>`; };
   const row=(lbl,kind,t,e,mine)=>`<div class="label" style="margin:8px 0 2px;font-size:12px">${lbl}</div><div class="toprow">${today(kind,t,mine)}${ever(kind,e,mine)}</div>`;
   el.innerHTML=`<div class="topbox"><div class="tt">🏆 TOP SCORES</div>`+
     row(`🦓 ${shortFor(prof).replace(/^\S+\s/,"").toUpperCase()} DAILY`,"daily",d,de,mineD)+

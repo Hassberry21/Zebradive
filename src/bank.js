@@ -40568,6 +40568,727 @@ cardiac arrhythmias|dysrhythmias
 venous stasis
 `, "2026-11-08");
 
+/* ---- NEW STANDARD DAILY PROMPTS: NURSING part 3 (batch 2026-11-06, board-first) ---- */
+P("Name a side effect of antibiotics","nursing","",`
+diarrhea
+nausea
+vomiting
+rash|skin rash
+allergic reaction|drug allergy
+anaphylaxis
+c diff|clostridioides difficile|c difficile infection|pseudomembranous colitis
+yeast infection|vaginal yeast infection|candidiasis
+thrush|oral thrush
+superinfection
+abdominal pain|stomach upset
+hives|urticaria
+itching|pruritus
+photosensitivity|sun sensitivity
+ototoxicity|hearing loss
+nephrotoxicity|kidney damage
+tendon rupture|achilles tendon rupture
+tendinitis
+qt prolongation
+red man syndrome|vancomycin flushing syndrome|red neck syndrome
+tooth discoloration|tooth staining
+stevens johnson syndrome|sjs
+toxic epidermal necrolysis|ten
+disulfiram like reaction
+metallic taste|taste changes
+headache
+dizziness
+hepatotoxicity|liver damage
+peripheral neuropathy
+optic neuritis|vision changes|red green color blindness
+orange body fluids|orange urine|orange tears
+seizures
+confusion|delirium
+hypoglycemia
+hyperglycemia
+hyperkalemia
+hyponatremia
+bone marrow suppression
+gray baby syndrome
+aplastic anemia
+thrombocytopenia|low platelets
+neutropenia|agranulocytosis
+hemolytic anemia
+g6pd hemolysis
+antibiotic resistance|resistance
+drug interactions
+reduced effectiveness of birth control
+warfarin interaction|increased inr|bleeding
+myasthenia gravis exacerbation
+peripheral vein irritation|phlebitis
+injection site pain
+interstitial nephritis
+crystalluria|kidney stones
+neuromuscular blockade|respiratory paralysis
+vestibular toxicity|vertigo
+dysbiosis|gut flora disruption
+bloating
+loss of appetite
+black hairy tongue
+esophagitis|pill esophagitis
+pancreatitis
+lupus like reaction|drug induced lupus
+serum sickness
+dress syndrome
+fever|drug fever
+jarisch herxheimer reaction
+cartilage damage in children
+aortic aneurysm
+pseudotumor cerebri|intracranial hypertension
+serotonin syndrome
+lactic acidosis
+methemoglobinemia
+false positive urine glucose
+bilirubin displacement|kernicterus in newborns
+vitamin k deficiency
+b12 deficiency
+cholestatic jaundice
+insomnia
+anxiety
+psychosis
+`, "2026-11-08");
+
+P("Name a side effect of antidepressants","nursing","",`
+nausea
+weight gain
+sexual dysfunction|decreased libido|erectile dysfunction|delayed orgasm
+insomnia|trouble sleeping
+drowsiness|sedation
+dry mouth
+headache
+dizziness
+anxiety|jitteriness
+agitation
+suicidal thoughts|suicidality|black box warning
+serotonin syndrome
+discontinuation syndrome|withdrawal symptoms
+diarrhea
+constipation
+sweating|diaphoresis
+fatigue
+blurred vision
+urinary retention
+orthostatic hypotension
+tachycardia
+qt prolongation
+hyponatremia|siadh
+bleeding risk|easy bruising
+gi bleeding
+tremor
+weight loss
+loss of appetite
+increased appetite
+emotional blunting|apathy
+yawning
+vivid dreams|nightmares
+restlessness|akathisia
+mania|hypomania
+seizures|lowered seizure threshold
+hypertensive crisis
+dry eyes
+priapism
+osteoporosis|fractures
+falls in older adults
+confusion
+anticholinergic effects
+cardiac arrhythmias
+hypertension
+liver toxicity|hepatotoxicity
+bruxism|teeth grinding
+hair loss
+rash
+photosensitivity
+increased cholesterol
+hyperglycemia
+neonatal withdrawal|persistent pulmonary hypertension of the newborn
+glaucoma
+memory problems
+night sweats
+heartburn|indigestion
+bloating
+palpitations
+heat intolerance
+muscle twitching|myoclonus
+restless legs
+tinnitus
+nasal congestion
+galactorrhea|hyperprolactinemia
+gynecomastia
+agranulocytosis
+brain zaps|electric shock sensations
+paresthesias
+edema|swelling
+abdominal pain|stomach pain
+vomiting
+irritability
+impulsivity
+extrapyramidal symptoms|dystonia
+birth defects|paroxetine heart defects
+qrs widening|heart block|conduction delay
+cardiotoxicity in overdose|tca overdose toxicity
+abnormal taste|taste changes
+anorgasmia
+`, "2026-11-08");
+
+P("Name a side effect of antiseizure medications","nursing","",`
+drowsiness|sedation
+dizziness
+fatigue
+ataxia|unsteadiness|loss of coordination
+double vision|diplopia
+blurred vision
+nystagmus
+gingival hyperplasia|gum overgrowth
+hirsutism|excess hair growth
+rash
+stevens johnson syndrome|sjs
+toxic epidermal necrolysis|ten
+weight gain
+weight loss
+nausea
+vomiting
+headache
+tremor
+hair loss|alopecia
+liver toxicity|hepatotoxicity
+pancreatitis
+birth defects|teratogenicity
+neural tube defects|spina bifida
+fetal hydantoin syndrome
+hyponatremia|siadh
+aplastic anemia
+agranulocytosis
+thrombocytopenia
+bone marrow suppression
+leukopenia
+megaloblastic anemia|folate deficiency
+osteoporosis|bone loss|vitamin d deficiency
+mood changes
+depression
+suicidal thoughts
+irritability|aggression|rage
+behavior changes
+cognitive slowing|memory problems
+word finding difficulty
+kidney stones
+metabolic acidosis
+glaucoma|angle closure glaucoma
+decreased sweating|hyperthermia
+paresthesias|tingling
+visual field defects
+dress syndrome
+purple glove syndrome
+cardiac arrhythmias|bradycardia
+hypotension
+pr prolongation|heart block
+coarse facial features
+lymphadenopathy
+lupus like syndrome
+hyperammonemia
+polycystic ovary syndrome
+menstrual irregularities
+reduced birth control effectiveness
+drug interactions|enzyme induction
+dysarthria|slurred speech
+confusion
+insomnia
+anxiety
+psychosis
+hyperactivity in children
+increased appetite
+decreased appetite
+dependence|withdrawal seizures
+respiratory depression
+peripheral edema
+dry mouth
+constipation
+diarrhea
+taste changes
+encephalopathy
+`, "2026-11-08");
+
+P("Name a nursing intervention to prevent postoperative complications","nursing","",`
+early ambulation|ambulate|get out of bed
+incentive spirometry|incentive spirometer
+coughing and deep breathing|cough and deep breathe|turn cough deep breathe
+turning and repositioning|turn every 2 hours|reposition
+sequential compression devices|scds|compression stockings|ted hose
+anticoagulants|dvt prophylaxis|heparin|enoxaparin|lovenox
+leg exercises|ankle pumps
+pain management|pain control
+monitor vital signs|vital signs
+monitor surgical site|incision assessment|wound assessment
+hand hygiene|hand washing
+aseptic technique|sterile dressing changes
+wound care|dressing changes
+splinting incision with a pillow|splint incision
+monitor intake and output|i and o|strict i and o
+monitor urine output
+encourage fluids|hydration
+iv fluids
+bladder scan
+early catheter removal|remove foley early
+head of bed elevation|hob elevation
+aspiration precautions
+oral care|mouth care
+monitor oxygen saturation|pulse oximetry
+supplemental oxygen
+assess bowel sounds
+encourage voiding
+stool softeners|bowel regimen
+antiemetics|nausea control
+advance diet as tolerated|diet advancement
+monitor blood glucose|glycemic control
+fall precautions|call light in reach|bed in low position
+neurovascular checks
+monitor for bleeding|check dressing for drainage
+monitor drains|drain care
+monitor lab values|hemoglobin
+antibiotics|prophylactic antibiotics
+temperature monitoring|prevent hypothermia|warming blankets
+pressure injury prevention|skin assessment
+nutrition|protein intake
+patient education|teaching
+delirium prevention|reorientation
+sleep promotion
+avoid crossing legs
+avoid pillows under knees
+chewing gum|gum chewing for ileus
+smoking cessation
+level of consciousness checks|neuro checks
+patient controlled analgesia|pca
+respiratory assessment|lung sounds
+monitor for signs of infection
+abdominal binder
+nasogastric tube care|ng tube to suction
+hip precautions|abduction pillow
+log rolling
+range of motion exercises
+physical therapy
+monitor for compartment syndrome
+check pedal pulses
+ice packs|cold therapy
+elevate extremity
+monitor capillary refill
+assess for calf pain|assess for dvt
+monitor electrolytes
+remove unnecessary lines|remove central lines early
+chlorhexidine bathing|chlorhexidine
+clean linens|dry skin
+emotional support|reduce anxiety
+family involvement
+pacing activities|rest periods
+discharge planning
+`, "2026-11-08");
+
+P("Name a risk factor for infection","nursing","",`
+diabetes|high blood sugar
+older age|elderly
+infancy|newborns|premature infants
+immunosuppression|weakened immune system
+chemotherapy
+steroids|corticosteroids|long term steroid use
+hiv|aids
+cancer
+neutropenia|low white blood cells
+malnutrition|poor nutrition
+obesity
+smoking
+alcohol use disorder
+iv drug use|injection drug use
+surgery|surgical incision
+open wounds|broken skin
+burns
+pressure injuries
+indwelling urinary catheter|foley catheter
+central line|central venous catheter
+peripheral iv
+mechanical ventilation|ventilator
+endotracheal tube
+tracheostomy
+feeding tube
+drains
+implanted devices|prosthetic joints|pacemakers
+heart valve replacement|prosthetic valve
+hospitalization|long hospital stay
+nursing home residence|long term care
+icu stay
+recent antibiotic use
+poor hand hygiene
+crowded living conditions
+homelessness
+lack of vaccination|unvaccinated
+splenectomy|asplenia
+sickle cell disease
+chronic kidney disease|dialysis
+liver disease|cirrhosis
+copd
+cystic fibrosis
+heart failure
+organ transplant
+bone marrow transplant
+biologics|tnf inhibitors
+immunosuppressants|transplant drugs
+radiation therapy
+autoimmune disease
+lupus
+rheumatoid arthritis
+leukemia
+lymphoma
+multiple myeloma
+stress
+sleep deprivation
+immobility|bed rest
+incontinence
+dehydration
+poor oral hygiene
+invasive procedures
+contaminated food or water
+travel
+sexual activity|unprotected sex|multiple sexual partners
+pregnancy
+prolonged rupture of membranes
+chorioamnionitis risk|frequent vaginal exams
+cesarean section
+breastfeeding absence|formula feeding
+daycare attendance
+contact sports|skin to skin contact
+animal exposure|pets
+healthcare work|occupational exposure
+needlestick injury
+shared razors or needles
+tattoos|piercings
+low socioeconomic status
+congenital immunodeficiency|primary immunodeficiency
+complement deficiency
+hypogammaglobulinemia
+down syndrome
+trauma
+foreign bodies
+peripheral vascular disease|poor circulation
+edema|lymphedema
+skin conditions|eczema
+contact lenses
+dentures
+poor glucose control
+hypothermia
+anemia
+`, "2026-11-08");
+
+P("Name a complication of high blood pressure","nursing","",`
+stroke
+heart attack|myocardial infarction
+heart failure
+kidney disease|chronic kidney disease|kidney failure
+coronary artery disease
+left ventricular hypertrophy|lvh|enlarged heart
+aneurysm|aortic aneurysm
+aortic dissection
+peripheral artery disease
+retinopathy|hypertensive retinopathy|vision loss|blurred vision
+dementia|vascular dementia
+cognitive decline
+atrial fibrillation|afib
+hypertensive crisis|hypertensive emergency|hypertensive urgency
+hypertensive encephalopathy
+brain bleed|hemorrhagic stroke|intracerebral hemorrhage
+tia|transient ischemic attack
+atherosclerosis
+erectile dysfunction
+sexual dysfunction
+preeclampsia
+eclampsia
+placental abruption
+fetal growth restriction|iugr
+preterm birth
+hellp syndrome
+nosebleeds|epistaxis
+headache
+sudden cardiac death
+arrhythmias
+angina|chest pain
+diastolic dysfunction|heart failure with preserved ejection fraction
+cardiomyopathy
+mitral regurgitation
+aortic regurgitation
+pulmonary edema|flash pulmonary edema
+lacunar strokes
+small vessel disease
+microalbuminuria|proteinuria
+nephrosclerosis|hypertensive nephropathy
+malignant hypertension
+papilledema
+retinal hemorrhage
+retinal vein occlusion
+retinal artery occlusion
+optic neuropathy
+choroidopathy
+subarachnoid hemorrhage
+posterior reversible encephalopathy syndrome|pres
+sleep problems
+anxiety
+metabolic syndrome
+death
+renal artery stenosis
+claudication
+amputation
+memory loss
+seizures
+intracranial aneurysm|brain aneurysm
+carotid artery disease|carotid stenosis
+confusion
+shortness of breath
+stillbirth|pregnancy loss
+martorell ulcer|hypertensive leg ulcer
+end stage renal disease|dialysis
+cerebral edema
+`, "2026-11-08");
+
+P("Name a health effect of smoking","nursing","",`
+lung cancer
+copd
+emphysema
+chronic bronchitis
+heart disease|coronary artery disease
+heart attack|myocardial infarction
+stroke
+high blood pressure|hypertension
+peripheral artery disease
+aortic aneurysm
+asthma|worsened asthma
+cough|smoker cough
+shortness of breath
+mouth cancer|oral cancer
+throat cancer|laryngeal cancer
+esophageal cancer
+bladder cancer
+kidney cancer
+pancreatic cancer
+stomach cancer
+cervical cancer
+liver cancer
+colorectal cancer
+leukemia|acute myeloid leukemia
+yellow teeth|stained teeth
+bad breath
+gum disease|periodontal disease
+tooth loss
+wrinkles|premature aging
+yellow fingers|stained fingers
+poor wound healing
+infertility
+erectile dysfunction
+low birth weight
+preterm birth
+miscarriage
+sids|sudden infant death syndrome
+placenta previa
+placental abruption
+ectopic pregnancy
+birth defects|cleft lip
+osteoporosis
+fractures
+rheumatoid arthritis
+type 2 diabetes
+cataracts
+macular degeneration
+loss of taste and smell|decreased taste
+pneumonia
+tuberculosis
+influenza complications
+peptic ulcers
+crohn disease
+early menopause
+nicotine addiction|nicotine dependence
+blood clots
+atherosclerosis
+buerger disease|thromboangiitis obliterans
+raynaud phenomenon
+reduced lung function
+spontaneous pneumothorax
+interstitial lung disease
+lung infections
+sinusitis
+hoarseness
+leukoplakia
+burns|house fires
+secondhand smoke harm to others
+thirdhand smoke
+increased carbon monoxide|carbon monoxide
+polycythemia
+dementia
+depression
+anxiety
+psoriasis
+hair loss
+back pain
+hearing loss
+surgical complications
+decreased exercise tolerance
+death|premature death
+`, "2026-11-08");
+
+P("Name a complication of mechanical ventilation","nursing","",`
+ventilator associated pneumonia|vap
+barotrauma
+pneumothorax|tension pneumothorax
+volutrauma
+atelectasis
+hypotension|decreased cardiac output
+oxygen toxicity
+aspiration
+tracheal injury|tracheal stenosis
+vocal cord damage|vocal cord paralysis
+sore throat|hoarseness
+accidental extubation|self extubation|unplanned extubation
+tube dislodgement|tube displacement
+right mainstem intubation
+tube obstruction|mucus plug
+respiratory alkalosis
+respiratory acidosis
+auto peep|air trapping|breath stacking
+ventilator dependence|difficulty weaning
+diaphragm weakness|ventilator induced diaphragm dysfunction
+icu acquired weakness|muscle weakness
+stress ulcers|gi bleeding
+dvt|blood clots
+pulmonary embolism
+pressure injuries
+pressure injury from tube|lip ulcers|oral pressure injury
+sinusitis
+delirium
+anxiety
+sleep deprivation
+ptsd
+sedation complications|oversedation
+fluid retention|positive fluid balance
+ileus
+malnutrition
+infection
+sepsis
+ards worsening|ventilator induced lung injury
+subcutaneous emphysema
+pneumomediastinum
+tracheoesophageal fistula
+tracheomalacia
+communication impairment|inability to speak
+dry mouth|oral mucosa damage
+ventilator alarms|equipment failure
+dyssynchrony|patient ventilator asynchrony
+increased intracranial pressure
+hypoxemia
+cardiac arrest
+death
+laryngeal edema|post extubation stridor
+dental injury|broken teeth
+corneal abrasion|eye injury
+deconditioning
+contractures
+acute kidney injury
+gastric distension
+pneumopericardium
+air embolism
+bronchopleural fistula
+post intensive care syndrome|pics
+cognitive impairment
+depression
+post extubation dysphagia|swallowing problems
+critical illness polyneuropathy
+critical illness myopathy
+cuff leak
+tracheal necrosis|cuff overinflation
+hemodynamic instability
+hypercapnia
+skin breakdown from tube ties
+fluid overload
+hyperglycemia
+`, "2026-11-08");
+
+
+P("Name a complication of cancer","nursing","",`
+pain|cancer pain
+fatigue|cancer related fatigue
+weight loss|cachexia|wasting
+infection
+neutropenic fever|febrile neutropenia
+sepsis
+anemia
+bleeding
+thrombocytopenia|low platelets
+blood clots|dvt|venous thromboembolism
+pulmonary embolism
+metastasis|spread of cancer
+bone metastases|pathologic fractures
+spinal cord compression
+superior vena cava syndrome|svc syndrome
+tumor lysis syndrome
+hypercalcemia|hypercalcemia of malignancy
+siadh|hyponatremia
+disseminated intravascular coagulation|dic
+cardiac tamponade|malignant pericardial effusion
+malignant pleural effusion|pleural effusion
+ascites|malignant ascites
+bowel obstruction|malignant bowel obstruction
+increased intracranial pressure|brain metastases
+seizures
+depression
+anxiety
+fear of recurrence
+body image disturbance
+malnutrition
+loss of appetite|anorexia
+nausea
+vomiting
+dehydration
+constipation
+diarrhea
+mucositis|mouth sores
+taste changes
+lymphedema
+hair loss|alopecia
+neuropathy|peripheral neuropathy
+cognitive changes|chemo brain
+infertility
+sexual dysfunction
+early menopause
+secondary cancers|second cancer
+heart damage|cardiotoxicity
+lung damage|pulmonary fibrosis
+kidney damage
+liver failure
+jaundice
+airway obstruction
+hemoptysis
+fistula formation
+hypercoagulability|trousseau syndrome
+paraneoplastic syndromes
+lambert eaton syndrome
+cushing syndrome|ectopic acth
+hypoglycemia
+hyperuricemia|gout
+hyperviscosity syndrome
+leukostasis
+urinary obstruction|hydronephrosis
+skin breakdown|fungating wounds|malignant wounds
+pressure injuries
+falls
+delirium
+insomnia
+financial toxicity|financial burden
+caregiver burden
+social isolation
+spiritual distress
+death
+pancytopenia
+opportunistic infections
+herpes zoster|shingles
+fungal infections|candidiasis
+`, "2026-11-08");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

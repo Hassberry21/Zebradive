@@ -664,7 +664,7 @@ async function showRanking(fromSave){
   if(daily){
     await Scores.submit(gameDay, total);   // re-sending a saved result is harmless: the server keeps one per player
     real=await Scores.histogram(gameDay);
-    if(gameDay===todayKey()) TopDive.get("daily",gameDay,rankGroup(),true).then(t=>{ $("eTop").innerHTML=topResultHTML("daily",total,t);
+    if(gameDay===todayKey()) Promise.all([TopDive.get("daily",gameDay,rankGroup(),true),TopDive.ever("daily",rankGroup(),true)]).then(([t,e])=>{ $("eTop").innerHTML=topResultHTML("daily",total,t,e);
       if(!fromSave && t && t.n>1 && isRecord(total,t)){ flash("#ffd23b",.35); burst("#ffd23b",60,1.8); try{ sfx.score(5); }catch(e){} } }).catch(()=>{});
   }
   const sim=simulate(set, daily? rankGroup()+gameDay : set.map(p=>p.q).join("|"), true);
@@ -1139,29 +1139,42 @@ const TopDive={ c:{},
   async get(kind,day,field,fresh){ if(!Scores.on()) return null; const k=kind+"|"+day+"|"+field, h=this.c[k];
     if(h && !fresh && Date.now()-h.at<60000) return h.v;
     try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/zebra_top",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:day,p_field:field,p_kind:kind})});
-      if(!r.ok) return null; const x=(await r.json())[0]; const v=x&&x.n?{top:+x.top,n:+x.n,nTop:+x.n_top}:null; this.c[k]={at:Date.now(),v}; return v; }catch(e){ return null; } } };
+      if(!r.ok) return null; const x=(await r.json())[0]; const v=x&&x.n?{top:+x.top,n:+x.n,nTop:+x.n_top}:null; this.c[k]={at:Date.now(),v}; return v; }catch(e){ return null; } },
+  async ever(kind,field,fresh){ if(!Scores.on()) return null; const k="ever|"+kind+"|"+field, h=this.c[k];
+    if(h && !fresh && Date.now()-h.at<60000) return h.v;
+    try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/zebra_top_alltime",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_field:field,p_kind:kind})});
+      if(!r.ok) return null; const x=(await r.json())[0]; const v=x&&x.top!=null?{top:+x.top,day:x.day,nTop:+x.n_top}:null; this.c[k]={at:Date.now(),v}; return v; }catch(e){ return null; } } };
 const topFmt=(kind,x)=> kind==="daily"? (x*10).toLocaleString()+" µm" : x.toLocaleString()+" pts";
-function topResultHTML(kind,total,t){
+function topResultHTML(kind,total,t,e){
   if(!t) return "";
+  const what0 = kind==="daily"? "DEEPEST DIVE" : "STAMPEDE SCORE";
+  if(e && total>=e.top && !(total===e.top && e.nTop>1) && t.n>1)
+    return `<div class="topbox rec"><div class="tt">👑 ALL-TIME RECORD! THE ${kind==="daily"?"DEEPEST DIVE":"HIGHEST STAMPEDE SCORE"} EVER</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">${kind==="daily"?"NO ONE HAS EVER DIVED DEEPER IN THIS DAILY":"NO ONE HAS EVER SCORED HIGHER IN THE STAMPEDE"}</div></div>`;
   const what = kind==="daily"? "DEEPEST DIVE" : "TOP STAMPEDE SCORE", others=t.n-1;
   if(total>=t.top){
     if(t.n<=1) return `<div class="topbox rec"><div class="tt">🏆 YOU HOLD TODAY'S ${what}</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">FIRST TO PLAY TODAY. CAN ANYONE BEAT IT?</div></div>`;
     if(total===t.top && t.nTop>1) return `<div class="topbox rec"><div class="tt">🏆 YOU TIED TODAY'S ${what}</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">SHARED WITH ${t.nTop-1} OTHER${t.nTop>2?"S":""} · ${t.n} ${peers().toUpperCase()} TODAY</div></div>`;
     return `<div class="topbox rec"><div class="tt">👑 NEW RECORD! YOU SET TODAY'S ${what}</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">${kind==="daily"?"DEEPER":"MORE POINTS"} THAN ALL ${others} OTHER ${peers().toUpperCase()} TODAY</div></div>`;
   }
-  return `<div class="topbox"><div class="tt">🏆 TODAY'S ${what}</div><div class="tv">${topFmt(kind,t.top)}</div><div class="ts">YOU WERE ${topFmt(kind,t.top-total)} SHORT · ${t.n} ${peers().toUpperCase()} SO FAR</div></div>`;
+  return `<div class="topbox"><div class="tt">🏆 TODAY'S ${what}</div><div class="tv">${topFmt(kind,t.top)}</div><div class="ts">YOU WERE ${topFmt(kind,t.top-total)} SHORT · ${t.n} ${peers().toUpperCase()} SO FAR${e&&e.top>t.top?` · ALL-TIME RECORD ${topFmt(kind,e.top)}`:""}</div></div>`;
 }
 const isRecord=(total,t)=> t && total>=t.top && !(total===t.top && t.nTop>1);
 async function homeTop(){
   const el=$("tTop"); if(!el||!Scores.on()) return; const day=todayKey(), f=prof;
-  const [d,s]=await Promise.all([TopDive.get("daily",day,f), TopDive.get("stampede",day,f)]);
-  if(!d && !s){ el.innerHTML=""; return; }
+  const [d,s,de,se]=await Promise.all([TopDive.get("daily",day,f), TopDive.get("stampede",day,f), TopDive.ever("daily",f), TopDive.ever("stampede",f)]);
+  if(!d && !s && !de && !se){ el.innerHTML=""; return; }
   const mineD=(store(dayKey(day))||{}).total, mineS=(store("zebra-stampede-"+day)||{}).total;
-  const cell=(kind,t,mine)=>{ const lbl=kind==="daily"? `🦓 ${shortFor(prof).replace(/^\S+\s/,"").toUpperCase()} DAILY` : "⚡ STAMPEDE";
-    if(!t) return `<div><div class="ts">${lbl}</div><div class="tv">—</div><div class="ts">NO SCORES YET. BE FIRST!</div></div>`;
+  const fmtDay=x=>x? new Date(x+"T12:00:00").toLocaleDateString(undefined,{month:"short",day:"numeric"}).toUpperCase() : "";
+  const today=(kind,t,mine)=>{ if(!t) return `<div><div class="ts">TODAY</div><div class="tv">—</div><div class="ts">BE THE FIRST!</div></div>`;
     const me = mine!=null && isRecord(mine,t);
-    return `<div><div class="ts">${lbl}</div><div class="tv">${topFmt(kind,t.top)}</div><div class="ts">${me?"👑 THAT'S YOU!":mine!=null?"YOUR SCORE: "+topFmt(kind,mine):"CAN YOU BEAT IT?"}</div></div>`; };
-  el.innerHTML=`<div class="topbox"><div class="tt" style="margin-bottom:4px">🏆 TODAY'S TOP SCORES</div><div class="toprow">${cell("daily",d,mineD)}${cell("stampede",s,mineS)}</div></div>`;
+    return `<div><div class="ts">TODAY</div><div class="tv">${topFmt(kind,t.top)}</div><div class="ts">${me?"👑 THAT'S YOU!":mine!=null?"YOU: "+topFmt(kind,mine):"CAN YOU BEAT IT?"}</div></div>`; };
+  const ever=(kind,e,mine)=>{ if(!e) return `<div><div class="ts">ALL-TIME</div><div class="tv">—</div><div class="ts">&nbsp;</div></div>`;
+    const me = mine!=null && mine>=e.top && e.day===day && e.nTop===1;
+    return `<div><div class="ts">ALL-TIME</div><div class="tv">${topFmt(kind,e.top)}</div><div class="ts">${me?"👑 THAT'S YOU!":"SET "+fmtDay(e.day)}</div></div>`; };
+  const row=(lbl,kind,t,e,mine)=>`<div class="label" style="margin:8px 0 2px;font-size:12px">${lbl}</div><div class="toprow">${today(kind,t,mine)}${ever(kind,e,mine)}</div>`;
+  el.innerHTML=`<div class="topbox"><div class="tt">🏆 TOP SCORES</div>`+
+    row(`🦓 ${shortFor(prof).replace(/^\S+\s/,"").toUpperCase()} DAILY`,"daily",d,de,mineD)+
+    row("⚡ STAMPEDE","stampede",s,se,mineS)+`</div>`;
 }
 function bestHTML(){
   const b=bestScores(); if(!b.daily && !b.stamp) return "";
@@ -1340,7 +1353,7 @@ async function stampFinish(fromSave){
   $("seTop").innerHTML="";
   await StampScores.submit(sDay,sTotal);
   const real=await StampScores.histogram(sDay);
-  if(sDay===todayKey()) TopDive.get("stampede",sDay,sProf,true).then(t=>{ $("seTop").innerHTML=topResultHTML("stampede",sTotal,t);
+  if(sDay===todayKey()) Promise.all([TopDive.get("stampede",sDay,sProf,true),TopDive.ever("stampede",sProf,true)]).then(([t,e])=>{ $("seTop").innerHTML=topResultHTML("stampede",sTotal,t,e);
     if(!fromSave && t && t.n>1 && isRecord(sTotal,t)){ flash("#ffd23b",.35); burst("#ffd23b",60,1.8); try{ sfx.score(5); }catch(e){} } }).catch(()=>{});
   const {b, n:liveN}=blendCurve(simulateStampede(sP, sProf+sDay, true), real, SB, SNB, SB*SNB);
   const pct=percentile(b,sTotal,SB), {mean}=stats(b,SB); sPct=pct;

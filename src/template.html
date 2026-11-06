@@ -142,6 +142,11 @@ h2{font-family:Silkscreen,monospace;font-size:20px;margin:0 0 4px;font-weight:70
 .bestbox{margin:14px auto 4px;max-width:440px;padding:12px 14px 10px;border:2px solid rgba(255,210,59,.6);background:rgba(255,210,59,.06)}
 .brow{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .bcell{text-align:center}
+.topbox{margin:10px auto 6px;max-width:440px;padding:10px 12px;border:2px solid #e3a8ff;background:rgba(180,75,255,.10);font-family:Silkscreen,monospace;letter-spacing:.5px;line-height:1.5;text-align:center}
+.topbox .tt{font-size:13px;color:#e3a8ff}.topbox .tv{font-family:"Press Start 2P",monospace;font-size:15px;color:#fff;margin:6px 0 2px}.topbox .ts{font-size:11px;opacity:.8}
+.topbox.rec{border-color:#ffd23b;background:rgba(255,210,59,.12);animation:recglow 1.2s ease-in-out 3}.topbox.rec .tt{color:#ffd23b;font-size:15px}
+@keyframes recglow{50%{box-shadow:0 0 22px rgba(255,210,59,.7)}}
+.toprow{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}.toprow>div{flex:1;min-width:150px}
 .blbl{font-family:Silkscreen,monospace;font-size:11px;letter-spacing:1px;color:var(--muted)}
 .bval{font-family:"Press Start 2P",monospace;font-size:clamp(14px,3.6vw,18px);color:var(--gold);margin:6px 0 4px}
 .bday{font-family:Silkscreen,monospace;font-size:10px;color:var(--muted)}
@@ -263,6 +268,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
     <div class="fine" style="margin:0 0 8px">ONE PROMPT FOR EVERY FIELD. 60 SECONDS. NAME AS MANY ANSWERS AS YOU CAN. EVERY ANSWER SCORES, RARE ONES SCORE MORE.</div>
     <div class="fine" id="sInfo"></div>
   </div>
+  <div id="tTop"></div>
   <div id="tBest"></div>
   <div id="tStreak"></div>
   <div id="tFinal"></div>
@@ -303,6 +309,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <h2>STAMPEDE COMPLETE</h2>
   <div class="big" id="seTotal"></div>
   <div class="yours" id="seSub" style="margin-top:0"></div>
+  <div id="seTop"></div>
   <div id="sRanking" class="ranking"></div>
   <div class="label" style="margin-top:6px">YOUR ANSWERS</div>
   <div id="seFound" class="schips" style="margin-bottom:10px"></div>
@@ -330,6 +337,7 @@ pre#share{font-family:ui-monospace,Menlo,monospace;font-size:16px;background:rgb
   <h2>DIVE COMPLETE</h2>
   <div class="big" id="eDepth"></div>
   <div class="yours" id="eRank" style="margin-top:0"></div>
+  <div id="eTop"></div>
   <div id="eStreak"></div>
   <div id="eBack"></div>
   <div id="ranking" class="ranking"></div>
@@ -652,9 +660,12 @@ async function showRanking(fromSave){
   const el=$("ranking");
   el.innerHTML=`<div class="loading blink">COMPARING YOU WITH OTHER ${peers().toUpperCase()}…</div>`;
   let real=null;
+  $("eTop").innerHTML="";
   if(daily){
     await Scores.submit(gameDay, total);   // re-sending a saved result is harmless: the server keeps one per player
     real=await Scores.histogram(gameDay);
+    if(gameDay===todayKey()) TopDive.get("daily",gameDay,rankGroup(),true).then(t=>{ $("eTop").innerHTML=topResultHTML("daily",total,t);
+      if(!fromSave && t && t.n>1 && isRecord(total,t)){ flash("#ffd23b",.35); burst("#ffd23b",60,1.8); try{ sfx.score(5); }catch(e){} } }).catch(()=>{});
   }
   const sim=simulate(set, daily? rankGroup()+gameDay : set.map(p=>p.q).join("|"), true);
   const {b, n:liveN}=blendCurve(sim, real, BUCKET, NB, 700);
@@ -867,6 +878,7 @@ function titleInfo(){
   $("bDaily").innerHTML = played? "▶ VIEW TODAY'S RESULT" : '<span class="blink">▶</span> PRESS START';
   $("tStreak").innerHTML = streakHTML();
   $("tBest").innerHTML = bestHTML();
+  homeTop().catch(()=>{});
   if(typeof stampInfo==="function") try{ stampInfo(); }catch(e){}
   if(typeof showFinals==="function" && window.__zebraReady) showFinals().catch(()=>{});
 }
@@ -1122,6 +1134,35 @@ function bestScores(){
   }
   return {daily, dDay, stamp, sDay};
 }
+/* ===== TODAY'S DEEPEST DIVE: the day's top score per field, and "you set the record" ===== */
+const TopDive={ c:{},
+  async get(kind,day,field,fresh){ if(!Scores.on()) return null; const k=kind+"|"+day+"|"+field, h=this.c[k];
+    if(h && !fresh && Date.now()-h.at<60000) return h.v;
+    try{ const r=await fetch(SCORE_SERVER.url.replace(/\/$/,"")+"/rest/v1/rpc/zebra_top",{method:"POST",headers:Scores.headers(),body:JSON.stringify({p_day:day,p_field:field,p_kind:kind})});
+      if(!r.ok) return null; const x=(await r.json())[0]; const v=x&&x.n?{top:+x.top,n:+x.n,nTop:+x.n_top}:null; this.c[k]={at:Date.now(),v}; return v; }catch(e){ return null; } } };
+const topFmt=(kind,x)=> kind==="daily"? (x*10).toLocaleString()+" µm" : x.toLocaleString()+" pts";
+function topResultHTML(kind,total,t){
+  if(!t) return "";
+  const what = kind==="daily"? "DEEPEST DIVE" : "TOP STAMPEDE SCORE", others=t.n-1;
+  if(total>=t.top){
+    if(t.n<=1) return `<div class="topbox rec"><div class="tt">🏆 YOU HOLD TODAY'S ${what}</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">FIRST TO PLAY TODAY. CAN ANYONE BEAT IT?</div></div>`;
+    if(total===t.top && t.nTop>1) return `<div class="topbox rec"><div class="tt">🏆 YOU TIED TODAY'S ${what}</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">SHARED WITH ${t.nTop-1} OTHER${t.nTop>2?"S":""} · ${t.n} ${peers().toUpperCase()} TODAY</div></div>`;
+    return `<div class="topbox rec"><div class="tt">👑 NEW RECORD! YOU SET TODAY'S ${what}</div><div class="tv">${topFmt(kind,total)}</div><div class="ts">${kind==="daily"?"DEEPER":"MORE POINTS"} THAN ALL ${others} OTHER ${peers().toUpperCase()} TODAY</div></div>`;
+  }
+  return `<div class="topbox"><div class="tt">🏆 TODAY'S ${what}</div><div class="tv">${topFmt(kind,t.top)}</div><div class="ts">YOU WERE ${topFmt(kind,t.top-total)} SHORT · ${t.n} ${peers().toUpperCase()} SO FAR</div></div>`;
+}
+const isRecord=(total,t)=> t && total>=t.top && !(total===t.top && t.nTop>1);
+async function homeTop(){
+  const el=$("tTop"); if(!el||!Scores.on()) return; const day=todayKey(), f=prof;
+  const [d,s]=await Promise.all([TopDive.get("daily",day,f), TopDive.get("stampede",day,f)]);
+  if(!d && !s){ el.innerHTML=""; return; }
+  const mineD=(store(dayKey(day))||{}).total, mineS=(store("zebra-stampede-"+day)||{}).total;
+  const cell=(kind,t,mine)=>{ const lbl=kind==="daily"? `🦓 ${shortFor(prof).replace(/^\S+\s/,"").toUpperCase()} DAILY` : "⚡ STAMPEDE";
+    if(!t) return `<div><div class="ts">${lbl}</div><div class="tv">—</div><div class="ts">NO SCORES YET. BE FIRST!</div></div>`;
+    const me = mine!=null && isRecord(mine,t);
+    return `<div><div class="ts">${lbl}</div><div class="tv">${topFmt(kind,t.top)}</div><div class="ts">${me?"👑 THAT'S YOU!":mine!=null?"YOUR SCORE: "+topFmt(kind,mine):"CAN YOU BEAT IT?"}</div></div>`; };
+  el.innerHTML=`<div class="topbox"><div class="tt" style="margin-bottom:4px">🏆 TODAY'S TOP SCORES</div><div class="toprow">${cell("daily",d,mineD)}${cell("stampede",s,mineS)}</div></div>`;
+}
 function bestHTML(){
   const b=bestScores(); if(!b.daily && !b.stamp) return "";
   const fmt=d=>d? new Date(d+"T12:00:00").toLocaleDateString(undefined,{month:"short",day:"numeric"}) : "";
@@ -1296,8 +1337,11 @@ async function stampFinish(fromSave){
   sPct=null; $("sShare").textContent=stampShare(); $("bSCopy").textContent="COPY RESULT";
   showPanel("sEnd"); burst("#ffd23b",40,1.5); stampInfo(); try{ $("tBest").innerHTML=bestHTML(); }catch(e){}
   const el=$("sRanking"); el.innerHTML=`<div class="loading blink">COMPARING YOU WITH OTHER ${peers().toUpperCase()}…</div>`;
+  $("seTop").innerHTML="";
   await StampScores.submit(sDay,sTotal);
   const real=await StampScores.histogram(sDay);
+  if(sDay===todayKey()) TopDive.get("stampede",sDay,sProf,true).then(t=>{ $("seTop").innerHTML=topResultHTML("stampede",sTotal,t);
+    if(!fromSave && t && t.n>1 && isRecord(sTotal,t)){ flash("#ffd23b",.35); burst("#ffd23b",60,1.8); try{ sfx.score(5); }catch(e){} } }).catch(()=>{});
   const {b, n:liveN}=blendCurve(simulateStampede(sP, sProf+sDay, true), real, SB, SNB, SB*SNB);
   const pct=percentile(b,sTotal,SB), {mean}=stats(b,SB); sPct=pct;
   const P=peers().toUpperCase();
@@ -1313,7 +1357,7 @@ function stampShare(){
   const em=[...sFound].sort((a,b)=>b.pts-a.pts).map(f=>TIERS[tierOf(f.pts)].emoji).join("");
   return `🦓⚡ ZEBRA STAMPEDE #${sDayNum}\n${sFound.length} answers · ${sTotal.toLocaleString()} pts${em?"\n"+em:""}${sPct!==null?`\n${sPct>=99?"top 1%":"more than "+sPct+"%"} of ${peers()}`:""}\nzebradive.io`;
 }
-stampInfo(); window.__zebraReady=true; if(!store("zebra-welcomed") && !store("zebra-prof")) showWelcome(); showFinals().catch(()=>{});
+stampInfo(); window.__zebraReady=true; homeTop().catch(()=>{}); if(!store("zebra-welcomed") && !store("zebra-prof")) showWelcome(); showFinals().catch(()=>{});
 
 /* wiring */
 $("bDaily").onclick=()=>{ac(); startGame(true);};

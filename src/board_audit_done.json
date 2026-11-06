@@ -546,6 +546,16 @@
   "Name a term from medical school or residency": "2026-11-06",
   "Name a resuscitation step, drug or term (BLS, ACLS, PALS or ATLS)": "2026-11-06",
   "Name a palliative or hospice care term": "2026-11-06",
-  "Name a medical document or form": "2026-11-06"
+  "Name a medical document or form": "2026-11-06",
+  "Name a combination drug product (two or more drugs in one)": "2026-11-06",
+  "Name a drug name stem (a suffix or prefix like -pril)": "2026-11-06",
+  "Name a drug that should be tapered, not stopped abruptly": "2026-11-06",
+  "Name a drug dosed once a week or less often": "2026-11-06",
+  "Name a look-alike or sound-alike (LASA) drug": "2026-11-06",
+  "Name a drug that raises blood sugar": "2026-11-06",
+  "Name a drug that causes hypokalemia": "2026-11-06",
+  "Name a drug information resource or reference": "2026-11-06",
+  "Name a drug that comes as a powder for reconstitution": "2026-11-06",
+  "Name a drug that lowers the seizure threshold": "2026-11-06"
  }
 }

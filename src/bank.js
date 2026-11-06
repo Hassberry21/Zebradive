@@ -43695,6 +43695,2173 @@ posterior vagal trunk
 thoracic cage|rib cage
 `, "2026-11-08");
 
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE part 5 (batch 2026-11-06, board-first) ---- */
+P("Name a structure of the elbow or forearm","body","",`
+ulnar nerve|ulnar n
+median nerve|median n
+radial nerve|radial n
+brachial artery|brachial a
+radial artery|radial a
+ulnar artery|ulnar a
+radius|radial bone
+ulna|ulnar bone
+humerus|distal humerus
+olecranon|olecranon process
+medial epicondyle|medial epicondyle of humerus
+lateral epicondyle|lateral epicondyle of humerus
+radial head|head of radius|head of the radius
+ulnar collateral ligament|ucl|medial collateral ligament of elbow|medial collateral ligament|mcl of elbow|tommy john ligament
+annular ligament|orbicular ligament|annular ligament of radius
+cubital fossa|antecubital fossa|antecubital space|ac fossa
+cubital tunnel
+biceps brachii|biceps|distal biceps tendon|biceps tendon|biceps muscle
+brachialis|brachialis muscle
+brachioradialis|brachioradialis muscle
+triceps brachii|triceps|triceps tendon|triceps muscle
+pronator teres|pronator teres muscle
+pronator quadratus|pronator quadratus muscle
+supinator|supinator muscle
+posterior interosseous nerve|pin|deep branch of radial nerve|deep radial nerve
+anterior interosseous nerve|ain
+superficial branch of radial nerve|superficial radial nerve|sensory branch of radial nerve|wartenberg nerve
+median cubital vein|median cubital|antecubital vein
+cephalic vein
+basilic vein
+flexor carpi ulnaris|fcu
+flexor carpi radialis|fcr
+palmaris longus
+flexor digitorum superficialis|fds|flexor digitorum sublimis
+flexor digitorum profundus|fdp
+flexor pollicis longus|fpl
+extensor carpi radialis longus|ecrl
+extensor carpi radialis brevis|ecrb
+extensor digitorum|extensor digitorum communis|edc
+extensor carpi ulnaris|ecu
+extensor digiti minimi|edm|extensor digiti quinti
+abductor pollicis longus|apl
+extensor pollicis brevis|epb
+extensor pollicis longus|epl
+extensor indicis|extensor indicis proprius|eip
+anconeus|anconeus muscle
+capitulum|capitellum|capitulum of humerus
+trochlea|trochlea of humerus
+coronoid process|coronoid process of ulna
+olecranon fossa
+coronoid fossa
+radial fossa
+trochlear notch|semilunar notch|greater sigmoid notch
+radial notch of ulna|radial notch|lesser sigmoid notch
+radial tuberosity|bicipital tuberosity
+radial neck|neck of radius
+interosseous membrane|interosseous membrane of forearm
+elbow joint|elbow|cubital joint
+humeroulnar joint|ulnohumeral joint
+humeroradial joint|radiocapitellar joint|radiohumeral joint
+proximal radioulnar joint|superior radioulnar joint|pruj
+distal radioulnar joint|druj|inferior radioulnar joint
+radial collateral ligament|lateral collateral ligament of elbow|lateral collateral ligament|rcl
+lateral ulnar collateral ligament|lucl
+olecranon bursa
+common flexor origin|common flexor tendon|flexor-pronator mass|flexor pronator origin
+common extensor origin|common extensor tendon
+bicipital aponeurosis|lacertus fibrosus
+supracondylar ridge|medial supracondylar ridge|lateral supracondylar ridge
+supracondylar region of humerus|supracondylar humerus
+ulnar groove|ulnar sulcus|sulcus for ulnar nerve|condylar groove
+musculocutaneous nerve|musculocutaneous n
+lateral antebrachial cutaneous nerve|lateral cutaneous nerve of forearm|lacn
+medial antebrachial cutaneous nerve|medial cutaneous nerve of forearm|macn
+posterior antebrachial cutaneous nerve|posterior cutaneous nerve of forearm|pacn
+common interosseous artery
+anterior interosseous artery
+posterior interosseous artery
+radial recurrent artery
+anterior ulnar recurrent artery
+posterior ulnar recurrent artery
+recurrent interosseous artery|interosseous recurrent artery
+superior ulnar collateral artery
+inferior ulnar collateral artery
+radial collateral artery
+middle collateral artery
+cubital anastomosis|elbow anastomosis|periarticular arterial anastomosis of elbow
+median antebrachial vein|median vein of forearm
+radial veins
+ulnar veins
+brachial veins|venae comitantes of brachial artery
+cubital lymph nodes|supratrochlear lymph nodes|epitrochlear lymph nodes|epitrochlear nodes
+radial styloid|radial styloid process|styloid process of radius
+ulnar styloid|ulnar styloid process|styloid process of ulna
+ulnar head|head of ulna
+dorsal tubercle of radius|lister tubercle|listers tubercle
+radial shaft|shaft of radius|radial diaphysis
+ulnar shaft|shaft of ulna|ulnar diaphysis
+distal radius|distal end of radius
+anterior fat pad|anterior fat pad of elbow
+posterior fat pad|posterior fat pad of elbow
+elbow joint capsule|elbow capsule
+quadrate ligament
+oblique cord|weitbrecht cord|weitbrecht ligament
+anterior compartment of forearm|flexor compartment of forearm|volar compartment
+posterior compartment of forearm|extensor compartment of forearm|dorsal compartment of forearm
+mobile wad|mobile wad of henry|lateral compartment of forearm
+antebrachial fascia|deep fascia of forearm
+radial tunnel
+arcade of frohse|supinator arch
+ligament of struthers|struthers ligament
+supracondylar process|avian spur
+arcade of struthers
+osborne ligament|cubital tunnel retinaculum|osborne band|arcuate ligament
+sublimis arch|fds arch|fibrous arch of fds
+leash of henry
+bicipitoradial bursa|cubital bursa
+interosseous bursa
+medial head of triceps
+lateral head of triceps
+long head of triceps
+humeral head of pronator teres
+ulnar head of pronator teres
+humeroulnar head of fds
+radial head of fds
+humeral head of fcu
+ulnar head of fcu
+gantzer muscle|accessory head of flexor pollicis longus
+anconeus epitrochlearis|epitrochleoanconeus
+palmaris profundus
+martin-gruber anastomosis|martin gruber anastomosis
+median artery|persistent median artery
+superficial ulnar artery
+space of parona|parona space
+sigmoid notch of radius|ulnar notch of radius
+interosseous border of radius
+interosseous border of ulna
+supinator crest of ulna|supinator crest
+pronator tuberosity|pronator teres insertion
+ulnar tuberosity|tuberosity of ulna
+sublime tubercle|sublime tubercle of ulna
+olecranon apophysis
+medial epicondyle apophysis|medial epicondylar physis
+capitellar ossification center
+trochlear ossification center
+radial head ossification center
+transverse ligament of elbow|cooper ligament of elbow
+synovial fold of elbow|radiocapitellar plica|elbow plica
+nerve to anconeus
+nerve to supinator
+nerve to brachioradialis
+nerve to pronator teres
+palmar cutaneous branch of median nerve
+dorsal cutaneous branch of ulnar nerve
+palmar cutaneous branch of ulnar nerve
+accessory cephalic vein
+pronator quadratus fat pad|pronator fat pad
+antecubital crease|elbow crease
+`, "2026-11-08");
+
+P("Name a structure of the hip or thigh","body","",`
+femur|thigh bone|femoral bone
+femoral head|head of femur|head of the femur
+femoral neck|neck of femur|neck of the femur
+greater trochanter
+lesser trochanter
+acetabulum|hip socket
+hip joint|coxofemoral joint|hip
+femoral artery|femoral a|common femoral artery|cfa
+femoral nerve|femoral n
+femoral vein|common femoral vein|cfv
+sciatic nerve|sciatic n
+obturator nerve|obturator n
+femoral triangle|scarpa triangle|scarpas triangle
+femoral canal
+femoral sheath
+femoral ring
+inguinal ligament|poupart ligament|pouparts ligament
+adductor canal|hunter canal|hunters canal|subsartorial canal
+adductor hiatus|hiatus tendineus
+great saphenous vein|greater saphenous vein|long saphenous vein|gsv
+saphenofemoral junction|sfj
+saphenous opening|fossa ovalis of thigh|saphenous hiatus
+deep femoral artery|profunda femoris|profunda femoris artery|deep artery of thigh
+superficial femoral artery|sfa
+medial circumflex femoral artery|mcfa|medial femoral circumflex artery
+lateral circumflex femoral artery|lcfa|lateral femoral circumflex artery
+artery of ligamentum teres|foveal artery|artery to head of femur
+superior gluteal nerve
+inferior gluteal nerve
+superior gluteal artery
+inferior gluteal artery
+obturator artery
+lateral femoral cutaneous nerve|lateral cutaneous nerve of thigh|lfcn
+posterior femoral cutaneous nerve|posterior cutaneous nerve of thigh
+saphenous nerve
+genitofemoral nerve|femoral branch of genitofemoral nerve
+gluteus maximus
+gluteus medius
+gluteus minimus
+tensor fasciae latae|tensor fascia latae|tfl|tensor fasciae lata
+iliotibial band|it band|iliotibial tract|itb
+piriformis
+superior gemellus|gemellus superior
+inferior gemellus|gemellus inferior
+obturator internus
+obturator externus
+quadratus femoris
+iliopsoas
+psoas major|psoas
+iliacus
+psoas minor
+sartorius
+rectus femoris
+vastus lateralis
+vastus medialis|vmo|vastus medialis oblique
+vastus intermedius
+quadriceps femoris|quadriceps|quads|quadriceps muscle
+pectineus
+adductor longus
+adductor brevis
+adductor magnus
+adductor minimus
+gracilis
+hamstrings|hamstring|hamstring muscles
+biceps femoris
+semitendinosus
+semimembranosus
+acetabular labrum|hip labrum|labrum of hip
+ligamentum teres|ligament of head of femur|round ligament of femur|ligamentum capitis femoris
+iliofemoral ligament|y ligament|ligament of bigelow|bigelow ligament
+pubofemoral ligament
+ischiofemoral ligament
+zona orbicularis|orbicular zone|annular ligament of hip
+transverse acetabular ligament
+hip joint capsule|hip capsule
+ilium|iliac bone
+ischium
+pubis|pubic bone
+hip bone|os coxae|innominate bone|coxal bone|pelvic bone
+ischial tuberosity|sit bone|sitz bone
+anterior superior iliac spine|asis
+anterior inferior iliac spine|aiis
+iliac crest
+obturator foramen
+greater sciatic foramen
+lesser sciatic foramen
+greater sciatic notch
+sacrotuberous ligament
+sacrospinous ligament
+intertrochanteric line
+intertrochanteric crest
+linea aspera
+gluteal tuberosity
+pectineal line of femur|spiral line
+adductor tubercle
+quadrate tubercle
+trochanteric fossa|piriformis fossa
+fovea capitis|fovea of femoral head
+femoral shaft|shaft of femur|femoral diaphysis
+subtrochanteric region
+intertrochanteric region
+calcar femorale|calcar
+medial femoral condyle
+lateral femoral condyle
+medial epicondyle of femur
+lateral epicondyle of femur
+distal femur
+capital femoral epiphysis|proximal femoral physis|femoral head growth plate
+triradiate cartilage
+acetabular fossa
+acetabular notch
+lunate surface of acetabulum|lunate surface
+anterior column of acetabulum
+posterior column of acetabulum
+anterior wall of acetabulum
+posterior wall of acetabulum
+acetabular roof|sourcil
+pulvinar
+ward triangle|wards triangle
+fascia lata
+cribriform fascia
+lacuna vasorum
+lacuna musculorum
+iliopectineal arch
+iliopubic eminence|iliopectineal eminence
+pubic tubercle
+pubic symphysis
+superior pubic ramus
+inferior pubic ramus
+ischial ramus|ischiopubic ramus
+ischial spine
+anterior compartment of thigh
+medial compartment of thigh|adductor compartment
+posterior compartment of thigh|hamstring compartment
+lateral intermuscular septum of thigh
+medial intermuscular septum of thigh
+posterior intermuscular septum of thigh
+gluteal region|buttock|gluteal muscles
+gluteal fold|gluteal crease|gluteal sulcus
+trochanteric bursa|greater trochanteric bursa
+iliopsoas bursa|iliopectineal bursa
+ischial bursa|ischiogluteal bursa
+gluteus medius bursa
+gluteus minimus bursa
+subgluteal space|deep gluteal space
+inguinal lymph nodes|superficial inguinal lymph nodes|inguinal nodes
+deep inguinal lymph nodes
+node of cloquet|cloquet node|rosenmuller node
+perforating arteries|perforating branches of profunda femoris
+descending genicular artery
+descending branch of lateral circumflex femoral artery
+ascending branch of lateral circumflex femoral artery
+retinacular arteries|retinacular vessels|posterosuperior retinacular arteries|weitbrecht retinacula
+trochanteric anastomosis
+cruciate anastomosis
+extracapsular arterial ring
+superficial circumflex iliac artery
+superficial epigastric artery
+superficial external pudendal artery
+deep external pudendal artery
+profunda femoris vein|deep femoral vein
+femoral vein proper|superficial femoral vein
+anterior accessory saphenous vein|lateral accessory saphenous vein
+posterior accessory saphenous vein
+superficial circumflex iliac vein
+superficial epigastric vein
+superficial external pudendal vein
+hunterian perforator|mid-thigh perforator
+dodd perforators
+tibial division of sciatic nerve
+common peroneal division of sciatic nerve|common fibular division
+nerve to quadratus femoris
+nerve to obturator internus
+nerve to piriformis
+pudendal nerve
+anterior cutaneous nerves of thigh|intermediate femoral cutaneous nerve|medial femoral cutaneous nerve
+cutaneous branch of obturator nerve
+anterior division of obturator nerve
+posterior division of obturator nerve
+nerve to vastus medialis
+infrapatellar branch of saphenous nerve
+inferior cluneal nerves
+superior cluneal nerves
+middle cluneal nerves
+articularis genus|articular muscle of knee
+suprapatellar pouch|suprapatellar bursa
+gluteal aponeurosis
+hamstring origin|common hamstring tendon|conjoint tendon of hamstrings
+short external rotators of hip|deep six|deep gluteal muscles
+`, "2026-11-08");
+
+P("Name an inborn error of metabolism","science","",`
+phenylketonuria|pku|phenylalanine hydroxylase deficiency|classic pku
+maple syrup urine disease|msud|branched-chain alpha-ketoacid dehydrogenase deficiency|branched chain ketoaciduria
+alkaptonuria|ochronosis|homogentisate oxidase deficiency|homogentisic acid dioxygenase deficiency
+homocystinuria|cystathionine beta-synthase deficiency|cbs deficiency|classic homocystinuria
+galactosemia|classic galactosemia|galactose-1-phosphate uridyltransferase deficiency|galt deficiency
+von gierke disease|glycogen storage disease type i|gsd i|gsd 1|glucose-6-phosphatase deficiency|von gierke
+pompe disease|glycogen storage disease type ii|gsd ii|gsd 2|acid maltase deficiency|acid alpha-glucosidase deficiency|pompe
+cori disease|glycogen storage disease type iii|gsd iii|gsd 3|debranching enzyme deficiency|forbes disease|cori
+mcardle disease|glycogen storage disease type v|gsd v|gsd 5|myophosphorylase deficiency|muscle glycogen phosphorylase deficiency|mcardle
+ornithine transcarbamylase deficiency|otc deficiency|ornithine transcarbamoylase deficiency
+tay-sachs disease|tay sachs|gm2 gangliosidosis|hexosaminidase a deficiency
+gaucher disease|gaucher|glucocerebrosidase deficiency|glucosylceramidase deficiency
+niemann-pick disease|niemann pick|sphingomyelinase deficiency|acid sphingomyelinase deficiency|niemann-pick type a|niemann-pick type b
+fabry disease|fabry|anderson-fabry disease|alpha-galactosidase a deficiency
+krabbe disease|krabbe|globoid cell leukodystrophy|galactocerebrosidase deficiency
+metachromatic leukodystrophy|mld|arylsulfatase a deficiency
+hurler syndrome|hurler|mps i|mucopolysaccharidosis type i|alpha-l-iduronidase deficiency|mps ih
+hunter syndrome|hunter|mps ii|mucopolysaccharidosis type ii|iduronate-2-sulfatase deficiency|iduronate sulfatase deficiency
+i-cell disease|inclusion cell disease|mucolipidosis ii|mucolipidosis type ii|n-acetylglucosamine-1-phosphotransferase deficiency
+medium-chain acyl-coa dehydrogenase deficiency|mcad deficiency|mcadd|mcad
+systemic primary carnitine deficiency|primary carnitine deficiency|carnitine transporter deficiency|octn2 deficiency
+hereditary fructose intolerance|hfi|aldolase b deficiency|fructose intolerance
+essential fructosuria|fructokinase deficiency|benign fructosuria
+galactokinase deficiency
+lesch-nyhan syndrome|lesch nyhan|hgprt deficiency|hprt deficiency|hypoxanthine-guanine phosphoribosyltransferase deficiency
+orotic aciduria|hereditary orotic aciduria|ump synthase deficiency|uridine monophosphate synthase deficiency
+adenosine deaminase deficiency|ada deficiency|ada-scid
+acute intermittent porphyria|aip|porphobilinogen deaminase deficiency|hydroxymethylbilane synthase deficiency|pbg deaminase deficiency
+porphyria cutanea tarda|pct|uroporphyrinogen decarboxylase deficiency
+pyruvate dehydrogenase deficiency|pdh deficiency|pyruvate dehydrogenase complex deficiency|pdhc deficiency
+pyruvate carboxylase deficiency
+leigh syndrome|leigh disease|subacute necrotizing encephalomyelopathy
+melas|mitochondrial encephalomyopathy lactic acidosis and stroke-like episodes
+merrf|myoclonic epilepsy with ragged red fibers
+leber hereditary optic neuropathy|lhon|leber optic neuropathy
+kearns-sayre syndrome|kearns sayre|kss
+zellweger syndrome|zellweger|cerebrohepatorenal syndrome|zellweger spectrum disorder
+x-linked adrenoleukodystrophy|adrenoleukodystrophy|ald|x-ald|adrenomyeloneuropathy
+refsum disease|adult refsum disease|phytanic acid oxidase deficiency|phytanoyl-coa hydroxylase deficiency|heredopathia atactica polyneuritiformis
+cystinuria
+hartnup disease|hartnup disorder|hartnup
+albinism|oculocutaneous albinism|tyrosinase deficiency|oca1
+tyrosinemia type i|hepatorenal tyrosinemia|fumarylacetoacetate hydrolase deficiency|fah deficiency|tyrosinemia
+tyrosinemia type ii|richner-hanhart syndrome|oculocutaneous tyrosinemia|tyrosine aminotransferase deficiency
+tyrosinemia type iii|4-hydroxyphenylpyruvate dioxygenase deficiency|hppd deficiency
+carbamoyl phosphate synthetase i deficiency|cps1 deficiency|cps i deficiency|carbamoyl phosphate synthetase deficiency
+n-acetylglutamate synthase deficiency|nags deficiency
+citrullinemia|citrullinemia type i|argininosuccinate synthetase deficiency|ass deficiency
+argininosuccinic aciduria|argininosuccinate lyase deficiency|asl deficiency|argininosuccinic acidemia
+argininemia|arginase deficiency|hyperargininemia
+propionic acidemia|propionyl-coa carboxylase deficiency|propionic aciduria
+methylmalonic acidemia|mma|methylmalonic aciduria|methylmalonyl-coa mutase deficiency
+isovaleric acidemia|isovaleryl-coa dehydrogenase deficiency|sweaty feet syndrome|isovaleric aciduria
+glutaric acidemia type i|glutaric aciduria type i|glutaryl-coa dehydrogenase deficiency|ga1
+glutaric acidemia type ii|glutaric aciduria type ii|multiple acyl-coa dehydrogenase deficiency|madd|ga2
+andersen disease|glycogen storage disease type iv|gsd iv|gsd 4|branching enzyme deficiency|amylopectinosis
+hers disease|glycogen storage disease type vi|gsd vi|gsd 6|liver phosphorylase deficiency|hepatic glycogen phosphorylase deficiency
+tarui disease|glycogen storage disease type vii|gsd vii|gsd 7|phosphofructokinase deficiency|muscle pfk deficiency
+glycogen storage disease type 0|gsd 0|glycogen synthase deficiency|aglycogenosis
+glycogen storage disease type ix|gsd ix|phosphorylase kinase deficiency
+fanconi-bickel syndrome|glycogen storage disease type xi|gsd xi|glut2 deficiency
+glycogen storage disease type ib|gsd ib|glucose-6-phosphate translocase deficiency
+danon disease|lamp2 deficiency|glycogen storage disease type iib
+lafora disease|lafora progressive myoclonus epilepsy
+sanfilippo syndrome|sanfilippo|mps iii|mucopolysaccharidosis type iii
+morquio syndrome|morquio|mps iv|mucopolysaccharidosis type iv
+maroteaux-lamy syndrome|maroteaux lamy|mps vi|mucopolysaccharidosis type vi|arylsulfatase b deficiency
+sly syndrome|mps vii|mucopolysaccharidosis type vii|beta-glucuronidase deficiency
+scheie syndrome|mps is|attenuated mps i
+hurler-scheie syndrome|mps ih/s
+natowicz syndrome|mps ix|hyaluronidase deficiency
+sandhoff disease|sandhoff|hexosaminidase a and b deficiency
+gm1 gangliosidosis|beta-galactosidase deficiency
+niemann-pick disease type c|npc|niemann-pick c|npc1 deficiency
+farber disease|farber lipogranulomatosis|acid ceramidase deficiency
+wolman disease|lysosomal acid lipase deficiency|lal deficiency|cholesteryl ester storage disease
+neuronal ceroid lipofuscinosis|batten disease|ncl|cln3 disease
+cystinosis|nephropathic cystinosis|cystinosin deficiency
+alpha-mannosidosis|mannosidosis
+beta-mannosidosis
+fucosidosis|alpha-fucosidase deficiency
+sialidosis|mucolipidosis i|neuraminidase deficiency
+galactosialidosis|cathepsin a deficiency|protective protein deficiency
+aspartylglucosaminuria
+schindler disease|alpha-n-acetylgalactosaminidase deficiency|kanzaki disease
+multiple sulfatase deficiency|austin disease
+mucolipidosis iii|pseudo-hurler polydystrophy
+mucolipidosis iv|mucolipin-1 deficiency
+salla disease|free sialic acid storage disease|sialic acid storage disease
+pycnodysostosis|cathepsin k deficiency
+very long-chain acyl-coa dehydrogenase deficiency|vlcad deficiency|vlcadd
+long-chain 3-hydroxyacyl-coa dehydrogenase deficiency|lchad deficiency|lchadd
+short-chain acyl-coa dehydrogenase deficiency|scad deficiency|scadd
+mitochondrial trifunctional protein deficiency|tfp deficiency|trifunctional protein deficiency
+carnitine palmitoyltransferase i deficiency|cpt i deficiency|cpt1 deficiency|cpt1a deficiency
+carnitine palmitoyltransferase ii deficiency|cpt ii deficiency|cpt2 deficiency
+carnitine-acylcarnitine translocase deficiency|cact deficiency
+hmg-coa lyase deficiency|3-hydroxy-3-methylglutaryl-coa lyase deficiency
+hmg-coa synthase deficiency|mitochondrial hmg-coa synthase deficiency
+beta-ketothiolase deficiency|mitochondrial acetoacetyl-coa thiolase deficiency|t2 deficiency
+succinyl-coa 3-oxoacid coa transferase deficiency|scot deficiency
+3-methylcrotonyl-coa carboxylase deficiency|3-mcc deficiency|3-methylcrotonylglycinuria
+biotinidase deficiency
+holocarboxylase synthetase deficiency|multiple carboxylase deficiency
+ornithine aminotransferase deficiency|gyrate atrophy of the choroid and retina|gyrate atrophy|oat deficiency
+hyperornithinemia-hyperammonemia-homocitrullinuria syndrome|hhh syndrome|ornithine translocase deficiency
+lysinuric protein intolerance|lpi
+citrin deficiency|citrullinemia type ii|neonatal intrahepatic cholestasis caused by citrin deficiency
+nonketotic hyperglycinemia|glycine encephalopathy|nkh
+sulfite oxidase deficiency|isolated sulfite oxidase deficiency
+molybdenum cofactor deficiency
+cobalamin c disease|cblc deficiency|methylmalonic acidemia with homocystinuria|combined methylmalonic acidemia and homocystinuria
+methylenetetrahydrofolate reductase deficiency|mthfr deficiency|severe mthfr deficiency
+methionine synthase deficiency|cblg deficiency
+transcobalamin ii deficiency|transcobalamin deficiency
+hereditary folate malabsorption|pcft deficiency
+cerebral folate deficiency
+methionine adenosyltransferase deficiency|mat i/iii deficiency|hypermethioninemia
+cystathioninuria|cystathionine gamma-lyase deficiency
+hyperprolinemia|proline oxidase deficiency
+histidinemia|histidase deficiency
+iminoglycinuria
+hawkinsinuria
+tetrahydrobiopterin deficiency|bh4 deficiency|malignant pku|dihydropteridine reductase deficiency|dhpr deficiency|6-pyruvoyl-tetrahydropterin synthase deficiency|ptps deficiency
+segawa syndrome|dopa-responsive dystonia|gtp cyclohydrolase i deficiency|gtpch deficiency
+aromatic l-amino acid decarboxylase deficiency|aadc deficiency
+tyrosine hydroxylase deficiency
+succinic semialdehyde dehydrogenase deficiency|ssadh deficiency|4-hydroxybutyric aciduria
+gaba transaminase deficiency
+canavan disease|aspartoacylase deficiency
+l-2-hydroxyglutaric aciduria
+d-2-hydroxyglutaric aciduria
+guanidinoacetate methyltransferase deficiency|gamt deficiency
+arginine:glycine amidinotransferase deficiency|agat deficiency
+creatine transporter deficiency|slc6a8 deficiency
+glut1 deficiency syndrome|glut1 deficiency|de vivo disease
+congenital disorders of glycosylation|cdg|pmm2-cdg|carbohydrate-deficient glycoprotein syndrome
+fructose-1,6-bisphosphatase deficiency|fructose 1 6 bisphosphatase deficiency|fbpase deficiency
+uridine diphosphate galactose-4-epimerase deficiency|galactose epimerase deficiency|gale deficiency
+congenital lactase deficiency|alactasia
+congenital sucrase-isomaltase deficiency|sucrase-isomaltase deficiency|csid
+glucose-galactose malabsorption|sglt1 deficiency
+glucose-6-phosphate dehydrogenase deficiency|g6pd deficiency|favism
+pyruvate kinase deficiency|pk deficiency
+triosephosphate isomerase deficiency|tpi deficiency
+hexokinase deficiency
+glucose phosphate isomerase deficiency|gpi deficiency
+phosphoglycerate kinase deficiency|pgk deficiency
+phosphoglycerate mutase deficiency|gsd x
+lactate dehydrogenase deficiency|ldh deficiency
+fumarase deficiency|fumaric aciduria
+alpha-ketoglutarate dehydrogenase deficiency
+pyruvate dehydrogenase phosphatase deficiency
+mitochondrial complex i deficiency|complex i deficiency
+cytochrome c oxidase deficiency|complex iv deficiency|cox deficiency
+coenzyme q10 deficiency|coq10 deficiency
+barth syndrome|tafazzin deficiency|3-methylglutaconic aciduria type ii
+pearson syndrome|pearson marrow-pancreas syndrome
+narp|neuropathy ataxia and retinitis pigmentosa
+alpers-huttenlocher syndrome|alpers disease|polg-related disorder
+mitochondrial dna depletion syndrome|mtdna depletion syndrome
+ethylmalonic encephalopathy
+malonic aciduria|malonyl-coa decarboxylase deficiency
+3-methylglutaconic aciduria
+mevalonate kinase deficiency|hyper-igd syndrome|mevalonic aciduria|hids
+smith-lemli-opitz syndrome|slos|7-dehydrocholesterol reductase deficiency
+cerebrotendinous xanthomatosis|ctx|sterol 27-hydroxylase deficiency
+sitosterolemia|phytosterolemia
+desmosterolosis
+lathosterolosis
+conradi-hunermann syndrome|x-linked dominant chondrodysplasia punctata
+rhizomelic chondrodysplasia punctata|rcdp
+infantile refsum disease
+neonatal adrenoleukodystrophy
+d-bifunctional protein deficiency
+acatalasemia|acatalasia|takahara disease
+primary hyperoxaluria|primary hyperoxaluria type 1|agt deficiency|alanine-glyoxylate aminotransferase deficiency
+familial hypercholesterolemia|fh|ldl receptor deficiency|type iia hyperlipoproteinemia
+abetalipoproteinemia|bassen-kornzweig syndrome|mtp deficiency|microsomal triglyceride transfer protein deficiency
+hypobetalipoproteinemia|familial hypobetalipoproteinemia
+familial chylomicronemia syndrome|lipoprotein lipase deficiency|type i hyperlipoproteinemia|familial hyperchylomicronemia|apoc2 deficiency
+familial dysbetalipoproteinemia|type iii hyperlipoproteinemia|remnant removal disease|apoe2 homozygosity|broad beta disease
+tangier disease|abca1 deficiency|familial alpha-lipoprotein deficiency
+lcat deficiency|lecithin-cholesterol acyltransferase deficiency|fish-eye disease|norum disease
+chanarin-dorfman syndrome|neutral lipid storage disease
+crigler-najjar syndrome|crigler najjar|ugt1a1 deficiency|crigler-najjar type i
+crigler-najjar syndrome type ii|arias syndrome
+gilbert syndrome|gilbert|gilberts syndrome
+dubin-johnson syndrome|dubin johnson
+rotor syndrome|rotor
+wilson disease|wilsons disease|hepatolenticular degeneration|atp7b deficiency
+menkes disease|kinky hair disease|menkes syndrome|atp7a deficiency
+occipital horn syndrome
+hereditary hemochromatosis|hemochromatosis|haemochromatosis|hfe hemochromatosis|bronze diabetes
+aceruloplasminemia
+congenital erythropoietic porphyria|cep|gunther disease|uroporphyrinogen iii synthase deficiency
+erythropoietic protoporphyria|epp|ferrochelatase deficiency
+variegate porphyria|vp|protoporphyrinogen oxidase deficiency|south african porphyria
+hereditary coproporphyria|hcp|coproporphyrinogen oxidase deficiency
+ala dehydratase deficiency porphyria|adp|doss porphyria|plumboporphyria|porphobilinogen synthase deficiency
+x-linked protoporphyria|xlp|alas2 gain of function
+hepatoerythropoietic porphyria|hep
+x-linked sideroblastic anemia|ala synthase deficiency|alas2 deficiency
+congenital adrenal hyperplasia|cah|21-hydroxylase deficiency|21 hydroxylase deficiency
+11-beta-hydroxylase deficiency|11b-hydroxylase deficiency|11 beta hydroxylase deficiency
+17-alpha-hydroxylase deficiency|17a-hydroxylase deficiency|17 alpha hydroxylase deficiency
+3-beta-hydroxysteroid dehydrogenase deficiency|3b-hsd deficiency
+lipoid congenital adrenal hyperplasia|star deficiency|lipoid cah
+5-alpha-reductase deficiency|5 alpha reductase deficiency|5-alpha reductase type 2 deficiency
+aldosterone synthase deficiency|corticosterone methyloxidase deficiency
+17-beta-hydroxysteroid dehydrogenase 3 deficiency|17b-hsd3 deficiency
+aromatase deficiency
+hypophosphatasia|tissue-nonspecific alkaline phosphatase deficiency|tnsalp deficiency
+xanthinuria|xanthine oxidase deficiency|xanthine dehydrogenase deficiency
+adenine phosphoribosyltransferase deficiency|aprt deficiency|2 8-dihydroxyadeninuria
+prpp synthetase superactivity|phosphoribosylpyrophosphate synthetase superactivity
+adenylosuccinate lyase deficiency|adsl deficiency
+myoadenylate deaminase deficiency|amp deaminase deficiency|mad deficiency
+purine nucleoside phosphorylase deficiency|pnp deficiency
+dihydropyrimidine dehydrogenase deficiency|dpd deficiency
+dihydropyrimidinase deficiency
+beta-ureidopropionase deficiency
+trimethylaminuria|fish odor syndrome|fish malodor syndrome|fmo3 deficiency
+glycerol kinase deficiency
+essential pentosuria|l-xylulose reductase deficiency
+transaldolase deficiency
+ribose-5-phosphate isomerase deficiency
+glutathione synthetase deficiency|5-oxoprolinuria|pyroglutamic aciduria
+gamma-glutamylcysteine synthetase deficiency
+alpha-1 antitrypsin deficiency|a1at deficiency|aatd|alpha 1 antitrypsin deficiency
+hyperinsulinism-hyperammonemia syndrome|glutamate dehydrogenase hyperinsulinism|hi/ha syndrome
+congenital hyperinsulinism|persistent hyperinsulinemic hypoglycemia of infancy
+pyridoxine-dependent epilepsy|antiquitin deficiency|alpha-aminoadipic semialdehyde dehydrogenase deficiency
+pyridoxamine 5-phosphate oxidase deficiency|pnpo deficiency
+thiamine-responsive megaloblastic anemia|rogers syndrome
+biotin-thiamine-responsive basal ganglia disease
+riboflavin transporter deficiency|brown-vialetto-van laere syndrome
+hyperlysinemia
+saccharopinuria
+2-methylbutyryl-coa dehydrogenase deficiency|short/branched chain acyl-coa dehydrogenase deficiency|sbcad deficiency
+isobutyryl-coa dehydrogenase deficiency|ibd deficiency
+3-hydroxyisobutyric aciduria
+2-methyl-3-hydroxybutyryl-coa dehydrogenase deficiency|hsd10 disease
+glycogen storage disease type xv|glycogenin deficiency
+polyglucosan body disease|adult polyglucosan body disease
+congenital bile acid synthesis defect|bile acid synthesis disorder
+progressive familial intrahepatic cholestasis|pfic
+neutral lipid storage disease with myopathy
+sjogren-larsson syndrome|fatty aldehyde dehydrogenase deficiency
+hyperphenylalaninemia|mild hyperphenylalaninemia|non-pku hyperphenylalaninemia
+maternal pku|maternal phenylketonuria
+hypermethioninemia due to glycine n-methyltransferase deficiency|gnmt deficiency
+adenosine kinase deficiency
+s-adenosylhomocysteine hydrolase deficiency
+serine biosynthesis defect|3-phosphoglycerate dehydrogenase deficiency
+asparagine synthetase deficiency
+glutamine synthetase deficiency
+prolidase deficiency
+`, "2026-11-08");
+
+P("Name a primary immunodeficiency","science","",`
+x-linked agammaglobulinemia|bruton agammaglobulinemia|brutons agammaglobulinemia|bruton disease|xla|btk deficiency|bruton
+digeorge syndrome|digeorge|22q11.2 deletion syndrome|22q11 deletion syndrome|thymic aplasia|velocardiofacial syndrome|22q11 deletion
+severe combined immunodeficiency|scid|bubble boy disease
+wiskott-aldrich syndrome|wiskott aldrich|was|wasp deficiency
+ataxia-telangiectasia|ataxia telangiectasia|louis-bar syndrome|atm deficiency
+hyper-igm syndrome|hyper igm syndrome|x-linked hyper-igm|cd40 ligand deficiency|cd40l deficiency|hyper igm|hyper-igm type 1
+hyper-ige syndrome|hyper ige syndrome|job syndrome|jobs syndrome|stat3 deficiency|autosomal dominant hyper-ige|hies
+common variable immunodeficiency|cvid|common variable immune deficiency
+selective iga deficiency|iga deficiency|selective immunoglobulin a deficiency
+chronic granulomatous disease|cgd|nadph oxidase deficiency
+leukocyte adhesion deficiency|lad|lad type 1|lad-1|cd18 deficiency|leukocyte adhesion deficiency type 1
+chediak-higashi syndrome|chediak higashi|lyst deficiency|chs
+terminal complement deficiency|c5-c9 deficiency|membrane attack complex deficiency|mac deficiency|late complement component deficiency
+c1 esterase inhibitor deficiency|hereditary angioedema|hae|c1-inh deficiency|c1 inhibitor deficiency
+adenosine deaminase deficiency|ada deficiency|ada scid
+x-linked scid|x-scid|common gamma chain deficiency|il2rg deficiency|il-2 receptor gamma chain deficiency
+il-12 receptor deficiency|il12 receptor deficiency|il-12 receptor beta1 deficiency|il-12/ifn-gamma axis defect
+ifn-gamma receptor deficiency|interferon gamma receptor deficiency|ifngr1 deficiency
+mendelian susceptibility to mycobacterial disease|msmd
+autoimmune polyendocrine syndrome type 1|aps-1|apeced|aire deficiency|autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy
+ipex syndrome|ipex|foxp3 deficiency|immune dysregulation polyendocrinopathy enteropathy x-linked
+autoimmune lymphoproliferative syndrome|alps|fas deficiency|canale-smith syndrome
+chronic mucocutaneous candidiasis|cmc
+c3 deficiency|complement c3 deficiency
+early complement deficiency|classical pathway complement deficiency
+c2 deficiency|complement c2 deficiency
+c1q deficiency|complement c1q deficiency
+c4 deficiency|complement c4 deficiency
+c1r deficiency
+c1s deficiency
+properdin deficiency
+factor h deficiency|complement factor h deficiency
+factor i deficiency|complement factor i deficiency
+factor d deficiency
+mannose-binding lectin deficiency|mbl deficiency|mannan-binding lectin deficiency
+cd59 deficiency
+masp2 deficiency
+ficolin 3 deficiency
+transient hypogammaglobulinemia of infancy|thi
+igg subclass deficiency|igg2 deficiency|igg subclass deficiencies
+specific antibody deficiency|specific polysaccharide antibody deficiency|sad
+igm deficiency|selective igm deficiency
+kappa chain deficiency
+autosomal recessive agammaglobulinemia|mu heavy chain deficiency
+good syndrome|thymoma with immunodeficiency
+bare lymphocyte syndrome|mhc class ii deficiency|bare lymphocyte syndrome type ii|ciita deficiency
+mhc class i deficiency|bare lymphocyte syndrome type i|tap deficiency|tap1 deficiency|tap2 deficiency
+zap-70 deficiency|zap70 deficiency
+jak3 deficiency|jak3 scid
+rag deficiency|rag1 deficiency|rag2 deficiency|rag scid
+omenn syndrome
+artemis deficiency|dclre1c deficiency|radiosensitive scid|athabascan scid
+il-7 receptor alpha deficiency|il7r deficiency|il-7r alpha deficiency
+cd3 deficiency|cd3 delta deficiency|cd3 epsilon deficiency|cd3 gamma deficiency
+cd45 deficiency
+reticular dysgenesis|ak2 deficiency
+purine nucleoside phosphorylase deficiency|pnp deficiency
+dna ligase iv deficiency|lig4 syndrome
+cernunnos deficiency|xlf deficiency|nhej1 deficiency
+dna-pkcs deficiency|prkdc deficiency
+coronin-1a deficiency
+cd8 deficiency
+cd4 lymphopenia|idiopathic cd4 lymphocytopenia|icl
+mst1 deficiency|stk4 deficiency
+dock8 deficiency|autosomal recessive hyper-ige|dock8 immunodeficiency
+tyk2 deficiency
+pgm3 deficiency
+nemo deficiency|x-linked anhidrotic ectodermal dysplasia with immunodeficiency|eda-id|ikbkg deficiency
+ikba deficiency|ikbkb deficiency|nfkbia gain of function
+cd40 deficiency|hyper-igm type 3
+aid deficiency|activation-induced cytidine deaminase deficiency|aicda deficiency|hyper-igm type 2
+ung deficiency|uracil-n-glycosylase deficiency|hyper-igm type 5
+x-linked lymphoproliferative disease|xlp|duncan disease|sap deficiency|sh2d1a deficiency|xlp1
+xiap deficiency|xlp2|x-linked lymphoproliferative disease type 2
+familial hemophagocytic lymphohistiocytosis|fhl|familial hlh|perforin deficiency|prf1 deficiency
+griscelli syndrome type 2|griscelli syndrome|rab27a deficiency
+hermansky-pudlak syndrome type 2|hermansky-pudlak syndrome|ap3b1 deficiency
+munc13-4 deficiency|unc13d deficiency
+syntaxin 11 deficiency
+itk deficiency
+cd27 deficiency
+cd70 deficiency
+magt1 deficiency|xmen disease
+ctla4 haploinsufficiency|ctla-4 deficiency
+lrba deficiency
+activated pi3k delta syndrome|apds|pik3cd gain of function
+stat1 gain of function|stat1 gof
+stat3 gain of function|stat3 gof
+stat5b deficiency
+cd25 deficiency|il-2 receptor alpha deficiency|il2ra deficiency
+il-10 deficiency|il-10 receptor deficiency|il10r deficiency
+whim syndrome|cxcr4 gain of function|warts hypogammaglobulinemia infections myelokathexis
+severe congenital neutropenia|kostmann syndrome|elane deficiency|kostmann
+cyclic neutropenia|elane cyclic neutropenia
+shwachman-diamond syndrome|shwachman diamond
+leukocyte adhesion deficiency type 2|lad-2|lad ii|congenital disorder of glycosylation iic|fucose transporter deficiency
+leukocyte adhesion deficiency type 3|lad-3|lad iii|kindlin-3 deficiency
+specific granule deficiency|neutrophil specific granule deficiency|c/ebp epsilon deficiency
+myeloperoxidase deficiency|mpo deficiency
+glucose-6-phosphate dehydrogenase deficiency of neutrophils|severe g6pd deficiency
+rac2 deficiency
+gata2 deficiency|monomac syndrome|dcml deficiency
+irak4 deficiency
+myd88 deficiency
+tlr3 deficiency|unc93b1 deficiency
+nk cell deficiency|natural killer cell deficiency|classical nk deficiency
+cartilage-hair hypoplasia|mckusick metaphyseal chondrodysplasia|rmrp deficiency
+nijmegen breakage syndrome|nbs1 deficiency
+bloom syndrome
+icf syndrome|immunodeficiency centromeric instability facial anomalies syndrome
+schimke immuno-osseous dysplasia
+hoyeraal-hreidarsson syndrome|dyskeratosis congenita
+chronic mucocutaneous candidiasis due to il-17 defects|il-17f deficiency|il-17ra deficiency|act1 deficiency
+card9 deficiency
+dectin-1 deficiency
+complete digeorge syndrome|complete digeorge anomaly
+chd7 deficiency|charge syndrome
+foxn1 deficiency|nude scid|athymia
+x-linked thrombocytopenia|xlt
+arpc1b deficiency
+wip deficiency|wipf1 deficiency
+cd19 deficiency
+cd20 deficiency
+cd21 deficiency
+cd81 deficiency
+baff receptor deficiency|baffr deficiency
+taci deficiency|tnfrsf13b mutation
+icos deficiency
+nfkb1 deficiency|nfkb1 haploinsufficiency
+nfkb2 deficiency
+ikzf1 deficiency|ikaros deficiency
+btk-like agammaglobulinemia|blnk deficiency
+lambda5 deficiency|igll1 deficiency
+igalpha deficiency|cd79a deficiency
+igbeta deficiency|cd79b deficiency
+pi3k regulatory subunit deficiency|pik3r1 deficiency|apds2
+ttc7a deficiency
+plcg2-associated antibody deficiency and immune dysregulation|aplaid|plaid
+hoil-1 deficiency|hoip deficiency|lubac deficiency
+cd16 deficiency|fcgr3a deficiency
+mcm4 deficiency
+irf8 deficiency
+irf7 deficiency
+stat2 deficiency
+ifnar1 deficiency|ifnar2 deficiency
+tbx1 deficiency
+autosomal recessive cgd|p47phox deficiency|p22phox deficiency|p67phox deficiency
+x-linked cgd|gp91phox deficiency|cybb deficiency
+ripk1 deficiency
+caspase 8 deficiency
+fadd deficiency
+fas ligand deficiency|fasl deficiency
+`, "2026-11-08");
+
+P("Name a cell signaling pathway or second messenger","science","",`
+camp|cyclic amp|cyclic adenosine monophosphate|3 5-cyclic amp
+cgmp|cyclic gmp|cyclic guanosine monophosphate
+ip3|inositol trisphosphate|inositol 1 4 5-trisphosphate|inositol triphosphate
+dag|diacylglycerol|diglyceride
+calcium|ca2+|calcium ion|intracellular calcium|cytosolic calcium
+gs pathway|gs protein|gs|stimulatory g protein|gs alpha
+gi pathway|gi protein|gi|inhibitory g protein|gi alpha
+gq pathway|gq protein|gq|gq alpha
+g protein-coupled receptor pathway|gpcr|g protein coupled receptor|g-protein coupled receptor|seven transmembrane receptor
+adenylyl cyclase pathway|adenylyl cyclase|adenylate cyclase
+protein kinase a|pka|camp-dependent protein kinase
+phospholipase c pathway|phospholipase c|plc|plc beta
+protein kinase c|pkc
+jak-stat pathway|jak-stat|jak/stat|jak stat|janus kinase-stat
+receptor tyrosine kinase pathway|receptor tyrosine kinase|rtk|tyrosine kinase receptor
+mapk pathway|mapk|map kinase|mitogen-activated protein kinase|mapk/erk pathway|erk pathway
+ras pathway|ras|ras-raf-mek-erk|ras/mapk|ras-mapk pathway|ras/raf/mek/erk
+pi3k/akt pathway|pi3k|pi3k-akt|akt|protein kinase b|pkb|phosphoinositide 3-kinase|pi3k-akt-mtor
+mtor pathway|mtor|mammalian target of rapamycin|mechanistic target of rapamycin|mtorc1|mtorc2
+nitric oxide|no|nitric oxide-cgmp pathway|no-cgmp
+guanylyl cyclase|guanylate cyclase|soluble guanylyl cyclase|sgc|particulate guanylyl cyclase
+protein kinase g|pkg|cgmp-dependent protein kinase
+wnt pathway|wnt|wnt/beta-catenin|wnt signaling|beta-catenin|canonical wnt
+notch pathway|notch|notch signaling
+hedgehog pathway|hedgehog|sonic hedgehog|shh|hh signaling|patched-smoothened
+tgf-beta pathway|tgf-beta|tgf beta|smad|smad pathway|tgf-beta/smad|transforming growth factor beta
+nf-kb pathway|nf-kb|nfkb|nf kappa b|nuclear factor kappa b
+calmodulin|ca2+-calmodulin|calcium-calmodulin
+calcineurin|calcineurin-nfat|nfat
+myosin light chain kinase|mlck
+insulin receptor signaling|insulin signaling pathway|insulin receptor
+intracellular steroid receptor pathway|nuclear receptor signaling|steroid hormone receptor|intracellular receptor|nuclear hormone receptor
+ligand-gated ion channel|ionotropic receptor|ligand gated ion channel
+non-receptor tyrosine kinase|receptor-associated tyrosine kinase|cytoplasmic tyrosine kinase
+bmp pathway|bmp|bone morphogenetic protein signaling|bmp/smad
+hippo pathway|hippo|yap/taz|yap-taz
+pi3k-pip3|pip3|phosphatidylinositol 3 4 5-trisphosphate|phosphatidylinositol trisphosphate
+pip2|phosphatidylinositol 4 5-bisphosphate|phosphatidylinositol bisphosphate
+arachidonic acid|arachidonic acid pathway|eicosanoid pathway
+ceramide|ceramide pathway|sphingomyelin pathway
+sphingosine-1-phosphate|s1p|s1p receptor signaling
+lysophosphatidic acid|lpa
+phosphatidic acid
+camp response element-binding protein|creb
+epac|exchange protein activated by camp|exchange protein directly activated by camp
+beta-arrestin|arrestin|beta arrestin pathway|beta-arrestin signaling
+g beta gamma subunits|g-beta-gamma|gbg|beta gamma subunits
+g12/13 pathway|g12/13|g12 13|g alpha 12/13|rho pathway|rhoa/rock|rho kinase|rock
+gt|transducin|phototransduction cascade
+golf|olfactory g protein|g olf
+gz|g alpha z
+ryanodine receptor|ryr|calcium-induced calcium release|cicr
+ip3 receptor|ip3r|inositol trisphosphate receptor
+store-operated calcium entry|soce|stim/orai|crac channel|orai1|stim1
+camkii|calcium/calmodulin-dependent protein kinase ii|cam kinase ii|cam kinase
+cyclic adp-ribose|cadpr
+naadp|nicotinic acid adenine dinucleotide phosphate
+phosphodiesterase|pde|cyclic nucleotide phosphodiesterase
+heterotrimeric g protein|g protein|g-protein
+small gtpase|ras superfamily|small g protein
+rap1
+rac|rac1
+cdc42
+raf|b-raf|braf|c-raf
+mek|mapk kinase|map2k
+erk|erk1/2|p44/42 mapk
+jnk|c-jun n-terminal kinase|sapk|stress-activated protein kinase|jnk pathway
+p38 mapk|p38|p38 pathway
+erk5|big map kinase 1|bmk1
+grb2|grb2-sos
+sos|son of sevenless
+shc
+irs-1|insulin receptor substrate|irs
+pten
+pdk1|3-phosphoinositide-dependent protein kinase 1
+tsc1/tsc2|tuberin|hamartin|tsc complex|rheb
+ampk|amp-activated protein kinase|ampk pathway
+lkb1|stk11
+gsk-3|gsk3|glycogen synthase kinase 3|gsk-3 beta
+apc destruction complex|beta-catenin destruction complex|axin
+frizzled|frizzled receptor|lrp5/6
+non-canonical wnt|planar cell polarity pathway|wnt/pcp|wnt/calcium pathway|wnt/ca2+
+dishevelled|dsh|dvl
+tcf/lef|tcf|lef
+nicd|notch intracellular domain|gamma-secretase|csl|rbp-j
+delta-like ligand|delta|jagged|serrate
+patched|ptch|ptch1
+smoothened|smo
+gli|gli1|gli transcription factors
+activin|activin pathway|activin/nodal
+nodal
+smad2/3|smad2|smad3
+smad4|co-smad
+smad1/5/8|smad1|smad5
+inhibitory smads|smad6|smad7
+ikk|ikb kinase|ikb|ikb alpha|inhibitor of kappa b
+tnf receptor signaling|tnf pathway|tnfr|tnf-alpha signaling
+toll-like receptor signaling|tlr pathway|tlr|myd88|myd88 pathway|trif pathway
+nod-like receptor|nlr|nod2|inflammasome|nlrp3 inflammasome
+rig-i-like receptor|rig-i|mavs
+cgas-sting|cgas|sting|cgas-sting pathway
+interferon signaling|ifn signaling|type i interferon pathway|isgf3|irf3|irf7
+stat1|stat2|stat3|stat4|stat5|stat6|stat proteins
+jak1|jak2|jak3|tyk2|janus kinases
+socs|suppressor of cytokine signaling
+t cell receptor signaling|tcr signaling|lck|zap-70|lat
+b cell receptor signaling|bcr signaling|btk|syk|blnk
+fc receptor signaling|itam|immunoreceptor tyrosine-based activation motif
+itim|immunoreceptor tyrosine-based inhibition motif
+integrin signaling|focal adhesion kinase|fak|integrin outside-in signaling
+src|src kinase|src family kinases
+abl|c-abl|bcr-abl
+egfr pathway|egfr|egf receptor|her1|erbb1|epidermal growth factor receptor
+her2|erbb2|neu
+vegf pathway|vegfr|vegf receptor|vascular endothelial growth factor receptor
+pdgf pathway|pdgfr|pdgf receptor
+fgf pathway|fgfr|fgf receptor|fibroblast growth factor receptor
+igf-1 receptor|igf1r|igf-1 pathway|insulin-like growth factor receptor
+c-kit|kit|stem cell factor receptor|cd117
+ret|ret receptor|ret proto-oncogene
+trk receptors|trk|trka|ntrk|neurotrophin receptor
+ephrin|eph receptors|eph receptor tyrosine kinases|eph/ephrin
+met|c-met|hepatocyte growth factor receptor|hgf/met
+alk|anaplastic lymphoma kinase
+flt3
+tie2|angiopoietin-tie2|angiopoietin pathway
+ror1|ror2
+ddr|discoidin domain receptors
+axl|tam receptors
+serine/threonine kinase receptor|receptor serine/threonine kinase|tgf-beta receptor kinase
+receptor guanylyl cyclase|natriuretic peptide receptor|anp receptor|npr-a|bnp receptor
+heme-nox|carbon monoxide signaling|carbon monoxide|co
+hydrogen sulfide|h2s
+reactive oxygen species signaling|ros signaling|hydrogen peroxide signaling|redox signaling
+hypoxia-inducible factor|hif|hif-1 alpha|hif pathway|oxygen sensing pathway
+p53 pathway|p53|tp53
+rb-e2f pathway|rb/e2f|retinoblastoma pathway|e2f
+cyclin-cdk|cdk|cyclin-dependent kinase|cyclin d-cdk4/6
+atm/atr pathway|dna damage response|atm|atr|chk1|chk2
+apoptosis pathway|intrinsic apoptosis|extrinsic apoptosis|caspase cascade|fas pathway|death receptor pathway
+bcl-2|bcl2 family
+mitochondrial cytochrome c release|cytochrome c|apoptosome|apaf-1
+autophagy pathway|ulk1|beclin-1
+unfolded protein response|upr|er stress response|ire1|perk|atf6
+heat shock response|hsf1|heat shock factor
+nrf2 pathway|nrf2|keap1-nrf2|keap1
+sirtuin|sirt1|nad+ signaling
+camp-epac-rap|camp/pka/creb
+cholera toxin target gs|adp-ribosylation of gs
+cytokine receptor signaling|class i cytokine receptor|hematopoietin receptor
+erythropoietin receptor signaling|epo receptor|epor
+growth hormone receptor signaling|ghr|gh receptor
+prolactin receptor signaling|prolactin receptor
+leptin receptor signaling|leptin receptor|ob-r
+thrombopoietin receptor|mpl|tpo receptor
+rank-rankl pathway|rankl|rank|rank/rankl/opg|opg
+cd40 signaling|cd40-cd40l
+il-1 receptor signaling|il-1r|irak
+il-6 signaling|gp130|il-6 receptor
+il-2 receptor signaling|il-2r|common gamma chain
+interferon gamma signaling|ifn-gamma receptor
+trp channels|trpv1|trp channel signaling
+mechanotransduction|piezo1|piezo2|mechanosensitive channel
+purinergic signaling|p2x|p2y|atp receptor|adenosine receptor
+cannabinoid signaling|endocannabinoid|cb1|cb2
+dopamine receptor signaling|d1 receptor|d2 receptor
+adrenergic signaling|beta-adrenergic signaling|alpha-1 adrenergic signaling|alpha-2 adrenergic signaling
+muscarinic signaling|m1|m2|m3|muscarinic receptor
+histamine receptor signaling|h1|h2|histamine receptor
+vasopressin receptor signaling|v1 receptor|v2 receptor|v2r|v1r
+angiotensin ii receptor signaling|at1 receptor|at1r|at2 receptor
+endothelin receptor signaling|eta receptor|etb receptor|endothelin receptor
+glucagon receptor signaling|glucagon receptor
+glp-1 receptor signaling|glp-1r|incretin signaling
+pth receptor signaling|pth1r|pth/pthrp receptor
+calcium-sensing receptor|casr
+tsh receptor signaling|tshr|tsh receptor
+acth receptor|mc2r|melanocortin 2 receptor
+mc4r|melanocortin 4 receptor|melanocortin signaling
+gnrh receptor signaling|gnrh receptor
+oxytocin receptor signaling|oxytocin receptor
+somatostatin receptor signaling|sstr|somatostatin receptor
+opioid receptor signaling|mu opioid receptor|mor|kappa opioid receptor|delta opioid receptor
+gaba-b receptor|gabab receptor|metabotropic gaba receptor
+metabotropic glutamate receptor|mglur
+serotonin receptor signaling|5-ht receptor|5-ht2a|5-ht1a
+prostaglandin receptor signaling|ep receptors|prostanoid receptor|ip receptor|tp receptor
+leukotriene receptor|cyslt1|cysteinyl leukotriene receptor
+chemokine receptor signaling|cxcr4|ccr5|chemokine receptor
+thrombin receptor|par-1|protease-activated receptor|par
+adp receptor|p2y12
+rhodopsin|opsin signaling|photoreceptor signaling
+olfactory receptor signaling|odorant receptor
+taste receptor signaling|gustducin|t1r|t2r
+calcium-calmodulin kinase|camk|camkiv|camk kinase
+pkd|protein kinase d
+pak|p21-activated kinase
+lim kinase|limk
+ptp|protein tyrosine phosphatase|shp-1|shp-2|ptpn11
+pp1|protein phosphatase 1|pp2a|protein phosphatase 2a
+akap|a-kinase anchoring protein
+ship|ship1|inositol polyphosphate 5-phosphatase
+dag kinase|diacylglycerol kinase
+inositol phosphate pathway|phosphoinositide pathway|phosphatidylinositol pathway|pi pathway
+paracrine signaling
+autocrine signaling
+juxtacrine signaling
+endocrine signaling
+synaptic signaling|neurotransmission
+gap junction signaling|gap junctions|connexin
+quorum sensing|autoinducer
+two-component signaling|histidine kinase
+ppar signaling|ppar|ppar gamma|ppar alpha
+lxr|liver x receptor
+fxr|farnesoid x receptor
+vitamin d receptor signaling|vdr
+thyroid hormone receptor|tr|thyroid receptor
+retinoic acid receptor|rar|rxr|retinoid x receptor
+glucocorticoid receptor|gr|nr3c1
+mineralocorticoid receptor|mr|aldosterone receptor
+estrogen receptor|er|er alpha|esr1
+androgen receptor|ar
+progesterone receptor|pr
+reelin pathway|reelin
+netrin|dcc receptor|netrin pathway
+semaphorin|plexin|neuropilin
+slit-robo|robo|slit
+ripk1|ripk3|mlkl|necroptosis pathway
+pyroptosis|gasdermin d|caspase-1 pathway
+ferroptosis|gpx4
+cgamp|2 3-cgamp|cyclic gmp-amp
+cyclic di-gmp|c-di-gmp
+ppgpp|alarmone|stringent response
+`, "2026-11-08");
+
+P("Name a molecular biology term (DNA, RNA or protein synthesis)","science","",`
+dna replication|replication
+transcription|rna synthesis
+translation|protein synthesis
+dna polymerase|dna pol
+rna polymerase|rna pol|rnap
+helicase|dna helicase
+primase|dna primase
+dna ligase|ligase
+topoisomerase|dna topoisomerase|topo
+dna gyrase|gyrase|topoisomerase ii|topo ii
+topoisomerase i|topo i
+single-stranded binding protein|ssb|single strand binding protein|ssb protein
+okazaki fragments|okazaki fragment
+leading strand
+lagging strand
+replication fork
+origin of replication|ori|origin
+telomerase
+telomere|telomeres
+rna primer|primer
+dna polymerase iii|dna pol iii|pol iii
+dna polymerase i|dna pol i|pol i
+dna polymerase delta|pol delta
+dna polymerase epsilon|pol epsilon
+dna polymerase alpha|pol alpha
+3 to 5 exonuclease|3-5 exonuclease|proofreading|exonuclease activity
+5 to 3 exonuclease|5-3 exonuclease
+semiconservative replication|semiconservative
+codon
+anticodon
+start codon|aug|initiation codon
+stop codon|termination codon|nonsense codon|uaa|uag|uga|amber codon|ochre codon|opal codon
+wobble|wobble hypothesis|wobble position
+genetic code
+degenerate code|degeneracy|redundancy of genetic code
+mrna|messenger rna
+trna|transfer rna
+rrna|ribosomal rna
+ribosome|ribosomes
+40s subunit|small ribosomal subunit|40s ribosomal subunit
+60s subunit|large ribosomal subunit|60s ribosomal subunit
+30s subunit|30s ribosomal subunit
+50s subunit|50s ribosomal subunit
+80s ribosome|eukaryotic ribosome
+70s ribosome|prokaryotic ribosome
+a site|aminoacyl site
+p site|peptidyl site
+e site|exit site
+peptidyl transferase|peptidyltransferase
+aminoacyl-trna synthetase|aminoacyl trna synthetase|trna synthetase
+charged trna|aminoacyl-trna|trna charging
+initiation
+elongation
+termination
+initiation factors|eif|eif2|eif4e
+elongation factors|ef-tu|ef-g|eef1|eef2
+release factors|release factor|erf1
+shine-dalgarno sequence|shine dalgarno|ribosome binding site
+kozak sequence|kozak consensus
+5 cap|7-methylguanosine cap|5 prime cap|mrna cap|capping|7-methylguanylate cap
+poly-a tail|polyadenylation|poly a tail|polya tail|3 poly-a tail
+aauaaa|polyadenylation signal
+splicing|rna splicing|pre-mrna splicing
+spliceosome
+snrnp|snurps|small nuclear ribonucleoprotein|snrna|small nuclear rna
+intron|introns|intervening sequence
+exon|exons
+lariat|lariat intermediate
+alternative splicing
+hnrna|heterogeneous nuclear rna|pre-mrna|primary transcript
+promoter
+tata box|goldberg-hogness box|hogness box
+caat box|ccaat box
+gc box
+pribnow box|-10 sequence|minus 10 box
+-35 sequence|minus 35 box
+enhancer|enhancers
+silencer|silencers
+transcription factor|transcription factors
+general transcription factors|tfiid|tfiih|tfiib
+sigma factor|sigma subunit
+rho factor|rho-dependent termination
+rho-independent termination|intrinsic termination
+rna polymerase i
+rna polymerase ii|rna pol ii
+rna polymerase iii|rna pol iii
+alpha-amanitin|amanita toxin
+operon
+lac operon
+trp operon|tryptophan operon
+repressor
+operator
+inducer
+attenuation
+catabolite activator protein|cap protein|camp receptor protein|crp
+point mutation
+silent mutation|synonymous mutation
+missense mutation
+nonsense mutation
+frameshift mutation|frameshift
+insertion
+deletion
+transition
+transversion
+trinucleotide repeat expansion|triplet repeat expansion|repeat expansion
+splice site mutation
+conservative mutation
+non-conservative mutation
+dna mismatch repair|mismatch repair|mmr
+nucleotide excision repair|ner
+base excision repair|ber
+nonhomologous end joining|nhej|non-homologous end joining
+homologous recombination|hr|homologous recombination repair
+thymine dimer|pyrimidine dimer
+glycosylase|dna glycosylase|uracil-dna glycosylase
+ap endonuclease|apurinic/apyrimidinic endonuclease
+uvrabc|excinuclease
+reverse transcriptase|rna-dependent dna polymerase
+reverse transcription
+central dogma
+post-translational modification|ptm|post-translational modifications
+phosphorylation
+glycosylation|n-linked glycosylation|o-linked glycosylation
+ubiquitination|ubiquitin|ubiquitylation
+sumoylation|sumo
+acetylation
+methylation
+hydroxylation|proline hydroxylation|lysine hydroxylation
+carboxylation|gamma-carboxylation
+prenylation|farnesylation|geranylgeranylation
+myristoylation
+palmitoylation
+lipidation
+proteolytic cleavage|proteolysis|zymogen activation
+disulfide bond formation|disulfide bond|disulfide bridge
+mannose-6-phosphate|mannose 6-phosphate tagging
+signal sequence|signal peptide|signal recognition particle|srp
+chaperone|chaperones|chaperonin|heat shock protein|hsp
+protein folding
+proteasome|26s proteasome
+nuclear localization signal|nls
+rough endoplasmic reticulum|rer|rough er
+free ribosomes
+polysome|polyribosome
+golgi apparatus|golgi
+histone|histones
+nucleosome
+chromatin
+heterochromatin
+euchromatin
+histone acetylation
+histone deacetylation|hdac|histone deacetylase
+dna methylation
+cpg island|cpg islands
+epigenetics|epigenetic modification
+genomic imprinting|imprinting
+x-inactivation|lyonization|barr body
+microrna|mirna
+small interfering rna|sirna|rna interference|rnai
+long noncoding rna|lncrna
+snorna|small nucleolar rna
+piwi-interacting rna|pirna
+ribozyme
+nucleotide
+nucleoside
+purine|purines
+pyrimidine|pyrimidines
+adenine
+guanine
+cytosine
+thymine
+uracil
+deoxyribose
+ribose
+phosphodiester bond
+hydrogen bond|base pairing|watson-crick base pairing|complementary base pairing
+antiparallel
+double helix|b-dna
+a-dna
+z-dna
+major groove
+minor groove
+5 to 3 direction|5-3 direction|5 prime to 3 prime
+template strand|antisense strand|noncoding strand
+coding strand|sense strand|nontemplate strand
+open reading frame|orf
+untranslated region|utr|5 utr|3 utr
+peptide bond
+n-terminus|amino terminus
+c-terminus|carboxy terminus
+polypeptide
+amino acid|amino acids
+primary structure
+secondary structure|alpha helix|beta pleated sheet|beta sheet
+tertiary structure
+quaternary structure
+gene
+genome
+allele
+chromosome
+centromere
+kinetochore
+plasmid
+transposon|jumping gene|transposable element
+retrotransposon|line|sine|alu element
+pcr|polymerase chain reaction
+rt-pcr|reverse transcriptase pcr
+qpcr|real-time pcr|quantitative pcr
+southern blot
+northern blot
+western blot
+southwestern blot
+elisa|enzyme-linked immunosorbent assay
+microarray
+fish|fluorescence in situ hybridization
+karyotype|karyotyping
+sanger sequencing|dideoxy sequencing
+next-generation sequencing|ngs|massively parallel sequencing
+whole exome sequencing|wes
+whole genome sequencing|wgs
+crispr|crispr-cas9|cas9
+gene therapy
+recombinant dna
+cdna|complementary dna
+cloning|molecular cloning
+restriction enzyme|restriction endonuclease
+restriction fragment length polymorphism|rflp
+single nucleotide polymorphism|snp
+copy number variation|cnv
+microsatellite instability|msi
+microsatellite|short tandem repeat|str
+knockout|gene knockout
+knock-in
+transgenic
+mosaicism
+loss of heterozygosity|loh
+hypoxanthine|inosine
+nonsense-mediated decay|nmd|nonsense-mediated mrna decay
+rna editing
+mrna degradation|mrna decay
+transcription start site|tss
+termination signal|terminator
+ribosomal frameshifting
+selenocysteine
+pyrrolysine
+mitochondrial dna|mtdna
+heteroplasmy
+dna repair
+dna damage
+depurination
+deamination
+alkylation|alkylating damage
+double-strand break|dsb
+single-strand break
+nick translation
+sliding clamp|pcna|proliferating cell nuclear antigen
+clamp loader|replication factor c|rfc
+rnase h|ribonuclease h
+fen1|flap endonuclease
+replisome
+origin recognition complex|orc
+licensing|mcm complex|mcm helicase
+s phase
+cell cycle
+dna fingerprinting
+antisense oligonucleotide|aso
+gene expression
+regulation of gene expression
+housekeeping gene
+constitutive expression
+inducible gene
+polycistronic mrna
+monocistronic mrna
+co-translational translocation|cotranslational modification
+translocon|sec61
+signal peptidase
+ubiquitin ligase|e3 ligase
+n-formylmethionine|fmet|formylmethionine
+methionine initiator trna|initiator trna|trna-met
+gtp hydrolysis
+translocation|ribosome translocation
+peptidyl-trna
+polyadenylate polymerase|poly-a polymerase
+capping enzyme|guanylyltransferase
+self-splicing intron|group i intron|group ii intron
+trans-splicing
+cis-acting element
+trans-acting factor
+zinc finger
+leucine zipper
+helix-turn-helix
+helix-loop-helix
+tata-binding protein|tbp
+mediator complex
+chromatin remodeling
+histone code
+histone methylation
+insulator|boundary element
+locus control region
+dna footprinting
+electrophoretic mobility shift assay|emsa|gel shift assay
+gel electrophoresis
+chromatin immunoprecipitation|chip
+rna-seq|rna sequencing
+codon usage bias|codon bias
+reading frame
+mutagen
+ames test
+tautomeric shift|tautomer
+intercalating agent
+translesion synthesis|translesion polymerase
+sos response
+photoreactivation|photolyase
+o6-methylguanine methyltransferase|mgmt
+xeroderma pigmentosum
+hnpcc|lynch syndrome
+brca1|brca2
+ataxia telangiectasia
+fanconi anemia
+bloom syndrome
+werner syndrome
+cockayne syndrome
+anticipation|genetic anticipation
+penetrance
+expressivity
+pleiotropy
+`, "2026-11-08");
+
+P("Name a cardiovascular physiology term","science","",`
+preload|end-diastolic volume|edv|left ventricular end-diastolic volume|lvedv
+afterload
+frank-starling law|frank-starling mechanism|frank starling|starling law of the heart|starling curve|frank-starling curve
+ejection fraction|ef|lvef|left ventricular ejection fraction
+cardiac output|co
+stroke volume|sv
+heart rate|hr|pulse rate
+contractility|inotropy|inotropic state
+pressure-volume loop|pv loop|pressure volume loop
+wiggers diagram|wiggers|cardiac cycle diagram
+cardiac cycle
+mean arterial pressure|map
+total peripheral resistance|tpr|systemic vascular resistance|svr
+pulmonary vascular resistance|pvr
+baroreceptor reflex|baroreflex|carotid sinus reflex
+systole
+diastole
+isovolumetric contraction|isovolumic contraction|isovolumetric ventricular contraction
+isovolumetric relaxation|isovolumic relaxation|isovolumetric ventricular relaxation
+rapid ejection|ejection phase|reduced ejection
+rapid ventricular filling|rapid filling|reduced ventricular filling|diastasis
+atrial systole|atrial kick|atrial contraction
+end-systolic volume|esv|lvesv
+left ventricular end-diastolic pressure|lvedp|end-diastolic pressure
+pulse pressure
+systolic blood pressure|sbp|systolic pressure
+diastolic blood pressure|dbp|diastolic pressure
+blood pressure|arterial pressure
+fick principle|fick equation|fick method|fick cardiac output
+poiseuille law|poiseuilles law|hagen-poiseuille equation|poiseuille equation
+vascular resistance|resistance
+compliance|vascular compliance|capacitance
+elastance
+laplace law|law of laplace|wall tension
+starling forces|starling equation|starling filtration|capillary starling forces
+capillary hydrostatic pressure|hydrostatic pressure
+oncotic pressure|colloid osmotic pressure|plasma oncotic pressure
+filtration coefficient|kf
+reflection coefficient
+venous return
+venous return curve|vascular function curve
+cardiac function curve
+mean systemic filling pressure|mean systemic pressure|msfp|mean circulatory filling pressure
+central venous pressure|cvp|right atrial pressure|rap
+pulmonary capillary wedge pressure|pcwp|wedge pressure|pulmonary artery occlusion pressure|paop
+pulmonary artery pressure|pap
+s1|first heart sound
+s2|second heart sound
+s3|third heart sound|ventricular gallop
+s4|fourth heart sound|atrial gallop
+physiologic splitting|physiological splitting of s2|split s2
+wide splitting
+fixed splitting|fixed split s2
+paradoxical splitting|reversed splitting
+jugular venous pulse|jvp|jugular venous pressure
+a wave
+c wave
+v wave
+x descent
+y descent
+dicrotic notch|incisura
+cardiac action potential|myocardial action potential|ventricular action potential
+pacemaker action potential|nodal action potential|sa node action potential
+phase 0|rapid depolarization|upstroke
+phase 1|initial repolarization
+phase 2|plateau phase
+phase 3|rapid repolarization
+phase 4|diastolic depolarization
+resting membrane potential
+funny current|funny channel|hcn channel
+l-type calcium channel|l-type calcium current|dihydropyridine receptor
+excitation-contraction coupling|e-c coupling|ecc
+calcium-induced calcium release|cicr
+sarcoplasmic reticulum
+serca|sarcoplasmic reticulum calcium atpase|serca2a
+phospholamban
+troponin|troponin c|troponin i|troponin t
+tropomyosin
+sarcomere
+sliding filament theory|cross-bridge cycling|cross bridge cycle
+length-tension relationship|length tension curve
+effective refractory period|absolute refractory period|erp
+relative refractory period
+conduction velocity
+automaticity
+excitability
+chronotropy|chronotropic effect
+dromotropy|dromotropic effect
+lusitropy|lusitropic effect
+bathmotropy
+sa node|sinoatrial node
+av node|atrioventricular node
+av nodal delay|av delay
+bundle of his|his bundle
+purkinje fibers|purkinje system
+p wave
+pr interval
+qrs complex
+st segment
+t wave
+qt interval|qtc|corrected qt
+u wave
+j point
+cardiac axis|electrical axis|qrs axis
+einthoven triangle
+myocardial oxygen demand|mvo2|myocardial oxygen consumption
+rate-pressure product|double product
+coronary blood flow
+coronary perfusion pressure
+autoregulation|vascular autoregulation
+myogenic response|bayliss effect|myogenic mechanism
+metabolic autoregulation|metabolic theory of autoregulation|local metabolic control
+active hyperemia|functional hyperemia
+reactive hyperemia
+hypoxic pulmonary vasoconstriction
+coronary steal|steal phenomenon
+coronary flow reserve|coronary reserve
+subendocardial perfusion
+windkessel effect|windkessel
+laminar flow
+turbulent flow|turbulence
+reynolds number
+bernoulli equation|bernoulli principle|modified bernoulli
+continuity equation
+blood flow velocity|velocity of blood flow
+blood flow|flow equation|ohms law of flow
+series resistance
+parallel resistance
+blood viscosity|viscosity
+shear stress
+fahraeus-lindqvist effect|fahraeus effect
+arterial stiffness
+pulse wave velocity
+pulse wave reflection|augmentation index
+cardiac index|ci
+stroke volume index
+stroke work|stroke work index
+cardiac work|pressure-volume work
+cardiac efficiency
+oxygen extraction ratio|oxygen extraction|arteriovenous oxygen difference|a-v o2 difference
+oxygen delivery|do2
+mixed venous oxygen saturation|svo2|mixed venous saturation
+central venous oxygen saturation|scvo2
+qp/qs|pulmonary to systemic flow ratio
+gorlin equation|valve area
+transvalvular gradient|pressure gradient
+ventricular interdependence
+pulsus paradoxus
+pulsus alternans
+pulsus parvus et tardus
+water-hammer pulse|corrigan pulse|collapsing pulse
+bisferiens pulse|pulsus bisferiens
+kussmaul sign
+hepatojugular reflux|abdominojugular reflux
+valsalva maneuver|valsalva
+bainbridge reflex|atrial reflex
+bezold-jarisch reflex|bezold jarisch
+cushing reflex|cushing triad
+chemoreceptor reflex|peripheral chemoreceptor reflex
+diving reflex|mammalian diving reflex
+oculocardiac reflex
+vasovagal response|vasovagal reflex
+carotid sinus baroreceptor|carotid sinus
+aortic arch baroreceptor|aortic baroreceptor
+cardiopulmonary receptors|low-pressure baroreceptors|volume receptors
+carotid body|carotid body chemoreceptor
+aortic body
+vasomotor center|cardiovascular center|nucleus tractus solitarius|nts
+sympathetic tone
+vagal tone|parasympathetic tone
+renin-angiotensin-aldosterone system|raas|renin angiotensin system
+atrial natriuretic peptide|anp
+brain natriuretic peptide|bnp|b-type natriuretic peptide
+antidiuretic hormone|adh|vasopressin
+endothelium-derived relaxing factor|edrf|nitric oxide
+endothelin
+prostacyclin|pgi2
+vasoconstriction
+vasodilation|vasodilatation
+venoconstriction
+venous capacitance
+unstressed volume
+stressed volume
+blood volume|circulating blood volume
+lymph flow|lymphatic flow
+net filtration pressure
+capillary exchange
+precapillary sphincter
+resistance vessels|arterioles
+capacitance vessels
+microcirculation
+total cross-sectional area
+transmural pressure
+critical closing pressure
+fetal circulation
+exercise response|cardiovascular response to exercise
+orthostatic response|postural reflex
+positive inotropy|positive inotrope
+negative inotropy|negative inotrope
+end-systolic pressure-volume relationship|espvr|end systolic pressure volume relation
+end-diastolic pressure-volume relationship|edpvr
+ventricular compliance|diastolic compliance
+diastolic dysfunction
+systolic dysfunction
+cardiac reserve
+ventricular-arterial coupling|arterial elastance
+myocardial wall stress|wall stress
+concentric hypertrophy
+eccentric hypertrophy
+anrep effect|slow force response
+bowditch effect|treppe|staircase phenomenon|force-frequency relationship
+post-extrasystolic potentiation
+overdrive suppression
+intercalated discs|intercalated disks|gap junctions
+reentry|re-entry
+afterdepolarization|triggered activity|early afterdepolarization|delayed afterdepolarization
+korotkoff sounds
+auscultatory gap
+point of maximal impulse|pmi|apex beat
+oxygen content|cao2
+`, "2026-11-08");
+
+P("Name a bacterial toxin or virulence factor","micro","",`
+endotoxin|lipopolysaccharide|lps|lipid a
+cholera toxin|choleragen
+diphtheria toxin
+tetanospasmin|tetanus toxin
+botulinum neurotoxin|botulinum toxin|botulism toxin
+pertussis toxin
+shiga toxin|verotoxin|shiga-like toxin|verocytotoxin
+exotoxin a|pseudomonas exotoxin a
+heat-labile toxin|lt enterotoxin|labile toxin
+heat-stable toxin|st enterotoxin|stable toxin
+toxic shock syndrome toxin|tsst-1|tsst
+staphylococcal enterotoxin|staph enterotoxin|enterotoxin b
+superantigen|superantigens
+streptococcal pyrogenic exotoxin|erythrogenic toxin|spea|scarlet fever toxin
+protein a|staphylococcal protein a
+m protein|streptococcal m protein
+capsule|polysaccharide capsule|bacterial capsule
+iga protease|iga1 protease
+streptolysin o
+streptolysin s
+alpha toxin of clostridium perfringens|lecithinase|phospholipase c toxin
+toxin a of c difficile|tcda
+toxin b of c difficile|tcdb
+edema factor|anthrax edema factor
+lethal factor|anthrax lethal factor
+protective antigen|anthrax protective antigen
+poly-d-glutamate capsule|d-glutamate capsule
+coagulase
+catalase
+hyaluronidase|spreading factor
+streptokinase|fibrinolysin
+staphylokinase
+streptodornase|bacterial dnase|deoxyribonuclease
+listeriolysin o
+panton-valentine leukocidin|pvl|leukocidin
+alpha-hemolysin|staphylococcal alpha toxin
+beta toxin of staph aureus|sphingomyelinase c
+exfoliative toxin|exfoliatin|epidermolytic toxin
+pili|fimbriae|pilus|adhesins
+p fimbriae|pap pili
+type 1 fimbriae|type 1 pili
+flagella|flagellum|h antigen
+o antigen
+k antigen|k1 capsule
+vi antigen|vi capsule
+lipoteichoic acid
+peptidoglycan
+cord factor|trehalose dimycolate
+sulfatides
+mycolic acid
+lipoarabinomannan
+biofilm|slime layer|glycocalyx
+type iii secretion system|t3ss|injectisome
+type iv secretion system|t4ss
+type vi secretion system|t6ss
+type ii secretion system|t2ss
+urease
+caga|cytotoxin-associated gene a
+vaca|vacuolating cytotoxin
+tracheal cytotoxin
+filamentous hemagglutinin
+pertactin
+adenylate cyclase toxin|cyaa
+invasin
+intimin
+tir|translocated intimin receptor
+bundle-forming pili
+yops|yersinia outer proteins
+f1 capsular antigen|fraction 1 antigen
+lcrv|v antigen
+opa proteins|opacity proteins
+porin|porins|por protein
+lipooligosaccharide|los
+anthrolysin o
+pneumolysin
+autolysin
+choline-binding protein a|cbpa
+pspa|pneumococcal surface protein a
+neuraminidase of s pneumoniae|bacterial neuraminidase|sialidase
+hemolysin|hemolysins
+enterotoxin of bacillus cereus|cereulide|emetic toxin
+diarrheal toxin of bacillus cereus|hemolysin bl
+delta toxin of staph aureus
+gamma toxin of staph aureus
+clostridium perfringens enterotoxin|cpe
+beta toxin of clostridium perfringens
+epsilon toxin of clostridium perfringens
+theta toxin|perfringolysin o
+clostridium difficile binary toxin|cdta/cdtb
+clostridium sordellii lethal toxin
+clostridium botulinum c2 toxin
+clostridium novyi alpha toxin
+tetanolysin
+anthrax toxin complex|anthrax toxin
+shigella enterotoxin|shet
+ipaB|invasion plasmid antigen|ipa proteins
+sipA|salmonella invasion protein
+salmonella pathogenicity island|spi-1|spi-2
+sopB|sop effectors
+typhoid toxin
+aerolysin|aeromonas aerolysin
+zonula occludens toxin|zot
+accessory cholera enterotoxin|ace
+tcpA|toxin coregulated pilus
+thermostable direct hemolysin|tdh|kanagawa hemolysin
+rtx toxin|rtx family toxin
+hemolysin a of e coli|hlyA
+cytotoxic necrotizing factor|cnf
+cytolethal distending toxin|cdt
+pet toxin|plasmid-encoded toxin
+east1|enteroaggregative heat-stable toxin
+dispersin|aap protein
+aggregative adherence fimbriae
+long polar fimbriae
+curli fimbriae
+type iv pili
+flagellin
+chemotaxis proteins|bacterial chemotaxis
+siderophore|siderophores|aerobactin|enterobactin|pyoverdine|pyochelin|mycobactin
+iron-binding proteins|iron acquisition system|transferrin-binding protein|lactoferrin-binding protein
+hemolytic phospholipase c|phospholipase c of pseudomonas
+pyocyanin
+elastase|lasB elastase|pseudomonas elastase
+alginate|mucoid exopolysaccharide
+exoenzyme s|exos
+exou
+exoy
+exot
+flagellar motility
+twitching motility
+swarming motility
+beta-lactamase|penicillinase|extended-spectrum beta-lactamase|esbl|carbapenemase
+mecA|pbp2a|altered penicillin-binding protein
+vanA|vancomycin resistance operon
+efflux pump|efflux pumps
+aminoglycoside-modifying enzyme|aminoglycoside acetyltransferase
+chloramphenicol acetyltransferase
+erm methylase|ribosomal methylase
+protein m-like protein|c5a peptidase
+sic protein|streptococcal inhibitor of complement
+plasminogen-binding protein
+fibronectin-binding protein
+collagen-binding adhesin|cna
+clumping factor|clfA|clumping factor a
+mSCRAMM|microbial surface components recognizing adhesive matrix molecules
+staphylococcal complement inhibitor|scin
+chemotaxis inhibitory protein of staph aureus|chips
+extracellular adherence protein|eap
+staphyloxanthin
+delta-hemolysin|phenol-soluble modulin|psm
+agr quorum sensing system|agr operon|quorum sensing
+accessory gene regulator
+sortase
+internalin|inlA|inlB
+actA|actin assembly-inducing protein
+phosphatidylinositol-specific phospholipase c of listeria
+mycobacterial esat-6|esat-6|esx-1 secretion system
+cfp-10
+pe/ppe proteins
+sulfolipid-1
+phenolic glycolipid i|pgl-1
+phthiocerol dimycocerosate|pdim
+arabinogalactan
+wax d
+mycoside
+polysaccharide intercellular adhesin|pia
+dextran of oral streptococci|glucan|glucosyltransferase
+lipoprotein|bacterial lipoprotein
+outer membrane protein|omp|outer membrane vesicle
+transferrin-binding adhesin of neisseria
+pilin antigenic variation|antigenic variation|pilin variation
+phase variation
+molecular mimicry
+complement evasion|factor h binding protein|c3b degradation
+serum resistance
+intracellular survival|phagosome escape|inhibition of phagosome-lysosome fusion
+catalase-peroxidase|katG
+superoxide dismutase
+coagulase-reacting factor|von willebrand factor-binding protein
+tsst-like enterotoxin c|enterotoxin c
+streptococcal superantigen ssa
+smeZ|streptococcal mitogenic exotoxin z
+nadase|streptococcal nadase
+hyaluronic acid capsule
+f protein|protein f|fibronectin-binding protein of s pyogenes
+lipid-anchored teichoic acid
+bacteriocin|bacteriocins
+plasmid-mediated virulence|virulence plasmid
+pathogenicity island
+bacteriophage-encoded toxin|lysogenic conversion|prophage-encoded toxin
+ail protein|attachment invasion locus
+invA of yersinia|yersinia invasin
+yersiniabactin
+pla plasminogen activator
+pH 6 antigen
+myf antigen
+leptospiral lipl32|lipl32
+borrelia ospA|ospA|outer surface protein a
+ospC
+vlsE antigenic variation
+treponemal tpr proteins|tp0751
+brucella bvrR/bvrS|brucella virulence factor
+coxiella lps
+chlamydial major outer membrane protein|momp
+chlamydial type iii effectors|tarp
+mycoplasma p1 adhesin|p1 adhesin
+community-acquired respiratory distress syndrome toxin|cards toxin
+helicobacter flagellar motility|helicobacter adhesin babA|babA
+dupA
+gamma-glutamyl transpeptidase of helicobacter
+legionella dot/icm system|dot/icm
+legionella mip protein|mip
+bartonella badA|bartonella adhesin a
+bordetella dermonecrotic toxin
+bordetella brkA
+haemophilus hifA pili|haemophilus pili
+haemophilus protein e
+moraxella uspA
+nontypeable haemophilus iga protease
+klebsiella fimH|fimH adhesin
+klebsiella mrkD|type 3 fimbriae
+hypermucoviscous phenotype|magA|rmpA
+proteus mirabilis urease|proteus swarming
+serratia prodigiosin
+burkholderia bimA
+melioidosis bsa secretion system
+nocardia superoxide dismutase
+actinomyces fimbriae
+fusobacterium fadA
+bacteroides fragilis toxin|fragilysin
+capnocytophaga capsule
+enterococcal cytolysin
+enterococcal aggregation substance
+enterococcal esp protein
+gelatinase of enterococcus
+streptococcus agalactiae beta-hemolysin|cAMP factor
+sip protein of group b strep
+pertussis lpf|bordetella tracheal colonization factor
+`, "2026-11-08");
+
+P("Name a hospital-acquired infection or pathogen","micro","",`
+clostridioides difficile colitis|c difficile|c diff|clostridium difficile|pseudomembranous colitis|cdi
+methicillin-resistant staphylococcus aureus|mrsa
+central line-associated bloodstream infection|clabsi|central line infection|catheter-related bloodstream infection|crbsi|line sepsis
+catheter-associated urinary tract infection|cauti|catheter-associated uti
+ventilator-associated pneumonia|vap
+hospital-acquired pneumonia|hap|nosocomial pneumonia
+surgical site infection|ssi|wound infection|postoperative wound infection
+vancomycin-resistant enterococcus|vre|vancomycin resistant enterococci
+carbapenem-resistant enterobacteriaceae|cre|carbapenem-resistant enterobacterales|crkp
+pseudomonas aeruginosa|pseudomonas
+acinetobacter baumannii|acinetobacter
+candida auris|c auris
+candidemia|invasive candidiasis|candida bloodstream infection
+klebsiella pneumoniae|klebsiella
+escherichia coli|e coli
+enterococcus faecalis|enterococcus
+enterococcus faecium
+staphylococcus aureus|staph aureus
+staphylococcus epidermidis|coagulase-negative staphylococci|staph epidermidis|cons
+serratia marcescens|serratia
+enterobacter cloacae|enterobacter
+proteus mirabilis|proteus
+stenotrophomonas maltophilia|stenotrophomonas
+burkholderia cepacia|burkholderia cepacia complex
+legionella pneumophila|legionella|legionnaires disease
+aspergillus fumigatus|aspergillus|invasive aspergillosis|nosocomial aspergillosis
+extended-spectrum beta-lactamase producing organisms|esbl|esbl-producing enterobacteriaceae
+multidrug-resistant organisms|mdro|multidrug-resistant gram negatives
+eskape organisms|eskape pathogens
+norovirus|norwalk virus|nosocomial gastroenteritis
+influenza|nosocomial influenza|hospital-acquired influenza
+respiratory syncytial virus|rsv|nosocomial rsv
+sars-cov-2|covid-19|hospital-onset covid|nosocomial covid
+rotavirus|nosocomial rotavirus
+adenovirus|nosocomial adenovirus
+hepatitis b virus|hbv|nosocomial hepatitis b
+hepatitis c virus|hcv|nosocomial hepatitis c
+hiv|human immunodeficiency virus|occupational hiv transmission
+tuberculosis|mycobacterium tuberculosis|nosocomial tuberculosis|tb
+varicella-zoster virus|vzv|nosocomial varicella|chickenpox exposure
+measles|rubeola|nosocomial measles
+scabies|sarcoptes scabiei|hospital scabies outbreak
+catheter-associated candiduria|hospital-acquired candiduria
+urinary tract infection|hospital-acquired uti|nosocomial uti
+bacteremia|hospital-acquired bacteremia|nosocomial bloodstream infection
+sepsis|hospital-acquired sepsis
+prosthetic joint infection|pji|periprosthetic joint infection
+prosthetic valve endocarditis|pve
+pacemaker infection|device-related infection|cardiac device infection
+ventriculoperitoneal shunt infection|vp shunt infection|cns shunt infection
+external ventricular drain infection|evd infection|ventriculostomy-related infection
+postoperative meningitis|nosocomial meningitis
+mediastinitis|post-sternotomy mediastinitis|poststernotomy mediastinitis
+vascular graft infection
+peritoneal dialysis-associated peritonitis|pd peritonitis
+hemodialysis catheter infection|dialysis catheter infection|tunneled catheter infection
+infusion-related phlebitis|septic thrombophlebitis|catheter-related septic phlebitis
+decubitus ulcer infection|pressure ulcer infection|infected pressure sore
+nosocomial sinusitis
+hospital-acquired tracheobronchitis|ventilator-associated tracheobronchitis|vat
+aspiration pneumonia|nosocomial aspiration pneumonia
+healthcare-associated pneumonia|hcap
+empyema|postoperative empyema
+nosocomial conjunctivitis|healthcare-associated conjunctivitis
+postoperative endophthalmitis|endophthalmitis
+nosocomial diarrhea|healthcare-associated diarrhea
+transfusion-transmitted infection|transfusion-associated sepsis|transfusion-transmitted bacterial infection
+contaminated blood products
+donor-derived infection|transplant-transmitted infection
+cytomegalovirus|cmv|post-transplant cmv
+epstein-barr virus|ebv|post-transplant lymphoproliferative disease
+bk virus|bk polyomavirus
+pneumocystis jirovecii|pneumocystis pneumonia|pcp|pjp
+nocardia|nocardiosis
+mucor|mucormycosis|rhizopus|zygomycosis
+fusarium|fusariosis
+scedosporium
+trichosporon
+malassezia furfur|malassezia|lipid emulsion-associated fungemia
+candida albicans
+candida glabrata|nakaseomyces glabratus
+candida parapsilosis
+candida tropicalis
+candida krusei|pichia kudriavzevii
+cryptococcus neoformans|cryptococcus
+citrobacter freundii|citrobacter
+morganella morganii|morganella
+providencia stuartii|providencia
+hafnia alvei
+pantoea agglomerans
+ralstonia pickettii|ralstonia
+achromobacter xylosoxidans|achromobacter
+elizabethkingia meningoseptica|elizabethkingia|chryseobacterium
+sphingomonas paucimobilis
+delftia acidovorans
+mycobacterium abscessus
+mycobacterium chimaera|heater-cooler unit mycobacterium
+mycobacterium fortuitum
+mycobacterium chelonae
+mycobacterium gordonae
+rapidly growing nontuberculous mycobacteria|nontuberculous mycobacteria|ntm
+group a streptococcus|streptococcus pyogenes|nosocomial group a strep
+group b streptococcus|streptococcus agalactiae
+streptococcus pneumoniae|pneumococcus
+viridans streptococci|streptococcus mitis
+bacillus cereus|bacillus species contamination
+corynebacterium striatum
+corynebacterium jeikeium
+cutibacterium acnes|propionibacterium acnes|p acnes
+lactobacillus bacteremia
+leuconostoc
+rothia mucilaginosa
+bacteroides fragilis|anaerobic surgical site infection
+peptostreptococcus
+prevotella
+fusobacterium
+clostridium perfringens|gas gangrene|clostridial myonecrosis
+clostridium tertium
+clostridium septicum
+necrotizing fasciitis|postoperative necrotizing fasciitis
+toxic shock syndrome|postoperative toxic shock syndrome
+packing-associated toxic shock|tampon-associated toxic shock syndrome
+burn wound infection
+infected hematoma|postoperative abscess|intra-abdominal abscess after surgery
+anastomotic leak infection|postoperative peritonitis
+cholangitis after ercp|post-ercp cholangitis
+post-ercp pancreatitis infection|infected pancreatic necrosis
+endoscope-related infection|duodenoscope-associated infection
+bronchoscope-related infection
+contaminated ultrasound gel infection
+water-source pseudomonas outbreak|sink drain reservoir outbreak
+ice machine-associated infection
+hospital water system contamination
+air handling-related fungal outbreak|construction-associated aspergillosis
+contaminated multidose vial infection|injection-related outbreak
+compounded medication contamination|contaminated compounded injection
+contaminated heparin flush infection
+contaminated parenteral nutrition infection|tpn-associated bloodstream infection
+contaminated intravenous fluid infection
+hand hygiene-related transmission|contact transmission by healthcare workers
+white coat and stethoscope contamination|fomite transmission
+needlestick-associated infection|sharps injury-associated infection
+nosocomial pertussis|hospital-acquired pertussis|bordetella pertussis
+nosocomial legionellosis|pontiac fever
+nosocomial salmonellosis|salmonella outbreak
+shigella nosocomial outbreak|shigella
+campylobacter nosocomial outbreak|campylobacter jejuni
+listeria monocytogenes|nosocomial listeriosis
+hepatitis a virus|hav|nosocomial hepatitis a
+parvovirus b19|nosocomial parvovirus
+human metapneumovirus|hmpv
+parainfluenza virus
+rhinovirus|nosocomial rhinovirus
+coronavirus 229e|seasonal coronavirus
+enterovirus|nosocomial enteroviral infection
+herpes simplex virus|hsv|nosocomial herpes simplex
+human herpesvirus 6|hhv-6
+candida auris colonization|c auris colonization
+mrsa colonization|nasal mrsa carriage
+vre colonization
+vancomycin-intermediate staphylococcus aureus|visa
+vancomycin-resistant staphylococcus aureus|vrsa
+linezolid-resistant enterococcus
+daptomycin-nonsusceptible enterococcus
+colistin-resistant klebsiella|polymyxin-resistant klebsiella
+new delhi metallo-beta-lactamase producer|ndm-1|ndm producer
+kpc-producing klebsiella|kpc
+oxa-48 producer|oxa-48
+vim-producing pseudomonas|vim metallo-beta-lactamase
+imp-producing organism
+ampc beta-lactamase producer|ampc
+difficult-to-treat resistance pseudomonas|dtr-pseudomonas
+carbapenem-resistant acinetobacter|cr-acinetobacter|crab
+carbapenem-resistant pseudomonas aeruginosa|crpa
+multidrug-resistant tuberculosis|mdr-tb
+extensively drug-resistant tuberculosis|xdr-tb
+azole-resistant aspergillus fumigatus|azole-resistant aspergillosis
+echinocandin-resistant candida
+fluconazole-resistant candida
+nosocomial strongyloides hyperinfection
+hospital-acquired myiasis
+nosocomial outbreak of aspergillus terreus|aspergillus terreus
+aspergillus flavus
+aspergillus niger
+exophiala
+paecilomyces
+lomentospora prolificans
+saccharomyces cerevisiae fungemia|probiotic-associated fungemia
+rhodotorula
+geotrichum
+`, "2026-11-08");
+
+P("Name an infection acquired from water, soil or the environment","micro","",`
+legionellosis|legionnaires disease|legionella pneumophila|legionella
+leptospirosis|leptospira|weil disease|leptospira interrogans
+tetanus|clostridium tetani|lockjaw
+naegleria fowleri|primary amebic meningoencephalitis|pam|brain-eating amoeba
+acanthamoeba|acanthamoeba keratitis|granulomatous amebic encephalitis
+cryptosporidiosis|cryptosporidium|cryptosporidium parvum
+giardiasis|giardia|giardia lamblia|beaver fever|giardia duodenalis
+histoplasmosis|histoplasma capsulatum|histoplasma|ohio river valley fever
+blastomycosis|blastomyces dermatitidis|blastomyces|gilchrist disease
+coccidioidomycosis|coccidioides immitis|coccidioides|valley fever|san joaquin valley fever
+paracoccidioidomycosis|paracoccidioides brasiliensis|south american blastomycosis
+sporotrichosis|sporothrix schenckii|rose gardener disease|rose handlers disease
+nocardiosis|nocardia asteroides|nocardia
+melioidosis|burkholderia pseudomallei|whitmore disease
+glanders|burkholderia mallei
+anthrax|bacillus anthracis|cutaneous anthrax|woolsorters disease
+vibrio vulnificus|vibrio vulnificus infection
+vibrio parahaemolyticus
+cholera|vibrio cholerae
+hookworm|necator americanus|ancylostoma duodenale|cutaneous larva migrans|ground itch
+strongyloidiasis|strongyloides stercoralis|strongyloides|threadworm
+ascariasis|ascaris lumbricoides|roundworm infection
+trichuriasis|trichuris trichiura|whipworm
+schistosomiasis|schistosoma|bilharzia|katayama fever|swimmers itch from schistosoma
+swimmers itch|cercarial dermatitis|avian schistosome dermatitis
+mycobacterium marinum|fish tank granuloma|swimming pool granuloma
+hot tub folliculitis|pseudomonas folliculitis|pseudomonas aeruginosa folliculitis
+otitis externa from water|swimmers ear|pseudomonas otitis externa
+pseudomonas aeruginosa|pseudomonas environmental infection
+aspergillosis|aspergillus fumigatus|aspergillus
+mucormycosis|rhizopus|mucor|zygomycosis
+cryptococcosis|cryptococcus neoformans|cryptococcus gattii|pigeon dropping exposure
+coccidioidal meningitis|coccidioides meningitis
+chromoblastomycosis|fonsecaea pedrosoi
+eumycetoma|madura foot|mycetoma|madurella
+actinomycetoma|actinomadura|streptomyces somaliensis
+phaeohyphomycosis|exophiala|dematiaceous fungal infection
+lobomycosis|lacazia loboi
+rhinosporidiosis|rhinosporidium seeberi
+entamoeba histolytica|amebiasis|amebic dysentery|amoebic liver abscess
+cyclosporiasis|cyclospora cayetanensis
+cystoisosporiasis|isospora belli|cystoisospora belli
+blastocystis hominis|blastocystosis
+balamuthia mandrillaris|balamuthia amebic encephalitis
+sappinia
+toxoplasmosis|toxoplasma gondii|cat litter toxoplasmosis
+toxocariasis|toxocara canis|visceral larva migrans|ocular larva migrans
+baylisascaris procyonis|raccoon roundworm
+dracunculiasis|guinea worm|dracunculus medinensis
+fascioliasis|fasciola hepatica|liver fluke from watercress
+fasciolopsiasis|fasciolopsis buski
+clonorchiasis|clonorchis sinensis
+opisthorchiasis|opisthorchis viverrini
+paragonimiasis|paragonimus westermani|lung fluke
+diphyllobothriasis|diphyllobothrium latum|fish tapeworm
+anisakiasis|anisakis
+gnathostomiasis|gnathostoma spinigerum
+angiostrongyliasis|angiostrongylus cantonensis|rat lungworm
+capillariasis|capillaria philippinensis
+echinococcosis|echinococcus granulosus|hydatid disease|hydatid cyst
+alveolar echinococcosis|echinococcus multilocularis
+mycobacterium avium complex|mac|mycobacterium avium intracellulare|mai
+mycobacterium kansasii
+mycobacterium abscessus
+mycobacterium chelonae
+mycobacterium fortuitum
+mycobacterium ulcerans|buruli ulcer
+mycobacterium xenopi
+mycobacterium szulgai
+mycobacterium simiae
+tularemia|francisella tularensis|rabbit fever|deerfly fever
+plague|yersinia pestis|bubonic plague
+brucellosis|brucella|undulant fever|malta fever
+q fever|coxiella burnetii
+psittacosis|chlamydia psittaci|parrot fever
+hantavirus pulmonary syndrome|hantavirus|sin nombre virus
+hemorrhagic fever with renal syndrome|hfrs|puumala virus|seoul virus
+lymphocytic choriomeningitis|lcmv
+lassa fever|lassa virus
+rat-bite fever|streptobacillus moniliformis|spirillum minus|haverhill fever
+erysipelothrix rhusiopathiae|erysipeloid|fish handlers disease
+aeromonas hydrophila|aeromonas
+plesiomonas shigelloides
+shewanella
+chromobacterium violaceum
+edwardsiella tarda
+burkholderia cepacia|burkholderia cepacia complex
+stenotrophomonas maltophilia
+elizabethkingia meningoseptica|elizabethkingia
+acinetobacter baumannii|acinetobacter
+clostridium perfringens wound infection|gas gangrene from soil|clostridial myonecrosis
+clostridium botulinum wound botulism|wound botulism
+clostridium novyi
+clostridium sordellii
+clostridium septicum
+bacillus cereus wound infection|bacillus cereus soil infection
+typhoid fever|salmonella typhi|enteric fever
+nontyphoidal salmonellosis|salmonella enteritidis|salmonella
+shigellosis|shigella|bacillary dysentery
+campylobacteriosis|campylobacter jejuni|campylobacter
+enterotoxigenic escherichia coli|etec|travelers diarrhea
+enterohemorrhagic escherichia coli|ehec|e coli o157:h7|shiga toxin-producing e coli
+yersinia enterocolitica
+hepatitis a|hepatitis a virus|hav
+hepatitis e|hepatitis e virus|hev
+poliomyelitis|poliovirus|polio
+norovirus|norwalk virus
+rotavirus
+enterovirus|coxsackievirus|echovirus
+adenovirus gastroenteritis|enteric adenovirus
+astrovirus
+sapovirus
+pharyngoconjunctival fever|swimming pool conjunctivitis|adenovirus conjunctivitis
+pontiac fever
+melioidosis pneumonia|burkholderia pseudomallei pneumonia
+tuberculosis from environmental exposure|mycobacterium bovis from soil
+actinomycosis|actinomyces israelii
+streptococcus iniae|fish-borne streptococcus iniae
+vibrio alginolyticus
+photobacterium damselae
+mycobacterium haemophilum
+pythiosis|pythium insidiosum
+protothecosis|prototheca
+scedosporium apiospermum|pseudallescheria boydii|scedosporium
+lomentospora prolificans
+fusarium keratitis|fusarium solani|fusarium
+curvularia
+alternaria
+bipolaris
+exserohilum rostratum|exserohilum
+paecilomyces lilacinus|purpureocillium
+geotrichum candidum
+trichosporon asahii
+rhodotorula
+saprochaete
+basidiobolomycosis|basidiobolus ranarum
+conidiobolomycosis|conidiobolus coronatus
+emmonsia|emergomycosis
+talaromyces marneffei|penicillium marneffei
+microsporum gypseum|geophilic dermatophyte|geophilic tinea
+trichophyton mentagrophytes from soil
+microsporidiosis|enterocytozoon bieneusi|encephalitozoon
+dientamoeba fragilis
+chilomastix mesnili
+balantidiasis|balantidium coli|neobalantidium
+sarcocystosis|sarcocystis
+trichomonas tenax environmental|pentatrichomonas hominis
+free-living amoeba keratitis|amebic keratitis from contact lens solution
+contact lens-associated pseudomonas keratitis|contact lens keratitis
+flavobacterium
+pasteurella multocida from environmental source
+pseudomonas putida
+serratia marcescens environmental infection
+legionella micdadei|pittsburgh pneumonia
+legionella longbeachae|potting soil legionella
+mycobacterium chimaera from water
+cutaneous diphtheria from environment|corynebacterium diphtheriae environmental
+nontuberculous mycobacterial lung disease from showerheads|hot tub lung
+bagassosis|thermophilic actinomycete hypersensitivity|farmers lung from thermoactinomyces
+humidifier lung|humidifier fever
+metalworking fluid-associated mycobacterium immunogenum
+cellulitis from soil contamination|soil-contaminated wound infection
+necrotizing fasciitis from seawater exposure|vibrio necrotizing fasciitis
+osteomyelitis from puncture wound through shoe|pseudomonas puncture osteomyelitis
+plantar puncture wound infection
+primary cutaneous aspergillosis
+nasal myiasis from environment|myiasis|cutaneous myiasis
+tungiasis|tunga penetrans|sand flea infestation
+larva currens
+pinworm from environmental eggs|enterobius vermicularis|pinworm
+hymenolepis nana|dwarf tapeworm
+rhabditis|halicephalobus
+`, "2026-11-08");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

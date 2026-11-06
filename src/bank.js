@@ -39684,6 +39684,890 @@ influenza complications
 carpal tunnel syndrome
 `, "2026-11-08");
 
+/* ---- NEW STANDARD DAILY PROMPTS: NURSING part 2 (batch 2026-11-06, board-first) ---- */
+P("Name a complication of alcohol use disorder","nursing","",`
+cirrhosis|liver cirrhosis
+alcohol withdrawal|withdrawal
+delirium tremens|dts
+withdrawal seizures|alcohol withdrawal seizures
+fatty liver|alcoholic fatty liver
+alcoholic hepatitis|hepatitis
+liver failure|end stage liver disease
+pancreatitis
+wernicke encephalopathy|wernicke
+korsakoff syndrome|wernicke korsakoff syndrome|korsakoff psychosis
+thiamine deficiency|vitamin b1 deficiency
+esophageal varices|varices
+gi bleeding|upper gi bleed
+mallory weiss tear
+gastritis
+peptic ulcer|ulcers
+ascites
+hepatic encephalopathy
+portal hypertension
+jaundice
+liver cancer|hepatocellular carcinoma
+esophageal cancer
+mouth cancer|oral cancer|throat cancer
+breast cancer
+colon cancer|colorectal cancer
+alcoholic cardiomyopathy|cardiomyopathy|dilated cardiomyopathy
+atrial fibrillation|holiday heart syndrome
+high blood pressure|hypertension
+stroke
+malnutrition
+folate deficiency
+magnesium deficiency|hypomagnesemia
+low potassium|hypokalemia
+low phosphorus|hypophosphatemia|refeeding syndrome
+hypoglycemia
+alcoholic ketoacidosis
+macrocytic anemia|anemia
+thrombocytopenia|low platelets
+bleeding|coagulopathy
+peripheral neuropathy|alcoholic neuropathy
+cerebellar degeneration|ataxia
+dementia|alcohol related dementia
+memory loss|blackouts
+falls
+head injury|subdural hematoma
+motor vehicle accidents|drunk driving|dui
+injuries|trauma
+osteoporosis
+fractures
+gout
+aspiration pneumonia
+pneumonia
+tuberculosis
+weakened immune system|immunosuppression
+infections
+depression
+anxiety
+suicide
+insomnia|sleep problems
+domestic violence|violence
+job loss|unemployment
+legal problems|arrests
+financial problems
+relationship problems|divorce
+child neglect
+homelessness
+fetal alcohol syndrome|fetal alcohol spectrum disorder
+erectile dysfunction
+infertility
+gynecomastia
+testicular atrophy
+spider angiomas
+palmar erythema
+caput medusae
+rhabdomyolysis
+alcoholic myopathy
+alcohol poisoning|alcohol overdose
+respiratory depression
+hepatorenal syndrome
+spontaneous bacterial peritonitis
+chronic pancreatitis
+pancreatic insufficiency|malabsorption
+diabetes
+obesity|weight gain
+central pontine myelinolysis|osmotic demyelination
+marchiafava bignami disease
+hallucinations|alcoholic hallucinosis
+hyponatremia|beer potomania
+lactic acidosis
+dupuytren contracture
+rosacea|rhinophyma
+psoriasis flare
+hypothermia
+sexual risk taking|stis
+other drug use|polysubstance use
+`, "2026-11-08");
+
+P("Name a complication of a stroke","nursing","",`
+paralysis|hemiplegia|one sided paralysis
+weakness|hemiparesis
+aphasia|trouble speaking
+expressive aphasia|broca aphasia
+receptive aphasia|wernicke aphasia
+global aphasia
+dysarthria|slurred speech
+dysphagia|trouble swallowing
+aspiration pneumonia|aspiration
+pneumonia
+falls
+pressure injuries|pressure ulcers|bed sores
+dvt|deep vein thrombosis|blood clots
+pulmonary embolism|pe
+uti|urinary tract infection
+urinary incontinence
+bowel incontinence
+constipation
+urinary retention
+depression|post stroke depression
+emotional lability|pseudobulbar affect|pathological crying
+anxiety
+memory loss|memory problems
+cognitive impairment|vascular dementia
+confusion|delirium
+unilateral neglect|hemineglect|left neglect
+homonymous hemianopia|vision loss|visual field loss
+double vision|diplopia
+shoulder pain|shoulder subluxation
+spasticity
+contractures
+seizures|post stroke seizures
+increased intracranial pressure|cerebral edema|brain swelling
+hemorrhagic transformation|bleeding in the brain
+another stroke|recurrent stroke
+heart attack|myocardial infarction
+atrial fibrillation
+dehydration
+malnutrition
+apraxia
+agnosia
+ataxia|balance problems
+vertigo|dizziness
+numbness|sensory loss
+central post stroke pain|thalamic pain syndrome
+fatigue
+sleep problems|sleep apnea
+impulsivity
+personality changes
+sexual dysfunction
+social isolation
+caregiver strain
+loss of independence
+hydrocephalus
+vasospasm
+hyponatremia|siadh
+cerebral salt wasting
+fever|hyperthermia
+hyperglycemia
+complex regional pain syndrome|shoulder hand syndrome
+foot drop
+locked in syndrome
+coma
+brain herniation
+death
+dyslexia|alexia
+agraphia
+neurogenic bladder
+reduced mobility|immobility
+deconditioning
+osteoporosis|bone loss on paralyzed side
+hip fracture
+choking
+respiratory failure
+horner syndrome
+emotional changes|anger
+apathy
+pusher syndrome
+dysphonia
+drooling
+`, "2026-11-08");
+
+P("Name a complication of a burn injury","nursing","",`
+infection|burn wound infection
+sepsis
+hypovolemic shock|burn shock|shock
+dehydration|fluid loss
+hypothermia
+scarring|scars
+contractures
+hypertrophic scars
+keloids
+pain
+airway edema|airway obstruction
+inhalation injury|smoke inhalation
+carbon monoxide poisoning
+cyanide poisoning
+pneumonia
+ards|acute respiratory distress syndrome
+compartment syndrome
+circumferential burn restricting breathing|eschar constriction
+acute kidney injury|kidney failure
+myoglobinuria|rhabdomyolysis
+hyperkalemia
+hyponatremia
+hypokalemia
+metabolic acidosis
+curling ulcer|stress ulcer
+paralytic ileus|ileus
+gi bleeding
+malnutrition|hypermetabolism|catabolism
+weight loss
+anemia
+dvt|blood clots
+pulmonary embolism
+cardiac arrhythmia|dysrhythmias
+ventricular fibrillation|cardiac arrest
+fluid overload|pulmonary edema
+abdominal compartment syndrome
+hypoalbuminemia|low albumin
+edema|swelling
+graft failure|graft loss
+cellulitis
+pseudomonas infection
+mrsa
+fungal infection|candida
+tetanus
+toxic shock syndrome
+depression
+ptsd|post traumatic stress disorder
+anxiety
+body image disturbance|disfigurement
+sleep disturbance
+itching|pruritus
+heat intolerance
+sun sensitivity
+loss of function|disability
+amputation
+nerve damage|neuropathy
+vision loss|corneal burns
+hearing loss|ear cartilage damage
+marjolin ulcer
+heterotopic ossification
+osteoporosis
+growth problems in children
+adrenal insufficiency
+hyperglycemia|stress hyperglycemia
+muscle wasting
+pressure injuries
+uti|catheter associated uti
+central line infection|clabsi
+immobility
+death
+social isolation
+chronic pain
+delirium
+hypophosphatemia
+hypocalcemia
+hemoconcentration|high hematocrit
+disseminated intravascular coagulation|dic
+thrombocytopenia
+cardiac dysfunction|myocardial depression
+seizures
+`, "2026-11-08");
+
+P("Name a complication of sickle cell disease","nursing","",`
+pain crisis|vaso occlusive crisis|sickle cell crisis
+acute chest syndrome
+stroke
+anemia
+infection|infections
+sepsis
+pneumococcal infection|streptococcus pneumoniae
+osteomyelitis|salmonella osteomyelitis
+splenic sequestration|splenic sequestration crisis
+autosplenectomy|asplenia|loss of spleen function
+aplastic crisis|parvovirus b19
+hemolytic crisis|hemolysis
+jaundice
+gallstones|pigment gallstones
+priapism
+leg ulcers
+avascular necrosis|osteonecrosis
+dactylitis|hand foot syndrome
+delayed growth|growth delay
+delayed puberty
+retinopathy|vision loss
+kidney damage|sickle cell nephropathy
+hematuria|blood in urine
+papillary necrosis
+chronic kidney disease
+pulmonary hypertension
+heart failure
+cardiomegaly
+silent cerebral infarcts|silent strokes
+cognitive impairment|learning problems
+moyamoya
+blood clots|dvt|vte
+pulmonary embolism
+iron overload|hemosiderosis
+transfusion reactions
+alloimmunization
+dehydration
+fever
+pregnancy complications|preeclampsia
+miscarriage
+preterm birth
+depression
+chronic pain
+opioid dependence
+multi organ failure
+sudden death
+hyposthenuria|inability to concentrate urine
+enuresis|bedwetting
+liver damage|hepatic crisis|intrahepatic cholestasis
+cholecystitis
+mesenteric sickling|abdominal crisis
+hearing loss
+meningitis
+pneumonia
+asthma
+splenomegaly
+spinal infarction
+fat embolism syndrome
+osteoporosis
+hyperhemolysis syndrome
+folate deficiency
+gout
+proteinuria
+renal medullary carcinoma
+seizures
+anxiety
+shortened life expectancy
+splenic infarction|splenic infarct
+hepatic sequestration
+renal infarction
+bone infarcts|bone marrow infarction
+fatigue
+exercise intolerance|shortness of breath
+pallor
+nocturia
+orbital compartment syndrome
+central retinal artery occlusion
+vitreous hemorrhage
+retinal detachment
+nocturnal hypoxemia|sleep apnea
+diastolic dysfunction
+arrhythmias
+heart attack|myocardial infarction
+hemorrhagic stroke|intracranial hemorrhage
+cerebral aneurysm
+posterior reversible encephalopathy syndrome|pres
+low self esteem|body image issues
+vitamin d deficiency
+zinc deficiency
+severe covid 19|severe influenza
+`, "2026-11-08");
+
+P("Name a complication of preterm birth","nursing","",`
+respiratory distress syndrome|rds|surfactant deficiency
+bronchopulmonary dysplasia|bpd|chronic lung disease
+apnea of prematurity|apnea
+bradycardia
+necrotizing enterocolitis|nec
+intraventricular hemorrhage|ivh|brain bleed
+periventricular leukomalacia|pvl
+retinopathy of prematurity|rop
+patent ductus arteriosus|pda
+hypothermia|temperature instability
+hypoglycemia|low blood sugar
+jaundice|hyperbilirubinemia
+kernicterus
+sepsis|neonatal sepsis
+infection
+anemia of prematurity|anemia
+feeding problems|poor feeding|feeding intolerance
+poor weight gain|failure to thrive
+cerebral palsy
+developmental delay
+learning disabilities
+hearing loss
+vision problems|blindness
+hydrocephalus
+seizures
+pneumothorax
+pulmonary hemorrhage
+hypotension
+hypocalcemia
+hyponatremia
+hyperkalemia
+dehydration|fluid imbalance
+metabolic acidosis
+osteopenia of prematurity|metabolic bone disease
+inguinal hernia
+umbilical hernia
+gerd|reflux
+sudden infant death syndrome|sids
+rsv infection|bronchiolitis
+asthma|reactive airway disease
+adhd
+autism
+behavioral problems
+anxiety
+skin breakdown
+nosocomial infection|central line infection
+meningitis
+death|neonatal death
+parental stress|bonding difficulties
+breastfeeding difficulties
+thrombocytopenia
+polycythemia
+spontaneous intestinal perforation
+short bowel syndrome
+cholestasis|tpn cholestasis
+pulmonary hypertension
+heart failure
+high blood pressure later in life
+kidney problems|acute kidney injury
+dental problems|enamel defects
+strabismus
+myopia|nearsightedness
+plagiocephaly|flat head
+hypothyroidism|transient hypothyroxinemia
+hyperglycemia
+vitamin d deficiency|rickets of prematurity
+iron deficiency
+growth delay|short stature
+sleep problems
+intellectual disability
+speech delay
+coordination problems|motor delay
+hypernatremia
+fungal sepsis|candida infection
+feeding aversion|oral aversion
+aspiration
+nephrocalcinosis
+cerebellar hemorrhage
+subglottic stenosis
+tracheomalacia
+pneumonia
+uti|urinary tract infection
+skin injury from adhesives|medical adhesive injury
+iatrogenic anemia|blood loss from lab draws
+hypotonia
+retinal detachment
+pulmonary interstitial emphysema
+persistent pulmonary hypertension of the newborn|pphn
+diabetes later in life|insulin resistance
+heart disease later in life
+chronic kidney disease later in life
+mental health problems
+lower iq|cognitive impairment
+`, "2026-11-08");
+
+P("Name a symptom of dementia","nursing","",`
+memory loss|forgetfulness|short term memory loss
+confusion
+disorientation|getting lost|disoriented to time or place
+wandering
+sundowning|sundowning syndrome
+agitation
+aggression|combativeness
+repeating questions|repetitive questions|repetition
+trouble finding words|word finding difficulty|anomia
+aphasia
+personality changes
+mood changes|mood swings
+depression
+anxiety
+apathy|loss of interest|withdrawal
+poor judgment|impaired judgment
+difficulty with daily tasks|trouble with adls
+losing things|misplacing items
+trouble managing money|difficulty paying bills
+difficulty planning|executive dysfunction
+difficulty concentrating|poor attention
+hallucinations
+delusions|paranoia
+suspiciousness|accusing others of stealing
+sleep problems|insomnia|day night reversal
+incontinence|urinary incontinence
+trouble swallowing|dysphagia
+weight loss|poor appetite
+apraxia
+agnosia|not recognizing family|failure to recognize faces
+prosopagnosia
+confabulation
+repetitive behaviors|perseveration
+rummaging|hoarding
+pacing|restlessness
+shadowing|following caregiver
+catastrophic reactions
+social withdrawal
+inappropriate behavior|disinhibition
+sexually inappropriate behavior
+trouble driving|getting lost while driving
+falls
+shuffling gait|gait changes
+visual spatial problems|depth perception problems
+trouble reading|trouble writing
+losing track of time|losing track of dates
+forgetting names
+forgetting recent events
+telling the same story
+difficulty following conversations
+difficulty learning new things
+poor hygiene|neglecting self care
+wearing the same clothes|inappropriate dress for weather
+leaving stove on|safety issues
+getting scammed|financial exploitation
+irritability
+crying|tearfulness
+emotional lability
+impulsivity
+stubbornness|resisting care
+hiding things
+mutism|loss of speech
+bedbound|immobility
+contractures
+myoclonus
+seizures
+rigidity
+tremor
+fluctuating alertness|fluctuating cognition
+rem sleep behavior disorder|acting out dreams
+compulsive eating|hyperorality|food cravings
+loss of empathy
+echolalia
+palilalia
+anosognosia|lack of insight
+shortened attention span
+misidentification|capgras syndrome|mirror sign
+sensitivity to noise|overstimulation
+slow thinking|bradyphrenia
+reduced speech|poverty of speech
+`, "2026-11-08");
+
+P("Name a symptom of autism spectrum disorder","nursing","",`
+poor eye contact|avoids eye contact
+delayed speech|speech delay|language delay
+repetitive behaviors|repetitive movements
+hand flapping
+rocking
+spinning
+lining up toys|lining up objects
+insistence on sameness|need for routine|resistance to change
+meltdowns|tantrums
+sensory sensitivity|sensory processing issues
+sensitivity to loud noises|covering ears
+sensitivity to lights
+sensitivity to textures|tactile defensiveness
+picky eating|food aversions
+not responding to name|no response to name
+lack of pointing|no pointing
+lack of joint attention
+no social smile|lack of social smile
+difficulty making friends|social difficulties
+prefers to play alone|solitary play
+lack of pretend play|no pretend play
+echolalia|repeating words
+scripting
+loss of skills|regression|developmental regression
+intense interests|restricted interests|fixations
+fixation on parts of objects|spinning wheels
+monotone voice|unusual tone of voice
+literal thinking|trouble understanding sarcasm
+trouble reading facial expressions|difficulty with social cues
+lack of empathy|difficulty understanding feelings
+difficulty with back and forth conversation
+pronoun reversal
+toe walking
+self injurious behavior|head banging|self injury
+biting
+aggression
+hyperactivity
+attention problems
+anxiety
+sleep problems|insomnia
+gi problems|constipation
+seizures|epilepsy
+intellectual disability
+savant skills|exceptional memory
+stimming|self stimulating behavior
+unusual attachment to objects
+difficulty with transitions
+clumsiness|poor coordination
+fine motor delays
+gross motor delays
+does not wave bye bye|no gestures
+does not babble
+no words by 16 months
+no two word phrases by 24 months
+does not show objects to parents
+does not imitate
+does not seek comfort
+indifference to pain|high pain tolerance
+low pain tolerance
+does not like being held|dislikes cuddling
+flat affect|limited facial expressions
+inappropriate laughing
+fear of strangers absent|no stranger anxiety
+lack of fear of danger|elopement|wandering
+pica
+rigid thinking
+difficulty with change in schedule
+hyperfocus
+mouthing objects
+staring at lights|staring at ceiling fans
+smelling objects
+licking objects
+walking in circles
+finger flicking
+unusual gait
+hypotonia|low muscle tone
+masking|camouflaging
+social anxiety
+depression
+ocd like behaviors
+selective mutism
+prosody problems
+`, "2026-11-08");
+
+P("Name a sign of a concussion or traumatic brain injury","nursing","",`
+headache
+confusion
+loss of consciousness|passing out|blacking out
+dizziness
+nausea
+vomiting|repeated vomiting
+amnesia|memory loss
+blurred vision|vision changes
+double vision
+ringing in ears|tinnitus
+sensitivity to light|photophobia
+sensitivity to noise|phonophobia
+balance problems|unsteadiness|ataxia
+drowsiness|lethargy
+slurred speech
+trouble concentrating|difficulty concentrating
+feeling foggy|brain fog
+slowed reaction time|feeling slowed down
+irritability
+mood changes|emotional changes
+anxiety
+depression
+sleep problems|sleeping more|sleeping less|insomnia
+fatigue
+dazed|stunned|vacant stare
+repeating questions
+seizure
+unequal pupils|anisocoria
+dilated pupil|blown pupil
+decreased level of consciousness|decreased loc
+low gcs|glasgow coma scale drop
+restlessness|agitation
+combative behavior
+weakness on one side|hemiparesis
+numbness
+clear fluid from nose|csf rhinorrhea
+clear fluid from ears|csf otorrhea
+halo sign
+battle sign|bruising behind ears
+raccoon eyes|periorbital bruising
+hemotympanum|blood behind eardrum
+cushing triad
+hypertension with widened pulse pressure|widened pulse pressure
+bradycardia
+irregular respirations|cheyne stokes breathing
+posturing|decorticate posturing|decerebrate posturing
+increased intracranial pressure
+scalp hematoma|goose egg
+skull fracture|depressed skull fracture
+lucid interval
+inability to wake up
+fixed pupils
+diabetes insipidus|polyuria
+siadh
+hyperthermia
+personality changes
+impulsivity
+poor judgment
+difficulty with word finding|aphasia
+loss of smell|anosmia
+taste changes
+neck pain
+inconsolable crying in infants
+bulging fontanelle
+refusing to eat in children
+change in play
+nystagmus
+facial weakness|cranial nerve palsy
+incontinence|loss of bladder control
+neck stiffness
+fever
+positive babinski sign|babinski sign
+clonus
+coma
+brain herniation
+hearing loss
+vertigo
+pressure in head
+not feeling right|feeling off
+emotional lability|more emotional
+sadness
+nervousness
+disorientation
+retrograde amnesia
+anterograde amnesia|post traumatic amnesia
+scalp laceration
+sluggish pupils|nonreactive pupils
+`, "2026-11-08");
+
+P("Name a symptom or complication of inflammatory bowel disease","nursing","",`
+diarrhea
+abdominal pain|abdominal cramping
+bloody diarrhea|blood in stool|rectal bleeding
+weight loss
+fatigue
+fever
+urgency|bowel urgency
+tenesmus
+mucus in stool
+frequent bowel movements
+nocturnal diarrhea
+loss of appetite|anorexia
+nausea
+vomiting
+malnutrition
+anemia|iron deficiency anemia
+vitamin b12 deficiency
+dehydration
+electrolyte imbalance|hypokalemia
+bloating|gas
+right lower quadrant pain
+left lower quadrant pain
+perianal fistula|fistulas
+perianal abscess|abscess
+anal fissures
+skin tags|perianal skin tags
+bowel obstruction|strictures
+toxic megacolon
+perforation
+mouth ulcers|aphthous ulcers
+joint pain|arthritis|arthralgia
+ankylosing spondylitis|sacroiliitis
+erythema nodosum
+pyoderma gangrenosum
+uveitis|eye inflammation
+episcleritis
+primary sclerosing cholangitis|psc
+gallstones
+kidney stones|oxalate stones
+growth delay in children|delayed growth
+delayed puberty
+osteoporosis
+blood clots|dvt
+colon cancer|colorectal cancer
+malabsorption
+steatorrhea|fatty stools
+lactose intolerance
+night sweats
+abdominal mass
+depression
+anxiety
+fecal incontinence
+clubbing
+short bowel syndrome
+bowel resection|colectomy
+ostomy|ileostomy
+c diff infection|clostridioides difficile
+enterovesical fistula|pneumaturia|air in urine
+rectovaginal fistula
+enterocutaneous fistula
+intra abdominal abscess
+sepsis
+cholangiocarcinoma|bile duct cancer
+small bowel cancer
+lymphoma
+amyloidosis
+hydronephrosis
+pancreatitis
+fatty liver
+autoimmune hepatitis
+bile acid malabsorption
+vitamin d deficiency
+zinc deficiency
+folate deficiency
+hypoalbuminemia|low albumin
+pulmonary disease|bronchiectasis
+pericarditis|myocarditis
+psoriasis
+aphthous stomatitis|oral crohn disease
+`, "2026-11-08");
+
+P("Name a complication of a spinal cord injury","nursing","",`
+paralysis
+paraplegia
+quadriplegia|tetraplegia
+autonomic dysreflexia|autonomic hyperreflexia
+neurogenic shock
+spinal shock
+pressure injuries|pressure ulcers|bed sores
+dvt|deep vein thrombosis|blood clots
+pulmonary embolism|pe
+pneumonia
+respiratory failure|ventilator dependence
+atelectasis
+ineffective cough
+neurogenic bladder
+urinary retention
+uti|urinary tract infection
+kidney stones|bladder stones
+neurogenic bowel
+constipation|fecal impaction
+bowel incontinence
+urinary incontinence
+spasticity
+muscle spasms
+contractures
+orthostatic hypotension
+bradycardia
+hypotension
+poikilothermia|temperature regulation problems|hypothermia|hyperthermia
+chronic pain|neuropathic pain
+osteoporosis
+fractures
+heterotopic ossification
+sexual dysfunction|erectile dysfunction
+infertility
+depression
+anxiety
+suicide
+substance use
+paralytic ileus|ileus
+stress ulcer|gi bleeding
+weight gain|obesity
+muscle atrophy
+syringomyelia|post traumatic syringomyelia
+hydronephrosis
+kidney failure
+sepsis
+shoulder pain|overuse injuries
+carpal tunnel syndrome
+loss of sensation|numbness
+loss of independence
+social isolation
+caregiver burden
+cardiovascular disease
+diabetes|insulin resistance
+dysphagia
+sleep apnea
+hypercalcemia|immobilization hypercalcemia
+hyponatremia
+reflex sweating|hyperhidrosis
+diaphragm paralysis
+cardiac arrest
+death
+fatigue
+hypoventilation
+aspiration pneumonia
+mucus plugging|retained secretions
+dependent edema|leg edema
+anemia
+malnutrition
+hypoalbuminemia
+sleep disturbance|insomnia
+vesicoureteral reflux
+bladder cancer
+priapism
+cellulitis
+osteomyelitis
+ptsd|post traumatic stress disorder
+dyslipidemia|high cholesterol
+hemorrhoids
+gallstones
+superior mesenteric artery syndrome
+gastroparesis
+hiccups
+bowel obstruction
+hypercalciuria
+cardiac arrhythmias|dysrhythmias
+venous stasis
+`, "2026-11-08");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

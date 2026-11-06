@@ -3769,3 +3769,4 @@ crowd("Name a chronic disease", 56, "atherosclerosis|atherosclerotic disease"); 
 crowdAlias("Name a chronic disease", "macular degeneration", "amd|age related macular degeneration|armd");  // 2026-11-06 · 2 players · abbreviation
 crowd("Name a chronic disease", 56, "ehlers danlos syndrome|eds|ehlers danlos");  // 2026-11-06 · 2 players · chronic inherited connective tissue disorder
 crowd("Name a chronic disease", 69, "primary aldosteronism|conn syndrome|conns syndrome|hyperaldosteronism");  // 2026-11-06 · 1 player · chronic endocrine disease; "conns syndrome" was auto-correcting to down syndrome
+crowdAlias("Name a cause of meningitis or encephalitis", "hib", "h flu|h. flu");  // 2026-11-06 · 2 players · common shorthand for Haemophilus influenzae

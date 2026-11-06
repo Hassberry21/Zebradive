@@ -41289,6 +41289,953 @@ herpes zoster|shingles
 fungal infections|candidiasis
 `, "2026-11-08");
 
+/* ---- NEW STANDARD DAILY PROMPTS: DENTAL (batch 2026-11-06) ---- */
+P("Name a cause of trismus","dental","",`
+pericoronitis
+impacted wisdom tooth|impacted third molar|wisdom teeth|wisdom tooth
+third molar extraction|wisdom tooth extraction|wisdom teeth removal|after wisdom tooth removal
+inferior alveolar nerve block|ianb|nerve block injection|dental injection|local anesthetic injection
+medial pterygoid muscle injury|medial pterygoid trauma|needle trauma to medial pterygoid
+tmj disorder|tmd|temporomandibular disorder|tmj dysfunction
+masticator space infection
+tetanus|lockjaw|clostridium tetani
+radiation therapy|radiation fibrosis|head and neck radiation|radiotherapy
+oral submucous fibrosis|osmf|submucous fibrosis
+dental abscess|tooth abscess|odontogenic infection
+ludwig angina|ludwigs angina
+peritonsillar abscess|quinsy
+submandibular space infection
+pterygomandibular space infection
+parapharyngeal space infection|lateral pharyngeal space infection
+submasseteric space infection
+infratemporal space infection
+temporal space infection
+buccal space infection
+cellulitis|facial cellulitis
+mandible fracture|jaw fracture|broken jaw
+condylar fracture|condyle fracture
+zygomatic arch fracture|zygoma fracture|cheekbone fracture
+coronoid process fracture
+tmj ankylosis|ankylosis of the tmj|bony ankylosis|fibrous ankylosis
+closed lock|anterior disc displacement without reduction|disc displacement without reduction
+myofascial pain|myofascial pain dysfunction|masticatory muscle spasm|muscle spasm
+bruxism|clenching|teeth grinding
+myositis
+myositis ossificans
+tmj arthritis|rheumatoid arthritis
+osteoarthritis of the tmj|degenerative joint disease
+juvenile idiopathic arthritis
+psoriatic arthritis
+ankylosing spondylitis
+septic arthritis of the tmj
+hemarthrosis of the tmj
+hematoma|injection hematoma|pterygoid plexus hematoma
+post injection infection|needle tract infection
+long dental appointment|prolonged mouth opening
+oral cancer|squamous cell carcinoma|oral squamous cell carcinoma
+nasopharyngeal carcinoma
+tumor of the infratemporal fossa|infratemporal fossa tumor
+parotid tumor|parotid malignancy
+oropharyngeal cancer|tonsil cancer
+osteochondroma of the condyle|condylar osteochondroma
+coronoid hyperplasia|coronoid process hyperplasia
+condylar hyperplasia
+jacob disease
+osteomyelitis of the mandible|osteomyelitis
+osteoradionecrosis|orn
+mronj|medication related osteonecrosis|bisphosphonate osteonecrosis
+dry socket|alveolar osteitis
+mumps|parotitis
+acute suppurative parotitis
+scleroderma|systemic sclerosis
+dermatomyositis
+polymyositis
+neuroleptic drugs|antipsychotics|haloperidol|phenothiazines
+metoclopramide
+acute dystonic reaction|acute dystonia|oromandibular dystonia
+neuroleptic malignant syndrome
+malignant hyperthermia|succinylcholine
+serotonin syndrome
+mdma|ecstasy
+amphetamines|methamphetamine
+cocaine
+strychnine poisoning
+black widow spider bite|latrodectism
+hypocalcemia|tetany
+stroke|cerebrovascular accident
+parkinson disease
+multiple sclerosis
+cerebral palsy
+meningitis
+encephalitis
+brain tumor|brainstem lesion
+seizure|epilepsy
+hysteria|conversion disorder|psychogenic trismus|anxiety
+trigeminal nerve lesion
+herpes zoster|shingles
+sore throat|pharyngitis|tonsillitis
+infectious mononucleosis|mono
+actinomycosis
+mucormycosis
+facial burn|burn scar contracture|burns
+scar contracture|scarring
+lip scarring|microstomia
+epidermolysis bullosa
+orthognathic surgery|bsso|sagittal split osteotomy
+maxillomandibular fixation|jaw wiring|intermaxillary fixation
+tmj surgery
+surgical trauma|oral surgery
+intubation trauma|prolonged intubation
+whiplash injury
+gunshot wound
+elongated styloid process|eagle syndrome
+trismus pseudocamptodactyly syndrome|hecht syndrome|dutch kentucky syndrome
+fibrodysplasia ossificans progressiva
+hypertrophy of masseter|masseter hypertrophy
+foreign body
+oral piercing infection
+salivary gland infection
+deep neck infection
+retropharyngeal abscess
+osteoma of the condyle
+synovial chondromatosis
+pigmented villonodular synovitis
+gout of the tmj|pseudogout|cppd
+lupus|systemic lupus erythematosus
+graft versus host disease|gvhd
+lyme disease
+`, "2026-11-08");
+P("Name a cause of delayed tooth eruption","dental","",`
+hypothyroidism|congenital hypothyroidism|cretinism
+cleidocranial dysplasia|cleidocranial dysostosis
+down syndrome|trisomy 21
+hypopituitarism|growth hormone deficiency|pituitary dwarfism
+supernumerary tooth|supernumerary teeth|mesiodens
+crowding|lack of space|arch length deficiency
+impaction|impacted tooth
+ankylosis|ankylosed primary tooth|ankylosed tooth
+over retained primary tooth|retained primary tooth|retained baby tooth
+premature loss of primary tooth|early loss of baby tooth
+gingival fibromatosis|hereditary gingival fibromatosis
+gingival hyperplasia|gingival overgrowth|thick gingiva
+drug induced gingival overgrowth|phenytoin|cyclosporine
+dentigerous cyst|follicular cyst
+eruption cyst
+odontoma|compound odontoma|complex odontoma
+odontogenic tumor
+ameloblastic fibroma
+adenomatoid odontogenic tumor|aot
+odontogenic keratocyst|okc
+primary failure of eruption|pfe|pth1r mutation
+mechanical failure of eruption
+rickets|vitamin d deficiency
+vitamin d resistant rickets|hypophosphatemic rickets|x linked hypophosphatemia
+hypoparathyroidism
+pseudohypoparathyroidism
+malnutrition|nutritional deficiency
+premature birth|preterm birth|prematurity
+low birth weight
+genetics|family history|heredity
+gardner syndrome|familial adenomatous polyposis
+gaucher disease
+osteopetrosis|marble bone disease
+cherubism
+fibrous dysplasia
+mccune albright syndrome
+regional odontodysplasia|ghost teeth
+amelogenesis imperfecta
+dentin dysplasia
+dentinogenesis imperfecta
+ectodermal dysplasia
+apert syndrome
+crouzon syndrome
+cleft lip and palate|cleft palate|cleft lip
+trauma to primary tooth|dental trauma|intrusion of primary tooth
+dilaceration
+root malformation
+abnormal tooth position|ectopic tooth bud|ectopic eruption
+transposition
+scar tissue|fibrous gingiva
+bone sclerosis|dense bone
+radiation therapy|radiotherapy
+chemotherapy
+hiv infection|hiv
+cerebral palsy
+celiac disease
+chronic kidney disease|renal failure|renal osteodystrophy
+gorlin syndrome|basal cell nevus syndrome|nevoid basal cell carcinoma syndrome
+progeria|hutchinson gilford progeria
+hunter syndrome|mucopolysaccharidosis
+hurler syndrome
+osteogenesis imperfecta
+achondroplasia
+pycnodysostosis
+mucolipidosis
+aarskog syndrome
+noonan syndrome
+de lange syndrome|cornelia de lange syndrome
+incontinentia pigmenti
+hypohidrotic ectodermal dysplasia
+zimmermann laband syndrome
+rutherfurd syndrome
+fibroma|peripheral ossifying fibroma
+odontogenic myxoma
+langerhans cell histiocytosis
+neurofibromatosis
+hemifacial atrophy|parry romberg syndrome
+prader willi syndrome
+hypopituitarism from craniopharyngioma|craniopharyngioma
+idiopathic|unknown cause
+`, "2026-11-08");
+P("Name a pigmented lesion of the mouth","dental","",`
+amalgam tattoo|focal argyrosis
+physiologic pigmentation|racial pigmentation|ethnic pigmentation
+oral melanotic macule|melanotic macule|labial melanotic macule|freckle
+smoker melanosis|smokers melanosis|tobacco pigmentation
+melanoma|oral melanoma|mucosal melanoma
+nevus|mole|oral nevus
+intramucosal nevus
+junctional nevus
+compound nevus
+blue nevus
+congenital nevus
+melanoacanthoma|oral melanoacanthoma
+peutz jeghers syndrome
+addison disease|adrenal insufficiency
+laugier hunziker syndrome
+mccune albright syndrome|cafe au lait spots
+neurofibromatosis
+hemochromatosis
+cushing syndrome|ectopic acth
+nelson syndrome
+drug induced pigmentation|medication pigmentation
+minocycline pigmentation|minocycline
+antimalarials|hydroxychloroquine|chloroquine
+oral contraceptives
+zidovudine|azt
+ketoconazole
+imatinib
+cyclophosphamide|busulfan|chemotherapy pigmentation
+amiodarone
+phenothiazines|chlorpromazine
+heavy metal pigmentation|heavy metal poisoning
+lead line|burton line|lead poisoning
+bismuth line|bismuth
+mercury pigmentation|mercury
+argyria|silver
+arsenic
+gold pigmentation|chrysiasis
+graphite tattoo|pencil lead tattoo
+foreign body tattoo|tattoo
+ink tattoo|intentional tattoo
+kaposi sarcoma
+hemangioma
+varix|varicosity|varicosities|sublingual varices
+venous lake|venous malformation
+vascular malformation
+hematoma|ecchymosis|bruise
+petechiae|purpura
+eruption hematoma
+eruption cyst
+mucocele|mucous retention phenomenon
+ranula
+black hairy tongue|hairy tongue|lingua villosa nigra
+post inflammatory pigmentation|post inflammatory hyperpigmentation|inflammatory pigmentation
+lichen planus pigmentation|pigmented lichen planus
+hiv pigmentation|hiv associated melanosis
+pregnancy pigmentation|melasma|chloasma
+vitamin b12 deficiency
+pigmented basal cell carcinoma
+lentigo|lentigo maligna|lentigo simplex
+melanotic neuroectodermal tumor of infancy
+angiosarcoma
+bacillary angiomatosis
+sturge weber syndrome
+blue rubber bleb nevus syndrome
+carney complex
+leopard syndrome
+alkaptonuria|ochronosis
+gingival pigmentation|gum pigmentation|dark gums
+lip pigmentation|dark lips
+fixed drug eruption
+betel quid staining|betel nut
+hemosiderin deposition
+thrombosed varix
+jaundice|icterus|yellow palate
+carotenemia
+angiokeratoma|fabry disease
+nevus of ota
+clofazimine
+doxorubicin
+hydroxyurea
+quinacrine
+5 fluorouracil|5 fu
+polycythemia vera
+melanotic schwannoma
+`, "2026-11-08");
+P("Name an oral side effect of a medication","dental","",`
+dry mouth|xerostomia|hyposalivation|cottonmouth
+gingival overgrowth|gingival hyperplasia|gingival enlargement|gum overgrowth
+oral thrush|oral candidiasis|candidiasis|yeast infection
+taste changes|dysgeusia|altered taste|taste disturbance
+metallic taste
+loss of taste|ageusia|hypogeusia
+tooth staining|tooth discoloration|stained teeth
+tetracycline staining|tetracycline stain
+chlorhexidine staining|chlorhexidine stain
+osteonecrosis of the jaw|mronj|bronj|bisphosphonate related osteonecrosis|medication related osteonecrosis of the jaw
+oral mucositis|mucositis|stomatitis
+mouth ulcers|oral ulcers|mouth sores|canker sores
+bleeding gums|gingival bleeding
+prolonged bleeding|bleeding after extraction|excessive bleeding
+angioedema|lip swelling|tongue swelling
+lichenoid drug reaction|lichenoid reaction|oral lichenoid lesion
+erythema multiforme
+stevens johnson syndrome|sjs
+toxic epidermal necrolysis|ten
+fixed drug eruption
+black hairy tongue|hairy tongue|lingua villosa nigra
+mucosal hyperpigmentation|oral pigmentation|drug induced pigmentation
+burning mouth|burning mouth syndrome|oral burning
+increased caries|cavities|tooth decay|rampant caries
+excess saliva|sialorrhea|hypersalivation|drooling
+salivary gland swelling|parotid swelling|sialadenitis
+salivary gland pain
+tardive dyskinesia|tongue protrusion|lip smacking
+bruxism|teeth grinding|clenching
+delayed wound healing|poor healing
+oral infection|increased infection risk
+herpes reactivation|cold sores|herpes labialis
+petechiae
+gingival recession
+enamel erosion|dental erosion|acid erosion
+aspirin burn|chemical burn
+pemphigus like reaction|drug induced pemphigus
+lupus like reaction|drug induced lupus
+oral hairy leukoplakia
+paresthesia|numbness|lip numbness
+trigeminal sensory neuropathy
+halitosis|bad breath
+gingivitis
+periodontal disease|periodontitis
+tooth sensitivity|dentin hypersensitivity
+cheilitis|chapped lips|dry lips|cheilitis from isotretinoin
+angular cheilitis
+glossitis|sore tongue
+geographic tongue
+tongue discoloration|tongue staining
+leukoplakia
+methemoglobinemia
+trismus
+dystonia|oromandibular dystonia
+dysphagia|difficulty swallowing
+jaw pain|mandibular pain
+facial edema
+gingival pigmentation
+enamel hypoplasia
+stunted root development|short roots|root malformation
+microdontia
+hypodontia|agenesis
+dental fluorosis|fluorosis
+osteoradionecrosis
+radiation caries
+neutropenic ulcers
+spontaneous gingival bleeding
+hematoma
+candida associated denture stomatitis|denture stomatitis
+median rhomboid glossitis
+erythematous candidiasis|antibiotic sore mouth
+pseudomembranous candidiasis
+oral lichen planus flare
+mucous membrane pemphigoid like reaction
+bullous lesions|blisters|vesicles
+desquamative gingivitis
+plasma cell gingivitis
+contact stomatitis|allergic contact stomatitis
+cinnamon stomatitis
+sloughing|mucosal sloughing|epithelial desquamation
+mumps like parotitis|iodide mumps
+exposed bone
+`, "2026-11-08");
+P("Name a malignant tumor of the head and neck","dental","",`
+squamous cell carcinoma|scc|oral squamous cell carcinoma|oral cancer
+verrucous carcinoma
+lip cancer|lip squamous cell carcinoma
+tongue cancer|carcinoma of the tongue
+floor of mouth cancer
+oropharyngeal cancer|hpv positive oropharyngeal cancer|hpv oropharyngeal carcinoma
+tonsil cancer|tonsillar carcinoma
+base of tongue cancer
+laryngeal cancer|cancer of the larynx
+hypopharyngeal cancer
+nasopharyngeal carcinoma|npc
+sinonasal carcinoma|maxillary sinus carcinoma|sinus cancer
+gingival carcinoma|gum cancer
+buccal mucosa cancer|cheek cancer
+palate cancer
+mucoepidermoid carcinoma
+adenoid cystic carcinoma
+acinic cell carcinoma
+polymorphous adenocarcinoma|polymorphous low grade adenocarcinoma|plga
+carcinoma ex pleomorphic adenoma
+salivary duct carcinoma
+secretory carcinoma|mammary analogue secretory carcinoma
+epithelial myoepithelial carcinoma
+basal cell adenocarcinoma
+clear cell carcinoma|hyalinizing clear cell carcinoma
+myoepithelial carcinoma
+oncocytic carcinoma
+adenocarcinoma nos
+cystadenocarcinoma
+salivary gland cancer|parotid cancer
+lymphoma
+non hodgkin lymphoma
+hodgkin lymphoma
+diffuse large b cell lymphoma|dlbcl
+burkitt lymphoma
+malt lymphoma|extranodal marginal zone lymphoma
+plasmablastic lymphoma
+nk t cell lymphoma|extranodal nk t cell lymphoma nasal type|lethal midline granuloma
+follicular lymphoma
+mantle cell lymphoma
+multiple myeloma
+plasmacytoma|solitary plasmacytoma
+leukemia|leukemic gingival infiltrate
+myeloid sarcoma|granulocytic sarcoma|chloroma
+osteosarcoma|jaw osteosarcoma
+chondrosarcoma
+ewing sarcoma
+rhabdomyosarcoma
+fibrosarcoma
+leiomyosarcoma
+liposarcoma
+angiosarcoma
+kaposi sarcoma
+synovial sarcoma
+malignant peripheral nerve sheath tumor|mpnst
+undifferentiated pleomorphic sarcoma|malignant fibrous histiocytoma
+alveolar soft part sarcoma
+dermatofibrosarcoma protuberans
+malignant melanoma|mucosal melanoma|melanoma
+ameloblastic carcinoma
+malignant ameloblastoma|metastasizing ameloblastoma
+primary intraosseous carcinoma
+clear cell odontogenic carcinoma
+ghost cell odontogenic carcinoma
+sclerosing odontogenic carcinoma
+ameloblastic fibrosarcoma
+odontogenic carcinosarcoma
+metastatic carcinoma to the jaw|metastatic cancer|jaw metastasis
+metastatic breast cancer
+metastatic lung cancer
+metastatic renal cell carcinoma
+metastatic prostate cancer
+metastatic thyroid cancer
+metastatic colon cancer
+metastatic hepatocellular carcinoma
+spindle cell carcinoma|sarcomatoid carcinoma
+basaloid squamous cell carcinoma
+papillary squamous cell carcinoma
+adenosquamous carcinoma
+lymphoepithelial carcinoma
+carcinoma in situ
+nut carcinoma|nut midline carcinoma
+sinonasal undifferentiated carcinoma|snuc
+esthesioneuroblastoma|olfactory neuroblastoma
+basal cell carcinoma
+merkel cell carcinoma
+cutaneous squamous cell carcinoma
+papillary thyroid carcinoma|papillary thyroid cancer
+follicular thyroid carcinoma
+medullary thyroid carcinoma
+anaplastic thyroid carcinoma
+hurthle cell carcinoma
+parathyroid carcinoma
+lacrimal gland carcinoma
+middle ear carcinoma
+chordoma
+mesenchymal chondrosarcoma
+langerhans cell sarcoma
+follicular dendritic cell sarcoma
+extramedullary plasmacytoma
+post transplant lymphoproliferative disorder|ptld
+carcinoma cuniculatum
+proliferative verrucous leukoplakia carcinoma
+`, "2026-11-08");
+P("Name a suture material or suturing technique","dental","",`
+silk|silk suture|black silk
+chromic gut|chromic catgut
+plain gut|plain catgut|gut|catgut
+vicryl|polyglactin|polyglactin 910
+simple interrupted suture|simple interrupted|interrupted suture
+continuous suture|running suture|simple continuous
+nylon|ethilon|monofilament nylon
+polypropylene|prolene
+ptfe suture|gore tex suture|cytoplast|expanded ptfe|eptfe
+monocryl|poliglecaprone|poliglecaprone 25
+pds|polydioxanone
+polyglycolic acid|pga suture|dexon
+fast absorbing gut|fast gut
+vicryl rapide
+polyester suture|ethibond|mersilene|dacron
+polybutester|novafil
+maxon|polyglyconate
+stainless steel wire|wire suture
+absorbable suture|resorbable suture
+nonabsorbable suture|non resorbable suture
+monofilament suture
+multifilament suture|braided suture
+horizontal mattress suture|horizontal mattress
+vertical mattress suture|vertical mattress
+figure of eight suture|figure eight suture|figure of 8
+sling suture
+continuous sling suture
+suspensory suture|suspension suture
+locking continuous suture|continuous locking suture|blanket stitch|baseball stitch
+criss cross suture|crisscross suture|x suture
+periosteal suture
+anchor suture
+purse string suture
+subcuticular suture|intradermal suture
+internal horizontal mattress suture
+crossed horizontal mattress suture
+double sling suture
+laurell loop|modified mattress suture
+caprosyn|polyglytone
+biosyn|glycomer 631
+polysorb|lactomer
+velosorb
+surgilon|braided nylon
+nurolon
+monosof|dermalon
+polyglycolic acid lactic acid|pgla
+continuous horizontal mattress suture
+continuous vertical mattress suture
+modified vertical mattress suture
+tie over bolster|bolster suture
+periosteal anchoring suture|vertical periosteal suture
+papillary suture|interdental suture
+everting suture|eversion
+holding suture|stay suture|traction suture
+tension free closure|primary closure
+surgeon knot|surgeons knot|surgeon's knot
+square knot
+granny knot
+slip knot
+instrument tie
+hand tie
+reverse cutting needle
+conventional cutting needle
+taper needle|round needle|taper point needle
+3/8 circle needle|three eighths circle
+1/2 circle needle|half circle needle
+swaged needle|atraumatic needle
+3 0 suture|3-0|3 0
+4 0 suture|4-0|4 0
+5 0 suture|5-0|5 0
+6 0 suture|6-0|6 0
+7 0 suture|7-0
+coated vicryl|vicryl plus|triclosan coated suture
+collagen suture
+kangaroo tendon
+linen suture
+cotton suture
+polyamide suture|supramid
+`, "2026-11-08");
+P("Name a bone graft or regenerative material used in dentistry","dental","",`
+autograft|autogenous bone graft|autogenous bone|own bone
+allograft|cadaver bone|donor bone
+xenograft|bovine bone|cow bone
+alloplast|synthetic bone graft|alloplastic graft
+bio oss|deproteinized bovine bone mineral|dbbm
+fdba|freeze dried bone allograft|mineralized allograft
+dfdba|demineralized freeze dried bone allograft|demineralized bone matrix|dbm
+collagen membrane|resorbable membrane|bio gide
+ptfe membrane|dptfe membrane|d ptfe|e ptfe membrane|gore tex membrane|non resorbable membrane|cytoplast membrane
+titanium mesh
+titanium reinforced membrane|titanium reinforced ptfe
+platelet rich fibrin|prf
+l prf|leukocyte platelet rich fibrin
+a prf|advanced platelet rich fibrin
+i prf|injectable prf
+platelet rich plasma|prp
+plasma rich in growth factors|prgf
+concentrated growth factor|cgf
+sticky bone
+emdogain|enamel matrix derivative|amelogenin|emd
+rhbmp 2|bmp 2|bone morphogenetic protein|infuse|bmp
+rhpdgf|pdgf|platelet derived growth factor|gem 21s
+fgf 2|fibroblast growth factor
+hydroxyapatite|ha
+beta tricalcium phosphate|beta tcp|tcp|tricalcium phosphate
+biphasic calcium phosphate|bcp
+bioactive glass|perioglas|novabone|bioglass
+calcium sulfate|plaster of paris graft
+calcium carbonate|coral graft|coralline hydroxyapatite
+algae derived hydroxyapatite|phycogenic graft
+equine bone|horse bone
+porcine bone|pig bone|porcine graft
+cortical bone graft
+cancellous bone graft
+corticocancellous graft
+particulate bone graft|bone particles
+block graft|bone block|onlay graft
+iliac crest graft|hip bone graft
+ramus graft|mandibular ramus graft
+chin graft|symphysis graft
+tibial graft
+calvarial graft|cranial bone graft
+rib graft|costochondral graft
+fibula free flap|fibula graft
+bone marrow aspirate|bone marrow aspirate concentrate
+stem cells|mesenchymal stem cells
+dental pulp stem cells
+tooth derived graft|autogenous dentin graft|dentin graft
+bone scrapings|bone collector
+connective tissue graft|ctg|subepithelial connective tissue graft
+free gingival graft|fgg
+acellular dermal matrix|alloderm|adm
+xenogeneic collagen matrix|mucograft
+porcine collagen matrix|fibro gide
+pericardium membrane|pericardial membrane
+amniotic membrane|amnion chorion membrane
+chorion membrane
+polylactic acid membrane|pla membrane
+polyglycolic acid membrane|resolut
+atrisorb|polylactic acid gel
+cross linked collagen
+collagen plug|collaplug|collatape|collagen sponge
+gelatin sponge|gelfoam
+oxidized cellulose|surgicel
+putty graft|bone putty
+dbx|grafton
+puros|allograft particulate
+mineross
+endobone
+osteograf
+bond apatite
+platelet gel
+fibrin glue|fibrin sealant
+hyaluronic acid
+chitosan
+doxycycline
+tetracycline root conditioning|root conditioning
+citric acid root conditioning
+edta root conditioning
+`, "2026-11-08");
+P("Name a head and neck embryology term","dental","",`
+pharyngeal arch|branchial arch|pharyngeal arches
+first pharyngeal arch|1st arch|mandibular arch
+second pharyngeal arch|2nd arch|hyoid arch
+third pharyngeal arch|3rd arch
+fourth pharyngeal arch|4th arch
+sixth pharyngeal arch|6th arch
+pharyngeal pouch|branchial pouch
+first pharyngeal pouch
+second pharyngeal pouch
+third pharyngeal pouch
+fourth pharyngeal pouch
+pharyngeal cleft|branchial cleft|pharyngeal groove
+pharyngeal membrane|branchial membrane
+neural crest cells|neural crest|cranial neural crest
+ectoderm
+mesoderm|paraxial mesoderm
+endoderm
+ectomesenchyme
+stomodeum|primitive mouth
+buccopharyngeal membrane|oropharyngeal membrane
+frontonasal process|frontonasal prominence
+maxillary process|maxillary prominence
+mandibular process|mandibular prominence
+medial nasal process|medial nasal prominence
+lateral nasal process|lateral nasal prominence
+nasal placode|olfactory placode
+nasal pit
+intermaxillary segment
+primary palate|premaxilla|median palatine process
+secondary palate
+palatal shelves|lateral palatine processes|palatine shelves
+palatal fusion|fusion of palatal shelves
+incisive foramen
+philtrum
+nasolacrimal groove|nasolacrimal duct
+meckel cartilage|meckel's cartilage
+reichert cartilage|reichert's cartilage
+malleus
+incus
+stapes
+styloid process
+stylohyoid ligament
+sphenomandibular ligament
+anterior ligament of malleus
+lesser horn of hyoid|lesser cornu of hyoid
+greater horn of hyoid|greater cornu of hyoid
+body of hyoid
+thyroid cartilage
+cricoid cartilage
+arytenoid cartilage
+muscles of mastication|muscles of mastication from first arch
+muscles of facial expression|muscles of facial expression from second arch
+stylopharyngeus
+cricothyroid
+trigeminal nerve|cn v|cranial nerve v
+facial nerve|cn vii|cranial nerve vii
+glossopharyngeal nerve|cn ix
+vagus nerve|cn x
+superior laryngeal nerve
+recurrent laryngeal nerve
+auditory tube|eustachian tube
+middle ear cavity|tympanic cavity
+external auditory meatus
+tympanic membrane
+palatine tonsil
+tonsillar fossa
+inferior parathyroid glands
+superior parathyroid glands
+thymus
+ultimobranchial body
+parafollicular cells|c cells
+thyroid gland development|thyroid diverticulum
+foramen cecum
+thyroglossal duct
+thyroglossal duct cyst
+lingual thyroid
+tuberculum impar|median tongue bud
+lateral lingual swellings|distal tongue buds
+copula|hypobranchial eminence
+epiglottal swelling
+sulcus terminalis
+occipital somites|myotomes|tongue muscles from occipital somites
+hypoglossal nerve|cn xii
+branchial cleft cyst|branchial cyst|lateral neck cyst
+branchial fistula|branchial sinus
+preauricular sinus|preauricular pit
+cervical sinus
+cleft lip
+cleft palate
+cleft lip and palate
+bifid uvula|submucous cleft
+oblique facial cleft
+macrostomia|lateral facial cleft
+median cleft lip
+lip pits
+pierre robin sequence
+treacher collins syndrome|mandibulofacial dysostosis
+first arch syndrome
+hemifacial microsomia|goldenhar syndrome|oculoauriculovertebral spectrum
+digeorge syndrome|22q11 deletion|velocardiofacial syndrome
+van der woude syndrome
+stickler syndrome
+holoprosencephaly
+fetal alcohol syndrome
+crouzon syndrome
+apert syndrome
+craniosynostosis
+fontanelle|anterior fontanelle
+cranial sutures
+neurocranium
+viscerocranium|splanchnocranium
+chondrocranium
+intramembranous ossification
+endochondral ossification
+condylar cartilage|secondary cartilage
+synchondrosis|spheno occipital synchondrosis
+dental lamina
+vestibular lamina
+tooth bud
+rathke pouch
+craniopharyngioma
+otic placode
+lens placode
+optic vesicle
+mandibular symphysis
+mental ossicles
+nasal septum
+vomer
+nasal conchae
+paranasal sinus development
+sinus pneumatization
+merging
+fusion
+apoptosis
+epithelial mesenchymal transition
+sonic hedgehog|shh
+bmp|bone morphogenetic protein
+fgf|fibroblast growth factor
+hox genes
+msx1
+pax9
+tgf beta 3
+irf6
+retinoic acid
+folic acid|folate
+teratogen
+phenytoin teratogen|fetal hydantoin syndrome
+isotretinoin embryopathy|accutane
+thalidomide
+`, "2026-11-08");
+P("Name a cause of enamel hypoplasia or hypomineralization","dental","",`
+fluorosis|dental fluorosis|too much fluoride|excess fluoride
+molar incisor hypomineralization|mih|chalky molars
+amelogenesis imperfecta
+hypoplastic amelogenesis imperfecta
+hypomaturation amelogenesis imperfecta
+hypocalcified amelogenesis imperfecta
+turner tooth|turner hypoplasia|infected primary tooth|periapical infection of primary tooth
+trauma to primary tooth|dental trauma|intrusion of primary tooth
+congenital syphilis|hutchinson incisors|mulberry molars|moon molars
+high fever in childhood|febrile illness|childhood fever
+measles
+chickenpox|varicella
+vitamin d deficiency|rickets
+vitamin a deficiency
+vitamin c deficiency|scurvy
+calcium deficiency|hypocalcemia
+malnutrition|nutritional deficiency|protein energy malnutrition
+hypoparathyroidism
+pseudohypoparathyroidism
+vitamin d resistant rickets|hypophosphatemic rickets|x linked hypophosphatemia
+premature birth|preterm birth|prematurity
+low birth weight
+neonatal intubation|laryngoscope trauma
+neonatal hypocalcemia
+neonatal jaundice|hyperbilirubinemia|kernicterus
+erythroblastosis fetalis|rh incompatibility|hemolytic disease of the newborn
+maternal diabetes|gestational diabetes
+maternal illness during pregnancy
+maternal smoking|smoking during pregnancy
+maternal vitamin d deficiency
+chemotherapy|childhood chemotherapy
+radiation therapy|childhood radiation
+celiac disease
+chronic kidney disease|renal disease|nephrotic syndrome
+congenital heart disease
+cystic fibrosis
+cerebral palsy
+asthma in early childhood
+frequent antibiotic use|amoxicillin in infancy
+tetracycline
+epidermolysis bullosa|junctional epidermolysis bullosa
+tuberous sclerosis|enamel pitting
+down syndrome
+ectodermal dysplasia
+regional odontodysplasia|ghost teeth
+apeced|autoimmune polyendocrinopathy|aps 1
+jalili syndrome
+kohlschutter tonz syndrome
+trichodentoosseous syndrome
+amelo onycho hypohidrotic syndrome
+heimler syndrome
+otodental syndrome
+enamel renal syndrome
+ellis van creveld syndrome
+prader willi syndrome
+dioxins|environmental pollutants|pcbs
+bisphenol a|bpa
+lead exposure|lead poisoning
+cleft lip and palate
+hypothyroidism
+gastrointestinal disorders|malabsorption
+diarrhea in infancy
+otitis media|ear infections
+pneumonia in infancy
+hiv|hiv infection
+idiopathic|unknown
+genetics|genetic|hereditary
+ameloblastin mutation|enamelin mutation|amelx mutation
+congenital rubella|rubella
+congenital cytomegalovirus|cmv
+biliary atresia
+birth asphyxia|perinatal hypoxia|hypoxia at birth
+cesarean delivery|c section|prolonged labor
+gastroenteritis in infancy
+tonsillitis in infancy
+urinary tract infection in infancy
+phenylketonuria|pku
+hypomagnesemia
+`, "2026-11-08");
+P("Name a complication of orthodontic treatment","dental","",`
+white spot lesions|decalcification|demineralization
+cavities|caries|tooth decay
+root resorption|external apical root resorption|eiarr|root shortening
+relapse|crowding coming back|teeth moving back
+gingivitis|gum inflammation
+gingival enlargement|gingival hyperplasia|swollen gums
+gingival recession|gum recession
+black triangles|open gingival embrasures
+pain|soreness|discomfort
+mouth ulcers|canker sores|sores from brackets|mucosal ulceration
+poking wire|wire irritation
+broken bracket|loose bracket|bracket debonding
+broken wire
+loose band
+swallowed appliance|swallowed bracket
+aspirated appliance|inhaled bracket
+nickel allergy|allergic reaction
+latex allergy|elastic allergy
+tmj disorder|tmd|jaw pain
+tooth mobility|loose teeth
+pulp necrosis|dead tooth|loss of vitality
+pulpitis|tooth sensitivity
+enamel damage on debonding|enamel fracture|enamel loss
+enamel wear|tooth wear
+bone loss|alveolar bone loss
+dehiscence
+fenestration
+periodontal attachment loss|periodontitis
+ankylosis
+tooth fracture
+bad breath|halitosis
+food trapping|plaque buildup|poor oral hygiene
+speech problems|lisp
+difficulty eating
+open bite
+anchorage loss|loss of anchorage
+unwanted tooth movement|side effects of tooth movement
+root proximity
+root contact|root damage
+tad failure|mini screw failure|miniscrew loosening
+tad root injury|miniscrew root damage
+nerve injury|paresthesia
+soft tissue impingement|palatal impingement
+palatal expander complications|rpe complications|palatal tissue necrosis
+expansion screw failure
+midline diastema after expansion
+incomplete treatment|treatment failure
+prolonged treatment time|longer treatment
+non compliance|poor compliance
+aligner problems|aligner fit issues
+aligner attachments falling off
+staining|tooth discoloration
+burn from bonding light
+chemical burn from etchant
+eye injury from headgear|headgear injury
+headgear facebow injury
+facial scarring
+tongue irritation
+cheek biting
+lip irritation|lip ulcers
+traumatic ulcer
+retainer breakage|broken retainer|lost retainer
+bonded retainer failure|lingual retainer debond
+wire syndrome|retainer wire activation
+gingival cleft
+bacteremia
+pseudopockets|pseudopocketing
+inflammation around miniscrew|peri miniscrew inflammation
+miniscrew fracture|tad fracture
+sinus perforation by miniscrew
+condylar resorption|idiopathic condylar resorption
+posterior open bite
+occlusal interference
+elastic migration|subgingival elastic|elastic slipped under gums
+adhesive remnants|residual composite
+ipr damage|stripping damage|interproximal reduction damage
+sensitivity after ipr
+flared incisors|incisor proclination
+loss of root torque
+`, "2026-11-08");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

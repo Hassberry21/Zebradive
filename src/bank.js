@@ -45862,6 +45862,1445 @@ hymenolepis nana|dwarf tapeworm
 rhabditis|halicephalobus
 `, "2026-11-08");
 
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE part 6 (batch 2026-11-06, board-first) ---- */
+P("Name an infection during pregnancy or in a newborn","micro","",`
+group b streptococcus|gbs|group b strep|streptococcus agalactiae|gbs sepsis|early onset gbs|neonatal gbs
+congenital syphilis|syphilis|syphilis in pregnancy|treponema pallidum|early congenital syphilis|late congenital syphilis
+toxoplasmosis|congenital toxoplasmosis|toxoplasma|toxoplasma gondii|toxo
+cytomegalovirus|cmv|congenital cmv|congenital cytomegalovirus
+rubella|congenital rubella|congenital rubella syndrome|german measles
+neonatal herpes|neonatal hsv|herpes simplex|hsv|herpes|neonatal herpes simplex|genital herpes in pregnancy|hsv-2
+listeria|listeriosis|listeria monocytogenes|granulomatosis infantiseptica
+e coli sepsis|escherichia coli|e coli|neonatal e coli meningitis|e coli k1
+chorioamnionitis|intra-amniotic infection|intraamniotic infection|triple i|amniotic fluid infection|intrauterine infection
+neonatal sepsis|early onset sepsis|late onset sepsis|sepsis neonatorum
+neonatal meningitis
+endometritis|postpartum endometritis|puerperal endometritis|endomyometritis
+mastitis|lactational mastitis|puerperal mastitis
+ophthalmia neonatorum|neonatal conjunctivitis
+gonococcal conjunctivitis|gonococcal ophthalmia neonatorum|neonatal gonococcal conjunctivitis
+chlamydial conjunctivitis|neonatal chlamydial conjunctivitis|inclusion conjunctivitis
+chlamydial pneumonia|neonatal chlamydial pneumonia|chlamydia trachomatis pneumonia|staccato cough pneumonia
+parvovirus b19|parvovirus|fifth disease|erythema infectiosum|parvovirus hydrops
+zika|zika virus|congenital zika syndrome
+varicella|chickenpox|congenital varicella syndrome|neonatal varicella|varicella zoster|vzv|varicella pneumonia in pregnancy
+hiv|perinatal hiv|vertical hiv transmission|mother to child hiv transmission|hiv in pregnancy
+hepatitis b|hbv|perinatal hepatitis b|vertical hepatitis b
+hepatitis c|hcv|perinatal hepatitis c
+hepatitis e|hev|fulminant hepatitis e in pregnancy
+asymptomatic bacteriuria
+urinary tract infection in pregnancy|uti in pregnancy|uti
+pyelonephritis|acute pyelonephritis|pyelonephritis in pregnancy
+cystitis|acute cystitis
+gonorrhea|gonorrhoea|neisseria gonorrhoeae|gonorrhea in pregnancy
+chlamydia|chlamydia trachomatis|chlamydia in pregnancy
+bacterial vaginosis|bv|gardnerella vaginalis
+trichomoniasis|trichomonas|trichomonas vaginalis
+vulvovaginal candidiasis|candida vaginitis|yeast infection|vaginal candidiasis
+oral thrush|thrush|oral candidiasis|neonatal thrush
+omphalitis
+neonatal tetanus|tetanus neonatorum
+staphylococcal scalded skin syndrome|ssss|ritter disease
+neonatal pneumonia|congenital pneumonia
+puerperal sepsis|puerperal fever|childbed fever|maternal sepsis
+group a streptococcus|group a strep|streptococcus pyogenes|invasive group a strep
+wound infection|cesarean wound infection|post-cesarean wound infection|surgical site infection
+perineal wound infection|episiotomy infection
+breast abscess
+septic pelvic thrombophlebitis|ovarian vein thrombophlebitis
+septic abortion
+toxic shock syndrome|tss
+influenza in pregnancy|influenza|flu
+covid-19 in pregnancy|covid-19|covid|sars-cov-2
+pertussis|whooping cough|bordetella pertussis|neonatal pertussis
+respiratory syncytial virus|rsv|rsv bronchiolitis
+malaria in pregnancy|malaria|placental malaria|congenital malaria
+tuberculosis|tb|congenital tuberculosis|tb in pregnancy
+enterovirus|neonatal enterovirus|neonatal enteroviral sepsis
+coxsackievirus|coxsackie b|neonatal coxsackie myocarditis
+echovirus
+parechovirus|human parechovirus
+coagulase negative staphylococcus|cons|staphylococcus epidermidis|staph epidermidis
+staphylococcus aureus|staph aureus|mrsa
+klebsiella|klebsiella pneumoniae
+enterococcus|enterococcal sepsis
+haemophilus influenzae|h influenzae|nontypeable haemophilus influenzae
+streptococcus pneumoniae|pneumococcus
+pseudomonas|pseudomonas aeruginosa
+citrobacter|citrobacter koseri|neonatal brain abscess
+cronobacter|cronobacter sakazakii|enterobacter sakazakii
+serratia|serratia marcescens
+neonatal candidiasis|invasive candidiasis|neonatal candidemia
+congenital candidiasis|congenital cutaneous candidiasis
+candidal diaper dermatitis|candida diaper rash
+bullous impetigo|neonatal impetigo|pemphigus neonatorum|impetigo
+neonatal osteomyelitis|osteomyelitis
+septic arthritis|neonatal septic arthritis
+neonatal urinary tract infection|neonatal uti
+mastitis neonatorum|neonatal mastitis
+funisitis
+villitis|placentitis
+human papillomavirus|hpv|condyloma acuminata in pregnancy|recurrent respiratory papillomatosis|juvenile laryngeal papillomatosis
+ureaplasma|ureaplasma urealyticum
+mycoplasma hominis
+mycoplasma genitalium
+cervicitis|mucopurulent cervicitis
+measles in pregnancy|measles|rubeola
+mumps
+hepatitis a|hav
+hepatitis d|hdv|delta hepatitis
+htlv-1|human t-lymphotropic virus
+lymphocytic choriomeningitis virus|lcmv|congenital lcmv
+west nile virus|wnv
+dengue|dengue in pregnancy
+chikungunya
+ebola|ebola virus disease
+lassa fever
+lyme disease|lyme disease in pregnancy|borrelia burgdorferi
+relapsing fever|congenital relapsing fever|borrelia recurrentis
+leptospirosis
+q fever|coxiella burnetii
+brucellosis|brucella
+chagas disease|congenital chagas|trypanosoma cruzi
+coccidioidomycosis|valley fever|disseminated coccidioidomycosis in pregnancy
+campylobacter fetus|campylobacter
+salmonella|salmonellosis|typhoid fever
+adenovirus|disseminated neonatal adenovirus
+rotavirus
+clostridium sordellii
+clostridium perfringens|gas gangrene of uterus
+necrotizing fasciitis|postpartum necrotizing fasciitis
+pelvic abscess|postpartum pelvic abscess|tubo-ovarian abscess
+maternal pneumonia|pneumonia in pregnancy
+malassezia furfur fungemia|malassezia
+elizabethkingia meningoseptica|chryseobacterium meningosepticum
+acinetobacter
+central line associated bloodstream infection|clabsi|nicu clabsi
+fetal scalp electrode abscess|scalp abscess
+dacryocystitis|neonatal dacryocystitis
+neonatal parotitis|suppurative parotitis
+`, "2026-11-08");
+
+P("Name an interventional radiology procedure","tests","",`
+transjugular intrahepatic portosystemic shunt|tips
+inferior vena cava filter placement|ivc filter|ivc filter placement|greenfield filter
+uterine artery embolization|uae|uterine fibroid embolization|ufe|fibroid embolization
+transarterial chemoembolization|tace|chemoembolization|deb-tace
+radioembolization|transarterial radioembolization|tare|y-90|yttrium-90 radioembolization|selective internal radiation therapy|sirt
+ct-guided biopsy|ct guided biopsy|image guided biopsy|percutaneous biopsy
+ultrasound-guided biopsy|us guided biopsy
+radiofrequency ablation|rfa
+microwave ablation|mwa
+cryoablation
+percutaneous nephrostomy|nephrostomy tube|pcn|nephrostomy
+percutaneous cholecystostomy|cholecystostomy tube|cholecystostomy
+percutaneous transhepatic cholangiography|ptc
+percutaneous biliary drainage|ptbd|percutaneous transhepatic biliary drainage|biliary drain
+percutaneous abscess drainage|abscess drainage|image-guided abscess drainage|drain placement
+paracentesis
+thoracentesis
+angiography|catheter angiography|diagnostic angiography|digital subtraction angiography|dsa
+angioplasty|balloon angioplasty|percutaneous transluminal angioplasty|pta
+stent placement|endovascular stenting|vascular stent
+mechanical thrombectomy|stroke thrombectomy|endovascular thrombectomy
+catheter-directed thrombolysis|cdt|catheter directed thrombolysis
+embolization|transcatheter embolization|arterial embolization|transcatheter arterial embolization
+gi bleed embolization|mesenteric embolization|gastrointestinal bleeding embolization
+bronchial artery embolization|bae
+splenic artery embolization|splenic embolization
+pelvic embolization|pelvic trauma embolization|internal iliac artery embolization
+endovascular aneurysm repair|evar
+thoracic endovascular aortic repair|tevar
+aneurysm coiling|coil embolization|endovascular coiling
+central venous catheter placement|central line placement|central venous access
+picc line placement|picc|peripherally inserted central catheter|picc line
+port placement|port-a-cath|chest port|implantable port|mediport|portacath
+tunneled dialysis catheter|tunneled hemodialysis catheter|permcath|tesio catheter
+tunneled central venous catheter|hickman catheter|tunneled catheter
+gastrostomy tube placement|percutaneous radiologic gastrostomy|radiologically inserted gastrostomy|g tube placement|prg|rig
+gastrojejunostomy tube placement|gj tube|gj tube placement
+vertebroplasty
+kyphoplasty|balloon kyphoplasty
+carotid artery stenting|carotid stenting|cas
+renal artery stenting|renal artery angioplasty
+prostate artery embolization|pae
+varicocele embolization|gonadal vein embolization
+ovarian vein embolization|pelvic congestion syndrome embolization
+portal vein embolization|pve
+balloon-occluded retrograde transvenous obliteration|brto
+endovenous ablation|endovenous laser ablation|evla|vein ablation|radiofrequency vein ablation
+sclerotherapy|percutaneous sclerotherapy|venous malformation sclerotherapy
+dialysis fistulogram|fistulogram|av fistula angioplasty|fistuloplasty
+dialysis graft thrombectomy|declot|dialysis access declot|av graft thrombectomy
+venography|venogram
+venous stenting|iliac vein stenting|may-thurner stenting
+superior vena cava stenting|svc stenting
+deep vein thrombectomy|pharmacomechanical thrombectomy|dvt thrombectomy
+pulmonary embolism thrombectomy|percutaneous pulmonary embolectomy|pe thrombectomy|mechanical pulmonary embolectomy
+ultrasound-assisted catheter-directed thrombolysis|ekos
+ivc filter retrieval|ivc filter removal
+cerebral angiography|cerebral angiogram|four vessel angiogram
+pulmonary angiography|pulmonary angiogram
+transjugular liver biopsy|transjugular biopsy
+liver biopsy|percutaneous liver biopsy
+renal biopsy|kidney biopsy
+lung biopsy|ct guided lung biopsy|transthoracic needle biopsy
+fine needle aspiration|fna
+thyroid biopsy|thyroid fna|thyroid nodule biopsy
+bone biopsy
+breast biopsy|stereotactic breast biopsy|image guided breast biopsy
+lymph node biopsy|image guided lymph node biopsy
+hepatic venous pressure gradient measurement|hvpg|wedged hepatic venous pressure
+inferior petrosal sinus sampling|ipss
+adrenal vein sampling|avs
+selective arterial calcium stimulation test|arterial calcium stimulation
+epidural steroid injection|esi
+facet joint injection|facet injection
+medial branch block
+medial branch radiofrequency ablation|facet rhizotomy|radiofrequency neurotomy
+celiac plexus block|celiac plexus neurolysis
+superior hypogastric plexus block
+sacroiliac joint injection|si joint injection
+lumbar puncture|fluoroscopic lumbar puncture|image-guided lumbar puncture
+myelogram|myelography
+arthrogram|arthrography
+image guided joint injection|joint injection
+discography|discogram
+hysterosalpingogram|hsg
+fallopian tube recanalization|tubal recanalization
+tunneled pleural catheter|pleurx catheter|indwelling pleural catheter
+chest tube placement|image guided chest tube
+pleurodesis
+ureteral stent placement|antegrade ureteral stent|nephroureteral stent
+suprapubic catheter placement|percutaneous suprapubic cystostomy
+percutaneous cecostomy|cecostomy
+esophageal stent placement|esophageal stent
+colonic stent placement|colonic stent
+duodenal stent|gastroduodenal stent
+biliary stent placement|percutaneous biliary stent
+percutaneous cholangioscopy|percutaneous biliary stone removal
+lymphangiography|lymphangiogram
+thoracic duct embolization
+pseudoaneurysm thrombin injection|thrombin injection
+percutaneous pseudocyst drainage|pseudocyst drainage
+cyst aspiration and sclerosis|renal cyst sclerotherapy|lymphocele sclerotherapy
+irreversible electroporation|ire|nanoknife
+percutaneous ethanol injection|ethanol ablation|pei
+histotripsy
+bland embolization|hepatic artery embolization
+renal artery embolization|renal embolization|angiomyolipoma embolization
+pulmonary arteriovenous malformation embolization|pavm embolization
+arteriovenous malformation embolization|avm embolization
+endoleak embolization|endoleak repair
+genicular artery embolization|gae
+hemorrhoidal artery embolization|hemorrhoid artery embolization
+bariatric embolization|left gastric artery embolization
+middle meningeal artery embolization|mma embolization
+flow diverter|pipeline embolization device|flow diversion
+venous sinus stenting
+spinal angiography|spinal angiogram
+wada test|intracarotid amobarbital test
+balloon test occlusion
+intra-arterial chemotherapy|hepatic arterial infusion
+atherectomy|peripheral atherectomy
+renal denervation
+resuscitative endovascular balloon occlusion of the aorta|reboa
+intravascular foreign body retrieval|foreign body retrieval
+endovascular av fistula creation|endoavf|percutaneous av fistula creation
+uterine artery embolization for postpartum hemorrhage|pph embolization
+sacroplasty
+cementoplasty|osteoplasty
+tumor biopsy|soft tissue biopsy
+`, "2026-11-08");
+
+P("Name a diagnostic test for an infectious disease","tests","",`
+blood culture|blood cultures
+gram stain
+urine culture
+rapid strep test|rapid antigen detection test|radt|rapid strep
+throat culture
+monospot|heterophile antibody test|monospot test|paul-bunnell test
+rpr|rapid plasma reagin
+vdrl|venereal disease research laboratory|csf vdrl
+fta-abs|fluorescent treponemal antibody absorption
+tp-pa|treponema pallidum particle agglutination|tppa|mha-tp
+darkfield microscopy|dark field microscopy|darkfield
+hiv 4th generation test|hiv ag/ab combo|fourth generation hiv test|hiv antigen antibody test|hiv-1/2 antigen antibody immunoassay
+hiv-1/hiv-2 differentiation assay|hiv differentiation immunoassay|geenius
+western blot|immunoblot|hiv western blot|lyme western blot
+elisa|enzyme linked immunosorbent assay|eia|enzyme immunoassay
+hiv viral load|hiv rna|hiv pcr|hiv nat
+rapid hiv test|oraquick|hiv rapid test
+p24 antigen
+interferon gamma release assay|igra|quantiferon|quantiferon-tb gold|t-spot|t-spot.tb
+tuberculin skin test|ppd|mantoux test|tst|purified protein derivative
+afb smear|acid fast bacilli smear|acid fast stain|afb stain|ziehl-neelsen stain
+afb culture|mycobacterial culture|tb culture|lowenstein-jensen culture
+genexpert|xpert mtb/rif|tb pcr|tb naat
+hepatitis b surface antigen|hbsag
+hepatitis b surface antibody|anti-hbs|hbsab
+hepatitis b core antibody|anti-hbc|hbcab|igm anti-hbc
+hepatitis b e antigen|hbeag
+hepatitis b e antibody|anti-hbe
+hbv dna|hepatitis b viral load|hbv pcr
+hepatitis c antibody|anti-hcv|hcv antibody
+hcv rna|hepatitis c viral load|hcv pcr
+hcv genotype
+hepatitis a igm|anti-hav igm|hav igm
+hepatitis a total antibody|anti-hav|hav igg
+hepatitis d antibody|anti-hdv
+hepatitis e antibody|anti-hev|hev igm
+pcr|polymerase chain reaction|rt-pcr|reverse transcriptase pcr
+naat|nucleic acid amplification test
+chlamydia gonorrhea naat|gc/ct naat|gc chlamydia pcr|chlamydia naat|gonorrhea naat|aptima
+gonorrhea culture|thayer-martin culture|modified thayer-martin
+wet mount|wet prep|saline wet mount
+koh prep|potassium hydroxide prep|koh preparation|koh
+whiff test|amine test
+vaginal ph|vaginal ph testing
+nugent score
+trichomonas naat|trichomonas pcr|osom trichomonas rapid test
+urinalysis|ua|urine dipstick|leukocyte esterase|nitrite test
+csf analysis|lumbar puncture|spinal tap
+csf culture
+sputum culture
+wound culture
+stool culture
+stool ova and parasites|ova and parasites|o&p|stool o and p|stool microscopy
+c difficile toxin test|c diff toxin|c diff pcr|clostridioides difficile test|c diff gdh|gdh antigen
+covid-19 pcr|sars-cov-2 pcr|covid pcr
+covid antigen test|covid rapid antigen test|covid rapid test|home covid test
+rapid influenza diagnostic test|rapid flu test|ridt|flu swab
+influenza pcr|flu pcr
+respiratory viral panel|rvp|respiratory pathogen panel|biofire respiratory panel|multiplex respiratory pcr
+rsv antigen test|rsv test|rsv pcr
+gastrointestinal pathogen panel|gi pcr panel|biofire gi panel|stool pcr panel
+meningitis encephalitis panel|me panel|biofire me panel|csf pcr panel
+hsv pcr|herpes pcr|csf hsv pcr
+tzanck smear|tzanck test|tzanck prep
+viral culture
+direct fluorescent antibody|dfa|direct immunofluorescence
+hsv serology|hsv type specific serology|hsv-2 igg
+vzv pcr|varicella pcr
+varicella igg|varicella serology|vzv igg
+cmv pcr|cmv viral load
+cmv serology|cmv igm|cmv igg
+cmv pp65 antigenemia
+ebv serology|ebv vca igm|epstein barr virus serology|ebna
+ebv pcr|ebv viral load
+toxoplasma serology|toxoplasma igg|toxoplasma igm|toxo titer
+torch titers|torch panel|torch screen
+rubella igg|rubella serology|rubella immunity
+measles igm|measles serology|measles pcr
+mumps serology|mumps pcr
+parvovirus b19 igm|parvovirus serology
+hpv testing|hpv dna test|hpv co-test
+lyme serology|lyme titer|lyme elisa|two-tier lyme testing|lyme antibody
+blood smear|peripheral smear for malaria|malaria smear|thick and thin blood smear|thick smear|thin smear
+malaria rapid diagnostic test|binaxnow malaria|malaria rdt
+babesia pcr
+ehrlichia pcr|anaplasma pcr|tick-borne pcr panel
+rocky mountain spotted fever serology|rmsf serology|rickettsia serology
+indirect immunofluorescence assay|ifa
+weil-felix test
+widal test
+typhidot
+brucella serology|brucella agglutination|rose bengal test
+q fever serology|coxiella serology
+leptospira serology|microscopic agglutination test|mat
+bartonella serology|cat scratch serology
+legionella urinary antigen|legionella urine antigen
+pneumococcal urinary antigen|strep pneumo urine antigen|s pneumoniae urine antigen
+legionella culture|bcye culture|buffered charcoal yeast extract
+cold agglutinins|cold agglutinin test
+mycoplasma pcr|mycoplasma igm|mycoplasma serology
+pertussis pcr|bordetella pcr|pertussis culture
+diphtheria culture|tellurite agar
+elek test
+aso titer|antistreptolysin o|aslo
+anti-dnase b|anti dnase b
+streptozyme
+cryptococcal antigen|crag|cryptococcal antigen test
+india ink stain|india ink
+histoplasma antigen|histoplasma urine antigen
+blastomyces antigen|blastomyces urine antigen
+coccidioides serology|cocci serology
+beta-d-glucan|1 3 beta d glucan|fungitell
+galactomannan|aspergillus galactomannan|aspergillus antigen
+fungal culture|sabouraud agar culture
+calcofluor white stain|calcofluor white
+gms stain|grocott methenamine silver|silver stain
+pneumocystis dfa|pcp dfa|pneumocystis pcr|induced sputum for pcp
+h pylori urea breath test|urea breath test|ubt
+h pylori stool antigen|stool antigen test
+h pylori serology|h pylori igg
+rapid urease test|clo test|campylobacter-like organism test
+giardia antigen|stool giardia antigen|giardia eia
+cryptosporidium antigen|cryptosporidium eia
+modified acid fast stain|kinyoun stain
+string test|entero-test
+entamoeba serology|amebic serology|e histolytica antigen
+strongyloides serology|strongyloides igg
+schistosoma serology
+cysticercosis serology|cysticercosis western blot|eitb
+toxocara serology
+echinococcus serology|hydatid serology|casoni test
+tape test|scotch tape test|cellophane tape test|pinworm tape test
+skin snip
+microfilaria blood smear|night blood smear
+rk39 test|rk39 rapid test
+leishmanin skin test|montenegro test
+chagas serology|trypanosoma cruzi serology
+dengue ns1 antigen|ns1 antigen
+dengue igm|dengue serology
+zika pcr|zika serology|zika igm
+west nile igm|west nile virus csf igm
+rabies dfa|nuchal skin biopsy for rabies|rabies testing
+ebola pcr
+mpox pcr|monkeypox pcr
+norovirus pcr
+rotavirus antigen|rotavirus eia
+enterovirus pcr
+adenovirus pcr
+bk virus pcr
+shiga toxin test|stx eia|shiga toxin pcr
+mouse bioassay|botulinum toxin mouse bioassay
+fecal leukocytes|fecal lactoferrin|stool wbc
+procalcitonin
+cd4 count|cd4
+hiv genotype|hiv resistance testing|genotypic resistance testing
+antimicrobial susceptibility testing|culture and sensitivity|c&s|mic|minimum inhibitory concentration
+latex agglutination|latex agglutination test
+complement fixation test|complement fixation
+hemagglutination inhibition test|hemagglutination inhibition
+plaque reduction neutralization test|prnt|neutralization test
+catalase test
+coagulase test
+optochin sensitivity|optochin test
+bacitracin sensitivity|bacitracin test
+novobiocin sensitivity
+camp test
+oxidase test
+quellung reaction|quellung test
+bile esculin test|bile esculin agar
+pyr test
+urease test
+indole test
+germ tube test
+maldi-tof|maldi-tof mass spectrometry
+16s rrna sequencing|16s sequencing
+metagenomic next-generation sequencing|mngs|karius test|cell-free dna sequencing
+giemsa stain|wright-giemsa stain
+warthin-starry stain
+pas stain|periodic acid-schiff stain
+mucicarmine stain
+auramine-rhodamine stain|auramine rhodamine
+synovial fluid culture|arthrocentesis|joint aspiration
+pleural fluid culture|pleural fluid analysis
+ascitic fluid analysis|diagnostic paracentesis|ascitic fluid pmn count
+bronchoalveolar lavage|bal
+gastric aspirate for afb|gastric aspirate
+wood's lamp exam|wood lamp|woods lamp
+mineral oil scraping|skin scraping for scabies|scabies prep
+lepromin test
+limulus amebocyte lysate assay|lal assay
+aspergillus precipitins
+frei test
+dick test
+schick test
+`, "2026-11-08");
+
+P("Name a cardiac procedure or intervention","tests","",`
+percutaneous coronary intervention|pci|coronary angioplasty|angioplasty|ptca|coronary stent|stenting|stent placement
+coronary artery bypass graft|cabg|bypass surgery|heart bypass|coronary artery bypass grafting|cabbage
+cardiac catheterization|heart cath|cardiac cath|left heart catheterization|coronary angiography|coronary angiogram
+right heart catheterization|right heart cath|swan-ganz catheter|pulmonary artery catheter|swan ganz
+transcatheter aortic valve replacement|tavr|tavi|transcatheter aortic valve implantation
+surgical aortic valve replacement|savr|aortic valve replacement|avr
+pacemaker|pacemaker implantation|permanent pacemaker|ppm
+implantable cardioverter defibrillator|icd|icd implantation|aicd
+cardioversion|electrical cardioversion|synchronized cardioversion|dc cardioversion|dccv
+defibrillation|defib
+catheter ablation|ablation|radiofrequency ablation|rfa|cardiac ablation
+pulmonary vein isolation|pvi|af ablation|atrial fibrillation ablation|afib ablation
+pericardiocentesis
+left ventricular assist device|lvad|ventricular assist device|vad
+heart transplant|cardiac transplantation|orthotopic heart transplant|heart transplantation
+intra-aortic balloon pump|iabp|balloon pump|intra-aortic balloon counterpulsation
+cardiac resynchronization therapy|crt|biventricular pacemaker|biv pacemaker|crt-d|crt-p
+transcutaneous pacing|external pacing
+temporary pacemaker|transvenous pacing|temporary transvenous pacemaker
+thrombolysis|fibrinolysis|thrombolytic therapy|tpa for stemi|fibrinolytic therapy
+mitral valve repair|mitral annuloplasty
+mitral valve replacement|mvr
+transcatheter edge-to-edge repair|teer|mitraclip|transcatheter mitral valve repair
+percutaneous mitral balloon commissurotomy|pmbc|balloon mitral valvuloplasty|percutaneous mitral valvotomy|pmbv
+balloon aortic valvuloplasty|bav|balloon valvuloplasty
+pericardial window|pericardiostomy
+pericardiectomy
+septal myectomy|surgical myectomy|morrow procedure
+alcohol septal ablation|septal ablation
+left atrial appendage occlusion|watchman|laao|left atrial appendage closure
+pfo closure|patent foramen ovale closure
+asd closure|atrial septal defect closure|amplatzer septal occluder
+vsd closure|ventricular septal defect repair|vsd repair
+pda closure|patent ductus arteriosus closure|pda ligation
+tetralogy of fallot repair|tof repair|complete repair of tetralogy
+blalock-taussig shunt|bt shunt|blalock taussig thomas shunt|modified blalock-taussig shunt
+arterial switch operation|arterial switch|jatene procedure
+norwood procedure|norwood
+glenn procedure|bidirectional glenn|glenn shunt
+fontan procedure|fontan
+balloon atrial septostomy|rashkind procedure
+coarctation repair|coarctation of the aorta repair|coarctation stenting
+electrophysiology study|ep study|eps
+transesophageal echocardiogram|tee
+endomyocardial biopsy|cardiac biopsy
+extracorporeal membrane oxygenation|ecmo|va ecmo|veno-arterial ecmo
+impella|percutaneous ventricular assist device
+cardiopulmonary resuscitation|cpr|chest compressions
+vagal maneuvers|valsalva maneuver|modified valsalva
+carotid sinus massage
+atrial flutter ablation|cavotricuspid isthmus ablation|cti ablation
+svt ablation|avnrt ablation|slow pathway ablation
+accessory pathway ablation|wpw ablation
+ventricular tachycardia ablation|vt ablation
+av node ablation|ablate and pace|avn ablation
+cryoballoon ablation|cryoablation
+pulsed field ablation|pfa
+maze procedure|cox maze|surgical ablation
+leadless pacemaker|micra
+subcutaneous icd|s-icd
+wearable cardioverter defibrillator|lifevest
+conduction system pacing|his bundle pacing|left bundle branch area pacing
+implantable loop recorder|loop recorder|ilr|linq
+lead extraction|laser lead extraction
+pacemaker generator change|generator replacement
+fractional flow reserve|ffr|ifr|instantaneous wave-free ratio
+intravascular ultrasound|ivus
+optical coherence tomography|oct
+rotational atherectomy|rotablator|atherectomy|orbital atherectomy
+intravascular lithotripsy|ivl|shockwave lithotripsy
+aspiration thrombectomy|coronary thrombectomy
+drug-coated balloon angioplasty|drug-coated balloon|dcb
+chronic total occlusion pci|cto pci
+transcatheter mitral valve replacement|tmvr
+tricuspid valve repair|tricuspid annuloplasty
+tricuspid valve replacement
+transcatheter tricuspid valve repair|triclip|t-teer
+transcatheter tricuspid valve replacement|evoque
+pulmonary valve replacement
+transcatheter pulmonary valve replacement|tpvr|melody valve
+balloon pulmonary valvuloplasty
+valve-in-valve tavr|valve in valve
+paravalvular leak closure|percutaneous paravalvular leak closure
+ross procedure
+bentall procedure
+valve-sparing aortic root replacement|david procedure
+aortic root replacement|ascending aortic replacement
+type a aortic dissection repair|aortic dissection repair
+off-pump cabg|opcab|beating heart surgery
+minimally invasive direct coronary artery bypass|midcab
+cardiopulmonary bypass|heart-lung machine
+median sternotomy|sternotomy
+heart-lung transplant
+total artificial heart|syncardia
+surgical left atrial appendage ligation|lariat|atriclip|left atrial appendage ligation
+pulmonary artery banding|pa banding
+sano shunt
+rastelli procedure
+mustard procedure
+senning procedure
+damus-kaye-stansel procedure|dks
+hybrid stage 1 procedure|hybrid norwood
+ventricular aneurysmectomy|dor procedure
+cardiac myxoma resection|cardiac tumor resection
+pulmonary thromboendarterectomy|pulmonary endarterectomy|pte
+balloon pulmonary angioplasty|bpa
+epicardial ablation
+convergent procedure|hybrid convergent ablation
+cardioneuroablation
+left cardiac sympathetic denervation|lcsd|cardiac sympathetic denervation
+stellate ganglion block
+renal denervation
+coronary sinus reducer
+enhanced external counterpulsation|eecp
+transmyocardial laser revascularization|tmr
+cardiac rehabilitation|cardiac rehab
+chemical cardioversion|pharmacologic cardioversion
+`, "2026-11-08");
+
+P("Name an obstetric or gynecologic procedure","tests","",`
+cesarean section|c-section|cesarean delivery|caesarean section|c section|lscs|low transverse cesarean|cesarean
+vaginal delivery|spontaneous vaginal delivery|svd|nsvd|normal spontaneous vaginal delivery
+hysterectomy|total hysterectomy
+dilation and curettage|d&c|d and c|dilatation and curettage
+episiotomy
+forceps delivery|forceps-assisted delivery
+vacuum extraction|vacuum-assisted delivery|ventouse|vacuum delivery
+operative vaginal delivery|assisted vaginal delivery|instrumental delivery
+tubal ligation|bilateral tubal ligation|btl|tubal sterilization|tubes tied|postpartum tubal ligation
+amniocentesis
+chorionic villus sampling|cvs
+cervical cerclage|cerclage|mcdonald cerclage|shirodkar cerclage
+colposcopy
+leep|loop electrosurgical excision procedure|lletz|large loop excision of the transformation zone
+cold knife conization|cone biopsy|ckc|conization
+endometrial biopsy|emb|pipelle biopsy
+pap smear|pap test|cervical cytology
+iud insertion|intrauterine device insertion|iud placement|iucd insertion
+external cephalic version|ecv
+induction of labor|labor induction|iol
+amniotomy|artificial rupture of membranes|arom
+mcroberts maneuver
+suprapubic pressure|mazzanti maneuver
+dilation and evacuation|d&e|d and e
+suction curettage|vacuum aspiration|manual vacuum aspiration|mva|suction d&c|uterine aspiration
+induced abortion|abortion|termination of pregnancy|top
+manual removal of placenta|manual extraction of placenta
+uterine massage|bimanual uterine massage|fundal massage
+b-lynch suture|uterine compression suture|compression suture
+uterine balloon tamponade|bakri balloon|intrauterine balloon tamponade
+uterine artery ligation|o'leary stitch|o'leary suture
+internal iliac artery ligation|hypogastric artery ligation
+peripartum hysterectomy|cesarean hysterectomy|emergency hysterectomy
+uterine artery embolization|uae|fibroid embolization
+total abdominal hysterectomy|tah|abdominal hysterectomy
+total abdominal hysterectomy with bilateral salpingo-oophorectomy|tah-bso|tah bso
+vaginal hysterectomy|tvh|total vaginal hysterectomy
+laparoscopic hysterectomy|tlh|total laparoscopic hysterectomy
+laparoscopically assisted vaginal hysterectomy|lavh
+robotic hysterectomy|robotic-assisted hysterectomy
+supracervical hysterectomy|subtotal hysterectomy
+radical hysterectomy|wertheim hysterectomy
+salpingo-oophorectomy|bso|bilateral salpingo-oophorectomy|unilateral salpingo-oophorectomy|uso
+oophorectomy
+salpingectomy|bilateral salpingectomy|opportunistic salpingectomy
+salpingostomy|linear salpingostomy
+ovarian cystectomy
+ovarian detorsion|detorsion
+myomectomy|abdominal myomectomy|laparoscopic myomectomy
+hysteroscopic myomectomy
+hysteroscopy|diagnostic hysteroscopy|operative hysteroscopy
+hysteroscopic polypectomy|polypectomy
+hysteroscopic septum resection|metroplasty|uterine septum resection
+endometrial ablation|novasure
+laparoscopy|diagnostic laparoscopy
+laparotomy|exploratory laparotomy|ex lap
+cervical biopsy|cervical punch biopsy
+endocervical curettage|ecc
+cervical cryotherapy|cryotherapy of the cervix
+cervical laser ablation|laser vaporization of cervix
+pelvic examination|bimanual exam|speculum exam|pelvic exam
+iud removal
+contraceptive implant insertion|nexplanon insertion|implant insertion
+amnioinfusion
+membrane sweep|membrane stripping|stripping membranes
+cervical ripening|cervical ripening balloon|foley balloon induction|cook balloon
+laminaria insertion|osmotic dilators|laminaria
+epidural|labor epidural|epidural analgesia
+pudendal block|pudendal nerve block
+paracervical block
+perineal laceration repair|laceration repair|perineal repair
+obstetric anal sphincter repair|sphincteroplasty|overlapping sphincteroplasty
+woods screw maneuver|woods corkscrew maneuver
+rubin maneuver|rubin ii maneuver
+posterior arm delivery|delivery of the posterior arm|jacquemier maneuver
+gaskin maneuver|all fours maneuver
+zavanelli maneuver
+symphysiotomy
+deliberate clavicle fracture|cleidotomy
+mauriceau maneuver|mauriceau-smellie-veit maneuver
+piper forceps
+pinard maneuver
+ritgen maneuver
+leopold maneuvers
+breech extraction|assisted breech delivery
+internal podalic version
+delayed cord clamping|cord clamping|umbilical cord clamping
+johnson maneuver|manual replacement of inverted uterus
+huntington procedure
+haultain procedure
+fetal scalp electrode|fse|internal fetal monitoring
+intrauterine pressure catheter|iupc
+fetal scalp blood sampling|fetal scalp ph
+cordocentesis|percutaneous umbilical blood sampling|pubs
+intrauterine transfusion|fetal transfusion
+amnioreduction|therapeutic amniocentesis
+fetoscopic laser photocoagulation|laser ablation for ttts|selective laser photocoagulation
+fetal myelomeningocele repair|fetal spina bifida repair
+exit procedure|ex utero intrapartum treatment
+fetoscopic endoluminal tracheal occlusion|feto
+vesicoamniotic shunt
+thoracoamniotic shunt
+multifetal pregnancy reduction|selective reduction|fetal reduction
+transabdominal cerclage|abdominal cerclage
+hysterotomy
+dilation and extraction|intact d&e|d&x
+vaginal birth after cesarean|vbac|tolac|trial of labor after cesarean
+pomeroy tubal ligation|pomeroy procedure
+parkland tubal ligation|parkland method
+filshie clip|tubal clips
+hysteroscopic sterilization|essure
+tubal reanastomosis|tubal reversal|tubal ligation reversal
+hysterosalpingogram|hsg
+saline infusion sonohysterography|sis|sonohysterogram|saline sonogram
+in vitro fertilization|ivf
+oocyte retrieval|egg retrieval|transvaginal oocyte retrieval
+embryo transfer
+intracytoplasmic sperm injection|icsi
+intrauterine insemination|iui|artificial insemination
+oocyte cryopreservation|egg freezing
+laparoscopic ovarian drilling|ovarian drilling
+excision of endometriosis|endometriosis excision|ablation of endometriosis
+lysis of adhesions|adhesiolysis
+presacral neurectomy
+culdocentesis
+mccall culdoplasty|culdoplasty
+bartholin cyst drainage|word catheter|bartholin gland incision and drainage
+marsupialization|bartholin marsupialization
+vulvar biopsy
+vulvectomy|radical vulvectomy|simple vulvectomy|skinning vulvectomy
+vestibulectomy|vulvar vestibulectomy
+labiaplasty
+hymenotomy|hymenectomy
+vaginoplasty
+vaginectomy|colpectomy
+colpocleisis|lefort colpocleisis
+colporrhaphy|anterior colporrhaphy|posterior colporrhaphy|anterior repair|posterior repair|a&p repair
+sacrocolpopexy|abdominal sacrocolpopexy
+sacrospinous ligament fixation|sacrospinous fixation
+uterosacral ligament suspension
+pessary fitting|pessary placement|pessary
+midurethral sling|tvt|tension-free vaginal tape|tot|transobturator tape|bladder sling
+burch colposuspension|burch procedure
+marshall-marchetti-krantz procedure|mmk
+urethral bulking injection|periurethral bulking
+cystoscopy|cystourethroscopy
+vesicovaginal fistula repair
+rectovaginal fistula repair
+perineoplasty
+deinfibulation|defibulation
+pelvic exenteration
+trachelectomy|radical trachelectomy
+cytoreductive surgery|debulking|tumor debulking|optimal debulking
+surgical staging|staging laparotomy
+omentectomy
+pelvic lymphadenectomy|lymph node dissection|para-aortic lymphadenectomy
+sentinel lymph node mapping|sentinel node biopsy
+hipec|hyperthermic intraperitoneal chemotherapy
+radiofrequency ablation of fibroids|acessa|sonata
+mri-guided focused ultrasound|focused ultrasound for fibroids
+`, "2026-11-08");
+
+P("Name an osteopathic (OMM/OMT) technique or term","care","",`
+somatic dysfunction
+tart|tart criteria
+muscle energy|muscle energy technique|met
+high velocity low amplitude|hvla|thrust technique|hvla thrust
+counterstrain|strain-counterstrain|strain counterstrain|jones counterstrain
+myofascial release|mfr
+soft tissue technique|soft tissue
+articulatory technique|articulatory
+chapman points|chapman reflexes|chapman's points|chapman reflex points
+rib raising|rib raising technique
+spencer technique|seven stages of spencer
+facilitated positional release|fpr
+balanced ligamentous tension|blt|ligamentous articular strain|las
+osteopathy in the cranial field|ocf|cranial osteopathy|craniosacral therapy|cranial manipulation
+still technique
+lymphatic pump|thoracic pump|lymphatic pump technique|miller thoracic pump|chest pump
+pedal pump|dalrymple pump|pedal lymphatic pump
+viscerosomatic reflex
+somatovisceral reflex
+somatosomatic reflex
+viscerovisceral reflex
+facilitated segment|facilitation|spinal facilitation
+fryette principles|fryette's laws|fryette laws|fryette's principles
+type i mechanics|type 1 somatic dysfunction|type i somatic dysfunction|group curve|neutral mechanics
+type ii mechanics|type 2 somatic dysfunction|type ii somatic dysfunction|non-neutral mechanics
+counterstrain tender points|tender points|tender point
+primary respiratory mechanism|prm
+cranial rhythmic impulse|cri
+compression of the fourth ventricle|cv4|cv4 technique
+venous sinus drainage technique|venous sinus technique
+sphenobasilar synchondrosis|sbs
+sbs torsion|cranial torsion
+sidebending rotation strain|sidebending-rotation
+vertical strain|superior vertical strain|inferior vertical strain
+lateral strain
+sbs compression
+sbs flexion|cranial flexion
+sbs extension|cranial extension
+still point
+v-spread
+vault hold
+fronto-occipital hold
+frontal lift
+parietal lift
+temporal rocking
+left on left sacral torsion|left on left|l on l
+right on right sacral torsion|right on right|r on r
+left on right sacral torsion|left on right|l on r
+right on left sacral torsion|right on left|r on l
+forward sacral torsion|anterior sacral torsion
+backward sacral torsion|posterior sacral torsion
+unilateral sacral flexion|unilateral sacral shear
+unilateral sacral extension
+bilateral sacral flexion
+bilateral sacral extension
+oblique axis|left oblique axis|right oblique axis|sacral oblique axis
+superior transverse axis|respiratory axis
+middle transverse axis|postural axis
+inferior transverse axis
+sacral rocking|sacral rock
+anterior innominate rotation|anterior innominate
+posterior innominate rotation|posterior innominate
+superior innominate shear|upslip|innominate upslip
+inferior innominate shear|downslip|innominate downslip
+innominate inflare|inflare
+innominate outflare|outflare
+pubic shear|superior pubic shear|inferior pubic shear
+standing flexion test
+seated flexion test
+asis compression test
+spring test|lumbosacral spring test
+sphinx test|backward bending test
+hip drop test
+stork test|gillet test
+inhalation dysfunction|inhaled rib|inhalation somatic dysfunction
+exhalation dysfunction|exhaled rib|exhalation somatic dysfunction
+key rib
+pump handle motion|pump handle
+bucket handle motion|bucket handle
+caliper motion
+elevated first rib
+flexed rotated sidebent|frs
+extended rotated sidebent|ers
+neutral sidebent rotated|nsr
+doming the diaphragm|diaphragm doming|diaphragm release|thoracoabdominal diaphragm release
+thoracic inlet release|thoracic outlet release|thoracic inlet myofascial release
+pelvic diaphragm release
+occipitoatlantal decompression|oa decompression|condylar decompression
+suboccipital release|suboccipital decompression
+liver pump
+spleen pump|splenic pump
+mesenteric lift|mesenteric release
+galbreath technique|mandibular drainage
+celiac ganglion release|collateral ganglion inhibition|abdominal ganglion release
+inhibitory pressure|inhibition|paraspinal inhibition
+effleurage
+petrissage
+kneading
+direct technique
+indirect technique
+restrictive barrier|pathologic barrier
+anatomic barrier
+physiologic barrier
+ease and bind
+post-isometric relaxation
+reciprocal inhibition
+joint mobilization using muscle force
+oculocephalogyric reflex
+respiratory assistance
+crossed extensor reflex
+tissue texture changes|tissue texture abnormality
+asymmetry
+restriction of motion
+tenderness
+four tenets of osteopathic medicine|osteopathic tenets|tenets of osteopathy
+the body is a unit|body is a unit
+structure and function are reciprocally interrelated
+the body is capable of self-regulation|self-regulation|self-healing
+rational treatment
+five models of osteopathic care|five models
+biomechanical model|structural model
+respiratory-circulatory model
+neurological model
+metabolic-energy model
+behavioral model|biopsychosocial model
+andrew taylor still|a t still|at still
+william garner sutherland|sutherland
+fred mitchell|fred mitchell sr
+lawrence jones
+frank chapman
+harrison fryette|h h fryette
+irvin korr|korr
+kirksville crunch
+lumbar roll
+trigger point|myofascial trigger point
+visceral manipulation
+functional technique
+exaggeration technique|exaggeration method
+progressive inhibition of neuromuscular structures|pins
+fascial distortion model|fdm
+red reflex test|red reflex
+skin drag
+layer by layer palpation|layer palpation
+positional diagnosis
+osteopathic structural exam|structural exam
+short leg syndrome|heel lift therapy|heel lift
+lumbosacral angle|ferguson angle
+psoas syndrome
+radial head dysfunction|anterior radial head|posterior radial head
+posterior fibular head|fibular head dysfunction
+`, "2026-11-08");
+
+P("Name a term from medical school or residency","care","",`
+usmle|united states medical licensing examination
+step 1|usmle step 1
+step 2 ck|step 2|usmle step 2 ck|clinical knowledge
+step 3|usmle step 3
+comlex|comlex-usa
+comlex level 1|level 1
+comlex level 2-ce|level 2-ce|level 2
+comlex level 3|level 3
+the match|match|residency match|match day
+nrmp|national resident matching program
+eras|electronic residency application service
+soap|supplemental offer and acceptance program|scramble
+rank order list|rol|rank list
+match week
+intern|internship|intern year
+pgy-1|pgy1|first year resident|r1
+pgy-2|pgy2|second year resident|r2
+pgy-3|pgy3|third year resident|r3
+resident
+senior resident|senior|upper level|upper-level
+chief resident|chief|chief year
+attending|attending physician
+fellow|fellowship
+program director|pd
+shelf exam|nbme shelf|subject exam|shelf
+clerkship|clerkships|core clerkships|third year rotations
+rotation|rotations
+sub-internship|sub-i|acting internship
+away rotation|audition rotation|away
+elective
+sign-out|signout|handoff|hand-off|sign out
+pimping|pimp
+scut|scut work
+rounds|morning rounds|rounding
+pre-rounding|prerounding|pre-rounds|prerounds
+call|overnight call|on call|q4 call
+night float
+post-call|postcall
+duty hours|work hours|80-hour rule|80 hour work week|acgme duty hours
+acgme|accreditation council for graduate medical education
+nbme|national board of medical examiners
+nbome|national board of osteopathic medical examiners
+uworld
+first aid|first aid for the usmle
+pathoma
+sketchy|sketchy medical
+anki
+amboss
+boards and beyond
+question bank|qbank
+dedicated|dedicated study period
+white coat ceremony|white coat
+gross anatomy|anatomy lab|cadaver lab|cadaver
+osce|objective structured clinical examination
+standardized patient|sp
+h&p|history and physical|h and p
+soap note|progress note
+presentation|oral presentation|patient presentation
+grand rounds
+morning report
+noon conference|noon lecture
+m&m|morbidity and mortality conference|m and m|morbidity and mortality
+journal club
+tumor board
+cross-cover|cross cover
+gunner
+medical student|med student|student doctor
+ms1|m1|first year medical student
+ms2|m2|second year medical student
+ms3|m3|third year medical student
+ms4|m4|fourth year medical student
+preclinical|preclinical years|pre-clinical|didactic years
+clinical years
+house staff|housestaff|house officer
+mspe|dean's letter|medical student performance evaluation
+letter of recommendation|lor|letters of recommendation
+standardized letter of evaluation|sloe|slor
+personal statement
+curriculum vitae|cv
+alpha omega alpha|aoa honor society
+gold humanism honor society|ghhs
+honors|high pass
+pass/fail|pass fail
+in-training exam|ite|in-service exam|intraining exam
+milestones|acgme milestones
+core competencies|acgme core competencies|six core competencies
+entrustable professional activities|epas|epa
+clinical competency committee|ccc
+transitional year|ty
+preliminary year|prelim|prelim year
+categorical position|categorical
+advanced position
+couples match
+preference signaling|program signals|signals|signaling
+interview invitation|interview invite
+interview season|residency interview|interview trail
+second look
+pre-interview dinner|pre-interview social
+unmatched
+international medical graduate|img|foreign medical graduate|fmg
+ecfmg|educational commission for foreign medical graduates
+vslo|visiting student learning opportunities|vsas|visiting student application service
+continuity clinic
+the wards|wards
+off-service rotation|off service
+short call
+long call
+jeopardy|backup call|jeopardy call
+moonlighting
+burnout|resident burnout
+imposter syndrome|impostor syndrome
+july effect
+see one do one teach one
+table rounds|card flipping
+i-pass
+problem based learning|pbl
+team-based learning|tbl
+didactics
+academic half day
+board review
+board certification|board exam|boards
+remediation
+cbse|comprehensive basic science exam
+cbsse|comprehensive basic science self-assessment
+nbme practice exam|nbme form|self-assessment
+step 2 cs|clinical skills exam
+comlex level 2-pe|level 2-pe
+mcat|medical college admission test
+amcas|american medical college application service
+aacomas
+secondary application|secondaries
+md-phd|mstp|medical scientist training program
+lcme|liaison committee on medical education
+coca|commission on osteopathic college accreditation
+american osteopathic association
+hippocratic oath|osteopathic oath
+road specialties|road to happiness
+designated institutional official|dio
+associate program director|apd
+clerkship director
+preceptor
+research year|gap year
+match list
+match violation
+`, "2026-11-08");
+
+P("Name a resuscitation step, drug or term (BLS, ACLS, PALS or ATLS)","care","",`
+cardiopulmonary resuscitation|cpr
+chest compressions|compressions|high quality cpr
+epinephrine|adrenaline|epi
+defibrillation|defibrillate|defib
+automated external defibrillator|aed
+amiodarone
+atropine
+adenosine
+lidocaine
+check responsiveness|check for responsiveness|tap and shout
+activate emergency response|call for help|call 911|activate ems
+pulse check|check pulse|carotid pulse check
+rescue breaths|rescue breathing|ventilations
+bag-valve-mask|bvm|ambu bag|bag mask ventilation
+head tilt chin lift
+jaw thrust
+30:2|30 to 2|compression to ventilation ratio
+15:2|15 to 2
+compression depth|2 inches
+compression rate|100 to 120 per minute
+full chest recoil|chest recoil
+minimize interruptions
+synchronized cardioversion|cardioversion
+transcutaneous pacing|tcp|pacing
+ventricular fibrillation|vf|v fib|vfib
+pulseless ventricular tachycardia|pulseless vt
+pulseless electrical activity|pea
+asystole
+shockable rhythm
+non-shockable rhythm
+return of spontaneous circulation|rosc
+h's and t's|hs and ts|reversible causes
+hypovolemia
+hypoxia
+hydrogen ion|acidosis
+hyperkalemia
+hypokalemia
+hypothermia
+tension pneumothorax
+cardiac tamponade|tamponade|pericardial tamponade
+toxins
+coronary thrombosis|thrombosis coronary
+pulmonary thrombosis|pulmonary embolism|thrombosis pulmonary
+hypoglycemia
+primary survey|abcde|abcs|abc
+airway
+breathing
+circulation
+disability
+exposure
+secondary survey
+ample history|ample
+glasgow coma scale|gcs
+fast exam|focused assessment with sonography for trauma|efast
+cervical collar|c-spine immobilization|c collar|spinal motion restriction
+log roll
+needle decompression|needle thoracostomy
+tube thoracostomy|chest tube
+finger thoracostomy
+pericardiocentesis
+resuscitative thoracotomy|ed thoracotomy|emergency department thoracotomy
+cricothyrotomy|cricothyroidotomy|surgical airway|cric
+endotracheal intubation|intubation|ett
+rapid sequence intubation|rsi
+supraglottic airway|laryngeal mask airway|lma|igel|king airway
+advanced airway
+oropharyngeal airway|opa
+nasopharyngeal airway|npa
+waveform capnography|end-tidal co2|etco2|capnography
+1 breath every 6 seconds|10 breaths per minute
+oxygen|supplemental oxygen
+vasopressin
+magnesium sulfate|magnesium
+sodium bicarbonate|bicarb
+calcium chloride|calcium gluconate|calcium
+dextrose|glucose|d50|d10
+naloxone|narcan
+procainamide
+sotalol
+diltiazem
+verapamil
+metoprolol|beta blocker
+dopamine
+norepinephrine|levophed
+dobutamine
+push-dose epinephrine|push dose pressor
+alteplase|tpa|thrombolytics
+fluid bolus|crystalloid bolus|normal saline bolus
+lactated ringer's|lactated ringers|ringer lactate|lr
+blood transfusion|packed red blood cells|prbc
+massive transfusion protocol|mtp
+tranexamic acid|txa
+o negative blood|uncrossmatched blood
+whole blood
+fresh frozen plasma|ffp
+platelets
+1:1:1 ratio|balanced transfusion
+permissive hypotension
+damage control resuscitation
+lethal triad|trauma triad of death
+tourniquet
+direct pressure
+wound packing
+pelvic binder
+reboa|resuscitative endovascular balloon occlusion of the aorta
+intraosseous access|io access|intraosseous|io line
+two large bore ivs|large bore iv|iv access
+targeted temperature management|ttm|therapeutic hypothermia
+post-cardiac arrest care|post-rosc care
+symptomatic bradycardia
+unstable tachycardia
+stable tachycardia
+vagal maneuvers|valsalva
+torsades de pointes|torsades
+team leader
+closed-loop communication|closed loop communication
+code blue
+rapid response team|rapid response
+do not resuscitate|dnr
+termination of resuscitation|calling the code|time of death
+extracorporeal cpr|ecpr
+mechanical cpr|lucas device|autopulse
+hands-only cpr|compression-only cpr
+chain of survival
+agonal breathing|agonal respirations
+chest compression fraction|ccf
+rhythm check
+all clear|stand clear|clear
+biphasic defibrillation|biphasic
+monophasic defibrillation|monophasic
+push hard and push fast|push hard and fast
+heimlich maneuver|abdominal thrusts
+back blows|back slaps
+chest thrusts
+foreign body airway obstruction|choking|fbao
+recovery position
+two thumb encircling technique|two thumb technique|two-thumb
+two finger technique
+one hand compressions
+broselow tape|broselow
+pediatric assessment triangle
+capillary refill
+neonatal resuscitation|nrp|neonatal resuscitation program
+warm dry stimulate|dry and stimulate
+positive pressure ventilation|ppv
+3:1 compression ratio|3 to 1
+umbilical venous catheter|uvc
+apgar score|apgar
+golden hour
+beck's triad|becks triad
+flail chest
+open pneumothorax|sucking chest wound|three-sided dressing
+massive hemothorax|hemothorax
+hemorrhagic shock classification|class iv hemorrhage
+shock index
+rule of nines
+parkland formula
+escharotomy
+nexus criteria|nexus
+canadian c-spine rule
+cricoid pressure|sellick maneuver
+preoxygenation
+etomidate
+ketamine
+succinylcholine
+rocuronium
+march|massive hemorrhage airway respiration circulation hypothermia
+cardiac arrest
+`, "2026-11-08");
+
+P("Name a palliative or hospice care term","care","",`
+goals of care|goc|goals of care discussion|goals of care conversation
+do not resuscitate|dnr|no code
+do not intubate|dni
+full code
+code status
+polst|physician orders for life-sustaining treatment|molst|medical orders for life-sustaining treatment
+advance directive|advance care planning|acp
+living will
+health care proxy|healthcare proxy|health care power of attorney|durable power of attorney for health care|medical power of attorney|hcpoa|healthcare agent
+surrogate decision maker|surrogate
+substituted judgment
+best interest standard|best interests
+decision-making capacity|capacity|medical decision making capacity
+hospice|hospice care
+palliative care
+comfort care|comfort measures only|cmo|comfort measures
+hospice eligibility|six month prognosis|prognosis of 6 months or less|terminal illness certification
+medicare hospice benefit|hospice benefit
+death rattle|terminal secretions|terminal respiratory secretions
+terminal delirium|terminal agitation|terminal restlessness
+palliative sedation|terminal sedation|continuous palliative sedation
+doctrine of double effect|double effect|principle of double effect
+withdrawal of life-sustaining treatment|withdrawing care|withdrawal of care
+withholding life-sustaining treatment|withholding treatment
+compassionate extubation|terminal extubation
+medical aid in dying|maid|physician assisted suicide|physician-assisted death|death with dignity|assisted dying
+euthanasia
+voluntarily stopping eating and drinking|vsed
+artificial nutrition and hydration|tube feeding at end of life
+comfort feeding|careful hand feeding|comfort feeding only
+cheyne-stokes respirations|cheyne stokes breathing|cheyne-stokes
+mottling|mottled skin
+kennedy terminal ulcer
+actively dying|active dying
+air hunger|dyspnea
+total pain
+breakthrough pain
+pain crisis
+opioid rotation
+equianalgesic dosing|equianalgesic conversion|morphine equivalents|morphine milligram equivalents|mme
+morphine
+hydromorphone|dilaudid
+methadone
+fentanyl|fentanyl patch
+glycopyrrolate|robinul
+scopolamine|scopolamine patch
+atropine drops|sublingual atropine
+haloperidol|haldol
+lorazepam|ativan
+midazolam
+dexamethasone
+octreotide
+comfort kit|hospice comfort kit|e-kit|emergency kit
+bowel regimen
+opioid-induced constipation
+methylnaltrexone
+opioid-induced neurotoxicity|oin|myoclonus
+palliative performance scale|pps
+karnofsky performance status|kps|karnofsky
+ecog performance status|ecog|zubrod
+fast scale|functional assessment staging|fast stage 7
+surprise question
+prognostic awareness
+spikes protocol|spikes
+breaking bad news
+ask-tell-ask
+nurse mnemonic|nurse statements
+serious illness conversation|serious illness conversation guide
+best case worst case
+family meeting|family conference
+time-limited trial
+futility|medical futility
+allow natural death
+do not hospitalize|dnh
+partial code|limited code|chemical code
+slow code|show code
+routine home care
+continuous home care
+general inpatient care|gip|general inpatient
+inpatient respite care|respite care|respite
+interdisciplinary team|idt|hospice idt
+hospice medical director
+face-to-face encounter|hospice face-to-face
+benefit period|hospice benefit period|recertification
+live discharge|hospice live discharge
+hospice revocation|revocation
+concurrent care
+inpatient hospice unit|hospice house
+anticipatory grief
+bereavement|bereavement care|bereavement support
+grief
+complicated grief|prolonged grief disorder
+stages of grief|five stages of grief|kubler-ross stages|kubler-ross
+spiritual care|chaplain|chaplaincy
+spiritual distress|existential distress
+dignity therapy
+legacy work|legacy project
+life review
+quality of life|qol
+caregiver burden|caregiver burnout|caregiver strain
+death pronouncement|pronouncement|pronouncing death
+terminal lucidity|rally|paradoxical lucidity
+nearing death awareness
+deathbed visions|end-of-life dreams and visions
+good death
+death doula|end-of-life doula
+cachexia|anorexia-cachexia syndrome|cancer cachexia
+hypodermoclysis|subcutaneous hydration
+patient-controlled analgesia|pca
+palliative radiation|palliative radiotherapy
+palliative chemotherapy
+venting gastrostomy|venting g-tube|venting g tube
+indwelling pleural catheter|pleurx
+malignant bowel obstruction
+terminal hemorrhage|catastrophic bleed|dark towels
+edmonton symptom assessment system|esas
+pain assessment in advanced dementia|painad
+five wishes
+ethics consultation|ethics consult
+moral distress
+compassion fatigue
+local coverage determination|lcd
+symptom management
+dying process
+end of life care|end-of-life care|eol care
+`, "2026-11-08");
+
+P("Name a medical document or form","care","",`
+informed consent|consent form|informed consent form|consent
+advance directive
+living will
+health care power of attorney|healthcare proxy|health care proxy|durable power of attorney for health care|medical power of attorney|hcpoa
+polst|molst|physician orders for life-sustaining treatment
+dnr order|do not resuscitate order|out-of-hospital dnr|dnr form
+history and physical|h&p|h and p|history and physical examination|admission h&p
+progress note|daily progress note|soap note
+discharge summary
+death certificate
+birth certificate
+prescription|rx|script
+admission note|admit note
+consult note|consultation note
+operative note|op note|brief op note|brief operative note
+procedure note
+discharge instructions
+transfer summary|transfer note
+off-service note
+accept note|acceptance note
+nursing note|nursing notes
+medication administration record|mar
+medication reconciliation|med rec
+problem list
+medical record|chart|health record|electronic health record|electronic medical record|ehr|emr
+physician orders|orders|doctor's orders
+admission orders
+autopsy report
+pathology report
+radiology report
+lab report|laboratory report|lab results
+transfusion consent|consent for transfusion|blood transfusion consent
+informed refusal|refusal of treatment form
+against medical advice form|ama form|ama
+hipaa authorization|release of information|roi|authorization for release of medical records|records release form
+notice of privacy practices
+doctor's note|sick note|work note|return to work note|school note|medical certificate|fit note
+fmla paperwork|fmla form|fmla
+disability form|disability paperwork
+prior authorization|prior auth|pa form
+referral|referral letter|referral form
+superbill|encounter form
+cms-1500|hcfa form|cms 1500
+ub-04|ub04
+explanation of benefits|eob
+advance beneficiary notice|abn
+important message from medicare|imm
+incident report|occurrence report|safety report
+code sheet|code record|resuscitation record|code note
+anesthesia record
+preoperative note|preop note|pre-op evaluation
+postoperative note|postop note|post-op note
+preoperative clearance letter|medical clearance letter|clearance letter
+delivery note
+partogram|partograph
+growth chart
+immunization record|vaccine record|vaccination card|immunization card
+vaccine information statement|vis
+newborn screening card|newborn screen form
+involuntary hold|5150|psychiatric hold|involuntary commitment papers
+restraint order
+controlled substance agreement|opioid agreement|pain contract|opioid contract
+dea form 222|dea 222
+intake form|patient intake form|new patient form|registration form
+health history questionnaire|medical history form
+medication list
+phq-9
+gad-7
+emergency department record|ed note|ed chart
+triage note
+clinic note|office note|outpatient note
+telephone encounter|phone note
+letter of medical necessity|medical necessity letter
+certificate of medical necessity|cmn|dme order
+home health certification|plan of care|cms-485|485 form
+hospice certification|certificate of terminal illness
+face sheet|facesheet
+research consent|research informed consent
+case report form|crf
+medical examiner report|coroner's report
+fetal death certificate|fetal death report
+organ donor card|donor card
+care plan|nursing care plan
+minimum data set|mds
+oasis|outcome and assessment information set
+emtala transfer form|certification of transfer|memorandum of transfer
+preparticipation physical evaluation form|sports physical form|ppe form
+dot medical card|medical examiner's certificate|dot physical form
+lab requisition|requisition form
+chain of custody form
+workers' compensation form|workers comp form|workers compensation form
+disabled parking placard application|handicap placard form
+emotional support animal letter|esa letter
+patient bill of rights
+medication guide
+package insert|prescribing information
+five wishes
+psychiatric advance directive
+flowsheet|vital signs flowsheet
+intake and output record|i&o record
+after visit summary|avs
+event note
+death note|pronouncement note|death summary
+addendum
+attending attestation|attestation
+interval history|interval note
+`, "2026-11-08");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

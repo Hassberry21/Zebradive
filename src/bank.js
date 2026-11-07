@@ -52330,6 +52330,1566 @@ grand rapids study|grand rapids fluoridation study
 caries vaccine
 `, "2026-11-09");
 
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE (batch 2026-11-07, set 1, board-first) ---- */
+P("Name a cause of hypoglycemia","clinical","",`
+insulin|insulin overdose|exogenous insulin|excess insulin|too much insulin|insulin dosing error
+sulfonylureas|sulfonylurea|glipizide|glyburide|glibenclamide|glimepiride|gliclazide|tolbutamide|chlorpropamide|sulfonylurea overdose
+insulinoma|beta cell tumor|islet cell tumor
+missed meal|skipped meal|delayed meal|not eating|poor oral intake|reduced food intake
+alcohol|ethanol|alcohol intoxication|alcohol use|alcoholism|alcohol induced hypoglycemia
+adrenal insufficiency|addison disease|addisons disease|primary adrenal insufficiency|adrenal crisis|cortisol deficiency
+sepsis|septic shock
+liver failure|hepatic failure|acute liver failure|fulminant hepatic failure|liver disease
+renal failure|kidney failure|chronic kidney disease|ckd|end stage renal disease|esrd|uremia
+exercise|strenuous exercise|excessive exercise|post exercise hypoglycemia
+factitious hypoglycemia|surreptitious insulin use|factitious disorder|munchausen syndrome
+meglitinides|meglitinide|repaglinide|nateglinide|glinides
+starvation|prolonged fasting|malnutrition|protein energy malnutrition|kwashiorkor|marasmus
+von gierke disease|glycogen storage disease type 1|gsd type 1|gsd 1|glucose 6 phosphatase deficiency|gsd 1a|gsd 1b
+hereditary fructose intolerance|aldolase b deficiency
+galactosemia|classic galactosemia|galt deficiency|galactose 1 phosphate uridyltransferase deficiency
+mcad deficiency|medium chain acyl coa dehydrogenase deficiency
+cori disease|glycogen storage disease type 3|gsd type 3|forbes disease|debrancher enzyme deficiency|debranching enzyme deficiency
+primary carnitine deficiency|carnitine deficiency|systemic carnitine deficiency|carnitine transporter deficiency
+infant of diabetic mother|maternal diabetes|gestational diabetes in mother
+congenital hyperinsulinism|persistent hyperinsulinemic hypoglycemia of infancy|phhi|neonatal hyperinsulinism|katp channel mutation|abcc8 mutation|kcnj11 mutation
+hyperinsulinism hyperammonemia syndrome|glutamate dehydrogenase hyperinsulinism|leucine sensitive hypoglycemia
+beckwith wiedemann syndrome
+prematurity|preterm infant|premature birth
+small for gestational age|sga|intrauterine growth restriction|iugr
+dumping syndrome|late dumping syndrome
+post bariatric hypoglycemia|post gastric bypass hypoglycemia|gastric bypass|roux en y gastric bypass|bariatric surgery
+reactive hypoglycemia|postprandial hypoglycemia|idiopathic postprandial syndrome
+hypopituitarism|panhypopituitarism
+sheehan syndrome|postpartum pituitary necrosis
+growth hormone deficiency|gh deficiency
+secondary adrenal insufficiency|isolated acth deficiency|acth deficiency
+adrenal hemorrhage|waterhouse friderichsen syndrome
+familial glucocorticoid deficiency|acth resistance syndrome
+non islet cell tumor hypoglycemia|nicth|igf 2 secreting tumor|igf2 secreting tumor|big igf 2
+doege potter syndrome|solitary fibrous tumor
+hepatocellular carcinoma|hcc|hepatoma
+sarcoma|retroperitoneal sarcoma|fibrosarcoma|mesenchymal tumor
+mesothelioma
+insulin autoimmune syndrome|hirata disease|autoimmune hypoglycemia|insulin autoantibodies
+insulin receptor antibodies|type b insulin resistance|anti insulin receptor antibodies
+nesidioblastosis|noninsulinoma pancreatogenous hypoglycemia syndrome|niphs|islet cell hyperplasia
+men1|multiple endocrine neoplasia type 1
+ketotic hypoglycemia|idiopathic ketotic hypoglycemia|accelerated starvation
+beta blockers|beta blocker|propranolol|nonselective beta blockers
+quinine|quinidine
+pentamidine
+fluoroquinolones|fluoroquinolone|levofloxacin|gatifloxacin|ciprofloxacin|moxifloxacin
+trimethoprim sulfamethoxazole|tmp smx|bactrim|co trimoxazole|cotrimoxazole
+salicylates|aspirin|salicylate poisoning|aspirin overdose|salicylate toxicity
+acetaminophen overdose|paracetamol overdose|tylenol overdose|acetaminophen toxicity
+malaria|falciparum malaria|severe malaria|plasmodium falciparum
+ackee fruit|jamaican vomiting sickness|hypoglycin|unripe ackee|ackee poisoning
+lychee|litchi|unripe lychee|litchi toxicity
+cirrhosis
+heart failure|congestive heart failure|chf
+critical illness|critically ill|shock
+hypothermia|neonatal hypothermia
+perinatal asphyxia|birth asphyxia|hypoxic ischemic encephalopathy
+neonatal sepsis
+hemolytic disease of the newborn|erythroblastosis fetalis|rh isoimmunization
+neonatal polycythemia|polycythemia
+poor feeding|inadequate feeding|breastfeeding difficulties|delayed feeding
+congenital adrenal hyperplasia|cah|21 hydroxylase deficiency
+septo optic dysplasia
+glycogen storage disease type 0|gsd type 0|glycogen synthase deficiency
+hers disease|glycogen storage disease type 6|gsd type 6|liver glycogen phosphorylase deficiency
+glycogen storage disease type 9|gsd type 9|phosphorylase kinase deficiency
+fructose 1 6 bisphosphatase deficiency|fructose bisphosphatase deficiency
+pyruvate carboxylase deficiency
+fatty acid oxidation disorder|fatty acid oxidation defect
+lchad deficiency|long chain 3 hydroxyacyl coa dehydrogenase deficiency
+vlcad deficiency|very long chain acyl coa dehydrogenase deficiency
+cpt1 deficiency|carnitine palmitoyltransferase 1 deficiency|cpt i deficiency
+cpt2 deficiency|carnitine palmitoyltransferase 2 deficiency|cpt ii deficiency
+hmg coa lyase deficiency
+hmg coa synthase deficiency
+glutaric aciduria type 2|multiple acyl coa dehydrogenase deficiency|madd
+fanconi bickel syndrome|glut2 deficiency
+maple syrup urine disease|msud
+methylmalonic acidemia|mma
+propionic acidemia
+tyrosinemia type 1|hereditary tyrosinemia
+reye syndrome
+hypothyroidism|myxedema
+anorexia nervosa|anorexia
+tpn interruption|abrupt cessation of tpn|stopping parenteral nutrition|abrupt discontinuation of tpn
+tube feed interruption|interrupted enteral feeding
+hydroxychloroquine|chloroquine
+disopyramide
+tramadol
+methadone
+ace inhibitors|ace inhibitor|captopril|enalapril|lisinopril
+mecasermin|igf 1 therapy|recombinant igf 1
+linezolid
+cibenzoline
+indomethacin
+glucagon deficiency
+pseudohypoglycemia|artifactual hypoglycemia|spurious hypoglycemia|leukocytosis artifact
+insulin pump malfunction
+diabetic gastroparesis|gastroparesis
+kabuki syndrome
+costello syndrome
+`, "2026-11-09");
+P("Name a cause of hyperkalemia","clinical","",`
+kidney failure|renal failure|acute kidney injury|aki|acute renal failure|kidney disease|renal insufficiency
+chronic kidney disease|ckd|chronic renal failure|end stage renal disease|esrd
+ace inhibitors|ace inhibitor|acei|lisinopril|enalapril|captopril|ramipril|benazepril|perindopril
+angiotensin receptor blockers|arbs|arb|losartan|valsartan|irbesartan|candesartan|telmisartan|olmesartan
+spironolactone|aldactone|eplerenone|finerenone|aldosterone antagonists|mineralocorticoid receptor antagonists|potassium sparing diuretics
+rhabdomyolysis|rhabdo|muscle breakdown
+tumor lysis syndrome|tls|tumour lysis syndrome|chemotherapy induced tumor lysis
+diabetic ketoacidosis|dka
+metabolic acidosis|acidosis|acidemia
+hemolysis|intravascular hemolysis|hemolytic anemia
+pseudohyperkalemia|spurious hyperkalemia|factitious hyperkalemia
+hemolyzed sample|hemolysed sample|in vitro hemolysis|sample hemolysis|hemolyzed specimen
+addison disease|addisons disease|primary adrenal insufficiency|adrenal insufficiency|adrenal crisis
+hypoaldosteronism|aldosterone deficiency
+type 4 renal tubular acidosis|type 4 rta|rta type 4|hyporeninemic hypoaldosteronism
+trimethoprim|trimethoprim sulfamethoxazole|tmp smx|bactrim|co trimoxazole|cotrimoxazole
+nsaids|nsaid|ibuprofen|naproxen|indomethacin|ketorolac|diclofenac|cox 2 inhibitors|celecoxib
+heparin|unfractionated heparin|low molecular weight heparin|enoxaparin
+digoxin toxicity|digitalis toxicity|digoxin overdose|digoxin
+succinylcholine|suxamethonium|sux
+beta blockers|beta blocker|propranolol|nonselective beta blockers
+amiloride|triamterene|enac blockers
+calcineurin inhibitors|tacrolimus|cyclosporine|ciclosporin
+potassium supplements|potassium chloride|kcl|potassium replacement|oral potassium|iv potassium
+salt substitutes|potassium salt substitute|lo salt|nosalt
+high potassium diet|excess dietary potassium|dietary potassium|potassium rich foods
+insulin deficiency|lack of insulin|hypoinsulinemia
+hyperglycemia|hyperosmolality|hyperosmolar state|hyperglycemic hyperosmolar state|hhs
+crush injury|crush syndrome
+burns|severe burns|thermal injury
+trauma|massive trauma
+blood transfusion|massive transfusion|stored blood|old blood transfusion
+pentamidine
+congenital adrenal hyperplasia|cah|21 hydroxylase deficiency
+pseudohypoaldosteronism type 1|pha type 1|pha1
+gordon syndrome|pseudohypoaldosteronism type 2|familial hyperkalemic hypertension|pha type 2
+hyperkalemic periodic paralysis|hyperpp|familial periodic paralysis
+missed dialysis|missed hemodialysis|skipped dialysis
+diabetic nephropathy|diabetes|diabetes mellitus
+obstructive uropathy|urinary obstruction|urinary tract obstruction
+sickle cell disease|sickle cell nephropathy
+lupus nephritis|sle|systemic lupus erythematosus
+interstitial nephritis|tubulointerstitial nephritis|acute interstitial nephritis
+renal transplant|kidney transplant|transplant rejection
+hyperkalemic distal renal tubular acidosis|voltage dependent distal rta
+bilateral renal artery stenosis|renal artery stenosis
+volume depletion|dehydration|hypovolemia
+heart failure|congestive heart failure|chf
+leukocytosis|extreme leukocytosis|leukemia|chronic lymphocytic leukemia|cll
+thrombocytosis|essential thrombocythemia
+tight tourniquet|prolonged tourniquet|fist clenching|fist pumping
+delayed sample processing|delayed centrifugation|refrigerated sample
+edta contamination|k2 edta contamination|wrong tube order
+familial pseudohyperkalemia
+malignant hyperthermia
+heat stroke|hyperthermia
+strenuous exercise|exercise|extreme exercise
+compartment syndrome
+mesenteric ischemia|ischemic bowel|bowel infarction
+acute limb ischemia|reperfusion injury|limb reperfusion
+gastrointestinal bleeding|gi bleed|upper gi bleed
+hematoma resorption|large hematoma
+status epilepticus|seizures
+drospirenone|yasmin|yaz
+aliskiren|renin inhibitor
+sacubitril valsartan|entresto
+penicillin g potassium|potassium penicillin
+mannitol|hypertonic mannitol
+arginine hydrochloride|arginine|lysine hydrochloride
+total parenteral nutrition|tpn
+cardioplegia|cardioplegia solution
+potassium citrate
+noni juice
+coconut water|excessive coconut water
+fluoride poisoning|hydrofluoric acid
+oleander|oleander poisoning|foxglove|cardiac glycoside plants|bufo toad venom|toad venom
+octreotide|somatostatin analogs
+ketoconazole
+nafamostat
+alpha agonists|phenylephrine
+geophagia|clay ingestion|river bank clay
+ureterosigmoidostomy|ureteral diversion|ureterojejunostomy
+cirrhosis|hepatorenal syndrome
+non oliguric hyperkalemia of prematurity|prematurity
+aldosterone synthase deficiency|corticosterone methyloxidase deficiency
+bilateral adrenalectomy
+adrenal hemorrhage|waterhouse friderichsen syndrome
+hiv|hiv adrenalitis|hiv associated nephropathy
+tuberculosis|adrenal tuberculosis
+amyloidosis|renal amyloidosis
+glomerulonephritis
+polycystic kidney disease|pkd|adpkd
+severe hypothermia|hypothermia|rewarming
+electrical injury|electrocution
+`, "2026-11-09");
+P("Name a cause of rhabdomyolysis","clinical","",`
+strenuous exercise|exertional rhabdomyolysis|extreme exercise|excessive exercise|overexertion|crossfit|spin class|marathon running
+crush injury|crush syndrome
+trauma|blunt trauma|muscle trauma
+statins|statin|simvastatin|atorvastatin|rosuvastatin|lovastatin|pravastatin|fluvastatin|statin myopathy
+prolonged immobilization|immobility|found down|long lie|prolonged downtime|lying on the floor
+cocaine
+alcohol|alcoholism|ethanol|alcohol intoxication|alcohol use disorder|binge drinking
+seizures|status epilepticus|seizure
+heat stroke|exertional heat stroke|hyperthermia|heat illness
+neuroleptic malignant syndrome|nms
+malignant hyperthermia
+serotonin syndrome
+hypokalemia|low potassium
+hypophosphatemia|low phosphate
+compartment syndrome
+electrical injury|electrocution|high voltage injury
+lightning strike|lightning injury
+burns|severe burns|thermal burns
+sepsis|septic shock
+influenza|flu|influenza myositis
+fibrates|fibrate|gemfibrozil|fenofibrate|statin fibrate combination
+amphetamines|amphetamine|methamphetamine|meth
+mdma|ecstasy|molly
+heroin|opioids|opioid overdose
+mcardle disease|glycogen storage disease type 5|gsd type 5|myophosphorylase deficiency|muscle glycogen phosphorylase deficiency
+cpt2 deficiency|carnitine palmitoyltransferase 2 deficiency|cpt ii deficiency|cpt deficiency
+hyponatremia|rapid correction of hyponatremia|water intoxication|psychogenic polydipsia
+hypernatremia
+diabetic ketoacidosis|dka
+hyperosmolar hyperglycemic state|hhs|nonketotic hyperosmolar coma
+hypothyroidism|myxedema
+hyperthyroidism|thyroid storm|thyrotoxicosis
+sickle cell trait|exertional sickling
+succinylcholine|suxamethonium
+propofol infusion syndrome|propofol
+daptomycin
+colchicine
+zidovudine|azt
+antipsychotics|haloperidol|olanzapine|quetiapine
+hiv|hiv infection
+legionella|legionnaires disease
+coxsackievirus|enterovirus
+epstein barr virus|ebv|infectious mononucleosis
+cytomegalovirus|cmv
+covid 19|covid|sars cov 2
+streptococcal infection|group a streptococcus|necrotizing fasciitis
+staphylococcus aureus|staph aureus|pyomyositis
+clostridium|gas gangrene|clostridial myonecrosis|clostridium perfringens
+salmonella|salmonellosis
+leptospirosis|weil disease
+falciparum malaria|malaria
+dengue|dengue fever
+tularemia
+varicella|chickenpox|varicella zoster virus
+mycoplasma|mycoplasma pneumoniae
+tarui disease|glycogen storage disease type 7|gsd type 7|phosphofructokinase deficiency
+vlcad deficiency|very long chain acyl coa dehydrogenase deficiency
+lchad deficiency|trifunctional protein deficiency
+mitochondrial myopathy|mitochondrial disease
+myoadenylate deaminase deficiency|amp deaminase deficiency
+phosphoglycerate kinase deficiency
+phosphoglycerate mutase deficiency
+lactate dehydrogenase deficiency|ldh deficiency
+lipin 1 deficiency|lpin1 mutation
+ryr1 mutation|ryanodine receptor mutation|central core disease
+duchenne muscular dystrophy|duchenne|dmd
+becker muscular dystrophy|becker
+limb girdle muscular dystrophy
+polymyositis|inflammatory myopathy
+dermatomyositis
+necrotizing autoimmune myopathy|anti hmgcr myopathy|immune mediated necrotizing myopathy
+viral myositis|benign acute childhood myositis
+synthetic cannabinoids|spice|k2
+synthetic cathinones|bath salts|mephedrone|flakka
+phencyclidine|pcp
+ketamine
+lsd
+caffeine overdose|caffeine
+theophylline toxicity|theophylline
+doxylamine overdose|antihistamine overdose|diphenhydramine overdose
+barbiturates|barbiturate overdose
+benzodiazepine overdose
+carbon monoxide poisoning|co poisoning
+snake bite|snake envenomation|sea snake bite
+bee stings|wasp stings|hornet stings|multiple bee stings
+haff disease|buffalo fish|crayfish
+coturnism|quail poisoning
+mushroom poisoning|tricholoma equestre|russula subnigricans
+strychnine poisoning
+tetanus
+isoniazid overdose|isoniazid
+licorice|liquorice|glycyrrhizin
+toluene|glue sniffing|inhalant abuse
+red yeast rice
+niacin
+arterial occlusion|acute limb ischemia|limb ischemia
+reperfusion injury|revascularization
+prolonged surgery|surgical positioning|lithotomy position|bariatric surgery
+tourniquet|prolonged tourniquet use
+hypothermia|frostbite
+alcohol withdrawal|delirium tremens
+excited delirium|agitation|physical restraint|restraints
+physical abuse|torture|beating
+refeeding syndrome
+rocky mountain spotted fever|rmsf
+hantavirus
+herpes simplex virus|hsv
+parvovirus b19
+adenovirus
+amphotericin b
+telbivudine
+diuretics|thiazides|loop diuretics
+laxative abuse
+ezetimibe
+ciprofloxacin|levofloxacin|fluoroquinolones
+`, "2026-11-09");
+P("Name a structure of the lower leg","body","",`
+tibia|shin bone|shinbone
+fibula|calf bone
+gastrocnemius|gastrocnemius muscle|gastroc|medial head of gastrocnemius|lateral head of gastrocnemius
+soleus|soleus muscle
+achilles tendon|calcaneal tendon|tendo calcaneus|heel cord|tendo achillis
+tibialis anterior|tibialis anterior muscle|anterior tibialis|tibialis anterior tendon
+tibialis posterior|tibialis posterior muscle|posterior tibialis|tibialis posterior tendon
+peroneus longus|fibularis longus
+peroneus brevis|fibularis brevis
+common peroneal nerve|common fibular nerve|peroneal nerve|fibular nerve
+deep peroneal nerve|deep fibular nerve
+superficial peroneal nerve|superficial fibular nerve
+tibial nerve
+anterior tibial artery
+posterior tibial artery
+peroneal artery|fibular artery
+great saphenous vein|long saphenous vein|greater saphenous vein|gsv|saphenous vein
+small saphenous vein|short saphenous vein|lesser saphenous vein|ssv
+anterior compartment|anterior compartment of the leg
+lateral compartment|peroneal compartment|fibular compartment
+superficial posterior compartment
+deep posterior compartment
+extensor hallucis longus|ehl
+extensor digitorum longus|edl
+flexor hallucis longus|fhl
+flexor digitorum longus|fdl
+popliteus|popliteus muscle
+plantaris|plantaris muscle|plantaris tendon
+peroneus tertius|fibularis tertius
+triceps surae|calf muscles|calf muscle
+sural nerve
+saphenous nerve
+interosseous membrane|crural interosseous membrane|interosseous membrane of the leg
+tibial tuberosity|tibial tubercle
+fibular head|head of fibula|head of the fibula
+fibular neck|neck of fibula|neck of the fibula
+medial malleolus
+lateral malleolus
+tibial shaft|shaft of tibia|tibial diaphysis
+fibular shaft|shaft of fibula|fibular diaphysis
+anterior border of tibia|shin|anterior crest of tibia|tibial crest
+medial surface of tibia|subcutaneous surface of tibia
+soleal line|popliteal line|soleal line of tibia
+crural fascia|deep fascia of the leg|deep fascia
+anterior intermuscular septum|anterior crural intermuscular septum
+posterior intermuscular septum|posterior crural intermuscular septum
+transverse intermuscular septum|deep transverse fascia of the leg
+tibioperoneal trunk|tibiofibular trunk|tibioperoneal artery
+anterior tibial veins|anterior tibial vein
+posterior tibial veins|posterior tibial vein
+peroneal veins|fibular veins|peroneal vein
+perforating veins|perforator veins|perforators
+cockett perforators|posterior tibial perforators|paratibial perforators
+boyd perforator
+soleal sinuses|soleal venous sinuses|soleal veins
+gastrocnemius veins|sural veins
+posterior arch vein|leonardo vein
+calf|sura|calf region
+proximal tibiofibular joint|superior tibiofibular joint
+distal tibiofibular joint|inferior tibiofibular joint|tibiofibular syndesmosis
+gerdy tubercle|gerdys tubercle|lateral tibial tubercle|anterolateral tibial tubercle
+pes anserinus|pes anserine|goosefoot
+pes anserine bursa|anserine bursa
+superior extensor retinaculum|transverse crural ligament
+lateral sural cutaneous nerve|lateral cutaneous nerve of the calf
+medial sural cutaneous nerve
+sural communicating nerve|peroneal communicating nerve|sural communicating branch
+sural arteries|sural artery
+anterior tibial recurrent artery
+posterior tibial recurrent artery
+circumflex fibular artery|fibular circumflex artery
+nutrient artery of the tibia|tibial nutrient artery
+nutrient artery of the fibula|fibular nutrient artery
+perforating branch of the peroneal artery|perforating branch of fibular artery
+communicating branch of the peroneal artery
+nutrient foramen of the tibia|tibial nutrient foramen
+interosseous border of tibia|interosseous border of the tibia
+interosseous border of fibula|interosseous border of the fibula
+fibular notch|fibular notch of tibia|fibular incisure
+tendinous arch of soleus|soleal arch
+anterior tibial lymph node|anterior tibial node
+tibial periosteum|periosteum of tibia
+tibial metaphysis|distal tibial metaphysis|proximal tibial metaphysis
+fibular apex|apex of fibula|styloid process of fibula
+`, "2026-11-09");
+P("Name a structure of the abdominal wall or groin","body","",`
+rectus abdominis|rectus abdominis muscle|rectus|abs|six pack muscle
+external oblique|external abdominal oblique|external oblique muscle
+internal oblique|internal abdominal oblique|internal oblique muscle
+transversus abdominis|transverse abdominis|transversus abdominis muscle
+inguinal ligament|pouparts ligament|poupart ligament
+inguinal canal
+deep inguinal ring|internal inguinal ring|deep ring
+superficial inguinal ring|external inguinal ring|superficial ring
+spermatic cord
+hesselbach triangle|hesselbachs triangle|inguinal triangle
+linea alba
+rectus sheath
+inferior epigastric artery
+transversalis fascia
+round ligament of the uterus|round ligament|ligamentum teres uteri
+ductus deferens|vas deferens
+ilioinguinal nerve
+genitofemoral nerve
+genital branch of genitofemoral nerve
+iliohypogastric nerve
+conjoint tendon|conjoined tendon|falx inguinalis|inguinal falx
+lacunar ligament|gimbernat ligament|gimbernats ligament
+pectineal ligament|cooper ligament|coopers ligament
+femoral triangle|scarpa triangle|scarpas triangle
+femoral canal
+femoral ring
+femoral sheath
+femoral artery|common femoral artery
+femoral vein|common femoral vein
+femoral nerve
+arcuate line|semicircular line|line of douglas|arcuate line of rectus sheath
+linea semilunaris|semilunar line|spigelian line
+umbilicus|navel|belly button
+camper fascia|campers fascia|fatty layer of superficial fascia|superficial fatty layer
+scarpa fascia|scarpas fascia|membranous layer of superficial fascia|membranous layer
+pyramidalis|pyramidalis muscle
+testicular artery|gonadal artery
+pampiniform plexus|testicular veins|testicular vein
+cremaster muscle|cremaster
+cremasteric fascia
+external spermatic fascia
+internal spermatic fascia
+processus vaginalis
+anterior rectus sheath
+posterior rectus sheath
+tendinous intersections|tendinous inscriptions
+external oblique aponeurosis
+internal oblique aponeurosis
+transversus abdominis aponeurosis
+skin|abdominal skin
+subcutaneous tissue|subcutaneous fat|superficial fascia|hypodermis
+extraperitoneal fat|preperitoneal fat|properitoneal fat|extraperitoneal connective tissue
+parietal peritoneum
+superior epigastric artery
+inferior epigastric vein|inferior epigastric veins
+superior epigastric vein
+superficial epigastric artery
+superficial epigastric vein
+superficial circumflex iliac artery
+superficial circumflex iliac vein
+deep circumflex iliac artery
+superficial external pudendal artery|external pudendal artery
+deep external pudendal artery
+cremasteric artery
+artery of the ductus deferens|deferential artery|artery to the vas
+musculophrenic artery
+thoracoepigastric vein
+saphenofemoral junction|sfj
+great saphenous vein|long saphenous vein
+saphenous opening|saphenous hiatus|fossa ovalis
+cribriform fascia
+superficial inguinal lymph nodes|superficial inguinal nodes|inguinal lymph nodes
+deep inguinal lymph nodes|deep inguinal nodes
+node of cloquet|cloquet node|cloquets node|rosenmuller node
+femoral branch of genitofemoral nerve
+subcostal nerve|t12 nerve
+thoracoabdominal nerves|lower intercostal nerves|intercostal nerves
+anterior cutaneous branches|anterior cutaneous nerves
+lateral cutaneous branches
+lateral femoral cutaneous nerve|lateral cutaneous nerve of the thigh
+reflected inguinal ligament|reflex ligament|colles ligament
+iliopubic tract|thomson band
+interfoveolar ligament|hesselbach ligament
+intercrural fibers|intercrural fibres
+medial crus|medial crus of superficial ring
+lateral crus|lateral crus of superficial ring
+pubic tubercle
+anterior superior iliac spine|asis
+pubic crest
+pubic symphysis|symphysis pubis
+pecten pubis|pectineal line of pubis
+iliac crest
+xiphoid process|xiphoid
+costal margin
+mid inguinal point
+midpoint of the inguinal ligament
+umbilical ring
+median umbilical fold
+median umbilical ligament|urachus|urachal remnant
+medial umbilical fold
+medial umbilical ligament|obliterated umbilical artery
+lateral umbilical fold|epigastric fold
+supravesical fossa
+medial inguinal fossa
+lateral inguinal fossa
+spigelian fascia|spigelian aponeurosis
+myopectineal orifice|fruchaud orifice|myopectineal orifice of fruchaud
+triangle of doom
+triangle of pain
+corona mortis|aberrant obturator artery
+iliopectineal arch
+muscular lacuna|lacuna musculorum
+vascular lacuna|lacuna vasorum
+inguinal crease|groin crease|inguinal fold
+canal of nuck
+transversus abdominis plane|tap|neurovascular plane
+quadratus lumborum
+psoas major|psoas
+psoas minor
+iliacus
+iliopsoas
+thoracolumbar fascia|lumbodorsal fascia
+inferior lumbar triangle|petit triangle|petits triangle
+superior lumbar triangle|grynfeltt triangle|grynfeltt lesshaft triangle
+sartorius
+adductor longus
+pectineus
+fundiform ligament|fundiform ligament of penis
+suspensory ligament of the penis|suspensory ligament of penis
+deep circumflex iliac vein
+`, "2026-11-09");
+P("Name a respiratory physiology term","science","",`
+tidal volume|vt|tv
+vital capacity|vc
+total lung capacity|tlc
+residual volume|rv
+functional residual capacity|frc
+compliance|lung compliance|pulmonary compliance
+dead space|physiologic dead space|physiological dead space|wasted ventilation
+surfactant|pulmonary surfactant|lung surfactant
+ventilation perfusion ratio|v q ratio|vq ratio|v/q ratio|ventilation perfusion
+ventilation perfusion mismatch|v q mismatch|vq mismatch|v/q mismatch
+shunt|intrapulmonary shunt|right to left shunt|pulmonary shunt
+a a gradient|alveolar arterial gradient|a-a gradient|aa gradient|alveolar arterial oxygen gradient
+alveolar gas equation
+oxygen hemoglobin dissociation curve|oxyhemoglobin dissociation curve|oxygen dissociation curve|o2 dissociation curve
+bohr effect
+haldane effect
+inspiratory reserve volume|irv
+expiratory reserve volume|erv
+inspiratory capacity|ic
+forced vital capacity|fvc
+fev1|forced expiratory volume in 1 second|forced expiratory volume in one second
+fev1 fvc ratio|fev1/fvc|tiffeneau index|tiffeneau ratio
+minute ventilation|minute volume|ve
+alveolar ventilation
+anatomic dead space|anatomical dead space
+alveolar dead space
+west zones|zones of the lung|west lung zones|lung zones
+diffusing capacity|dlco|diffusing capacity for carbon monoxide|tlco|transfer factor
+fick law of diffusion|ficks law|fick law
+law of laplace|laplace law|laplaces law
+hypoxic pulmonary vasoconstriction|hpv
+2 3 bpg|2 3 dpg|23 bpg|bisphosphoglycerate|2 3 bisphosphoglycerate|diphosphoglycerate
+p50
+right shift|rightward shift|shift to the right
+left shift|leftward shift|shift to the left
+hypoxemia|hypoxaemia
+hypoxia
+hypercapnia|hypercarbia
+hypocapnia|hypocarbia
+diffusion limitation|diffusion limited gas exchange
+perfusion limitation|perfusion limited gas exchange
+elastic recoil|elastance
+airway resistance|resistance
+surface tension
+poiseuille law|poiseuilles law
+oxygen content|cao2|arterial oxygen content
+oxygen saturation|sao2|spo2|o2 sat
+partial pressure of oxygen|pao2|po2
+partial pressure of carbon dioxide|paco2|pco2
+oxygen delivery|do2
+chloride shift|hamburger phenomenon|hamburger shift
+carbonic anhydrase
+carbaminohemoglobin|carbamino compounds
+bicarbonate|hco3
+peripheral chemoreceptors
+carotid bodies|carotid body
+aortic bodies|aortic body
+central chemoreceptors
+hering breuer reflex|hering breuer inflation reflex|inflation reflex
+j receptors|juxtacapillary receptors
+pulmonary stretch receptors|stretch receptors
+irritant receptors|rapidly adapting receptors
+dorsal respiratory group|drg
+ventral respiratory group|vrg
+pneumotaxic center|pontine respiratory group
+apneustic center
+pre botzinger complex|pre-botzinger complex|prebotzinger complex
+medullary respiratory center|respiratory center
+hypoxic drive|hypoxic ventilatory drive
+transpulmonary pressure
+intrapleural pressure|pleural pressure|intrathoracic pressure
+alveolar pressure|intrapulmonary pressure
+transmural pressure
+boyle law|boyles law
+dalton law|daltons law|dalton law of partial pressures
+henry law|henrys law
+graham law|grahams law
+charles law
+equal pressure point
+dynamic airway compression
+flow volume loop
+pressure volume curve|pressure volume loop|compliance curve
+hysteresis
+work of breathing
+respiratory quotient|rq
+respiratory exchange ratio|rer
+oxygen consumption|vo2
+vo2 max|maximal oxygen uptake
+carbon dioxide production|vco2
+anaerobic threshold|ventilatory threshold|lactate threshold
+eupnea|eupnoea
+apnea|apnoea
+hyperpnea|hyperpnoea
+hyperventilation
+hypoventilation
+tachypnea|tachypnoea
+bradypnea|bradypnoea
+dyspnea|dyspnoea
+cheyne stokes respiration|cheyne stokes breathing
+kussmaul breathing|kussmaul respiration
+biot breathing|ataxic breathing
+apneustic breathing
+methemoglobin|methaemoglobin
+carboxyhemoglobin|carboxyhaemoglobin
+fetal hemoglobin|hbf|fetal haemoglobin
+high altitude acclimatization|altitude acclimatization|acclimatization
+peak expiratory flow|pef|peak flow
+fef 25 75|mid expiratory flow|mmef|forced expiratory flow 25 75
+mucociliary clearance|mucociliary escalator
+type 2 pneumocytes|type ii pneumocytes|type ii alveolar cells
+type 1 pneumocytes|type i pneumocytes
+alveolar capillary membrane|blood air barrier|respiratory membrane
+closing volume
+closing capacity
+alveolar interdependence|interdependence
+collateral ventilation|pores of kohn
+critical opening pressure
+positive end expiratory pressure|peep
+auto peep|intrinsic peep
+plateau pressure
+peak inspiratory pressure|pip
+driving pressure
+respiratory acidosis
+respiratory alkalosis
+henderson hasselbalch equation
+venous admixture
+physiologic shunt|physiological shunt
+bohr equation
+fraction of inspired oxygen|fio2
+pao2 fio2 ratio|pf ratio|p f ratio|horowitz index|p/f ratio
+oxygenation index
+barometric pressure|atmospheric pressure
+water vapor pressure|water vapour pressure
+pulmonary circulation
+bronchial circulation
+pulmonary vascular resistance|pvr
+time constant
+laminar flow
+turbulent flow
+reynolds number
+fowler method
+helium dilution
+hering breuer deflation reflex|deflation reflex
+cough reflex
+sigh
+oxygen extraction ratio|oxygen extraction
+hypoxic ventilatory response
+hypercapnic ventilatory response|co2 response curve
+chemoreflex
+respiratory pump|thoracic pump
+inspiration|inhalation
+expiration|exhalation
+negative pressure breathing
+`, "2026-11-09");
+P("Name a respiratory tract infection","micro","",`
+pneumonia|lung infection|double pneumonia
+common cold|cold|upper respiratory tract infection|upper respiratory infection|uri|urti|nasopharyngitis|coryza|acute rhinitis|head cold
+influenza|flu|the flu|swine flu|h1n1|seasonal influenza
+covid 19|covid|coronavirus disease 2019|sars cov 2 infection|covid19
+strep throat|streptococcal pharyngitis|group a strep pharyngitis|gas pharyngitis
+bronchitis|acute bronchitis|chest cold
+bronchiolitis|rsv bronchiolitis
+sinusitis|rhinosinusitis|acute sinusitis|acute rhinosinusitis|maxillary sinusitis|sinus infection
+pharyngitis|sore throat|viral pharyngitis
+tonsillitis|tonsillopharyngitis
+laryngitis
+croup|laryngotracheobronchitis|laryngotracheitis
+epiglottitis|supraglottitis
+pertussis|whooping cough
+tuberculosis|tb|pulmonary tuberculosis|consumption|phthisis
+community acquired pneumonia|cap
+hospital acquired pneumonia|hap|nosocomial pneumonia
+ventilator associated pneumonia|vap
+aspiration pneumonia
+atypical pneumonia|walking pneumonia
+mycoplasma pneumonia|mycoplasma pneumoniae pneumonia|mycoplasma infection
+legionnaires disease|legionella pneumonia|legionellosis
+pneumococcal pneumonia|streptococcus pneumoniae pneumonia|pneumococcal infection
+staphylococcal pneumonia|staph aureus pneumonia|staphylococcus aureus pneumonia
+mrsa pneumonia
+klebsiella pneumonia|friedlander pneumonia|klebsiella pneumoniae pneumonia
+pseudomonas pneumonia
+haemophilus influenzae pneumonia|h influenzae pneumonia|hib pneumonia
+pneumocystis pneumonia|pcp|pjp|pneumocystis jirovecii pneumonia|pneumocystis carinii pneumonia
+diphtheria|respiratory diphtheria
+peritonsillar abscess|quinsy
+retropharyngeal abscess
+lung abscess|pulmonary abscess
+empyema|pleural empyema|thoracic empyema
+rsv infection|respiratory syncytial virus infection|rsv
+bacterial tracheitis|pseudomembranous croup|tracheitis
+chlamydia pneumonia|chlamydophila pneumoniae pneumonia|chlamydia pneumoniae infection|twar
+psittacosis|parrot fever|ornithosis|chlamydia psittaci pneumonia
+q fever|coxiella pneumonia|coxiella burnetii infection
+histoplasmosis|pulmonary histoplasmosis
+blastomycosis|pulmonary blastomycosis
+coccidioidomycosis|valley fever|cocci|san joaquin valley fever|desert rheumatism
+aspergillosis|invasive aspergillosis|pulmonary aspergillosis|invasive pulmonary aspergillosis
+aspergilloma|fungus ball|mycetoma of the lung
+chronic pulmonary aspergillosis|chronic cavitary pulmonary aspergillosis
+mucormycosis|zygomycosis|rhinocerebral mucormycosis|pulmonary mucormycosis|black fungus
+cryptococcosis|pulmonary cryptococcosis|cryptococcal pneumonia
+paracoccidioidomycosis|south american blastomycosis
+nocardiosis|pulmonary nocardiosis
+actinomycosis|pulmonary actinomycosis|thoracic actinomycosis
+inhalational anthrax|pulmonary anthrax|woolsorters disease
+pneumonic plague|plague
+pneumonic tularemia|tularemia
+melioidosis|whitmore disease
+hantavirus pulmonary syndrome|hantavirus|hantavirus cardiopulmonary syndrome
+sars|severe acute respiratory syndrome
+mers|middle east respiratory syndrome|mers cov
+avian influenza|bird flu|h5n1|h7n9
+parainfluenza|parainfluenza virus infection
+adenovirus infection|adenoviral pneumonia|adenovirus
+rhinovirus infection|rhinovirus
+human metapneumovirus infection|hmpv|metapneumovirus
+nontuberculous mycobacterial lung disease|ntm lung disease|mycobacterium avium complex|mac lung disease|lady windermere syndrome
+mycobacterium kansasii infection|m kansasii
+latent tuberculosis|latent tb|ltbi
+miliary tuberculosis|miliary tb
+infectious mononucleosis|mono|glandular fever|ebv pharyngitis
+herpangina
+pharyngoconjunctival fever
+gonococcal pharyngitis
+vincent angina
+lemierre syndrome|postanginal sepsis|necrobacillosis
+parapharyngeal abscess|lateral pharyngeal abscess
+lower respiratory tract infection|lrti|chest infection
+viral pneumonia
+bacterial pneumonia
+fungal pneumonia
+lobar pneumonia
+bronchopneumonia|lobular pneumonia
+interstitial pneumonia|viral interstitial pneumonia
+necrotizing pneumonia
+tracheobronchitis
+measles pneumonia
+varicella pneumonia|chickenpox pneumonia
+cmv pneumonia|cytomegalovirus pneumonia
+herpes simplex pneumonia|hsv pneumonia|herpetic tracheobronchitis
+anaerobic pneumonia|anaerobic lung infection
+moraxella pneumonia|moraxella catarrhalis infection
+acinetobacter pneumonia
+e coli pneumonia|escherichia coli pneumonia
+burkholderia cepacia infection|cepacia syndrome
+rhodococcus equi pneumonia|rhodococcus pneumonia
+group b strep pneumonia|neonatal pneumonia
+chlamydia trachomatis pneumonia|infant chlamydial pneumonia
+septic pulmonary embolism|septic emboli
+chronic sinusitis|chronic rhinosinusitis
+invasive fungal sinusitis|fungal sinusitis
+rhinoscleroma
+uvulitis
+pulmonary echinococcosis|hydatid cyst of the lung|pulmonary hydatid disease
+paragonimiasis|lung fluke|pulmonary paragonimiasis
+loeffler syndrome|ascaris pneumonitis|parasitic pneumonitis
+strongyloides hyperinfection|strongyloidiasis
+tropical pulmonary eosinophilia
+pulmonary dirofilariasis|dog heartworm
+pontiac fever
+enterovirus d68|ev d68
+human bocavirus
+coronavirus infection|seasonal coronavirus
+glanders
+talaromycosis|penicilliosis
+scedosporiosis
+pulmonary candidiasis|candida pneumonia
+cystic fibrosis exacerbation|pseudomonas in cystic fibrosis
+infective exacerbation of copd|aecopd
+infected bronchiectasis
+toxoplasma pneumonitis
+`, "2026-11-09");
+P("Name an endocrine test","tests","",`
+tsh|thyroid stimulating hormone|thyrotropin|serum tsh
+free t4|ft4|free thyroxine
+hemoglobin a1c|hba1c|a1c|glycated hemoglobin|glycosylated hemoglobin|haemoglobin a1c
+fasting plasma glucose|fasting blood glucose|fasting glucose|fbg|fpg|fasting blood sugar|fbs
+oral glucose tolerance test|ogtt|glucose tolerance test|gtt
+glucose challenge test|1 hour glucose challenge test|50 g glucose challenge test|gct
+dexamethasone suppression test|low dose dexamethasone suppression test|overnight dexamethasone suppression test|1 mg dexamethasone suppression test|lddst
+high dose dexamethasone suppression test|hddst
+24 hour urine free cortisol|urinary free cortisol|ufc|24 hour urine cortisol
+late night salivary cortisol|midnight salivary cortisol|salivary cortisol
+acth stimulation test|cosyntropin stimulation test|cosyntropin test|synacthen test|short synacthen test|tetracosactide test
+morning cortisol|am cortisol|8 am cortisol|serum cortisol|cortisol level|cortisol
+acth|plasma acth|acth level|adrenocorticotropic hormone|corticotropin
+plasma metanephrines|plasma free metanephrines|serum metanephrines|free metanephrines
+24 hour urine metanephrines|urine metanephrines|urinary metanephrines|fractionated metanephrines
+aldosterone renin ratio|arr|aldosterone to renin ratio|plasma aldosterone renin ratio
+plasma renin activity|pra|renin|renin level|direct renin concentration
+serum aldosterone|plasma aldosterone|aldosterone level|aldosterone
+pth|parathyroid hormone|intact pth|serum pth
+serum calcium|calcium level|calcium|ionized calcium|albumin corrected calcium
+vitamin d|25 hydroxyvitamin d|25 oh vitamin d|calcidiol|vitamin d level
+prolactin|prolactin level|serum prolactin
+igf 1|insulin like growth factor 1|somatomedin c|igf1
+oral glucose suppression test|growth hormone suppression test|gh suppression test|glucose suppression test
+water deprivation test|fluid deprivation test|water restriction test
+desmopressin challenge test|ddavp test|desmopressin test|vasopressin challenge test
+72 hour fast|supervised fast|prolonged supervised fast|72 hour supervised fast
+c peptide|c-peptide|connecting peptide
+insulin level|serum insulin|fasting insulin|plasma insulin
+thyroid ultrasound|neck ultrasound|ultrasound of the thyroid
+fine needle aspiration|fna|thyroid fna|thyroid biopsy|fnab
+radioactive iodine uptake|raiu|radioiodine uptake|rai uptake|iodine uptake scan
+thyroid scan|thyroid scintigraphy|technetium thyroid scan|nuclear thyroid scan
+tpo antibodies|anti tpo|thyroid peroxidase antibodies|antimicrosomal antibodies|anti tpo antibodies
+thyroglobulin antibodies|anti thyroglobulin antibodies|tgab
+tsh receptor antibodies|trab|tsh receptor antibody|thyrotropin receptor antibodies|tbii
+thyroid stimulating immunoglobulin|tsi
+t3|total t3|triiodothyronine|serum t3
+free t3|ft3|free triiodothyronine
+total t4|t4|thyroxine|serum t4
+thyroglobulin|serum thyroglobulin|tg
+calcitonin|serum calcitonin
+sestamibi scan|parathyroid scan|technetium sestamibi|mibi scan|tc 99m sestamibi
+4d ct|four dimensional ct|parathyroid 4d ct
+pituitary mri|mri pituitary|sella mri|mri of the sella|pituitary protocol mri
+adrenal ct|ct adrenal|adrenal protocol ct|adrenal washout ct
+adrenal vein sampling|avs|adrenal venous sampling
+inferior petrosal sinus sampling|ipss|petrosal sinus sampling|bilateral inferior petrosal sinus sampling
+mibg scan|metaiodobenzylguanidine scan|i 123 mibg
+octreotide scan|somatostatin receptor scintigraphy|octreoscan|srs
+dotatate pet|ga 68 dotatate pet|dotatate scan|gallium dotatate|cu 64 dotatate
+saline infusion test|saline suppression test|saline loading test
+oral sodium loading test|oral salt loading test|24 hour urine aldosterone
+captopril challenge test|captopril suppression test
+fludrocortisone suppression test
+crh stimulation test|corticotropin releasing hormone test|crh test
+metyrapone test|metyrapone stimulation test
+insulin tolerance test|itt|insulin hypoglycemia test|insulin stress test
+glucagon stimulation test
+arginine stimulation test
+clonidine stimulation test
+ghrh arginine test|ghrh arginine stimulation test
+macimorelin test|macimorelin stimulation test
+growth hormone level|gh level|serum growth hormone|random growth hormone
+trh stimulation test|trh test|thyrotropin releasing hormone test
+gnrh stimulation test|leuprolide stimulation test|lhrh stimulation test|gnrh agonist stimulation test
+lh|luteinizing hormone
+fsh|follicle stimulating hormone
+testosterone|total testosterone|serum testosterone
+free testosterone|bioavailable testosterone|calculated free testosterone
+shbg|sex hormone binding globulin
+estradiol|e2|oestradiol|serum estradiol
+17 hydroxyprogesterone|17 ohp|17 oh progesterone|17 alpha hydroxyprogesterone
+dheas|dhea s|dehydroepiandrosterone sulfate|dhea sulfate
+androstenedione
+anti mullerian hormone|amh|mullerian inhibiting substance
+hcg|beta hcg|human chorionic gonadotropin|serum hcg|pregnancy test
+progesterone|serum progesterone|day 21 progesterone
+inhibin b|inhibin
+proinsulin|serum proinsulin
+beta hydroxybutyrate|bhb|beta hydroxybutyric acid|serum ketones
+sulfonylurea screen|oral hypoglycemic agent screen|hypoglycemic agent screen|sulfonylurea level
+insulin antibodies|insulin autoantibodies|iaa
+gad antibodies|anti gad|gad65 antibodies|glutamic acid decarboxylase antibodies|gada
+islet cell antibodies|ica|islet autoantibodies
+ia 2 antibodies|ia2 antibodies|insulinoma associated antigen 2 antibodies
+znt8 antibodies|zinc transporter 8 antibodies
+fructosamine
+glycated albumin
+random plasma glucose|random blood glucose|random glucose|random blood sugar
+fingerstick glucose|capillary blood glucose|point of care glucose|glucometer|self monitoring of blood glucose|smbg|blood glucose check
+continuous glucose monitoring|cgm|continuous glucose monitor|flash glucose monitoring
+urine ketones|urine ketone dipstick
+urine albumin creatinine ratio|uacr|urine microalbumin|microalbumin|albumin to creatinine ratio
+mixed meal tolerance test|mmtt
+serum osmolality|plasma osmolality
+urine osmolality
+serum sodium|sodium level
+urine sodium
+antidiuretic hormone|adh level|vasopressin level|arginine vasopressin
+copeptin|copeptin test|hypertonic saline stimulated copeptin|arginine stimulated copeptin
+plasma catecholamines|serum catecholamines
+urine catecholamines|24 hour urine catecholamines
+urine vma|vanillylmandelic acid|vma
+chromogranin a|cga
+clonidine suppression test
+5 hiaa|urine 5 hiaa|5 hydroxyindoleacetic acid|24 hour urine 5 hiaa
+fasting gastrin|serum gastrin|gastrin level
+secretin stimulation test|secretin test
+glucagon level|serum glucagon|plasma glucagon
+vasoactive intestinal peptide|vip|vip level
+pthrp|pth related peptide|parathyroid hormone related protein|parathyroid hormone related peptide
+1 25 dihydroxyvitamin d|calcitriol level|125 dihydroxyvitamin d|1 25 oh2 d
+24 hour urine calcium|urine calcium|urinary calcium excretion
+calcium creatinine clearance ratio|cccr|urine calcium to creatinine clearance ratio
+serum phosphate|phosphorus|phosphate level|serum phosphorus
+magnesium|serum magnesium
+alkaline phosphatase|alp|alk phos
+bone specific alkaline phosphatase|bsap|bone alkaline phosphatase
+ctx|c telopeptide|serum ctx|beta crosslaps
+p1np|procollagen type 1 n terminal propeptide|pinp
+ntx|n telopeptide
+dxa scan|dexa scan|dexa|dxa|bone density scan|bone mineral density test|bmd
+bone age x ray|bone age|hand and wrist x ray for bone age
+karyotype|chromosome analysis
+visual field testing|visual fields|formal visual field testing|humphrey visual fields
+ret proto oncogene testing|ret mutation testing|ret gene testing
+men1 gene testing|menin gene testing
+thyroid function tests|tfts|thyroid panel|thyroid function test
+whole body iodine scan|whole body radioiodine scan|diagnostic whole body scan|wbs
+reverse t3|rt3
+thyroxine binding globulin|tbg
+t3 resin uptake|t3ru|t3 uptake
+urine iodine|urinary iodine|urine iodine concentration
+parathyroid ultrasound
+fluorocholine pet|choline pet|18f fluorocholine pet ct
+selective arterial calcium stimulation test|imamura test|asvs|arterial stimulation venous sampling
+endoscopic ultrasound|eus
+adrenal scintigraphy|np 59 scan|iodocholesterol scan
+11 deoxycortisol|11 deoxycortisol level
+midnight serum cortisol|midnight plasma cortisol|late night serum cortisol
+dexamethasone crh test|dex crh test|dexamethasone suppressed crh test
+21 hydroxylase antibodies|adrenal antibodies|adrenal cortex antibodies
+cea|carcinoembryonic antigen
+macroprolactin|macroprolactin screen|peg precipitation
+igfbp 3|igf binding protein 3
+cortisol binding globulin|cbg
+pentagastrin stimulation test
+calcium stimulation test|calcium infusion test
+semen analysis|sperm count
+fdg pet|fdg pet ct|18f fdg pet
+adrenal mri|chemical shift mri
+renin stimulation test|upright posture test|postural stimulation test
+3 methoxytyramine
+`, "2026-11-09");
+P("Name a pulmonary function test or lung procedure","tests","",`
+spirometry|spirometer test
+bronchoscopy|flexible bronchoscopy|fiberoptic bronchoscopy
+thoracentesis|pleural tap|pleurocentesis
+chest tube|tube thoracostomy|chest drain|intercostal drain|chest tube insertion
+peak flow|peak expiratory flow|pef|pefr|peak flow meter|peak expiratory flow rate
+dlco|diffusing capacity|diffusing capacity for carbon monoxide|tlco|transfer factor|diffusion capacity
+fev1|forced expiratory volume in 1 second|forced expiratory volume in one second
+fvc|forced vital capacity
+fev1 fvc ratio|fev1/fvc|tiffeneau index
+body plethysmography|body box|plethysmography|whole body plethysmography
+lung volumes|lung volume measurement|static lung volumes
+methacholine challenge test|methacholine challenge|bronchoprovocation test|bronchial challenge test|bronchial provocation test
+bronchodilator reversibility test|bronchodilator response|post bronchodilator spirometry|reversibility testing|pre and post bronchodilator spirometry
+arterial blood gas|abg|blood gas
+pulse oximetry|pulse ox|oximetry|spo2
+six minute walk test|6 minute walk test|6mwt|6mwd|six minute walk
+flow volume loop|flow volume curve
+feno|fractional exhaled nitric oxide|exhaled nitric oxide|fe no
+bronchoalveolar lavage|bal
+transbronchial biopsy|transbronchial lung biopsy|tbbx|tblb
+endobronchial ultrasound|ebus|ebus tbna|endobronchial ultrasound guided transbronchial needle aspiration
+ct guided lung biopsy|ct guided biopsy|percutaneous lung biopsy|transthoracic needle biopsy|transthoracic needle aspiration|ttna
+mediastinoscopy|cervical mediastinoscopy
+vats|video assisted thoracoscopic surgery|video assisted thoracoscopy|thoracoscopic surgery
+lobectomy
+pneumonectomy
+wedge resection
+segmentectomy
+lung transplant|lung transplantation
+pleurodesis|chemical pleurodesis|talc pleurodesis|mechanical pleurodesis
+indwelling pleural catheter|pleurx catheter|pleurx|ipc|tunneled pleural catheter
+tracheostomy|trach|tracheotomy
+endotracheal intubation|intubation
+cricothyrotomy|cricothyroidotomy|cric|surgical airway
+needle decompression|needle thoracostomy|needle thoracocentesis
+cardiopulmonary exercise test|cpet|cpex|cardiopulmonary exercise testing|exercise stress test with gas exchange
+helium dilution|helium dilution test|helium dilution technique
+nitrogen washout|multiple breath nitrogen washout|nitrogen washout test|mbnw
+single breath nitrogen washout|fowler method|closing volume test|single breath nitrogen test
+mannitol challenge test|mannitol challenge|aridol test|aridol
+exercise challenge test|exercise bronchoprovocation|exercise induced bronchoconstriction test
+eucapnic voluntary hyperpnea|evh|eucapnic voluntary hyperventilation
+histamine challenge test|histamine challenge
+adenosine monophosphate challenge|amp challenge
+maximal inspiratory pressure|mip|nif|negative inspiratory force|pimax
+maximal expiratory pressure|mep|pemax
+maximum voluntary ventilation|mvv|maximal voluntary ventilation
+sniff nasal inspiratory pressure|snip
+sniff test|fluoroscopic sniff test|diaphragm fluoroscopy
+supine spirometry|upright and supine fvc|supine vital capacity
+impulse oscillometry|ios|forced oscillation technique|fot|oscillometry
+slow vital capacity|svc
+inspiratory capacity measurement
+rigid bronchoscopy
+transbronchial needle aspiration|tbna|conventional tbna
+navigational bronchoscopy|electromagnetic navigation bronchoscopy|enb|electromagnetic navigational bronchoscopy
+robotic bronchoscopy|robotic assisted bronchoscopy|ion bronchoscopy|monarch bronchoscopy
+radial ebus|radial probe ebus|r ebus
+transbronchial cryobiopsy|cryobiopsy|lung cryobiopsy
+endobronchial biopsy|ebbx
+bronchial brushing|bronchial brushings
+bronchial washing|bronchial washings
+pleural biopsy|closed pleural biopsy|abrams needle biopsy|image guided pleural biopsy
+medical thoracoscopy|pleuroscopy|local anaesthetic thoracoscopy
+thoracotomy
+surgical lung biopsy|open lung biopsy|lung biopsy|vats lung biopsy
+sleeve lobectomy|sleeve resection
+lung volume reduction surgery|lvrs
+endobronchial valve|zephyr valve|bronchoscopic lung volume reduction|blvr|spiration valve
+endobronchial coils|lung volume reduction coils
+bullectomy
+decortication|pleural decortication
+pleurectomy
+whole lung lavage|lung lavage|therapeutic lung lavage
+bronchial thermoplasty
+airway stent|tracheal stent|bronchial stent|endobronchial stent|airway stenting
+balloon bronchoplasty|airway balloon dilation|balloon dilation
+argon plasma coagulation|apc
+endobronchial laser therapy|nd yag laser|bronchoscopic laser
+endobronchial cryotherapy|cryodebridement|cryorecanalization
+photodynamic therapy|pdt
+endobronchial brachytherapy
+bronchial artery embolization|bae
+foreign body removal|bronchoscopic foreign body removal|foreign body extraction
+percutaneous dilatational tracheostomy|percutaneous tracheostomy
+pigtail catheter|small bore chest tube|seldinger chest drain
+mediastinotomy|chamberlain procedure|anterior mediastinotomy
+pulmonary angiography|pulmonary angiogram
+ct pulmonary angiogram|ctpa|ct angiography of the chest|cta chest|ct pe protocol
+ventilation perfusion scan|v q scan|vq scan|v/q scan|lung scan|vq scintigraphy
+chest x ray|cxr|chest radiograph|chest film
+ct chest|chest ct|ct scan of the chest|ct thorax
+high resolution ct|hrct|high resolution computed tomography
+low dose ct|ldct|lung cancer screening ct|low dose ct lung cancer screening
+pet ct|pet scan|fdg pet ct
+lung ultrasound|chest ultrasound|thoracic ultrasound|pleural ultrasound
+diaphragm ultrasound|diaphragmatic ultrasound
+sputum induction|induced sputum|hypertonic saline sputum induction
+chest physiotherapy|chest percussion|postural drainage|chest pt|chest physical therapy
+incentive spirometry|incentive spirometer
+hypoxic challenge test|hypoxia altitude simulation test|hast|fitness to fly test|high altitude simulation test
+shunt study|100 percent oxygen shunt study|hyperoxic shunt study
+nasal nitric oxide|nno
+pulmonary function tests|pfts|pft|lung function tests|lung function test|full pulmonary function tests
+transthoracic ultrasound guided biopsy|ultrasound guided lung biopsy
+pulmonary thromboendarterectomy|pulmonary endarterectomy|pte
+pulmonary embolectomy|surgical embolectomy
+catheter directed thrombolysis|catheter directed therapy for pe|ekos
+mechanical thrombectomy for pe|percutaneous thrombectomy
+bronchography
+lung resection|pulmonary resection
+exhaled breath condensate
+compliance measurement|esophageal balloon manometry|esophageal pressure monitoring
+airway resistance measurement|raw|specific airway conductance|sgaw
+lung clearance index|lci
+infant pulmonary function testing|infant pft|raised volume rapid thoracoabdominal compression
+oxygen titration study|ambulatory oxygen assessment
+overnight oximetry|nocturnal oximetry
+`, "2026-11-09");
+P("Name a medical prefix, suffix or word root","care","",`
+itis
+ectomy
+cardio|cardi|cardia
+ology|logy
+hyper
+hypo
+otomy|tomy
+ostomy|stomy
+algia
+emia|aemia
+oma
+osis
+neuro|neur
+hepato|hepat
+nephro|nephr
+gastro|gastr
+derm|dermo|dermato|dermat|derma
+osteo|oste
+arthro|arthr
+brady
+tachy
+pathy
+plasty
+scopy
+scope
+gram
+graph
+graphy
+megaly
+penia
+cyte|cyto|cyt
+hemo|hema|hemato|hemat|haemo|haema|haemato|haem|hem
+dys
+peri
+endo
+epi
+sub
+inter
+intra
+trans
+anti
+pre
+post
+poly
+leuko|leuk|leuco|leuc
+erythro|erythr
+pneumo|pneum|pneumono|pneumon
+pulmo|pulmon|pulmono
+broncho|bronch|bronchi
+myo|my
+encephalo|encephal
+cephalo|cephal
+cerebro|cerebr
+angio|angi
+vaso|vas
+phlebo|phleb
+veno|ven
+arterio|arteri
+cholecysto|cholecyst
+entero|enter
+colo|col|colono|colon
+procto|proct
+recto|rect
+cysto|cyst
+uro|ur
+pyelo|pyel
+hystero|hyster
+oophoro|oophor
+salpingo|salping
+mammo|mamm
+masto|mast
+spleno|splen
+thyro|thyr
+adeno|aden
+lipo|lip
+litho|lith
+lympho|lymph
+onco|onc
+carcino|carcin
+patho|path
+psycho|psych
+thoraco|thorac
+pleuro|pleur
+oto|ot
+ophthalmo|ophthalm
+rhino|rhin
+laryngo|laryng
+pharyngo|pharyng
+tracheo|trache
+stomato|stomat
+glosso|gloss
+odonto|odont
+dento|dent|denti
+esophago|esophag|oesophago|oesophag
+chondro|chondr
+myelo|myel
+a|an
+micro
+macro
+mega|megalo
+hemi
+semi
+mono
+uni
+bi
+di
+tri
+quadri
+tetra
+multi
+pan
+iso
+homo
+homeo|homoeo
+hetero
+auto
+syn|sym
+dia
+ab
+ad
+circum
+contra
+de
+dis
+ecto
+exo
+ex
+extra
+infra
+supra
+retro
+para
+meta
+ante
+pro
+neo
+nulli
+primi
+pseudo
+re
+eu
+mal
+ultra
+super
+oligo|olig
+ortho|orth
+acro|acr
+tele
+xeno
+allo
+pachy
+lepto
+platy
+dextro|dextr
+sinistro|sinistr
+levo
+latero|later
+medio|medi
+antero|anter
+postero|poster
+dorso|dors
+ventro|ventr
+caudo|caud
+cranio|crani
+dynia
+asthenia
+cele
+centesis
+desis
+ectasis|ectasia
+edema|oedema
+emesis
+genesis
+genic|gen|genous
+iasis
+ia
+ism
+iatry|iatric|iatrics
+iatro|iatr
+lysis|lytic|lyso|lys
+malacia
+mania
+oid
+opia
+opsy
+oxia|oxy|ox
+paresis
+pepsia
+pexy
+phagia|phagy|phago|phag|phage
+phasia
+philia|phil|philic
+phobia
+phonia|phono|phon
+plasia
+plasm|plasmo
+plegia
+pnea|pnoea
+poiesis
+ptosis
+ptysis
+rrhage|rrhagia
+rrhaphy
+rrhea|rrhoea
+rrhexis
+sclerosis|sclero|scler
+spasm
+stasis
+static
+stenosis|steno
+therapy
+tome
+tripsy
+trophy|trophic|tropho|troph
+tropic
+tropin
+uria
+cide|cidal
+cytosis
+blast|blasto
+clast
+some
+crine|crino|crin
+dipsia
+orexia
+porosis
+chezia
+ose
+ase
+ist
+ule|ula|ole|ulus
+ous
+ic
+al
+ar|ary
+phyte
+coccus|cocci|cocco
+stalsis
+gravida
+cyesis
+metry
+meter
+glyco|glyc|gluco|gluc|glycos
+lacto|lact
+galacto|galact
+sialo|sial
+hidro|hidr
+tricho|trich
+onycho|onych
+kerato|kerat
+melano|melan
+xantho|xanth
+cyano|cyan
+chloro|chlor
+pyo|py
+hydro|hydr
+fibro|fibr
+histo|hist
+karyo|kary
+bio
+toxo|toxico|tox|toxic
+pharmaco|pharmac
+chemo
+radio
+sono
+echo
+electro
+fluoro
+tomo
+sarco|sarc
+somato|somat
+spondylo|spondyl
+vertebro|vertebr
+costo|cost
+tendo|tendino|teno|tenon
+ligamento
+myco|myc
+bacterio|bacteri
+viro|vir
+fungi|fung
+staphylo
+strepto
+athero|ather
+thrombo|thromb
+embolo|embol
+isch|ischo
+sphygmo|sphygm
+stetho|steth
+atrio|atri
+ventriculo|ventricul
+valvulo|valvul|valvo
+aorto|aort
+varico|varic
+pectoro|pector|pectus
+phreno|phren
+spiro|spir
+capno|capn|capnia
+alveolo|alveol
+naso|nas
+epiglotto|epiglott
+tonsillo|tonsill
+uvulo|uvul
+palato|palat
+linguo|lingu
+bucco|bucc
+cheilo|cheil|chilo
+labio|labi
+gingivo|gingiv
+duodeno|duoden
+jejuno|jejun
+ileo|ile
+ceco|cec|caeco|caec
+sigmoido|sigmoid
+pancreato|pancreat
+appendico|appendic
+laparo|lapar
+celio|celi
+abdomino|abdomin
+omphalo|omphal
+hernio|herni
+peritoneo|periton
+pyloro|pylor
+choledocho|choledoch
+cholangio|cholangi
+chole|chol|cholo
+bili|bil
+steato|steat
+amylo|amyl
+keto|ket
+azoto|azot
+natri|natr
+kali|kal
+calci|calc
+phospho|phosph
+sidero|sider
+ferro|ferri|ferr
+albumino|albumin
+reno|ren
+glomerulo|glomerul
+vesico|vesic
+uretero|ureter
+urethro|urethr
+noct|nocti
+nycto|nyct
+andro|andr
+orchio|orchi|orchido|orchid|orch
+prostato|prostat
+epididymo|epididym
+balano|balan
+phallo|phall
+scroto|scrot
+spermato|sperm|spermo
+gyneco|gyno|gynec|gyn|gynaeco
+metro|metr
+utero|uter
+ovario|ovari|ovar
+oo|ovo|ovi
+colpo|colp
+vagino|vagin
+vulvo|vulv
+episio|episi
+cervico|cervic
+meno|men
+amnio|amni
+toco|toc|toko|tocia
+nato|nat|natal
+feto|fet|foeto|foet
+embryo
+adreno|adren
+gonado|gonad
+necro|necr
+morpho|morph
+chromo|chrom|chromato|chromat
+nucleo|nucle
+poikilo
+aniso
+immuno|immun
+sero|ser
+thymo|thym
+pyreto|pyret|pyro|pyr
+febri|febr
+thermo|therm
+cryo
+algesia|algesi|algo|alg
+esthesia|aesthesia|esthesio|esthesi|aesthesi
+kinesia|kinesis|kinesio|kinesi|kine
+tono|ton
+taxia|taxis
+lepsy|lepsia
+mnesia|mnes
+lalia
+lexia
+praxia|praxis
+gnosia|gnosis
+thymia
+schizo|schiz
+somno|somn|somni
+hypno|hypn
+narco|narc
+mening|meningo
+radiculo|radicul
+ganglio|gangli
+cerebello|cerebell
+cortico|cortic
+thalamo|thalam
+spino|spin
+oculo|ocul
+opto|opt
+blepharo|blephar
+irido|irid|iri
+retino|retin
+phaco|phac|phako
+dacryo|dacry
+lacrimo|lacrim
+amblyo|ambly
+presby
+myringo|myring
+tympano|tympan
+audio|audi
+acusis|acou|acous
+auri|aur
+osmia|osmo|osm
+geusia
+cutaneo|cutane
+sebo|seb
+pilo|pil
+ungui|ungu
+xero
+ichthyo|ichthy
+rhytido|rhytid
+squamo|squam
+fascio|fasci
+synovio|synovi
+burso|burs
+ankylo|ankyl
+kypho|kyph
+lordo|lord
+scolio|scoli
+sacro|sacr
+lumbo|lumb
+sterno|stern
+cleido|cleid
+humero|humer
+carpo|carp
+metacarpo|metacarp
+phalango|phalang
+femoro|femor
+patello|patell
+tibio|tibi
+peroneo|perone
+tarso|tars
+calcaneo|calcane
+ilio|ili
+ischio|ischi
+pubo|pub
+podo|pod
+pedo|paedo|paed|pedi|pedia|paedia|pediatr|paediatr
+chiro|cheiro|chir
+dactylo|dactyl
+brachio|brachi
+maxillo|maxill
+mandibulo|mandibul
+sanguino|sangui
+granulo
+eosino|eosin
+baso
+neutro
+geronto|gero|geri
+crypto|crypt
+corneo|corne
+etio|aetio
+`, "2026-11-09");
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

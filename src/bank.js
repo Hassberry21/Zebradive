@@ -24200,7 +24200,6 @@ thyroid isthmus|isthmus of thyroid
 thoracic duct
 salivary glands
 submandibular gland
-parotid gland
 tonsils|palatine tonsils
 anterior triangle|anterior triangle of the neck
 posterior triangle|posterior triangle of the neck
@@ -24294,7 +24293,6 @@ pharyngeal constrictor muscles|pharyngeal constrictors
 thyroid lobes
 pyramidal lobe
 thyroglossal duct remnant|thyroglossal duct
-lingual thyroid
 superior parathyroid glands
 inferior parathyroid glands
 thymus
@@ -24333,7 +24331,6 @@ jugular notch|suprasternal notch
 clavicle|collarbone
 first rib
 cervical rib
-manubrium
 nuchal ligament|ligamentum nuchae
 anterior longitudinal ligament
 posterior longitudinal ligament
@@ -24361,10 +24358,6 @@ lung apex
 sternoclavicular joint
 skin of the neck
 subcutaneous fat
-mandible
-mastoid process
-styloid process
-external occipital protuberance|inion
 `, "2026-11-06");
 
 P("Name a cytokine or immune signaling molecule","science","",`
@@ -24580,9 +24573,6 @@ heme degradation|heme catabolism|bilirubin metabolism
 steroidogenesis|steroid synthesis
 bile acid synthesis
 protein synthesis|translation
-transcription
-dna replication
-dna repair
 transamination
 deamination|oxidative deamination
 amino acid catabolism
@@ -24635,14 +24625,6 @@ atp synthesis
 substrate level phosphorylation
 phosphocreatine system|creatine phosphate system|atp pc system
 purine nucleotide cycle
-renin angiotensin aldosterone system|raas
-coagulation cascade|clotting cascade
-complement cascade|complement pathway
-classical complement pathway
-alternative complement pathway
-lectin pathway
-fibrinolysis
-kinin kallikrein system
 glucuronidation
 sulfation
 acetylation
@@ -24650,26 +24632,11 @@ methylation
 phase i metabolism
 phase ii metabolism
 first pass metabolism
-enterohepatic circulation
 vitamin d synthesis|vitamin d activation
 visual cycle|retinoid cycle
 thyroid hormone synthesis
-insulin signaling pathway
-mtor pathway
-ampk pathway
-camp pathway|second messenger pathway
-ip3 dag pathway|phosphoinositide pathway
-jak stat pathway
-mapk pathway|ras raf mek erk pathway
-pi3k akt pathway
-wnt pathway|wnt signaling
-hedgehog pathway
-notch pathway
-nf kappa b pathway
-apoptosis pathway|caspase cascade
 ubiquitin proteasome pathway
 autophagy
-cell cycle
 glycosaminoglycan synthesis
 collagen synthesis
 glycosylation
@@ -24685,17 +24652,8 @@ lipoprotein metabolism
 reverse cholesterol transport
 exogenous lipid pathway
 endogenous lipid pathway
-nitrogen cycle
-carbon cycle
 iron metabolism
 copper metabolism
-calcium homeostasis
-bone remodeling cycle
-menstrual cycle
-cardiac cycle
-sleep wake cycle|circadian rhythm
-ovarian cycle
-hair growth cycle
 `, "2026-11-06");
 
 P("Name a protein in the human body","science","",`
@@ -54139,7 +54097,7 @@ function evaluate(p, raw){
     const typo = raw_d===bd;   // a real spelling slip, not a longer/shorter phrase
     const ROOT=/(kal|calc|natr|magnes|phosphat|chlor|glyc)/, rq=(n0.match(ROOT)||[])[1], rk=(bk.match(ROOT)||[])[1];
     const qs=n0.split(" "), ks=bk.split(" "), tiny=qs.length===ks.length && qs.some((w,i)=>w!==ks[i] && (w.length<=2||ks[i].length<=2));
-    const CONF=[["nephrotic","nephritic"],["ileum","ilium"],["ileus","ileum"],["perineal","peroneal"],["dysphagia","dysphasia"],["aphagia","aphasia"],
+    const CONF=[["nephrotic","nephritic"],["parotid","carotid"],["ileum","ilium"],["ileus","ileum"],["perineal","peroneal"],["dysphagia","dysphasia"],["aphagia","aphasia"],
       ["abduct","adduct"],["intra","inter"],["ostomy","otomy"],["ectomy","otomy"],["ectomy","ostomy"],["malleus","malleolus"],["humeral","humoral"],
       ["mucous","mucosa"],["ureter","urethr"],["metatars","metacarp"],["hypothen","thenar"],["arteri","ventri"],["atrial","atrium"],["axillary","maxillary"],
       ["celiac","cecal"],["prostatic","prostate"],["fistula","fissure"],["ascites","acites"],["cyst","cystic"],["insulin","inulin"]];

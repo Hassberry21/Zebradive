@@ -3770,3 +3770,65 @@ crowdAlias("Name a chronic disease", "macular degeneration", "amd|age related ma
 crowd("Name a chronic disease", 56, "ehlers danlos syndrome|eds|ehlers danlos");  // 2026-11-06 · 2 players · chronic inherited connective tissue disorder
 crowd("Name a chronic disease", 69, "primary aldosteronism|conn syndrome|conns syndrome|hyperaldosteronism");  // 2026-11-06 · 1 player · chronic endocrine disease; "conns syndrome" was auto-correcting to down syndrome
 crowdAlias("Name a cause of meningitis or encephalitis", "hib", "h flu|h. flu");  // 2026-11-06 · 2 players · common shorthand for Haemophilus influenzae
+
+// ===== 2026-11-07 nightly review =====
+crowdAlias("Name a disease you can catch from animals", "mad cow disease", "cjd|variant cjd|vcjd|bse|bovine spongiform encephalopathy");  // 2026-11-07 · 7 players · vCJD from BSE beef (sporadic CJD is not zoonotic)
+crowdAlias("Name a disease you can catch from animals", "brucellosis", "brucella");  // 2026-11-07 · 4 players · organism name
+crowd("Name a disease you can catch from animals", 42, "leprosy|hansen disease|hansens disease");  // 2026-11-07 · 3 players · armadillo-acquired M. leprae (NEJM 2011)
+crowdAlias("Name a disease you can catch from animals", "covid", "coronavirus|corona");  // 2026-11-07 · 5 players · same answer
+crowdAlias("Name a disease you can catch from animals", "yersiniosis", "yersinia");  // 2026-11-07 · 2 players · organism name
+crowdAlias("Name a skin or soft tissue infection", "cutaneous tuberculosis", "tuberculosis|tb|skin tuberculosis");  // 2026-11-07 · 3 players · TB of skin is on list
+crowdAlias("Name a cause of meningitis or encephalitis", "tuberculosis", "tb|tb meningitis|tuberculous meningitis");  // 2026-11-07 · 3 players · abbreviation
+crowdAlias("Name a cause of meningitis or encephalitis", "anti nmda receptor encephalitis", "nmda encephalitis|nmda receptor encephalitis|nmda autoimmune|nmda receptor negative encephalitis");  // 2026-11-07 · 4 players · same disease
+crowdAlias("Name a cause of meningitis or encephalitis", "viral meningitis", "viral infection|virus");  // 2026-11-07 · 3 players · same category
+crowdAlias("Name a lab stain or culture medium", "macconkey agar", "mcconkey|mconkey|mcconkey agar|macconkey");  // 2026-11-07 · 7 players · misspelling
+crowdAlias("Name a metabolic pathway or cycle", "krebs cycle", "krebb|krebbs|krebbs cycle|citric acid");  // 2026-11-07 · 5 players · misspellings
+crowdAlias("Name a metabolic pathway or cycle", "pentose phosphate pathway", "ppp");  // 2026-11-07 · 4 players · abbreviation
+crowd("Name a metabolic pathway or cycle", 89, "randle cycle|randle|glucose fatty acid cycle");  // 2026-11-07 · 1 player · named glucose-fatty acid substrate cycle
+crowd("Name a cause of swollen lymph nodes", 88, "prostate cancer|prostatic adenocarcinoma|prostate adenocarcinoma");  // 2026-11-07 · 1 player · nodal metastasis
+crowdAlias("Name a risk factor for falls", "old age", "age|advanced age|older age");  // 2026-11-07 · 5 players · same factor
+crowd("Name a risk factor for falls", 85, "neurosyphilis|tabes dorsalis");  // 2026-11-07 · 1 player · sensory ataxia from dorsal column loss
+crowd("Name a neurological disorder", 74, "mogad|mog antibody disease|mog antibody associated disease|myelin oligodendrocyte glycoprotein antibody associated disease");  // 2026-11-07 · 3 players · distinct CNS demyelinating disease
+crowdAlias("Name a neurological disorder", "posterior reversible encephalopathy syndrome", "reversible posterior leukoencephalopathy syndrome|rpls");  // 2026-11-07 · 1 player · older name of PRES
+crowdAlias("Name a neurological disorder", "stiff person syndrome", "stiff man syndrome");  // 2026-11-07 · 1 player · older name
+crowd("Name a surgical procedure", 69, "pelvic exenteration|anterior exenteration|posterior exenteration|total pelvic exenteration");  // 2026-11-07 · 4 players · radical pelvic surgery
+crowd("Name a surgical procedure", 73, "hipec|hyperthermic intraperitoneal chemotherapy|cytoreductive surgery");  // 2026-11-07 · 3 players · CRS-HIPEC
+crowd("Name a surgical procedure", 87, "holep|holmium laser enucleation of the prostate");  // 2026-11-07 · 1 player · BPH surgery
+crowd("Name a surgical procedure", 87, "lymphovenous anastomosis|lymphovenous bypass|lymph node vein anastomosis|lymph node vein anastamoses");  // 2026-11-07 · 1 player · lymphedema microsurgery
+crowd("Name a surgical procedure", 87, "mpfl reconstruction|medial patellofemoral ligament reconstruction");  // 2026-11-07 · 1 player · patellar instability surgery
+crowd("Name a surgical procedure", 87, "salpingotomy|linear salpingotomy");  // 2026-11-07 · 1 player · tubal-sparing ectopic surgery
+crowd("Name a surgical procedure", 87, "prostatic urethral lift|urolift");  // 2026-11-07 · 1 player · BPH procedure
+crowd("Name a surgical procedure", 87, "amniotic membrane transplantation|amniotic membrane graft");  // 2026-11-07 · 1 player · ocular surface surgery
+crowd("Name a common reason for a primary care visit", 58, "thrush|oral thrush|oral candidiasis");  // 2026-11-07 · 3 players · common in infants/inhaler users
+crowdAlias("Name a cause or type of dementia", "lewy body dementia", "lewy bodies|lewy body");  // 2026-11-07 · 3 players · same
+crowd("Name a cause or type of dementia", 89, "sanfilippo syndrome|sanfillipo syndrome|mps iii|mucopolysaccharidosis type iii");  // 2026-11-07 · 1 player · classic childhood dementia
+crowdAlias("Name a structure in the neck", "cricoid cartilage", "circoid|cricoid");  // 2026-11-07 · 3 players · misspelling
+crowdAlias("Name a structure in the neck", "cervical vertebrae", "spine");  // 2026-11-07 · 3 players · cervical spine
+crowdAlias("Name a structure in the neck", "sympathetic trunk", "sympathetic chain");  // 2026-11-07 · 1 player · same
+crowd("Name a structure in the neck", 88, "tubercle of zuckerkandl|zuckerkandl tubercle|zuckerkandl-tubercle");  // 2026-11-07 · 1 player · thyroid landmark near RLN
+crowd("Name a structure in the neck", 88, "killian triangle|killian's triangle|killians triangle|killian dehiscence");  // 2026-11-07 · 1 player · Zenker diverticulum site
+crowd("Name a chronic disease", 58, "functional neurological disorder|fnd|conversion disorder");  // 2026-11-07 · 2 players · chronic neuropsychiatric condition
+crowd("Name a chronic disease", 58, "marfan syndrome|marfans|marfan");  // 2026-11-07 · 2 players · chronic inherited connective tissue disorder
+crowdAlias("Name a chronic disease", "heart disease", "cvd|cardiovascular disease");  // 2026-11-07 · 2 players · same
+crowd("Name a preventive screening test", 69, "breast ultrasound|screening breast ultrasound");  // 2026-11-07 · 2 players · supplemental screening, dense breasts
+crowd("Name a medical imaging test", 69, "ct kub|ctkub|ct stone protocol|stone protocol ct");  // 2026-11-07 · 2 players · noncontrast CT for stones
+crowdAlias("Name a cause of chronic cough", "copd", "bronchitis");  // 2026-11-07 · 2 players · chronic bronchitis listed here
+crowdAlias("Name a tumor marker", "ca 19 9", "ca19.9|ca19 9|ca 19.9|ca199");  // 2026-11-07 · 2 players · punctuation
+crowdAlias("Name a cause of abdominal pain", "ovarian cyst", "teratoma|ovarian teratoma|dermoid cyst");  // 2026-11-07 · 2 players · dermoid = ovarian cyst type
+crowdAlias("Name a complication of pregnancy", "gestational diabetes", "diabetes");  // 2026-11-07 · 2 players · same
+crowdAlias("Name a cause of jaundice", "alcoholic liver disease", "alcoholism|alcohol");  // 2026-11-07 · 2 players · same
+crowd("Name a cause of thrombocytopenia", 46, "lymphoma");  // 2026-11-07 · 2 players · marrow infiltration, hypersplenism, immune ITP
+crowdAlias("Name a food high in purines (avoid with gout)", "red meat", "steak");  // 2026-11-07 · 2 players · same
+crowd("Name an oncogene or tumor suppressor gene", 85, "p21|cdkn1a|p21 cip1|waf1");  // 2026-11-07 · 1 player · CDK inhibitor tumor suppressor
+crowd("Name a warning sign of oral cancer", 85, "odynophagia|painful swallowing|oduynophagia");  // 2026-11-07 · 1 player · painful swallowing
+crowd("Name an eye disease or condition", 78, "chorioretinitis");  // 2026-11-07 · 1 player · e.g. toxoplasma, CMV
+crowd("Name an eye disease or condition", 78, "urrets zavalia syndrome|urretts zavalia syndrome");  // 2026-11-07 · 1 player · fixed dilated pupil after keratoplasty
+crowdAlias("Name a mental health disorder", "munchausen", "factitious disorder imposed on another");  // 2026-11-07 · 1 player · DSM-5 name for MbP
+crowdAlias("Name a healthcare profession", "speech therapist", "speech and language therapy|speech and language therapist|salt");  // 2026-11-07 · 1 player · UK name
+crowd("Name an artery", 88, "sampson artery|sampson's|sampsons artery|artery of the round ligament");  // 2026-11-07 · 1 player · round ligament artery
+crowdAlias("Name a muscle relaxant", "succinylcholine", "suxamethonium|sux");  // 2026-11-07 · 1 player · UK name
+crowd("Name a drug that commonly causes constipation", 85, "amiodarone|cordarone|pacerone");  // 2026-11-07 · 1 player · GI effects incl constipation in label
+crowd("Name a medical ethics or legal concept", 85, "clinical equipoise|equipoise");  // 2026-11-07 · 1 player · RCT ethics principle
+crowd("Name a nursing job title or role", 85, "advanced critical care practitioner|accp");  // 2026-11-07 · 1 player · UK advanced practice role
+crowd("Name an autoantibody", 85, "anti caspr1|caspr1");  // 2026-11-07 · 1 player · autoimmune nodopathy
+crowdAlias("Name a blood test", "acth stimulation test", "short synacthen test|short synacthen|synacthen test|short synthacten");  // 2026-11-07 · 1 player · UK name

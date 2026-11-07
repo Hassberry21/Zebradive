@@ -85334,7 +85334,7 @@ function shuffle(a,r){ for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1
    The schedule walks through ALL prompts in a shuffled order before any prompt comes back,
    and a new cycle never starts with prompts used in the previous two days. */
 const EPOCH=new Date(2026,9,1);
-function dayIndex(){ const d=new Date(); return Math.max(0,Math.floor((new Date(d.getFullYear(),d.getMonth(),d.getDate())-EPOCH)/864e5)); }
+function dayIndex(){ const d=new Date(); return Math.max(0,Math.round((new Date(d.getFullYear(),d.getMonth(),d.getDate())-EPOCH)/864e5)); }   // round, not floor: daylight-saving shifts make the gap 23 or 25 hours (Australia was a day behind)
 /* Each FIELD (profession) has its own pool of prompts and its own daily schedule,
    so a nurse and a pharmacist get different dailies, Wordle-style, every midnight. */
 const CAT_CAP={mixed:2, medicine:3, nursing:7, pharmacy:7, dental:7, b_mixed:2, b_medicine:7, b_pa:5, b_np:5, b_nursing:7, b_pharmacy:7, b_dental:7};

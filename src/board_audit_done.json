@@ -562,6 +562,14 @@
   "Name a drug that can cause depression or suicidal thoughts": "2026-11-06",
   "Name a drug given by intramuscular (IM) injection": "2026-11-06",
   "Name a drug that should be separated from antacids, calcium or iron": "2026-11-06",
-  "Name a drug that can cause tremor": "2026-11-06"
+  "Name a drug that can cause tremor": "2026-11-06",
+  "Name a reportable (notifiable) disease": "2026-11-07",
+  "Name a birth defect or congenital anomaly": "2026-11-07",
+  "Name a feature of Down syndrome": "2026-11-07",
+  "Name a side effect of a heart or blood pressure medication": "2026-11-07",
+  "Name a food high in vitamin A": "2026-11-07",
+  "Name a food low in potassium (renal diet friendly)": "2026-11-07",
+  "Name a food that causes gas or bloating": "2026-11-07",
+  "Name a type of therapy used in mental health care": "2026-11-07"
  }
 }

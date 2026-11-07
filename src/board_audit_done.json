@@ -639,6 +639,16 @@
   "Name a drug that can worsen heart failure": "2026-11-07",
   "Name a drug used for angina or acute coronary syndrome": "2026-11-07",
   "Name a medical device or supply sold in a pharmacy": "2026-11-07",
-  "Name a drug that causes vision problems": "2026-11-07"
+  "Name a drug that causes vision problems": "2026-11-07",
+  "Name a drug that causes urinary retention": "2026-11-07",
+  "Name a drug metabolized by CYP3A4": "2026-11-07",
+  "Name a drug that causes muscle pain, myopathy or rhabdomyolysis": "2026-11-07",
+  "Name a drug that causes hallucinations": "2026-11-07",
+  "Name a drug that causes itching": "2026-11-07",
+  "Name a drug that causes anemia": "2026-11-07",
+  "Name a drug that causes anxiety or agitation": "2026-11-07",
+  "Name a drug given by IV push": "2026-11-07",
+  "Name a drug that commonly causes allergic reactions or anaphylaxis": "2026-11-07",
+  "Name a drug that causes nausea or vomiting": "2026-11-07"
  }
 }

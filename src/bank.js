@@ -51241,6 +51241,722 @@ microcytic anemia
 megaloblastic anemia
 `, "2026-11-09");
 
+/* ---- NEW STANDARD DAILY PROMPTS: NURSING part 3 (batch 2026-11-07, board-first) ---- */
+P("Name a social determinant of health","nursing","",`
+income|poverty|low income
+education|education level
+housing|housing instability|homelessness
+food insecurity|food access|food desert
+access to health care|healthcare access
+health insurance|uninsured|insurance status|insurance
+transportation|lack of transportation
+employment|unemployment|job security
+neighborhood and built environment|neighborhood safety|neighborhood|environment|physical environment|safety
+social support|social isolation|loneliness
+health literacy|literacy
+language barriers|language|limited english proficiency
+race|racism|structural racism
+ethnicity
+discrimination
+culture|cultural beliefs
+gender|gender identity
+sexual orientation
+age
+disability
+immigration status|citizenship
+incarceration|criminal justice involvement
+violence|community violence|crime
+domestic violence|intimate partner violence
+adverse childhood experiences|aces|childhood trauma
+early childhood development|early childhood education
+access to clean water|clean water|water quality
+air quality|air pollution|pollution
+environmental exposures|toxins|lead exposure
+access to healthy food|nutrition
+access to parks|green space|recreation
+broadband access|internet access|digital divide
+social cohesion|community engagement
+civic participation|voting
+social status|socioeconomic status|ses
+occupation|working conditions|occupational hazards
+wealth|financial strain|debt
+medical debt
+childcare|child care access
+family structure|single parent household
+marital status
+religion|spirituality
+geographic location|rural residence|urban residence
+rural health|rural access
+redlining|residential segregation
+housing quality|mold|pests|overcrowding
+utility insecurity|energy insecurity
+safe drinking water
+food environment|fast food density
+access to pharmacies|pharmacy deserts
+primary care shortage|provider shortage
+health care quality
+cultural competence of providers
+stigma
+stress|chronic stress
+legal status|legal needs
+public safety|policing
+access to education|school quality
+high school graduation
+higher education|college
+vocational training
+minimum wage|living wage
+paid sick leave
+health policy|public policy
+social services|public assistance|snap|wic|medicaid
+community resources
+mental health access
+tobacco availability|alcohol outlet density
+climate change|extreme heat
+natural disasters
+veteran status|military service
+foster care
+generational poverty
+gentrification
+eviction
+caregiver burden|caregiving responsibilities
+technology access
+health beliefs|attitudes toward health care
+trust in health care|medical mistrust
+health care costs|cost of care
+noise exposure
+social norms
+school meals|school lunch programs
+historical trauma|intergenerational trauma
+`, "2026-11-09");
+
+P("Name a food that contains lactose","nursing","",`
+milk|cow milk|whole milk|dairy|dairy products
+cheese
+ice cream
+yogurt|yoghurt
+butter
+cream|heavy cream|whipping cream
+sour cream
+cream cheese
+cottage cheese
+buttermilk
+half and half
+whipped cream
+condensed milk|sweetened condensed milk
+evaporated milk
+milk chocolate
+pudding|custard
+milkshakes
+frozen yogurt
+ricotta
+mozzarella
+cheddar
+american cheese|processed cheese
+parmesan
+swiss cheese
+brie
+feta
+goat cheese|goat milk
+sheep milk
+blue cheese
+gouda
+provolone
+cheese sauce|nacho cheese
+mac and cheese|macaroni and cheese
+pizza
+alfredo sauce|cream sauce
+white sauce|bechamel
+cream soup|cream of mushroom soup
+chowder|clam chowder
+mashed potatoes
+creamed spinach
+quiche
+cheesecake
+cakes
+cookies
+muffins
+pancakes|waffles
+milk bread|bread with milk
+creamy salad dressing|ranch dressing
+whey|whey protein
+casein
+milk powder|dry milk|powdered milk
+infant formula|cow milk formula
+breast milk|human milk
+kefir
+lassi
+paneer
+mascarpone
+creme fraiche
+eggnog
+hot chocolate|hot cocoa
+latte|cappuccino
+coffee creamer|dairy creamer
+chocolate milk
+caramel
+fudge
+nougat
+toffee
+butterscotch
+gelato
+sherbet
+creamy dips|queso
+tzatziki
+scalloped potatoes|au gratin potatoes
+lasagna
+grilled cheese
+cream puffs|eclairs
+donuts
+biscuits
+cornbread
+creamed corn
+protein shakes
+lactose filler in medications|lactose filler|tablet filler
+processed meats|hot dogs
+`, "2026-11-09");
+
+P("Name a soft or easy-to-swallow food for a patient with dysphagia","nursing","",`
+pudding
+applesauce
+mashed potatoes
+yogurt|yoghurt
+oatmeal|porridge
+cream of wheat
+scrambled eggs
+custard
+smoothies
+pureed fruit|pureed foods|puree
+pureed vegetables
+pureed meat
+mashed bananas|bananas
+cottage cheese
+soup|cream soup|pureed soup
+thickened liquids|nectar thick liquids|honey thick liquids
+mashed sweet potatoes
+mashed avocado|avocado
+hummus
+refried beans
+mashed carrots|cooked carrots
+squash|mashed squash
+pumpkin puree
+grits
+polenta
+cream of rice
+rice pudding
+tofu|silken tofu
+egg salad
+tuna salad
+chicken salad
+ground meat|minced meat
+meatloaf
+fish|flaked fish
+mac and cheese|macaroni and cheese
+pasta|well cooked pasta
+soft cooked vegetables|steamed vegetables
+canned peaches|canned fruit|canned pears
+ricotta
+cream cheese
+mousse
+milkshakes|shakes
+nutritional supplement drinks|ensure|boost
+baby food
+cheesecake
+souffle
+quiche
+omelet
+pancakes|syrup soaked pancakes
+french toast
+soft bread soaked in milk
+gravy
+sauces
+congee|rice porridge
+dal|lentil puree
+mashed peas
+mashed cauliflower
+cooked spinach|creamed spinach
+whipped cream
+soft cheese
+deviled eggs
+poached eggs
+soft boiled eggs
+cottage pie|shepherds pie
+stew|soft stew
+casserole
+mashed beans
+flan
+creme brulee
+panna cotta
+cereal soaked in milk
+pate
+mousse of fish|fish mousse
+gnocchi
+risotto
+moist cake
+banana bread
+soft cooked fruit|stewed fruit|stewed apples
+ripe mango|mango
+ripe pear
+ripe papaya
+`, "2026-11-09");
+
+P("Name a gynecologic condition","nursing","",`
+endometriosis
+polycystic ovary syndrome|pcos
+uterine fibroids|fibroids|leiomyoma
+ovarian cyst
+pelvic inflammatory disease|pid
+bacterial vaginosis|bv
+vaginal yeast infection|yeast infection|vulvovaginal candidiasis
+trichomoniasis
+cervical cancer
+ovarian cancer
+endometrial cancer|uterine cancer
+vulvar cancer
+vaginal cancer
+cervical dysplasia|cin
+hpv infection|human papillomavirus
+genital warts|condyloma
+genital herpes
+chlamydia
+gonorrhea
+syphilis
+amenorrhea
+dysmenorrhea|painful periods|menstrual cramps
+menorrhagia|heavy menstrual bleeding|heavy periods
+metrorrhagia
+abnormal uterine bleeding
+premenstrual syndrome|pms
+premenstrual dysphoric disorder|pmdd
+menopause
+perimenopause
+premature ovarian insufficiency|premature menopause
+infertility
+ectopic pregnancy
+miscarriage|spontaneous abortion
+molar pregnancy|hydatidiform mole
+adenomyosis
+endometrial hyperplasia
+endometrial polyp|uterine polyp
+cervical polyp
+cervicitis
+vaginitis
+atrophic vaginitis|vaginal atrophy|genitourinary syndrome of menopause
+vulvodynia
+vaginismus
+dyspareunia|painful intercourse
+lichen sclerosus
+lichen planus
+bartholin cyst
+bartholin abscess
+pelvic organ prolapse|uterine prolapse|prolapse
+cystocele
+rectocele
+enterocele
+vaginal vault prolapse
+ovarian torsion
+asherman syndrome
+toxic shock syndrome
+mastitis
+fibrocystic breast changes
+breast cancer
+breast abscess
+fibroadenoma
+mittelschmerz
+hydrosalpinx
+tubo ovarian abscess
+pelvic congestion syndrome
+chronic pelvic pain
+interstitial cystitis
+stress urinary incontinence
+vesicovaginal fistula
+rectovaginal fistula
+imperforate hymen
+vaginal septum
+uterine anomalies|bicornuate uterus|septate uterus
+mullerian agenesis|mrkh syndrome
+turner syndrome
+androgen insensitivity syndrome
+congenital adrenal hyperplasia
+hirsutism
+hyperprolactinemia
+functional hypothalamic amenorrhea
+female athlete triad
+ovarian hyperstimulation syndrome
+gestational trophoblastic disease
+choriocarcinoma
+dermoid cyst|mature teratoma
+corpus luteum cyst
+endometrioma|chocolate cyst
+fallopian tube cancer
+paget disease of the vulva
+vulvar intraepithelial neoplasia
+female genital mutilation
+`, "2026-11-09");
+
+P("Name a skin finding or type of skin lesion","nursing","",`
+macule
+papule
+vesicle|blister
+bulla
+pustule
+nodule
+plaque
+wheal|hive|hives|urticaria
+cyst
+tumor
+patch
+petechiae
+purpura
+ecchymosis|bruise|bruising
+erythema|redness
+cyanosis
+jaundice
+pallor
+rash
+crust|scab
+scale|scaling
+ulcer
+erosion
+fissure
+excoriation|scratch marks
+lichenification
+scar
+keloid
+atrophy|skin atrophy
+telangiectasia
+spider angioma
+cherry angioma
+hematoma
+abscess
+burrow
+comedone|blackhead|whitehead
+nevus|mole
+freckle
+lentigo|age spot|liver spot
+vitiligo
+hyperpigmentation
+hypopigmentation
+mottling
+tenting|poor turgor|decreased skin turgor
+edema
+pitting edema
+diaphoresis|sweating
+dry skin|xerosis
+flushing
+induration
+fluctuance
+erythema migrans|bulls eye rash
+target lesion
+café au lait spot|cafe au lait spot
+mongolian spot
+port wine stain
+hemangioma
+striae|stretch marks
+acanthosis nigricans
+xanthoma
+skin tag|acrochordon
+wart|verruca
+seborrheic keratosis
+actinic keratosis
+callus
+corn
+lipoma
+pressure injury|pressure ulcer|bedsore
+maceration
+desquamation|peeling
+eschar
+slough
+granulation tissue
+tunneling
+undermining
+hyperkeratosis
+milia
+erythema toxicum
+vernix
+lanugo
+acrocyanosis
+nikolsky sign
+koebner phenomenon
+dermatographism
+livedo reticularis
+palpable purpura
+splinter hemorrhages
+janeway lesions
+osler nodes
+clubbing
+rubor|dependent rubor
+hair loss|alopecia
+hirsutism
+crepitus|subcutaneous emphysema
+stage 1 pressure injury|nonblanchable erythema
+blanching
+annular lesion
+linear lesion
+dermatomal rash|zoster rash
+satellite lesions
+umbilicated lesion
+pedunculated lesion
+serpiginous lesion
+koplik spots
+heliotrope rash
+malar rash|butterfly rash
+`, "2026-11-09");
+
+P("Name a nursing organization or professional association","nursing","",`
+american nurses association|ana
+national council of state boards of nursing|ncsbn
+state board of nursing|board of nursing
+national student nurses association|nsna
+american association of critical care nurses|aacn critical care
+american association of colleges of nursing|aacn
+national league for nursing|nln
+sigma theta tau|sigma|sigma theta tau international
+emergency nurses association|ena
+association of perioperative registered nurses|aorn
+oncology nursing society|ons
+association of womens health obstetric and neonatal nurses|awhonn
+american association of nurse practitioners|aanp
+american nurses credentialing center|ancc
+international council of nurses|icn
+american academy of nursing
+national association of school nurses|nasn
+american psychiatric nurses association|apna
+society of pediatric nurses|spn
+national association of pediatric nurse practitioners|napnap
+american association of nurse anesthesiology|aana
+american college of nurse midwives|acnm
+academy of medical surgical nurses|amsn
+infusion nurses society|ins
+hospice and palliative nurses association|hpna
+wound ostomy continence nurses society|wocn
+american association of occupational health nurses|aaohn
+association for professionals in infection control|apic
+american organization for nursing leadership|aonl
+national association of neonatal nurses|nann
+american association of neuroscience nurses|aann
+american society of perianesthesia nurses|aspan
+american nephrology nurses association|anna
+association of rehabilitation nurses|arn
+gerontological advanced practice nurses association|gapna
+national gerontological nursing association|ngna
+american holistic nurses association|ahna
+transcultural nursing society
+national black nurses association|nbna
+national association of hispanic nurses|nahn
+philippine nurses association of america|pnaa
+asian american pacific islander nurses association|aapina
+american assembly for men in nursing|aamn
+national alaska native american indian nurses association
+american association of legal nurse consultants|aalnc
+international association of forensic nurses|iafn
+preventive cardiovascular nurses association|pcna
+american association of heart failure nurses|aahfn
+society for vascular nursing
+dermatology nurses association|dna
+american radiological nurses association|association for radiologic and imaging nursing|arin
+american nursing informatics association|ania
+alliance for nursing informatics
+nurses organization of veterans affairs|nova
+association of camp nurses
+american association of managed care nurses
+national association of clinical nurse specialists|nacns
+commission on collegiate nursing education|ccne
+accreditation commission for education in nursing|acen
+national league for nursing commission for nursing education accreditation|cnea
+royal college of nursing|rcn
+nursing and midwifery council|nmc
+canadian nurses association
+australian college of nursing
+american red cross nursing
+national nurses united|nnu
+new york state nurses association|nysna
+california nurses association
+massachusetts nurses association
+texas nurses association
+florida nurses association
+international nursing association for clinical simulation and learning|inacsl
+american association of spinal cord injury nurses
+society of gastroenterology nurses and associates|sgna
+society of urologic nurses and associates|suna
+association of pediatric hematology oncology nurses|aphon
+american society for pain management nursing|aspmn
+air and surface transport nurses association|astna
+national association of orthopaedic nurses|naon
+association of nurses in aids care|anac
+american society of plastic surgical nurses|aspsn
+american association of office nurses
+national organization of nurse practitioner faculties|nonpf
+`, "2026-11-09");
+
+P("Name a factor that delays wound healing","nursing","",`
+diabetes|high blood sugar|hyperglycemia
+smoking|tobacco use|nicotine
+infection|wound infection
+poor nutrition|malnutrition
+protein deficiency|low protein|low albumin
+advanced age|older age|elderly|age|aging
+obesity
+poor circulation|peripheral artery disease|ischemia
+corticosteroids|steroids
+chemotherapy|chemo
+radiation therapy|radiation
+immunosuppression|immunosuppressants
+anemia
+venous insufficiency
+edema
+pressure|unrelieved pressure
+moisture|incontinence
+friction|shear
+dehydration
+vitamin c deficiency|scurvy
+zinc deficiency
+vitamin a deficiency
+hypoxia|low oxygen
+stress
+alcohol use|alcoholism
+foreign body
+necrotic tissue|dead tissue|slough|eschar
+dry wound bed|desiccation
+excessive exudate|maceration
+biofilm
+repeated trauma|wound trauma
+tension on wound|wound tension
+hematoma|seroma
+dehiscence
+poor wound care|improper dressing
+frequent dressing changes|wound cooling
+cancer|malignancy
+kidney failure|chronic kidney disease|uremia
+liver disease|cirrhosis
+heart failure
+copd
+hiv|aids
+autoimmune disease|lupus|rheumatoid arthritis
+neuropathy
+spinal cord injury|paralysis
+immobility
+sleep deprivation
+pain
+hypothermia|low body temperature
+vasoconstriction
+nsaids
+anticoagulants
+sepsis
+chronic inflammation
+previous scarring|scar tissue
+large wound size
+deep wound
+wound location|joint location
+low vitamin d
+copper deficiency
+iron deficiency
+vasopressors
+methotrexate
+antiplatelets
+cocaine use
+methamphetamine use
+psychosocial factors|depression
+nonadherence
+poverty|lack of access to care
+osteomyelitis
+hypothyroidism
+cushing syndrome
+ehlers danlos syndrome
+sickle cell disease
+lymphedema
+hypotension|shock
+blood loss
+malabsorption
+bariatric surgery
+wound contamination|dirty wound
+vasculitis
+`, "2026-11-09");
+
+P("Name a cause of weight gain","nursing","",`
+overeating|excess calories|poor diet
+lack of exercise|sedentary lifestyle|inactivity
+fluid retention|edema
+heart failure
+kidney failure|kidney disease|nephrotic syndrome
+liver cirrhosis|ascites
+hypothyroidism
+cushing syndrome
+pregnancy
+polycystic ovary syndrome|pcos
+menopause
+aging|slower metabolism
+corticosteroids|prednisone|steroids
+antipsychotics|olanzapine|clozapine|quetiapine|risperidone
+antidepressants|mirtazapine|paroxetine|tricyclic antidepressants
+lithium
+valproate|divalproex|depakote
+insulin
+sulfonylureas|glipizide|glyburide
+thiazolidinediones|pioglitazone
+beta blockers
+gabapentin|pregabalin
+birth control|depo provera|hormonal contraceptives
+antihistamines
+carbamazepine
+smoking cessation|quitting smoking
+stress|cortisol
+lack of sleep|sleep deprivation
+depression
+binge eating disorder
+emotional eating
+alcohol
+sugary drinks|soda
+fast food|processed foods
+genetics|family history
+insulin resistance|metabolic syndrome
+growth hormone deficiency
+hypothalamic damage|hypothalamic obesity
+prader willi syndrome
+leptin deficiency
+insulinoma
+muscle gain
+water retention from salt|high sodium intake
+premenstrual syndrome|menstrual cycle
+constipation
+lymphedema
+ovarian tumor
+abdominal tumor
+injury limiting activity
+arthritis
+chronic pain
+preeclampsia
+hypoalbuminemia
+siadh
+iv fluids|fluid overload
+cyclosporine
+megestrol
+dronabinol
+anabolic steroids
+testosterone deficiency|low testosterone
+hormone therapy|estrogen
+tamoxifen
+aromatase inhibitors
+chemotherapy
+night eating syndrome
+shift work
+quitting sports|stopping exercise
+large portion sizes
+snacking
+eating out
+boredom eating
+social eating|holidays
+marriage
+medications
+sleep apnea
+seasonal affective disorder
+atypical depression
+cannabis use|marijuana
+pericardial effusion
+pleural effusion
+refeeding
+recovery from illness
+`, "2026-11-09");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

@@ -39,6 +39,11 @@ Board Prep prompts (b_* pools) are NOT part of this audit; leave them alone.
    d. Wrong entries you notice on the existing list (clearly incorrect for the prompt): remove that
       line from src/bank.js or src/stampede.js and note it in the commit message. Do not remove
       correct-but-obscure answers.
+   Scope is literal and strict: every answer must be an example of exactly what the prompt names.
+      Lessons from player play: "Name a metabolic pathway or cycle" must not accept physiologic or
+      signaling cycles (cardiac, menstrual, sleep-wake, cell cycle, MAPK, complement); "Name a
+      structure in the neck" must not accept skull or face structures (mandible, mastoid, styloid,
+      parotid). Players find and exploit these loopholes because off-scope answers score as zebras.
    e. Record the prompt in `src/board_audit_done.json` under "done" with today's date.
 4. Every ~10 prompts: `python3 src/build.py && node src/check.js` (must print OK), then
    `node src/schedule_snapshot.js <tomorrow> > /tmp/a.json` and compare with a snapshot taken before you

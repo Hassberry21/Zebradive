@@ -63903,6 +63903,486 @@ making promises|false promises
 persuading|coercion|pressuring the patient
 `, "2026-11-10");
 
+/* ---- NEW STANDARD DAILY PROMPTS: DENTAL (batch 2026-11-08) ---- */
+P("Name a microorganism found in the mouth","dental","",`
+streptococcus mutans|s mutans|strep mutans|mutans streptococci|mutans
+lactobacillus|lactobacilli|lactobacillus casei|lactobacillus acidophilus|l casei|l acidophilus
+porphyromonas gingivalis|p gingivalis|pg|bacteroides gingivalis|porphyromonas
+candida albicans|candida|c albicans|yeast|thrush fungus
+aggregatibacter actinomycetemcomitans|a actinomycetemcomitans|actinobacillus actinomycetemcomitans|aa|actinobacillus|aggregatibacter
+tannerella forsythia|t forsythia|tannerella forsythensis|bacteroides forsythus|tannerella
+treponema denticola|t denticola
+prevotella intermedia|p intermedia|bacteroides intermedius|prevotella
+fusobacterium nucleatum|f nucleatum|fusobacterium
+herpes simplex virus 1|hsv 1|hsv1|herpes simplex virus|hsv|herpes simplex|herpes labialis virus|oral herpes virus
+actinomyces naeslundii|actinomyces|a naeslundii
+actinomyces israelii|a israelii
+streptococcus sobrinus|s sobrinus
+streptococcus sanguinis|s sanguinis|streptococcus sanguis|s sanguis
+viridans streptococci|viridans group streptococci|streptococcus viridans|strep viridans|viridans strep|streptococcus|streptococci|strep
+streptococcus mitis|s mitis
+streptococcus salivarius|s salivarius
+streptococcus oralis|s oralis
+eikenella corrodens|e corrodens|eikenella
+capnocytophaga|capnocytophaga gingivalis|capnocytophaga ochracea|capnocytophaga sputigena
+campylobacter rectus|c rectus|wolinella recta|campylobacter
+veillonella|veillonella parvula|veillonella atypica|veillonella dispar
+human papillomavirus|hpv|papillomavirus
+epstein barr virus|ebv|hhv 4|human herpesvirus 4
+coxsackievirus|coxsackie|coxsackie a virus|coxsackievirus a16|coxsackie a16
+parvimonas micra|peptostreptococcus micros|micromonas micros|parvimonas
+streptococcus gordonii|s gordonii
+actinomyces viscosus|a viscosus
+bifidobacterium|bifidobacterium dentium|bifidobacteria
+spirochetes|oral spirochetes|treponema
+selenomonas|selenomonas sputigena|selenomonas noxia
+eubacterium|eubacterium nodatum
+filifactor alocis|filifactor
+streptococcus anginosus|s anginosus|streptococcus milleri|strep milleri|streptococcus anginosus group
+streptococcus intermedius|s intermedius
+streptococcus constellatus|s constellatus
+prevotella nigrescens|p nigrescens
+prevotella melaninogenica|p melaninogenica|bacteroides melaninogenicus|black pigmented bacteroides
+porphyromonas endodontalis|p endodontalis
+enterococcus faecalis|e faecalis|enterococcus|streptococcus faecalis
+staphylococcus aureus|s aureus|staph aureus|staph|mrsa
+staphylococcus epidermidis|s epidermidis|staph epidermidis|coagulase negative staphylococcus
+neisseria|neisseria subflava|neisseria sicca|neisseria mucosa|neisseria flavescens|commensal neisseria
+haemophilus parainfluenzae|h parainfluenzae|haemophilus|hemophilus parainfluenzae
+rothia|rothia dentocariosa|rothia mucilaginosa|stomatococcus mucilaginosus
+corynebacterium matruchotii|corynebacterium|bacterionema matruchotii
+cytomegalovirus|cmv|hhv 5|human herpesvirus 5
+varicella zoster virus|vzv|varicella|herpes zoster virus|chickenpox virus|shingles virus|hhv 3
+human herpesvirus 8|hhv 8|kaposi sarcoma herpesvirus|kshv
+human immunodeficiency virus|hiv
+treponema pallidum|t pallidum|syphilis bacterium
+mycobacterium tuberculosis|m tuberculosis|tuberculosis bacterium|tb bacillus
+neisseria gonorrhoeae|n gonorrhoeae|gonococcus
+candida glabrata|c glabrata|torulopsis glabrata
+candida tropicalis|c tropicalis
+candida krusei|c krusei|pichia kudriavzevii
+candida parapsilosis|c parapsilosis
+candida dubliniensis|c dubliniensis
+entamoeba gingivalis|e gingivalis
+trichomonas tenax|t tenax
+measles virus|rubeola virus|measles
+mumps virus|mumps|paramyxovirus
+enterovirus 71|ev71|enterovirus
+herpes simplex virus 2|hsv 2|hsv2
+human herpesvirus 6|hhv 6
+human herpesvirus 7|hhv 7
+streptococcus pyogenes|s pyogenes|group a streptococcus|group a strep|gas
+streptococcus pneumoniae|s pneumoniae|pneumococcus
+moraxella catarrhalis|m catarrhalis|branhamella catarrhalis
+pseudomonas aeruginosa|p aeruginosa|pseudomonas
+klebsiella pneumoniae|klebsiella|k pneumoniae
+escherichia coli|e coli
+leptotrichia buccalis|leptotrichia|leptothrix buccalis
+gemella|gemella haemolysans|gemella morbillorum
+granulicatella|granulicatella adiacens
+abiotrophia defectiva|abiotrophia|nutritionally variant streptococci
+kingella|kingella kingae|kingella oralis
+cardiobacterium hominis|cardiobacterium
+dialister|dialister pneumosintes|dialister invisus
+peptostreptococcus|peptostreptococcus anaerobius|peptostreptococci
+cutibacterium acnes|propionibacterium acnes|propionibacterium|cutibacterium
+scardovia wiggsiae|scardovia
+atopobium|atopobium parvulum|olsenella
+slackia exigua|slackia
+mogibacterium
+pseudoramibacter alactolyticus|pseudoramibacter
+fretibacterium|synergistetes|synergistes
+treponema socranskii|t socranskii
+treponema vincentii|t vincentii|borrelia vincentii
+tannerella serpentiformis
+desulfobulbus|desulfovibrio|sulfate reducing bacteria
+saccharibacteria|tm7|candidatus saccharibacteria|nanosynbacter
+methanobrevibacter oralis|methanobrevibacter|archaea|methanogens
+mycoplasma salivarium|mycoplasma orale|mycoplasma
+porphyromonas catoniae
+prevotella loescheii
+lautropia mirabilis|lautropia
+aggregatibacter aphrophilus|haemophilus aphrophilus
+aggregatibacter segnis
+streptococcus parasanguinis|s parasanguinis
+streptococcus cristatus|s cristatus
+streptococcus downei
+lactobacillus fermentum|limosilactobacillus fermentum
+lactobacillus rhamnosus|lacticaseibacillus rhamnosus|lactobacillus gg
+lactobacillus salivarius|ligilactobacillus salivarius
+lactobacillus reuteri|limosilactobacillus reuteri
+actinomyces odontolyticus|schaalia odontolytica
+actinomyces gerencseriae
+actinomyces meyeri
+actinomyces oris
+propionibacterium propionicum|arachnia propionica
+corynebacterium diphtheriae|diphtheria bacterium
+mycobacterium leprae|leprosy bacterium
+helicobacter pylori|h pylori
+geotrichum candidum|geotrichum
+saccharomyces cerevisiae|saccharomyces
+rhodotorula
+malassezia
+aspergillus|aspergillus fumigatus|aspergillus flavus
+mucor|rhizopus|mucorales|zygomycetes|mucormycosis fungus
+histoplasma capsulatum|histoplasma
+blastomyces dermatitidis|blastomyces
+coccidioides immitis|coccidioides
+paracoccidioides brasiliensis|paracoccidioides
+cryptococcus neoformans|cryptococcus
+talaromyces marneffei|penicillium marneffei
+leishmania
+adenovirus
+sars cov 2|coronavirus|covid 19 virus
+hepatitis b virus|hbv
+hepatitis c virus|hcv
+rubella virus|german measles virus
+molluscum contagiosum virus
+torque teno virus|anellovirus
+bacteriophage|phage
+`, "2026-11-10");
+P("Name a blood vessel of the head or neck","dental","",`
+external carotid artery|eca|external carotid
+internal carotid artery|ica|internal carotid
+common carotid artery|cca|common carotid|carotid artery|carotid
+facial artery|external maxillary artery
+maxillary artery|internal maxillary artery
+lingual artery
+internal jugular vein|ijv|internal jugular|jugular vein|jugular
+inferior alveolar artery|inferior dental artery
+posterior superior alveolar artery|psa artery|psaa
+superficial temporal artery|temporal artery
+pterygoid plexus|pterygoid venous plexus
+external jugular vein|ejv|external jugular
+facial vein|anterior facial vein
+retromandibular vein|posterior facial vein
+cavernous sinus
+vertebral artery
+greater palatine artery
+infraorbital artery
+middle meningeal artery
+sphenopalatine artery|nasopalatine artery
+mental artery
+superior thyroid artery
+occipital artery
+posterior auricular artery
+ascending pharyngeal artery
+descending palatine artery
+lesser palatine artery
+anterior superior alveolar artery|asa artery
+middle superior alveolar artery|msa artery
+buccal artery|buccinator artery
+masseteric artery
+deep temporal artery|anterior deep temporal artery|posterior deep temporal artery
+pterygoid arteries|pterygoid branches
+mylohyoid artery
+incisive artery
+superior labial artery
+inferior labial artery
+angular artery
+submental artery
+ascending palatine artery
+tonsillar artery|tonsillar branch
+sublingual artery
+deep lingual artery|ranine artery
+dorsal lingual artery|dorsal lingual branches
+suprahyoid artery
+transverse facial artery
+lateral nasal artery
+subclavian artery
+thyrocervical trunk
+inferior thyroid artery
+basilar artery
+ophthalmic artery
+middle cerebral artery|mca
+anterior cerebral artery|aca
+posterior cerebral artery|pca
+anterior communicating artery|acom|acomm
+posterior communicating artery|pcom|pcomm
+circle of willis|cerebral arterial circle
+inferior alveolar vein
+lingual vein
+maxillary vein
+superficial temporal vein
+anterior jugular vein|ajv
+common facial vein
+angular vein
+deep facial vein
+superior ophthalmic vein
+inferior ophthalmic vein
+superior sagittal sinus
+inferior sagittal sinus
+straight sinus
+transverse sinus
+sigmoid sinus
+confluence of sinuses|torcular herophili
+superior petrosal sinus
+inferior petrosal sinus
+occipital sinus
+sphenoparietal sinus
+intercavernous sinus
+dural venous sinuses|dural sinus|venous sinus
+emissary veins|emissary vein
+diploic veins|diploic vein
+great cerebral vein|vein of galen
+basal vein|basal vein of rosenthal
+internal cerebral vein
+superior anastomotic vein|vein of trolard
+inferior anastomotic vein|vein of labbe
+superficial middle cerebral vein
+superior thyroid vein
+middle thyroid vein
+inferior thyroid vein
+subclavian vein
+vertebral vein
+occipital vein
+posterior auricular vein
+supraorbital vein
+supratrochlear vein
+submental vein
+superior labial vein
+inferior labial vein
+sublingual vein
+deep lingual vein|ranine vein
+infraorbital vein
+posterior superior alveolar vein
+middle meningeal vein
+pharyngeal venous plexus|pharyngeal veins
+external palatine vein|paratonsillar vein
+basilar venous plexus
+suboccipital venous plexus
+jugular venous arch
+posterior external jugular vein
+kiesselbach plexus|little area|kiesselbach area|littles area
+woodruff plexus
+supraorbital artery
+supratrochlear artery
+dorsal nasal artery
+lacrimal artery
+central retinal artery
+central retinal vein
+anterior ethmoidal artery
+posterior ethmoidal artery
+anterior choroidal artery
+posterior inferior cerebellar artery|pica
+anterior inferior cerebellar artery|aica
+superior cerebellar artery|sca
+labyrinthine artery|internal auditory artery
+pontine arteries
+anterior spinal artery
+posterior spinal artery
+caroticotympanic artery
+artery of the pterygoid canal|vidian artery
+pharyngeal artery|pharyngeal branch of maxillary artery
+posterior lateral nasal artery
+posterior septal artery|septal branch
+accessory meningeal artery
+deep auricular artery
+anterior tympanic artery
+stylomastoid artery
+superior laryngeal artery
+inferior laryngeal artery
+cricothyroid artery|cricothyroid branch
+infrahyoid artery
+sternocleidomastoid artery|sternocleidomastoid branch
+transverse cervical artery|cervicodorsal trunk|superficial cervical artery
+suprascapular artery
+ascending cervical artery
+costocervical trunk
+deep cervical artery
+deep cervical vein
+thyroid ima artery|arteria thyroidea ima|ima artery
+zygomatico orbital artery
+frontal branch of superficial temporal artery
+parietal branch of superficial temporal artery
+middle temporal artery
+zygomatic artery|zygomaticofacial artery|zygomaticotemporal artery
+masseteric vein
+deep temporal veins
+`, "2026-11-10");
+P("Name a food to avoid with braces","dental","",`
+popcorn|popcorn kernels|kettle corn|caramel corn
+chewing gum|gum|bubble gum
+caramel|caramels
+hard candy|hard candies|jolly ranchers|lifesavers|boiled sweets
+nuts|mixed nuts|trail mix
+taffy|salt water taffy|laffy taffy
+ice|ice cubes|chewing ice
+corn on the cob|corn cob
+toffee|english toffee
+gummy candy|gummies|gummy bears|gummy worms|fruit gums|swedish fish|sour patch kids|haribo
+sticky candy|chewy candy
+whole apples|apples|biting into an apple
+raw carrots|carrots|carrot sticks
+lollipops|suckers|lollies|tootsie pops|ring pops
+jawbreakers|gobstoppers
+licorice|liquorice|twizzlers|red vines
+starburst
+tootsie rolls
+beef jerky|jerky|biltong|meat sticks
+hard pretzels|pretzels
+tortilla chips|nachos|corn chips|doritos
+hard taco shells|taco shells|crunchy tacos
+bagels|bagel
+pizza crust|crusty pizza
+crusty bread|french bread|baguette|hard rolls|sourdough crust
+almonds
+peanuts
+cashews
+pistachios
+walnuts
+pecans
+hazelnuts
+macadamia nuts
+brazil nuts
+sunflower seeds
+pumpkin seeds|pepitas
+peanut brittle|nut brittle|brittle
+caramel apples|candy apples|toffee apples
+ribs|spare ribs|bbq ribs
+chicken wings|wings|chicken on the bone|meat on the bone
+tough steak|steak|tough meat
+potato chips|chips|crisps
+granola|granola bars|muesli bars
+hard cookies|biscotti|hard biscuits|gingersnaps
+crackers|hard crackers
+candy canes
+skittles
+milk duds
+sugar daddy|sugar babies
+dried fruit
+raisins
+dried apricots
+dates
+figs|dried figs
+prunes
+dried mango
+fruit leather|fruit roll ups|fruit by the foot|fruit snacks
+nougat
+chocolate bars with caramel|snickers|mars bars|milky way|twix|caramel chocolate
+chocolate with nuts
+celery
+whole raw vegetables|raw broccoli|raw cauliflower
+croutons
+pork rinds|pork crackling|chicharrones
+corn nuts
+rice cakes
+pita chips|bagel chips
+hard granola|crunchy granola
+frozen candy bars
+sour candy|warheads
+airheads
+mike and ikes
+hi chew
+jelly beans
+gumdrops
+candy corn
+cotton candy|candy floss
+rice krispie treats
+cough drops|throat lozenges|lozenges
+hard mints|breath mints|altoids|mints
+soda|pop|soft drinks|fizzy drinks|cola
+sports drinks|gatorade|powerade
+energy drinks|red bull|monster
+fruit juice|juice
+sweet tea|sweetened drinks|sugary drinks
+acidic foods|lemons|sucking on lemons|citrus fruits
+foods with pits|olives with pits|cherries with pits
+whole corn chips|fritos
+cereal|hard cereal|crunchy cereal
+hard shell candy|m and ms|m&ms
+`, "2026-11-10");
+P("Name an instruction given after a tooth extraction","dental","",`
+bite on gauze|bite down on gauze|keep pressure with gauze|gauze|apply pressure
+do not use a straw|no straws|avoid straws|dont drink through a straw|no straws for a week
+do not smoke|no smoking|avoid smoking|avoid tobacco|no vaping|do not vape|no smoking for 72 hours|no smoking for 3 days
+do not spit|no spitting|avoid spitting
+eat soft foods|soft diet|soft food diet|soft foods|yogurt|mashed potatoes|applesauce|lukewarm soup|soup|pudding|jello|scrambled eggs|oatmeal|smoothies|protein shakes
+apply ice|ice pack|cold compress|ice the face|use ice|20 minutes on 20 minutes off
+do not rinse for 24 hours|no rinsing the first day|avoid rinsing|no vigorous rinsing|dont rinse
+warm salt water rinses|salt water rinse|saltwater rinse|salt water gargle|rinse with salt water
+take pain medication as directed|take painkillers|pain medicine|take analgesics as prescribed
+take ibuprofen|ibuprofen|advil|motrin|nsaids
+take acetaminophen|acetaminophen|tylenol|paracetamol
+alternate ibuprofen and acetaminophen|alternate tylenol and advil
+finish your antibiotics|take antibiotics as prescribed|complete antibiotic course|antibiotics
+rest|take it easy|rest for the day
+avoid strenuous exercise|no exercise|no heavy lifting|avoid physical activity|no sports|no bending over
+keep your head elevated|sleep with head raised|prop head up with pillows|do not lie flat|elevate head
+do not touch the socket|leave the socket alone|no q tips in the socket|no cotton swabs in the socket|keep tongue away from the socket|dont poke the socket|keep fingers out
+do not disturb the blood clot|protect the clot|keep the clot in place|dont dislodge the clot
+avoid alcohol|no alcohol|no drinking alcohol
+avoid hot drinks|no hot liquids|avoid hot foods|nothing hot
+eat cold foods|cool foods|ice cream|cold drinks
+avoid hard foods|no crunchy foods|avoid crunchy foods|avoid hard or crunchy food
+avoid spicy foods|no spicy food
+avoid chewy or sticky foods|no sticky foods
+avoid seeds and small grains|no popcorn|no nuts|no seeds|no rice
+chew on the other side|chew away from the extraction site|chew on opposite side
+do not eat until numbness wears off|wait until numbness wears off to eat|wait until the anesthetic wears off
+do not bite your lip or cheek while numb|avoid biting numb lip|careful of numb tongue
+bite on a tea bag|black tea bag|wet tea bag
+call if bleeding does not stop|call for heavy bleeding|call if bleeding persists
+call if you have a fever|call for fever
+call if swelling gets worse|call for increasing swelling|call if swelling keeps increasing
+call if pain gets worse after a few days|call for worsening pain|watch for dry socket
+expect some oozing|pink saliva is normal|some bleeding is normal
+expect swelling|swelling peaks at 2 to 3 days|swelling is normal
+expect bruising|bruising is normal
+use moist heat after 48 hours|warm compress after two days|heat after 48 hours|switch to heat|warm compress|heat for jaw stiffness
+brush gently|keep brushing|brush carefully around the area|brush but avoid the site|do not brush the socket|avoid brushing the extraction site
+resume normal brushing the next day|brush the next day
+do not use mouthwash|avoid alcohol based mouthwash|no commercial mouthwash
+chlorhexidine rinse|use prescribed mouth rinse|peridex|chlorhexidine
+use an irrigation syringe|irrigate the socket|monoject syringe|syringe rinse
+stay hydrated|drink plenty of water|drink fluids
+avoid carbonated drinks|no soda|no fizzy drinks
+do not drive|no driving after sedation|have someone drive you home|need a driver
+do not drive or operate machinery on opioids|no driving on pain pills
+take medication with food|eat before taking pills|take pills with food
+avoid aspirin|no aspirin
+resume blood thinners as directed|restart anticoagulant when told|resume warfarin as directed
+do not pull at the stitches|leave the sutures alone|dont play with stitches
+stitches will dissolve|dissolvable sutures fall out|sutures dissolve on their own
+return for suture removal|come back to remove stitches|stitch removal appointment
+keep follow up appointment|post op appointment|return for follow up
+change gauze every 30 to 45 minutes|replace gauze|change the gauze
+remove gauze before eating|take out gauze to eat|do not sleep with gauze
+do not blow your nose|no nose blowing|avoid blowing nose
+sneeze with mouth open|sneeze with your mouth open
+sinus precautions|avoid pressure in the sinuses
+avoid sucking motions|no sucking|no sucking on candy
+leave the immediate denture in for 24 hours|keep the denture in|do not remove immediate denture
+avoid eating on the first day|liquid diet first day|clear liquids first|liquids only
+eat nutritious meals|maintain nutrition|dont skip meals
+monitor blood sugar|check glucose if diabetic|diabetics eat regularly
+avoid hot showers or saunas|no hot tubs
+lip balm|vaseline on lips|moisturize lips
+gentle jaw exercises|open and close jaw gently|jaw stretching for stiffness
+take probiotics with antibiotics|probiotics
+sleep on your back|avoid sleeping on the extraction side
+use an extra pillowcase or towel|protect your pillow from drool
+do not play wind instruments|no playing trumpet|no musical wind instruments
+avoid caffeine|no coffee
+avoid acidic foods|no citrus|no tomato
+avoid dairy right after sedation|avoid dairy
+take antiemetic if nauseous|anti nausea medicine
+no vigorous gargling|no gargling
+keep the area clean|good oral hygiene|maintain oral hygiene
+use a soft toothbrush|soft bristled brush|extra soft toothbrush
+dont worry if a bone fragment works out|bone spicules may come out|small bone pieces are normal
+mild fever is normal|low grade fever can be normal
+stay ahead of the pain|take pain medicine before numbness wears off|take medicine on a schedule
+do not mix opioids with alcohol|no alcohol with pain pills
+do not exceed the maximum dose of acetaminophen|dont take extra tylenol
+call if numbness lasts more than a day|report persistent numbness
+call if you have trouble breathing or swallowing|seek help for difficulty swallowing
+call if you notice pus or a bad taste|watch for signs of infection
+call if you have a rash or allergic reaction|report allergic reaction
+rinse after meals|rinse after eating after the first day
+no water flosser on the socket|avoid waterpik near the site
+`, "2026-11-10");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

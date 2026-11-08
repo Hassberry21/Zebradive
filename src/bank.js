@@ -62282,6 +62282,902 @@ dont double doses|missed dose instructions
 inspect injection sites|lipohypertrophy|lipodystrophy
 `, "2026-11-10");
 
+/* ---- NEW STANDARD DAILY PROMPTS: NURSING part 2 (batch 2026-11-08, board-first) ---- */
+P("Name something to teach new parents about newborn care","nursing","",`
+safe sleep|sids prevention|sids|sudden infant death syndrome|back to sleep|place baby on back to sleep|sleep on back
+car seat safety|car seat installation|car seat check|rear facing car seat|car seat
+umbilical cord care|cord care|keep cord dry|cord stump care
+breastfeeding|breastfeeding technique|latch|feeding on demand
+bathing|sponge bath|baby bath|bathing the baby
+diapering|diaper changes|diaper rash care|diaper rash
+feeding cues|hunger cues|rooting
+burping
+wet diapers|count wet diapers|diaper count|output
+jaundice signs|yellow skin|newborn jaundice
+when to call the doctor|warning signs|when to seek care
+fever|take temperature|rectal temperature|fever over 100.4
+swaddling
+never shake a baby|shaken baby syndrome|period of purple crying|coping with crying
+handwashing|hand hygiene
+crib safety|no pillows or blankets in crib|firm mattress|empty crib|bare is best
+room sharing|share a room not a bed|no bed sharing|avoid co sleeping
+pacifier use|pacifier
+formula preparation|bottle feeding|formula feeding|mixing formula
+sterilizing bottles|bottle cleaning
+circumcision care|penis care|petroleum jelly on circumcision
+uncircumcised penis care|do not retract foreskin
+stool changes|meconium|newborn stools|transitional stools
+tummy time
+vaccinations|immunizations|hepatitis b vaccine|well baby visits
+newborn screening|heel stick|pku test|hearing screening
+vitamin k|vitamin k shot
+vitamin d supplements|vitamin d drops
+skin to skin|kangaroo care
+bonding
+cradle cap
+nail care|trimming nails
+spit up|reflux|spitting up
+colic
+temperature regulation|dress baby in one more layer|keep baby warm|dont overdress
+smoke free home|avoid smoking around baby|secondhand smoke
+avoid sick contacts|limit visitors|cocooning
+holding the baby|support the head|head support
+bulb syringe|suctioning the nose|nasal suction
+sleep patterns|newborn sleep
+growth spurts|cluster feeding
+weight gain|weight checks|regain birth weight
+breast engorgement|engorgement
+pumping breast milk|breast pump|storing breast milk|breast milk storage
+signs of dehydration
+signs of illness|sick baby signs|lethargy|poor feeding
+breathing problems|respiratory distress|apnea
+infant cpr|cpr
+choking first aid|infant choking
+safe bathing water temperature|test bath water|never leave baby alone in bath
+water heater temperature|set water heater below 120
+fall prevention|never leave baby on changing table|dont leave baby unattended on bed
+no honey before age 1|no honey|infant botulism
+no water for newborns|no free water
+no solids before 4 to 6 months|delay solid foods
+genital care|wipe front to back|vaginal discharge in girls|pseudomenses
+breast swelling in newborns|witch milk
+newborn rash|erythema toxicum|milia
+mongolian spots|birthmarks
+sneezing and hiccups are normal|hiccups
+soft spots|fontanelles|fontanels
+positional plagiocephaly|flat head|vary head position
+eye care|eye discharge|blocked tear duct
+oral thrush|thrush
+postpartum depression|baby blues|parental mental health
+sibling rivalry|preparing siblings
+pet safety|pets around baby
+sun protection|no sunscreen under 6 months|keep out of sun
+pediatrician follow up|first pediatrician visit|follow up appointment
+infant formula types|iron fortified formula
+paced bottle feeding
+milk supply|supply and demand
+nipple care|sore nipples
+infant development|milestones
+reflexes|startle reflex|moro reflex
+smoke detectors|carbon monoxide detectors
+safe baby products|crib recalls|no drop side cribs
+avoid baby walkers
+avoid inclined sleepers|no sleeping in car seat or swing
+`, "2026-11-10");
+P("Name a cultural or religious consideration in patient care","nursing","",`
+blood transfusion refusal|jehovahs witness|refusing blood|no blood products
+kosher diet|kosher|jewish dietary laws
+halal diet|halal|no pork
+fasting during ramadan|ramadan|fasting
+vegetarian diet|vegetarian|hindu vegetarianism
+no beef|hindu no beef
+interpreter|language barrier|medical interpreter|language needs
+modesty|same sex caregiver|female provider requested
+eye contact differences|eye contact
+personal space|touch|touching
+prayer|prayer times|prayer needs|daily prayers
+sabbath observance|sabbath|shabbat
+end of life rituals|death rituals|last rites
+anointing of the sick|sacrament of the sick
+chaplain|clergy visit|spiritual care|pastoral care
+family decision making|family involvement|collective decision making
+eldest son decides|patriarch|head of household decisions
+hot and cold beliefs|hot cold theory
+traditional healers|curanderos|folk healers|shaman
+herbal remedies|traditional medicine|folk remedies
+coining|cao gio
+cupping
+moxibustion
+acupuncture
+evil eye|mal de ojo
+susto
+amulets|religious jewelry|medals|rosary
+religious garments|temple garments|hijab|head covering|turban|yarmulke
+christian science|christian scientists refusing treatment
+amish|plain communities
+ayurveda
+traditional chinese medicine|tcm
+autopsy beliefs|no autopsy
+organ donation beliefs|organ donation
+cremation|burial customs|burial within 24 hours
+body washing after death|ritual washing
+dying at home|death at home
+do not tell the patient the diagnosis|disclosure preferences|nondisclosure
+truth telling|telling bad news
+pain expression|stoicism|expressive pain
+time orientation|punctuality|present orientation|future orientation
+health literacy
+gender roles
+birth control beliefs|contraception beliefs
+abortion beliefs
+circumcision|male circumcision|brit milah
+female genital cutting|female genital mutilation|fgm
+breastfeeding practices
+postpartum customs|lying in period|cuarentena|postpartum confinement
+placenta customs|keeping the placenta
+naming ceremonies
+baptism|infant baptism|emergency baptism
+communion|holy communion|eucharist
+confession
+medications containing pork|porcine insulin|gelatin capsules|heparin from pork
+alcohol based products|alcohol in medications
+diet restrictions|dietary restrictions|dietary laws|religious dietary restrictions
+caffeine avoidance|no caffeine|mormon|latter day saints
+no alcohol
+seventh day adventist|adventist diet
+rastafarian|ital diet
+sikh|kesh|uncut hair|kirpan
+buddhist|meditation|clear mind at death
+hinduism|hindu|sacred thread
+islam|muslim|wudu
+judaism|jewish|orthodox jewish
+catholic|catholicism|roman catholic
+mennonite
+hmong|soul calling
+native american|indigenous|smudging|sweat lodge|sage burning
+spiritual healing|faith healing
+gift giving
+use of titles|addressing patients formally|formal names
+direct versus indirect communication|indirect communication
+silence|comfort with silence
+nodding does not mean agreement|yes may mean politeness
+family presence at bedside|large family visits|visitors|visiting hours flexibility
+mental illness stigma|stigma
+vaccine beliefs|vaccine hesitancy
+racial and ethnic disparities|health disparities
+cultural humility|cultural competence
+scheduling around religious holidays|religious holidays
+death and dying beliefs|afterlife beliefs
+dnr beliefs|life support beliefs|withdrawal of care beliefs
+body parts returned|amputated limb burial|keeping amputated limb
+genetic heritage|lactose intolerance in certain ethnic groups|g6pd in certain populations
+hair care|skin care differences|assessing skin of color
+assessing cyanosis in dark skin|skin tone assessment
+`, "2026-11-10");
+P("Name a nursing leadership or management concept","nursing","",`
+delegation
+prioritization|priority setting|setting priorities
+transformational leadership|transformational
+autocratic leadership|authoritarian leadership|autocratic|authoritarian
+democratic leadership|participative leadership|democratic|participative
+laissez faire leadership|laissez faire|permissive leadership
+servant leadership|servant leader
+situational leadership
+transactional leadership|transactional
+charismatic leadership
+bureaucratic leadership
+shared governance
+chain of command
+conflict resolution|conflict management
+collaboration|collaborating
+compromise|compromising
+avoidance|avoiding
+accommodation|accommodating
+competition|competing
+staffing|staffing ratios|nurse patient ratios
+acuity|patient acuity
+scope of practice
+five rights of delegation|right task|right person|right supervision
+accountability
+responsibility
+authority
+supervision
+assignment|making assignments
+budget|budgeting|operating budget|capital budget
+quality improvement|qi|continuous quality improvement|cqi
+root cause analysis|rca
+pdsa|plan do study act|pdca
+six sigma
+lean
+evidence based practice|ebp
+magnet status|magnet recognition|magnet hospital
+change theory|lewin change theory|unfreezing|refreezing
+change agent
+mentoring|mentorship
+preceptor|preceptorship
+team nursing
+primary nursing
+functional nursing
+total patient care
+case management
+critical pathways|clinical pathways
+incident report|occurrence report|variance report
+risk management
+benchmarking
+performance appraisal|performance evaluation
+motivation|herzberg theory
+maslow hierarchy|maslow prioritization
+time management
+communication|sbar
+emotional intelligence
+span of control
+organizational chart|organizational structure
+centralized|decentralized
+mission statement|vision statement
+strategic planning|swot analysis
+just culture
+peer review
+retention|nurse retention|turnover
+recruitment
+orientation
+competency|competencies|skills validation
+staff development|continuing education
+float pool|floating
+agency nurses|travel nurses
+union|collective bargaining
+grievance
+whistleblowing|whistleblower
+advocacy
+negotiation
+power|legitimate power|expert power|referent power|reward power|coercive power
+influence
+decision making
+critical thinking
+clinical judgment
+triage
+abc prioritization|airway breathing circulation
+unlicensed assistive personnel|uap|delegate to uap
+nursing process|adpie
+interprofessional collaboration|interdisciplinary team
+huddles|safety huddle
+rounding|leader rounding|purposeful rounding|hourly rounding
+handoff communication|hand off
+sentinel event
+near miss
+failure mode and effects analysis|fmea
+patient satisfaction|press ganey|hcahps
+productivity
+full time equivalent|fte
+overtime
+skill mix
+care delivery model
+emotional labor
+burnout prevention|staff wellness
+coaching
+feedback
+progressive discipline|disciplinary action
+termination
+conflict of interest
+ethics committee
+policies and procedures|policy
+standards of care
+accreditation|the joint commission|tjc
+core measures
+nurse sensitive indicators|ndnqi
+`, "2026-11-10");
+P("Name a health issue common in adolescents","nursing","",`
+acne
+depression
+anxiety
+eating disorders|anorexia|anorexia nervosa|bulimia|bulimia nervosa|binge eating
+obesity|overweight
+substance use|drug use|alcohol use|underage drinking|binge drinking
+vaping|smoking|nicotine use|e cigarettes
+sexually transmitted infections|stis|stds|chlamydia|gonorrhea
+teen pregnancy|adolescent pregnancy|unplanned pregnancy
+suicide|suicidal ideation|suicide risk
+self harm|cutting|self injury
+scoliosis
+sports injuries|acl tear|sprains
+concussion|head injury
+bullying|cyberbullying
+motor vehicle accidents|car accidents|distracted driving|texting while driving
+adhd|attention deficit hyperactivity disorder
+sleep deprivation|insufficient sleep|lack of sleep
+type 2 diabetes|diabetes
+type 1 diabetes
+asthma
+menstrual problems|dysmenorrhea|painful periods|irregular periods
+amenorrhea
+polycystic ovary syndrome|pcos
+mononucleosis|mono|infectious mononucleosis
+hpv|human papillomavirus
+hiv
+social media addiction|screen time|internet addiction|gaming addiction
+body image issues|body image
+low self esteem|self esteem
+peer pressure
+dating violence|intimate partner violence|relationship abuse
+sexual abuse|sexual assault
+violence|gun violence|fighting
+gynecomastia
+delayed puberty
+precocious puberty
+osgood schlatter disease|osgood schlatter
+slipped capital femoral epiphysis|scfe
+iron deficiency anemia|anemia
+hypertension|high blood pressure
+high cholesterol|hyperlipidemia
+headaches|migraines
+stress
+bipolar disorder
+schizophrenia|first episode psychosis|psychosis
+oppositional defiant disorder|conduct disorder
+gender dysphoria
+homelessness|runaway youth
+juvenile delinquency
+academic stress|school stress|school problems
+truancy|school avoidance
+tanning|sunburn|skin cancer risk
+tattoos and piercings infections|piercing infections
+energy drink overuse|caffeine overuse
+steroid use|anabolic steroids
+female athlete triad|relative energy deficiency in sport|red s
+stress fractures
+patellofemoral pain|runners knee
+spondylolysis
+testicular torsion
+testicular cancer
+varicocele
+dental caries|cavities
+orthodontic problems|malocclusion
+myopia|nearsightedness|vision problems
+hearing loss from loud music|noise induced hearing loss
+infectious diseases|meningococcal disease|meningitis
+influenza|flu
+covid 19|covid
+strep throat
+urinary tract infections|uti
+herpes|genital herpes
+trichomoniasis
+pelvic inflammatory disease|pid
+endometriosis
+ovarian cysts
+hypothyroidism
+celiac disease
+inflammatory bowel disease|crohns|ulcerative colitis
+irritable bowel syndrome|ibs
+gerd|acid reflux
+chronic fatigue
+fibromyalgia
+juvenile idiopathic arthritis
+sickle cell crisis
+epilepsy|seizures
+tic disorders|tourette syndrome
+obsessive compulsive disorder|ocd
+ptsd|post traumatic stress disorder
+autism spectrum disorder|autism
+learning disabilities|dyslexia
+grief|loss
+family conflict|divorce
+sexting|online exploitation|sextortion
+human trafficking
+risky sexual behavior
+drowning
+poisoning|overdose|opioid overdose|fentanyl overdose
+`, "2026-11-10");
+P("Name a specimen or sample a nurse collects","nursing","",`
+urine specimen|urine sample|urinalysis|ua
+clean catch urine|midstream urine|clean catch
+blood sample|blood draw|venipuncture|blood specimen
+blood cultures|blood culture
+stool specimen|stool sample|stool culture|enteric pathogens
+sputum specimen|sputum sample|sputum culture
+wound culture|wound swab
+throat culture|throat swab|rapid strep test|strep swab
+nasopharyngeal swab|np swab|nasal swab|covid swab|flu swab
+24 hour urine|24 hour urine collection
+catheter urine specimen|urine from foley|sterile urine specimen|straight cath urine
+urine culture|urine culture and sensitivity
+stool for occult blood|fecal occult blood|guaiac|hemoccult|fobt
+stool for ova and parasites|ova and parasites|o and p
+c diff stool test|stool for c diff|clostridioides difficile test
+arterial blood gas|abg
+capillary blood glucose|fingerstick glucose|point of care glucose|accucheck|blood sugar
+heel stick|newborn screen|heel prick
+cerebrospinal fluid|csf|spinal fluid
+mrsa screen|mrsa swab|nares swab
+vre swab|rectal swab
+vaginal swab|vaginal culture
+group b strep swab|gbs swab
+cervical swab|pap smear|cervical cytology
+urethral swab
+chlamydia and gonorrhea test|gc chlamydia
+hiv test
+type and screen|blood type
+drug screen|urine drug screen|tox screen
+pregnancy test|urine hcg|serum hcg
+lactate|lactic acid
+blood alcohol level|blood alcohol
+tissue biopsy|biopsy
+pleural fluid|thoracentesis fluid
+peritoneal fluid|paracentesis fluid|ascitic fluid
+synovial fluid|joint fluid
+gastric aspirate|gastric contents
+emesis|vomit sample
+nasogastric aspirate|ph testing of ng aspirate
+eye culture|conjunctival swab
+ear culture|ear drainage
+skin scraping
+nail clipping
+hair sample
+saliva sample|saliva test
+buccal swab|cheek swab
+breast milk sample
+amniotic fluid
+cord blood|umbilical cord blood
+meconium sample
+placenta
+semen sample|sperm sample
+tracheal aspirate|endotracheal aspirate|trach aspirate
+bronchoalveolar lavage|bal
+drain fluid|drainage culture
+iv catheter tip culture|catheter tip|line tip culture
+stool ph|stool reducing substances
+rotavirus test
+norovirus test
+pinworm test|tape test|scotch tape test
+rsv swab|rsv test
+lice check
+scabies scraping
+sweat test|sweat chloride test
+first morning urine|first void urine
+timed urine specimen
+glucose tolerance test|ogtt
+blood lead level|lead level
+therapeutic drug level|peak and trough|trough level|peak level|drug levels
+inr|pt|coagulation studies
+cbc|complete blood count
+bmp|cmp|metabolic panel
+cardiac enzymes|troponin
+hemoglobin a1c|a1c
+blood ketones|urine ketones|ketones
+specific gravity|urine dipstick|dipstick
+sputum for acid fast bacilli|afb sputum|tb sputum
+quantiferon|interferon gamma release assay
+forensic evidence|rape kit|sexual assault evidence kit
+chain of custody specimen
+abscess drainage|pus sample
+fluid from blisters|vesicle fluid|herpes swab
+wound tissue culture
+sputum induction|induced sputum
+`, "2026-11-10");
+P("Name a cause of chronic pain","nursing","",`
+osteoarthritis|arthritis|degenerative joint disease|oa
+rheumatoid arthritis|ra
+fibromyalgia
+chronic low back pain|back pain|low back pain
+migraine|migraines|chronic migraine
+diabetic neuropathy|peripheral neuropathy|neuropathy
+cancer|cancer pain
+herniated disc|slipped disc|bulging disc
+sciatica
+degenerative disc disease
+spinal stenosis
+endometriosis
+irritable bowel syndrome|ibs
+chronic pancreatitis
+sickle cell disease
+multiple sclerosis|ms
+postherpetic neuralgia|shingles
+trigeminal neuralgia
+complex regional pain syndrome|crps|reflex sympathetic dystrophy
+phantom limb pain|amputation
+tension headaches|chronic headaches
+cluster headaches
+gout
+lupus|sle
+ankylosing spondylitis
+psoriatic arthritis
+inflammatory bowel disease|crohns|ulcerative colitis
+interstitial cystitis|painful bladder syndrome
+chronic pelvic pain
+vulvodynia
+temporomandibular joint disorder|tmj|tmd
+carpal tunnel syndrome
+osteoporosis|vertebral compression fractures|compression fracture
+old injuries|previous trauma|injury
+failed back surgery syndrome|post laminectomy syndrome
+post surgical pain|chronic postsurgical pain
+spinal cord injury
+stroke|central post stroke pain|thalamic pain syndrome
+parkinson disease
+whiplash|neck pain
+cervical radiculopathy
+myofascial pain syndrome|trigger points
+tendinitis|tendonitis
+bursitis
+plantar fasciitis
+frozen shoulder|adhesive capsulitis
+rotator cuff tear|rotator cuff injury
+chronic fatigue syndrome|me cfs
+ehlers danlos syndrome|eds
+hiv neuropathy|hiv
+chemotherapy induced neuropathy
+alcoholic neuropathy
+peripheral artery disease|pad|claudication
+venous insufficiency
+chronic wounds|venous ulcers|pressure injuries
+burns|burn scars
+osteomyelitis
+paget disease of bone
+polymyalgia rheumatica
+scoliosis
+spondylolisthesis
+sacroiliac joint dysfunction|si joint pain
+piriformis syndrome
+occipital neuralgia
+pudendal neuralgia
+chronic prostatitis|chronic pelvic pain syndrome
+dysmenorrhea|menstrual cramps
+adenomyosis
+pelvic adhesions|adhesions
+chronic kidney stones
+polycystic kidney disease
+chronic gastritis|peptic ulcer disease
+gastroparesis
+celiac disease
+diverticulitis
+hemophilia arthropathy|hemophilia
+avascular necrosis|osteonecrosis
+lyme disease|post lyme syndrome
+long covid|post covid
+guillain barre syndrome
+charcot marie tooth disease
+small fiber neuropathy
+erythromelalgia
+raynaud phenomenon
+thoracic outlet syndrome
+costochondritis
+chronic angina|refractory angina
+bone metastases
+tarsal tunnel syndrome
+morton neuroma
+hypermobility
+sarcoidosis
+syringomyelia
+arachnoiditis
+sjogren syndrome
+scleroderma
+psychogenic pain
+`, "2026-11-10");
+P("Name a common injury in children","nursing","",`
+fractures|broken bones|broken arm|broken leg
+burns|scalds|scald burns
+falls
+head injury|concussion|traumatic brain injury
+cuts|lacerations
+bruises|contusions
+sprains|sprained ankle
+drowning|near drowning
+poisoning|accidental ingestion
+choking
+dog bites|animal bites
+motor vehicle accidents|car accidents|car crash injuries
+bicycle injuries|bike accidents
+nursemaid elbow|radial head subluxation|pulled elbow
+supracondylar fracture|elbow fracture
+greenstick fracture
+buckle fracture|torus fracture
+clavicle fracture|broken collarbone
+growth plate fracture|salter harris fracture
+wrist fracture|forearm fracture
+toddler fracture
+skull fracture
+dental injuries|broken tooth|knocked out tooth|avulsed tooth
+nosebleeds|nose injury|broken nose
+eye injuries|corneal abrasion|scratched cornea
+foreign body in nose|foreign body in ear|foreign body
+swallowed button battery|button battery ingestion
+magnet ingestion|swallowed magnets
+coin ingestion|swallowed coin
+laundry pod ingestion|detergent pods
+medication ingestion|accidental overdose|iron poisoning|acetaminophen poisoning
+lead poisoning
+carbon monoxide poisoning
+electrical injuries|electric shock|electrical burns
+sunburn
+frostbite
+heat stroke|heat exhaustion|hot car death|vehicular heatstroke
+insect stings|bee stings
+spider bites
+snake bites
+playground injuries
+trampoline injuries
+sports injuries
+abrasions|scrapes|road rash
+splinters
+finger crush injuries|fingers caught in doors|finger amputation
+window falls
+stair falls|falls down stairs
+furniture tip overs|tv tip overs
+strangulation|blind cord strangulation
+suffocation
+firearm injuries|gunshot wounds
+pedestrian injuries|hit by a car
+lawn mower injuries
+fireworks injuries
+atv injuries
+dislocated shoulder|dislocations
+acl tear
+osgood schlatter disease
+stress fractures
+whiplash
+spinal cord injury
+abdominal trauma|splenic injury|liver laceration
+rib fractures
+shaken baby syndrome|abusive head trauma|child abuse
+caustic ingestion|bleach ingestion|drain cleaner ingestion
+hydrocarbon aspiration|lamp oil ingestion
+alcohol ingestion|hand sanitizer ingestion
+nicotine poisoning|e liquid ingestion
+cannabis edible ingestion|edible ingestion
+lip laceration|tongue laceration|chin laceration
+toe stubbing|stubbed toe
+ankle fracture
+hip injury
+elbow dislocation
+mallet finger|jammed finger
+sledding injuries
+skateboarding injuries|scooter injuries
+hoverboard injuries
+swimming pool injuries|diving injuries
+hair tourniquet
+zipper injury
+straddle injury
+`, "2026-11-10");
+P("Name a way to prevent medication errors","nursing","",`
+rights of medication administration|five rights|seven rights|rights of medication|right patient right drug right dose right route right time
+two patient identifiers|two identifiers|check patient id|name and date of birth
+barcode scanning|bar code medication administration|bcma|scan the wristband
+check allergies|allergy check
+three checks|triple check
+independent double check|double check|second nurse check
+medication reconciliation|med rec
+avoid dangerous abbreviations|do not use list|no error prone abbreviations
+no trailing zeros|trailing zero
+use leading zeros|leading zero
+tall man lettering|tall man letters
+read back verbal orders|read back|verbal order read back
+limit verbal orders|avoid verbal orders
+clarify unclear orders|question orders|clarify illegible orders
+computerized provider order entry|cpoe|electronic orders
+smart pumps|smart infusion pumps|dose error reduction software
+automated dispensing cabinets|pyxis|omnicell
+unit dose packaging|unit dose
+look alike sound alike drugs|lasa precautions|separate look alike drugs
+high alert medication precautions|high alert medications
+know the medication|look up unfamiliar drugs|drug reference
+patient education|teach patients about their medications
+involve the patient|ask the patient
+label syringes|label all medications|labeling
+prepare medications for one patient at a time|one patient at a time
+no interruptions|no interruption zone|quiet zone|do not disturb vest
+minimize distractions
+check expiration dates|expiration date
+calculate doses carefully|double check calculations|dose calculation
+weight based dosing|weigh the patient|accurate weight in kilograms
+pharmacist review|pharmacy verification
+clinical decision support|alerts|drug interaction alerts
+report errors|incident reports|error reporting
+just culture
+near miss reporting
+standardized concentrations
+limit floor stock|remove concentrated potassium from units
+document immediately|timely documentation
+never document before giving|document after giving
+do not give meds prepared by someone else
+assess before giving|check vital signs before giving|check labs before giving
+hold parameters|apical pulse before digoxin
+monitor after giving|evaluate response
+use oral syringes for oral meds|oral syringes|enfit
+tubing tracing|trace lines to source|label iv lines
+avoid crushing extended release|do not crush list
+check for duplicate orders|therapeutic duplication
+renal dose adjustment
+pediatric dose checks|mg per kg check
+use metric units only|metric measurements|use mL not teaspoons
+dosing cups|accurate measuring devices
+handoff communication|safe handoff
+staffing|adequate staffing
+fatigue management|avoid fatigue
+education and training|competency training
+policies and procedures|follow protocols
+standard order sets|order sets
+eliminate handwritten orders|legible handwriting
+pharmacy compounding|use premixed solutions|premixed iv bags
+store medications properly|separate storage
+lock up controlled substances|count controlled substances|narcotic count
+waste with a witness|witnessed waste
+patient wristband check|armband check
+listen to patient concerns|stop if patient questions the med
+root cause analysis
+failure mode and effects analysis|fmea
+medication safety officer
+patient armband allergy band|red allergy band
+check the order against the mar|compare mar to order
+know normal doses|recognize unusual doses
+avoid workarounds|dont override alerts
+time out for high risk meds
+safe injection practices|one needle one syringe one time
+discard unlabeled syringes|discard unlabeled medications
+check iv compatibility|iv compatibility
+infusion rate checks|verify pump settings
+confirm route|right route
+avoid stocking similar packages together
+use generic and brand names
+indication on orders|include indication
+`, "2026-11-10");
+P("Name a reason to call a rapid response","nursing","",`
+change in mental status|altered mental status|acute confusion|decreased level of consciousness|change in loc
+low blood pressure|hypotension|systolic below 90|sbp under 90
+low oxygen saturation|hypoxia|desaturation|oxygen saturation below 90|low sats
+respiratory distress|difficulty breathing|shortness of breath|labored breathing
+high heart rate|tachycardia|heart rate over 130|hr over 130
+low heart rate|bradycardia|heart rate under 40|hr under 40
+high respiratory rate|tachypnea|respiratory rate over 28|rr over 30
+low respiratory rate|bradypnea|respiratory rate under 8|slow breathing
+chest pain
+seizure|new seizure
+stroke symptoms|signs of stroke|facial droop|slurred speech|new weakness
+staff worried|nurse concern|gut feeling|worried about the patient|staff concern
+family concern|family worried|condition h|condition help
+sepsis|suspected sepsis|signs of sepsis
+acute bleeding|hemorrhage|uncontrolled bleeding
+decreased urine output|low urine output|oliguria
+new arrhythmia|new dysrhythmia|new atrial fibrillation
+hypertensive crisis|very high blood pressure|systolic over 200
+high fever|hyperthermia
+hypothermia
+hypoglycemia not responding|severe hypoglycemia|low blood sugar
+severe hyperglycemia|dka
+airway compromise|threatened airway|stridor
+anaphylaxis|severe allergic reaction|allergic reaction
+opioid overdose|oversedation|unresponsive to voice
+uncontrolled pain
+lactate elevated|high lactate
+acute agitation|violent behavior|delirium
+fall with injury|fall with head strike
+suspected pulmonary embolism|pe
+suspected myocardial infarction|mi|st elevation
+critical lab value|critical labs|critical potassium
+transfusion reaction|blood transfusion reaction
+new onset cyanosis|cyanosis
+syncope|fainting|passed out
+cold clammy skin|mottled skin|poor perfusion
+sudden swelling|angioedema|throat swelling
+pupils unequal|new pupil changes
+early warning score|mews|news score|pews|high early warning score
+signs of shock|shock
+hemoptysis|coughing up blood
+gi bleed|vomiting blood|hematemesis|melena
+postpartum hemorrhage
+eclampsia|severe preeclampsia
+chest tube problems|chest tube disconnected|tension pneumothorax|pneumothorax
+increasing oxygen requirement|escalating oxygen needs
+use of accessory muscles|retractions
+noisy breathing|gurgling
+fluid overload|acute pulmonary edema|flash pulmonary edema
+acute kidney injury
+electrolyte imbalance|severe hyperkalemia|severe hyponatremia
+malignant hyperthermia
+compartment syndrome|loss of pulse in limb|cold pulseless limb
+pediatric dehydration|lethargic child
+neonatal distress|grunting
+pale gray skin|pallor
+sudden change in vital signs|deteriorating vital signs|vital sign changes
+ineffective treatment|not responding to treatment
+need for icu|needs higher level of care
+`, "2026-11-10");
+P("Name a type of exercise or therapeutic exercise","nursing","",`
+walking
+range of motion exercises|range of motion|rom
+active range of motion|arom
+passive range of motion|prom
+active assisted range of motion|aarom
+kegel exercises|kegels|pelvic floor exercises
+aerobic exercise|cardio|cardiovascular exercise
+strength training|resistance training|weight lifting|weights
+isometric exercise|isometrics|static exercise
+isotonic exercise|isotonic
+isokinetic exercise|isokinetic
+quad sets|quadriceps sets|quad setting
+gluteal sets|glute sets
+ankle pumps|ankle circles|foot pumps
+leg lifts|straight leg raises
+deep breathing exercises|breathing exercises|diaphragmatic breathing
+pursed lip breathing
+incentive spirometry|incentive spirometer
+coughing exercises|cough and deep breathe|huff coughing
+stretching|flexibility exercises
+swimming|aquatic therapy|water aerobics|aqua therapy
+yoga
+pilates
+tai chi
+balance exercises|balance training
+weight bearing exercise|weight bearing
+non weight bearing exercise|non impact exercise
+low impact exercise
+high intensity interval training|hiit
+running|jogging
+cycling|biking|stationary bike|spinning
+elliptical
+rowing
+dancing|zumba
+hiking
+jumping rope
+calisthenics|bodyweight exercises
+push ups
+squats
+lunges
+planks|plank
+crunches|sit ups
+burpees
+jumping jacks
+stair climbing|stair stepper
+treadmill
+chair exercises|seated exercises
+pendulum exercises|codman exercises
+wall climbing|finger walking|wall walking
+shoulder rolls
+neck exercises|neck stretches
+arm circles
+hand exercises|grip strengthening|squeezing a ball
+heel slides
+bridges|bridging|glute bridges
+clamshells
+calf raises|heel raises
+toe raises
+marching in place|marching
+sit to stand|chair stands
+gait training
+pulmonary rehabilitation|pulmonary rehab
+cardiac rehabilitation|cardiac rehab
+eye exercises
+jaw exercises|tmj exercises
+swallowing exercises|chin tuck|shaker exercise
+mckenzie exercises|back extension exercises
+williams flexion exercises|pelvic tilts|pelvic tilt
+core strengthening|core exercises
+plyometrics
+crossfit
+kickboxing|boxing
+martial arts
+golf
+tennis
+basketball
+soccer
+skiing
+skating
+rock climbing
+rebounding|mini trampoline
+resistance bands|theraband|elastic bands
+kettlebells
+medicine ball
+qigong
+proprioceptive neuromuscular facilitation|pnf
+contract relax stretching
+eccentric exercise
+concentric exercise
+closed chain exercise|closed kinetic chain
+open chain exercise|open kinetic chain
+mirror therapy
+constraint induced movement therapy
+buerger allen exercises
+postpartum exercises|diastasis recti exercises
+prenatal exercise|pregnancy exercise
+`, "2026-11-10");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

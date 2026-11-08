@@ -61742,6 +61742,14 @@ side rails up|bed in low position|call light
 hearing or vision impairment|sensory deficits
 mobility status|mobility aids
 discharge plan|discharge planning
+herbal supplements held|supplements held
+glp 1 agonists held|ozempic held|semaglutide held|glp1 held
+sglt2 inhibitors held
+recent illness|fever check|cold symptoms
+preoperative covid test|covid test
+no gum or candy|no chewing gum
+carbohydrate loading drink|eras drink|clear carb drink
+nurse signature|checklist signed
 `, "2026-11-10");
 P("Name a condition managed with a special diet","nursing","",`
 diabetes|diabetes mellitus|type 2 diabetes|type 1 diabetes|dm|t2dm|t1dm
@@ -62113,6 +62121,16 @@ uv light|ultraviolet germicidal irradiation
 falling objects
 heat stress
 lawsuits|legal liability|malpractice
+hazardous drug spills|chemo spills
+contaminated linen|soiled linen
+bed bugs
+mold|poor indoor air quality
+mpox|monkeypox exposure
+norovirus
+cytomegalovirus|cmv exposure
+parvovirus b19|fifth disease
+rubella|rubella exposure
+hepatitis a exposure
 `, "2026-11-10");
 P("Name a cause of increased intracranial pressure","nursing","",`
 traumatic brain injury|tbi|head injury|head trauma
@@ -62280,6 +62298,14 @@ basal and bolus insulin|basal insulin|bolus insulin
 time in range
 dont double doses|missed dose instructions
 inspect injection sites|lipohypertrophy|lipodystrophy
+nocturnal hypoglycemia|low blood sugar at night
+monofilament test|provider foot exams
+wear clean dry socks|cotton socks|avoid tight socks
+inspect shoes before wearing|check inside shoes
+glucose gel
+teach family to give glucagon|emergency plan
+school diabetes plan|504 plan
+drink alcohol only with food
 `, "2026-11-10");
 
 /* ---- NEW STANDARD DAILY PROMPTS: NURSING part 2 (batch 2026-11-08, board-first) ---- */
@@ -63018,67 +63044,6 @@ avoid stocking similar packages together
 use generic and brand names
 indication on orders|include indication
 `, "2026-11-10");
-P("Name a reason to call a rapid response","nursing","",`
-change in mental status|altered mental status|acute confusion|decreased level of consciousness|change in loc
-low blood pressure|hypotension|systolic below 90|sbp under 90
-low oxygen saturation|hypoxia|desaturation|oxygen saturation below 90|low sats
-respiratory distress|difficulty breathing|shortness of breath|labored breathing
-high heart rate|tachycardia|heart rate over 130|hr over 130
-low heart rate|bradycardia|heart rate under 40|hr under 40
-high respiratory rate|tachypnea|respiratory rate over 28|rr over 30
-low respiratory rate|bradypnea|respiratory rate under 8|slow breathing
-chest pain
-seizure|new seizure
-stroke symptoms|signs of stroke|facial droop|slurred speech|new weakness
-staff worried|nurse concern|gut feeling|worried about the patient|staff concern
-family concern|family worried|condition h|condition help
-sepsis|suspected sepsis|signs of sepsis
-acute bleeding|hemorrhage|uncontrolled bleeding
-decreased urine output|low urine output|oliguria
-new arrhythmia|new dysrhythmia|new atrial fibrillation
-hypertensive crisis|very high blood pressure|systolic over 200
-high fever|hyperthermia
-hypothermia
-hypoglycemia not responding|severe hypoglycemia|low blood sugar
-severe hyperglycemia|dka
-airway compromise|threatened airway|stridor
-anaphylaxis|severe allergic reaction|allergic reaction
-opioid overdose|oversedation|unresponsive to voice
-uncontrolled pain
-lactate elevated|high lactate
-acute agitation|violent behavior|delirium
-fall with injury|fall with head strike
-suspected pulmonary embolism|pe
-suspected myocardial infarction|mi|st elevation
-critical lab value|critical labs|critical potassium
-transfusion reaction|blood transfusion reaction
-new onset cyanosis|cyanosis
-syncope|fainting|passed out
-cold clammy skin|mottled skin|poor perfusion
-sudden swelling|angioedema|throat swelling
-pupils unequal|new pupil changes
-early warning score|mews|news score|pews|high early warning score
-signs of shock|shock
-hemoptysis|coughing up blood
-gi bleed|vomiting blood|hematemesis|melena
-postpartum hemorrhage
-eclampsia|severe preeclampsia
-chest tube problems|chest tube disconnected|tension pneumothorax|pneumothorax
-increasing oxygen requirement|escalating oxygen needs
-use of accessory muscles|retractions
-noisy breathing|gurgling
-fluid overload|acute pulmonary edema|flash pulmonary edema
-acute kidney injury
-electrolyte imbalance|severe hyperkalemia|severe hyponatremia
-malignant hyperthermia
-compartment syndrome|loss of pulse in limb|cold pulseless limb
-pediatric dehydration|lethargic child
-neonatal distress|grunting
-pale gray skin|pallor
-sudden change in vital signs|deteriorating vital signs|vital sign changes
-ineffective treatment|not responding to treatment
-need for icu|needs higher level of care
-`, "2026-11-10");
 P("Name a type of exercise or therapeutic exercise","nursing","",`
 walking
 range of motion exercises|range of motion|rom
@@ -63176,6 +63141,766 @@ constraint induced movement therapy
 buerger allen exercises
 postpartum exercises|diastasis recti exercises
 prenatal exercise|pregnancy exercise
+`, "2026-11-10");
+
+/* ---- NEW STANDARD DAILY PROMPTS: NURSING part 3 (batch 2026-11-08, board-first) ---- */
+P("Name a type of disaster or mass casualty event","nursing","",`
+hurricane
+earthquake
+flood|flooding|flash flood
+tornado
+wildfire|forest fire|bushfire
+pandemic|epidemic|disease outbreak|outbreak
+bioterrorism|biological attack|biological weapon
+chemical spill|hazmat incident|hazardous materials incident|chemical release
+nuclear accident|nuclear disaster|nuclear meltdown|radiation emergency
+mass shooting|active shooter
+terrorist attack|terrorism
+bombing|explosion|blast injury
+tsunami
+blizzard|snowstorm
+heat wave|extreme heat
+ice storm
+landslide|mudslide
+volcanic eruption|volcano
+drought
+famine
+plane crash|airplane crash
+train derailment|train crash
+bus crash|multi vehicle crash|pileup|mass casualty car crash
+building collapse|structural collapse
+bridge collapse
+dam failure|levee failure
+fire|building fire|house fire
+hospital fire
+dirty bomb|radiological dispersal device
+chemical attack|chemical weapon|nerve agent attack|sarin attack
+chlorine gas release|chlorine gas
+anthrax attack|anthrax
+smallpox outbreak|smallpox
+ebola outbreak|ebola
+plague
+power outage|blackout|grid failure
+cyberattack|ransomware attack|it outage
+water contamination|boil water advisory
+foodborne outbreak|food contamination
+crowd crush|stampede
+riot|civil unrest
+war|armed conflict
+refugee crisis|mass displacement
+extreme cold|cold wave
+hailstorm
+dust storm|sandstorm
+lightning strike
+cyclone
+typhoon
+monsoon
+sinkhole
+avalanche
+mine collapse|mining accident
+oil spill
+gas leak|gas explosion
+industrial accident|factory explosion
+hostage situation
+mass poisoning|carbon monoxide mass exposure
+pandemic influenza|flu pandemic|influenza pandemic
+covid 19 pandemic|covid
+measles outbreak
+cholera outbreak
+mass gathering incident|concert disaster
+school shooting
+vehicle ramming attack
+ship sinking|maritime disaster|boat capsizing
+stadium collapse
+nursing home evacuation|hospital evacuation
+supply chain shortage|medication shortage
+severe thunderstorm|derecho
+storm surge
+tropical storm
+wind storm
+ammonia leak
+nuclear attack|nuclear explosion|nuclear bomb
+emp attack
+drug overdose cluster|mass overdose
+fireworks accident
+`, "2026-11-10");
+P("Name a mental health nursing intervention","nursing","",`
+therapeutic communication
+establish trust|build rapport|therapeutic relationship
+suicide precautions|suicide risk assessment|ask about suicide
+one to one observation|1 to 1 observation|constant observation|sitter
+safe environment|remove harmful objects|ligature risk check|environmental safety
+de escalation|verbal de escalation|talking down
+active listening
+set limits|limit setting
+milieu therapy|therapeutic milieu
+reality orientation
+presenting reality|do not argue with delusions|dont reinforce hallucinations
+validation therapy|validate feelings
+medication administration|give prn medication|administer prescribed medications
+medication teaching|medication education
+monitor for side effects|monitor for eps|check for tardive dyskinesia|aims
+reduce stimulation|quiet environment|low stimulation environment
+seclusion
+restraints|physical restraints
+chemical restraint|emergency medication
+time out|voluntary time out
+safety plan|safety planning
+no harm contract|no suicide contract
+crisis intervention
+coping skills teaching|teach coping skills
+relaxation techniques|deep breathing|guided imagery
+cognitive behavioral techniques|cbt|cognitive restructuring
+group therapy|group sessions
+family therapy|family involvement|family education
+psychoeducation
+journaling
+encourage expression of feelings|allow venting|ventilation of feelings
+structured routine|consistent schedule|daily schedule
+consistent staff|consistent caregivers
+monitor intake|monitor nutrition|meal supervision|observe meals
+weigh patient|daily weights|blind weights
+supervise bathroom after meals
+sleep hygiene|promote sleep
+hygiene assistance|encourage self care|adl assistance
+finger foods for manic patients|high calorie finger foods
+physical activity|exercise|walks
+redirect|redirection|distraction
+respect personal space
+calm approach|calm voice|speak calmly
+simple clear communication|short sentences
+avoid touching agitated patient|ask before touching
+stay with anxious patient|presence|stay with patient
+assess mood|mood assessment
+mental status exam|mse
+assess for hallucinations|command hallucinations
+assess for withdrawal|ciwa|cows
+seizure precautions for withdrawal|withdrawal precautions
+fall precautions
+elopement precautions|elopement risk|flight risk
+assault precautions|aggression risk assessment|violence risk screening
+room search|belongings search|contraband search
+sharps restriction|safety tray|paper scrubs|hospital gown
+frequent rounds|q15 minute checks|15 minute checks|close observation
+monitor lithium levels|lithium level monitoring|drug levels
+ect care|electroconvulsive therapy care
+social skills training
+assertiveness training
+anger management
+behavior modification|token economy|positive reinforcement
+contracts|behavioral contract
+role playing
+problem solving
+reminiscence therapy
+art therapy
+music therapy
+pet therapy|animal assisted therapy
+occupational therapy|activity therapy|recreational therapy
+spiritual support|chaplain referral
+support groups|aa|na|12 step programs
+referrals|community resources|case management
+discharge planning|outpatient follow up
+crisis hotline|988|crisis line
+trauma informed care
+motivational interviewing
+harm reduction|naloxone education
+grounding techniques
+encourage medication adherence|medication compliance
+nutrition support|refeeding monitoring
+gradual exposure|systematic desensitization
+thought stopping
+mindfulness
+dbt skills|dialectical behavior therapy
+`, "2026-11-10");
+P("Name something to teach a pregnant patient","nursing","",`
+prenatal vitamins|take prenatal vitamins
+folic acid|folate
+avoid alcohol|no alcohol
+quit smoking|avoid smoking|smoking cessation
+danger signs|warning signs|when to call the provider
+kick counts|fetal movement counts|fetal kick counts
+signs of labor|when to go to the hospital|true vs false labor
+nutrition|healthy diet|eating for two
+weight gain|recommended weight gain
+exercise|safe exercise
+avoid raw fish|no sushi|avoid raw seafood
+avoid deli meats|listeria|avoid lunch meat
+avoid unpasteurized dairy|soft cheese|unpasteurized milk
+limit caffeine|caffeine limit
+avoid high mercury fish|mercury|limit tuna|avoid swordfish|avoid shark|avoid king mackerel
+cook meat thoroughly|avoid undercooked meat
+avoid cat litter|toxoplasmosis|no changing litter box
+avoid hot tubs|avoid saunas|avoid overheating
+prenatal visits|keep prenatal appointments|prenatal care
+signs of preeclampsia|headache and vision changes|preeclampsia
+gestational diabetes screening|glucose test|glucose tolerance test
+vaginal bleeding|report bleeding
+leaking fluid|rupture of membranes|water breaking
+decreased fetal movement
+preterm labor signs|preterm contractions
+braxton hicks contractions|braxton hicks
+seat belt use|seatbelt below the belly
+sleep on left side|left side lying|side sleeping
+avoid lying flat on back|supine hypotension
+iron supplements|iron rich foods
+calcium|calcium intake
+hydration|drink plenty of water
+morning sickness|nausea management|small frequent meals|crackers
+heartburn|avoid lying down after eating
+constipation|fiber|stool softeners
+hemorrhoids
+back pain|good posture|body mechanics
+leg cramps
+varicose veins|elevate legs|support stockings
+swelling|edema
+urinary frequency|kegel exercises|kegels
+round ligament pain
+breastfeeding education|breastfeeding preparation|breastfeeding classes
+childbirth classes|lamaze|birthing classes
+birth plan
+pain relief options in labor|epidural|labor pain management
+breathing techniques|lamaze breathing|patterned breathing
+car seat|install car seat
+newborn care classes
+postpartum depression|baby blues
+vaccines in pregnancy|tdap|flu shot|rsv vaccine|covid vaccine
+avoid live vaccines
+avoid certain medications|check before taking medications|no nsaids|medication safety
+avoid isotretinoin|teratogens|accutane
+avoid herbal supplements
+dental care|gum care|bleeding gums
+sexual activity|safe sex|intercourse in pregnancy
+avoid douching
+travel precautions|travel guidelines
+zika|avoid zika areas
+avoid x rays|radiation exposure
+avoid pesticides|chemicals|toxic exposures
+domestic violence screening|intimate partner violence|safety at home
+mental health|depression screening|anxiety
+rest|adequate sleep|fatigue
+stress management
+ultrasounds|anatomy scan
+genetic screening|nipt|quad screen|prenatal screening
+group b strep test|gbs
+rh status|rhogam|rh immune globulin
+fundal height
+blood pressure monitoring
+substance use|avoid drugs|avoid marijuana
+avoid secondhand smoke
+avoid raw eggs|undercooked eggs
+wash produce|food safety
+avoid raw sprouts
+avoid liver|vitamin a|limit vitamin a
+pica|cravings
+skin changes|stretch marks|linea nigra|chloasma
+breast changes|supportive bra
+shortness of breath
+headache management|acetaminophen for pain
+avoid aspirin unless prescribed|low dose aspirin
+work restrictions|lifting restrictions
+contraception after birth|family planning
+cord blood banking
+choosing a pediatrician
+signs of ectopic pregnancy
+signs of miscarriage
+hyperemesis gravidarum
+`, "2026-11-10");
+P("Name a cause of metabolic acidosis or alkalosis","nursing","",`
+diabetic ketoacidosis|dka
+diarrhea
+vomiting
+nasogastric suction|ng suction|ng tube suction|gastric suction
+kidney failure|renal failure|acute kidney injury|chronic kidney disease|aki|ckd
+lactic acidosis|lactic acid
+sepsis|septic shock
+shock|hypoperfusion
+diuretics|loop diuretics|thiazides|furosemide|lasix
+antacids|excess antacids|baking soda|sodium bicarbonate
+aspirin overdose|salicylate poisoning|aspirin toxicity
+starvation|starvation ketoacidosis|fasting
+alcoholic ketoacidosis|alcohol
+methanol poisoning|methanol
+ethylene glycol poisoning|antifreeze|ethylene glycol
+hypokalemia|low potassium
+hyperaldosteronism|conn syndrome|primary aldosteronism
+cushing syndrome
+milk alkali syndrome
+renal tubular acidosis|rta
+pancreatic fistula|pancreatic drainage
+ileostomy output|high output ostomy|intestinal fistula
+laxative abuse|laxatives
+bulimia|self induced vomiting
+pyloric stenosis
+cardiac arrest
+seizures|status epilepticus
+metformin|metformin associated lactic acidosis
+iron overdose|iron poisoning
+isoniazid overdose
+cyanide poisoning
+carbon monoxide poisoning
+toluene|glue sniffing
+propylene glycol toxicity
+acetazolamide|carbonic anhydrase inhibitors
+topiramate
+normal saline overload|hyperchloremic acidosis|excess saline
+parenteral nutrition|tpn
+ureterosigmoidostomy|ileal conduit
+addison disease|adrenal insufficiency
+hyperkalemia
+massive blood transfusion|citrate|blood transfusion
+dehydration|contraction alkalosis|volume depletion
+bartter syndrome
+gitelman syndrome
+licorice|black licorice
+corticosteroids|steroids
+hypercalcemia
+hypomagnesemia
+post hypercapnic alkalosis
+liver failure
+rhabdomyolysis
+ischemic bowel|mesenteric ischemia
+severe burns
+paraldehyde
+paracetamol overdose|acetaminophen|5 oxoproline|pyroglutamic acidosis
+d lactic acidosis|short bowel syndrome
+glycogen storage disease
+inborn errors of metabolism|organic acidemia
+congenital adrenal hyperplasia
+cystic fibrosis
+hyperemesis gravidarum
+exercise|strenuous exercise
+villous adenoma
+congenital chloride diarrhea|chloride losing diarrhea
+hypoaldosteronism|type 4 rta
+spironolactone
+amphotericin b
+thiamine deficiency
+linezolid
+zidovudine|nrtis
+cocaine
+albuterol|beta agonists|epinephrine infusion
+liddle syndrome
+renal artery stenosis|renovascular hypertension
+penicillin|carbenicillin|ticarcillin
+cholestyramine
+bowel obstruction
+hypoxia|hypoxemia|severe anemia
+`, "2026-11-10");
+P("Name a procedure that requires informed consent","nursing","",`
+surgery|any surgery|operation
+blood transfusion|transfusion
+anesthesia|general anesthesia
+chemotherapy
+research participation|clinical trial|research study
+central line insertion|central venous catheter|picc line|picc insertion
+lumbar puncture|spinal tap
+thoracentesis
+paracentesis
+bronchoscopy
+colonoscopy
+endoscopy|egd|upper endoscopy
+cardiac catheterization|heart cath|angiogram|coronary angiography
+biopsy
+electroconvulsive therapy|ect
+sterilization|tubal ligation|vasectomy
+cesarean section|c section
+epidural|epidural anesthesia
+hysterectomy
+abortion|termination of pregnancy|pregnancy termination
+amniocentesis
+chorionic villus sampling|cvs
+circumcision
+organ donation|living organ donation
+bone marrow biopsy|bone marrow aspiration
+liver biopsy
+kidney biopsy|renal biopsy
+chest tube insertion|chest tube
+arterial line|art line
+pacemaker insertion|pacemaker
+cardioversion|elective cardioversion
+ablation|cardiac ablation
+cardiac stent|pci|angioplasty
+contrast imaging|ct with contrast|contrast dye
+mri with contrast
+radiation therapy|radiotherapy
+dialysis|hemodialysis|dialysis catheter
+peg tube placement|feeding tube placement|gastrostomy
+tracheostomy
+intubation|elective intubation
+moderate sedation|conscious sedation|procedural sedation
+nerve block
+joint injection|steroid injection
+cosmetic surgery|plastic surgery
+dental extraction|tooth extraction
+lasik|eye surgery|cataract surgery
+tonsillectomy
+appendectomy
+amputation
+joint replacement|hip replacement|knee replacement
+transplant|organ transplant
+ivf|in vitro fertilization|fertility treatment
+photographs|photography|videos of patient
+hiv testing
+genetic testing
+vaccination|immunization
+iud insertion
+cervical cerclage
+labor induction|induction of labor
+external cephalic version
+breast biopsy
+mastectomy
+prostate biopsy
+cystoscopy
+lithotripsy
+tee|transesophageal echocardiogram
+stress test|cardiac stress test
+interventional radiology procedure|embolization
+ivc filter placement
+port placement|port a cath
+dbs|deep brain stimulation
+spinal fusion
+laparoscopy|diagnostic laparoscopy
+ercp
+plasmapheresis|apheresis
+immunotherapy|car t therapy
+gene therapy
+experimental treatment|investigational drug
+psychiatric medication injection|long acting injectable antipsychotic
+release of medical information|release of records
+autopsy
+`, "2026-11-10");
+P("Name a sign of drug or alcohol intoxication","nursing","",`
+slurred speech
+unsteady gait|ataxia|staggering|stumbling
+alcohol on breath|smell of alcohol|fruity breath
+pinpoint pupils|constricted pupils|miosis
+dilated pupils|mydriasis|big pupils
+drowsiness|sedation|sleepiness
+confusion|disorientation
+impaired judgment|poor judgment
+respiratory depression|slow breathing|shallow breathing
+nystagmus
+red eyes|bloodshot eyes|conjunctival injection
+increased appetite|munchies
+euphoria|feeling high
+agitation|aggression|combativeness
+paranoia
+hallucinations
+tachycardia|rapid heart rate|racing heart
+hypertension|high blood pressure
+hyperthermia|fever|overheating
+sweating|diaphoresis
+nausea and vomiting|vomiting
+loss of coordination|poor coordination|clumsiness
+slowed reaction time
+memory loss|blackouts|amnesia
+disinhibition|loss of inhibitions
+mood swings|emotional lability
+talkativeness|rapid speech|pressured speech
+hyperactivity|restlessness|psychomotor agitation
+teeth grinding|jaw clenching|bruxism
+dry mouth|cottonmouth
+flushed face|flushing
+nosebleeds|runny nose|sniffing
+track marks|needle marks
+nodding off|on the nod
+unresponsiveness|coma|stupor
+seizures
+cyanosis|blue lips
+hypotension|low blood pressure
+bradycardia|slow heart rate
+hypothermia
+tremors
+dizziness
+blurred vision|double vision
+giggling|inappropriate laughter
+anxiety|panic
+grandiosity
+violent behavior
+numbness|analgesia|not feeling pain
+dissociation|out of body feeling
+muscle rigidity
+chest pain
+arrhythmias|irregular heartbeat
+hyperreflexia|clonus
+psychosis
+insomnia|not sleeping
+decreased appetite|appetite suppression
+picking at skin|skin picking|formication
+chemical odor on breath|paint stains|inhalant residue
+slow speech
+lethargy
+incontinence
+vomiting while unconscious|aspiration
+elevated blood alcohol level|positive breathalyzer|elevated bac
+flat affect|apathy
+hypersexuality
+excessive thirst|dehydration
+hyponatremia
+synesthesia
+dry hot skin|anticholinergic signs
+urinary retention
+noncardiogenic pulmonary edema|frothy sputum
+decreased reflexes|hyporeflexia|slow reflexes
+blank stare|staring
+excited delirium|agitated delirium
+huffer rash|rash around the mouth
+burns on lips or fingers|burned fingertips
+falls|falling
+loud speech|talking loudly
+hypoglycemia|low blood sugar
+smell of marijuana|odor of marijuana
+muscle twitching|myoclonus
+hyperventilation
+`, "2026-11-10");
+P("Name a complication of anesthesia or sedation","nursing","",`
+malignant hyperthermia
+postoperative nausea and vomiting|ponv|nausea|vomiting
+aspiration|aspiration pneumonia|aspiration of gastric contents
+respiratory depression|hypoventilation
+hypotension|low blood pressure
+laryngospasm
+bronchospasm
+sore throat|hoarseness
+anesthesia awareness|intraoperative awareness|waking up during surgery
+dental damage|broken teeth|chipped tooth
+hypothermia
+shivering
+emergence delirium|emergence agitation|postoperative delirium
+postoperative cognitive dysfunction|pocd|cognitive decline
+spinal headache|post dural puncture headache|pdph
+urinary retention
+nerve injury|peripheral nerve injury|positioning injury
+local anesthetic systemic toxicity|last|local anesthetic toxicity
+anaphylaxis|allergic reaction
+hypoxia|hypoxemia|desaturation
+airway obstruction|upper airway obstruction
+difficult intubation|failed intubation
+esophageal intubation
+bradycardia
+tachycardia
+arrhythmias|dysrhythmias
+cardiac arrest
+myocardial infarction|heart attack
+stroke
+epidural hematoma|spinal hematoma
+high spinal|total spinal|high block
+epidural abscess|infection at epidural site
+itching|pruritus
+drowsiness|prolonged sedation|delayed emergence|oversedation
+apnea
+residual neuromuscular blockade|residual paralysis
+succinylcholine apnea|pseudocholinesterase deficiency
+hyperkalemia from succinylcholine
+propofol infusion syndrome
+corneal abrasion|eye injury
+vision loss|postoperative visual loss
+pneumothorax
+atelectasis
+negative pressure pulmonary edema
+lip injury|tongue injury
+jaw dislocation
+tracheal injury|vocal cord injury|vocal cord paralysis
+headache
+dizziness
+muscle aches|myalgia|succinylcholine myalgia
+back pain
+hematoma at injection site
+nerve block complications|horner syndrome|phrenic nerve block
+intravascular injection
+methemoglobinemia
+serotonin syndrome
+hypertension|high blood pressure
+hyperthermia
+death
+paradoxical reaction|paradoxical agitation
+transient neurologic symptoms
+cauda equina syndrome
+diaphragmatic paralysis
+pressure injuries
+burns|airway fire|surgical fire
+ileus
+dysphagia
+bleeding
+hiccups
+venous air embolism|air embolism
+hives|urticaria|rash
+injection site pain|propofol injection pain
+phlebitis|thrombophlebitis
+extravasation
+bezold jarisch reflex
+renarcotization|resedation after naloxone
+chest wall rigidity|wooden chest syndrome
+emergence reactions|hallucinations|ketamine emergence reaction
+epistaxis|nosebleed
+`, "2026-11-10");
+P("Name a food or drink to avoid with GERD","nursing","",`
+coffee
+alcohol|alcoholic drinks|liquor
+beer
+wine|red wine|white wine|champagne
+chocolate
+spicy foods|hot sauce|chili peppers|spicy food
+citrus fruits|citrus|oranges|grapefruit|lemons|limes
+orange juice|grapefruit juice|citrus juice
+tomatoes|tomato sauce|tomato products|marinara
+fried foods|fried food|french fries|fried chicken
+fatty foods|high fat foods|greasy foods
+peppermint|mint|spearmint
+carbonated drinks|soda|cola|carbonated beverages|sparkling water|fizzy drinks
+caffeine|caffeinated drinks
+tea|black tea
+onions|raw onions
+garlic
+energy drinks
+pizza
+ketchup
+salsa
+vinegar|pickles
+cheese|full fat cheese|high fat cheese
+whole milk|full fat dairy
+ice cream
+butter
+bacon
+sausage
+hot dogs
+hamburgers|cheeseburgers
+fast food
+processed meats|deli meats
+red meat|steak|fatty meats
+potato chips|chips
+donuts|pastries
+cakes|cookies
+pepperoni
+buffalo wings|hot wings
+curry
+black pepper
+mustard
+barbecue sauce|bbq sauce
+cream sauces|alfredo sauce
+gravy
+milkshakes
+creamy soups
+large meals|heavy meals
+late night snacks|eating before bed
+cranberry juice
+pineapple|pineapple juice
+espresso
+hot chocolate|cocoa
+cocktails|mixed drinks
+salad dressing|vinaigrette
+chili|chili con carne
+tacos
+nachos
+buffalo sauce
+sriracha
+jalapenos|jalapeno
+wasabi
+horseradish
+spicy chips|takis|hot cheetos
+shallots|scallions|leeks
+tomato soup
+lasagna
+spaghetti with tomato sauce
+fried fish
+onion rings
+mozzarella sticks
+egg rolls
+chocolate milk
+brownies
+cheesecake
+croissants
+lemonade
+kimchi
+spicy ramen|hot noodles
+pork rinds
+sour candy
+cinnamon
+`, "2026-11-10");
+P("Name a barrier to communication or a nontherapeutic response","nursing","",`
+false reassurance|offering false reassurance|dont worry everything will be fine
+giving advice|giving personal advice|telling the patient what to do
+asking why questions|why questions|requesting an explanation
+changing the subject|changing topics
+belittling feelings|minimizing feelings|belittling
+being defensive|defensiveness|defending
+closed ended questions|yes or no questions
+medical jargon|using jargon|technical language
+language barrier|different language|no interpreter
+hearing impairment|hearing loss
+vision impairment|visual impairment
+cognitive impairment|dementia|confusion
+pain
+anxiety|fear
+noise|noisy environment|distractions
+lack of privacy|no privacy
+cultural differences|cultural barriers
+stereotyping
+approving or disapproving|giving approval|disapproving|judging|being judgmental
+agreeing or disagreeing|disagreeing|agreeing with the patient
+clichés|cliches|platitudes|stock responses
+probing|excessive questioning|interrogating
+challenging|arguing|challenging the patient
+interrupting|cutting off the patient
+not listening|poor listening|inattention
+rushing|being in a hurry|time pressure
+looking at phone or computer|screen focus|charting while talking
+standing over the patient|towering|standing while patient lies
+crossed arms|closed body language|poor body language
+lack of eye contact|avoiding eye contact
+literacy|low health literacy|illiteracy
+sedation|medication effects|drowsiness
+aphasia|stroke related speech problems
+intubation|ventilator|trach
+emotional distress|anger|grief
+denial
+mistrust|lack of trust
+power differences|hierarchy|intimidation
+parroting|repeating patient words exactly
+sympathy instead of empathy|sympathy
+patronizing|talking down|condescending|elderspeak|infantilizing
+using humor inappropriately|inappropriate humor
+self disclosure|excessive self disclosure|talking about yourself
+moralizing|preaching|lecturing
+blaming
+threatening
+sarcasm
+ignoring|ignoring feelings|ignoring the patient
+testing|testing the patient
+rejecting|rejection
+literal responses
+overloading information|information overload|too much information
+mixed messages|incongruent messages|nonverbal mismatch
+shouting|raised voice
+mumbling|speaking too fast
+physical barriers|masks|ppe|barriers
+fatigue|exhaustion
+hunger|physical needs unmet
+psychosis|hallucinations
+developmental level|age related barriers
+assumptions|making assumptions
+personal bias|bias|prejudice
+gender differences
+religious differences
+family members interpreting|using family as interpreters|children interpreting
+lack of follow up|not returning
+generalizing|overgeneralizing
+offering unsolicited opinions|stating your opinion|opinions
+excessive praise|flattery
+automatic responses|reflexive responses
+focusing on facts only|ignoring emotions
+leading questions
+multiple questions at once|double questions
+sensory overload
+unfamiliar environment
+high workload|understaffing
+speech impairment|dysarthria
+deafness|sign language needs|asl needs
+health beliefs
+embarrassment|shame|stigma
+paternalism
+making promises|false promises
+persuading|coercion|pressuring the patient
 `, "2026-11-10");
 
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */

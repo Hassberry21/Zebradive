@@ -3894,3 +3894,141 @@ crowdAlias("Name an autoantibody", "anti ccp", "ccp");  // 2026-11-08 · 4 playe
 crowdAlias("Name an autoantibody", "anti tissue transglutaminase", "ttg|anti ttg");  // 2026-11-08 · 5 players · anti-tTG
 crowd("Name an autoantibody", 83, "anti endothelial cell antibody|anti-endothelial cell|aeca");  // 2026-11-08 · 1 player · AECA in vasculitis
 crowd("Name an opportunistic infection", 65, "klebsiella|klebsiella pneumoniae");  // 2026-11-08 · 2 players · opportunistic nosocomial pathogen
+
+// ===== 2026-11-10 nightly answer review =====
+crowd("Name a biostatistics or epidemiology term", 85, "base rate fallacy|base rate neglect");  // 2026-11-10 · 1 player · classic diagnostic-reasoning/stats error
+crowd("Name a biostatistics or epidemiology term", 85, "decile|deciles");  // 2026-11-10 · 1 player · quantile, like quartile/percentile
+crowd("Name a biostatistics or epidemiology term", 85, "likert scale|likert");  // 2026-11-10 · 1 player · standard ordinal rating scale
+crowd("Name a biostatistics or epidemiology term", 85, "paired data|paired samples");  // 2026-11-10 · 1 player · dependent-samples design
+crowd("Name a body cavity or anatomical space", 81, "interventricular foramen|foramen of monro");  // 2026-11-10 · 1 player · CSF passage between ventricles
+crowd("Name a cause of digital clubbing", 85, "kartagener syndrome|kartageners|kartagener|primary ciliary dyskinesia");  // 2026-11-10 · 1 player · PCD with bronchiectasis
+crowd("Name a cause of pancytopenia", 80, "lamotrigine");  // 2026-11-10 · 1 player · label: blood dyscrasias incl pancytopenia/HLH
+crowd("Name a common allergy or allergen", 22, "pet dander|dander|animal dander|fur|pet fur");  // 2026-11-10 · 6 players · standard aeroallergen
+crowd("Name a common reason for a primary care visit", 81, "runny nose|rhinorrhea|rhinorrhoea|rhinorhoea");  // 2026-11-10 · 1 player · common URI symptom visit
+crowd("Name a cytokine or immune signaling molecule", 61, "pd-l1|pdl1|programmed death ligand 1");  // 2026-11-10 · 3 players · immune checkpoint ligand
+crowd("Name a drug given by intramuscular (IM) injection", 85, "zuclopenthixol acetate|clopixol acuphase|zuclopenthixol");  // 2026-11-10 · 1 player · short-acting IM antipsychotic
+crowd("Name a drug that causes peripheral neuropathy", 85, "vinblastine");  // 2026-11-10 · 1 player · vinca alkaloid; label neurotoxicity
+crowd("Name a drug that causes Stevens-Johnson syndrome", 85, "febuxostat");  // 2026-11-10 · 1 player · label: postmarketing SJS/TEN
+crowd("Name a drug used in pregnancy, labor or delivery", 85, "ergometrine|ergonovine");  // 2026-11-10 · 1 player · uterotonic for PPH
+crowd("Name a food high in saturated fat or cholesterol", 65, "chicharron|chicharon|pork rinds");  // 2026-11-10 · 3 players · fried pork skin
+crowd("Name a food high in vitamin C", 65, "calamansi|calamondin");  // 2026-11-10 · 2 players · citrus fruit
+crowd("Name a genetic disorder", 81, "dravet syndrome|dravet");  // 2026-11-10 · 1 player · SCN1A epileptic encephalopathy
+crowd("Name a heart condition", 70, "cardiomegaly|enlarged heart");  // 2026-11-10 · 2 players · enlarged heart
+crowd("Name a part of the heart", 72, "oblique vein of the left atrium|oblique vein|oblique vein of marshall|vein of marshall");  // 2026-11-10 · 2 players · cardiac vein to coronary sinus
+crowd("Name a part of the immune system", 68, "mantle zone|mantle");  // 2026-11-10 · 3 players · lymphoid follicle zone
+crowd("Name a protein in the human body", 80, "fkbp11|fk506 binding protein 11");  // 2026-11-10 · 1 player · FK506-binding protein
+crowd("Name a protein in the human body", 80, "myelin oligodendrocyte glycoprotein|mog");  // 2026-11-10 · 1 player · CNS myelin protein
+crowd("Name a protein in the human body", 61, "sonic hedgehog|sonic hedgehog protein|shh");  // 2026-11-10 · 3 players · morphogen protein
+crowd("Name a protein in the human body", 69, "tyrosine kinases|tyrosine kinase");  // 2026-11-10 · 2 players · enzyme protein family
+crowd("Name a symptom of multiple sclerosis", 85, "oscillopsia");  // 2026-11-10 · 1 player · from acquired nystagmus
+crowd("Name an artery", 88, "medial circumflex femoral|medial circumflex|medial cirucumflex|medial femoral circumflex");  // 2026-11-10 · 1 player · femoral head supply
+crowd("Name something that weakens the immune system", 65, "t cell deficiency|t cell immunodeficiency");  // 2026-11-10 · 3 players · cellular immunodeficiency
+crowdAlias("Name a biostatistics or epidemiology term", "effective reproduction number", "r number|rt|r value");  // 2026-11-10 · 2 players · R number = effective R
+crowdAlias("Name a biostatistics or epidemiology term", "wilcoxon signed rank test", "wilcoxon paired rank sum|wilcoxon paired");  // 2026-11-10 · 1 player · paired Wilcoxon
+crowdAlias("Name a body cavity or anatomical space", "anatomical snuffbox", "snuffbox|snuff box");  // 2026-11-10 · 2 players · same space
+crowdAlias("Name a body cavity or anatomical space", "subphrenic space", "subphrenic recess");  // 2026-11-10 · 1 player · same space
+crowdAlias("Name a cause of an enlarged spleen", "alcoholic liver disease", "alcoholism|alcohol");  // 2026-11-10 · 2 players · via cirrhosis/portal HTN
+crowdAlias("Name a cause of an enlarged spleen", "splenic vein thrombosis", "pancreatitis|chronic pancreatitis");  // 2026-11-10 · 3 players · via splenic vein thrombosis
+crowdAlias("Name a cause of coughing up blood", "lung cancer", "cancer|oat cell carcinoma|squamous cell carcinoma|squamous cell lung cancer|small cell lung cancer");  // 2026-11-10 · 7 players · lung cancer types
+crowdAlias("Name a cause of muscle weakness", "guillain barre syndrome", "gullain barre");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name a cause of pancytopenia", "visceral leishmaniasis", "leishmania donovani|l donovani");  // 2026-11-10 · 1 player · causative organism
+crowdAlias("Name a cause of stroke", "brain aneurysm", "aneurysm|ruptured aneurysm");  // 2026-11-10 · 3 players · same
+crowdAlias("Name a cause of stroke", "arteriovenous malformation", "av malformation");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a cause of stroke", "blood clot", "clot");  // 2026-11-10 · 2 players · same
+crowdAlias("Name a cause of stroke", "arterial dissection", "dissection");  // 2026-11-10 · 3 players · same
+crowdAlias("Name a cause of stroke", "intracerebral hemorrhage", "hemorrhage|haemorrhage|brain bleed");  // 2026-11-10 · 6 players · hemorrhagic stroke
+crowdAlias("Name a cause of stroke", "high blood pressure", "htn");  // 2026-11-10 · 2 players · abbreviation
+crowdAlias("Name a cause or type of dementia", "variant creutzfeldt jakob disease", "variant cjd|vcjd");  // 2026-11-10 · 1 player · abbreviation
+crowdAlias("Name a childproofing or home safety measure for young children", "cabinet locks", "childlock|child lock|child locks");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a childproofing or home safety measure for young children", "lock up medications", "medicine cabinet locked|locked medicine cabinet");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a clinical scoring system or decision rule", "rockall score", "rockfall|rockall");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name a common allergy or allergen", "tree nuts", "nuts|nut");  // 2026-11-10 · 11 players · plain-English nut allergy
+crowdAlias("Name a common allergy or allergen", "bee stings", "bee|bees|bee venom|venom|insect venom");  // 2026-11-10 · 11 players · same
+crowdAlias("Name a common allergy or allergen", "grass", "hay");  // 2026-11-10 · 5 players · hay = dried grass pollen
+crowdAlias("Name a common allergy or allergen", "pollen", "seasonal|seasonal allergies");  // 2026-11-10 · 3 players · seasonal = pollen
+crowdAlias("Name a common allergy or allergen", "shellfish", "seafood");  // 2026-11-10 · 4 players · seafood allergy
+crowdAlias("Name a common allergy or allergen", "wheat", "bread|flour");  // 2026-11-10 · 5 players · wheat allergy
+crowdAlias("Name a common allergy or allergen", "milk", "cheese|dairy");  // 2026-11-10 · 2 players · cow's milk allergy
+crowdAlias("Name a common reason for a primary care visit", "prenatal care", "prenatal consult|prenatal visit");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a complication of pregnancy", "group b strep infection", "gbs infection|gbs");  // 2026-11-10 · 1 player · abbreviation
+crowdAlias("Name a complication of pregnancy", "placenta previa", "previa");  // 2026-11-10 · 1 player · short form
+crowdAlias("Name a congenital heart defect", "atrioventricular septal defect", "atrioventricular defect|av canal|av canal defect");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a congenital heart defect", "patent ductus arteriosus", "ductus arterious|ductus arteriosus");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name a congenital heart defect", "patent foramen ovale", "foramen ovale");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a congenital heart defect", "polysplenia syndrome", "left atrial isomerisation|left atrial isomerism|left isomerism");  // 2026-11-10 · 1 player · left isomerism = polysplenia
+crowdAlias("Name a congenital heart defect", "ostium secundum asd", "osteom secondum|ostium secundum");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name a congenital heart defect", "transposition of the great arteries", "tranposition of great arteries|transposition of great arteries");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name a dementia care strategy", "pet therapy", "therapy animal|therapy animals|animal assisted therapy");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a dental impression material", "zinc oxide eugenol paste", "zoe|zinc oxide eugenol");  // 2026-11-10 · 1 player · abbreviation
+crowdAlias("Name a disease linked to an HLA type", "celiac disease", "coeliac|coeliac disease");  // 2026-11-10 · 2 players · UK spelling
+crowdAlias("Name a disease you can catch from animals", "tularemia", "francisella|francisella tularensis|francesillia");  // 2026-11-10 · 1 player · causative organism
+crowdAlias("Name a disease you can catch from animals", "plague", "yersinia pestis|y pestis");  // 2026-11-10 · 1 player · causative organism
+crowdAlias("Name a finding on a peripheral blood smear", "poikilocytosis", "anisopoikilocytosis|poikilocytes");  // 2026-11-10 · 9 players · same finding
+crowdAlias("Name a finding on a peripheral blood smear", "teardrop cells", "tear drop poikilocytes|teardrop poikilocytes");  // 2026-11-10 · 1 player · dacrocytes
+crowdAlias("Name a finding on a peripheral blood smear", "malaria parasites", "schizonts|malarial schizonts");  // 2026-11-10 · 3 players · Plasmodium stage
+crowdAlias("Name a finding on a peripheral blood smear", "trypanosomes", "trypomastigotes");  // 2026-11-10 · 1 player · trypanosome stage
+crowdAlias("Name a finding on a peripheral blood smear", "hemoglobin c crystals", "hbc crystals|hb c crystals");  // 2026-11-10 · 3 players · abbreviation
+crowdAlias("Name a finding on a peripheral blood smear", "reticulocytosis", "reticulocytes");  // 2026-11-10 · 2 players · same
+crowdAlias("Name a food high in purines (avoid with gout)", "shellfish", "seafood");  // 2026-11-10 · 1 player · seafood
+crowdAlias("Name a genetic or molecular lab technique", "western blot", "western protein analysis");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a genetic or molecular lab technique", "immunohistochemistry", "immunostain|immunostaining");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a genetic or molecular lab technique", "plasmid prep", "plasmid amplification");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a healthcare profession", "speech therapist", "speech pathologist|speech language pathologist|slp");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a healthcare profession", "dietitian", "parenteral nutritionist");  // 2026-11-10 · 1 player · nutrition support dietitian
+crowdAlias("Name a healthcare profession", "hospital administrator", "hospital manager");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a lab stain or culture medium", "hematoxylin and eosin", "haemoxylin|hematoxylin|haematoxylin");  // 2026-11-10 · 1 player · H&E
+crowdAlias("Name a lab stain or culture medium", "acid fast stain", "ziehl neelsen|zeil neissen|zn stain");  // 2026-11-10 · 1 player · Ziehl-Neelsen
+crowdAlias("Name a law or equation of physiology", "henderson hasselbalch equation", "henderson hassenlbach");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name a law or equation of physiology", "poiseuille law", "pouiselle|poiseuille");  // 2026-11-10 · 2 players · misspelling
+crowdAlias("Name a lung disease", "alpha 1 antitrypsin deficiency", "a1 antitrypsin|a1at|aatd");  // 2026-11-10 · 2 players · abbreviation
+crowdAlias("Name a lung disease", "silicosis", "pneumonoultramicroscopicsilicovolcanoconiosis");  // 2026-11-10 · 1 player · dictionary term for silicosis
+crowdAlias("Name a medical imaging test", "fetal ultrasound", "morphology scan|anomaly scan|anatomy scan");  // 2026-11-10 · 1 player · 20-week scan
+crowdAlias("Name a neurological disorder", "b12 deficiency neuropathy", "b12 demyelination|subacute combined degeneration");  // 2026-11-10 · 1 player · B12 demyelination
+crowdAlias("Name a neurological disorder", "cidp", "chronic inflammatory demyelinating polyneuritis");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a neurological disorder", "lyme neuroborreliosis", "neuroborrealis|neuroborreliosis");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name a neurological disorder", "autoimmune encephalitis", "nmda encephalitis|anti nmda receptor encephalitis|anti nmda encephalitis");  // 2026-11-10 · 1 player · subtype
+crowdAlias("Name a neurological disorder", "serotonin syndrome", "serotonin storm");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a neurological disorder", "wernicke encephalopathy", "wernicke korsakoff syndrome|wernivkes and korkoffs");  // 2026-11-10 · 1 player · Wernicke-Korsakoff
+crowdAlias("Name a neurotransmitter", "2 ag", "2ag|2-arachidonoylglycerol");  // 2026-11-10 · 2 players · spelling
+crowdAlias("Name a neurotransmitter", "acetylcholine", "ach");  // 2026-11-10 · 3 players · abbreviation
+crowdAlias("Name a nursing action during a seizure", "time the seizure", "count seizure duration");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a nursing action during a seizure", "turn on side", "turn patient to the side");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a nursing job title or role", "icu nurse", "cvicu rn|cvicu nurse");  // 2026-11-10 · 1 player · ICU subtype
+crowdAlias("Name a nursing specialty", "nurse anesthetist", "anaesthesia|anesthesia|anaesthetic nursing");  // 2026-11-10 · 1 player · anesthesia nursing
+crowdAlias("Name a paraneoplastic syndrome", "anti hu", "anti-hu encephalitis|anti hu encephalitis");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a paraneoplastic syndrome", "erythrocytosis", "epo|epo secretion|ectopic epo");  // 2026-11-10 · 1 player · ectopic EPO
+crowdAlias("Name a parasite that infects humans", "ascaris lumbricoides", "lumbricoides");  // 2026-11-10 · 1 player · species name
+crowdAlias("Name a part of the brain", "cerebral aqueduct", "aquaduct|aqueduct");  // 2026-11-10 · 2 players · misspelling
+crowdAlias("Name a part of the brain", "amygdala", "basolateral amygdala");  // 2026-11-10 · 1 player · subregion
+crowdAlias("Name a patient safety or quality improvement term", "ssi", "postoperative infection|surgical site infection");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a postoperative complication", "blood clot", "vte|venous thromboembolism");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a preventive screening test", "aaa ultrasound", "triple a");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a preventive screening test", "cystic fibrosis screening", "cf|cf screening");  // 2026-11-10 · 1 player · abbreviation
+crowdAlias("Name a protein in the human body", "amyloid", "amyloid precursor protein|app");  // 2026-11-10 · 1 player · precursor of amyloid beta
+crowdAlias("Name a protein in the human body", "heat shock proteins", "hsbp90|hsp90|heat shock protein 90");  // 2026-11-10 · 1 player · HSP90
+crowdAlias("Name a radiolucent jaw lesion", "odontogenic keratocyst", "okc");  // 2026-11-10 · 1 player · abbreviation
+crowdAlias("Name a right of medication administration", "right education", "information|right information|right to information");  // 2026-11-10 · 1 player · right to information
+crowdAlias("Name a risk factor for osteoporosis", "menopause", "estrogen deficiency|oestrogen deficiency");  // 2026-11-10 · 1 player · same mechanism
+crowdAlias("Name a sign of aging", "muscle weakness", "weakness");  // 2026-11-10 · 4 players · same
+crowdAlias("Name a sign of aging", "vision changes", "vision loss");  // 2026-11-10 · 3 players · same
+crowdAlias("Name a sign of aging", "shuffling gait", "gait|gait changes");  // 2026-11-10 · 2 players · gait change
+crowdAlias("Name a sign of liver failure or cirrhosis", "confusion", "encephalopathy|hepatic encephalopathy");  // 2026-11-10 · 1 player · hepatic encephalopathy
+crowdAlias("Name a structure of the hand or wrist", "radiocarpal joint", "ellipsoid joint");  // 2026-11-10 · 1 player · wrist is ellipsoid joint
+crowdAlias("Name a surgical procedure", "bilateral salpingo oophorectomy", "salpingooopherectomy|salpingo oophorectomy|salpingo-oophorectomy");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name a surgical procedure", "carotid stenting", "transcarotid artery revascularization|tcar");  // 2026-11-10 · 1 player · TCAR stenting
+crowdAlias("Name a symptom of multiple sclerosis", "heat sensitivity", "heat intolerance");  // 2026-11-10 · 2 players · same
+crowdAlias("Name a task an RN can delegate to a nursing assistant", "bed bath", "bedside washing");  // 2026-11-10 · 1 player · same
+crowdAlias("Name a virus that infects humans", "colorado tick fever", "coltivirus");  // 2026-11-10 · 1 player · genus of CTF virus
+crowdAlias("Name a virus that infects humans", "herpes", "hhv");  // 2026-11-10 · 2 players · human herpesvirus
+crowdAlias("Name an artery", "iliac", "hypogastric|hypogastric artery");  // 2026-11-10 · 1 player · = internal iliac
+crowdAlias("Name an artery", "superior pancreaticoduodenal", "pancreatoduodebal|pancreaticoduodenal");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name an artery", "popliteal", "popetial");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name an artery", "short posterior ciliary", "posterior cilliary|posterior ciliary");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name an autoantibody", "anti jo 1", "anti-jo|anti jo");  // 2026-11-10 · 1 player · same
+crowdAlias("Name an autoantibody", "zinc transporter 8", "zinc transporter antibody|znt8");  // 2026-11-10 · 1 player · anti-ZnT8
+crowdAlias("Name an autoantibody", "anti adamts13", "vwf metalloproteinase");  // 2026-11-10 · 1 player · anti-ADAMTS13 target
+crowdAlias("Name an endocrine disorder", "diabetes insipidus", "water diabetes");  // 2026-11-10 · 1 player · plain English
+crowdAlias("Name an eye disease or condition", "posterior vitreous detachment", "vitreous detachment");  // 2026-11-10 · 1 player · same
+crowdAlias("Name an eye disease or condition", "behcet uveitis", "bechets|behcets");  // 2026-11-10 · 1 player · misspelling
+crowdAlias("Name an infection a traveler could bring home", "enterotoxigenic e coli", "e coli");  // 2026-11-10 · 1 player · ETEC
+crowdAlias("Name something found in a hospital room", "patient lift", "hoyer lift");  // 2026-11-10 · 1 player · brand

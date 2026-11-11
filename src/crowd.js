@@ -4032,3 +4032,44 @@ crowdAlias("Name an eye disease or condition", "posterior vitreous detachment", 
 crowdAlias("Name an eye disease or condition", "behcet uveitis", "bechets|behcets");  // 2026-11-10 · 1 player · misspelling
 crowdAlias("Name an infection a traveler could bring home", "enterotoxigenic e coli", "e coli");  // 2026-11-10 · 1 player · ETEC
 crowdAlias("Name something found in a hospital room", "patient lift", "hoyer lift");  // 2026-11-10 · 1 player · brand
+
+// ===== 2026-11-11 nightly review =====
+crowd("Name a cause of infertility", 47, "hysterectomy");  // 2026-11-11 · 7 players · surgical sterility (like vasectomy)
+crowdAlias("Name a cause of infertility", "anorexia nervosa", "annorexia|anorexia");  // 2026-11-11 · 1 player · misspelling
+crowdAlias("Name a cause of infertility", "smoking", "nicotine");  // 2026-11-11 · 1 player · tobacco smoking
+crowdAlias("Name a cause of infertility", "anabolic steroids", "steroids|sterioids");  // 2026-11-11 · 1 player · lay term/misspelling
+crowd("Name a cause of muscle weakness", 59, "compartment syndrome");  // 2026-11-11 · 4 players · weakness/paralysis of compartment muscles
+crowd("Name a cause of muscle weakness", 65, "acute disseminated encephalomyelitis|adem|acute disseminated encephalomyopathy");  // 2026-11-11 · 3 players · CNS demyelination with motor deficits
+crowd("Name a cause of muscle weakness", 82, "anorexia nervosa|anorexia");  // 2026-11-11 · 1 player · proximal myopathy, electrolyte loss
+crowd("Name a cause of muscle weakness", 82, "mixed connective tissue disease|mctd");  // 2026-11-11 · 1 player · inflammatory myositis is a feature
+crowd("Name a cause of muscle weakness", 82, "pancoast tumor|pancoast tumour|superior sulcus tumor");  // 2026-11-11 · 1 player · C8-T1 plexus invasion, hand weakness
+crowdAlias("Name a cause of muscle weakness", "malnutrition", "starvation syndrome|starvation");  // 2026-11-11 · 1 player · same thing
+crowdAlias("Name a cause of muscle weakness", "spinal cord infarction", "spinal infarct|spinal cord infarct");  // 2026-11-11 · 2 players · same
+crowdAlias("Name a law or equation of physiology", "ohm law", "ohm|ohms law|ohm's law");  // 2026-11-11 · 5 players · short form
+crowdAlias("Name a law or equation of physiology", "le chatelier principle", "le chatlier|le chatelier");  // 2026-11-11 · 2 players · misspelling
+crowdAlias("Name a law or equation of physiology", "bernoulli principle", "bernouli|bernoulli");  // 2026-11-11 · 2 players · misspelling
+crowd("Name a cause of bleeding or easy bruising", 82, "anticoagulants|anticoagulant|blood thinner|blood thinners");  // 2026-11-11 · 1 player · drug class (like DOACs)
+crowdAlias("Name a cause of bleeding or easy bruising", "senile purpura", "age|old age|aging");  // 2026-11-11 · 2 players · age-related skin fragility
+crowdAlias("Name something that weakens the immune system", "tuberculosis", "tb");  // 2026-11-11 · 3 players · abbreviation
+crowdAlias("Name something that weakens the immune system", "organ transplant drugs", "transplant|organ transplant");  // 2026-11-11 · 3 players · via immunosuppression
+crowdAlias("Name something that weakens the immune system", "radiation", "radiotherapy");  // 2026-11-11 · 2 players · same
+crowdAlias("Name something that weakens the immune system", "influenza", "flu");  // 2026-11-11 · 2 players · same
+crowdAlias("Name something that weakens the immune system", "aging", "age|old age");  // 2026-11-11 · 2 players · immunosenescence
+crowdAlias("Name something that raises blood pressure", "epinephrine", "adrenaline");  // 2026-11-11 · 3 players · same drug
+crowdAlias("Name a structure of the hand or wrist", "flexor digitorum profundus", "digitorium profundus");  // 2026-11-11 · 1 player · misspelling
+crowdAlias("Name a structure of the hand or wrist", "flexor retinaculum", "retinaculum");  // 2026-11-11 · 1 player · short form
+crowdAlias("Name a structure of the hand or wrist", "scapholunate ligament", "schapolunate|scapholunate");  // 2026-11-11 · 1 player · misspelling
+crowdAlias("Name a structure of the hand or wrist", "distal interphalangeal joints", "dip|dipj");  // 2026-11-11 · 2 players · abbreviation
+crowdAlias("Name a sexually transmitted infection", "chancroid", "ducreyi|haemophilus ducreyi|h ducreyi");  // 2026-11-11 · 3 players · causative organism
+crowd("Name a healthcare system or insurance term", 59, "hse|health service executive");  // 2026-11-11 · 4 players · Ireland's public health service
+crowd("Name a healthcare system or insurance term", 72, "quality improvement|qi");  // 2026-11-11 · 2 players · core health-system term
+crowd("Name a healthcare system or insurance term", 72, "nhs trust|trust|foundation trust");  // 2026-11-11 · 2 players · NHS organisational unit
+crowd("Name a healthcare system or insurance term", 82, "beneficiary|beneficiaries");  // 2026-11-11 · 1 player · insured person (e.g. Medicare beneficiary)
+crowdAlias("Name a healthcare system or insurance term", "primary care provider", "gp|general practitioner");  // 2026-11-11 · 2 players · UK term for PCP
+crowdAlias("Name a symptom of PTSD", "aggression", "aggressive behaviors|aggressive behavior|aggressive behaviour");  // 2026-11-11 · 1 player · same
+crowdAlias("Name a nonmedication comfort measure for pain", "tens unit", "electric stimulation|electrical stimulation|electrical nerve stimulation");  // 2026-11-11 · 1 player · same
+crowd("Name a postoperative complication", 85, "vocal cord injury|vocal cord trauma|laryngeal injury|vocal cord trauma post extubation");  // 2026-11-11 · 1 player · intubation injury
+crowdAlias("Name an infection a traveler could bring home", "schistosomiasis", "schistosoma japonicum|schistosomas japonia|s japonicum");  // 2026-11-11 · 1 player · species
+crowdAlias("Name a genetic disorder", "bruton agammaglobulinemia", "xla|x linked agammaglobulinemia");  // 2026-11-11 · 2 players · same disease
+crowdAlias("Name a blood test", "cmv serology", "cmv|cytomegalovirus");  // 2026-11-11 · 2 players · short form
+crowdAlias("Name a component or cell of the blood", "b cells", "mature b cells");  // 2026-11-11 · 1 player · same

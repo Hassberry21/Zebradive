@@ -4073,3 +4073,54 @@ crowdAlias("Name an infection a traveler could bring home", "schistosomiasis", "
 crowdAlias("Name a genetic disorder", "bruton agammaglobulinemia", "xla|x linked agammaglobulinemia");  // 2026-11-11 · 2 players · same disease
 crowdAlias("Name a blood test", "cmv serology", "cmv|cytomegalovirus");  // 2026-11-11 · 2 players · short form
 crowdAlias("Name a component or cell of the blood", "b cells", "mature b cells");  // 2026-11-11 · 1 player · same
+
+// ===== 2026-11-12 nightly review =====
+crowdAlias("Name a cause of abnormal vaginal bleeding", "spontaneous abortion", "abortion");  // 2026-11-12 · 4 players · same entity
+crowdAlias("Name a cause of abnormal vaginal bleeding", "cervical ectropion", "ectropion");  // 2026-11-12 · 4 players · same entity
+crowdAlias("Name a cause of abnormal vaginal bleeding", "endometrial polyps", "polyps|polyp");  // 2026-11-12 · 5 players · same entity
+crowdAlias("Name a cause of abnormal vaginal bleeding", "hemophilia carrier", "hemophilia|hemophila");  // 2026-11-12 · 1 player · same entity
+crowd("Name a cause of abnormal vaginal bleeding", 66, "pregnancy|pregnancy related bleeding");  // 2026-11-12 · 3 players · first thing excluded in AUB workup
+crowd("Name a cause of abnormal vaginal bleeding", 73, "sexually transmitted infection|sti|std|sexually transmitted disease");  // 2026-11-12 · 2 players · cervicitis-related bleeding
+crowdAlias("Name a cause of erectile dysfunction", "ssris", "fluoxetine|prozac");  // 2026-11-12 · 4 players · SSRI
+crowdAlias("Name a cause of erectile dysfunction", "depression", "mdd|major depressive disorder");  // 2026-11-12 · 1 player · same entity
+crowdAlias("Name a cause of erectile dysfunction", "opioids", "tramadol");  // 2026-11-12 · 1 player · opioid
+crowdAlias("Name a cause of erectile dysfunction", "atherosclerosis", "cardiovascular disease|cvd");  // 2026-11-12 · 1 player · vascular ED
+crowd("Name a cause of erectile dysfunction", 83, "autonomic neuropathy|diabetic autonomic neuropathy");  // 2026-11-12 · 1 player · neurogenic ED
+crowd("Name a cause of erectile dysfunction", 67, "medications|medication|drug induced");  // 2026-11-12 · 3 players · drug-induced ED
+crowdAlias("Name something that raises blood pressure", "salt", "sodium");  // 2026-11-12 · 5 players · same thing
+crowdAlias("Name something that raises blood pressure", "exercise", "workout|running");  // 2026-11-12 · 3 players · same thing
+crowdAlias("Name something that raises blood pressure", "hyperaldosteronism", "aldosterone");  // 2026-11-12 · 5 players · aldosterone excess
+crowdAlias("Name something that raises blood pressure", "cushing syndrome", "cortisol");  // 2026-11-12 · 4 players · cortisol excess
+crowdAlias("Name something that raises blood pressure", "vasopressin", "adh|antidiuretic hormone");  // 2026-11-12 · 2 players · same hormone
+crowdAlias("Name something that raises blood pressure", "hyperthyroidism", "graves|graves disease");  // 2026-11-12 · 2 players · cause of hyperthyroidism
+crowdAlias("Name something that raises blood pressure", "kidney disease", "ckd|chronic kidney disease");  // 2026-11-12 · 2 players · same entity
+crowd("Name something that raises blood pressure", 22, "renin angiotensin aldosterone system|raas|angiotensin|angiotensin ii|renin");  // 2026-11-12 · 7 players · core BP regulation
+crowd("Name something that raises blood pressure", 26, "medications|medication|drug induced");  // 2026-11-12 · 6 players · drug-induced hypertension
+crowd("Name something that raises blood pressure", 30, "stroke|acute stroke");  // 2026-11-12 · 5 players · acute hypertensive response in stroke
+crowd("Name something that raises blood pressure", 65, "pyridostigmine|mestinon");  // 2026-11-12 · 1 player · used for neurogenic orthostatic hypotension
+crowdAlias("Name a movement disorder", "drug induced parkinsonism", "pseudoparkinsonism");  // 2026-11-12 · 1 player · same entity
+crowd("Name a section or element of a history and physical (H&P)", 66, "legal history|forensic history");  // 2026-11-12 · 3 players · psychiatric H&P element
+crowdAlias("Name a foramen, canal or opening in the body", "foramen spinosum", "spinosum");  // 2026-11-12 · 3 players · same structure
+crowdAlias("Name a foramen, canal or opening in the body", "external os", "cervical os");  // 2026-11-12 · 1 player · os of the cervix
+crowd("Name a foramen, canal or opening in the body", 83, "saphenous opening|saphenous hiatus|fossa ovalis of the thigh");  // 2026-11-12 · 1 player · opening in fascia lata
+crowdAlias("Name an ion channel, pump or transporter", "calcium-activated potassium channel", "bk channel|bigk|big k|maxi k channel");  // 2026-11-12 · 1 player · BK channel
+crowdAlias("Name an ion channel, pump or transporter", "hcn channel", "funny channel|funny na|inward funny|funny current");  // 2026-11-12 · 3 players · If channel
+crowdAlias("Name an ion channel, pump or transporter", "nkcc2", "nak2cl|na/k/cl|na k 2cl");  // 2026-11-12 · 3 players · Na-K-2Cl cotransporter
+crowdAlias("Name an ion channel, pump or transporter", "clc chloride channel", "chloride channel");  // 2026-11-12 · 1 player · generic chloride channel
+crowdAlias("Name an ion channel, pump or transporter", "cftr", "cystic fibrosis transport receptor");  // 2026-11-12 · 1 player · misnamed CFTR
+crowdAlias("Name a cause of a neck mass", "thyroglossal duct cyst", "thyroglossal cyst");  // 2026-11-12 · 1 player · same entity
+crowdAlias("Name a cause of a neck mass", "squamous cell carcinoma of the head and neck", "metastatic scc|metastatic squamous cell carcinoma");  // 2026-11-12 · 2 players · same entity
+crowdAlias("Name a cause of chronic cough", "lung cancer", "adenocarcinoma|lung adenocarcinoma");  // 2026-11-12 · 2 players · lung cancer type
+crowdAlias("Name a medical imaging test", "transvaginal ultrasound", "trans-vaginal us|transvaginal us|tvus");  // 2026-11-12 · 1 player · abbreviation
+crowdAlias("Name a preventive screening test", "low dose ct", "lung ct|lung cancer screening ct");  // 2026-11-12 · 2 players · same test
+crowdAlias("Name a common reason for a primary care visit", "birth control", "mirena coil|iud insertion|mirena");  // 2026-11-12 · 1 player · contraception visit
+crowdAlias("Name a cause of heart failure", "tachycardia induced cardiomyopathy", "rate related|rate related cardiomyopathy");  // 2026-11-12 · 1 player · same entity
+crowdAlias("Name a drug that causes tachycardia", "vilanterol", "anoro|anoro ellipta");  // 2026-11-12 · 1 player · brand containing vilanterol
+crowdAlias("Name a healthcare profession", "tobacco treatment specialist", "smoking cessation counselor");  // 2026-11-12 · 1 player · same role
+crowdAlias("Name a medical ethics or legal concept", "power of attorney", "poa");  // 2026-11-12 · 1 player · abbreviation
+crowd("Name a genetic disorder", 65, "refsum disease|refsum");  // 2026-11-12 · 3 players · AR peroxisomal disorder (PHYH)
+crowd("Name a genetics or inheritance term", 83, "haploid");  // 2026-11-12 · 1 player · single chromosome set
+crowd("Name a heart condition", 82, "endocardial fibroelastosis");  // 2026-11-12 · 1 player · infantile cardiomyopathy
+crowd("Name a medical ethics or legal concept", 68, "captain of the ship doctrine|captain of the ship");  // 2026-11-12 · 1 player · surgeon vicarious liability doctrine
+crowd("Name a prodrug", 65, "irinotecan");  // 2026-11-12 · 2 players · converted to SN-38
+crowd("Name a blood test", 84, "sflt-1/plgf ratio|soluble flt-1|sflt-1|sflt1 plgf ratio");  // 2026-11-12 · 1 player · FDA-cleared preeclampsia test

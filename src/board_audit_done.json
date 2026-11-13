@@ -690,6 +690,12 @@
   "Name a biosimilar (a copy of a biologic drug)": "2026-11-13",
   "Name an anticholinergic drug": "2026-11-13",
   "Name a pharmacy calculation or formula": "2026-11-13",
-  "Name a drug that depletes a vitamin or mineral": "2026-11-13"
+  "Name a drug that depletes a vitamin or mineral": "2026-11-13",
+  "Name a drug used in chronic kidney disease or dialysis": "2026-11-13",
+  "Name a drug dosed in units": "2026-11-13",
+  "Name a drug-induced syndrome or named drug reaction (like red man syndrome)": "2026-11-13",
+  "Name a drug that comes as a sublingual, buccal or orally disintegrating form": "2026-11-13",
+  "Name a drug given rectally or vaginally": "2026-11-13",
+  "Name a drug with a pharmacogenomic test or biomarker": "2026-11-13"
  }
 }

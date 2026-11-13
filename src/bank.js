@@ -65184,6 +65184,27 @@ jimsonweed|datura
 tricyclic antidepressants|tcas|tricyclics
 first-generation antihistamines|sedating antihistamines
 antimuscarinics|antimuscarinic drugs
+pyrilamine|mepyramine
+cyclizine|marezine
+phenindamine|nolahist
+tridihexethyl|pathilon
+oxyphencyclimine
+ethopropazine|parsidol
+mesoridazine|serentil
+promazine|sparine
+trifluoperazine|stelazine
+amoxapine|asendin
+glycopyrrolate formoterol|bevespi
+umeclidinium vilanterol|anoro
+tiotropium olodaterol|stiolto
+aclidinium formoterol|duaklir
+fluticasone umeclidinium vilanterol|trelegy
+budesonide glycopyrrolate formoterol|breztri
+xanomeline trospium|cobenfy
+doxylamine pyridoxine|diclegis|bonjesta
+tylenol pm|advil pm|aleve pm|zzzquil
+nyquil
+difenoxin atropine|motofen
 `, "2026-11-15");
 
 P("Name a pharmacy calculation or formula","pharm","",`
@@ -65493,7 +65514,7 @@ heparin|heparin flush|unfractionated heparin|ufh
 insulin glargine|lantus|basaglar|semglee|toujeo|rezvoglar
 insulin lispro|humalog|admelog|lyumjev
 insulin aspart|novolog|fiasp|novorapid
-regular insulin|humulin r|novolin r|myxredlin
+regular insulin|humulin r|novolin r|myxredlin|humulin r u-500|u-500 insulin
 nph insulin|humulin n|novolin n|isophane insulin
 insulin detemir|levemir
 insulin degludec|tresiba
@@ -65524,8 +65545,8 @@ dalteparin|fragmin
 tinzaparin|innohep
 pancrelipase|creon|zenpep|pancreaze|viokace|pertzye
 hyaluronidase|hylenex|amphadase|vitrase
-factor viii|antihemophilic factor|advate|kogenate|eloctate|recombinate
-factor ix|benefix|alprolix|idelvion|alphanine
+factor viii|antihemophilic factor|advate|kogenate|eloctate|recombinate|altuviiio|xyntha|novoeight|nuwiq|afstyla|adynovate|jivi|esperoct|hemofil m|koate
+factor ix|benefix|alprolix|idelvion|alphanine|rixubis|ixinity|rebinyn
 prothrombin complex concentrate|kcentra|pcc|balfaxar
 von willebrand factor|humate-p|vonvendi|wilate|alphanate
 antithrombin|thrombate|atryn
@@ -65562,6 +65583,21 @@ insulin degludec liraglutide|xultophy
 insulin glargine lixisenatide|soliqua
 insulin icodec|awiqli
 allergen extracts|allergy shots|allergen immunotherapy
+lactase|lactaid
+alpha-galactosidase|beano
+anistreplase|eminase
+factor x|coagadex
+protein c concentrate|ceprotin
+antihemophilic factor porcine|obizur
+lutropin alfa|luveris
+aprotinin|trasylol
+calaspargase|asparlas
+interferon alfa-n3|alferon n
+pegademase|adagen
+danaparoid|orgaran
+enoxaparin|lovenox|clexane
+nadroparin|fraxiparine
+bemiparin|zibor
 `, "2026-11-15");
 
 P("Name a drug-induced syndrome or named drug reaction (like red man syndrome)","pharm","",`
@@ -65723,6 +65759,22 @@ meloxicam odt|qmiiz
 tramadol odt|rybix
 hydrocortisone buccal|hydrocortisone mucoadhesive
 melatonin sublingual|melatonin dissolvable
+zyrtec dissolve tabs|cetirizine odt
+fexofenadine odt|allegra odt
+diphenhydramine strips|benadryl quick dissolve strips
+phentermine odt|suprenza
+ergotamine sublingual|ergomar
+acyclovir buccal|sitavig
+clotrimazole troche|mycelex troche
+benzocaine lozenge|cepacol lozenge
+menthol lozenge|cough drops|halls
+zinc lozenge|cold-eeze
+simethicone strips|gas-x strips
+acetaminophen meltaways|tylenol meltaways
+nabiximols|sativex
+fentanyl sublingual spray|subsys
+misoprostol buccal|misoprostol sublingual
+ondansetron sublingual
 `, "2026-11-15");
 
 P("Name a drug given rectally or vaginally","pharm","",`
@@ -65776,7 +65828,7 @@ lidocaine rectal|lidocaine hydrocortisone rectal|anamantle
 vancomycin enema|vancomycin retention enema
 sodium polystyrene sulfonate enema|kayexalate enema
 lactulose enema
-fecal microbiota|rebyota
+fecal microbiota|rebyota|fecal transplant|fmt
 artesunate rectal|rectal artesunate
 ergotamine caffeine suppository|cafergot suppository
 carbamazepine rectal
@@ -65787,6 +65839,28 @@ dequalinium vaginal|fluomizin
 estriol vaginal|estriol cream
 povidone-iodine vaginal|betadine douche
 lactobacillus vaginal|vaginal probiotic
+diclofenac suppository|voltaren suppository
+prednisolone enema|predfoam|predsol enema
+budesonide enema|entocort enema
+diltiazem rectal cream|diltiazem ointment
+nifedipine rectal ointment|nifedipine cream
+milk and molasses enema
+soap suds enema
+barium enema|barium sulfate
+gastrografin enema|diatrizoate enema
+paraldehyde rectal
+chloral hydrate suppository
+methohexital rectal
+vaginal ph gel|rephresh|lactic acid gel
+hyaluronic acid vaginal|revaree
+sulfanilamide vaginal cream|avc cream
+fluorouracil vaginal|efudex vaginal
+contraceptive sponge|today sponge
+vaginal moisturizer|replens
+diazepam vaginal suppository
+gentian violet vaginal|gentian violet
+amphotericin b vaginal
+flucytosine vaginal cream
 `, "2026-11-15");
 
 P("Name a drug with a pharmacogenomic test or biomarker","pharm","",`

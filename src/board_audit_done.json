@@ -710,6 +710,9 @@
   "Name a pharmacy insurance or billing term": "2026-11-13",
   "Name an implant surgery or osseointegration term": "2026-11-13",
   "Name a dental degree, exam, license or credential": "2026-11-13",
-  "Name a treatment for a TMJ disorder": "2026-11-13"
+  "Name a treatment for a TMJ disorder": "2026-11-13",
+  "Name a drug that blocks a receptor (receptor antagonist)": "2026-11-13",
+  "Name a drug that activates a receptor (receptor agonist)": "2026-11-13",
+  "Name a drug used in veterinary medicine (pets or livestock)": "2026-11-13"
  }
 }

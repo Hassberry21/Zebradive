@@ -67701,6 +67701,613 @@ shortwave diathermy|diathermy
 adjusting a high filling|removing a high restoration|adjusting the bite
 `, "2026-11-15");
 
+/* ---- NEW STANDARD DAILY PROMPTS: PHARMACY (batch 2026-11-13 part 4) ---- */
+P("Name a drug that blocks a receptor (receptor antagonist)","pharm","",`
+metoprolol|lopressor|toprol xl
+losartan|cozaar
+naloxone|narcan
+ondansetron|zofran
+diphenhydramine|benadryl
+haloperidol|haldol
+propranolol|inderal
+famotidine|pepcid
+tamsulosin|flomax
+spironolactone|aldactone
+atenolol|tenormin
+carvedilol|coreg
+valsartan|diovan
+cetirizine|zyrtec
+loratadine|claritin
+fexofenadine|allegra
+montelukast|singulair
+clopidogrel|plavix
+naltrexone|vivitrol|revia
+risperidone|risperdal
+olanzapine|zyprexa
+quetiapine|seroquel
+metoclopramide|reglan
+atropine
+ipratropium|atrovent
+tiotropium|spiriva
+oxybutynin|ditropan
+memantine|namenda
+ketamine|ketalar
+flumazenil|romazicon
+rocuronium|zemuron
+vecuronium|norcuron
+cisatracurium|nimbex
+atracurium|tracrium
+pancuronium|pavulon
+beta blockers
+arbs|angiotensin receptor blockers
+alpha blockers
+antihistamines|h1 blockers|h2 blockers
+antipsychotics|dopamine antagonists
+bisoprolol|zebeta
+nebivolol|bystolic
+nadolol|corgard
+labetalol|trandate
+esmolol|brevibloc
+sotalol|betapace
+timolol|timoptic
+pindolol|visken
+acebutolol|sectral
+betaxolol|kerlone|betoptic
+irbesartan|avapro
+olmesartan|benicar
+telmisartan|micardis
+candesartan|atacand
+azilsartan|edarbi
+eprosartan|teveten
+prazosin|minipress
+terazosin|hytrin
+doxazosin|cardura
+alfuzosin|uroxatral
+silodosin|rapaflo
+phenoxybenzamine|dibenzyline
+phentolamine|regitine|oraverse
+eplerenone|inspra
+finerenone|kerendia
+hydroxyzine|vistaril|atarax
+levocetirizine|xyzal
+desloratadine|clarinex
+chlorpheniramine|chlor-trimeton
+meclizine|antivert
+promethazine|phenergan
+cyproheptadine|periactin
+azelastine|astelin|astepro
+olopatadine|pataday|patanol
+ketotifen|zaditor|alaway
+cimetidine|tagamet
+nizatidine|axid
+ranitidine|zantac
+chlorpromazine|thorazine
+fluphenazine|prolixin
+perphenazine|trilafon
+paliperidone|invega
+ziprasidone|geodon
+lurasidone|latuda
+asenapine|saphris
+iloperidone|fanapt
+clozapine|clozaril
+lumateperone|caplyta
+pimavanserin|nuplazid
+prochlorperazine|compazine
+droperidol|inapsine
+domperidone|motilium
+trimethobenzamide|tigan
+amisulpride|barhemsys
+granisetron|kytril|sustol
+palonosetron|aloxi
+dolasetron|anzemet
+alosetron|lotronex
+aprepitant|emend
+fosaprepitant
+rolapitant|varubi
+netupitant|akynzeo
+nalmefene|opvee|zurnai
+methylnaltrexone|relistor
+naloxegol|movantik
+naldemedine|symproic
+alvimopan|entereg
+samidorphan|lybalvi
+zafirlukast|accolate
+rimegepant|nurtec
+ubrogepant|ubrelvy
+atogepant|qulipta
+zavegepant|zavzpret
+erenumab|aimovig
+suvorexant|belsomra
+lemborexant|dayvigo
+daridorexant|quviviq
+prasugrel|effient
+ticagrelor|brilinta
+cangrelor|kengreal
+ticlopidine|ticlid
+abciximab|reopro
+eptifibatide|integrilin
+tirofiban|aggrastat
+vorapaxar|zontivity
+bosentan|tracleer
+ambrisentan|letairis
+macitentan|opsumit
+aprocitentan|tryvio
+sparsentan|filspari
+atrasentan|vanrafia
+tolvaptan|samsca|jynarque
+conivaptan|vaprisol
+atosiban|tractocile
+degarelix|firmagon
+relugolix|orgovyx|myfembree
+elagolix|orilissa|oriahnn
+cetrorelix|cetrotide
+ganirelix
+flutamide|eulexin
+bicalutamide|casodex
+nilutamide|nilandron
+enzalutamide|xtandi
+apalutamide|erleada
+darolutamide|nubeqa
+fulvestrant|faslodex
+elacestrant|orserdu
+mifepristone|mifeprex|korlym
+ulipristal|ella
+esketamine|spravato
+dextromethorphan|delsym
+amantadine|symmetrel
+phencyclidine|pcp
+perampanel|fycompa
+anakinra|kineret
+tocilizumab|actemra
+sarilumab|kevzara
+dupilumab|dupixent
+benralizumab|fasenra
+basiliximab|simulect
+brodalumab|siliq
+anifrolumab|saphnelo
+cetuximab|erbitux
+panitumumab|vectibix
+trastuzumab|herceptin
+ramucirumab|cyramza
+nivolumab|opdivo
+pembrolizumab|keytruda
+cemiplimab|libtayo
+dostarlimab|jemperli
+ipilimumab|yervoy
+natalizumab|tysabri
+vedolizumab|entyvio
+maraviroc|selzentry
+plerixafor|mozobil
+motixafortide|aphexda
+mogamulizumab|poteligeo
+efgartigimod|vyvgart
+rozanolixizumab|rystiggo
+nipocalimab|imaavy
+pegvisomant|somavert
+icatibant|firazyr
+avacopan|tavneos
+trazodone|desyrel
+nefazodone
+mirtazapine|remeron
+yohimbine|yocon
+atipamezole|antisedan
+caffeine
+theophylline|theo-24
+istradefylline|nourianz
+pitolisant|wakix
+scopolamine|transderm scop
+glycopyrrolate|robinul
+benztropine|cogentin
+trihexyphenidyl|artane
+solifenacin|vesicare
+tolterodine|detrol
+dicyclomine|bentyl
+hyoscyamine|levsin
+tropicamide|mydriacyl
+cyclopentolate|cyclogyl
+umeclidinium|incruse
+aclidinium|tudorza
+revefenacin|yupelri
+amitriptyline|elavil
+doxepin|silenor|sinequan
+ketanserin
+rimonabant|acomplia
+`, "2026-11-15");
+
+P("Name a drug that activates a receptor (receptor agonist)","pharm","",`
+albuterol|salbutamol|proair|ventolin|proventil
+morphine|ms contin
+oxycodone|oxycontin|roxicodone
+fentanyl|duragesic|sublimaze
+hydrocodone|norco|vicodin
+semaglutide|ozempic|wegovy|rybelsus
+sumatriptan|imitrex
+epinephrine|adrenaline|epipen
+norepinephrine|levophed|noradrenaline
+phenylephrine|neo-synephrine|sudafed pe
+clonidine|catapres
+insulin
+levothyroxine|synthroid|levoxyl|euthyrox
+prednisone|deltasone
+dexamethasone|decadron
+pramipexole|mirapex
+ropinirole|requip
+opioids|opioid agonists
+beta agonists|beta-2 agonists
+dopamine agonists
+glp-1 agonists|glp-1 receptor agonists
+triptans
+hydromorphone|dilaudid
+methadone|dolophine
+codeine
+tramadol|ultram
+tapentadol|nucynta
+meperidine|demerol|pethidine
+oxymorphone|opana
+buprenorphine|subutex|suboxone|butrans
+butorphanol|stadol
+nalbuphine|nubain
+pentazocine|talwin
+levorphanol
+remifentanil|ultiva
+sufentanil|sufenta|dsuvia
+alfentanil|alfenta
+heroin|diacetylmorphine
+loperamide|imodium
+diphenoxylate|lomotil
+eluxadoline|viberzi
+difelikefalin|korsuva
+nalfurafine|remitch
+levalbuterol|xopenex
+salmeterol|serevent
+formoterol|foradil|perforomist
+arformoterol|brovana
+vilanterol
+olodaterol|striverdi
+indacaterol|arcapta
+terbutaline|brethine
+metaproterenol
+isoproterenol|isuprel
+dobutamine|dobutrex
+dopamine|intropin
+ephedrine|akovaz
+pseudoephedrine|sudafed
+oxymetazoline|afrin|upneeq|rhofade
+tetrahydrozoline|visine
+naphazoline|naphcon
+brimonidine|alphagan|lumify|mirvaso
+apraclonidine|iopidine
+midodrine|proamatine
+droxidopa|northera
+guanfacine|intuniv|tenex
+methyldopa|aldomet
+tizanidine|zanaflex
+dexmedetomidine|precedex|igalmi
+lofexidine|lucemyra
+mirabegron|myrbetriq
+vibegron|gemtesa
+rizatriptan|maxalt
+zolmitriptan|zomig
+eletriptan|relpax
+naratriptan|amerge
+almotriptan|axert
+frovatriptan|frova
+lasmiditan|reyvow
+ergotamine|cafergot
+dihydroergotamine|dhe|migranal|trudhesa
+buspirone|buspar
+flibanserin|addyi
+lorcaserin|belviq
+psilocybin
+lsd|lysergic acid diethylamide
+rotigotine|neupro
+apomorphine|apokyn|kynmobi
+bromocriptine|parlodel|cycloset
+cabergoline|dostinex
+fenoldopam|corlopam
+liraglutide|victoza|saxenda
+dulaglutide|trulicity
+exenatide|byetta|bydureon
+lixisenatide|adlyxin
+tirzepatide|mounjaro|zepbound
+pramlintide|symlin
+teduglutide|gattex
+glucagon|gvoke|baqsimi
+setmelanotide|imcivree
+bremelanotide|vyleesi
+afamelanotide|scenesse
+liothyronine|cytomel
+hydrocortisone|cortef|solu-cortef
+methylprednisolone|medrol|solu-medrol
+prednisolone|orapred
+budesonide|pulmicort|entocort
+fluticasone|flonase|flovent
+beclomethasone|qvar
+triamcinolone|kenalog|nasacort
+fludrocortisone|florinef
+estradiol|estrace|vivelle
+conjugated estrogens|premarin
+ethinyl estradiol
+progesterone|prometrium
+norethindrone|aygestin
+levonorgestrel|plan b|mirena
+medroxyprogesterone|depo-provera|provera
+drospirenone|yaz|slynd
+testosterone|androgel|depo-testosterone
+oxandrolone|oxandrin
+nandrolone|deca-durabolin
+calcitriol|rocaltrol
+paricalcitol|zemplar
+doxercalciferol|hectorol
+calcipotriene|dovonex|calcipotriol
+tretinoin|retin-a
+adapalene|differin
+tazarotene|tazorac|arazlo
+trifarotene|aklief
+acitretin|soriatane
+bexarotene|targretin
+pioglitazone|actos
+rosiglitazone|avandia
+fenofibrate|tricor|trilipix
+gemfibrozil|lopid
+seladelpar|livdelzi
+elafibranor|iqirvo
+obeticholic acid|ocaliva
+resmetirom|rezdiffra
+leuprolide|lupron|eligard
+goserelin|zoladex
+triptorelin|trelstar|triptodur
+histrelin|supprelin|vantas
+nafarelin|synarel
+octreotide|sandostatin
+lanreotide|somatuline
+pasireotide|signifor
+vasopressin|vasostrict
+desmopressin|ddavp|noctiva
+terlipressin|terlivaz
+oxytocin|pitocin
+carbetocin|duratocin
+calcitonin|miacalcin
+teriparatide|forteo
+abaloparatide|tymlos
+palopegteriparatide|yorvipath
+somatropin|growth hormone|genotropin|norditropin|humatrope
+mecasermin|increlex
+thyrotropin alfa|thyrogen
+corticotropin|acthar gel
+cosyntropin|cortrosyn
+chorionic gonadotropin|hcg|pregnyl|novarel|ovidrel
+follitropin|gonal-f|follistim
+menotropins|menopur
+epoetin alfa|epogen|procrit
+darbepoetin|aranesp
+filgrastim|neupogen
+pegfilgrastim|neulasta
+sargramostim|leukine
+romiplostim|nplate
+eltrombopag|promacta|alvaiz
+avatrombopag|doptelet
+lusutrombopag|mulpleta
+latanoprost|xalatan
+bimatoprost|lumigan|latisse
+travoprost|travatan
+tafluprost|zioptan
+latanoprostene bunod|vyzulta
+omidenepag|omlonti
+misoprostol|cytotec
+alprostadil|caverject|edex|muse|prostin vr
+dinoprostone|cervidil|prepidil
+carboprost|hemabate
+epoprostenol|flolan|veletri
+treprostinil|remodulin|tyvaso|orenitram
+iloprost|ventavis
+selexipag|uptravi
+ramelteon|rozerem
+tasimelteon|hetlioz
+melatonin
+bethanechol|urecholine
+pilocarpine|salagen|isopto carpine|vuity
+cevimeline|evoxac
+carbachol|miostat
+methacholine|provocholine
+acetylcholine ophthalmic|miochol
+nicotine|nicorette|nicoderm
+varenicline|chantix|tyrvaya
+cytisine|cytisinicline
+succinylcholine|anectine|quelicin
+baclofen|lioresal|ozobax
+sodium oxybate|xyrem|xywav|lumryz
+adenosine|adenocard|adenoscan
+regadenoson|lexiscan
+dronabinol|marinol
+nabilone|cesamet
+betahistine|serc
+imiquimod|aldara|zyclara
+capsaicin|qutenza|zostrix
+menthol
+`, "2026-11-15");
+
+P("Name a drug used in veterinary medicine (pets or livestock)","pharm","",`
+apoquel|oclacitinib
+carprofen|rimadyl|novox|vetprofen
+heartgard|ivermectin
+nexgard|afoxolaner
+bravecto|fluralaner
+simparica|sarolaner|simparica trio
+frontline|fipronil
+revolution|selamectin
+seresto|flumethrin imidacloprid collar
+advantage|imidacloprid|advantage multi|advocate
+credelio|lotilaner
+interceptor|milbemycin|interceptor plus|sentinel
+proheart|moxidectin
+cytopoint|lokivetmab
+meloxicam|metacam
+gabapentin|neurontin
+trazodone|desyrel
+cerenia|maropitant
+convenia|cefovecin
+clavamox|amoxicillin clavulanate|augmentin
+baytril|enrofloxacin
+marbofloxacin|zeniquin
+orbifloxacin|orbax
+pradofloxacin|veraflox
+doxycycline|vibramycin
+metronidazole|flagyl
+cephalexin|keflex|rilexine
+clindamycin|antirobe
+prednisone
+prednisolone
+dexamethasone|azium
+vetmedin|pimobendan
+enalapril|enacard
+benazepril|fortekor|lotensin
+furosemide|lasix|salix
+spironolactone|aldactone
+levothyroxine|soloxine|thyro-tabs
+methimazole|felimazole|tapazole
+vetsulin|caninsulin|porcine insulin zinc
+prozinc|protamine zinc insulin
+trilostane|vetoryl
+mitotane|lysodren
+phenobarbital
+potassium bromide|kbr
+zonisamide|zonegran
+levetiracetam|keppra
+galliprant|grapiprant
+deracoxib|deramaxx
+firocoxib|previcox|equioxx
+robenacoxib|onsior
+librela|bedinvetmab
+solensia|frunevetmab
+tramadol
+buprenorphine|simbadol|buprenex
+dexmedetomidine|dexdomitor|sileo
+acepromazine|promace
+telazol|tiletamine zolazepam
+ketamine|ketaset
+xylazine|rompun
+propofol|propoflo
+alfaxalone|alfaxan
+isoflurane|isoflo
+sevoflurane|sevoflo
+atipamezole|antisedan
+pentobarbital|euthasol|fatal-plus
+butorphanol|torbugesic
+hydromorphone
+fentanyl
+praziquantel|droncit
+pyrantel|nemex|strongid
+fenbendazole|panacur|safe-guard
+ponazuril|marquis
+toltrazuril|baycox
+emodepside|profender
+milbemycin praziquantel|milpro
+drontal|praziquantel pyrantel febantel
+albendazole|valbazen
+eprinomectin|eprinex|longrange
+doramectin|dectomax
+osurnia|florfenicol terbinafine betamethasone
+claro
+mometamax
+otomax
+posatex
+cyclosporine|atopica
+fluoxetine|reconcile
+clomipramine|clomicalm
+selegiline|anipryl
+phenylpropanolamine|proin
+estriol|incurin
+deslorelin|suprelorin
+capromorelin|entyce|elura
+mirtazapine|mirataz
+desoxycorticosterone|percorten|zycortal
+phenylbutazone|bute
+flunimix|flunixin|banamine
+adequan|polysulfated glycosaminoglycan
+legend|hyaluronate sodium
+regu-mate|altrenogest
+lutalyse|dinoprost
+excede|naxcel|ceftiofur
+draxxin|tulathromycin
+nuflor|florfenicol
+oxytetracycline|la-200|liquamycin
+penicillin g procaine|pen g
+tylosin|tylan
+tilmicosin|micotil
+tildipirosin|zuprevo
+gamithromycin|zactran
+sulfadimethoxine|albon
+trimethoprim sulfadiazine|tribrissen
+chloramphenicol
+gentamicin
+amikacin
+ampicillin|polyflex
+monensin|rumensin
+lasalocid|bovatec
+ractopamine|paylean|optaflexx
+oxytocin
+cloprostenol|estrumate
+gonadorelin|factrel|cystorelin
+methocarbamol|robaxin
+diphenhydramine|benadryl
+cetirizine|zyrtec
+famotidine|pepcid
+omeprazole|gastrogard|ulcergard
+sucralfate|carafate
+metoclopramide|reglan
+ondansetron|zofran
+amlodipine|norvasc
+atenolol
+diltiazem
+sotalol
+digoxin
+clopidogrel|plavix
+rivaroxaban|xarelto
+torsemide|upcard
+telmisartan|semintra
+budesonide
+chlorambucil|leukeran
+lomustine|ccnu
+vincristine
+doxorubicin
+carboplatin
+toceranib|palladia
+masitinib|masivet|kinavet
+verdinexor|laverdia
+tigilanol tiglate|stelfonta
+insulin glargine|lantus
+glipizide
+bexacat|bexagliflozin
+senvelgo|velagliflozin
+cyproheptadine|periactin
+ursodiol|actigall
+s-adenosylmethionine|same|denamarin
+dasuquin|cosequin|glucosamine chondroitin
+fish oil|omega-3
+vitamin k1|phytonadione|mephyton
+apomorphine
+hydrogen peroxide
+activated charcoal|toxiban
+calcitriol
+aminophylline
+terbutaline
+fluticasone|flovent
+itraconazole|itrafungol
+terbinafine
+fluconazole
+griseofulvin
+lime sulfur dip
+chlorhexidine shampoo|malaseb
+miconazole
+silver sulfadiazine
+mupirocin
+tacrolimus ointment
+cyclosporine eye ointment|optimmune
+tobramycin eye drops
+neomycin polymyxin bacitracin|bnp ointment
+`, "2026-11-15");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

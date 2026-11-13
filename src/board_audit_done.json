@@ -684,10 +684,12 @@
   "Name an instruction given after a tooth extraction": "2026-11-08",
   "Name a dental school": "2026-11-08",
   "Name a sport where a mouthguard is recommended": "2026-11-08",
-  "Name a dental ethics or jurisprudence term": "2026-11-13",
-  "Name a landmark of tooth morphology": "2026-11-13",
-  "Name a digital dentistry term or technology": "2026-11-13",
-  "Name a type or cause of tooth wear": "2026-11-13",
-  "Name a dental, jaw or facial injury": "2026-11-13"
+  "Name a drug metabolized by CYP2D6": "2026-11-13",
+  "Name a drug metabolized by CYP2C9 or CYP2C19": "2026-11-13",
+  "Name a hazardous drug (NIOSH list)": "2026-11-13",
+  "Name a biosimilar (a copy of a biologic drug)": "2026-11-13",
+  "Name an anticholinergic drug": "2026-11-13",
+  "Name a pharmacy calculation or formula": "2026-11-13",
+  "Name a drug that depletes a vitamin or mineral": "2026-11-13"
  }
 }

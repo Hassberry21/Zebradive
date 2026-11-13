@@ -4124,3 +4124,149 @@ crowd("Name a heart condition", 82, "endocardial fibroelastosis");  // 2026-11-1
 crowd("Name a medical ethics or legal concept", 68, "captain of the ship doctrine|captain of the ship");  // 2026-11-12 · 1 player · surgeon vicarious liability doctrine
 crowd("Name a prodrug", 65, "irinotecan");  // 2026-11-12 · 2 players · converted to SN-38
 crowd("Name a blood test", 84, "sflt-1/plgf ratio|soluble flt-1|sflt-1|sflt1 plgf ratio");  // 2026-11-12 · 1 player · FDA-cleared preeclampsia test
+crowdAlias("Name a structure of the foot or ankle", "lateral malleolus", "malleolus");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a structure of the foot or ankle", "anterior talofibular ligament", "talofibular ligament|fibulotalar ligament");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a structure of the foot or ankle", "anterior inferior tibiofibular ligament", "anterior tibiofibular ligament");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a structure of the foot or ankle", "superior peroneal retinaculum", "fibular retinaculum");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a structure of the foot or ankle", "sesamoid bones of the foot", "sesame bones|sesmoid bones|sesamoid bones|sesamoids");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a structure of the foot or ankle", 93, "plantar veins|plantar vein");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a structure of the foot or ankle", "phalanges of the foot", "digit|digits");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a trigger of an asthma attack", "cigarette smoke", "smoke");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a trigger of an asthma attack", "stress", "anxiety");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a trigger of an asthma attack", "cockroaches", "cockroach feces");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a trigger of an asthma attack", "exercise", "activity");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a trigger of an asthma attack", "pollution", "bad air quality|poor air quality");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a trigger of an asthma attack", "beta blockers", "labetolol|labetalol");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a general pathology term", 88, "pedunculated|pedunculated polyp");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "anisopoikilocytosis");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "basophilic stippling");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a general pathology term", "apple-green birefringence", "birefringence");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a general pathology term", 93, "dacrocytes|dacrocyte|teardrop cells|teardrop cell");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "desquamation|desqaumization");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "herringbone pattern|herringbone");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "keratinization|keratinised|keratinized|keratinisation");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "leukopenia|leucopenia");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "pseudo pelger huet anomaly|pseudo-pelger-huet|pseudo pelger huet");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "schistocytes|schistocyte");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "sequestration");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "plexiform");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "vesicle");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a general pathology term", "differentiation", "well differentiated");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a general pathology term", 93, "tortuous|torturous|tortuosity");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "pathogenesis");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a general pathology term", 93, "gross pathology|gross|gross examination");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a receptor in the human body", "nicotinic acetylcholine receptor", "acetylcholine|acetylcholine receptor|acetylcholine recetor|aceytlcholine|acetycholine|ach receptor|achr");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a receptor in the human body", "cb1 cannabinoid receptor", "cannabinoid|canabinoid|cannabinoid receptor");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a receptor in the human body", 93, "g protein coupled receptor|gpcr|g protein-coupled receptor|gcouple protein receptor");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a receptor in the human body", 93, "mrgprx2");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a receptor in the human body", "nk1 receptor", "nk1");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a receptor in the human body", 93, "receptor tyrosine kinase|tyrosine kinase|rtk|tyrosine kinase receptor");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a receptor in the human body", "serotonin receptor", "serotonin");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a receptor in the human body", "beta-3 adrenergic receptor", "b3");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a cause of hypokalemia", "distal renal tubular acidosis", "renal tubular acidosis|rta");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a cause of hypokalemia", "primary hyperaldosteronism", "hyperaldosteronism");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a cause of hypokalemia", 93, "abiraterone");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a cause of hypokalemia", "vitamin b12 therapy", "b12 administration");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a cause of hypokalemia", "diabetic ketoacidosis", "ketoacidosis");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a cause of hypokalemia", "hypokalemic periodic paralysis", "periodic paralysis");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a cause of respiratory acidosis or alkalosis", "guillain barre syndrome", "guillane barre");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a cause of respiratory acidosis or alkalosis", 81, "increased intracranial pressure|increased icp|raised icp|elevated icp");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a complication of preterm birth", 83, "low birth weight|lbw|low weight|underweight");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a complication of preterm birth", "respiratory distress syndrome", "lung immaturity|underdeveloped lungs|lack of surfactant");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a complication of preterm birth", 83, "transient tachypnea of the newborn|ttn|transient tachypnea|ttnb");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a complication of obesity", "high blood pressure", "htn");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a complication of obesity", "heart failure", "chf");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a complication of obesity", "heart disease", "athersclerosis|atherosclerosis");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a complication of obesity", "venous stasis", "stasis dermatitis");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a complication of obesity", "cirrhosis", "liver failure");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a complication of a burn injury", 81, "third spacing|3rd spacing|fluid shifts|capillary leak");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a complication of a burn injury", 81, "electrolyte imbalance|electrolyte abnormalities");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a complication of a burn injury", 81, "immunosuppression|lower immunity|immune suppression");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a course or subject in dental school", "radiology", "dental radiography");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a course or subject in dental school", "anatomy", "cadaver lab");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a drug metabolized by CYP3A4", 63, "suzetrigine|journavx");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a drug that causes anemia", 85, "cladribine");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a drug that causes dry mouth", 85, "amphetamine|adderall|amphetamines");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a drug that causes dry mouth", 85, "methylphenidate|ritalin|concerta");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a drug that causes gynecomastia", "anabolic steroids", "testosterone|exogenous testosterone");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a drug that causes hyperkalemia", "ace inhibitors", "enalapril");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a drug that causes vision problems", 85, "eltrombopag|promacta");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a drug that comes as an oral liquid", 61, "pantoprazole|protonix");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a drug that comes as an oral liquid", 61, "edaravone|radicava ors");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a food high in potassium", 85, "asparagus");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a food high in potassium", "spinach", "leafy greens");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a medical abbreviation", 63, "ac hs|achs");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a medical abbreviation", 63, "all");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a medical abbreviation", 63, "lbbb");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a medical abbreviation", 63, "rbbb");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a medical abbreviation", 63, "mcl");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a medical abbreviation", 63, "moca");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a medical sign or term named after a food", 80, "beefy red tongue|beefy tongue");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a medical sign or term named after a food", "cherry red spot", "cherry red macula");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a medical sign or term named after a food", 80, "hot cross bun sign|hot cross bun");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a mental health disorder", "histrionic personality", "histronic personality disorder");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a microbiology identification test", "koh prep", "koh");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a microbiology identification test", "h pylori stool antigen", "h pylori antigen|stool antigen test");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a nutrient deficiency disease", "iron deficiency", "low iron");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a painkiller", "oxycodone", "oxy");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a part of the brain", "habenula", "lateral habenula|lateral habnecula");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a poisoning or toxic exposure", 93, "amanita mushroom poisoning|amanitin|alpha amanitin|alpha amantin|amantin|death cap mushroom");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a poisoning or toxic exposure", 93, "asbestos|absestos");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a poisoning or toxic exposure", 93, "benzene");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a poisoning or toxic exposure", 93, "beryllium|berylliosis");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a poisoning or toxic exposure", "botulism", "botox");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a poisoning or toxic exposure", "organophosphate poisoning", "pesticide|pesticides");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a poisoning or toxic exposure", "pufferfish poisoning", "pufferfish toxin|ttx");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a poisoning or toxic exposure", 93, "radon");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a poisoning or toxic exposure", 93, "silver|argyria");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a poisoning or toxic exposure", "aspirin overdose", "asa");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a poisoning or toxic exposure", "acetaminophen overdose", "nap qi|napqi");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a postoperative complication", "wound dehiscence", "dehiscence");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a sign of a concussion or traumatic brain injury", "confusion", "ams|altered mental status");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a sign of a concussion or traumatic brain injury", "sensitivity to light", "photosensitivity");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a sign of a concussion or traumatic brain injury", "slurred speech", "sluring|slurring");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a sign of a concussion or traumatic brain injury", 81, "impaired judgment|impaired judgement|poor judgment");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a sign of a concussion or traumatic brain injury", "blurred vision", "vision loss");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a sign of a concussion or traumatic brain injury", "dilated pupil", "pupil dialation|pupil dilation");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a sign of a urinary tract infection", "foul smelling urine", "smell|smelly urine");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a sign of dehydration", "poor skin turgor", "decreased skin turgor|tugor|turgor");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a sign of sepsis", "respiratory rate above 20", "increased respiratory rate");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a symptom of low blood sugar", "confusion", "change in loc");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a type of wound", "pressure injury", "ulcer|sacral wound");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a type of wound", "dirty wound", "septic wound");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a type of wound", "abrasion", "corneal abrasion");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name an anatomical landmark used in physical exams or procedures", "inion", "occipital protuberance");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name an anatomical landmark used in physical exams or procedures", 81, "lateral process of the malleus|lateral process of malleus|short process of the malleus");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name an endodontic term", 85, "parulis|gum boil");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name an eye disease or condition", "herpes simplex keratitis", "ocular herpes|herpes keratitis|hsv keratitis");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name an eye disease or condition", 85, "bietti crystalline dystrophy|bietti");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name an eye disease or condition", "diabetic retinopathy", "diabetes eye disease");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name an instruction given after a tooth extraction", "bite on a tea bag", "apply tea bag");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name an instruction given after a tooth extraction", "avoid carbonated drinks", "no bubbly drinks");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name an item on a crash cart", "endotracheal tube", "intubation tube");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name an item on a crash cart", "intubation supplies", "airway box");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name an oral surgery procedure", "bone graft", "graft");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name an orthopedic or musculoskeletal exam test", "empty can test", "beer can|empty beer can");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name an orthopedic or musculoskeletal exam test", "neer test", "neer hawkins");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name an orthopedic or musculoskeletal exam test", "valgus stress test", "valgus test");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name an osteopathic (OMM/OMT) technique or term", "layer by layer palpation", "palpation");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name an osteopathic (OMM/OMT) technique or term", 93, "perpendicular stretch|perpendicular traction");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name an osteopathic (OMM/OMT) technique or term", 93, "creep|myofascial creep");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name something found in a hospital room", "bedpan", "bathpan");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name something found in a hospital room", 63, "pill crusher");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a cause of a neck mass", "virchow node", "supraclavicular lymph adenopathy|supraclavicular lymphadenopathy");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a cause of acute pancreatitis", "glp 1 agonists", "glp-1 analogs|glp 1 analogs");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a cause of bad breath", "periodontitis", "peridontal desise");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a cause of bad breath", "alcohol", "beer");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a cause of constipation", "opioids", "opiates");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a cause of eosinophilia", 85, "hyper ige syndrome|job syndrome|hyper ige");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a sexually transmitted infection", "chlamydia", "climayda");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a nursing intervention to prevent postoperative complications", "early ambulation", "walking");  // 2026-11-13 · TikTok-day review · same answer
+crowd("Name a restraint or restraint alternative", 61, "therapeutic communication");  // 2026-11-13 · TikTok-day review · player suggestion
+crowd("Name a ligament or tendon", 87, "cuboideonavicular ligament|navicular cuboid ligament");  // 2026-11-13 · TikTok-day review · player suggestion
+crowdAlias("Name a parasite that infects humans", "dirofilaria", "heartworm|hearworm");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a danger sign in pregnancy", "vaginal bleeding", "hemorrhage");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a drug or supplement that treats anemia", "iron", "iron pill");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a classic histopathology finding", "perivascular pseudorosettes", "pseudorosettes");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a classic histopathology finding", "owl's eye inclusions", "owl sign");  // 2026-11-13 · TikTok-day review · same answer
+crowdAlias("Name a classic histopathology finding", "podocyte effacement", "effacement of the podocyte foot processes");  // 2026-11-13 · TikTok-day review · same answer

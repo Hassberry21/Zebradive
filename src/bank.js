@@ -64630,6 +64630,555 @@ combat sambo
 bare knuckle boxing
 `, "2026-11-10");
 
+/* ---- NEW STANDARD DAILY PROMPTS: DENTAL (batch 2026-11-13) ---- */
+P("Name a dental ethics or jurisprudence term","dental","",`
+informed consent|consent
+autonomy|patient autonomy|self determination|respect for autonomy
+beneficence
+nonmaleficence|non maleficence|do no harm|primum non nocere
+justice|distributive justice|fairness
+veracity|truthfulness|honesty|truth telling
+confidentiality|patient confidentiality
+hipaa|health insurance portability and accountability act
+malpractice|dental malpractice|professional negligence|medical malpractice
+negligence
+standard of care
+patient abandonment|abandonment
+informed refusal|refusal of treatment
+ada code of ethics|ada principles of ethics and code of professional conduct|ada code|code of ethics|code of professional conduct|principles of ethics
+dental practice act|state dental practice act|practice act
+state board of dentistry|board of dentistry|dental board|state dental board|dental licensing board
+statute of limitations
+res ipsa loquitur|the thing speaks for itself
+respondeat superior|vicarious liability|let the master answer
+duty of care|duty|duty to treat
+breach of duty|breach
+causation|proximate cause
+damages
+battery|technical battery|assault and battery
+assault
+implied consent
+express consent|written consent|verbal consent
+parental consent|guardian consent|consent for minors
+emancipated minor
+mature minor
+assent|child assent
+capacity|decision making capacity|competence|competency
+surrogate decision maker|substitute decision maker|surrogate
+power of attorney|durable power of attorney|healthcare power of attorney|healthcare proxy|legal guardian
+mandatory reporting|duty to report abuse|child abuse reporting|reporting child abuse|elder abuse reporting|reporting abuse
+dental neglect
+duty to warn|tarasoff
+risks benefits and alternatives|risks and benefits|alternatives|treatment alternatives|rba
+contributory negligence
+comparative negligence
+joint and several liability
+expert witness|expert testimony
+deposition
+subpoena|subpoena duces tecum
+tort
+contract|implied contract|express contract|dentist patient relationship|doctor patient relationship
+privileged communication|privilege|privileged information
+fraud|insurance fraud|healthcare fraud|medicaid fraud
+overbilling|upcoding
+unbundling
+fee splitting
+waiving copayments|copay waiver|forgiving copays|waiving deductibles
+kickbacks|anti kickback statute|anti kickback law
+stark law|self referral law
+false claims act
+licensure|dental license|licensing|license
+license revocation|revocation|license suspension|suspension|probation
+licensure by credentials|reciprocity|licensure by reciprocity
+continuing education|ce|ce credits|continuing education requirements
+scope of practice
+delegation|delegable duties|expanded functions|expanded function duties
+direct supervision
+general supervision
+indirect supervision
+unlicensed practice|practicing without a license|unlicensed practice of dentistry
+false advertising|misleading advertising|advertising|deceptive advertising
+specialty announcement|announcement of specialization
+professional liability insurance|malpractice insurance|liability insurance
+claims made policy|tail coverage|tail insurance
+occurrence policy|occurrence based policy
+dental records|patient records|record keeping|documentation|charting
+record retention|records retention
+altering records|falsifying records|spoliation|record falsification
+patient access to records|records request|record transfer|right to records
+second opinion
+referral|duty to refer
+justifiable criticism|criticism of another dentist
+impaired dentist|reporting an impaired colleague|chemical dependency|duty to report impaired colleagues
+peer review
+emergency service|duty to provide emergency care|emergency care obligation
+patient selection|refusal to treat|discrimination
+americans with disabilities act|ada law|disability law
+treating patients with hiv|hiv positive patients|bloodborne infected patients
+paternalism
+respect for persons
+utilitarianism
+deontology|kantian ethics|duty based ethics
+virtue ethics
+principlism|four principles
+conflict of interest
+gifts from industry|industry relationships|accepting gifts
+rebates
+professional courtesy
+professionalism
+fiduciary duty|fiduciary|fiduciary relationship
+disclosure of errors|error disclosure|apology law|apology laws|duty to disclose
+privacy|patient privacy|right to privacy
+protected health information|phi
+notice of privacy practices
+minimum necessary standard|minimum necessary
+business associate agreement|business associate|baa
+hitech act|hitech
+breach notification|data breach|hipaa breach
+osha|occupational safety and health administration|osha compliance
+dea registration|dea number|dea license
+controlled substances act|controlled substance prescribing|csa
+prescription drug monitoring program|pdmp|pmp
+promising results|guarantee of results|guarantee|warranty
+good samaritan law|good samaritan
+civil liability|civil law
+criminal liability|criminal law
+arbitration|binding arbitration
+mediation
+settlement|out of court settlement
+national practitioner data bank|npdb
+lawsuit|litigation|malpractice suit|being sued
+plaintiff
+defendant
+burden of proof|preponderance of the evidence
+tort reform|damage caps|caps on damages
+punitive damages
+compensatory damages
+locality rule
+captain of the ship doctrine|captain of the ship
+borrowed servant doctrine|borrowed servant
+discovery rule
+reasonable patient standard|material risk standard|prudent patient standard
+professional standard|reasonable dentist standard|reasonable practitioner standard
+therapeutic privilege
+patient bill of rights|patient rights
+ethical dilemma
+non compete agreement|noncompete|restrictive covenant
+independent contractor
+corporate practice of dentistry|corporate dentistry
+informed consent form|consent form
+termination of the dentist patient relationship|dismissing a patient|patient dismissal letter
+continuity of care
+overtreatment|unnecessary treatment
+misrepresentation
+material misrepresentation of fees|fee misrepresentation
+`, "2026-11-15");
+
+P("Name a landmark of tooth morphology","dental","",`
+cusp|cusps
+cingulum
+marginal ridge|marginal ridges|lingual marginal ridges|mesial marginal ridge|distal marginal ridge
+central fossa
+central groove|central developmental groove
+mesial triangular fossa|mesial fossa
+distal triangular fossa|distal fossa
+lingual fossa|lingual fossae|mesial lingual fossa|distal lingual fossa
+buccal groove|buccal developmental groove|facial groove
+lingual groove|lingual developmental groove
+oblique ridge
+transverse ridge
+triangular ridge|triangular ridges|essential ridge|buccal triangular ridge|lingual triangular ridge
+cusp ridge|cusp ridges|cusp slopes|cusp arms|mesial cusp ridge|distal cusp ridge|cusp inclines|inclined planes
+cusp tip|cusp apex
+cusp of carabelli|carabelli cusp|carabelli tubercle|carabelli trait|fifth cusp of maxillary molar
+mamelons|mamelon
+incisal edge|incisal ridge
+mesiobuccal cusp|paracone|protoconid
+distobuccal cusp|metacone|hypoconid
+mesiolingual cusp|mesiopalatal cusp|protocone|metaconid
+distolingual cusp|distopalatal cusp|hypocone|entoconid
+distal cusp|hypoconulid
+buccal cusp|facial cusp
+lingual cusp|palatal cusp
+contact area|contact point|proximal contact|contact|mesial contact|distal contact
+height of contour|crest of curvature|survey line
+embrasure|embrasures|occlusal embrasure|incisal embrasure|gingival embrasure|facial embrasure|lingual embrasure
+cementoenamel junction|cej|cervical line
+furcation|furca|bifurcation|trifurcation|furcation entrance
+root trunk
+apex|root apex|apical foramen
+lobe|lobes|developmental lobe|labial lobe|lingual lobe
+central pit
+mesial pit
+distal pit
+lingual pit
+buccal pit|facial pit
+mesiobuccal groove|mesiobuccal developmental groove
+distobuccal groove|distobuccal developmental groove
+distolingual groove|distal oblique groove
+mesiolingual groove
+transverse groove of the oblique ridge|transverse groove
+supplemental groove|supplementary groove|secondary groove
+developmental groove|primary groove
+fissure|fissures|occlusal fissure|pit and fissure
+pit|pits
+fossa|fossae
+groove|grooves
+ridge|ridges
+mesial marginal groove|mesial marginal developmental groove|mesial marginal ridge groove
+mesial concavity|mesial crown concavity|mesial developmental depression
+palatogingival groove|palatoradicular groove|radicular lingual groove
+cervical ridge|buccal cervical ridge|cervical bulge
+buccal ridge|facial ridge
+labial ridge
+lingual ridge
+incisal angle|mesioincisal angle|distoincisal angle
+line angle|line angles
+point angle|point angles
+tubercle|tubercles|lingual tubercle
+protostylid
+triangular groove|triangular grooves
+y groove pattern|h groove pattern|u groove pattern|groove pattern
+occlusal table|occlusal surface outline
+pulp horn|pulp horns
+perikymata|imbrication lines
+root concavity|root depression|developmental depression|root flute|root groove
+palatal root|lingual root
+mesiobuccal root|mb root
+distobuccal root|db root
+mesial root
+distal root
+buccal root|facial root
+supporting cusp|stamp cusp|centric cusp|holding cusp|functional cusp
+nonsupporting cusp|guiding cusp|shearing cusp|nonfunctional cusp|non supporting cusp
+accessory ridge|accessory ridges|secondary ridge
+accessory cusp|supernumerary cusp
+mesial outline|mesial contour
+distal outline|distal contour
+cervical constriction|cervix of the tooth|neck of the tooth
+cervical enamel projection
+enamel pearl
+talon cusp
+shovel shaped incisor|shoveling|shovel trait
+`, "2026-11-15");
+
+P("Name a digital dentistry term or technology","dental","",`
+intraoral scanner|intraoral scanning|ios|digital scanner|intra oral scanner
+cad cam|cadcam|computer aided design|computer aided manufacturing|cad|cam
+cbct|cone beam ct|cone beam computed tomography|cone beam|digital volume tomography|dvt
+digital impression|optical impression|digital impressions
+3d printing|additive manufacturing|3d printer|three d printing
+milling|milling machine|mill|subtractive manufacturing|milling unit
+cerec
+same day crown|chairside cad cam|single visit crown|chairside milling
+digital radiography|digital x rays|digital xray|digital radiographs
+phosphor plate|psp|photostimulable phosphor|psp plate|phosphor storage plate
+digital sensor|sensor|intraoral sensor
+ccd|charge coupled device
+cmos|complementary metal oxide semiconductor
+stl file|stl|standard tessellation language
+dicom|dicom file
+stereolithography|sla
+digital light processing|dlp
+lcd printing|masked stereolithography|msla
+material jetting|polyjet
+fused deposition modeling|fdm|fused filament fabrication
+selective laser melting|slm|direct metal laser sintering|dmls
+selective laser sintering|sls
+sintering|sintering furnace|speed sintering
+guided implant surgery|guided surgery|static guided surgery|computer guided surgery
+surgical guide|implant guide|surgical template|surgical stent
+dynamic navigation|navigated implant surgery|x guide|navident
+robotic implant surgery|robot assisted surgery|yomi|dental robot
+digital smile design|dsd
+clincheck|digital treatment plan for aligners
+clear aligners|invisalign
+itero
+trios|3shape trios
+3shape
+primescan
+medit
+carestream
+planmeca
+exocad
+cerec inlab|inlab
+formlabs
+sprintray
+asiga
+virtual articulator|digital articulator
+face scanner|facial scanning|3d face scan|facial scan
+digital jaw tracking|jaw motion tracking|modjaw|zebris
+t scan|digital occlusal analysis|computerized occlusal analysis
+intraoral camera
+virtual patient|digital patient
+digital workflow|fully digital workflow|analog to digital workflow
+digital model|virtual model|digital cast|virtual cast
+digital wax up|virtual wax up
+digital mockup|virtual mockup
+digital dentures|cad cam dentures|printed dentures|milled dentures
+3d printed models|printed models
+3d printed crown|printed crown|printed temporaries
+milled crown|milled restoration
+zirconia block|zirconia puck|zirconia disc
+lithium disilicate block|emax cad|ips emax cad
+pmma puck|pmma block|milled pmma
+hybrid ceramic|resin nano ceramic|vita enamic|lava ultimate|polymer infiltrated ceramic
+monolithic zirconia|full contour zirconia
+margin line|margin marking|virtual margin
+cement gap|cement space|die spacer setting|virtual die spacer
+biogeneric|biogeneric design
+tooth library|crown library
+nesting
+support structures|supports
+post curing|post cure|uv curing
+layer thickness|layer height
+print orientation|build orientation
+scan body|scanbody|scan flag
+ti base|titanium base|tibase|ti-base
+custom abutment|cad cam abutment|milled abutment
+implant library
+virtual implant planning|digital implant planning|implant planning software
+blue sky plan|blueskyplan
+codiagnostix
+simplant
+nobelclinician
+segmentation
+superimposition|registration|scan matching|merging scans|image fusion
+best fit alignment|best fit
+scan stitching|stitching
+scan strategy|scan path|scanning protocol
+scanning powder|titanium dioxide powder|anti reflective spray
+trueness
+precision
+accuracy
+point cloud
+mesh|triangle mesh|polygon mesh
+open system|open architecture
+closed system|closed architecture
+ply file|obj file
+artificial intelligence|ai|machine learning|deep learning|neural network
+ai caries detection|ai radiograph analysis|ai xray analysis
+pearl|second opinion software
+videa
+teledentistry|tele dentistry|virtual consult|virtual consultation
+electronic health record|ehr|electronic dental record|electronic chart|digital charting|emr
+practice management software
+dentrix
+eaglesoft
+open dental
+curve dental
+dexis
+sidexis
+romexis
+digital shade matching|spectrophotometer|vita easyshade|shade scanner|colorimeter
+digital photography|dental photography|dslr
+augmented reality|ar
+virtual reality|vr
+haptic simulator|simodont|virtual reality dental simulator
+virtual setup|digital setup|digital orthodontic setup
+digital indirect bonding|indirect bonding tray|ibt
+digital cephalometrics|cephalometric software|dolphin imaging|dolphin
+direct printed aligners|3d printed aligners
+virtual surgical planning|vsp|computer assisted surgical planning
+patient specific implant|psi|custom titanium implant
+printed night guard|printed occlusal splint|digital occlusal splint|milled night guard
+field of view|fov
+voxel|voxel size
+hounsfield units|hu|gray values|grey values
+multiplanar reconstruction|mpr|axial coronal sagittal views
+volume rendering|3d rendering|3d reconstruction
+panoramic reconstruction|curved planar reformation|curved mpr
+beam hardening|streak artifact|scatter artifact|metal artifact
+cloud based software|cloud storage|cloud platform
+digital lab prescription|digital rx|digital lab slip|lab portal
+laser fluorescence caries detection|diagnodent|laser fluorescence
+near infrared transillumination|nirt|nir imaging|near infrared imaging
+photogrammetry|icam4d|pic camera
+occlusal clearance map|color map|heat map|clearance map
+virtual blockout|blockout|block out|undercut blockout
+dental cad software|design software|cad software
+5 axis milling|4 axis milling|five axis milling
+wet milling|dry milling
+crystallization firing|crystallization
+digital panoramic|digital pano|digital panoramic radiograph
+digital study models|digital study model|intraoral scan models
+smile simulation|smile preview|ai smile simulation
+model free workflow|modelless
+`, "2026-11-15");
+
+P("Name a type or cause of tooth wear","dental","",`
+bruxism|teeth grinding|grinding|grinding teeth|tooth grinding|sleep bruxism|night grinding
+erosion|dental erosion|acid erosion|chemical erosion|biocorrosion|corrosion|acid wear
+attrition|tooth to tooth wear|occlusal wear
+abrasion|toothbrush abrasion|mechanical wear
+abfraction|abfraction lesion|occlusal stress|tooth flexure|occlusal loading
+clenching|jaw clenching|awake bruxism|daytime clenching
+acid reflux|gerd|gastroesophageal reflux|reflux|heartburn|gastroesophageal reflux disease|lpr|laryngopharyngeal reflux
+bulimia|bulimia nervosa
+vomiting|frequent vomiting|chronic vomiting|regurgitation|self induced vomiting|purging
+acidic drinks|acidic foods|acidic diet|acid|dietary acids|citric acid|phosphoric acid
+soda|soft drinks|cola|pop|soda pop|carbonated drinks|fizzy drinks|diet soda|coke
+sports drinks|gatorade|powerade
+energy drinks|red bull|monster
+fruit juice|juice|orange juice|apple juice|lemonade
+citrus fruits|citrus|lemons|lemon|limes|lime|grapefruit|oranges|sucking on lemons
+lemon water|hot water with lemon
+wine|white wine|red wine|wine tasting|professional wine tasting|wine tasters
+apple cider vinegar|vinegar|pickles|pickled foods
+kombucha
+sour candy|sour candies|sour sweets|warheads|acidic candy
+hard toothbrush|hard bristled toothbrush|stiff toothbrush
+aggressive toothbrushing|overbrushing|brushing too hard|horizontal scrubbing|scrubbing|excessive brushing|vigorous brushing
+abrasive toothpaste|whitening toothpaste|charcoal toothpaste|baking soda toothpaste|high rda toothpaste|tooth powder|smokers toothpaste
+brushing right after acidic food|brushing immediately after vomiting|brushing after acidic drinks
+sipping drinks slowly|frequent sipping|swishing soda|holding drinks in the mouth|sipping all day
+opposing porcelain|porcelain crown opposing natural teeth|unglazed porcelain|rough porcelain|opposing ceramic|ceramic restorations
+nail biting|onychophagia|biting nails
+pen chewing|pencil chewing|chewing pens|chewing on objects
+using teeth as tools|opening bottles with teeth|opening packages with teeth|tearing tape with teeth
+holding objects in the teeth|bobby pins|hairpins|holding nails|biting thread|holding needles|seamstress notch
+pipe smoking|pipe stem|holding a pipe
+chewing ice|ice chewing|pagophagia
+chewing tobacco|smokeless tobacco|snuff|dip
+betel nut|areca nut|betel quid|paan
+toothpicks|toothpick use|wooden toothpicks
+flossing too hard|floss abrasion|improper flossing
+cracking sunflower seeds|sunflower seeds|seed cracking
+oral piercing|tongue piercing|tongue stud|tongue ring|lip piercing|labret
+partial denture clasps|rpd clasps|clasp wear|denture clasp
+ceramic brackets|braces on opposing teeth|brackets
+dry mouth|xerostomia|hyposalivation|low saliva|reduced saliva
+sjogren syndrome|sjogrens|sjogren's syndrome
+malocclusion|bad bite
+edge to edge bite|end to end bite|edge to edge occlusion
+crossbite|anterior crossbite|posterior crossbite
+deep bite|deep overbite|class ii division 2
+loss of posterior support|missing back teeth|missing molars|loss of posterior teeth|posterior bite collapse
+occlusal interferences|premature contacts|occlusal trauma|traumatic occlusion
+aging|age|old age
+coarse diet|gritty diet|abrasive diet|sand in food|stone ground flour
+occupational dust exposure|abrasive dust|airborne grit|industrial dust
+occupational acid exposure|acid fumes|battery factory work|industrial acid exposure|galvanizing work
+swimming pool|chlorinated pool|competitive swimming|swimmers erosion|improperly chlorinated pool
+alcohol use disorder|alcoholism|alcohol abuse|binge drinking|heavy drinking
+eating disorder|eating disorders
+anorexia nervosa|anorexia
+pregnancy|morning sickness|hyperemesis gravidarum
+rumination syndrome|rumination|merycism
+hiatal hernia
+chemotherapy|chemotherapy induced vomiting
+vitamin c tablets|chewable vitamin c|ascorbic acid tablets|effervescent vitamin c|chewable vitamins
+chewing aspirin|aspirin|aspirin held against teeth
+acidic liquid medications|acidic syrups|acidic medications
+tomatoes|tomato sauce|ketchup
+pineapple
+berries|strawberries
+fruit tea|herbal tea|hibiscus tea|rosehip tea
+sparkling water|flavored sparkling water|seltzer|flavored water|carbonated water
+iced tea|bottled iced tea
+cider|hard cider|alcopops|hard seltzer|cocktails
+salad dressing|vinaigrette
+stress|anxiety|psychological stress
+obstructive sleep apnea|sleep apnea|osa
+ssris|antidepressants|ssri induced bruxism|antidepressant induced bruxism
+methamphetamine|meth|meth mouth
+ecstasy|mdma|molly
+amelogenesis imperfecta
+dentinogenesis imperfecta
+enamel hypoplasia|hypomineralization|mih|molar incisor hypomineralization
+cerebral palsy
+`, "2026-11-15");
+
+P("Name a dental, jaw or facial injury","dental","",`
+broken tooth|fractured tooth|tooth fracture|chipped tooth|cracked tooth
+avulsion|avulsed tooth|knocked out tooth|tooth knocked out
+broken jaw|jaw fracture|fractured jaw|mandible fracture|mandibular fracture|fractured mandible
+crown fracture|fractured crown
+enamel fracture|enamel chip|ellis class 1|ellis class i
+uncomplicated crown fracture|enamel dentin fracture|ellis class 2|ellis class ii
+complicated crown fracture|crown fracture with pulp exposure|enamel dentin pulp fracture|ellis class 3|ellis class iii
+root fracture|horizontal root fracture|vertical root fracture|fractured root
+crown root fracture
+enamel infraction|craze lines|crazing|infraction
+concussion|tooth concussion|dental concussion
+subluxation|loose tooth after trauma
+luxation|dislocated tooth|displaced tooth
+extrusive luxation|extrusion|partial avulsion
+lateral luxation
+intrusive luxation|intrusion|intruded tooth|pushed up tooth
+alveolar fracture|alveolar process fracture|dentoalveolar fracture|alveolar bone fracture
+cracked tooth syndrome|split tooth
+cusp fracture|fractured cusp|broken cusp
+le fort fracture|le fort|lefort fracture
+le fort i|lefort 1|le fort 1|guerin fracture|horizontal maxillary fracture
+le fort ii|lefort 2|le fort 2|pyramidal fracture
+le fort iii|lefort 3|le fort 3|craniofacial dysjunction|craniofacial disjunction
+maxillary fracture|broken upper jaw|fractured maxilla
+zygomatic fracture|cheekbone fracture|broken cheekbone|zygomaticomaxillary complex fracture|zmc fracture|tripod fracture|tetrapod fracture|malar fracture
+zygomatic arch fracture
+orbital floor fracture|blowout fracture|orbital blowout fracture|orbital fracture
+nasal fracture|broken nose|nasal bone fracture
+naso orbito ethmoid fracture|noe fracture|nasoethmoid fracture
+frontal sinus fracture
+panfacial fracture
+condylar fracture|subcondylar fracture|fractured condyle|condyle fracture
+mandibular angle fracture|angle fracture
+mandibular body fracture|body fracture
+symphysis fracture|symphyseal fracture
+parasymphysis fracture|parasymphyseal fracture
+ramus fracture
+coronoid fracture|coronoid process fracture
+dentoalveolar trauma|dental trauma|traumatic dental injury
+tmj dislocation|jaw dislocation|dislocated jaw|open lock|condylar dislocation
+tmj sprain|jaw sprain|tmj trauma|hemarthrosis
+lip laceration|cut lip|split lip
+tongue laceration|bitten tongue|tongue bite|cut tongue
+facial laceration|cut on the face
+gingival laceration|gum laceration|torn gums
+frenum tear|torn frenum|frenulum tear|labial frenum laceration
+mucosal laceration|intraoral laceration
+through and through lip laceration
+degloving injury|gingival degloving
+abrasion|facial abrasion|road rash|scrape
+contusion|bruise|facial bruise|facial contusion
+hematoma|facial hematoma|sublingual hematoma
+black eye|periorbital ecchymosis|raccoon eyes
+facial burn|oral burn|electrical burn of the mouth|commissure burn
+chemical burn|aspirin burn|caustic burn
+thermal burn|pizza burn|hot food burn
+dog bite|animal bite
+human bite
+impalement injury|pencil injury to palate|palatal impalement|toothbrush injury|stick injury
+gunshot wound|gsw|ballistic injury
+facial nerve injury|facial nerve laceration
+inferior alveolar nerve injury|nerve injury|paresthesia
+lingual nerve injury
+parotid duct injury|stensen duct injury|parotid gland injury
+traumatic ulcer|bite injury|cheek bite
+intrusion of primary tooth|intruded baby tooth
+avulsed primary tooth|knocked out baby tooth
+palatal fracture|sagittal palatal fracture|split palate
+maxillary sinus wall fracture|anterior maxillary sinus wall fracture
+orbital rim fracture|infraorbital rim fracture
+medial orbital wall fracture
+midface fracture|midfacial fracture
+facial fracture|facial bone fracture
+nasal septal hematoma|septal hematoma
+palatal laceration|soft palate laceration
+floor of mouth laceration
+chin laceration|chin injury
+cheek laceration|buccal mucosa laceration
+greenstick fracture
+comminuted fracture
+compound fracture|open fracture
+simple fracture|closed fracture
+favorable fracture
+unfavorable fracture
+pathologic fracture
+bilateral mandible fracture|flail mandible|bucket handle fracture
+guardsman fracture|parade ground fracture
+`, "2026-11-15");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

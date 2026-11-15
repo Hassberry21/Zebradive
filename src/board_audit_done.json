@@ -796,6 +796,14 @@
   "Name a drug for liver disease or hepatitis": "2026-11-15",
   "Name a drug for a pituitary, adrenal or parathyroid disorder": "2026-11-15",
   "Name a drug used in newborns or the NICU": "2026-11-15",
-  "Name a drug that inhibits or induces CYP450 enzymes": "2026-11-15"
+  "Name a drug that inhibits or induces CYP450 enzymes": "2026-11-15",
+  "Name a drug that causes dizziness": "2026-11-15",
+  "Name a drug that causes fatigue or weakness": "2026-11-15",
+  "Name a drug that is given with a loading dose": "2026-11-15",
+  "Name an orphan drug (a drug for a rare disease)": "2026-11-15",
+  "Name a drug used in palliative or hospice care": "2026-11-15",
+  "Name a drug for a potassium, sodium, calcium, magnesium or phosphate imbalance": "2026-11-15",
+  "Name a drug for a lung disease other than asthma or COPD": "2026-11-15",
+  "Name a drug for a sexually transmitted infection or vaginal infection": "2026-11-15"
  }
 }

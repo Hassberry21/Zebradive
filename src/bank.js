@@ -72076,6 +72076,123 @@ dentatus bur|dentatus
 fiber optic handpiece|led handpiece|light handpiece
 `, "2026-11-17");
 
+/* ---- NEW STANDARD DAILY PROMPTS: DENTAL (batch 2026-11-15 part 2) ---- */
+P("Name a cause of difficulty chewing","dental","",`
+toothache|tooth pain|dental pain
+cavity|cavities|caries|tooth decay
+missing teeth|tooth loss|edentulism|no teeth|toothless
+loose teeth|tooth mobility
+periodontitis|periodontal disease|gum disease
+ill fitting dentures|loose dentures|poorly fitting dentures|denture problems
+tmj disorder|tmd|temporomandibular disorder|tmj pain|tmj
+trismus|lockjaw|limited mouth opening|cannot open mouth
+dental abscess|tooth abscess|abscess
+cracked tooth|cracked tooth syndrome|broken tooth|fractured tooth|chipped tooth
+tooth sensitivity|sensitive teeth|dentin hypersensitivity
+jaw fracture|broken jaw|mandible fracture|mandibular fracture
+braces|orthodontic treatment|orthodontic adjustment|tightened braces
+mouth ulcers|canker sores|aphthous ulcers|mouth sores
+dry mouth|xerostomia
+oral mucositis|mucositis
+stroke|cva
+bell palsy|facial nerve palsy|facial paralysis
+parkinson disease|parkinsons
+myasthenia gravis
+als|amyotrophic lateral sclerosis|lou gehrig disease|motor neuron disease
+malocclusion|bad bite|misaligned teeth
+open bite|anterior open bite
+crossbite
+underbite|class iii malocclusion|prognathism
+overbite|deep bite|class ii malocclusion
+high filling|high crown|high bite|new crown|new filling
+recent tooth extraction|after extraction|tooth extraction
+dry socket|alveolar osteitis
+wisdom teeth|impacted wisdom teeth|erupting wisdom tooth|third molar
+pericoronitis
+teething
+new dentures|sore spots from dentures|denture sore spots|denture stomatitis
+broken denture|cracked denture
+myofascial pain|masticatory muscle pain|jaw muscle pain|masseter pain
+bruxism|teeth grinding|clenching
+tmj dislocation|dislocated jaw|open lock
+closed lock|disc displacement without reduction|anterior disc displacement
+tmj ankylosis|ankylosis of the jaw
+tmj arthritis|osteoarthritis of the tmj|degenerative joint disease
+rheumatoid arthritis|juvenile idiopathic arthritis
+jaw claudication|giant cell arteritis|temporal arteritis
+tetanus
+oromandibular dystonia|jaw dystonia|dystonia
+trigeminal neuralgia
+oral thrush|oral candidiasis|thrush
+oral lichen planus|lichen planus
+herpes|cold sores|herpetic gingivostomatitis|primary herpes
+hand foot and mouth disease|herpangina
+oral cancer|mouth cancer|tongue cancer|oral squamous cell carcinoma
+glossitis|sore tongue|burning tongue
+burning mouth syndrome
+macroglossia|enlarged tongue
+tongue tie|ankyloglossia
+cleft palate|cleft lip and palate
+sjogren syndrome|sjogrens
+scleroderma|systemic sclerosis|microstomia
+radiation therapy|head and neck radiation|radiation fibrosis
+osteoradionecrosis
+osteonecrosis of the jaw|mronj|bronj
+chemotherapy
+mumps|parotitis|parotid swelling
+salivary gland infection|sialadenitis|salivary stone|sialolithiasis
+peritonsillar abscess|quinsy
+ludwig angina
+facial cellulitis|cellulitis|facial swelling
+dementia|alzheimer disease
+cerebral palsy
+multiple sclerosis
+muscular dystrophy|myotonic dystrophy|duchenne muscular dystrophy
+polymyositis|dermatomyositis|myositis
+guillain barre syndrome
+botulism
+moebius syndrome
+hypoglossal nerve palsy|tongue weakness
+trigeminal nerve injury|nerve damage|numb tongue|numbness after dental work|paresthesia
+lingual nerve injury
+frailty|sarcopenia|muscle weakness|old age
+mandibular hypoplasia|micrognathia|small jaw
+pierre robin sequence
+hemifacial microsomia
+acromegaly
+paget disease
+fibrous dysplasia
+jaw tumor|ameloblastoma|jaw cyst
+orthognathic surgery|jaw surgery
+jaw wired shut|intermaxillary fixation|maxillomandibular fixation|imf|mmf
+oral piercing|tongue piercing|tongue ring
+oral surgery|dental implant surgery|implant surgery
+gum surgery|periodontal surgery|gum graft
+root canal treatment|after a root canal
+attrition|worn teeth|tooth wear
+tooth erosion|enamel erosion|acid erosion
+amelogenesis imperfecta
+dentinogenesis imperfecta
+ectodermal dysplasia
+molar incisor hypomineralization|mih
+gingival enlargement|swollen gums|gum overgrowth
+leukemia
+vitamin b12 deficiency|pernicious anemia
+iron deficiency|iron deficiency anemia
+angular cheilitis|cracked mouth corners
+lip injury|cut lip|lip swelling
+burn|mouth burn|pizza burn|hot food burn
+amyloidosis
+hypothyroidism|myxedema
+down syndrome
+botox|masseter botox|botulinum toxin injections
+tardive dyskinesia
+head and neck cancer surgery|mandibulectomy|glossectomy
+lymphoma
+sinus infection|sinusitis
+huntington disease
+`, "2026-11-17");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

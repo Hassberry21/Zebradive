@@ -715,6 +715,16 @@
   "Name a drug that activates a receptor (receptor agonist)": "2026-11-13",
   "Name a drug used in veterinary medicine (pets or livestock)": "2026-11-13",
   "Name a drug that blocks or opens an ion channel": "2026-11-13",
-  "Name a drug that blocks a transporter or pump": "2026-11-13"
+  "Name a drug that blocks a transporter or pump": "2026-11-13",
+  "Name a complication of chronic kidney disease": "2026-11-15",
+  "Name a complication of a heart attack": "2026-11-15",
+  "Name a symptom or complication of cystic fibrosis": "2026-11-15",
+  "Name a stage or term from a developmental theory (Erikson, Piaget, Freud, Kohlberg and others)": "2026-11-15",
+  "Name a risk factor for aspiration": "2026-11-15",
+  "Name a medication to hold or stop before surgery": "2026-11-15",
+  "Name a common discomfort of pregnancy": "2026-11-15",
+  "Name a symptom of pneumonia": "2026-11-15",
+  "Name a symptom of ADHD": "2026-11-15",
+  "Name a symptom or complication of rheumatoid arthritis": "2026-11-15"
  }
 }

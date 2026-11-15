@@ -787,6 +787,15 @@
   "Name a neurosurgical or spine procedure": "2026-11-15",
   "Name a vascular surgery procedure": "2026-11-15",
   "Name an autonomic nervous system term": "2026-11-15",
-  "Name a medical professional society, organization or journal": "2026-11-15"
+  "Name a medical professional society, organization or journal": "2026-11-15",
+  "Name a drug for breast cancer": "2026-11-15",
+  "Name a drug for leukemia, lymphoma or multiple myeloma": "2026-11-15",
+  "Name a drug for lung cancer": "2026-11-15",
+  "Name a drug for prostate, bladder or kidney cancer": "2026-11-15",
+  "Name a drug for colorectal, stomach, liver or pancreatic cancer": "2026-11-15",
+  "Name a drug for liver disease or hepatitis": "2026-11-15",
+  "Name a drug for a pituitary, adrenal or parathyroid disorder": "2026-11-15",
+  "Name a drug used in newborns or the NICU": "2026-11-15",
+  "Name a drug that inhibits or induces CYP450 enzymes": "2026-11-15"
  }
 }

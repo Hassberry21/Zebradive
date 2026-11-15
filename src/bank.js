@@ -71589,6 +71589,493 @@ gastric balloon|intragastric balloon
 lymphoma
 `, "2026-11-17");
 
+/* ---- NEW STANDARD DAILY PROMPTS: DENTAL (batch 2026-11-15 part 1) ---- */
+P("Name a risk factor for dental caries","dental","",`
+sugar|sugary foods|sugary diet|high sugar diet|sweets|candy|sucrose
+frequent snacking|snacking|grazing|frequent sugar intake|frequency of sugar exposure
+poor oral hygiene|bad oral hygiene|not brushing|infrequent brushing|plaque|dental plaque|biofilm
+dry mouth|xerostomia|low saliva|reduced salivary flow|hyposalivation
+lack of fluoride|no fluoride|fluoride deficiency|nonfluoridated water|unfluoridated water|low fluoride exposure
+soda|soft drinks|pop|sugary drinks|sugar sweetened beverages|soda pop
+streptococcus mutans|s mutans|mutans streptococci|strep mutans
+lactobacillus|lactobacilli
+bottle at bedtime|baby bottle at night|nursing bottle|bedtime bottle|baby bottle tooth decay
+prolonged on demand breastfeeding at night|nighttime breastfeeding|ad lib nocturnal breastfeeding
+sippy cup|frequent sippy cup use
+juice|fruit juice
+sticky foods|retentive foods|caramel|toffee|dried fruit
+fermentable carbohydrates|refined carbohydrates|starches|simple carbohydrates
+previous caries|past caries experience|history of cavities|prior restorations|recent caries
+active white spot lesions|white spot lesions
+low socioeconomic status|low income|poverty|ses
+lack of dental care|irregular dental visits|no dental home|no dental visits|lack of access to care
+orthodontic appliances|braces|orthodontic brackets
+removable partial denture|partial denture|rpd clasps
+defective restorations|overhangs|open margins|faulty fillings|poor margins
+deep pits and fissures|deep fissures|deep grooves|unsealed pits and fissures
+exposed root surfaces|gingival recession|root exposure|recession
+enamel hypoplasia|enamel defects|hypomineralization|molar incisor hypomineralization|mih
+amelogenesis imperfecta
+dentinogenesis imperfecta
+crowding|crowded teeth|malaligned teeth
+medications that cause dry mouth|xerostomic medications|anticholinergics|antihistamines|antidepressants|polypharmacy
+sugar containing medications|sweetened syrups|liquid medications with sugar|medicated syrups
+head and neck radiation|radiation therapy|radiation caries|radiotherapy
+sjogren syndrome|sjogrens|sjogren's syndrome
+diabetes|diabetes mellitus|uncontrolled diabetes
+gerd|acid reflux|gastroesophageal reflux
+eating disorders|bulimia|anorexia
+methamphetamine use|meth use|meth mouth|methamphetamine
+drug use|substance use|illicit drug use|cocaine|heroin|opioid use
+smoking|tobacco|tobacco use|cigarettes
+chewing tobacco|smokeless tobacco
+alcohol|alcohol use|alcoholism
+cannabis|marijuana
+low salivary buffering capacity|low buffering capacity|low salivary ph|acidic saliva
+caregiver with caries|mother with active caries|parental caries|vertical transmission|maternal transmission
+saliva sharing|sharing utensils|tasting baby food|cleaning pacifier with mouth
+special health care needs|disability|intellectual disability|physical disability|developmental disability
+limited manual dexterity|arthritis|poor dexterity|parkinson disease
+elderly|older age|older adults|old age
+young age|early childhood|young children|toddlers
+adolescence|teenagers
+newly erupted teeth|immature enamel|recently erupted teeth
+genetics|genetic predisposition|family history
+low health literacy|low parental education|parental education
+cultural factors|immigrant status|minority status
+rural residence|rural area
+lack of dental insurance|no insurance|uninsured|medicaid
+prematurity|preterm birth|low birth weight
+sports drinks|energy drinks
+candies held in the mouth|hard candy|lollipops|cough drops|lozenges|breath mints with sugar
+sweetened coffee or tea|sweet tea|coffee with sugar
+honey|pacifier dipped in honey|sweetened pacifier
+chewing gum with sugar|sugared gum
+cariogenic bacteria|high bacterial counts|high mutans count
+visible heavy plaque|heavy plaque|plaque on teeth
+bleeding gums|gingivitis
+inadequate brushing technique|poor brushing technique
+not flossing|no flossing|lack of interdental cleaning
+night time eating|eating before bed|snacking at night
+chemotherapy|cancer treatment
+hiv|aids
+mouth breathing
+open contacts|food impaction
+root canal treated teeth|endodontically treated teeth
+fixed bridges|bridges|pontics
+hypophosphatasia
+ectodermal dysplasia
+down syndrome
+cerebral palsy
+autism|autism spectrum disorder
+adhd|attention deficit hyperactivity disorder
+asthma inhalers|inhaled corticosteroids|inhaler use
+depression|mental illness|psychiatric illness
+dementia|alzheimer disease
+nursing home residence|institutionalized|long term care resident
+stroke
+salivary gland disease|salivary gland dysfunction|salivary gland aplasia
+radioactive iodine|i 131 therapy
+antidepressant use|tricyclic antidepressants
+diuretics
+opioids|methadone
+nicotine pouches|vaping|e cigarettes|vapes
+pregnancy|pregnancy vomiting|morning sickness
+frequent vomiting|hyperemesis gravidarum
+acidic diet|acidic foods|citrus
+lack of sealants|no sealants
+low fluoride toothpaste|non fluoride toothpaste
+hypothyroidism
+vitamin d deficiency
+malnutrition|undernutrition
+celiac disease
+`, "2026-11-17");
+
+P("Name a cause of loose teeth (tooth mobility)","dental","",`
+periodontitis|periodontal disease|gum disease|pyorrhea|chronic periodontitis|aggressive periodontitis|localized aggressive periodontitis|juvenile periodontitis|molar incisor pattern periodontitis
+bone loss|alveolar bone loss|loss of bone support
+trauma|dental trauma|injury|blow to the mouth|luxation|subluxation
+bruxism|teeth grinding|clenching|grinding
+occlusal trauma|trauma from occlusion|traumatic occlusion|primary occlusal trauma|secondary occlusal trauma
+high filling|high restoration|premature contact|occlusal interference
+orthodontic treatment|braces|orthodontic tooth movement
+normal exfoliation of baby teeth|losing baby teeth|primary tooth exfoliation|shedding baby teeth|wiggly baby tooth
+periapical abscess|dental abscess|tooth abscess|periapical infection
+periodontal abscess|gum abscess
+acute apical periodontitis|apical periodontitis
+root fracture|horizontal root fracture|vertical root fracture|cracked root
+alveolar fracture|alveolar process fracture|dentoalveolar fracture
+jaw fracture|mandible fracture|maxillary fracture
+root resorption|external root resorption|internal resorption|resorption
+short roots|short root length|poor crown to root ratio|crown to root ratio
+pregnancy|pregnancy hormones|pregnancy gingivitis
+diabetes|uncontrolled diabetes|diabetes mellitus
+smoking|tobacco
+osteoporosis
+vitamin c deficiency|scurvy
+hypophosphatasia
+papillon lefevre syndrome
+leukocyte adhesion deficiency|lad
+chediak higashi syndrome
+cyclic neutropenia|neutropenia
+agranulocytosis
+down syndrome
+ehlers danlos syndrome|periodontal ehlers danlos
+langerhans cell histiocytosis|histiocytosis x|eosinophilic granuloma|letterer siwe|hand schuller christian
+leukemia|acute leukemia
+multiple myeloma|myeloma
+lymphoma
+squamous cell carcinoma|oral cancer|gingival carcinoma
+osteosarcoma
+metastatic cancer|metastasis to the jaw
+ameloblastoma
+odontogenic keratocyst|okc|keratocystic odontogenic tumor
+central giant cell granuloma|giant cell lesion
+odontogenic cyst|radicular cyst|jaw cyst
+hyperparathyroidism|brown tumor
+osteomyelitis|jaw osteomyelitis
+osteonecrosis of the jaw|medication related osteonecrosis of the jaw|mronj|bronj
+osteoradionecrosis
+radiation therapy|head and neck radiation
+chemotherapy
+paget disease of bone|paget disease
+fibrous dysplasia
+necrotizing periodontitis|necrotizing ulcerative periodontitis|nup
+necrotizing gingivitis|anug|trench mouth
+hiv|aids
+periodontal surgery|post surgical mobility|after scaling and root planing
+recent periodontal treatment|deep cleaning
+endodontic periodontal lesion|perio endo lesion|combined endo perio lesion
+cracked tooth|cracked tooth syndrome
+replanted tooth|after replantation
+autotransplanted tooth|tooth transplantation
+extrusion|extruded tooth|extrusive luxation
+intrusion|intrusive luxation
+lateral luxation
+removable partial denture clasps|rpd clasp forces|ill fitting partial denture
+bridge abutment overload|overloaded abutment
+loss of adjacent teeth|missing teeth|drifting teeth
+pathologic migration|flaring of teeth
+tongue thrust
+lip biting|nail biting|pen chewing|oral habits
+tumor of the jaw|jaw tumor
+hormonal changes|menopause|puberty
+acatalasia
+burkitt lymphoma
+ewing sarcoma
+chondrosarcoma
+central hemangioma|intraosseous hemangioma|vascular malformation of the jaw
+gorham stout disease|vanishing bone disease
+cherubism
+fibrous dysplasia
+granulomatosis with polyangiitis|wegener granulomatosis|strawberry gingivitis
+haim munk syndrome
+kindler syndrome
+hypophosphatemic rickets|vitamin d resistant rickets|x linked hypophosphatemia
+`, "2026-11-17");
+
+P("Name a bone disease that affects the jaws","dental","",`
+osteomyelitis|jaw osteomyelitis|acute osteomyelitis|chronic osteomyelitis
+osteonecrosis of the jaw|medication related osteonecrosis of the jaw|mronj|bronj|bisphosphonate related osteonecrosis|denosumab osteonecrosis
+osteoradionecrosis|orn|radiation necrosis
+fibrous dysplasia|monostotic fibrous dysplasia|polyostotic fibrous dysplasia|craniofacial fibrous dysplasia
+paget disease|paget disease of bone|osteitis deformans|paget's disease
+cherubism
+osteoporosis
+osteopetrosis|marble bone disease|albers schonberg disease
+cemento osseous dysplasia|cemental dysplasia|periapical cemental dysplasia|periapical cemento osseous dysplasia|florid cemento osseous dysplasia|focal cemento osseous dysplasia|cementoma
+central giant cell granuloma|central giant cell lesion|giant cell granuloma|cgcg
+hyperparathyroidism|brown tumor|osteitis fibrosa cystica
+renal osteodystrophy|chronic kidney disease mineral bone disorder|ckd mbd
+osteogenesis imperfecta|brittle bone disease
+cleidocranial dysplasia|cleidocranial dysostosis
+mccune albright syndrome
+jaffe lichtenstein syndrome
+langerhans cell histiocytosis|histiocytosis x|eosinophilic granuloma|hand schuller christian disease|letterer siwe disease
+osteosarcoma|osteogenic sarcoma
+chondrosarcoma
+ewing sarcoma
+multiple myeloma|myeloma
+plasmacytoma|solitary plasmacytoma
+burkitt lymphoma
+lymphoma
+metastatic disease|metastasis to the jaw|bone metastasis
+osteoma
+gardner syndrome|familial adenomatous polyposis
+torus|tori|torus palatinus|torus mandibularis|exostosis|exostoses|buccal exostosis
+condensing osteitis|focal sclerosing osteomyelitis
+idiopathic osteosclerosis|dense bone island|enostosis
+garre osteomyelitis|proliferative periostitis|periostitis ossificans|garre's osteomyelitis
+diffuse sclerosing osteomyelitis
+sapho syndrome
+simple bone cyst|traumatic bone cyst|solitary bone cyst|hemorrhagic bone cyst|idiopathic bone cavity
+aneurysmal bone cyst
+stafne defect|stafne bone cyst|static bone cyst|lingual mandibular salivary gland depression
+focal osteoporotic marrow defect|osteoporotic bone marrow defect
+osteoblastoma
+osteoid osteoma
+ossifying fibroma|cemento ossifying fibroma|juvenile ossifying fibroma
+desmoplastic fibroma
+hemangioma of bone|intraosseous hemangioma|central hemangioma
+arteriovenous malformation|intraosseous avm
+rickets|osteomalacia|vitamin d deficiency
+hypophosphatasia
+x linked hypophosphatemia|hypophosphatemic rickets|vitamin d resistant rickets
+hypoparathyroidism
+pseudohypoparathyroidism
+acromegaly|gigantism
+thalassemia|beta thalassemia|thalassemia major|chipmunk facies
+sickle cell disease|sickle cell anemia
+gaucher disease
+hyperthyroidism
+cushing syndrome|steroid induced osteoporosis
+scurvy|vitamin c deficiency
+pyknodysostosis
+craniometaphyseal dysplasia
+infantile cortical hyperostosis|caffey disease
+gorham stout disease|vanishing bone disease|massive osteolysis
+progressive hemifacial atrophy|parry romberg syndrome
+condylar hyperplasia
+condylar resorption|idiopathic condylar resorption
+osteoarthritis of the tmj|tmj osteoarthritis|degenerative joint disease
+rheumatoid arthritis of the tmj
+ankylosis|tmj ankylosis
+osteochondroma
+chondroma
+fibrosarcoma
+tuberculous osteomyelitis|tuberculosis of the jaw
+actinomycosis
+syphilitic osteomyelitis|syphilis
+phossy jaw|phosphorus necrosis
+osteopenia
+alveolar osteitis|dry socket
+neurofibromatosis
+noonan syndrome
+van buchem disease|hyperostosis corticalis generalisata
+sclerosteosis
+camurati engelmann disease|progressive diaphyseal dysplasia
+melorheostosis
+juvenile paget disease|hyperphosphatasia
+segmental odontomaxillary dysplasia|hemimaxillofacial dysplasia
+leukemic infiltration of the jaw|leukemia
+osteopathia striata
+fibro osseous lesion|benign fibro osseous lesion
+`, "2026-11-17");
+
+P("Name a sign or finding on a dental X-ray","dental","",`
+cavity|caries|tooth decay|interproximal caries|radiolucent caries
+bone loss|alveolar bone loss|horizontal bone loss|vertical bone loss|angular bone loss
+periapical radiolucency|periapical lesion|apical radiolucency|dark spot at the root tip|pal
+abscess|periapical abscess|dental abscess
+calculus|tartar|calculus spurs|calculus bridges
+impacted tooth|impacted wisdom tooth|impaction|impacted third molar|impacted canine
+widened periodontal ligament space|widened pdl|pdl widening|thickened pdl space
+loss of lamina dura|absent lamina dura|lamina dura loss
+furcation involvement|furcation radiolucency|furcation bone loss
+root fracture|fractured root|vertical root fracture|horizontal root fracture
+overhang|overhanging restoration|open margin|defective margin
+recurrent caries|secondary caries|recurrent decay
+root canal filling|gutta percha|obturation|endodontically treated tooth|root canal treated tooth
+voids in obturation|underfilled root canal|overfilled root canal|short fill|overextension
+root resorption|external root resorption|internal root resorption|pink tooth
+pulp stones|denticles|pulp calcification
+calcific metamorphosis|pulp canal obliteration|calcified canal|obliterated canal
+hypercementosis
+condensing osteitis|focal sclerosing osteomyelitis
+periapical sclerosis|sclerotic bone
+idiopathic osteosclerosis|dense bone island|enostosis
+supernumerary tooth|extra tooth|mesiodens|hyperdontia
+missing tooth|congenitally missing teeth|hypodontia|agenesis|anodontia|oligodontia
+retained root tip|root tip|retained root
+retained primary tooth|over retained baby tooth
+taurodontism|taurodont
+dilaceration|dilacerated root
+dens in dente|dens invaginatus
+dens evaginatus
+concrescence
+fusion|gemination|double tooth
+ankylosis|ankylosed tooth|infraocclusion
+supraeruption|overeruption
+tilted tooth|tipped tooth|mesial drift
+crowding|crowded teeth
+open contact|diastema
+cervical burnout|burnout|cervical burn out
+mach band
+nutrient canals
+pericoronal radiolucency|dentigerous cyst|enlarged follicle|follicular space
+unilocular radiolucency
+multilocular radiolucency|soap bubble appearance|soap bubble
+honeycomb appearance|honeycomb
+tennis racket appearance|stepladder pattern
+ground glass appearance|ground glass|orange peel appearance
+cotton wool appearance|cotton wool|cotton wool appearance of paget
+sunburst appearance|sun ray appearance|sunray|hair on end appearance|sunburst
+onion skin appearance|onion skin|onion skinning
+moth eaten appearance|moth eaten bone|motheaten
+floating teeth|teeth floating in air|teeth hanging in air
+scalloping|scalloped border|scalloping between roots
+corticated border|corticated margin|well defined border
+ill defined border|poorly defined margins|irregular borders
+punched out lesions|punched out radiolucencies
+target lesion|radiopaque mass with radiolucent rim|halo
+radiopaque mass|radiopacity
+mixed radiolucent radiopaque lesion|mixed density lesion|mixed lesion
+tooth displacement|displaced teeth
+knife edge root resorption|spiky root resorption
+symmetric widening of the pdl space|uniform pdl widening|scleroderma pdl widening
+loss of trabecular pattern|loss of bone density|osteopenia
+sequestrum|sequestra|bone sequestrum
+periosteal reaction|periosteal new bone|garre osteomyelitis
+fracture line|jaw fracture|mandible fracture|fracture
+foreign body|amalgam tattoo|retained amalgam|retained fragment
+sialolith|salivary stone|sialolithiasis
+tonsillolith|tonsil stone
+carotid artery calcification|calcified carotid|carotid atheroma
+phlebolith
+calcified lymph node|calcified lymph nodes
+elongated styloid process|eagle syndrome|calcified stylohyoid ligament
+antrolith|rhinolith
+mucous retention cyst|retention pseudocyst|antral pseudocyst|dome shaped opacity in the sinus
+sinus opacification|sinusitis|thickened sinus lining|mucosal thickening
+pneumatized sinus|sinus pneumatization|sinus extension
+tori|torus|exostosis|torus mandibularis|torus palatinus
+condylar flattening|condyle erosion|osteophyte|subchondral sclerosis|degenerative joint disease
+bifid condyle
+odontoma|tooth like mass|compound odontoma|complex odontoma
+cementoblastoma|radiopaque mass fused to root
+cemento osseous dysplasia|periapical cemento osseous dysplasia|florid cemento osseous dysplasia
+bone graft material|graft particles
+dental implant|implant
+peri implant bone loss|saucerization around implant|crestal bone loss around implant
+radiolucency around implant|failed osseointegration
+crown|dental crown
+bridge|fixed bridge
+post and core|metal post
+amalgam filling|amalgam restoration|radiopaque filling
+composite filling|radiolucent composite|composite restoration
+base or liner|calcium hydroxide liner|liner
+orthodontic brackets|braces|orthodontic wire|retainer wire|lingual retainer
+open apex|immature apex|incomplete root formation|blunderbuss canal
+developing tooth bud|tooth germ|tooth crypt
+lateral canal|accessory canal|lateral canal filled with sealer
+separated instrument|broken file|instrument separation
+perforation|root perforation|furcation perforation|strip perforation
+ledge|canal ledge|transportation
+extruded sealer|sealer puff|sealer extrusion
+apical periodontitis
+periapical granuloma|periapical cyst|radicular cyst
+residual cyst
+lateral periodontal cyst
+nasopalatine duct cyst|incisive canal cyst|heart shaped radiolucency
+inverted pear shaped radiolucency|pear shaped radiolucency|globulomaxillary lesion
+stafne defect|stafne bone cyst
+traumatic bone cyst|simple bone cyst
+step defect|step deformity
+cracked tooth|crack line
+attrition|tooth wear
+erosion|dental erosion
+abrasion|cervical abrasion
+enamel pearl
+shell teeth|bulbous crowns|obliterated pulp chambers|dentinogenesis imperfecta
+thistle tube pulp|thistle tube shaped pulp|dentin dysplasia type 2
+rootless teeth|short roots|dentin dysplasia type 1
+ghost teeth|regional odontodysplasia
+thin enamel|amelogenesis imperfecta
+hair on end skull|crew cut skull
+salt and pepper skull|salt and pepper appearance|pepper pot skull
+brown tumor
+`, "2026-11-17");
+
+P("Name a dental bur or handpiece","dental","",`
+high speed handpiece|high speed|air turbine|air rotor|high speed drill|drill
+slow speed handpiece|low speed handpiece|slow speed|low speed|motor
+electric handpiece|electric motor handpiece
+contra angle handpiece|contra angle
+straight handpiece|straight nose cone|nose cone
+prophy angle|disposable prophy angle|prophylaxis angle
+surgical handpiece|surgical straight handpiece|impact air handpiece|45 degree handpiece
+implant motor|implant handpiece|physiodispenser
+endodontic motor|endo motor|rotary endo handpiece|reciprocating handpiece
+laboratory handpiece|lab handpiece|micromotor
+latch type|latch type bur|right angle latch|ra bur
+friction grip|fg bur|friction grip bur
+hp bur|straight handpiece bur|long shank bur
+round bur|round carbide|no 2 round bur|no 4 round bur|no 6 round bur|no 8 round bur|1/4 round bur|1/2 round bur
+inverted cone bur|inverted cone|33 1/2 bur|34 bur|35 bur
+pear shaped bur|pear bur|330 bur|no 330
+245 bur|no 245
+straight fissure bur|plain fissure bur|56 bur|57 bur|58 bur
+crosscut fissure bur|cross cut fissure|557 bur|558 bur|556 bur
+tapered fissure bur|169 bur|169l|170 bur|171 bur|tapered crosscut|699 bur|700 bur|701 bur|702 bur|703 bur
+end cutting bur|957 bur|end cutting
+carbide bur|tungsten carbide bur
+diamond bur|diamond|diamond stone
+flame diamond|flame bur|flame shaped diamond
+football diamond|football bur|egg shaped diamond
+round end tapered diamond|chamfer diamond|round end taper
+flat end tapered diamond|flat end taper|shoulder diamond|shoulder bur
+torpedo diamond|torpedo bur|knife edge diamond
+wheel diamond|wheel bur|doughnut diamond
+cylinder diamond|flat end cylinder
+needle diamond|needle bur
+inverted cone diamond
+depth cutting bur|depth cutter|depth groove bur|depth marking diamond|tdm bur
+finishing bur|finishing carbide|multi fluted bur|12 fluted|30 fluted
+polishing bur|polishing point|polishing cup|polishing disc|polishing wheel
+white stone|white arkansas stone|arkansas stone|green stone|aluminum oxide stone
+rubber cup|prophy cup|rubber point|brownie|greenie|rubber wheel
+sof lex disc|sof lex|finishing disc|sandpaper disc|abrasive disc|aluminum oxide disc
+mandrel|snap on mandrel|disc mandrel
+separating disc|cutting disc|diamond disc|carborundum disc
+acrylic bur|acrylic trimming bur|vulcanite bur
+lab bur|laboratory carbide|denture bur|crosscut acrylic bur
+crown cutting bur|metal cutting bur|crown remover bur|beaver bur|transmetal bur|great white bur
+zirconia cutting bur|zirconia bur
+ceramic bur|ceramic polishing bur
+surgical bur|surgical length bur|long shank surgical bur|bone bur
+lindemann bur|lindemann side cutting bur
+zekrya bur|zekrya
+bone cutting bur|round surgical bur|egg shaped bone bur
+implant drill|pilot drill|twist drill|trephine bur|trephine
+gates glidden drill|gates glidden|gg drill
+peeso reamer|peeso drill|largo reamer
+lentulo spiral|lentulo|paste filler
+post drill|post space drill
+munce bur|munce discovery bur
+long neck round bur|ln bur|mueller bur
+endo z bur|safe ended bur|non end cutting bur|batt bur
+endo access bur|access bur
+caries detecting bur|ceramic caries bur|polymer bur|smartbur|self limiting bur
+ipr disc|orthodontic stripping disc|interproximal reduction disc
+bracket removal bur|debonding bur|adhesive removal bur
+amalgam finishing bur|amalgam polisher
+composite finishing bur|composite polisher
+egg bur|egg shaped finishing bur
+bud bur|bud shaped bur
+pin drill|twist drill for pins|tms pin drill
+spiral finishing bur|spiral fluted
+pear shaped diamond|pear diamond
+barrel diamond|barrel shaped diamond
+pointed cone diamond|cone diamond
+modified shoulder diamond|long chamfer diamond
+coarse diamond|super coarse diamond|black band diamond|green band diamond
+fine diamond|red band diamond|extra fine diamond|yellow band diamond|finishing diamond
+single use diamond|disposable diamond bur
+speed increasing handpiece|red band handpiece|1 to 5 handpiece|electric contra angle
+speed reducing handpiece|blue band handpiece|green band handpiece|reduction handpiece
+hygiene handpiece|prophy handpiece
+ultrasonic scaler|cavitron|magnetostrictive scaler|piezoelectric scaler
+sonic scaler|air scaler|air driven scaler
+air polishing handpiece|prophy jet|air polisher
+piezosurgery handpiece|piezosurgery unit
+dental laser handpiece|laser handpiece
+fissurotomy bur
+7901 bur|7902 bur|trimming and finishing bur|7406 bur|7404 bur
+rag wheel|felt wheel|lathe|chamois wheel|pumice wheel
+dentatus bur|dentatus
+fiber optic handpiece|led handpiece|light handpiece
+`, "2026-11-17");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

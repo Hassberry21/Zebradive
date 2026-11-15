@@ -70483,6 +70483,1112 @@ satoyoshi syndrome
 brody disease|brody myopathy
 `, "2026-11-17");
 
+/* ---- NEW STANDARD DAILY PROMPTS: NURSING part 3 (batch 2026-11-15, board-first) ---- */
+P("Name a risk factor for breast cancer","nursing","",`
+female sex|being female|female gender|being a woman|women
+increasing age|age|older age|age over 50|aging|advanced age
+family history|family history of breast cancer|mother with breast cancer|sister with breast cancer|first degree relative with breast cancer
+brca1 mutation|brca1|brca 1
+brca2 mutation|brca2|brca 2
+brca mutation|brca gene|brca|genetic mutation|inherited gene mutation|genetics|hereditary breast cancer
+early menarche|early menstruation|early first period|menarche before 12|early onset of menstruation
+late menopause|menopause after 55|late onset of menopause
+nulliparity|never having children|never been pregnant|no children|nulliparous|childlessness
+low parity|few children|few pregnancies|fewer pregnancies
+first pregnancy after 30|late first pregnancy|first child after 30|older age at first birth|late childbearing
+hormone replacement therapy|hrt|hormone therapy|menopausal hormone therapy|combined hormone therapy|estrogen plus progestin|postmenopausal hormone therapy
+obesity|being overweight|overweight|high bmi|postmenopausal obesity
+alcohol use|alcohol|drinking alcohol|alcohol consumption|heavy drinking
+personal history of breast cancer|previous breast cancer|prior breast cancer|history of breast cancer
+chest radiation|radiation to the chest|chest wall radiation|mantle radiation|radiation exposure|prior radiation therapy to the chest
+dense breast tissue|dense breasts|high breast density|breast density
+physical inactivity|sedentary lifestyle|lack of exercise|inactivity
+not breastfeeding|never breastfed|no breastfeeding|lack of breastfeeding
+long menstrual history|prolonged estrogen exposure|lifetime estrogen exposure|unopposed estrogen|high estrogen exposure
+oral contraceptives|birth control pills|combined oral contraceptives|ocps|the pill
+atypical hyperplasia|atypical ductal hyperplasia|adh|atypical lobular hyperplasia|alh
+lobular carcinoma in situ|lcis
+ductal carcinoma in situ|dcis
+smoking|tobacco use|cigarette smoking|tobacco
+high fat diet|diet high in fat|western diet|high saturated fat intake
+diethylstilbestrol exposure|des|des exposure|diethylstilbestrol|des daughter|mother took des
+white race|caucasian|white women
+ashkenazi jewish ancestry|ashkenazi jewish|ashkenazi descent|jewish ancestry
+family history of ovarian cancer|ovarian cancer in family
+male relative with breast cancer|father with breast cancer|family history of male breast cancer
+early onset breast cancer in family|relative diagnosed before 50|premenopausal breast cancer in relative
+multiple relatives with breast cancer|multiple affected relatives
+relative with a known brca mutation|family brca mutation|known familial mutation
+bilateral breast cancer in a relative|relative with bilateral breast cancer
+postmenopausal weight gain|adult weight gain|weight gain after menopause
+tall height|being tall|tall stature
+high bone mineral density|high bone density
+high birth weight
+type 2 diabetes|diabetes|diabetes mellitus
+insulin resistance|hyperinsulinemia
+metabolic syndrome
+night shift work|shift work|working night shifts|circadian disruption
+history of hodgkin lymphoma|hodgkin lymphoma|hodgkins disease|hodgkin disease
+childhood cancer survivor|childhood chest radiation
+proliferative breast disease|proliferative lesions without atypia|usual ductal hyperplasia|proliferative fibrocystic changes
+complex fibroadenoma
+intraductal papilloma|papillomatosis|multiple papillomas
+radial scar|complex sclerosing lesion
+sclerosing adenosis
+flat epithelial atypia|columnar cell lesion with atypia
+history of endometrial cancer|endometrial cancer|uterine cancer
+personal history of ovarian cancer|history of ovarian cancer
+higher socioeconomic status|high socioeconomic status|affluence
+recent childbirth|pregnancy associated breast cancer|recent pregnancy
+high endogenous estrogen levels|elevated estradiol|high estrogen levels
+high testosterone levels|elevated androgens|high androgens
+hyperprolactinemia|high prolactin levels
+high insulin like growth factor 1|high igf-1|igf-1|elevated igf1
+depot medroxyprogesterone|depo provera|depo-provera|dmpa
+gender affirming estrogen therapy|feminizing hormone therapy|transgender women on estrogen
+estrogen therapy in men|exogenous estrogen in men|estrogen treatment for prostate cancer
+klinefelter syndrome|klinefelter|xxy|47 xxy
+cirrhosis|liver cirrhosis|chronic liver disease
+testicular disorders|undescended testes|orchitis|testicular injury|cryptorchidism
+ionizing radiation|atomic bomb exposure|nuclear radiation exposure
+repeated chest x rays|frequent x rays|multiple fluoroscopies|childhood scoliosis x rays
+tuberculosis fluoroscopy|fluoroscopy for tuberculosis
+li fraumeni syndrome|tp53 mutation|tp53|li-fraumeni syndrome
+cowden syndrome|pten mutation|pten hamartoma tumor syndrome|pten
+palb2 mutation|palb2
+chek2 mutation|chek2
+atm mutation|atm|ataxia telangiectasia|ataxia telangiectasia carrier
+cdh1 mutation|hereditary diffuse gastric cancer syndrome|cdh1
+peutz jeghers syndrome|stk11 mutation|stk11|peutz-jeghers syndrome
+neurofibromatosis type 1|nf1|von recklinghausen disease
+rad51c mutation|rad51c
+rad51d mutation|rad51d
+bard1 mutation|bard1
+bloom syndrome
+juvenile papillomatosis
+`, "2026-11-17");
+P("Name a risk factor for depression","nursing","",`
+family history of depression|family history|genetics|genetic predisposition|parent with depression|heredity|family history of mental illness
+previous episode of depression|history of depression|prior depression|previous depressive episode|past depression
+female sex|being female|female gender|women
+stressful life events|major life stressors|life stress|stressful events
+death of a loved one|bereavement|grief|loss of a loved one|loss
+chronic illness|chronic disease|chronic medical illness|chronic health conditions
+chronic pain|persistent pain
+substance abuse|substance use|drug abuse|drug use|substance use disorder
+alcohol use|alcohol abuse|alcoholism|alcohol use disorder|heavy drinking|alcohol
+social isolation|isolation|loneliness|living alone
+lack of social support|poor social support|no support system|low social support
+childhood trauma|trauma|adverse childhood experiences|aces|childhood adversity
+childhood abuse|child abuse|abuse|history of abuse
+sexual abuse|sexual assault|rape|history of sexual abuse
+physical abuse
+emotional abuse|psychological abuse|verbal abuse
+childhood neglect|neglect
+domestic violence|intimate partner violence|ipv|spousal abuse
+postpartum period|postpartum|recent childbirth|having a baby|after delivery
+pregnancy|antenatal period|being pregnant
+hormonal changes|hormone changes|hormonal fluctuations
+menopause|perimenopause|menopausal transition
+adolescence|puberty|teenage years|being a teenager
+older age|elderly|aging|old age
+divorce|separation|marital separation|breakup|relationship breakup
+marital problems|relationship problems|relationship conflict|unhappy marriage
+widowhood|loss of a spouse|death of a spouse|being widowed
+unemployment|job loss|losing a job|being fired
+poverty|low income|low socioeconomic status|financial hardship|financial problems|financial stress|debt
+homelessness|housing instability
+anxiety disorder|anxiety|generalized anxiety disorder|gad
+post traumatic stress disorder|ptsd|post-traumatic stress disorder
+eating disorder|anorexia nervosa|bulimia nervosa|binge eating disorder|anorexia|bulimia
+attention deficit hyperactivity disorder|adhd|add
+borderline personality disorder|bpd|personality disorder
+obsessive compulsive disorder|ocd
+insomnia|sleep problems|sleep disturbance|poor sleep|sleep deprivation|lack of sleep
+low self esteem|poor self esteem|low self-esteem|negative self image
+pessimism|negative thinking|negative thinking style|cognitive distortions
+neuroticism|anxious temperament|high neuroticism
+perfectionism
+rumination
+learned helplessness|hopelessness
+caregiver burden|caregiving|caregiver stress|caring for a sick family member|caregiver role strain
+stroke|cva|cerebrovascular accident|post stroke
+myocardial infarction|heart attack|mi|recent heart attack
+coronary artery disease|heart disease|cad|cardiovascular disease
+heart failure|chf|congestive heart failure
+diabetes|diabetes mellitus|type 2 diabetes|type 1 diabetes
+cancer|malignancy|cancer diagnosis
+pancreatic cancer
+hypothyroidism|underactive thyroid|low thyroid|hashimoto thyroiditis|hashimotos
+hyperthyroidism|overactive thyroid|graves disease|apathetic hyperthyroidism
+cushing syndrome|cushings syndrome|cushings|cushing disease|hypercortisolism
+addison disease|addisons disease|adrenal insufficiency
+parkinson disease|parkinsons disease|parkinsons
+multiple sclerosis|ms
+epilepsy|seizure disorder|seizures
+alzheimer disease|dementia|alzheimers|alzheimers disease
+vascular dementia
+lewy body dementia|dementia with lewy bodies
+huntington disease|huntingtons disease|huntingtons chorea
+traumatic brain injury|tbi|head injury|concussion|post concussion syndrome
+brain tumor|frontal lobe tumor
+chronic obstructive pulmonary disease|copd|emphysema|chronic bronchitis
+asthma
+chronic kidney disease|ckd|end stage renal disease|esrd|kidney failure|dialysis|hemodialysis
+hiv|aids|hiv infection
+hepatitis c|hep c|hcv
+obesity|being overweight|overweight
+physical inactivity|sedentary lifestyle|lack of exercise
+smoking|tobacco use|nicotine dependence|cigarette smoking
+cannabis use|marijuana use|marijuana|cannabis|weed
+cocaine withdrawal|stimulant withdrawal|amphetamine withdrawal|methamphetamine withdrawal|crash after stimulants
+opioid use disorder|opioid use|opioid addiction|chronic opioid use|opioids
+benzodiazepine use|benzodiazepines|chronic benzodiazepine use
+corticosteroids|steroids|prednisone|glucocorticoids|steroid use
+isotretinoin|accutane
+interferon|interferon alfa|interferon therapy|peginterferon
+reserpine
+beta blockers|propranolol
+methyldopa|aldomet
+clonidine
+hormonal contraceptives|birth control|oral contraceptives|birth control pills|hormonal birth control
+gnrh agonists|leuprolide|lupron|androgen deprivation therapy
+finasteride|propecia|proscar
+montelukast|singulair
+efavirenz|sustiva
+mefloquine|lariat
+levetiracetam|keppra
+phenobarbital|barbiturates
+topiramate|topamax
+vigabatrin
+metoclopramide|reglan
+apremilast|otezla
+brodalumab|siliq
+rimonabant
+flunarizine
+chemotherapy|cancer treatment
+vitamin b12 deficiency|b12 deficiency|pernicious anemia|cobalamin deficiency
+folate deficiency|folic acid deficiency
+hypogonadism|low testosterone|testosterone deficiency
+hyperparathyroidism|hypercalcemia
+obstructive sleep apnea|sleep apnea|osa
+chronic fatigue syndrome|myalgic encephalomyelitis|me cfs
+fibromyalgia
+migraine|migraines|chronic headaches
+rheumatoid arthritis|ra
+systemic lupus erythematosus|lupus|sle
+inflammatory bowel disease|ibd|crohn disease|crohns disease|ulcerative colitis
+irritable bowel syndrome|ibs
+psoriasis
+severe acne|acne
+atopic dermatitis|eczema
+long covid|post covid condition|post acute sequelae of covid
+polycystic ovary syndrome|pcos
+endometriosis
+infertility|inability to conceive
+miscarriage|pregnancy loss|stillbirth|perinatal loss|fetal loss
+unplanned pregnancy|unwanted pregnancy|unintended pregnancy
+teen pregnancy|adolescent pregnancy
+baby in the nicu|nicu admission|premature baby|preterm infant
+spinal cord injury|paralysis
+amputation|limb loss
+burn injury|burns|disfigurement
+hearing loss|deafness
+vision loss|blindness|visual impairment
+functional disability|disability|loss of independence|physical disability|loss of mobility
+retirement
+nursing home placement|institutionalization|moving to a nursing home|long term care placement
+relocation|moving|recent move
+chronic stress|ongoing stress
+work stress|job stress|occupational stress|burnout
+bullying|being bullied
+cyberbullying|online bullying
+discrimination|racism|minority stress
+lgbtq minority stress|sexual minority status|being lgbtq|gay lesbian bisexual
+gender dysphoria|transgender minority stress
+military combat|combat exposure|military deployment|war
+refugee status|forced displacement|being a refugee|immigration stress
+incarceration|imprisonment|jail|prison
+natural disaster|disaster exposure
+food insecurity|hunger
+low education level|less education|low educational attainment
+parental divorce|parents divorce in childhood
+parental death in childhood|early parental loss|loss of a parent in childhood
+parental substance abuse|alcoholic parent
+foster care|childhood in foster care
+family conflict|family dysfunction|dysfunctional family
+academic pressure|school stress
+seasonal lack of sunlight|lack of sunlight|winter|short days|reduced daylight
+autism spectrum disorder|autism|asd
+learning disability|intellectual disability
+schizophrenia|psychosis|post psychotic depression
+gambling disorder|problem gambling|gambling addiction
+celiac disease
+wilson disease|wilsons disease
+acute intermittent porphyria|porphyria
+neurosyphilis|syphilis
+post intensive care syndrome|icu stay|critical illness|pics
+`, "2026-11-17");
+P("Name a risk factor for malnutrition","nursing","",`
+older age|elderly|advanced age|aging|old age|older adults
+poverty|low income|financial hardship|low socioeconomic status|cant afford food
+alcohol use disorder|alcoholism|alcohol abuse|chronic alcohol use|alcohol
+dysphagia|difficulty swallowing|swallowing problems|swallowing difficulty
+poor dentition|dental problems|missing teeth|ill fitting dentures|poor fitting dentures|dentures|tooth loss|bad teeth|poor oral health
+cancer|malignancy|cancer cachexia|tumor
+chemotherapy|chemo
+radiation therapy|radiation|radiotherapy
+social isolation|living alone|isolation|loneliness
+food insecurity|lack of access to food|limited food access|food desert|hunger
+depression|major depressive disorder|depressed mood
+dementia|alzheimer disease|alzheimers|cognitive impairment|memory loss
+anorexia nervosa|anorexia
+bulimia nervosa|bulimia
+eating disorder|eating disorders|avoidant restrictive food intake disorder|arfid
+chronic illness|chronic disease
+nausea and vomiting|vomiting|nausea|persistent vomiting|hyperemesis
+chronic diarrhea|diarrhea
+malabsorption|malabsorption syndrome
+crohn disease|crohns disease|crohns
+ulcerative colitis
+inflammatory bowel disease|ibd
+celiac disease|celiac|gluten enteropathy|coeliac disease
+chronic pancreatitis|pancreatic insufficiency|exocrine pancreatic insufficiency
+cystic fibrosis|cf
+short bowel syndrome|short gut|bowel resection|small bowel resection
+bariatric surgery|gastric bypass|roux en y gastric bypass|weight loss surgery|sleeve gastrectomy
+gastrectomy|stomach removal
+recent surgery|major surgery|postoperative state|surgery
+npo status|prolonged npo|nothing by mouth|fasting for procedures|being npo
+prolonged hospitalization|hospitalization|long hospital stay
+critical illness|icu stay|intensive care
+sepsis|severe infection|infection
+burns|burn injury|major burns
+trauma|major trauma|multiple trauma
+pressure injuries|pressure ulcers|bed sores|wounds|chronic wounds
+chronic kidney disease|ckd|renal failure|end stage renal disease|dialysis|kidney disease
+liver cirrhosis|cirrhosis|liver disease|chronic liver disease
+heart failure|chf|cardiac cachexia
+chronic obstructive pulmonary disease|copd|emphysema|pulmonary cachexia
+hiv|aids|hiv infection|hiv wasting
+tuberculosis|tb
+stroke|cva|cerebrovascular accident
+parkinson disease|parkinsons disease|parkinsons
+multiple sclerosis|ms
+amyotrophic lateral sclerosis|als|lou gehrigs disease
+cerebral palsy|cp
+impaired mobility|immobility|bedridden|limited mobility|inability to shop
+functional impairment|disability|inability to cook|inability to feed self|needs help with feeding|adl dependence
+hyperthyroidism|graves disease|thyrotoxicosis
+uncontrolled diabetes|diabetes|diabetes mellitus
+gastroparesis
+peptic ulcer disease|peptic ulcer|stomach ulcer
+gastroesophageal reflux disease|gerd|acid reflux
+esophageal stricture|esophageal cancer
+head and neck cancer|oral cancer|throat cancer
+mouth sores|oral mucositis|stomatitis|mucositis
+loss of appetite|anorexia of aging|poor appetite
+altered taste|taste changes|dysgeusia|loss of taste|loss of smell
+polypharmacy|multiple medications|medication side effects
+restrictive diets|therapeutic diet|restrictive diet|fad diets|overly restrictive diet
+strict vegan diet|vegan diet|vegetarian diet without supplementation
+food allergies|multiple food allergies
+lactose intolerance
+pregnancy|hyperemesis gravidarum
+lactation|breastfeeding
+adolescence|teenage growth spurt|adolescent
+infancy|premature infants|prematurity|preterm birth|low birth weight
+failure to thrive|ftt
+congenital heart disease
+cleft lip and palate|cleft palate|cleft lip
+neglect|child neglect|elder neglect
+elder abuse|abuse
+homelessness|unstable housing
+substance use disorder|drug abuse|substance abuse|illicit drug use
+opioid use|opioid use disorder|heroin use
+stimulant use|methamphetamine use|cocaine use|amphetamines
+smoking|tobacco use
+low education level|lack of nutrition knowledge|poor nutrition knowledge
+refugee status|famine|war|displacement|humanitarian crisis
+developing country|low income country|resource limited setting
+lack of transportation|no transportation
+widowhood|recent loss of a spouse|bereavement
+mental illness|schizophrenia|serious mental illness
+intellectual disability|developmental disability
+autism|autism spectrum disorder
+anxiety
+chronic pain
+hypermetabolic state|increased metabolic demand|hypercatabolic state|catabolism
+fistula|enterocutaneous fistula|high output fistula
+ostomy|ileostomy|high output ileostomy
+small intestinal bacterial overgrowth|sibo|bacterial overgrowth
+intestinal parasites|worms|helminth infection|parasitic infection|hookworm
+giardiasis|giardia
+whipple disease
+tropical sprue
+radiation enteritis
+mesenteric ischemia|chronic mesenteric ischemia|intestinal angina
+achalasia
+zenker diverticulum|zenkers diverticulum
+myasthenia gravis
+huntington disease|huntingtons disease
+head injury|traumatic brain injury|tbi
+spinal cord injury
+rheumatoid arthritis|ra
+scleroderma|systemic sclerosis
+lupus|systemic lupus erythematosus|sle
+sickle cell disease|sickle cell anemia
+thalassemia
+nephrotic syndrome
+protein losing enteropathy
+mechanical ventilation|ventilator
+tube feeding interruptions|enteral feeding intolerance
+diuretics
+laxative abuse
+metformin
+glp 1 agonists|semaglutide|ozempic|wegovy|tirzepatide|mounjaro
+stimulant medications|methylphenidate|ritalin|adderall
+digoxin
+antiepileptics|phenytoin
+proton pump inhibitors|ppis|omeprazole
+isoniazid
+anticholinergics|anticholinergic medications
+dry mouth|xerostomia
+sjogren syndrome|sjogrens|sjogrens syndrome
+`, "2026-11-17");
+P("Name a cause of ear pain","nursing","",`
+acute otitis media|otitis media|middle ear infection|ear infection|aom
+otitis externa|swimmers ear|outer ear infection|external otitis
+earwax impaction|cerumen impaction|impacted cerumen|earwax|ear wax|wax buildup|impacted earwax
+eustachian tube dysfunction|blocked eustachian tube|eustachian tube blockage|etd
+otitis media with effusion|serous otitis media|fluid behind the eardrum|glue ear|middle ear effusion
+foreign body in ear|foreign object in ear|ear foreign body|object in ear|insect in ear|bug in ear
+barotrauma|ear barotrauma|airplane ear|otic barotrauma|flying|scuba diving|diving
+perforated eardrum|ruptured eardrum|tympanic membrane perforation|tympanic membrane rupture|eardrum rupture
+mastoiditis
+teething
+temporomandibular joint disorder|tmj|tmd|tmj disorder|temporomandibular disorder|jaw joint disorder
+dental abscess|tooth abscess|tooth infection|dental infection|abscessed tooth
+tooth decay|dental caries|cavities|cavity|toothache
+impacted wisdom teeth|wisdom teeth|impacted third molar|erupting wisdom tooth
+pharyngitis|sore throat|throat infection
+strep throat|streptococcal pharyngitis|strep
+tonsillitis
+peritonsillar abscess|quinsy
+post tonsillectomy pain|tonsillectomy|after tonsillectomy
+sinusitis|sinus infection|rhinosinusitis
+common cold|upper respiratory infection|uri|cold|upper respiratory tract infection
+influenza|flu
+covid 19|covid|coronavirus
+allergies|allergic rhinitis|hay fever|seasonal allergies
+ear trauma|injury to the ear|blow to the ear|slap to the ear
+cotton swab injury|q tip injury|cotton bud injury|ear canal trauma|qtip use
+cellulitis of the ear|auricular cellulitis
+perichondritis|auricular perichondritis
+ear piercing infection|infected ear piercing|piercing infection|infected earring
+herpes zoster oticus|ramsay hunt syndrome|ramsay-hunt syndrome|shingles of the ear
+bullous myringitis|myringitis
+malignant otitis externa|necrotizing otitis externa|skull base osteomyelitis
+otomycosis|fungal ear infection|fungal otitis externa
+furuncle in ear canal|ear canal boil|boil in ear|furunculosis
+cholesteatoma
+frostbite of the ear|frostbite|frostbitten ears
+sunburn of the ear|sunburn
+auricular hematoma|cauliflower ear|hematoma of the ear
+eczema of the ear canal|ear canal dermatitis|seborrheic dermatitis|contact dermatitis|allergic reaction to earrings|nickel allergy
+psoriasis of the ear|psoriasis
+loud noise exposure|acoustic trauma|loud noise|explosion|blast injury
+cervical spine arthritis|cervical spondylosis|neck arthritis|neck problems
+neck muscle strain|neck strain|myofascial pain|muscle tension
+trigeminal neuralgia|tic douloureux
+glossopharyngeal neuralgia
+geniculate neuralgia|nervus intermedius neuralgia
+occipital neuralgia
+migraine|headache|tension headache
+cluster headache
+giant cell arteritis|temporal arteritis
+parotitis|parotid gland infection|parotid inflammation
+mumps
+salivary gland stone|sialolithiasis|salivary stone|sialadenitis
+cervical lymphadenitis|swollen lymph nodes|lymphadenopathy
+thyroiditis|subacute thyroiditis|de quervain thyroiditis
+gastroesophageal reflux disease|gerd|acid reflux|laryngopharyngeal reflux
+eagle syndrome|elongated styloid process
+bruxism|teeth grinding|grinding teeth|jaw clenching
+pharyngeal cancer|throat cancer|oropharyngeal cancer|hypopharyngeal cancer
+laryngeal cancer|cancer of the larynx
+tongue cancer|oral cancer|mouth cancer
+nasopharyngeal cancer|nasopharyngeal carcinoma
+tonsil cancer|tonsillar cancer
+ear canal cancer|squamous cell carcinoma of the ear|skin cancer of the ear|basal cell carcinoma of the ear
+parotid tumor|parotid cancer
+myocardial infarction|heart attack|mi|angina|cardiac ischemia
+thoracic aortic aneurysm|aortic dissection
+carotid artery dissection|carotidynia|carotid dissection
+lung cancer|pancoast tumor
+esophageal cancer|esophagitis
+dental procedures|recent dental work|tooth extraction|dry socket|alveolar osteitis
+bells palsy|bell palsy|facial nerve palsy
+relapsing polychondritis
+granulomatosis with polyangiitis|wegener granulomatosis|wegeners granulomatosis|gpa
+tuberculous otitis media|tuberculosis of the ear
+syphilis of the ear|otosyphilis
+keratosis obturans
+exostoses|surfers ear|ear canal exostosis
+osteoma of the ear canal|osteoma
+chondrodermatitis nodularis helicis|chondrodermatitis nodularis chronica helicis|cnh
+gout of the ear|tophi|gouty tophus
+erysipelas
+impetigo
+hearing aid or earbud irritation|hearing aids|earbuds|headphones|ear plugs|earplugs
+ear candling|ear candling burn
+petrositis|petrous apicitis|gradenigo syndrome
+epidural abscess|intracranial abscess|brain abscess
+lateral sinus thrombosis|sigmoid sinus thrombosis|venous sinus thrombosis
+meningitis
+temporal bone fracture|skull fracture|basilar skull fracture
+first bite syndrome
+sjogren syndrome|sjogrens
+infectious mononucleosis|mononucleosis|mono|epstein barr virus|ebv
+epiglottitis
+retropharyngeal abscess
+ludwig angina|ludwigs angina
+cervical disc herniation|herniated cervical disc
+whiplash
+`, "2026-11-17");
+P("Name a cause of night sweats","nursing","",`
+tuberculosis|tb|pulmonary tuberculosis|active tuberculosis
+menopause|perimenopause|hot flashes|hot flushes|menopausal hot flashes|vasomotor symptoms
+lymphoma|hodgkin lymphoma|non hodgkin lymphoma|hodgkins lymphoma|hodgkins disease|nhl
+leukemia|acute leukemia|chronic leukemia|cll|aml|all|cml
+hiv|aids|hiv infection|acute hiv infection|acute retroviral syndrome
+hyperthyroidism|overactive thyroid|graves disease|thyrotoxicosis|thyroid storm
+hypoglycemia|nocturnal hypoglycemia|low blood sugar|nighttime hypoglycemia|somogyi effect
+infection|febrile illness|infections
+influenza|flu
+covid 19|covid|coronavirus|sars cov 2
+endocarditis|infective endocarditis|bacterial endocarditis|subacute bacterial endocarditis
+cancer|malignancy|solid tumors
+alcohol use|alcohol|drinking alcohol before bed
+alcohol withdrawal|delirium tremens|withdrawal from alcohol
+drug withdrawal|opioid withdrawal|benzodiazepine withdrawal|withdrawal
+antidepressants|ssris|ssri|snris|selective serotonin reuptake inhibitors|sertraline|fluoxetine|paroxetine|venlafaxine|duloxetine|escitalopram|citalopram|bupropion
+tricyclic antidepressants|tcas|amitriptyline|nortriptyline
+antipyretics|acetaminophen|tylenol|aspirin|nsaids
+insulin|sulfonylureas|glipizide|glyburide|diabetes medications
+corticosteroids|steroids|prednisone|steroid withdrawal
+antiestrogen therapy|tamoxifen|aromatase inhibitors|anastrozole|letrozole|exemestane
+gnrh agonists|leuprolide|lupron|androgen deprivation therapy|goserelin
+opioids|opioid use|morphine|methadone|tramadol
+niacin|nicotinic acid
+sildenafil|viagra|tadalafil|pde5 inhibitors
+nitrates|nitroglycerin|hydralazine|vasodilators
+cholinergic agonists|pilocarpine|bethanechol
+cholinesterase inhibitors|donepezil|aricept|rivastigmine|galantamine
+antipsychotics|clozapine|olanzapine|quetiapine|risperidone
+thyroid hormone excess|levothyroxine overdose|excess thyroid medication|levothyroxine
+anxiety|anxiety disorder|generalized anxiety disorder|panic attacks|nocturnal panic attacks|panic disorder
+nightmares|night terrors|sleep terrors|bad dreams|ptsd|post traumatic stress disorder
+obstructive sleep apnea|sleep apnea|osa
+gastroesophageal reflux disease|gerd|acid reflux
+pregnancy|pregnant
+postpartum period|postpartum|after childbirth
+idiopathic hyperhidrosis|hyperhidrosis|primary hyperhidrosis|idiopathic night sweats
+hot sleeping environment|hot bedroom|too many blankets|heavy bedding|warm room|overheating
+spicy food|eating spicy food before bed
+caffeine|coffee
+smoking|nicotine|tobacco
+pheochromocytoma
+carcinoid syndrome|carcinoid tumor|neuroendocrine tumor
+renal cell carcinoma|kidney cancer
+prostate cancer treatment|orchiectomy|castration
+low testosterone|hypogonadism|male hypogonadism|andropause
+premature ovarian insufficiency|premature menopause|primary ovarian insufficiency|surgical menopause|oophorectomy
+diabetes|diabetes mellitus|diabetic autonomic neuropathy
+acromegaly
+osteomyelitis|bone infection
+lung abscess|abscess|liver abscess|abscesses|intra abdominal abscess
+pneumonia
+pyelonephritis|kidney infection
+infectious mononucleosis|mononucleosis|mono|epstein barr virus|ebv
+cytomegalovirus|cmv
+brucellosis|brucella|undulant fever
+q fever|coxiella
+histoplasmosis
+coccidioidomycosis|valley fever|cocci
+blastomycosis
+cryptococcosis
+malaria
+typhoid fever|typhoid|enteric fever
+leishmaniasis|kala azar|visceral leishmaniasis
+nontuberculous mycobacteria|mycobacterium avium complex|mac|mai
+bartonella|cat scratch disease|cat scratch fever
+lyme disease
+babesiosis
+toxoplasmosis
+fungal infections|fungal infection
+pneumocystis pneumonia|pcp|pneumocystis jirovecii pneumonia
+hepatitis|viral hepatitis
+sepsis
+rheumatoid arthritis|ra
+systemic lupus erythematosus|lupus|sle
+giant cell arteritis|temporal arteritis
+polymyalgia rheumatica|pmr
+takayasu arteritis
+vasculitis|polyarteritis nodosa
+still disease|adult onset still disease|adult onset stills disease
+sarcoidosis
+inflammatory bowel disease|ibd|crohn disease|crohns disease|ulcerative colitis
+autoimmune disorders|autoimmune disease
+myelofibrosis|primary myelofibrosis
+polycythemia vera
+myeloproliferative neoplasms|myeloproliferative disorder
+multiple myeloma|myeloma
+waldenstrom macroglobulinemia
+castleman disease
+hemophagocytic lymphohistiocytosis|hlh
+mastocytosis|systemic mastocytosis
+langerhans cell histiocytosis
+autonomic dysreflexia|spinal cord injury
+autonomic neuropathy|autonomic dysfunction|dysautonomia
+parkinson disease|parkinsons disease|parkinsons
+syringomyelia
+`, "2026-11-17");
+P("Name a cause of abdominal distension or bloating","nursing","",`
+gas|intestinal gas|flatulence|excess gas|trapped gas
+constipation|fecal impaction|impacted stool|stool impaction
+ascites|fluid in the abdomen|peritoneal fluid
+bowel obstruction|intestinal obstruction|small bowel obstruction|large bowel obstruction|sbo|lbo
+paralytic ileus|ileus|postoperative ileus|adynamic ileus
+irritable bowel syndrome|ibs
+lactose intolerance|lactase deficiency
+overeating|large meals|eating too much|eating too fast
+swallowing air|aerophagia|air swallowing|gum chewing|drinking through a straw
+carbonated beverages|soda|carbonated drinks|fizzy drinks|sparkling water
+gas producing foods|beans|cabbage|broccoli|cruciferous vegetables|onions
+high fiber diet|fiber supplements|sudden increase in fiber
+cirrhosis|liver cirrhosis|liver disease|chronic liver disease
+heart failure|right sided heart failure|chf|congestive heart failure
+pregnancy|pregnant
+menstruation|premenstrual syndrome|pms|menstrual cycle|period bloating|premenstrual bloating
+obesity|abdominal fat|weight gain|central obesity
+celiac disease|celiac|gluten intolerance|gluten enteropathy|coeliac disease
+small intestinal bacterial overgrowth|sibo|bacterial overgrowth
+gastroparesis|delayed gastric emptying|diabetic gastroparesis
+gastroenteritis|stomach flu|viral gastroenteritis|stomach bug
+giardiasis|giardia
+clostridioides difficile|c diff|c difficile|clostridium difficile colitis|pseudomembranous colitis
+toxic megacolon|megacolon
+volvulus|sigmoid volvulus|cecal volvulus|midgut volvulus
+intussusception
+hirschsprung disease|hirschsprungs disease|congenital aganglionic megacolon
+necrotizing enterocolitis|nec
+pyloric stenosis
+meconium ileus
+imperforate anus|anorectal malformation
+colon cancer|colorectal cancer|bowel cancer
+ovarian cancer
+ovarian cyst|ovarian cysts|ovarian mass
+uterine fibroids|fibroids|leiomyoma|enlarged uterus
+endometriosis
+pancreatic cancer
+stomach cancer|gastric cancer
+liver cancer|hepatocellular carcinoma
+peritoneal carcinomatosis|metastatic cancer|peritoneal metastases|malignant ascites
+lymphoma
+hepatomegaly|enlarged liver
+splenomegaly|enlarged spleen
+abdominal aortic aneurysm|aaa
+urinary retention|distended bladder|bladder distension|full bladder
+peritonitis|spontaneous bacterial peritonitis|sbp
+pancreatitis|acute pancreatitis
+chronic pancreatitis|pancreatic insufficiency|exocrine pancreatic insufficiency
+cholecystitis|gallbladder disease|gallstones|cholelithiasis
+peptic ulcer disease|peptic ulcer|stomach ulcer|gastric ulcer|duodenal ulcer
+gastritis
+gastroesophageal reflux disease|gerd|acid reflux
+functional dyspepsia|dyspepsia|indigestion
+functional bloating|functional abdominal bloating
+gastric outlet obstruction
+diverticulitis|diverticular disease
+inflammatory bowel disease|ibd
+crohn disease|crohns disease|crohns
+ulcerative colitis
+appendicitis|ruptured appendix
+mesenteric ischemia|bowel ischemia|ischemic bowel|intestinal ischemia
+ogilvie syndrome|acute colonic pseudo obstruction|colonic pseudo-obstruction
+chronic intestinal pseudo obstruction
+adhesions|abdominal adhesions|postoperative adhesions
+hernia|incarcerated hernia|strangulated hernia|inguinal hernia|ventral hernia|umbilical hernia|incisional hernia
+abdominal surgery|recent surgery|postoperative
+laparoscopic surgery|laparoscopy|co2 insufflation
+abdominal trauma|intra abdominal bleeding|hemoperitoneum|internal bleeding
+ectopic pregnancy|ruptured ectopic pregnancy
+ovarian hyperstimulation syndrome|ohss
+pelvic inflammatory disease|pid
+nephrotic syndrome
+hypoalbuminemia|low albumin
+kwashiorkor|protein energy malnutrition|protein malnutrition
+budd chiari syndrome|budd-chiari syndrome|hepatic vein thrombosis
+portal hypertension
+portal vein thrombosis
+constrictive pericarditis
+tuberculous peritonitis|abdominal tuberculosis
+chylous ascites
+pseudomyxoma peritonei
+meigs syndrome
+hypothyroidism|underactive thyroid|myxedema
+hypokalemia|low potassium
+hypercalcemia
+diabetes|diabetic autonomic neuropathy
+scleroderma|systemic sclerosis
+amyloidosis
+parkinson disease|parkinsons disease|parkinsons
+spinal cord injury|neurogenic bowel
+multiple sclerosis|ms
+cystic fibrosis|cf|distal intestinal obstruction syndrome
+fructose intolerance|fructose malabsorption
+sugar alcohols|sorbitol|xylitol|mannitol|erythritol|sugar free gum
+artificial sweeteners
+fodmaps|high fodmap foods
+food allergies|food intolerance|food sensitivity
+dairy products|milk
+wheat|gluten
+high salt intake|salty foods|sodium|water retention|fluid retention
+opioids|opioid induced constipation|morphine|oxycodone|narcotics
+anticholinergics|anticholinergic medications|atropine|oxybutynin|diphenhydramine
+calcium channel blockers|verapamil|diltiazem
+iron supplements|iron|ferrous sulfate
+calcium supplements|calcium carbonate
+antacids|aluminum hydroxide
+antibiotics
+metformin
+acarbose|alpha glucosidase inhibitors|miglitol
+orlistat|alli|xenical
+glp 1 agonists|semaglutide|ozempic|wegovy|liraglutide|tirzepatide|mounjaro
+lactulose
+psyllium|metamucil|bulk forming laxatives
+tricyclic antidepressants|amitriptyline
+antipsychotics|clozapine
+vincristine
+bariatric surgery|gastric bypass|dumping syndrome
+fundoplication|gas bloat syndrome|nissen fundoplication
+tube feeding|enteral feeding|enteral nutrition intolerance
+bag valve mask ventilation|gastric insufflation|esophageal intubation|cpap|bipap|noninvasive ventilation
+smoking|tobacco use
+stress|anxiety
+eating disorders|anorexia nervosa|bulimia nervosa
+abdomino phrenic dyssynergia|abdominophrenic dyssynergia
+pelvic floor dysfunction|dyssynergic defecation
+whipple disease
+tropical sprue
+short bowel syndrome
+intestinal parasites|worms|helminths|ascariasis|roundworms
+amebiasis|entamoeba histolytica
+typhoid fever|typhoid
+chagas disease|chagas megacolon
+wilms tumor|nephroblastoma
+neuroblastoma
+hydronephrosis|polycystic kidney disease|pkd|enlarged kidneys
+renal failure|chronic kidney disease|ckd|peritoneal dialysis
+mesenteric cyst
+retroperitoneal tumor|retroperitoneal sarcoma|sarcoma
+desmoid tumor
+gastrointestinal stromal tumor|gist
+alcoholic hepatitis|alcohol use|alcohol|alcoholic liver disease
+`, "2026-11-17");
+P("Name a symptom of the flu or COVID-19","nursing","",`
+fever|high fever|elevated temperature|febrile|pyrexia|temperature
+cough|dry cough|nonproductive cough|coughing
+fatigue|tiredness|exhaustion|feeling tired
+body aches|muscle aches|myalgia|myalgias|muscle pain|aches
+chills|shivering|shaking chills|rigors
+sore throat|scratchy throat|throat pain
+headache|head ache|headaches
+loss of smell|anosmia|new loss of smell|smell loss
+loss of taste|ageusia|new loss of taste|taste loss
+shortness of breath|difficulty breathing|dyspnea|trouble breathing|breathlessness|sob
+runny nose|rhinorrhea|nasal discharge
+nasal congestion|stuffy nose|congestion|blocked nose
+nausea
+vomiting|throwing up|emesis
+diarrhea|loose stools
+malaise|feeling unwell|general malaise
+weakness|generalized weakness|feeling weak
+loss of appetite|decreased appetite|poor appetite|anorexia
+sweating|sweats|diaphoresis
+night sweats
+chest tightness|chest pressure|chest discomfort|persistent chest pain or pressure|chest pain
+sneezing
+productive cough|wet cough|sputum production|phlegm|mucus
+hoarseness|hoarse voice|loss of voice
+abdominal pain|stomach pain|belly pain|stomach ache
+joint pain|arthralgia|arthralgias
+back pain
+eye pain|pain behind the eyes|retro orbital pain|retroorbital pain
+red eyes|pink eye|conjunctivitis|bloodshot eyes
+watery eyes|tearing|teary eyes
+sensitivity to light|photophobia
+dizziness|lightheadedness|feeling dizzy
+confusion|new confusion|altered mental status|delirium|disorientation
+brain fog|difficulty concentrating|cognitive problems|trouble thinking
+inability to wake or stay awake|difficulty waking|extreme sleepiness|lethargy
+bluish lips or face|cyanosis|blue lips|bluish skin|blue nail beds
+pale gray or blue skin|pale skin|pallor|grayish skin
+low oxygen saturation|hypoxia|hypoxemia|low oxygen levels|silent hypoxia|low o2 sat
+rapid breathing|tachypnea|fast breathing
+rapid heart rate|tachycardia|fast heart rate|racing heart
+palpitations|heart pounding
+wheezing
+chest congestion
+crackles|rales
+pleuritic chest pain|pain with breathing|painful breathing
+dehydration|signs of dehydration
+decreased urination|not urinating|reduced urine output|oliguria
+dry mouth
+rash|skin rash
+covid toes|chilblains|pernio|chilblain like lesions|purple toes
+hives|urticaria
+flushed skin|flushing|flushed face
+ear pain|earache|ear ache
+postnasal drip|post nasal drip
+swollen lymph nodes|swollen glands|lymphadenopathy
+distorted sense of smell|parosmia|smells seem wrong
+phantom smells|phantosmia
+altered taste|dysgeusia|metallic taste|distorted taste
+tinnitus|ringing in the ears
+hearing loss|sudden hearing loss
+vertigo
+insomnia|trouble sleeping|difficulty sleeping
+sleepiness|drowsiness|daytime sleepiness
+irritability|fussiness|fussy baby|crankiness
+poor feeding|not eating or drinking|refusing to feed|decreased feeding
+febrile seizures|seizures|seizure
+nasal flaring
+chest retractions|retractions|intercostal retractions|ribs pulling in with each breath
+grunting
+apnea in infants|apnea|pauses in breathing
+stridor|barking cough
+fainting|syncope|passing out
+falls|falling|new falls in older adults
+worsening of chronic conditions|worsening chronic illness|asthma exacerbation|copd exacerbation
+mouth ulcers|oral ulcers|mouth sores|covid tongue
+hiccups
+loss of energy|lack of energy|low energy
+exercise intolerance|post exertional malaise|reduced exercise tolerance
+hair loss|telogen effluvium|hair shedding
+numbness and tingling|paresthesia|pins and needles|tingling
+hemoptysis|coughing up blood|bloody sputum
+sinus pain|sinus pressure|facial pain
+hypotension|low blood pressure
+pain with swallowing|odynophagia|painful swallowing
+`, "2026-11-17");
+P("Name a cause of excessive daytime sleepiness","nursing","",`
+obstructive sleep apnea|sleep apnea|osa|obstructive sleep apnea syndrome
+sleep deprivation|insufficient sleep|lack of sleep|not enough sleep|chronic sleep deprivation|insufficient sleep syndrome|behaviorally induced insufficient sleep syndrome
+narcolepsy|narcolepsy type 1|narcolepsy with cataplexy|narcolepsy type 2
+insomnia|chronic insomnia|poor sleep
+shift work|shift work disorder|shift work sleep disorder|night shift|working night shifts|rotating shifts
+depression|major depressive disorder|depressive disorder|atypical depression
+hypothyroidism|underactive thyroid|low thyroid|myxedema|hashimoto thyroiditis
+anemia|iron deficiency anemia|low hemoglobin
+sedatives|sedating medications|sedative hypnotics
+benzodiazepines|lorazepam|ativan|diazepam|valium|alprazolam|xanax|clonazepam|klonopin|temazepam
+opioids|opioid use|morphine|oxycodone|hydrocodone|narcotics|methadone|fentanyl
+antihistamines|diphenhydramine|benadryl|hydroxyzine|first generation antihistamines|chlorpheniramine|doxylamine|promethazine
+z drugs|zolpidem|ambien|eszopiclone|lunesta|zaleplon|sleeping pills|sleep aids
+alcohol|alcohol use|alcohol use disorder|drinking alcohol
+restless legs syndrome|rls|willis ekbom disease
+periodic limb movement disorder|plmd|periodic limb movements
+circadian rhythm disorders|circadian rhythm sleep disorder|circadian rhythm disruption
+delayed sleep phase syndrome|delayed sleep phase disorder|delayed sleep wake phase disorder|night owl
+advanced sleep phase syndrome|advanced sleep phase disorder|advanced sleep wake phase disorder
+jet lag|jet lag disorder
+idiopathic hypersomnia
+diabetes|uncontrolled diabetes|hyperglycemia|diabetes mellitus
+hypoglycemia|low blood sugar
+chronic kidney disease|ckd|uremia|kidney failure|renal failure|end stage renal disease
+liver failure|hepatic encephalopathy|cirrhosis|liver disease
+heart failure|chf|congestive heart failure|cheyne stokes respiration
+chronic obstructive pulmonary disease|copd|emphysema|hypercapnia|co2 retention
+central sleep apnea|csa
+obesity hypoventilation syndrome|pickwickian syndrome|ohs
+obesity|morbid obesity|being overweight
+pregnancy|first trimester|pregnant
+chronic fatigue syndrome|myalgic encephalomyelitis|me cfs
+fibromyalgia
+chronic pain|pain
+anxiety|anxiety disorder|generalized anxiety disorder
+bipolar disorder|bipolar depression
+seasonal affective disorder|sad|winter depression
+post traumatic stress disorder|ptsd|nightmares|nightmare disorder
+attention deficit hyperactivity disorder|adhd
+dementia|alzheimer disease|alzheimers|alzheimers disease
+parkinson disease|parkinsons disease|parkinsons
+lewy body dementia|dementia with lewy bodies
+multiple sclerosis|ms
+stroke|cva|thalamic stroke|cerebrovascular accident
+traumatic brain injury|tbi|head injury|concussion|post concussion syndrome
+brain tumor|hypothalamic tumor|pineal tumor|craniopharyngioma
+epilepsy|seizure disorder|nocturnal seizures
+antiepileptic drugs|antiseizure medications|anticonvulsants|gabapentin|pregabalin|phenobarbital|carbamazepine|valproate|levetiracetam|topiramate
+antidepressants|tricyclic antidepressants|amitriptyline|trazodone|mirtazapine|remeron|doxepin|ssris|paroxetine
+antipsychotics|quetiapine|seroquel|olanzapine|zyprexa|clozapine|chlorpromazine|haloperidol
+muscle relaxants|cyclobenzaprine|flexeril|baclofen|tizanidine|methocarbamol|carisoprodol
+dopamine agonists|pramipexole|ropinirole|sleep attacks
+levodopa|carbidopa levodopa|sinemet
+beta blockers|propranolol|metoprolol
+clonidine|alpha 2 agonists|guanfacine|methyldopa
+cannabis|marijuana|marijuana use|weed|thc
+stimulant withdrawal|caffeine withdrawal|cocaine withdrawal|amphetamine withdrawal|methamphetamine withdrawal
+nicotine withdrawal
+infectious mononucleosis|mononucleosis|mono|epstein barr virus|ebv
+influenza|flu|viral infection|covid 19|covid|long covid
+infection|febrile illness|sepsis
+lyme disease
+hiv|aids
+hepatitis|viral hepatitis
+encephalitis|viral encephalitis
+meningitis
+african trypanosomiasis|sleeping sickness|trypanosomiasis
+whipple disease
+electrolyte imbalances|hyponatremia|hypercalcemia|hypokalemia
+adrenal insufficiency|addison disease|addisons disease
+cushing syndrome|cushings syndrome
+hypopituitarism
+low testosterone|hypogonadism
+vitamin b12 deficiency|b12 deficiency
+cancer|malignancy|cancer related fatigue
+chemotherapy|radiation therapy|cancer treatment
+heavy meals|large meals|postprandial sleepiness|food coma
+irregular sleep schedule|poor sleep hygiene|inconsistent sleep schedule|irregular sleep wake rhythm|irregular sleep wake rhythm disorder
+screen use at night|blue light exposure|electronics before bed|late night screen time
+caffeine late in the day|caffeine use at night
+noisy sleep environment|noise|light in bedroom|uncomfortable sleep environment
+new baby|caring for an infant|new parent|newborn care
+caregiving at night|nighttime caregiving
+nocturia|frequent nighttime urination|benign prostatic hyperplasia|bph
+gastroesophageal reflux disease|gerd|nocturnal reflux|acid reflux
+asthma|nocturnal asthma
+nasal congestion|allergic rhinitis|allergies|deviated septum
+enlarged tonsils|tonsillar hypertrophy|adenoid hypertrophy|enlarged adenoids
+upper airway resistance syndrome|uars
+craniofacial abnormalities|retrognathia|micrognathia|small jaw
+down syndrome|trisomy 21
+prader willi syndrome|prader-willi syndrome
+myotonic dystrophy
+neuromuscular disease|als|amyotrophic lateral sclerosis|duchenne muscular dystrophy|muscular dystrophy
+myasthenia gravis
+spinal cord injury
+acromegaly
+kleine levin syndrome|kleine-levin syndrome|sleeping beauty syndrome
+niemann pick disease type c
+smith magenis syndrome
+anti nmda receptor encephalitis
+neuromyelitis optica|nmo
+sarcoidosis
+menstrual related hypersomnia
+menopause|perimenopause|hot flashes
+adolescence|teenagers|puberty|adolescent sleep phase delay
+`, "2026-11-17");
+P("Name a cause of hoarseness","nursing","",`
+laryngitis|acute laryngitis|viral laryngitis
+voice overuse|yelling|vocal strain|shouting|screaming|vocal abuse|overusing the voice|singing|cheering
+upper respiratory infection|uri|common cold|cold|upper respiratory tract infection
+laryngopharyngeal reflux|lpr|silent reflux
+gastroesophageal reflux disease|gerd|acid reflux|reflux laryngitis
+smoking|tobacco use|cigarette smoking|tobacco|vaping
+laryngeal cancer|cancer of the larynx|throat cancer|vocal cord cancer|glottic cancer|squamous cell carcinoma of the larynx
+vocal cord nodules|vocal nodules|singers nodes|singers nodules|vocal fold nodules
+vocal cord polyps|vocal polyps|vocal fold polyp
+vocal cord paralysis|vocal fold paralysis|vocal cord palsy|recurrent laryngeal nerve palsy|vocal cord paresis
+recurrent laryngeal nerve injury|recurrent laryngeal nerve damage|laryngeal nerve injury
+thyroidectomy|thyroid surgery|post thyroidectomy|parathyroidectomy
+endotracheal intubation|intubation|post intubation|after intubation|breathing tube|mechanical ventilation|extubation
+allergies|allergic rhinitis|hay fever
+postnasal drip|post nasal drip
+chronic laryngitis
+inhaled corticosteroids|inhaled steroids|fluticasone|budesonide|steroid inhalers|beclomethasone
+dehydration|dry air|low humidity
+alcohol use|alcohol|heavy drinking
+croup|laryngotracheobronchitis
+epiglottitis|supraglottitis
+influenza|flu
+covid 19|covid|coronavirus
+sinusitis|sinus infection|chronic rhinosinusitis
+bronchitis|acute bronchitis
+chronic cough|coughing|persistent cough
+hypothyroidism|underactive thyroid|myxedema
+goiter|enlarged thyroid|thyroid nodule
+thyroid cancer|thyroid carcinoma
+lung cancer|bronchogenic carcinoma|pancoast tumor
+esophageal cancer
+mediastinal mass|mediastinal tumor|mediastinal lymphadenopathy
+aortic aneurysm|thoracic aortic aneurysm|aortic arch aneurysm
+ortners syndrome|cardiovocal syndrome|ortner syndrome|left atrial enlargement|mitral stenosis
+cardiac surgery|heart surgery|cardiothoracic surgery|patent ductus arteriosus ligation
+neck surgery|anterior cervical spine surgery|carotid endarterectomy|anterior cervical discectomy
+neck trauma|laryngeal trauma|blunt neck trauma|laryngeal fracture|strangulation
+caustic ingestion|chemical burns|inhalation injury|smoke inhalation|burns to the airway|thermal injury
+foreign body|aspirated foreign body|laryngeal foreign body
+stroke|cva|brainstem stroke|lateral medullary syndrome|wallenberg syndrome
+parkinson disease|parkinsons disease|parkinsons
+multiple sclerosis|ms
+myasthenia gravis
+amyotrophic lateral sclerosis|als|lou gehrigs disease|bulbar palsy
+guillain barre syndrome|guillain-barre syndrome|gbs
+spasmodic dysphonia|laryngeal dystonia
+essential tremor|vocal tremor
+functional dysphonia|muscle tension dysphonia|psychogenic dysphonia|conversion disorder
+reinke edema|reinkes edema|polypoid corditis|polypoid degeneration
+vocal cord cyst|vocal fold cyst|intracordal cyst
+vocal cord hemorrhage|vocal fold hemorrhage
+contact ulcer|contact granuloma|vocal process granuloma|intubation granuloma
+recurrent respiratory papillomatosis|laryngeal papillomatosis|laryngeal papilloma|hpv
+leukoplakia of the larynx|laryngeal leukoplakia|laryngeal dysplasia
+sulcus vocalis
+vocal cord scarring|vocal fold scar
+presbylarynx|presbyphonia|aging voice|vocal fold atrophy|older age
+puberty|voice change during puberty|adolescent voice change|mutational falsetto
+menopause|hormonal changes
+pregnancy
+testosterone use|anabolic steroids|androgens|danazol
+angioedema|allergic reaction|anaphylaxis
+ace inhibitor angioedema|ace inhibitors|lisinopril
+hereditary angioedema
+laryngomalacia
+subglottic stenosis|tracheal stenosis|laryngeal stenosis
+laryngeal web|congenital laryngeal web
+vocal cord dysfunction|paradoxical vocal fold motion|inducible laryngeal obstruction
+tuberculosis|laryngeal tuberculosis|tb
+fungal laryngitis|candida laryngitis|laryngeal candidiasis|thrush
+diphtheria
+syphilis
+histoplasmosis
+blastomycosis
+leprosy|hansen disease
+sarcoidosis|laryngeal sarcoidosis
+amyloidosis|laryngeal amyloidosis
+rheumatoid arthritis|cricoarytenoid arthritis|ra
+lupus|systemic lupus erythematosus|sle
+granulomatosis with polyangiitis|wegener granulomatosis|wegeners granulomatosis|gpa
+relapsing polychondritis
+sjogren syndrome|sjogrens
+acromegaly
+hypopharyngeal cancer|pyriform sinus cancer
+nasopharyngeal cancer
+lymphoma
+drying medications|anticholinergics|antihistamines|diuretics
+nasogastric tube|ng tube
+gastric acid aspiration|vomiting|bulimia nervosa|bulimia
+air pollution|irritants|chemical fumes|dust|occupational exposures|inhaled irritants
+cannabis smoking|marijuana smoking|marijuana
+cocaine use|crack cocaine|inhaled drugs
+congenital hypothyroidism|cretinism
+botulism
+chiari malformation|arnold chiari malformation
+syringobulbia
+skull base tumors|jugular foramen tumors|glomus tumor|paraganglioma
+vagus nerve injury|vagal nerve damage|vagal schwannoma
+post viral vagal neuropathy|viral neuropathy
+`, "2026-11-17");
+P("Name a cause of hiccups","nursing","",`
+eating too fast|eating quickly|eating too quickly
+overeating|large meals|eating too much|full stomach
+gastric distension|stomach distension|distended stomach|bloated stomach
+carbonated beverages|soda|carbonated drinks|fizzy drinks|sparkling water
+alcohol|alcohol use|drinking alcohol|excess alcohol|binge drinking
+swallowing air|aerophagia|air swallowing|chewing gum
+smoking|tobacco use|cigarette smoking
+sudden temperature change|hot and cold foods|very hot food|very cold drinks|hot drinks|cold drinks
+spicy food|spicy foods|hot peppers
+excitement|emotional stress|stress|anxiety|nervousness|fear|shock
+laughing|laughter
+gastroesophageal reflux disease|gerd|acid reflux|reflux
+abdominal surgery|surgery|postoperative|general anesthesia|anesthesia
+stroke|cva|cerebrovascular accident|brainstem stroke|lateral medullary syndrome|wallenberg syndrome
+brain tumor|brainstem tumor|intracranial tumor
+traumatic brain injury|tbi|head injury
+multiple sclerosis|ms
+meningitis
+encephalitis
+neuromyelitis optica|nmo|neuromyelitis optica spectrum disorder|area postrema syndrome
+increased intracranial pressure|hydrocephalus
+epilepsy|seizures
+parkinson disease|parkinsons disease|parkinsons
+syringomyelia|syringobulbia
+arnold chiari malformation|chiari malformation
+brain abscess
+arteriovenous malformation|avm
+kidney failure|uremia|chronic kidney disease|renal failure|ckd|end stage renal disease
+electrolyte imbalance|electrolyte imbalances
+hyponatremia|low sodium
+hypokalemia|low potassium
+hypocalcemia|low calcium
+hypercalcemia
+diabetes|hyperglycemia|diabetic ketoacidosis|dka
+addison disease|adrenal insufficiency
+liver disease|cirrhosis|hepatitis|liver failure
+gastritis
+peptic ulcer disease|peptic ulcer|stomach ulcer
+esophagitis|eosinophilic esophagitis
+hiatal hernia
+esophageal cancer
+stomach cancer|gastric cancer
+achalasia
+esophageal obstruction|esophageal stricture|food bolus impaction
+bowel obstruction|intestinal obstruction|ileus
+gastric outlet obstruction|pyloric stenosis
+pancreatitis
+pancreatic cancer
+cholecystitis|gallbladder disease|gallstones
+subphrenic abscess|liver abscess
+hepatomegaly|enlarged liver
+splenomegaly|enlarged spleen
+ascites
+inflammatory bowel disease|crohn disease|ulcerative colitis|ibd
+appendicitis
+peritonitis
+diaphragmatic hernia|diaphragmatic irritation
+pneumonia
+pleurisy|pleuritis|pleural effusion
+lung cancer|bronchogenic carcinoma
+mediastinal mass|mediastinal tumor|mediastinal lymphadenopathy
+mediastinitis
+pericarditis
+myocardial infarction|heart attack|mi|inferior wall mi
+aortic aneurysm|thoracic aortic aneurysm
+thoracic surgery|chest surgery|cardiac surgery
+asthma
+bronchitis
+tuberculosis|tb
+goiter|thyroid enlargement
+neck tumor|neck mass|cervical mass|cyst in the neck
+pharyngitis|sore throat
+laryngitis
+irritation of the eardrum|foreign body in the ear|hair touching the eardrum|ear wax touching eardrum
+otitis media|ear infection
+endotracheal intubation|intubation|nasogastric tube|ng tube|central line placement
+esophagogastroduodenoscopy|egd|endoscopy|bronchoscopy
+herpes zoster|shingles
+covid 19|covid|coronavirus
+influenza|flu
+corticosteroids|steroids|dexamethasone|methylprednisolone|prednisone
+benzodiazepines|midazolam|diazepam|lorazepam
+barbiturates
+opioids|morphine|hydromorphone|oxycodone|opiates
+chemotherapy|cisplatin|carboplatin|oxaliplatin|chemo
+antiparkinson drugs|levodopa|dopamine agonists|pramipexole|ropinirole
+aripiprazole|abilify
+anesthetic agents|propofol|methohexital|etomidate
+alpha methyldopa|methyldopa
+psychogenic hiccups|conversion disorder|psychogenic
+anorexia nervosa
+infancy|feeding in infants|bottle feeding|crying in infants
+gastric balloon|intragastric balloon
+lymphoma
+`, "2026-11-17");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

@@ -72193,6 +72193,1318 @@ sinus infection|sinusitis
 huntington disease
 `, "2026-11-17");
 
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE (batch 2026-11-15, set 1, board-first) ---- */
+P("Name a cause of double vision (diplopia)","clinical","",`
+myasthenia gravis|mg|ocular myasthenia
+stroke|brainstem stroke|cva
+cranial nerve palsy|cranial nerve 3 palsy|cranial nerve 4 palsy|cranial nerve 6 palsy
+oculomotor nerve palsy|third nerve palsy|cn iii palsy|cn 3 palsy|3rd nerve palsy
+abducens nerve palsy|sixth nerve palsy|cn vi palsy|cn 6 palsy|6th nerve palsy
+trochlear nerve palsy|fourth nerve palsy|cn iv palsy|cn 4 palsy|4th nerve palsy
+posterior communicating artery aneurysm|pcom aneurysm|brain aneurysm|cerebral aneurysm|aneurysm
+diabetes|diabetic cranial neuropathy|diabetic third nerve palsy|diabetic mononeuropathy
+graves ophthalmopathy|thyroid eye disease|graves disease|thyroid orbitopathy|ted
+multiple sclerosis|ms
+internuclear ophthalmoplegia|ino|mlf lesion|medial longitudinal fasciculus lesion
+head trauma|traumatic brain injury|tbi|head injury
+orbital blowout fracture|orbital floor fracture|blowout fracture|orbital fracture
+increased intracranial pressure|raised icp|elevated icp
+idiopathic intracranial hypertension|pseudotumor cerebri|iih
+brain tumor|intracranial tumor|brain mass
+cavernous sinus thrombosis
+cavernous sinus syndrome|cavernous sinus lesion
+carotid cavernous fistula
+pituitary apoplexy
+pituitary adenoma|pituitary tumor
+uncal herniation|transtentorial herniation|brain herniation
+botulism
+guillain barre syndrome|gbs
+miller fisher syndrome|miller-fisher syndrome
+wernicke encephalopathy|thiamine deficiency|wernicke
+giant cell arteritis|temporal arteritis|gca
+alcohol intoxication|drunk|alcohol
+drug toxicity|medication side effect
+strabismus|eye misalignment
+decompensated phoria|phoria
+convergence insufficiency
+divergence insufficiency
+esotropia
+exotropia
+hypertropia
+vertebrobasilar insufficiency|vertebrobasilar ischemia|tia|transient ischemic attack
+basilar artery thrombosis|basilar artery occlusion
+lateral medullary syndrome|wallenberg syndrome
+weber syndrome
+benedikt syndrome
+millard-gubler syndrome|millard gubler syndrome
+foville syndrome
+one and a half syndrome
+parinaud syndrome|dorsal midbrain syndrome
+skew deviation
+gradenigo syndrome|petrous apicitis
+tolosa-hunt syndrome|tolosa hunt syndrome
+orbital cellulitis
+orbital pseudotumor|idiopathic orbital inflammation|orbital inflammation
+orbital tumor|orbital mass
+orbital lymphoma
+rhabdomyosarcoma
+mucormycosis|rhinocerebral mucormycosis
+sinusitis|sinus disease
+mucocele|sinus mucocele
+nasopharyngeal carcinoma
+meningioma
+chordoma|clival chordoma
+craniopharyngioma
+acoustic neuroma|vestibular schwannoma
+brain metastases|metastatic disease
+meningitis
+carcinomatous meningitis|leptomeningeal carcinomatosis
+lyme disease|neuroborreliosis
+herpes zoster ophthalmicus|shingles
+syphilis|neurosyphilis
+tuberculous meningitis
+sarcoidosis|neurosarcoidosis
+migraine|ophthalmoplegic migraine|recurrent painful ophthalmoplegic neuropathy
+lambert-eaton syndrome|lambert eaton myasthenic syndrome|lems
+chronic progressive external ophthalmoplegia|cpeo|mitochondrial myopathy
+kearns-sayre syndrome|kearns sayre syndrome
+myotonic dystrophy
+oculopharyngeal muscular dystrophy
+duane syndrome|duane retraction syndrome
+brown syndrome
+mobius syndrome|moebius syndrome
+congenital fibrosis of extraocular muscles|cfeom
+hydrocephalus
+chiari malformation|arnold chiari malformation
+lumbar puncture|post lumbar puncture|spinal tap
+intracranial hypotension|spontaneous intracranial hypotension|csf leak
+subarachnoid hemorrhage|sah
+intracranial hemorrhage|brain bleed
+subdural hematoma
+epidural hematoma
+venous sinus thrombosis|cerebral venous sinus thrombosis|cvst
+dissection|carotid dissection|vertebral artery dissection
+hypertension|hypertensive crisis
+hypoglycemia
+anticonvulsant toxicity|antiepileptic toxicity
+phenytoin toxicity|dilantin toxicity
+carbamazepine toxicity|tegretol toxicity
+benzodiazepine overdose|benzos
+botox|botulinum toxin injection
+checkpoint inhibitor|immune checkpoint inhibitor myasthenia
+cataract|monocular diplopia
+astigmatism|uncorrected refractive error|refractive error
+keratoconus
+dry eye|dry eye disease
+corneal scar|corneal irregularity
+lens dislocation|ectopia lentis|lens subluxation
+iridectomy|polycoria
+retinal detachment repair|scleral buckle
+epiretinal membrane|macular pucker
+macular degeneration
+post cataract surgery|eye surgery|after eye surgery
+silent sinus syndrome
+paget disease of bone
+fibrous dysplasia
+thyroid eye disease surgery|orbital decompression
+progressive supranuclear palsy|psp
+superior oblique myokymia
+ocular neuromyotonia
+cyclic oculomotor palsy
+spasm of the near reflex|convergence spasm
+functional diplopia|psychogenic diplopia|conversion disorder
+anorexia nervosa|malnutrition
+bariatric surgery
+hyperemesis gravidarum
+whipple disease
+creutzfeldt-jakob disease|cjd
+progressive multifocal leukoencephalopathy|pml
+hiv
+toxoplasmosis
+cryptococcal meningitis
+lead poisoning
+carbon monoxide poisoning
+tick paralysis
+diphtheria
+tetanus|cephalic tetanus
+snake bite|snake envenomation|neurotoxic envenomation
+organophosphate poisoning
+pufferfish poisoning|tetrodotoxin
+ciguatera poisoning|ciguatera
+`, "2026-11-17");
+
+P("Name a cause of ascites","clinical","",`
+cirrhosis|liver cirrhosis|alcoholic cirrhosis
+heart failure|congestive heart failure|chf|right heart failure|right sided heart failure
+cancer|malignancy|malignant ascites
+peritoneal carcinomatosis|carcinomatosis|peritoneal metastases
+ovarian cancer
+portal hypertension
+nephrotic syndrome
+tuberculosis|tuberculous peritonitis|peritoneal tuberculosis|tb
+pancreatitis|pancreatic ascites
+budd-chiari syndrome|budd chiari syndrome|hepatic vein thrombosis
+portal vein thrombosis
+hepatocellular carcinoma|hcc|liver cancer
+liver metastases
+alcoholic hepatitis
+acute liver failure|fulminant hepatic failure|liver failure
+hepatitis b
+hepatitis c
+nonalcoholic steatohepatitis|nash|masld|mash
+constrictive pericarditis
+pericardial effusion|cardiac tamponade|tamponade
+tricuspid regurgitation
+pulmonary hypertension|cor pulmonale
+spontaneous bacterial peritonitis|sbp
+secondary bacterial peritonitis|peritonitis
+hypoalbuminemia|low albumin
+protein losing enteropathy
+malnutrition|kwashiorkor|protein malnutrition
+chylous ascites|chylous leak|lymphatic leak
+lymphoma
+pseudomyxoma peritonei
+mesothelioma|peritoneal mesothelioma
+gastric cancer|stomach cancer
+pancreatic cancer
+colon cancer|colorectal cancer
+breast cancer
+krukenberg tumor
+meigs syndrome
+ovarian hyperstimulation syndrome|ohss
+endometriosis
+ruptured ovarian cyst
+ectopic pregnancy
+hemoperitoneum|intra-abdominal bleeding
+biliary leak|bile ascites|bile leak
+urinary ascites|bladder rupture|urine leak
+peritoneal dialysis
+nephrogenous ascites|dialysis ascites
+myxedema|hypothyroidism
+sinusoidal obstruction syndrome|veno-occlusive disease|hepatic veno-occlusive disease|vod
+schistosomiasis
+hepatic congestion|congestive hepatopathy|cardiac cirrhosis
+primary biliary cholangitis|pbc|primary biliary cirrhosis
+primary sclerosing cholangitis|psc
+autoimmune hepatitis
+hemochromatosis
+wilson disease
+alpha-1 antitrypsin deficiency|alpha 1 antitrypsin deficiency|a1at deficiency
+fungal peritonitis
+chlamydia peritonitis|fitz-hugh-curtis syndrome
+lupus|systemic lupus erythematosus|sle|lupus serositis
+familial mediterranean fever|fmf
+eosinophilic gastroenteritis
+amyloidosis
+sarcoidosis
+whipple disease
+starch peritonitis
+vasculitis
+nodular regenerative hyperplasia
+noncirrhotic portal hypertension|idiopathic portal hypertension
+splenic vein thrombosis
+inferior vena cava obstruction|ivc obstruction|ivc web
+fatty liver of pregnancy|acute fatty liver of pregnancy
+preeclampsia|hellp syndrome
+fetal hydrops|hydrops fetalis
+pancreatic duct leak|pancreatic duct disruption
+pancreatic pseudocyst
+lymphangioleiomyomatosis|lam
+filariasis
+trauma|abdominal trauma
+post-surgical|after abdominal surgery|postoperative ascites
+liver transplant|after liver transplant
+tips dysfunction|tips stenosis
+hepatic schistosomiasis
+cystic fibrosis
+polycystic liver disease
+gaucher disease
+hereditary hemorrhagic telangiectasia|hht|osler-weber-rendu
+myeloproliferative neoplasm|myelofibrosis
+leukemia
+cardiac amyloidosis
+restrictive cardiomyopathy
+dilated cardiomyopathy
+hepatitis a|acute viral hepatitis
+dengue
+yellow fever
+`, "2026-11-17");
+
+P("Name a cause of elevated liver enzymes","clinical","",`
+alcohol|alcoholic liver disease|alcohol use|alcoholism
+fatty liver|nonalcoholic fatty liver disease|nafld|masld|hepatic steatosis
+viral hepatitis|hepatitis
+hepatitis a|hav
+hepatitis b|hbv
+hepatitis c|hcv
+hepatitis d|hdv|hepatitis delta
+hepatitis e|hev
+acetaminophen|tylenol|paracetamol|acetaminophen overdose
+statins|statin|atorvastatin|simvastatin
+medications|drug induced liver injury|dili|medication
+alcoholic hepatitis
+nonalcoholic steatohepatitis|nash|mash
+cirrhosis
+autoimmune hepatitis
+primary biliary cholangitis|pbc|primary biliary cirrhosis
+primary sclerosing cholangitis|psc
+hemochromatosis|iron overload
+wilson disease|wilsons disease
+alpha-1 antitrypsin deficiency|alpha 1 antitrypsin deficiency|a1at deficiency
+celiac disease|celiac
+hyperthyroidism|thyrotoxicosis
+hypothyroidism
+muscle injury|rhabdomyolysis|muscle damage
+strenuous exercise|exercise|intense exercise
+heart failure|congestive hepatopathy|hepatic congestion
+ischemic hepatitis|shock liver|hypoxic hepatitis
+gallstones|choledocholithiasis|cholelithiasis|common bile duct stone
+cholecystitis
+cholangitis|ascending cholangitis
+biliary obstruction|bile duct obstruction|obstructive jaundice
+pancreatic cancer|pancreatic head cancer
+cholangiocarcinoma
+hepatocellular carcinoma|hcc|liver cancer
+liver metastases|metastatic disease
+pancreatitis
+budd-chiari syndrome|budd chiari syndrome
+portal vein thrombosis
+epstein-barr virus|ebv|mononucleosis|mono
+cytomegalovirus|cmv
+herpes simplex virus hepatitis|hsv hepatitis
+varicella zoster virus|vzv
+covid-19|covid|sars-cov-2
+hiv
+sepsis|cholestasis of sepsis
+total parenteral nutrition|tpn
+pregnancy|intrahepatic cholestasis of pregnancy
+hellp syndrome
+acute fatty liver of pregnancy
+preeclampsia
+hyperemesis gravidarum
+amiodarone
+methotrexate
+isoniazid|inh
+rifampin
+pyrazinamide
+valproic acid|valproate|depakote
+phenytoin|dilantin
+carbamazepine
+amoxicillin-clavulanate|augmentin|amoxicillin clavulanate
+nitrofurantoin
+ketoconazole
+azole antifungals|fluconazole|voriconazole
+terbinafine
+tetracyclines|minocycline
+sulfonamides|bactrim|trimethoprim-sulfamethoxazole
+erythromycin|macrolides
+nsaids|diclofenac|ibuprofen
+allopurinol
+halothane
+anabolic steroids
+oral contraceptives|estrogen
+tamoxifen
+propylthiouracil|ptu
+methyldopa
+hydralazine
+niacin
+leflunomide
+azathioprine|6-mercaptopurine|thiopurines
+checkpoint inhibitors|immune checkpoint inhibitor hepatitis|immunotherapy
+tyrosine kinase inhibitors
+antiretrovirals|haart|nevirapine
+herbal supplements|herbal and dietary supplements
+green tea extract
+kava
+comfrey|pyrrolizidine alkaloids
+black cohosh
+germander
+chaparral
+ma huang|ephedra
+mushroom poisoning|amanita phalloides|death cap mushroom
+vitamin a toxicity|hypervitaminosis a
+carbon tetrachloride
+vinyl chloride
+industrial solvents|toxins
+cocaine
+mdma|ecstasy
+heat stroke
+hemolysis|hemolytic anemia
+myocardial infarction|heart attack
+myopathy|myositis|polymyositis
+muscular dystrophy|duchenne muscular dystrophy
+macro-ast|macroenzyme
+addison disease|adrenal insufficiency
+anorexia nervosa
+obesity
+diabetes|type 2 diabetes
+metabolic syndrome
+rapid weight loss|bariatric surgery
+sarcoidosis
+tuberculosis|tb
+amyloidosis
+lymphoma
+leukemia
+infiltrative liver disease
+liver abscess|pyogenic liver abscess
+amoebic liver abscess|amebic liver abscess|entamoeba histolytica
+hydatid cyst|echinococcus|echinococcosis
+schistosomiasis
+leptospirosis
+q fever|coxiella
+brucellosis
+syphilis|secondary syphilis
+yellow fever
+dengue
+malaria
+toxoplasmosis
+adenovirus
+parvovirus b19
+congenital hepatic fibrosis
+biliary atresia
+choledochal cyst
+cystic fibrosis
+glycogen storage disease
+gaucher disease
+niemann-pick disease
+tyrosinemia
+galactosemia
+urea cycle disorder
+mitochondrial disease
+progressive familial intrahepatic cholestasis|pfic
+benign recurrent intrahepatic cholestasis
+alagille syndrome
+lysosomal acid lipase deficiency
+abetalipoproteinemia
+sinusoidal obstruction syndrome|veno-occlusive disease
+graft versus host disease|gvhd
+liver transplant rejection|transplant rejection
+ischemic cholangiopathy
+hepatic adenoma|hepatocellular adenoma
+polycystic liver disease
+hereditary hemorrhagic telangiectasia
+sickle cell disease|sickle cell hepatopathy
+hemophagocytic lymphohistiocytosis|hlh
+still disease|adult onset still disease
+lupus|systemic lupus erythematosus
+giant cell arteritis
+hypoperfusion|hypotension
+trauma|liver laceration|liver injury
+post surgery|postoperative cholestasis
+`, "2026-11-17");
+
+P("Name a cause of cyanosis","clinical","",`
+copd|chronic obstructive pulmonary disease|emphysema|chronic bronchitis
+pneumonia
+asthma|status asthmaticus|asthma exacerbation
+pulmonary embolism|pe
+heart failure|pulmonary edema|chf
+tetralogy of fallot|tof|tet spells
+transposition of the great arteries|tga|transposition of the great vessels
+truncus arteriosus
+tricuspid atresia
+total anomalous pulmonary venous return|tapvr|tapvc
+hypoplastic left heart syndrome|hlhs
+eisenmenger syndrome
+pulmonary atresia
+ebstein anomaly
+double outlet right ventricle|dorv
+critical pulmonary stenosis|pulmonary stenosis
+persistent pulmonary hypertension of the newborn|pphn
+cyanotic congenital heart disease|congenital heart disease
+methemoglobinemia
+sulfhemoglobinemia
+raynaud phenomenon|raynaud
+cold exposure|hypothermia
+shock|cardiogenic shock
+ards|acute respiratory distress syndrome
+pneumothorax|tension pneumothorax
+choking|foreign body aspiration|airway obstruction
+croup
+epiglottitis
+anaphylaxis
+respiratory failure
+hypoventilation
+opioid overdose
+sedative overdose|benzodiazepine overdose
+seizure|status epilepticus
+breath holding spell
+apnea|apnea of prematurity
+respiratory distress syndrome|neonatal respiratory distress syndrome|hyaline membrane disease
+transient tachypnea of the newborn
+meconium aspiration
+diaphragmatic hernia|congenital diaphragmatic hernia
+choanal atresia
+high altitude|altitude sickness|high altitude pulmonary edema|hape
+pulmonary hypertension
+interstitial lung disease|pulmonary fibrosis
+pleural effusion
+bronchiolitis|rsv
+cystic fibrosis
+pulmonary arteriovenous malformation|pulmonary avm
+hepatopulmonary syndrome
+right to left shunt
+atrial septal defect with reversal|asd
+ventricular septal defect with reversal|vsd
+patent ductus arteriosus|pda|differential cyanosis
+coarctation of the aorta
+polycythemia|polycythemia vera
+peripheral vascular disease|peripheral arterial disease|arterial occlusion
+arterial embolism|acute limb ischemia
+deep vein thrombosis|dvt|phlegmasia cerulea dolens
+venous obstruction|superior vena cava syndrome
+low cardiac output
+acrocyanosis
+frostbite
+dapsone
+nitrates|nitrites|nitroglycerin
+benzocaine|topical anesthetics
+lidocaine|prilocaine
+primaquine
+rasburicase
+aniline dyes
+amyl nitrite|poppers
+nitrate contaminated well water|well water
+g6pd deficiency
+hemoglobin m disease|hemoglobin m
+cytochrome b5 reductase deficiency
+low affinity hemoglobin variant
+carbon monoxide poisoning
+cyanide poisoning
+smoke inhalation
+drowning|near drowning
+sleep apnea|obstructive sleep apnea
+obesity hypoventilation syndrome|pickwickian syndrome
+guillain barre syndrome
+myasthenic crisis|myasthenia gravis
+amyotrophic lateral sclerosis|als
+spinal cord injury
+flail chest
+neuromuscular disease
+botulism
+pertussis|whooping cough
+sepsis
+`, "2026-11-17");
+
+P("Name a microbe that is part of the normal human flora","micro","",`
+staphylococcus epidermidis|staph epidermidis|s epidermidis|coagulase negative staph|cons
+escherichia coli|e coli
+lactobacillus|lactobacilli|doderlein bacilli
+bacteroides|bacteroides fragilis|b fragilis
+candida albicans|candida|yeast
+cutibacterium acnes|propionibacterium acnes|c acnes|p acnes
+viridans streptococci|viridans strep|strep viridans|alpha hemolytic strep
+staphylococcus aureus|staph aureus|s aureus
+streptococcus mutans|strep mutans|s mutans
+enterococcus|enterococcus faecalis|enterococcus faecium|e faecalis
+bifidobacterium|bifidobacteria
+clostridium|clostridia
+clostridioides difficile|clostridium difficile|c diff|c difficile
+streptococcus pneumoniae|pneumococcus|s pneumoniae
+neisseria meningitidis|meningococcus
+haemophilus influenzae|h influenzae
+moraxella catarrhalis
+corynebacterium|diphtheroids
+gardnerella vaginalis|gardnerella
+streptococcus agalactiae|group b strep|gbs
+klebsiella|klebsiella pneumoniae
+proteus|proteus mirabilis
+enterobacter
+eikenella corrodens|eikenella
+actinomyces israelii|actinomyces
+fusobacterium|fusobacterium nucleatum
+prevotella
+porphyromonas|porphyromonas gingivalis
+peptostreptococcus
+veillonella
+streptococcus sanguinis|s sanguinis|strep sanguis
+streptococcus mitis|s mitis
+streptococcus salivarius
+streptococcus gallolyticus|streptococcus bovis|strep bovis
+streptococcus anginosus|streptococcus milleri|strep milleri
+malassezia|pityrosporum
+demodex|demodex mites|demodex folliculorum
+staphylococcus saprophyticus
+staphylococcus hominis
+staphylococcus capitis
+staphylococcus lugdunensis
+micrococcus
+neisseria commensals|nonpathogenic neisseria|neisseria sicca|neisseria lactamica
+mycoplasma|mycoplasma hominis
+ureaplasma|ureaplasma urealyticum
+akkermansia muciniphila|akkermansia
+faecalibacterium prausnitzii|faecalibacterium
+eubacterium
+ruminococcus
+roseburia
+prevotella copri
+methanobrevibacter smithii|methanogens|archaea
+firmicutes
+bacteroidetes
+actinobacteria
+proteobacteria
+kingella kingae|kingella
+haemophilus parainfluenzae
+aggregatibacter|actinobacillus actinomycetemcomitans|aggregatibacter actinomycetemcomitans
+cardiobacterium hominis|cardiobacterium
+capnocytophaga
+rothia
+gemella
+granulicatella|abiotrophia|nutritionally variant streptococci
+treponema denticola|oral treponemes
+tannerella forsythia
+campylobacter rectus
+selenomonas
+leptotrichia
+lactococcus
+pediococcus
+leuconostoc
+atopobium vaginae|atopobium|fannyhessea vaginae
+mobiluncus
+lactobacillus crispatus
+lactobacillus iners
+lactobacillus jensenii
+lactobacillus gasseri
+citrobacter
+morganella
+providencia
+serratia
+acinetobacter
+pseudomonas aeruginosa|pseudomonas
+alistipes
+parabacteroides
+desulfovibrio|sulfate reducing bacteria
+blautia
+dorea
+coprococcus
+collinsella
+dialister
+megasphaera
+sneathia
+clostridium perfringens
+clostridium septicum
+bacillus|bacillus species
+blastocystis|blastocystis hominis
+entamoeba coli
+endolimax nana
+trichomonas tenax
+entamoeba gingivalis
+saccharomyces
+rhodotorula
+candida glabrata|nakaseomyces glabrata
+candida parapsilosis
+candida tropicalis
+bacteriophages|phages
+anelloviruses|torque teno virus
+corynebacterium jeikeium
+dermabacter
+brevibacterium
+kocuria
+finegoldia magna|finegoldia
+anaerococcus
+peptoniphilus
+`, "2026-11-17");
+
+P("Name an endocrine or reproductive physiology term","science","",`
+negative feedback|negative feedback loop
+positive feedback|positive feedback loop
+hypothalamic-pituitary axis|hypothalamic pituitary axis|hpa axis
+hypothalamic-pituitary-adrenal axis|hpa|hypothalamic pituitary adrenal axis
+hypothalamic-pituitary-gonadal axis|hpg axis
+hypothalamic-pituitary-thyroid axis|hpt axis
+menstrual cycle
+follicular phase
+luteal phase
+ovulation
+lh surge|luteinizing hormone surge
+menstruation|menses
+proliferative phase
+secretory phase
+corpus luteum
+corpus albicans
+graafian follicle|dominant follicle|tertiary follicle
+primordial follicle
+oogenesis
+spermatogenesis
+spermiogenesis
+capacitation
+acrosome reaction
+fertilization
+implantation
+decidualization|decidua
+placentation
+luteal-placental shift|luteoplacental shift
+menarche
+menopause
+perimenopause
+puberty
+thelarche
+pubarche
+adrenarche
+gonadarche
+tanner stages|tanner staging|sexual maturity rating
+insulin resistance
+insulin sensitivity
+glucose homeostasis
+gluconeogenesis
+glycogenolysis
+lipolysis
+ketogenesis
+counterregulatory hormones
+dawn phenomenon
+somogyi effect
+incretin effect|incretins
+first phase insulin release|insulin secretion
+c-peptide
+honeymoon phase
+circadian rhythm|diurnal variation|diurnal rhythm
+pulsatile secretion|pulsatile gnrh
+cortisol awakening response
+stress response|fight or flight
+wolff-chaikoff effect|wolff chaikoff effect
+jod-basedow phenomenon|jod basedow
+iodide trapping|iodine trapping|sodium iodide symporter|nis
+organification
+coupling
+thyroglobulin
+peripheral conversion|deiodination|5'-deiodinase
+euthyroid sick syndrome|sick euthyroid syndrome|nonthyroidal illness
+free hormone hypothesis|free hormone
+protein binding|hormone binding protein|binding globulins
+thyroxine-binding globulin|tbg
+sex hormone binding globulin|shbg
+cortisol binding globulin|transcortin|cbg
+steroidogenesis|steroid synthesis
+aromatization|aromatase
+5-alpha reduction|5 alpha reductase
+desmolase|side chain cleavage|cholesterol desmolase
+star protein|steroidogenic acute regulatory protein
+zona glomerulosa
+zona fasciculata
+zona reticularis
+adrenal medulla
+chromaffin cells
+renin-angiotensin-aldosterone system|raas|renin angiotensin aldosterone system
+aldosterone escape
+permissive effect|permissiveness
+tropic hormone|trophic hormone
+releasing hormone
+inhibiting hormone
+portal system|hypophyseal portal system
+posterior pituitary|neurohypophysis
+anterior pituitary|adenohypophysis
+prolactin inhibition|dopamine inhibition of prolactin|tonic inhibition
+lactation
+lactogenesis
+milk letdown|milk ejection reflex|letdown reflex
+ferguson reflex
+suckling reflex|nipple stimulation
+parturition
+uterine contraction
+cervical ripening
+osmoreceptors|osmoregulation
+plasma osmolality
+vasopressin release|adh secretion
+thirst
+calcium homeostasis
+bone remodeling
+osteoclast activation|rankl|rank ligand
+osteoprotegerin|opg
+calcitriol synthesis|1-alpha hydroxylase|1 alpha hydroxylase
+24-hydroxylase
+vitamin d activation
+phosphate homeostasis
+fgf-23|fgf23
+klotho
+growth spurt
+epiphyseal closure|growth plate closure
+igf-1 axis|somatomedin|growth hormone axis
+somatostatin inhibition
+sertoli cells
+leydig cells
+granulosa cells
+theca cells|theca interna
+two cell two gonadotropin theory|two-cell theory
+blood-testis barrier|blood testis barrier
+inhibin
+activin
+anti-mullerian hormone|amh|mullerian inhibiting substance
+sexual differentiation
+sry gene|testis determining factor
+mullerian duct regression
+wolffian duct development
+genital tubercle
+erection|penile erection
+emission
+ejaculation
+refractory period
+sexual response cycle|masters and johnson
+excitation phase
+plateau phase
+orgasm
+resolution phase
+human chorionic gonadotropin|hcg
+human placental lactogen|hpl|chorionic somatomammotropin
+relaxin
+physiologic insulin resistance of pregnancy|diabetogenic state of pregnancy
+gestational changes|physiologic changes of pregnancy
+basal body temperature
+cervical mucus|spinnbarkeit|ferning
+mittelschmerz
+follicular atresia
+recruitment
+selection of dominant follicle
+luteolysis
+anovulation
+receptor downregulation|downregulation
+receptor upregulation|upregulation
+second messenger|camp|cyclic amp
+nuclear receptor|intracellular receptor
+jak-stat|jak stat
+tyrosine kinase receptor
+half-life|hormone half life
+paracrine
+autocrine
+endocrine
+neuroendocrine
+apud cells
+enteroendocrine cells
+islets of langerhans|pancreatic islets
+alpha cells
+beta cells
+delta cells
+pp cells|f cells
+glucose transporter|glut4|glut2
+atp-sensitive potassium channel|katp channel
+brown adipose tissue|thermogenesis|uncoupling protein|thermogenin
+leptin signaling|satiety
+ghrelin signaling|hunger
+basal metabolic rate|bmr
+`, "2026-11-17");
+
+P("Name a urologic test or procedure","tests","",`
+urinalysis|ua|urine dipstick
+urine culture
+psa|prostate specific antigen|psa test
+digital rectal exam|dre|prostate exam
+cystoscopy|cysto
+transurethral resection of the prostate|turp
+vasectomy
+circumcision
+prostatectomy|radical prostatectomy|robotic prostatectomy
+prostate biopsy|transrectal prostate biopsy|trus biopsy|transperineal prostate biopsy
+lithotripsy|extracorporeal shock wave lithotripsy|eswl|swl
+ureteroscopy|urs|ureteroscopic laser lithotripsy
+percutaneous nephrolithotomy|pcnl|percutaneous nephrolithotripsy
+ureteral stent|double j stent|ureteral stent placement
+nephrostomy tube|percutaneous nephrostomy|pcn
+foley catheter|urinary catheterization|bladder catheterization|indwelling urinary catheter
+suprapubic catheter|suprapubic cystostomy|spc
+straight catheterization|intermittent catheterization|in and out cath|clean intermittent catheterization
+post-void residual|pvr|bladder scan|post void residual
+urodynamics|urodynamic testing|urodynamic study
+uroflowmetry|uroflow
+cystometry|cystometrogram|cmg
+voiding cystourethrogram|vcug
+retrograde urethrogram|rug
+retrograde pyelogram|retrograde pyelography
+intravenous pyelogram|ivp|excretory urography
+ct urogram|ct urography
+ct kub|noncontrast ct abdomen pelvis|stone protocol ct
+kub x-ray|kub
+renal ultrasound|kidney ultrasound|renal bladder ultrasound|rbus
+scrotal ultrasound|testicular ultrasound|doppler scrotal ultrasound
+transrectal ultrasound|trus
+prostate mri|multiparametric mri|mpmri
+mag3 renal scan|mag3|renal scintigraphy|diuretic renogram|lasix renogram
+dmsa scan
+nephrectomy|radical nephrectomy
+partial nephrectomy|nephron sparing surgery
+nephroureterectomy
+cystectomy|radical cystectomy
+ileal conduit|urinary diversion
+neobladder|orthotopic neobladder
+transurethral resection of bladder tumor|turbt
+intravesical bcg|bcg instillation|bcg therapy
+intravesical chemotherapy|mitomycin instillation
+orchiectomy|radical orchiectomy|inguinal orchiectomy
+orchiopexy
+detorsion|testicular detorsion|scrotal exploration
+hydrocelectomy
+varicocelectomy|varicocele repair
+spermatocelectomy
+vasovasostomy|vasectomy reversal
+semen analysis
+testicular biopsy
+testicular sperm extraction|tese|micro tese
+pyeloplasty
+ureteral reimplantation|ureteroneocystostomy
+hypospadias repair
+urethroplasty
+urethral dilation|urethrotomy|internal urethrotomy|dvi
+meatotomy
+penile prosthesis|inflatable penile prosthesis
+intracavernosal injection|penile injection|trimix injection
+penile doppler ultrasound|duplex ultrasound of penis
+nocturnal penile tumescence test|npt
+sling|midurethral sling|tvt|tension free vaginal tape|male sling
+artificial urinary sphincter|aus
+botox bladder injection|intravesical botox|bladder botox
+sacral neuromodulation|interstim|sacral nerve stimulation
+percutaneous tibial nerve stimulation|ptns
+bladder augmentation|augmentation cystoplasty
+mitrofanoff|appendicovesicostomy
+holmium laser enucleation of the prostate|holep
+photoselective vaporization of the prostate|pvp|greenlight laser
+urolift|prostatic urethral lift
+rezum|water vapor thermal therapy
+aquablation
+prostate artery embolization|pae
+transurethral incision of the prostate|tuip
+simple prostatectomy
+brachytherapy|seed implant|prostate brachytherapy
+cryoablation|renal cryoablation|prostate cryotherapy
+radiofrequency ablation|renal rfa
+hifu|high intensity focused ultrasound
+active surveillance
+urine cytology
+fish urine test|urovysion
+nmp22|bladder tumor marker test
+4kscore|phi|prostate health index
+pca3 test
+psma pet|psma pet scan
+bone scan
+renal biopsy|kidney biopsy
+24-hour urine collection|24 hour urine|stone risk panel|litholink
+stone analysis
+urine microscopy
+urine osmolality
+urine electrolytes
+serum creatinine|creatinine|bun
+egfr|glomerular filtration rate
+testosterone level
+fsh and lh|fsh|lh
+testicular tumor markers|afp|beta hcg
+water deprivation test
+bladder diary|voiding diary
+pad test|pad weight test
+cough stress test
+q-tip test
+bladder irrigation|continuous bladder irrigation|cbi
+clot evacuation|cystoscopic clot evacuation
+cystolitholapaxy|bladder stone removal
+pyelolithotomy
+nephrolithotomy
+endopyelotomy
+renal angiography|renal arteriography
+renal artery embolization
+adrenalectomy
+retroperitoneal lymph node dissection|rplnd
+pelvic lymph node dissection|plnd
+penectomy
+inguinal lymph node dissection
+glansectomy
+plication|nesbit plication|penile plication
+collagenase injection|xiaflex
+priapism aspiration|corporal aspiration|shunt for priapism
+phimosis release|dorsal slit
+frenuloplasty
+urethral swab|urethral culture
+nucleic acid amplification test|naat
+sperm retrieval|percutaneous epididymal sperm aspiration|pesa|mesa
+electroejaculation
+transrectal seminal vesicle aspiration
+kidney transplant|renal transplant
+dialysis access|av fistula
+peritoneal dialysis catheter placement
+`, "2026-11-17");
+
+P("Name a critical care (ICU) term","care","",`
+mechanical ventilation|ventilator|vent
+intubation|endotracheal intubation|rapid sequence intubation|rsi
+extubation
+peep|positive end expiratory pressure
+fio2|fraction of inspired oxygen
+tidal volume|vt
+assist control|ac|ac/vc|volume control|volume assist control
+pressure control|pressure control ventilation|pc|pcv
+pressure support|psv|pressure support ventilation
+simv|synchronized intermittent mandatory ventilation
+cpap|continuous positive airway pressure
+bipap|bilevel positive airway pressure|bpap|niv|noninvasive ventilation|noninvasive positive pressure ventilation|nippv
+high flow nasal cannula|hfnc|heated high flow|optiflow|airvo
+aprv|airway pressure release ventilation
+oscillator|high frequency oscillatory ventilation|hfov
+prone positioning|proning
+lung protective ventilation|low tidal volume ventilation|ardsnet
+plateau pressure|pplat
+peak inspiratory pressure|pip|peak pressure
+driving pressure
+auto-peep|autopeep|intrinsic peep|breath stacking
+compliance|lung compliance
+recruitment maneuver
+spontaneous breathing trial|sbt
+spontaneous awakening trial|sat|sedation vacation|daily sedation interruption
+rapid shallow breathing index|rsbi
+negative inspiratory force|nif|mip|maximal inspiratory pressure
+ventilator associated pneumonia|vap
+ventilator associated event|vae
+tracheostomy|trach
+weaning|ventilator weaning
+abg|arterial blood gas
+p/f ratio|pf ratio|pao2/fio2
+a-a gradient|alveolar arterial gradient
+lactate|lactic acid
+sepsis
+septic shock
+sepsis bundle|hour-1 bundle|surviving sepsis campaign
+qsofa
+sofa score|sequential organ failure assessment
+apache ii|apache score
+saps
+mods|multiple organ dysfunction syndrome|multiorgan failure
+sirs|systemic inflammatory response syndrome
+ards|acute respiratory distress syndrome
+berlin criteria
+vasopressors|pressors
+norepinephrine|levophed|noradrenaline
+vasopressin|vaso
+epinephrine|adrenaline|epi
+phenylephrine|neosynephrine|neo
+dopamine
+dobutamine
+milrinone
+inotropes|inotrope
+map|mean arterial pressure|map goal 65
+fluid resuscitation|fluid bolus|30 ml/kg
+fluid responsiveness
+passive leg raise|plr
+pulse pressure variation|ppv
+stroke volume variation|svv
+central line|central venous catheter|cvc|triple lumen
+arterial line|art line|a-line
+pulmonary artery catheter|swan-ganz|swan|pa catheter
+cvp|central venous pressure
+pcwp|pulmonary capillary wedge pressure|wedge pressure
+cardiac output|co|cardiac index|ci
+svr|systemic vascular resistance
+scvo2|central venous oxygen saturation|mixed venous oxygen saturation|svo2
+picco
+bedside echo|echo|point of care ultrasound|pocus
+iabp|intra-aortic balloon pump|balloon pump
+impella
+ecmo|extracorporeal membrane oxygenation|va ecmo|vv ecmo
+lvad|left ventricular assist device
+crrt|continuous renal replacement therapy|cvvh|cvvhd|cvvhdf
+dialysis|hemodialysis|hd
+sled|sustained low efficiency dialysis
+aki|acute kidney injury
+sedation
+rass|richmond agitation sedation scale
+sas|sedation agitation scale
+cam-icu|confusion assessment method for the icu
+icu delirium|delirium
+icdsc|intensive care delirium screening checklist
+propofol|diprivan
+dexmedetomidine|precedex|dex
+midazolam|versed
+fentanyl drip|fentanyl
+analgosedation
+neuromuscular blockade|paralysis|paralytics
+cisatracurium|nimbex
+rocuronium|roc
+train of four|tof
+propofol infusion syndrome|pris
+abcdef bundle|a2f bundle|icu liberation bundle
+early mobility|early mobilization
+post intensive care syndrome|pics
+icu acquired weakness|critical illness myopathy|critical illness polyneuropathy
+dvt prophylaxis|vte prophylaxis
+stress ulcer prophylaxis|sup
+glycemic control|insulin drip|insulin infusion
+clabsi|central line associated bloodstream infection
+cauti|catheter associated urinary tract infection
+pressure injury|pressure ulcer|bedsore
+chlorhexidine bathing|chg bath
+oral care|chlorhexidine oral care
+head of bed elevation|hob 30|head of bed 30 degrees
+goals of care|goals of care discussion
+code status|dnr|do not resuscitate|full code
+family meeting
+brain death|death by neurologic criteria
+apnea test
+organ donation|organ procurement|opo
+withdrawal of life support|comfort care|terminal extubation
+rapid response team|rrt|rapid response
+code blue|cardiac arrest
+rosc|return of spontaneous circulation
+targeted temperature management|ttm|therapeutic hypothermia
+icp monitoring|intracranial pressure monitoring|evd|external ventricular drain
+cerebral perfusion pressure|cpp
+hypertonic saline|3% saline|23.4% saline
+mannitol
+gcs|glasgow coma scale
+four score
+neuro checks
+status epilepticus
+eeg monitoring|continuous eeg|ceeg
+massive transfusion protocol|mtp
+abdominal compartment syndrome
+bladder pressure|intra-abdominal pressure
+shock index
+cardiogenic shock
+distributive shock
+hypovolemic shock
+obstructive shock
+dka|diabetic ketoacidosis
+hhs|hyperosmolar hyperglycemic state
+refeeding syndrome
+enteral nutrition|tube feeds|tube feeding
+tpn|total parenteral nutrition|parenteral nutrition
+og tube|orogastric tube
+ng tube|nasogastric tube
+post pyloric feeding|nasojejunal tube|nj tube
+gastric residual volume|grv
+chest tube|thoracostomy tube
+bronchoscopy
+bal|bronchoalveolar lavage
+procalcitonin
+blood cultures
+broad spectrum antibiotics
+de-escalation|antibiotic de-escalation
+source control
+open icu|closed icu
+intensivist
+tele-icu|eicu
+step down unit|intermediate care
+micu|medical icu
+sicu|surgical icu
+cvicu|cardiothoracic icu|ccu|cardiac icu
+nicu|neonatal icu
+picu|pediatric icu
+neuro icu|nsicu
+burn unit|burn icu
+icu triage
+1:1 nursing|one to one nursing|nurse to patient ratio
+daily goals checklist|rounding checklist
+fast hugs bid
+liberation from mechanical ventilation
+reintubation
+post extubation stridor
+cuff leak test
+self extubation|unplanned extubation
+bite block
+etco2|end tidal co2|capnography
+pulse oximetry|spo2
+deadspace|dead space
+shunt
+hypoxemic respiratory failure|type 1 respiratory failure
+hypercapnic respiratory failure|type 2 respiratory failure
+inhaled nitric oxide|ino|nitric oxide
+inhaled epoprostenol|veletri|flolan
+heliox
+permissive hypercapnia
+volutrauma
+barotrauma
+atelectrauma
+biotrauma
+oxygen toxicity
+fluid overload|positive fluid balance
+diuresis
+ins and outs|i&o|intake and output
+daily weights
+`, "2026-11-17");
+
+P("Name a structure of the retroperitoneum or posterior abdominal wall","body","",`
+kidney|kidneys
+adrenal gland|suprarenal gland|adrenal glands|adrenals
+ureter|ureters
+abdominal aorta|aorta
+inferior vena cava|ivc
+pancreas|head of pancreas|body of pancreas|pancreatic head
+duodenum|second part of duodenum|third part of duodenum|descending duodenum
+ascending colon
+descending colon
+rectum
+psoas major|psoas|psoas muscle
+quadratus lumborum
+iliacus|iliacus muscle
+iliopsoas
+diaphragm|diaphragmatic crura|crus of diaphragm|right crus|left crus
+renal artery|renal arteries
+renal vein|renal veins|left renal vein
+gonadal vein|testicular vein|ovarian vein
+gonadal artery|testicular artery|ovarian artery
+celiac trunk|celiac artery
+superior mesenteric artery|sma
+inferior mesenteric artery|ima
+lumbar arteries
+median sacral artery
+common iliac artery|common iliac arteries
+common iliac vein
+external iliac artery
+internal iliac artery
+lumbar veins
+ascending lumbar vein
+azygos vein|azygos
+hemiazygos vein
+cisterna chyli
+thoracic duct origin
+para-aortic lymph nodes|paraaortic lymph nodes|lumbar lymph nodes|retroperitoneal lymph nodes
+lumbar plexus
+subcostal nerve
+iliohypogastric nerve
+ilioinguinal nerve
+genitofemoral nerve
+lateral femoral cutaneous nerve|lateral cutaneous nerve of the thigh
+femoral nerve
+obturator nerve
+lumbosacral trunk
+sympathetic trunk|lumbar sympathetic chain|sympathetic chain
+celiac ganglion|celiac plexus
+aorticorenal ganglion
+superior mesenteric ganglion
+inferior mesenteric ganglion
+superior hypogastric plexus
+splanchnic nerves|lumbar splanchnic nerves
+vagal trunks|vagus nerve
+perirenal fat|perinephric fat
+pararenal fat|paranephric fat
+gerota fascia|renal fascia|gerotas fascia
+anterior pararenal space
+posterior pararenal space
+perirenal space|perinephric space
+zuckerkandl fascia
+transversalis fascia
+thoracolumbar fascia|lumbodorsal fascia
+lumbar vertebrae|lumbar spine
+transverse processes
+twelfth rib|12th rib|rib 12
+iliac crest
+medial arcuate ligament
+lateral arcuate ligament
+median arcuate ligament
+renal pelvis
+renal hilum
+ureteropelvic junction|upj
+psoas minor
+transversus abdominis posterior aponeurosis
+superior lumbar triangle|grynfeltt triangle|grynfeltt-lesshaft triangle
+inferior lumbar triangle|petit triangle|petits triangle
+organ of zuckerkandl|paraganglia
+retroperitoneal fat
+duodenojejunal flexure|ligament of treitz|suspensory muscle of duodenum
+hepatic flexure|right colic flexure
+splenic flexure|left colic flexure
+esophagus abdominal portion|abdominal esophagus
+gonadal vessels
+suprarenal arteries|adrenal arteries
+inferior phrenic artery
+inferior phrenic vein
+suprarenal vein|adrenal vein
+renal capsule
+bladder|urinary bladder
+`, "2026-11-17");
+
+P("Name a sterilization, disinfection or antisepsis method","micro","",`
+autoclave|steam sterilization|moist heat sterilization|autoclaving
+alcohol|isopropyl alcohol|ethanol|rubbing alcohol|alcohol wipe|70% alcohol
+chlorhexidine|chg|hibiclens
+povidone-iodine|betadine|povidone iodine|iodine
+hand hygiene|handwashing|hand washing
+alcohol based hand sanitizer|hand sanitizer|abhr|purell
+bleach|sodium hypochlorite|chlorine|hypochlorite
+hydrogen peroxide
+ethylene oxide|eto|ethylene oxide gas
+glutaraldehyde|cidex
+formaldehyde|formalin
+ultraviolet light|uv light|uv-c|ultraviolet radiation
+gamma radiation|gamma irradiation|ionizing radiation|irradiation
+dry heat sterilization|dry heat|hot air oven
+boiling|boiling water
+pasteurization
+filtration|membrane filtration|hepa filtration
+incineration|flaming
+hydrogen peroxide gas plasma|sterrad|vaporized hydrogen peroxide|hydrogen peroxide vapor
+peracetic acid|peroxyacetic acid
+ortho-phthalaldehyde|opa|cidex opa
+quaternary ammonium compounds|quats|benzalkonium chloride|quaternary ammonium
+phenolics|phenol|lysol
+iodophors
+tincture of iodine|iodine tincture
+hexachlorophene
+triclosan
+chloroxylenol|pcmx|dettol
+silver|silver nitrate|silver sulfadiazine|silver dressing
+gentian violet|crystal violet
+mercurochrome|thimerosal|merbromin
+cetylpyridinium chloride
+chlorine dioxide
+ozone
+electron beam sterilization|e-beam
+microwave sterilization
+tyndallization|fractional sterilization|intermittent sterilization
+low temperature sterilization
+high level disinfection|hld
+intermediate level disinfection
+low level disinfection
+sterile field
+aseptic technique|sterile technique
+surgical scrub|surgical hand antisepsis|surgical hand scrub
+skin prep|preoperative skin antisepsis|chloraprep|duraprep
+dakin solution|dakins solution
+acetic acid|vinegar
+copper surfaces|copper
+uv disinfection robot|terminal cleaning uv
+terminal cleaning|terminal disinfection
+flash sterilization|immediate use steam sterilization|iuss
+prion decontamination|prion inactivation|sodium hydroxide
+potassium permanganate
+cold sterilization|chemical sterilant
+decontamination
+cleaning
+accelerated hydrogen peroxide|ahp
+sodium dichloroisocyanurate|nadcc|chlorine tablets
+water chlorination|chlorinated water
+iodine tablets|water purification tablets
+chloramine|chloramine-t
+low temperature steam formaldehyde|ltsf
+nitrogen dioxide sterilization
+supercritical carbon dioxide
+propylene oxide
+beta-propiolactone|beta propiolactone
+x-ray irradiation
+pulsed xenon uv|pulsed uv
+far uv-c|far uvc
+405 nm visible light|blue light disinfection
+cold atmospheric plasma|plasma sterilization
+n-propanol|propanol
+cetrimide|savlon
+triple dye|cord care
+lugol iodine|lugols solution
+iodoform|iodoform gauze
+acriflavine|proflavine
+brilliant green
+boric acid
+mercuric chloride
+benzoyl peroxide
+antimicrobial soap|antibacterial soap
+sporicidal wipes|sporicidal disinfectant
+sanitization|sanitizing
+mechanical cleaning|ultrasonic cleaner|ultrasonic cleaning
+washer disinfector
+endoscope reprocessing
+mouthwash|antiseptic mouthwash|listerine
+tea tree oil
+honey|medical grade honey|manuka honey
+octenidine
+polyhexanide|phmb
+hypochlorous acid|vashe
+superoxidized water|electrolyzed water
+steam under pressure
+heat inactivation
+`, "2026-11-17");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

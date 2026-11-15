@@ -75458,6 +75458,774 @@ low vision evaluation
 botox for strabismus
 `, "2026-11-17");
 
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE (batch 2026-11-15, set 4, board-first) ---- */
+P("Name a cause of microcephaly","clinical","",`
+zika virus|congenital zika syndrome|zika
+congenital cmv|cytomegalovirus|cmv
+congenital rubella|rubella
+congenital toxoplasmosis|toxoplasmosis
+congenital herpes simplex|neonatal hsv|hsv
+congenital varicella|varicella
+congenital syphilis
+congenital hiv|hiv
+lymphocytic choriomeningitis virus|lcmv
+torch infections|torch
+fetal alcohol syndrome|fetal alcohol spectrum disorder|prenatal alcohol exposure|fasd
+maternal pku|maternal phenylketonuria
+phenylketonuria|pku
+down syndrome|trisomy 21
+edwards syndrome|trisomy 18
+patau syndrome|trisomy 13
+cri du chat syndrome|5p deletion
+wolf-hirschhorn syndrome|4p deletion
+angelman syndrome
+rett syndrome
+cornelia de lange syndrome
+smith-lemli-opitz syndrome
+rubinstein-taybi syndrome
+seckel syndrome
+microcephalic osteodysplastic primordial dwarfism|mopd
+primary microcephaly|autosomal recessive primary microcephaly|mcph|microcephaly vera
+aspm mutation
+nijmegen breakage syndrome
+fanconi anemia
+bloom syndrome
+cockayne syndrome
+ligase iv deficiency
+feingold syndrome
+mowat-wilson syndrome
+pitt-hopkins syndrome
+williams syndrome
+1p36 deletion syndrome
+miller-dieker syndrome|lissencephaly
+holoprosencephaly
+schizencephaly
+polymicrogyria
+pontocerebellar hypoplasia
+aicardi-goutieres syndrome
+pseudo-torch syndrome
+hypoxic ischemic encephalopathy|hie|birth asphyxia|perinatal asphyxia
+intrauterine growth restriction|iugr
+placental insufficiency
+prematurity complications|periventricular leukomalacia
+stroke|perinatal stroke
+craniosynostosis|premature fusion of sutures
+severe malnutrition|maternal malnutrition
+congenital hypothyroidism
+maternal diabetes
+prenatal radiation exposure|radiation
+methylmercury|mercury exposure
+lead poisoning
+cocaine exposure
+anticonvulsant exposure|fetal hydantoin syndrome|phenytoin
+valproate exposure
+methotrexate exposure|aminopterin
+isotretinoin exposure
+glucose transporter 1 deficiency|glut1 deficiency
+serine biosynthesis defects|3-phosphoglycerate dehydrogenase deficiency
+asparagine synthetase deficiency
+molybdenum cofactor deficiency|sulfite oxidase deficiency
+menkes disease
+mitochondrial disease
+congenital disorders of glycosylation
+meningitis
+encephalitis
+traumatic brain injury|abusive head trauma
+neonatal hypoglycemia
+kernicterus
+cdkl5 deficiency disorder
+foxg1 syndrome
+cohen syndrome
+smith-magenis syndrome
+22q11 deletion syndrome|digeorge syndrome
+dubowitz syndrome
+xeroderma pigmentosum
+vici syndrome
+warsaw breakage syndrome
+cerebro-oculo-facio-skeletal syndrome|cofs
+familial microcephaly|benign familial microcephaly
+`, "2026-11-17");
+
+P("Name a cause of tinnitus","clinical","",`
+noise exposure|loud noise|noise induced hearing loss|acoustic trauma
+age-related hearing loss|presbycusis|aging
+earwax|cerumen impaction|ear wax
+meniere disease|menieres disease
+acoustic neuroma|vestibular schwannoma
+otosclerosis
+ear infection|otitis media
+otitis externa|swimmer's ear
+eustachian tube dysfunction
+middle ear effusion|serous otitis media
+aspirin|salicylates|salicylate toxicity
+nsaids|ibuprofen
+aminoglycosides|gentamicin|tobramycin|amikacin
+loop diuretics|furosemide|ethacrynic acid
+cisplatin|platinum chemotherapy|carboplatin
+quinine|quinidine
+chloroquine|hydroxychloroquine
+vancomycin
+erythromycin|macrolides
+antidepressants
+caffeine
+alcohol
+nicotine|smoking
+head injury|head trauma|traumatic brain injury|concussion
+whiplash|neck injury
+tmj disorder|temporomandibular joint disorder|tmd
+barotrauma
+perforated eardrum|tympanic membrane perforation
+sudden sensorineural hearing loss|sudden hearing loss
+labyrinthitis
+vestibular neuritis
+cholesteatoma
+glomus tumor|glomus tympanicum|glomus jugulare|paraganglioma
+idiopathic intracranial hypertension|pseudotumor cerebri
+carotid artery stenosis|atherosclerosis
+arteriovenous malformation|avm
+dural arteriovenous fistula|dural avf
+carotid artery dissection
+aneurysm
+high riding jugular bulb|jugular bulb anomaly
+venous hum
+sigmoid sinus diverticulum|sigmoid sinus dehiscence
+anemia
+hyperthyroidism
+pregnancy
+hypertension
+hyperdynamic circulation
+superior semicircular canal dehiscence|scd
+patulous eustachian tube
+middle ear myoclonus|stapedial myoclonus|tensor tympani myoclonus
+palatal myoclonus|palatal tremor
+multiple sclerosis
+stroke
+meningioma
+migraine|vestibular migraine
+depression
+anxiety|stress
+insomnia
+fibromyalgia
+diabetes
+hypothyroidism
+vitamin b12 deficiency
+autoimmune inner ear disease
+lyme disease
+syphilis|otosyphilis
+mumps
+measles
+cmv
+covid-19
+ramsay hunt syndrome|herpes zoster oticus
+paget disease
+hyperlipidemia
+foreign body in ear
+cochlear implant
+ear surgery|stapedectomy
+radiation therapy
+lidocaine
+benzodiazepine withdrawal
+tricyclic antidepressants
+ssris
+carbamazepine
+`, "2026-11-17");
+
+P("Name a cause of elevated troponin","clinical","",`
+myocardial infarction|heart attack|mi|acute mi
+stemi|st elevation myocardial infarction
+nstemi|non st elevation myocardial infarction
+type 2 myocardial infarction|demand ischemia|supply demand mismatch
+myocarditis|viral myocarditis
+pericarditis|myopericarditis
+pulmonary embolism|pe
+heart failure|acute decompensated heart failure|chf
+sepsis|septic shock
+chronic kidney disease|ckd|renal failure|esrd
+takotsubo cardiomyopathy|stress cardiomyopathy|broken heart syndrome
+aortic dissection
+cardiac contusion|blunt cardiac injury|myocardial contusion
+tachyarrhythmia|svt|ventricular tachycardia
+atrial fibrillation with rapid ventricular response|afib rvr|atrial fibrillation
+bradyarrhythmia|heart block
+hypertensive emergency|hypertensive crisis
+stroke|ischemic stroke
+subarachnoid hemorrhage|sah
+intracerebral hemorrhage
+cardioversion|defibrillation|shocks
+cardiac arrest|cpr
+catheter ablation|ablation
+pci|percutaneous coronary intervention|stent
+cabg|cardiac surgery|open heart surgery
+noncardiac surgery|perioperative myocardial injury
+coronary vasospasm|prinzmetal angina|vasospastic angina
+cocaine
+methamphetamine|amphetamines
+spontaneous coronary artery dissection|scad
+coronary embolism
+kawasaki disease
+endocarditis
+anthracyclines|doxorubicin|chemotherapy cardiotoxicity
+trastuzumab|herceptin
+5-fluorouracil|5-fu
+immune checkpoint inhibitor myocarditis|checkpoint inhibitors
+amyloidosis|cardiac amyloidosis
+sarcoidosis|cardiac sarcoidosis
+hypertrophic cardiomyopathy|hcm
+dilated cardiomyopathy
+infiltrative cardiomyopathy
+aortic stenosis
+left ventricular hypertrophy|lvh
+pulmonary hypertension
+copd exacerbation
+respiratory failure|hypoxemia
+severe anemia
+hypotension|shock
+hypothyroidism
+hyperthyroidism|thyroid storm
+pheochromocytoma
+diabetic ketoacidosis|dka
+rhabdomyolysis|skeletal muscle disease|myositis
+duchenne muscular dystrophy
+strenuous exercise|marathon running|endurance exercise
+burns
+carbon monoxide poisoning
+snake envenomation
+scorpion sting
+chagas disease|trypanosoma cruzi
+covid-19
+influenza
+hiv
+lyme carditis
+rheumatic fever
+peripartum cardiomyopathy
+preeclampsia
+lupus|systemic lupus erythematosus
+heat stroke
+hypothermia
+heterophile antibodies|assay interference
+macrotroponin
+rheumatoid factor interference
+biotin interference
+electrical injury
+tavr|transcatheter aortic valve replacement
+pacemaker implantation|icd implantation
+cardiac tumor
+pneumonia
+sickle cell crisis|acute chest syndrome
+kounis syndrome|allergic angina
+heart transplant rejection
+systemic sclerosis|scleroderma
+`, "2026-11-17");
+
+P("Name a cause of hypopigmentation or white skin patches","clinical","",`
+vitiligo
+tinea versicolor|pityriasis versicolor
+pityriasis alba
+post-inflammatory hypopigmentation|postinflammatory hypopigmentation
+albinism|oculocutaneous albinism
+idiopathic guttate hypomelanosis
+tuberous sclerosis|ash leaf spots|ash leaf macules
+leprosy|hansen disease
+piebaldism
+waardenburg syndrome
+nevus depigmentosus|nevus achromicus
+nevus anemicus
+halo nevus|halo nevi
+morphea|localized scleroderma
+lichen sclerosus
+scleroderma|systemic sclerosis
+discoid lupus|cutaneous lupus
+sarcoidosis|hypopigmented sarcoidosis
+mycosis fungoides|hypopigmented mycosis fungoides|cutaneous t cell lymphoma
+eczema|atopic dermatitis
+psoriasis
+seborrheic dermatitis
+burns|burn scar
+scars|scarring
+cryotherapy|after liquid nitrogen
+laser treatment
+chemical leukoderma|chemical depigmentation|monobenzone|rubber chemicals
+hydroquinone overuse
+topical steroids|steroid injection|intralesional steroids
+imatinib
+checkpoint inhibitors|immunotherapy vitiligo
+melanoma associated leukoderma
+pinta
+yaws
+onchocerciasis|leopard skin
+post kala-azar dermal leishmaniasis
+syphilis|leukoderma syphiliticum
+hypopituitarism
+phenylketonuria|pku
+hermansky-pudlak syndrome
+chediak-higashi syndrome
+griscelli syndrome
+menkes disease
+hypomelanosis of ito
+incontinentia pigmenti stage 4
+progressive macular hypomelanosis
+tinea corporis
+lichen striatus
+pityriasis lichenoides chronica
+pityriasis rosea
+lichen planus
+guttate psoriasis
+malnutrition|kwashiorkor
+selenium deficiency
+copper deficiency
+vogt-koyanagi-harada syndrome
+alezzandrini syndrome
+graft versus host disease
+radiation dermatitis
+dermabrasion
+arsenic|raindrop hypopigmentation
+skin lightening creams|bleaching creams
+atrophie blanche
+striae|stretch marks|striae alba
+bier spots
+woronoff ring
+clear cell papulosis
+xeroderma pigmentosum
+dyskeratosis congenita
+elejalde syndrome
+cross syndrome|oculocerebral hypopigmentation syndrome
+prader-willi syndrome
+angelman syndrome
+tietz syndrome|albinism-deafness syndrome
+poikiloderma|poikiloderma vasculare atrophicans
+frostbite
+imiquimod
+sunitinib|pazopanib|tyrosine kinase inhibitors
+rhododendrol
+`, "2026-11-17");
+
+P("Name a neurosurgical or spine procedure","tests","",`
+craniotomy
+craniectomy|decompressive craniectomy
+burr hole|burr holes|burr hole evacuation
+external ventricular drain|evd|ventriculostomy
+ventriculoperitoneal shunt|vp shunt|shunt placement
+lumboperitoneal shunt|lp shunt
+endoscopic third ventriculostomy|etv
+lumbar puncture|spinal tap|lp
+lumbar drain
+icp monitor|intracranial pressure monitor|bolt
+subdural hematoma evacuation|subdural evacuation
+epidural hematoma evacuation
+aneurysm clipping|clipping
+endovascular coiling|coiling|aneurysm coiling
+flow diverter|pipeline embolization device
+mechanical thrombectomy|stroke thrombectomy
+avm resection|arteriovenous malformation resection
+avm embolization
+stereotactic radiosurgery|gamma knife|cyberknife
+tumor resection|brain tumor resection
+awake craniotomy|awake brain surgery
+transsphenoidal surgery|transsphenoidal resection|endoscopic endonasal approach
+stereotactic biopsy|brain biopsy
+deep brain stimulation|dbs
+vagus nerve stimulator|vns
+responsive neurostimulation|rns
+temporal lobectomy|anterior temporal lobectomy
+amygdalohippocampectomy|selective amygdalohippocampectomy
+corpus callosotomy
+hemispherectomy
+laser interstitial thermal therapy|litt
+lesionectomy
+microvascular decompression|jannetta procedure
+rhizotomy|glycerol rhizotomy|radiofrequency rhizotomy
+selective dorsal rhizotomy
+cordotomy
+dorsal root entry zone lesioning|drez
+chiari decompression|suboccipital decompression|posterior fossa decompression
+cranioplasty
+craniosynostosis repair|cranial vault remodeling
+myelomeningocele repair|spina bifida repair
+tethered cord release
+carpal tunnel release
+ulnar nerve transposition|cubital tunnel release
+peripheral nerve repair|nerve graft
+nerve transfer
+discectomy|microdiscectomy
+laminectomy|decompressive laminectomy
+laminotomy
+laminoplasty
+foraminotomy
+spinal fusion|fusion
+acdf|anterior cervical discectomy and fusion
+cervical disc arthroplasty|artificial disc replacement|disc replacement
+posterior cervical fusion
+plif|posterior lumbar interbody fusion
+tlif|transforaminal lumbar interbody fusion
+alif|anterior lumbar interbody fusion
+xlif|llif|lateral lumbar interbody fusion
+olif|oblique lumbar interbody fusion
+pedicle screw fixation|pedicle screws
+kyphoplasty
+vertebroplasty
+corpectomy
+odontoid screw fixation
+c1-c2 fusion|atlantoaxial fusion
+occipitocervical fusion
+scoliosis surgery|spinal deformity correction
+osteotomy|pedicle subtraction osteotomy
+sacroiliac joint fusion|si joint fusion
+interspinous spacer
+spinal cord stimulator|scs
+intrathecal pump|baclofen pump|intrathecal drug delivery
+epidural steroid injection|esi
+facet joint injection
+medial branch block
+radiofrequency ablation|facet rfa
+spinal tumor resection
+intradural tumor resection
+syrinx shunt|syringopleural shunt
+spinal cord decompression
+halo vest|halo placement
+cervical traction|gardner-wells tongs
+myelogram|ct myelogram
+discogram
+wada test
+electrocorticography|ecog
+intraoperative neuromonitoring|neuromonitoring
+stereo eeg|seeg|depth electrodes
+subdural grid placement
+neuronavigation|stereotaxy
+5-ala fluorescence guided surgery|5-ala
+brain abscess drainage
+csf leak repair
+dural repair|duraplasty
+`, "2026-11-17");
+
+P("Name a vascular surgery procedure","tests","",`
+carotid endarterectomy|cea
+carotid artery stenting|cas
+tcar|transcarotid artery revascularization
+endovascular aneurysm repair|evar
+open aortic aneurysm repair|open aaa repair|aortic aneurysm repair
+tevar|thoracic endovascular aortic repair
+fenestrated evar|fevar
+branched endograft
+aortobifemoral bypass
+axillofemoral bypass|axillobifemoral bypass
+femoral-popliteal bypass|fem-pop bypass|femoropopliteal bypass
+femoral-distal bypass|fem-distal bypass|tibial bypass
+femoral-femoral bypass|fem-fem bypass
+bypass graft|arterial bypass
+angioplasty|balloon angioplasty|pta
+stenting|peripheral stent
+atherectomy
+endarterectomy|femoral endarterectomy
+embolectomy|fogarty embolectomy
+thrombectomy
+catheter directed thrombolysis
+fasciotomy
+amputation
+below knee amputation|bka
+above knee amputation|aka
+toe amputation|transmetatarsal amputation
+arteriovenous fistula|av fistula|avf
+arteriovenous graft|av graft|avg
+fistulogram
+dialysis access surgery
+vein harvest|saphenous vein harvest
+vein stripping|varicose vein stripping
+endovenous laser ablation|evla|evlt
+radiofrequency ablation of veins|venous rfa|closurefast
+ambulatory phlebectomy|stab phlebectomy
+sclerotherapy|foam sclerotherapy
+venaseal|cyanoacrylate closure
+ivc filter placement|ivc filter|vena cava filter
+ivc filter retrieval
+venous stenting|iliac vein stenting
+mechanical thrombectomy for dvt
+first rib resection|thoracic outlet decompression
+cervical rib resection
+renal artery stenting
+mesenteric bypass
+mesenteric stenting|sma stent
+median arcuate ligament release
+aortic dissection repair
+aortic arch repair|elephant trunk procedure
+pseudoaneurysm repair|thrombin injection
+popliteal aneurysm repair
+visceral aneurysm repair|splenic artery aneurysm repair
+carotid body tumor resection
+vascular trauma repair
+interposition graft
+patch angioplasty
+sympathectomy|lumbar sympathectomy|thoracic sympathectomy
+angiography|arteriography
+ankle brachial index|abi
+arterial duplex ultrasound|arterial doppler
+venous duplex|venous ultrasound
+segmental pressures
+toe brachial index|tbi
+pulse volume recording|pvr
+ct angiography|cta
+mr angiography|mra
+transcutaneous oximetry|tcpo2
+wound debridement
+hyperbaric oxygen
+compression therapy|unna boot
+endoleak repair
+aortic stent graft explant
+reimplantation of the inferior mesenteric artery
+hybrid procedure
+cerebral protection device
+aortouniiliac graft|aui
+iliac branch device|ibd
+popliteal artery entrapment release
+carotid-subclavian bypass|carotid subclavian bypass
+subclavian artery stenting
+tunneled dialysis catheter|hemodialysis catheter placement
+nutcracker syndrome repair|left renal vein transposition
+subfascial endoscopic perforator surgery|seps|perforator vein ligation
+dril|distal revascularization interval ligation
+av fistula banding|fistula banding
+av graft thrombectomy|declot
+`, "2026-11-17");
+
+P("Name an autonomic nervous system term","science","",`
+sympathetic nervous system|sympathetic
+parasympathetic nervous system|parasympathetic
+enteric nervous system
+fight or flight
+rest and digest
+preganglionic neuron
+postganglionic neuron
+autonomic ganglia|ganglion
+sympathetic chain|sympathetic trunk|paravertebral ganglia
+prevertebral ganglia|celiac ganglion
+thoracolumbar outflow
+craniosacral outflow
+splanchnic nerves
+vagus nerve|cranial nerve x
+pelvic splanchnic nerves
+adrenal medulla
+acetylcholine|ach
+norepinephrine|noradrenaline
+epinephrine|adrenaline
+dopamine
+nicotinic receptor|nicotinic acetylcholine receptor|nn receptor
+muscarinic receptor
+m1 receptor
+m2 receptor
+m3 receptor
+alpha-1 receptor|alpha 1 adrenergic receptor
+alpha-2 receptor|alpha 2 adrenergic receptor
+beta-1 receptor|beta 1 adrenergic receptor
+beta-2 receptor|beta 2 adrenergic receptor
+beta-3 receptor
+d1 receptor
+cholinergic
+adrenergic
+sympathomimetic
+sympatholytic
+parasympathomimetic|cholinomimetic
+parasympatholytic|anticholinergic|antimuscarinic
+ganglionic blocker
+dual innervation
+sympathetic tone
+vagal tone
+baroreceptor reflex|baroreflex
+chemoreceptor reflex
+bainbridge reflex
+bezold-jarisch reflex
+vasovagal reflex|vasovagal syncope
+oculocardiac reflex
+micturition reflex
+pupillary dilation|mydriasis
+pupillary constriction|miosis
+accommodation
+bronchodilation
+bronchoconstriction
+vasoconstriction
+vasodilation
+tachycardia
+bradycardia
+salivation
+lacrimation
+sweating|sudomotor
+piloerection
+erection
+ejaculation
+glycogenolysis
+lipolysis
+detrusor contraction
+internal urethral sphincter
+gut motility|peristalsis
+myenteric plexus|auerbach plexus
+submucosal plexus|meissner plexus
+interstitial cells of cajal
+horner syndrome
+autonomic dysreflexia
+orthostatic hypotension
+postural orthostatic tachycardia syndrome|pots
+autonomic neuropathy|diabetic autonomic neuropathy
+multiple system atrophy|shy-drager syndrome
+pure autonomic failure
+familial dysautonomia|riley-day syndrome
+dysautonomia
+cholinergic crisis|sludge|dumbbells
+anticholinergic toxidrome
+sympathomimetic toxidrome
+catecholamine synthesis|tyrosine hydroxylase
+dopamine beta hydroxylase
+pnmt|phenylethanolamine n-methyltransferase
+monoamine oxidase|mao
+catechol-o-methyltransferase|comt
+reuptake|norepinephrine transporter|net
+acetylcholinesterase
+choline acetyltransferase
+vmat|vesicular monoamine transporter
+varicosities
+cotransmitters|neuropeptide y|vip
+nitric oxide nanc|non-adrenergic non-cholinergic
+hypothalamus autonomic control
+nucleus tractus solitarius|nts
+dorsal motor nucleus of the vagus
+nucleus ambiguus
+intermediolateral cell column
+edinger-westphal nucleus
+ciliary ganglion
+pterygopalatine ganglion
+otic ganglion
+submandibular ganglion
+stellate ganglion
+superior cervical ganglion
+white rami communicantes
+gray rami communicantes
+heart rate variability
+valsalva maneuver
+tilt table test
+qsart|sudomotor axon reflex test
+`, "2026-11-17");
+
+P("Name a medical professional society, organization or journal","care","",`
+american medical association|ama
+american osteopathic association|aoa
+american college of physicians|acp
+american academy of family physicians|aafp
+american academy of pediatrics|aap
+american college of surgeons|acs
+american college of cardiology|acc
+american heart association|aha
+american college of emergency physicians|acep
+american college of obstetricians and gynecologists|acog
+american psychiatric association|apa
+american academy of neurology|aan
+american college of chest physicians|chest|accp
+american thoracic society|ats
+american gastroenterological association|aga
+american college of gastroenterology|acg
+american association for the study of liver diseases|aasld
+american society of clinical oncology|asco
+american society of hematology|ash
+american diabetes association|ada
+endocrine society
+american association of clinical endocrinology|aace
+american college of rheumatology|acr
+infectious diseases society of america|idsa
+american society of nephrology|asn
+american urological association|aua
+american academy of dermatology|aad
+american academy of ophthalmology|aao
+american academy of otolaryngology|aao-hns
+american society of anesthesiologists|asa
+american college of radiology|acr radiology
+radiological society of north america|rsna
+american academy of orthopaedic surgeons|aaos
+american association of neurological surgeons|aans
+society of critical care medicine|sccm
+american geriatrics society|ags
+american academy of physical medicine and rehabilitation|aapmr
+american academy of physician associates|aapa
+american association of nurse practitioners|aanp
+society of hospital medicine|shm
+american society of addiction medicine|asam
+american college of preventive medicine
+american board of internal medicine|abim
+american board of medical specialties|abms
+nbme|national board of medical examiners
+nbome|national board of osteopathic medical examiners
+fsmb|federation of state medical boards
+ecfmg|educational commission for foreign medical graduates|intealth
+aamc|association of american medical colleges
+aacom|american association of colleges of osteopathic medicine
+acgme|accreditation council for graduate medical education
+lcme|liaison committee on medical education
+nrmp|national resident matching program|the match
+american medical student association|amsa
+student national medical association|snma
+national medical association|nma
+american medical women's association|amwa
+american college of osteopathic family physicians|acofp
+american academy of hospice and palliative medicine|aahpm
+american society of transplantation
+american academy of allergy asthma and immunology|aaaai
+american academy of sleep medicine|aasm
+american pain society
+heart rhythm society|hrs
+society for vascular surgery|svs
+society of thoracic surgeons|sts
+american pediatric surgical association
+american society of plastic surgeons|asps
+american epilepsy society
+american academy of child and adolescent psychiatry
+american society for microbiology|asm
+college of american pathologists|cap
+american society for clinical pathology|ascp
+world medical association|wma
+world health organization|who
+royal college of physicians
+royal college of surgeons
+royal australasian college of physicians|racp
+canadian medical association|cma
+british medical association|bma
+european society of cardiology|esc
+doctors without borders|medecins sans frontieres|msf
+uspstf|us preventive services task force
+the joint commission|joint commission|tjc
+institute for healthcare improvement|ihi
+national academy of medicine|institute of medicine|iom
+american cancer society|acs cancer
+nccn|national comprehensive cancer network
+new england journal of medicine|nejm
+jama|journal of the american medical association
+the lancet|lancet
+bmj|british medical journal
+annals of internal medicine
+nature medicine
+circulation
+journal of the american college of cardiology|jacc
+european heart journal
+pediatrics journal|pediatrics
+obstetrics and gynecology journal|green journal
+journal of clinical oncology|jco
+blood journal|blood
+gastroenterology journal
+hepatology journal
+diabetes care
+american journal of medicine
+jama internal medicine
+jama pediatrics
+jama network open
+mayo clinic proceedings
+cochrane|cochrane library|cochrane collaboration
+mmwr|morbidity and mortality weekly report
+cleveland clinic journal of medicine
+american family physician|afp journal
+academic medicine
+journal of the american osteopathic association|jaoa|journal of osteopathic medicine
+neurology journal
+radiology journal
+annals of surgery
+journal of hospital medicine
+critical care medicine journal
+clinical infectious diseases|cid
+`, "2026-11-17");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

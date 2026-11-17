@@ -4667,3 +4667,162 @@ crowd("Name an implant surgery or osseointegration term", 65, "bone graft|bone g
 crowd("Name an implant surgery or osseointegration term", 85, "external hex|external hex connection");  // 2026-11-16 · 1 player · implant-abutment connection
 crowd("Name an autosomal dominant disease", 67, "cadasil");  // 2026-11-16 · 1 player · NOTCH3, AD
 crowd("Name something in a first aid kit", 70, "transparent film dressing|tegaderm|transparent dressing");  // 2026-11-16 · 2 players · common dressing
+crowd("Name a word ending in -oma (a growth or tumor)", 40, "endometrioma|endometriomas|chocolate cyst");  // 2026-11-17 · 13 players · ovarian endometriotic cyst
+crowd("Name a word ending in -oma (a growth or tumor)", 70, "incidentaloma|incidentalomas|adrenal incidentaloma");  // 2026-11-17 · 3 players · incidentally found mass
+crowd("Name a structure of the pelvis or perineum", 59, "gubernaculum|goobernaculum");  // 2026-11-17 · 13 players · guides gonadal descent; inguinal/pelvic
+crowd("Name a structure of the pelvis or perineum", 83, "superior rectal vein");  // 2026-11-17 · 3 players · drains rectum to IMV
+crowd("Name a structure of the pelvis or perineum", 83, "fimbriae|fimbria|fimbriae of the fallopian tube|uterine fimbrae|uterine fimbriae");  // 2026-11-17 · 3 players · distal tubal structure
+crowd("Name a structure of the pelvis or perineum", 93, "cremaster|cremaster muscle");  // 2026-11-17 · 1 player · spermatic cord muscle
+crowd("Name a structure of the pelvis or perineum", 93, "urachus|urachal remnant");  // 2026-11-17 · 1 player · bladder dome remnant
+crowd("Name a structure in the thorax or mediastinum", 81, "long thoracic nerve");  // 2026-11-17 · 4 players · runs on lateral thoracic wall
+crowd("Name a structure in the thorax or mediastinum", 93, "rami communicantes|rami communicans|gray rami communicantes|white rami communicantes");  // 2026-11-17 · 1 player · thoracic sympathetic connections
+crowd("Name a symptom or complication of inflammatory bowel disease", 31, "intestinal ulcers|ulcer|ulcers|ulceration|colonic ulcers");  // 2026-11-17 · 10 players · mucosal ulceration, hallmark of IBD
+crowd("Name a symptom or complication of inflammatory bowel disease", 44, "constipation");  // 2026-11-17 · 6 players · proctitis/strictures cause constipation
+crowd("Name a symptom or complication of inflammatory bowel disease", 59, "pseudopolyps|polyps|inflammatory polyps|polyp");  // 2026-11-17 · 3 players · post-inflammatory polyps in IBD
+crowd("Name a term from medical school or residency", 64, "high yield|high-yield|low yield|low-yield");  // 2026-11-17 · 11 players · core study-culture term
+crowd("Name a term from medical school or residency", 93, "case based learning|cbl|collaborative case based learning");  // 2026-11-17 · 1 player · curriculum format
+crowd("Name a term from medical school or residency", 93, "competency based medical education|cbme|competency based learning");  // 2026-11-17 · 1 player · curriculum framework
+crowd("Name a term from medical school or residency", 93, "differential diagnosis|differential|ddx|differerntial diagnosis");  // 2026-11-17 · 1 player · core clinical-reasoning term
+crowd("Name a term from medical school or residency", 93, "drinking from a fire hose|drinking from a firehose");  // 2026-11-17 · 1 player · common med school idiom
+crowd("Name a term from medical school or residency", 93, "golden weekend");  // 2026-11-17 · 1 player · residency term, weekend off
+crowd("Name a term from medical school or residency", 93, "simulation lab|sim lab|simulation center");  // 2026-11-17 · 1 player · training setting
+crowd("Name a term from medical school or residency", 93, "zebra|zebras");  // 2026-11-17 · 1 player · rare diagnosis term
+crowd("Name a cardiovascular physiology term", 88, "perfusion|tissue perfusion");  // 2026-11-17 · 2 players · core physiology term
+crowd("Name a cause of anion gap metabolic acidosis", 82, "von gierke disease|glycogen storage disease type 1|von gierkes|von gierke|gsd i");  // 2026-11-17 · 1 player · lactic acidosis
+crowd("Name a drug that causes orthostatic hypotension", 65, "guanfacine");  // 2026-11-17 · 2 players · alpha-2 agonist, hypotension on label
+crowd("Name a drug that causes peripheral neuropathy", 65, "metformin");  // 2026-11-17 · 3 players · via B12 deficiency (labeling)
+crowd("Name a drug that depletes a vitamin or mineral", 73, "tebipenem|tebipenem pivoxil");  // 2026-11-17 · 1 player · pivalate prodrug depletes carnitine
+crowd("Name a drug that needs renal dose adjustment", 85, "sulbactam-durlobactam|sulbactam/durlobactam|xacduro");  // 2026-11-17 · 1 player · renally adjusted per label
+crowd("Name a general pathology term", 86, "spindle cell|spindle cells|spindle");  // 2026-11-17 · 4 players · standard histology term
+crowd("Name a genetic disorder", 91, "jarcho-levin syndrome|jarcho levin|jarco levin|spondylocostal dysostosis");  // 2026-11-17 · 1 player · genetic skeletal disorder
+crowd("Name a health effect of smoking", 49, "vasoconstriction");  // 2026-11-17 · 5 players · nicotine effect
+crowd("Name a landmark of tooth morphology", 46, "crown|anatomic crown|clinical crown");  // 2026-11-17 · 3 players · major tooth division
+crowd("Name a medical abbreviation", 79, "px");  // 2026-11-17 · 1 player · physical exam/prognosis
+crowd("Name a molecular biology term (DNA, RNA or protein synthesis)", 87, "integrase");  // 2026-11-17 · 2 players · inserts DNA into genome
+crowd("Name a molecular biology term (DNA, RNA or protein synthesis)", 87, "nucleolus|nucleoulus|nucleoli");  // 2026-11-17 · 2 players · rRNA synthesis site
+crowd("Name a molecular biology term (DNA, RNA or protein synthesis)", 76, "p53|tp53");  // 2026-11-17 · 5 players · DNA damage response transcription factor
+crowd("Name a pharmacy insurance or billing term", 85, "third party payer|third party|third-party payer");  // 2026-11-17 · 1 player · billing term
+crowd("Name a pharmacy organization or regulatory agency", 73, "medical products agency|mpa|lakemedelsverket");  // 2026-11-17 · 1 player · Swedish regulator
+crowd("Name a pharmacy organization or regulatory agency", 73, "national association of specialty pharmacy|nasp");  // 2026-11-17 · 1 player · US specialty pharmacy org
+crowd("Name a piece of equipment in a dental office", 85, "scaler|scalers|hand scaler");  // 2026-11-17 · 1 player · periodontal instrument
+crowd("Name a type of bone fracture", 91, "chalkstick fracture|chalk stick fracture");  // 2026-11-17 · 1 player · ankylosing spondylitis spine fracture
+crowd("Name an interventional radiology procedure", 65, "fiducial marker insertion|fiducial marker placement|fiducial placement");  // 2026-11-17 · 1 player · IR-placed markers
+crowd("Name an antifungal drug (often ends in -azole)", 67, "fosravuconazole");  // 2026-11-17 · 1 player · approved azole (Japan)
+crowdAlias("Name a symptom or complication of inflammatory bowel disease", "bloody diarrhea", "bleeding|gi bleeding|hematochezia");  // 2026-11-17 · 6 players · same (rectal bleeding already counts here)
+crowdAlias("Name a complication of a stroke", "homonymous hemianopia", "blindness|blind|cortical blindness");  // 2026-11-17 · 6 players · vision loss already counts here
+crowdAlias("Name a structure of the shoulder", "subacromial bursa", "bursa|bursae");  // 2026-11-17 · 8 players · main shoulder bursa
+crowdAlias("Name a structure of the shoulder", "inferior glenohumeral ligament", "glenohumeral ligament|glenohumeral ligaments");  // 2026-11-17 · 1 player · GH ligament complex
+crowdAlias("Name a structure of the shoulder", "posterior circumflex humeral artery", "posterior cirfumfex humoral artery");  // 2026-11-17 · 1 player · spelling
+crowdAlias("Name a structure of the shoulder", "brachial plexus", "superior trunk of brachial plexus|upper trunk of brachial plexus");  // 2026-11-17 · 1 player · part of plexus
+crowdAlias("Name a structure of the hip or thigh", "trochanteric bursa", "bursa");  // 2026-11-17 · 2 players · main hip bursa
+crowdAlias("Name a structure in the thorax or mediastinum", "mediastinal lymph nodes", "lymph node|lymph nodes");  // 2026-11-17 · 5 players · same
+crowdAlias("Name a structure in the thorax or mediastinum", "ligamentum arteriosum", "ductus arteriosus");  // 2026-11-17 · 3 players · fetal form of same
+crowdAlias("Name a structure in the thorax or mediastinum", "fossa ovalis", "foramen ovale");  // 2026-11-17 · 3 players · fetal form of same
+crowdAlias("Name a structure in the thorax or mediastinum", "alveoli", "alveolar sac|alveolar sacs");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a structure in the thorax or mediastinum", "right crus of the diaphragm", "diaphragmatic crus|crus of the diaphragm");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a structure in the thorax or mediastinum", "hemiazygos vein", "hemiazygous|hemiazygos");  // 2026-11-17 · 1 player · spelling
+crowdAlias("Name a structure in the thorax or mediastinum", "external intercostal muscles", "intercoastal muscles|intercostal muscles");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a structure in the thorax or mediastinum", "costal cartilage", "intercostal cartialge|intercostal cartilage");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a structure in the thorax or mediastinum", "subcarinal lymph nodes", "subcarinal nodes");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a structure in the thorax or mediastinum", "tricuspid valve", "triscuspid annulus|tricuspid annulus");  // 2026-11-17 · 1 player · part of valve
+crowdAlias("Name a structure of the pelvis or perineum", "anococcygeal ligament", "anococcygeal raphe");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a symptom or complication of inflammatory bowel disease", "abdominal pain", "pain");  // 2026-11-17 · 4 players · same
+crowdAlias("Name a symptom or complication of inflammatory bowel disease", "colon cancer", "cancer|colorectal cancer");  // 2026-11-17 · 3 players · same
+crowdAlias("Name a term from medical school or residency", "pgy-1", "pgy|pgy 4|pgy-4");  // 2026-11-17 · 6 players · PGY level
+crowdAlias("Name a term from medical school or residency", "rotation", "placement|clinical placement|placements");  // 2026-11-17 · 5 players · UK term
+crowdAlias("Name a term from medical school or residency", "call", "24 hour call|24-hour call");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a term from medical school or residency", "alpha omega alpha", "aoa");  // 2026-11-17 · 2 players · abbreviation
+crowdAlias("Name a biosimilar (a copy of a biologic drug)", "semglee", "glargine-yfgn|insulin glargine-yfgn");  // 2026-11-17 · 1 player · same product
+crowdAlias("Name a cause of anion gap metabolic acidosis", "isoniazid", "isinozid");  // 2026-11-17 · 1 player · spelling
+crowdAlias("Name a cause of bad breath", "plaque", "biofilm|dental biofilm|oral biofilm");  // 2026-11-17 · 3 players · same
+crowdAlias("Name a cause of chronic cough", "interstitial lung disease", "fibrosis|pulmonary fibrosis");  // 2026-11-17 · 3 players · same
+crowdAlias("Name a cause of chronic cough", "lung cancer", "tumor|lung tumor");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a cause of digital clubbing", "pulmonary fibrosis", "ild|interstitial lung disease");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a cause of digital clubbing", "cystic fibrosis", "cf");  // 2026-11-17 · 2 players · abbreviation
+crowdAlias("Name a cause of digital clubbing", "lung cancer", "adenocarcinoma|lung adenocarcinoma");  // 2026-11-17 · 2 players · lung cancer subtype
+crowdAlias("Name a cause of eosinophilia", "acute interstitial nephritis", "interstitial aki|inerstitial aki");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a cause of heart failure", "coronary artery disease", "ischemia|ischemic heart disease");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a cause of hypercalcemia", "pthrp", "pseudohyperparathyroidism|pseudohyperparathyroid");  // 2026-11-17 · 1 player · old term for humoral hypercalcemia
+crowdAlias("Name a cause of hypokalemia", "low potassium intake", "dietary|dietary deficiency|poor dietary intake");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a cause of mouth sores", "hiv", "aids");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a cause of mouth sores", "chemotherapy", "cisplatin");  // 2026-11-17 · 1 player · chemo agent
+crowdAlias("Name a cause of secondary amenorrhea", "premature ovarian insufficiency", "poi");  // 2026-11-17 · 1 player · abbreviation
+crowdAlias("Name a cause of secondary hypertension", "renal artery stenosis", "renal stenosis");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a cause of short stature", "glycogen storage disease", "von girke|von gierke|von gierke disease");  // 2026-11-17 · 3 players · GSD type I
+crowdAlias("Name a cause of short stature", "growth hormone deficiency", "gh insufficiency|gh deficiency");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a cause of short stature", "osteogenesis imperfecta", "oi");  // 2026-11-17 · 1 player · abbreviation
+crowdAlias("Name a cause of thrombocytopenia", "ttp", "adamts13 deficiency");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a cause of thrombocytopenia", "chemotherapy", "carboplatin");  // 2026-11-17 · 1 player · chemo agent
+crowdAlias("Name a complication of a stroke", "paralysis", "facial droop|facial paralysis");  // 2026-11-17 · 3 players · facial weakness
+crowdAlias("Name a complication of a stroke", "hemorrhagic transformation", "hemmorage|hemorrhage");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a complication of high blood pressure", "kidney disease", "aki|acute kidney injury");  // 2026-11-17 · 2 players · hypertensive kidney injury
+crowdAlias("Name a complication of sickle cell disease", "blood clots", "clot|clots");  // 2026-11-17 · 4 players · same
+crowdAlias("Name a complication of sickle cell disease", "jaundice", "hyperbilirubin|hyperbilirubinemia");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a complication of sickle cell disease", "pain crisis", "occlusive crisis|vaso-occlusive crisis|vaso occlusive crisis");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a component or cell of the blood", "von willebrand factor", "vwf");  // 2026-11-17 · 1 player · abbreviation
+crowdAlias("Name a condition needing antibiotic prophylaxis before dental work", "previous endocarditis", "endocarditis|bacterial endocarditis|subacute bacterial endocarditis|infective endocarditis");  // 2026-11-17 · 6 players · history of IE
+crowdAlias("Name a diagnostic test for an infectious disease", "tuberculin skin test", "skin test");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a diagnostic test for an infectious disease", "c difficile toxin test", "toxin assay");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a diagnostic test for an infectious disease", "wood's lamp exam", "woodlamp test|wood lamp test");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a dosage form that should not be crushed", "osmotic tablets", "osmotic delivery");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a drug dosed in units", "insulin glargine", "glargine");  // 2026-11-17 · 5 players · same
+crowdAlias("Name a drug given rectally or vaginally", "conjugated estrogens vaginal cream", "estrogen|vaginal estrogen");  // 2026-11-17 · 1 player · vaginal estrogen
+crowdAlias("Name a drug on the Beers list", "benzodiazepines", "lorazepam");  // 2026-11-17 · 3 players · member of class
+crowdAlias("Name a food that is good for your teeth", "cheese", "brie");  // 2026-11-17 · 1 player · type of cheese
+crowdAlias("Name a genetic disorder", "muscular dystrophy", "duchenne muscular dystrophy|duchenes dystophy|duchenne");  // 2026-11-17 · 1 player · DMD
+crowdAlias("Name a health effect of smoking", "lung cancer", "cancer");  // 2026-11-17 · 5 players · same
+crowdAlias("Name a health effect of smoking", "spontaneous pneumothorax", "pneumothorax");  // 2026-11-17 · 3 players · same
+crowdAlias("Name a health effect of smoking", "chronic bronchitis", "bronchitis");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a healthcare profession", "orthopedic technician", "orthopedic cast technician|cast technician");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a hospital unit or department", "oncology", "heme/onc|heme onc");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a hospital-acquired infection or pathogen", "hospital-acquired pneumonia", "pneumonia");  // 2026-11-17 · 7 players · same
+crowdAlias("Name a hospital-acquired infection or pathogen", "carbapenem-resistant enterobacteriaceae", "cpe|carbapenemase producing enterobacterales");  // 2026-11-17 · 5 players · CRE subset
+crowdAlias("Name a hospital-acquired infection or pathogen", "influenza", "flu");  // 2026-11-17 · 4 players · same
+crowdAlias("Name a hospital-acquired infection or pathogen", "ventilator-associated pneumonia", "ventalor acquired pnemonia");  // 2026-11-17 · 1 player · spelling
+crowdAlias("Name a job in a dental office", "dental hygienist", "hygeinist|hygenist|hygienist");  // 2026-11-17 · 2 players · spelling
+crowdAlias("Name a job in a dental office", "receptionist", "secretary");  // 2026-11-17 · 1 player · same role
+crowdAlias("Name a job in a dental office", "sterilization technician", "sterile technician");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a medical ethics or legal concept", "informed consent", "consent");  // 2026-11-17 · 4 players · same
+crowdAlias("Name a medical imaging test", "nuclear medicine", "nuclear scintigraphy|nuclear scinitgraphy|nuclear scintigraphu|scintigraphy");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a nutrient deficiency disease", "rickets", "ricadus");  // 2026-11-17 · 1 player · spelling
+crowdAlias("Name a palliative or hospice care term", "symptom management", "pain management");  // 2026-11-17 · 3 players · same
+crowdAlias("Name a part of the heart", "left atrial appendage", "appendage|atrial appendage");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a part of the heart", "trabeculae carneae", "carnae trabeculae");  // 2026-11-17 · 1 player · spelling
+crowdAlias("Name a pharmacy job or setting", "critical care", "neuro icu");  // 2026-11-17 · 1 player · ICU setting
+crowdAlias("Name a preventive screening test", "psa", "prostate specific antigen");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a primary immunodeficiency", "selective iga deficiency", "iga|iga deficiency");  // 2026-11-17 · 3 players · same
+crowdAlias("Name a pulpal or periapical diagnosis", "condensing osteitis", "sclerosing osteitis");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a reason people visit the dentist", "gum disease", "gingivitis");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a restraint or restraint alternative", "chemical restraint", "benzo");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a resuscitation step, drug or term (BLS, ACLS, PALS or ATLS)", "rescue breaths", "mouth to mouth");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a sexually transmitted infection", "gonorrhea", "ghonnera");  // 2026-11-17 · 2 players · spelling
+crowdAlias("Name a side effect of antibiotics", "nausea", "gi upset");  // 2026-11-17 · 3 players · same
+crowdAlias("Name a side effect of antibiotics", "disulfiram like reaction", "decreased alcohol tolerance");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a sign of a blood transfusion reaction", "flushing", "redness");  // 2026-11-17 · 3 players · same
+crowdAlias("Name a sign of anaphylaxis", "hives", "rash");  // 2026-11-17 · 1 player · urticarial rash
+crowdAlias("Name a sign of dehydration", "thirst", "polydipsia");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a sign of high potassium", "peaked t waves", "increased t wave");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a structure of the elbow or forearm", "anterior fat pad", "fat pad");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a suicide warning sign or risk factor", "social isolation", "isolation");  // 2026-11-17 · 3 players · same
+crowdAlias("Name a suicide warning sign or risk factor", "giving away possessions", "giving away personal items");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a symptom of a heart attack", "chest pain", "angina");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a symptom of autism spectrum disorder", "delayed speech", "nonverbal");  // 2026-11-17 · 4 players · same
+crowdAlias("Name a symptom of autism spectrum disorder", "hand flapping", "flapping");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a symptom of autism spectrum disorder", "sensory sensitivity", "sensory overload");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a symptom of dementia", "aggression", "anger");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a symptom of dementia", "difficulty with daily tasks", "loss of adl|loss of adls");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a teratogen", "isotretinoin", "accutane");  // 2026-11-17 · 3 players · brand
+crowdAlias("Name a teratogen", "methimazole", "thionamide");  // 2026-11-17 · 1 player · drug class
+crowdAlias("Name a toothbrushing or flossing technique or tip", "small circles", "circles");  // 2026-11-17 · 3 players · same
+crowdAlias("Name a toothbrushing or flossing technique or tip", "water flossing", "water pick|waterpik|water flosser");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a toothbrushing or flossing technique or tip", "divide into quadrants", "brush in 4 regions");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a trigger of an asthma attack", "pet dander", "dander");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a type of IV fluid", "d5w", "d5");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a type of vasculitis", "eosinophilic granulomatosis with polyangiitis", "eosinophilic granulomatous polyangitis");  // 2026-11-17 · 1 player · spelling
+crowdAlias("Name a type of vasculitis", "microscopic polyangiitis", "mpa");  // 2026-11-17 · 1 player · abbreviation
+crowdAlias("Name an eye disease or condition", "ocular melanoma", "melanoma of the eye");  // 2026-11-17 · 2 players · same
+crowdAlias("Name an infection during pregnancy or in a newborn", "gonococcal conjunctivitis", "gonnorhea conjuctivitis");  // 2026-11-17 · 1 player · spelling
+crowdAlias("Name an osteopathic (OMM/OMT) technique or term", "myofascial release", "fascia release");  // 2026-11-17 · 2 players · same
+crowdAlias("Name a cardiac procedure or intervention", "pulmonary vein isolation", "albation pulmonary vein|pulmonary vein ablation");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a cardiac procedure or intervention", "septal myectomy", "myectomy for hocm|myectomy");  // 2026-11-17 · 1 player · same
+crowdAlias("Name a word ending in -oma (a growth or tumor)", "esthesioneuroblastoma", "esthesioblastoma");  // 2026-11-17 · 1 player · spelling

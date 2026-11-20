@@ -1017,7 +1017,11 @@ function finish(fromSave){
    playing the same day is scored the same way. */
 const RARITY_MIN=30;                                 // no change at all until a prompt has 30 plays
 const RARITY_K=50;                                   // then: 50 more plays and player data counts for half
-function obsPts(share){ return Math.max(5,Math.min(99,Math.round(99-60*Math.log10(1+100*share)))); }
+// Rarity = how an answer ranks against the other answers players gave (not its raw share), so the
+// balance of horses and zebras stays the same whether 50 or 5,000 people play: cMore is the share of
+// correct answers that were MORE common than this one; only about the rarest tenth reach 80+.
+function obsPts(cMore){ return Math.max(5,Math.min(99,Math.round(5+94*Math.pow(Math.max(0,Math.min(1,cMore)),1.5)))); }
+function cMoreOf(c,label){ if(!c.tot) return 1; const k=c.n[label]||0; let m=0; for(const v of c.vals){ if(v>k) m+=v; else break; } return m/c.tot; }
 const Rarity={
   cache:{},
   async fetch(qs){
@@ -1032,13 +1036,13 @@ const Rarity={
       const need=prompts.map(p=>p.q).filter(q=>!(q in this.cache));
       if(need.length){ const rows=await this.fetch(need);
         if(rows){ need.forEach(q=>this.cache[q]=null);
-          rows.forEach(r=>{ const c=this.cache[r.prompt]||(this.cache[r.prompt]={attempts:+r.attempts,n:{}}); if(r.answer) c.n[r.answer]=+r.n; }); } }
+          rows.forEach(r=>{ const c=this.cache[r.prompt]||(this.cache[r.prompt]={attempts:+r.attempts,n:{}}); if(r.answer) c.n[r.answer]=+r.n; }); Object.values(this.cache).forEach(c=>{ if(c&&!c.vals){ c.vals=Object.values(c.n).sort((a,b)=>b-a); c.tot=c.vals.reduce((a,b)=>a+b,0); } }); } }
     }
     prompts.forEach(p=>{ const c=this.cache[p.q];
       p.items.forEach(it=>{
         if(!c||c.attempts<RARITY_MIN){ it.pts=it.base; it.share=null; return; }
         const share=(c.n[it.label]||0)/c.attempts, e=c.attempts-RARITY_MIN, w=e/(e+RARITY_K);
-        it.share=share; it.pts=Math.max(5,Math.min(99,Math.round((1-w)*it.base+w*obsPts(share))));
+        it.share=share; it.pts=Math.max(5,Math.min(99,Math.round((1-w)*it.base+w*obsPts(cMoreOf(c,it.label)))));
       }); });
   }
 };

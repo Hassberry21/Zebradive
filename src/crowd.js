@@ -6201,3 +6201,11 @@ crowd("Name a medical abbreviation", 91, "cgd");  // 2026-11-21 · 1 player · c
 crowd("Name a medical abbreviation", 91, "ddavp");  // 2026-11-21 · 1 player · desmopressin
 crowd("Name a medical abbreviation", 91, "gbs");  // 2026-11-21 · 1 player · group B strep / Guillain-Barre
 crowd("Name a medical abbreviation", 91, "opqrst");  // 2026-11-21 · 1 player · pain assessment mnemonic
+crowdAlias("Name an infection", "hepatitis a", "hep a");  // 2026-11-21 · 7 players · same as hepatitis a
+crowdAlias("Name a gastrointestinal test or procedure", "small bowel follow through", "barium follow through");  // 2026-11-21 · 1 player · same as small bowel follow through
+crowdAlias("Name a gastrointestinal test or procedure", "billroth ii", "bilroth");  // 2026-11-21 · 1 player · same as billroth ii
+crowdAlias("Name a gastrointestinal test or procedure", "tissue transglutaminase", "celiac panel");  // 2026-11-21 · 1 player · same as tissue transglutaminase
+crowdAlias("Name a gastrointestinal test or procedure", "colonic transit study", "colonic emptying test");  // 2026-11-21 · 1 player · same as colonic transit study
+crowdAlias("Name a gastrointestinal test or procedure", "stool culture", "coprocultive");  // 2026-11-21 · 1 player · same as stool culture
+crowdAlias("Name a microbiology term", "koh prep", "koh test");  // 2026-11-21 · 1 player · same as koh prep
+crowdAlias("Name a tumor marker", "alkaline phosphatase", "alkaline placebtal phostaase");  // 2026-11-21 · 1 player · same as alkaline phosphatase

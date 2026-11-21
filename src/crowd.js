@@ -5900,3 +5900,304 @@ crowdAlias("Name an infection of the eye, ear, nose or throat", "bacterial trach
 crowdAlias("Name an infection of the eye, ear, nose or throat", "herpes simplex keratitis", "hsv-1|hsv 1|hsv keratitis");
 crowdAlias("Name something to teach a pregnant patient", "nutrition", "diet|healthy diet");
 crowdAlias("Name something to teach a pregnant patient", "avoid alcohol", "alcohol|no alcohol");
+
+// ===== nightly review 2026-11-21 =====
+crowdAlias("Name a symptom of hypothyroidism", "myxedema", "swelling");  // 2026-11-21 · 12 players · same as myxedema
+crowdAlias("Name an infection", "hepatitis b", "hep b");  // 2026-11-21 · 11 players · same as hepatitis b
+crowdAlias("Name an infection of the eye, ear, nose or throat", "gonococcal pharyngitis", "gonorrhea");  // 2026-11-21 · 11 players · same as gonococcal pharyngitis
+crowdAlias("Name an infection", "legionnaires disease", "legionella");  // 2026-11-21 · 8 players · same as legionnaires disease
+crowdAlias("Name a reason a filling or crown fails", "recurrent decay", "caries");  // 2026-11-21 · 7 players · same as recurrent decay
+crowdAlias("Name something found in a hospital room", "iv pole", "iv");  // 2026-11-21 · 7 players · same as iv pole
+crowdAlias("Name an infection", "bacterial vaginosis", "bv");  // 2026-11-21 · 7 players · same as bacterial vaginosis
+crowdAlias("Name a piece of equipment in a dental office", "x ray machine", "xray");  // 2026-11-21 · 7 players · same as x ray machine
+crowdAlias("Name a cause of dry mouth", "cannabis", "weed");  // 2026-11-21 · 6 players · same as cannabis
+crowdAlias("Name something to teach a pregnant patient", "breastfeeding education", "lactation|latching|lacatation");  // 2026-11-21 · 12 players · same as breastfeeding education
+crowdAlias("Name a beta blocker (ends in -olol)", "propranolol", "propolol");  // 2026-11-21 · 6 players · same as propranolol
+crowdAlias("Name a way to prevent cavities", "brushing", "brush teeth");  // 2026-11-21 · 6 players · same as brushing
+crowdAlias("Name an infection", "hepatitis", "hep");  // 2026-11-21 · 6 players · same as hepatitis
+crowdAlias("Name a type of bone fracture", "incomplete fracture", "partial");  // 2026-11-21 · 6 players · same as incomplete fracture
+crowdAlias("Name an endocrine test", "blood sugar", "glucose test|sugar");  // 2026-11-21 · 6 players · same as blood sugar
+crowdAlias("Name an infection of the eye, ear, nose or throat", "oral thrush", "candidiasis|candida");  // 2026-11-21 · 6 players · same as oral thrush
+crowdAlias("Name a jaw movement or occlusion term", "closing", "close");  // 2026-11-21 · 5 players · same as closing
+crowdAlias("Name an infection", "cold", "uri|upper respiratory infection");  // 2026-11-21 · 6 players · same as cold
+crowdAlias("Name a dental charting term or tooth surface", "caries", "cavity");  // 2026-11-21 · 5 players · same as caries
+crowdAlias("Name an infection", "group a strep", "strep pyogenes");  // 2026-11-21 · 5 players · same as group a strep
+crowdAlias("Name an infection", "haemophilus influenzae", "hib");  // 2026-11-21 · 5 players · same as haemophilus influenzae
+crowdAlias("Name something that raises your cancer risk", "organ transplant", "transplant");  // 2026-11-21 · 5 players · same as organ transplant
+crowdAlias("Name something that raises your cancer risk", "obesity", "obese");  // 2026-11-21 · 5 players · same as obesity
+crowdAlias("Name something that raises your cancer risk", "immunosuppression", "immunocompromised");  // 2026-11-21 · 5 players · same as immunosuppression
+crowdAlias("Name a respiratory tract infection", "cmv pneumonia", "cmv");  // 2026-11-21 · 5 players · same as cmv pneumonia
+crowdAlias("Name a gastrointestinal test or procedure", "stool test", "stool sample");  // 2026-11-21 · 5 players · same as stool test
+crowdAlias("Name something found in a hospital room", "ekg machine", "ekg");  // 2026-11-21 · 5 players · same as ekg machine
+crowdAlias("Name an item on a preoperative checklist", "hair removal", "shave");  // 2026-11-21 · 5 players · same as hair removal
+crowdAlias("Name an eye or ENT exam or test", "tonometry", "pressure");  // 2026-11-21 · 5 players · same as tonometry
+crowdAlias("Name an infection", "prion disease", "mad cow");  // 2026-11-21 · 5 players · same as prion disease
+crowdAlias("Name a preventive screening test", "blood pressure check", "bp");  // 2026-11-21 · 5 players · same as blood pressure check
+crowdAlias("Name an infection", "flu", "flu a");  // 2026-11-21 · 5 players · same as flu
+crowdAlias("Name a type of bone fracture", "complete fracture", "full");  // 2026-11-21 · 5 players · same as complete fracture
+crowdAlias("Name a way to prevent cavities", "fluoride treatments", "flouride|fluoride|fluroide");  // 2026-11-21 · 7 players · same as fluoride treatments
+crowdAlias("Name something that raises your cancer risk", "hepatitis b", "hep b");  // 2026-11-21 · 4 players · same as hepatitis b
+crowdAlias("Name a complication of a tooth extraction", "bleeding", "blood");  // 2026-11-21 · 4 players · same as bleeding
+crowdAlias("Name a cause of secondary hypertension", "chronic kidney disease", "ckd");  // 2026-11-21 · 4 players · same as chronic kidney disease
+crowdAlias("Name a sign of a cavity", "tooth discoloration", "discoloration");  // 2026-11-21 · 4 players · same as tooth discoloration
+crowdAlias("Name an infection", "pneumocystis pneumonia", "pjp");  // 2026-11-21 · 4 players · same as pneumocystis pneumonia
+crowdAlias("Name a gastrointestinal test or procedure", "band ligation", "esophageal banding|variceal band ligation");  // 2026-11-21 · 3 players · same as band ligation
+crowdAlias("Name an infection of the eye, ear, nose or throat", "strep throat", "strep pyogenes|strep a");  // 2026-11-21 · 3 players · same as strep throat
+crowdAlias("Name an infection of the eye, ear, nose or throat", "recurrent respiratory papillomatosis", "hpv");  // 2026-11-21 · 2 players · same as recurrent respiratory papillomatosis
+crowdAlias("Name an operating room or surgical term", "electrocautery", "cauterization");  // 2026-11-21 · 2 players · same as electrocautery
+crowdAlias("Name a dental insurance or billing term", "pre authorization", "preauth|authorization");  // 2026-11-21 · 3 players · same as pre authorization
+crowdAlias("Name a cause of pericarditis", "uremia", "ckd|chronic kidney disease");  // 2026-11-21 · 3 players · same as uremia
+crowdAlias("Name an infection of the eye, ear, nose or throat", "cmv retinitis", "cmv");  // 2026-11-21 · 2 players · same as cmv retinitis
+crowdAlias("Name a bone or landmark of the skull", "temporal", "temples");  // 2026-11-21 · 1 player · same as temporal
+crowdAlias("Name a cause of a chipped or broken tooth", "trauma", "accident");  // 2026-11-21 · 1 player · same as trauma
+crowdAlias("Name a cause of a chipped or broken tooth", "falls", "fall injury");  // 2026-11-21 · 1 player · same as falls
+crowdAlias("Name a cause of dry mouth", "anticholinergics", "muscarinic antagonist");  // 2026-11-21 · 1 player · same as anticholinergics
+crowdAlias("Name a cause of dry mouth", "sialolithiasis", "siaolith");  // 2026-11-21 · 1 player · same as sialolithiasis
+crowdAlias("Name a cause of dry mouth", "sjogren syndrome", "sjorogens");  // 2026-11-21 · 1 player · same as sjogren syndrome
+crowdAlias("Name a cause of dry mouth", "diuretics", "thiazides");  // 2026-11-21 · 1 player · same as diuretics
+crowdAlias("Name a cause of eosinophilia", "chronic myeloid leukemia", "cml");  // 2026-11-21 · 1 player · same as chronic myeloid leukemia
+crowdAlias("Name a cause of mouth sores", "chemotherapy", "fluorouracil");  // 2026-11-21 · 1 player · same as chemotherapy
+crowdAlias("Name a cause of mouth sores", "cold sores", "hsv");  // 2026-11-21 · 1 player · same as cold sores
+crowdAlias("Name a cause of pericarditis", "bacterial infection", "bacteria");  // 2026-11-21 · 1 player · same as bacterial infection
+crowdAlias("Name a cause of pericarditis", "angiosarcoma", "haemangiosarcoma");  // 2026-11-21 · 1 player · same as angiosarcoma
+crowdAlias("Name a cause of pericarditis", "lymphoma", "lymphosarcoma");  // 2026-11-21 · 1 player · same as lymphoma
+crowdAlias("Name a cause of pericarditis", "tuberculosis", "mycobacterium tuberculosis");  // 2026-11-21 · 1 player · same as tuberculosis
+crowdAlias("Name a cause of pericarditis", "chest trauma", "penetrating wound|stab");  // 2026-11-21 · 2 players · same as chest trauma
+crowdAlias("Name a cause of pericarditis", "myocardial infarction", "periinfarction pericarditis");  // 2026-11-21 · 1 player · same as myocardial infarction
+crowdAlias("Name a cause of pericarditis", "lung cancer", "pulmonary carcinoma");  // 2026-11-21 · 1 player · same as lung cancer
+crowdAlias("Name a cause of pericarditis", "staphylococcus aureus", "s. aureus|staphylococcus aureus infection");  // 2026-11-21 · 2 players · same as staphylococcus aureus
+crowdAlias("Name a cause of pericarditis", "granulomatosis with polyangiitis", "wegener vasculitis");  // 2026-11-21 · 1 player · same as granulomatosis with polyangiitis
+crowdAlias("Name a cause of ST elevation", "stemi", "corinary artery occusion");  // 2026-11-21 · 1 player · same as stemi
+crowdAlias("Name a childproofing or home safety measure for young children", "outlet covers", "socket protector");  // 2026-11-21 · 1 player · same as outlet covers
+crowdAlias("Name a childproofing or home safety measure for young children", "lead paint testing", "unleaded paint");  // 2026-11-21 · 1 player · same as lead paint testing
+crowdAlias("Name a common reason for a primary care visit", "athletes foot", "foot fungus");  // 2026-11-21 · 1 player · same as athletes foot
+crowdAlias("Name a complication of anesthesia or sedation", "malignant hyperthermia", "mh");  // 2026-11-21 · 1 player · same as malignant hyperthermia
+crowdAlias("Name a complication of anesthesia or sedation", "ileus", "parqalytic ileus");  // 2026-11-21 · 1 player · same as ileus
+crowdAlias("Name a complication of dental anesthesia", "toxicity", "last");  // 2026-11-21 · 1 player · same as toxicity
+crowdAlias("Name a complication of immobility", "blood clot", "clots");  // 2026-11-21 · 1 player · same as blood clot
+crowdAlias("Name a complication of immobility", "muscle atrophy", "muscular degeneration");  // 2026-11-21 · 1 player · same as muscle atrophy
+crowdAlias("Name a congenital heart defect", "atrial septal defect", "hole in septum|septum hole");  // 2026-11-21 · 2 players · same as atrial septal defect
+crowdAlias("Name a controlled substance", "ritalin", "quillivant");  // 2026-11-21 · 1 player · same as ritalin
+crowdAlias("Name a dental behavior management technique", "distraction", "movie");  // 2026-11-21 · 1 player · same as distraction
+crowdAlias("Name a dental behavior management technique", "protective stabilization", "restrain");  // 2026-11-21 · 1 player · same as protective stabilization
+crowdAlias("Name a dental emergency", "irreversible pulpitis", "pulpitis");  // 2026-11-21 · 1 player · same as irreversible pulpitis
+crowdAlias("Name a dental procedure", "incision and drainage", "open and drain");  // 2026-11-21 · 1 player · same as incision and drainage
+crowdAlias("Name a dental radiation safety or X-ray physics term", "lead apron", "lead jacket|x ray vest");  // 2026-11-21 · 2 players · same as lead apron
+crowdAlias("Name a dental specialty", "oral radiology", "dental radiography|radiology");  // 2026-11-21 · 2 players · same as oral radiology
+crowdAlias("Name a dental specialty", "oral surgery", "oral maxillofacial surgery");  // 2026-11-21 · 1 player · same as oral surgery
+crowdAlias("Name a dental specialty", "oral pathology", "pathologist|pathology");  // 2026-11-21 · 2 players · same as oral pathology
+crowdAlias("Name a drug for a lung disease other than asthma or COPD", "ivacaftor", "ivacroft");  // 2026-11-21 · 1 player · same as ivacaftor
+crowdAlias("Name a drug for a lung disease other than asthma or COPD", "pancrelipase", "pancreatic enzyme");  // 2026-11-21 · 1 player · same as pancrelipase
+crowdAlias("Name a drug that causes hyperkalemia", "sacubitril valsartan", "entresto");  // 2026-11-21 · 1 player · same as sacubitril valsartan
+crowdAlias("Name a food high in phosphorus", "cola", "coca cola");  // 2026-11-21 · 1 player · same as cola
+crowdAlias("Name a food high in phosphorus", "beans", "kidney beans");  // 2026-11-21 · 1 player · same as beans
+crowdAlias("Name a food or drink to avoid with GERD", "fried foods", "funnel cake");  // 2026-11-21 · 1 player · same as fried foods
+crowdAlias("Name a gastrointestinal test or procedure", "appendectomy", "apendix removed");  // 2026-11-21 · 1 player · same as appendectomy
+crowdAlias("Name a gastrointestinal test or procedure", "ct abdomen", "ctap");  // 2026-11-21 · 1 player · same as ct abdomen
+crowdAlias("Name a gastrointestinal test or procedure", "fecal occult blood test", "fecal occcult blood");  // 2026-11-21 · 1 player · same as fecal occult blood test
+crowdAlias("Name a gastrointestinal test or procedure", "small bowel resection", "jujenum resection|necrotic bowel removal");  // 2026-11-21 · 2 players · same as small bowel resection
+crowdAlias("Name a gastrointestinal test or procedure", "exploratory laparotomy", "laparatomy");  // 2026-11-21 · 1 player · same as exploratory laparotomy
+crowdAlias("Name a gastrointestinal test or procedure", "cholecystectomy", "laproscopic cholesitias");  // 2026-11-21 · 1 player · same as cholecystectomy
+crowdAlias("Name a gastrointestinal test or procedure", "nasogastric tube", "nasogastric feeding");  // 2026-11-21 · 1 player · same as nasogastric tube
+crowdAlias("Name a gastrointestinal test or procedure", "endoscopic necrosectomy", "necrosectomy");  // 2026-11-21 · 1 player · same as endoscopic necrosectomy
+crowdAlias("Name a gastrointestinal test or procedure", "whipple procedure", "pancreaticoduecoetomy");  // 2026-11-21 · 1 player · same as whipple procedure
+crowdAlias("Name a gastrointestinal test or procedure", "polypectomy", "polyp removal/polypectomy");  // 2026-11-21 · 1 player · same as polypectomy
+crowdAlias("Name a gastrointestinal test or procedure", "gastric bypass", "roux en y bypass");  // 2026-11-21 · 1 player · same as gastric bypass
+crowdAlias("Name a gastrointestinal test or procedure", "stool ova and parasites", "stool and ova|stool microscopy");  // 2026-11-21 · 2 players · same as stool ova and parasites
+crowdAlias("Name a gastrointestinal test or procedure", "abdominal ultrasound", "ultrasound");  // 2026-11-21 · 1 player · same as abdominal ultrasound
+crowdAlias("Name a healthcare profession", "nurse practitioner", "agnp");  // 2026-11-21 · 1 player · same as nurse practitioner
+crowdAlias("Name a healthcare profession", "infectious disease specialist", "infectious diseases doc");  // 2026-11-21 · 1 player · same as infectious disease specialist
+crowdAlias("Name a healthcare profession", "radiologist", "interventional radiologist");  // 2026-11-21 · 1 player · same as radiologist
+crowdAlias("Name a healthcare profession", "palliative care physician", "palleative care");  // 2026-11-21 · 1 player · same as palliative care physician
+crowdAlias("Name a heart condition", "takotsubo", "takabotsu");  // 2026-11-21 · 1 player · same as takotsubo
+crowdAlias("Name a hemostasis or coagulation term", "hypercoagulable state", "hypercoagulopathy");  // 2026-11-21 · 1 player · same as hypercoagulable state
+crowdAlias("Name a hospital unit or department", "interventional radiology", "ir");  // 2026-11-21 · 1 player · same as interventional radiology
+crowdAlias("Name a hospital unit or department", "psych", "psychiartic ward");  // 2026-11-21 · 1 player · same as psych
+crowdAlias("Name a jaw movement or occlusion term", "clenching", "clench");  // 2026-11-21 · 1 player · same as clenching
+crowdAlias("Name a jaw movement or occlusion term", "protrusion", "protraction");  // 2026-11-21 · 1 player · same as protrusion
+crowdAlias("Name a ligament or tendon", "cricothyroid ligament", "thyrocricoid ligament");  // 2026-11-21 · 1 player · same as cricothyroid ligament
+crowdAlias("Name a lymphatic structure or lymph node group", "jugulo omohyoid node", "jugularomohyoid");  // 2026-11-21 · 1 player · same as jugulo omohyoid node
+crowdAlias("Name a medical condition that changes dental treatment", "alzheimer disease", "alzhimers");  // 2026-11-21 · 1 player · same as alzheimer disease
+crowdAlias("Name a medical condition that changes dental treatment", "substance abuse", "heroine addiction");  // 2026-11-21 · 1 player · same as substance abuse
+crowdAlias("Name a medical condition that changes dental treatment", "artificial joint", "knee replacement|recent hip replacement");  // 2026-11-21 · 2 players · same as artificial joint
+crowdAlias("Name a medical condition that changes dental treatment", "heart valve problems", "mechanical aortic valve");  // 2026-11-21 · 1 player · same as heart valve problems
+crowdAlias("Name a medical imaging test", "contrast ct", "ct with iv contrast");  // 2026-11-21 · 1 player · same as contrast ct
+crowdAlias("Name a medical imaging test", "mri", "t2 mri");  // 2026-11-21 · 1 player · same as mri
+crowdAlias("Name a mental health nursing intervention", "therapeutic communication", "theracomm");  // 2026-11-21 · 1 player · same as therapeutic communication
+crowdAlias("Name a microbiology term", "gram variable", "gram indeterminant");  // 2026-11-21 · 1 player · same as gram variable
+crowdAlias("Name a microbiology term", "macconkey agar", "macconkey gel");  // 2026-11-21 · 1 player · same as macconkey agar
+crowdAlias("Name a microbiology term", "optochin", "optochin-sensitive");  // 2026-11-21 · 1 player · same as optochin
+crowdAlias("Name a microbiology term", "normal flora", "skin flora");  // 2026-11-21 · 1 player · same as normal flora
+crowdAlias("Name a neurotransmitter", "acetylcholine", "acytl");  // 2026-11-21 · 1 player · same as acetylcholine
+crowdAlias("Name a newborn assessment or procedure", "reflexes", "startle reflex");  // 2026-11-21 · 1 player · same as reflexes
+crowdAlias("Name a nursing organization or professional association", "association of perioperative registered nurses", "american association of periop nurses");  // 2026-11-21 · 1 player · same as association of perioperative registered nurses
+crowdAlias("Name a nursing organization or professional association", "wound ostomy continence nurses society", "wocn org");  // 2026-11-21 · 1 player · same as wound ostomy continence nurses society
+crowdAlias("Name a nutrient deficiency disease", "wernicke encephalopathy", "werrnicke koffman");  // 2026-11-21 · 1 player · same as wernicke encephalopathy
+crowdAlias("Name a part of a tooth", "cusp of carabelli", "carabelli's cusp");  // 2026-11-21 · 1 player · same as cusp of carabelli
+crowdAlias("Name a part of the brain", "diencephalon", "diapheaplon");  // 2026-11-21 · 1 player · same as diencephalon
+crowdAlias("Name a part of the brain", "pineal gland", "epiphysis");  // 2026-11-21 · 1 player · same as pineal gland
+crowdAlias("Name a part of the brain", "medulla", "oblongata");  // 2026-11-21 · 1 player · same as medulla
+crowdAlias("Name a part of the brain", "cerebellar tonsils", "tonsil");  // 2026-11-21 · 1 player · same as cerebellar tonsils
+crowdAlias("Name a part of the heart", "ostium secundum", "foramen succundum");  // 2026-11-21 · 1 player · same as ostium secundum
+crowdAlias("Name a part of the heart", "papillary muscle", "posteromedial papillary muscle");  // 2026-11-21 · 1 player · same as papillary muscle
+crowdAlias("Name a piece of equipment in a dental office", "drill", "aerotor");  // 2026-11-21 · 1 player · same as drill
+crowdAlias("Name a piece of equipment in a dental office", "suction", "hve");  // 2026-11-21 · 1 player · same as suction
+crowdAlias("Name a postoperative complication", "spinal headache", "post punctal headache");  // 2026-11-21 · 1 player · same as spinal headache
+crowdAlias("Name a postoperative complication", "wound dehiscence", "wound opening");  // 2026-11-21 · 1 player · same as wound dehiscence
+crowdAlias("Name a preventive screening test", "aaa ultrasound", "aaa us|abdominal aorta ultrasound");  // 2026-11-21 · 2 players · same as aaa ultrasound
+crowdAlias("Name a preventive screening test", "pap smear", "papanicolau|papau nicola");  // 2026-11-21 · 2 players · same as pap smear
+crowdAlias("Name a preventive screening test", "tb test", "tubercullin");  // 2026-11-21 · 1 player · same as tb test
+crowdAlias("Name a reason a filling or crown fails", "inadequate retention", "bad retention|retention");  // 2026-11-21 · 2 players · same as inadequate retention
+crowdAlias("Name a reason a filling or crown fails", "high bite", "high points");  // 2026-11-21 · 1 player · same as high bite
+crowdAlias("Name a reason people visit the dentist", "cracked tooth", "cracked crown");  // 2026-11-21 · 1 player · same as cracked tooth
+crowdAlias("Name a reason people visit the dentist", "whitening", "white teeth");  // 2026-11-21 · 1 player · same as whitening
+crowdAlias("Name a restraint or restraint alternative", "belt restraint", "roll belt");  // 2026-11-21 · 1 player · same as belt restraint
+crowdAlias("Name a right of medication administration", "right documentation", "right docukamrtain");  // 2026-11-21 · 1 player · same as right documentation
+crowdAlias("Name a sign of dehydration", "poor skin turgor", "elasticity");  // 2026-11-21 · 1 player · same as poor skin turgor
+crowdAlias("Name a sign of fluid volume overload", "peripheral edema", "swollen limbs");  // 2026-11-21 · 1 player · same as peripheral edema
+crowdAlias("Name a sign of low calcium", "chvostek sign", "facial twitch");  // 2026-11-21 · 1 player · same as chvostek sign
+crowdAlias("Name a sign of sepsis", "confusion", "ams");  // 2026-11-21 · 1 player · same as confusion
+crowdAlias("Name a symptom of a heart attack", "chest pressure", "crushing pressure");  // 2026-11-21 · 1 player · same as chest pressure
+crowdAlias("Name a symptom of diabetes", "dizziness", "easily dizzy");  // 2026-11-21 · 1 player · same as dizziness
+crowdAlias("Name a symptom of hypothyroidism", "myxedema coma", "coma");  // 2026-11-21 · 1 player · same as myxedema coma
+crowdAlias("Name a symptom of hypothyroidism", "abdominal distension", "distented abdomen");  // 2026-11-21 · 1 player · same as abdominal distension
+crowdAlias("Name a symptom of low blood sugar", "confusion", "altered mental status");  // 2026-11-21 · 1 player · same as confusion
+crowdAlias("Name a symptom of low blood sugar", "tired", "tiredness");  // 2026-11-21 · 1 player · same as tired
+crowdAlias("Name a syndrome with dental manifestations", "papillon lefevre", "papillon leferve syndrone");  // 2026-11-21 · 1 player · same as papillon lefevre
+crowdAlias("Name a type of dental X-ray or imaging", "cephalometric", "lateral cephalogram");  // 2026-11-21 · 1 player · same as cephalometric
+crowdAlias("Name a type of disaster or mass casualty event", "mass shooting", "shooting");  // 2026-11-21 · 1 player · same as mass shooting
+crowdAlias("Name a type of IV fluid", "3% sodium chloride", "3%");  // 2026-11-21 · 1 player · same as 3% sodium chloride
+crowdAlias("Name a type of tissue or epithelium", "ciliated epithelium", "cilliated");  // 2026-11-21 · 1 player · same as ciliated epithelium
+crowdAlias("Name a type of tissue or epithelium", "areolar connective tissue", "loose alveolar tissue");  // 2026-11-21 · 1 player · same as areolar connective tissue
+crowdAlias("Name a type of tissue or epithelium", "pseudostratified columnar epithelium", "pseudostratified");  // 2026-11-21 · 1 player · same as pseudostratified columnar epithelium
+crowdAlias("Name a type of tissue or epithelium", "stratified columnar epithelium", "statified columnar");  // 2026-11-21 · 1 player · same as stratified columnar epithelium
+crowdAlias("Name a type of vasculitis", "eosinophilic granulomatosis with polyangiitis", "eosinophilic polyangitis");  // 2026-11-21 · 1 player · same as eosinophilic granulomatosis with polyangiitis
+crowdAlias("Name a vaccine", "ppsv23", "pnemax");  // 2026-11-21 · 1 player · same as ppsv23
+crowdAlias("Name a virus that infects humans", "coxsackie", "cocksackie b");  // 2026-11-21 · 1 player · same as coxsackie
+crowdAlias("Name a way to prevent cavities", "nano hydroxyapatite toothpaste", "hydroxyapitite|nanohydroxyapatite");  // 2026-11-21 · 2 players · same as nano hydroxyapatite toothpaste
+crowdAlias("Name a way to prevent cavities", "rinse with water after eating", "rinsing with water");  // 2026-11-21 · 1 player · same as rinse with water after eating
+crowdAlias("Name a way to prevent cavities", "silver diamine fluoride", "sdf");  // 2026-11-21 · 1 player · same as silver diamine fluoride
+crowdAlias("Name a word used to describe pain or a type of pain", "radiating", "radiate");  // 2026-11-21 · 1 player · same as radiating
+crowdAlias("Name an animal known for its teeth or tusks", "saber toothed tiger", "sabertooth");  // 2026-11-21 · 1 player · same as saber toothed tiger
+crowdAlias("Name an endocrine test", "acth stimulation test", "cosyntropin|syncathen|synthacthen");  // 2026-11-21 · 3 players · same as acth stimulation test
+crowdAlias("Name an endocrine test", "desmopressin challenge test", "desmopressin stimulation");  // 2026-11-21 · 1 player · same as desmopressin challenge test
+crowdAlias("Name an endocrine test", "dexamethasone suppression test", "dexamethasone challenge test|dexamethasone test");  // 2026-11-21 · 2 players · same as dexamethasone suppression test
+crowdAlias("Name an endocrine test", "fingerstick glucose", "finger prick");  // 2026-11-21 · 1 player · same as fingerstick glucose
+crowdAlias("Name an endocrine test", "glucose challenge test", "pregnancy glucose");  // 2026-11-21 · 1 player · same as glucose challenge test
+crowdAlias("Name an endocrine test", "secretin stimulation test", "secretij stiumlation");  // 2026-11-21 · 1 player · same as secretin stimulation test
+crowdAlias("Name an endocrine test", "tsh", "tsh level|tsh w reflex");  // 2026-11-21 · 2 players · same as tsh
+crowdAlias("Name an endocrine test", "urine vma", "urine methyvanillic acid");  // 2026-11-21 · 1 player · same as urine vma
+crowdAlias("Name an eye or ENT exam or test", "extraocular movements", "h test");  // 2026-11-21 · 1 player · same as extraocular movements
+crowdAlias("Name an eye or ENT exam or test", "schwabach test", "swabach");  // 2026-11-21 · 1 player · same as schwabach test
+crowdAlias("Name an infection", "actinomycosis", "actinomyces");  // 2026-11-21 · 1 player · same as actinomycosis
+crowdAlias("Name an infection", "tonsillitis", "amigdalitis");  // 2026-11-21 · 1 player · same as tonsillitis
+crowdAlias("Name an infection", "coccidioidomycosis", "coccidiodes");  // 2026-11-21 · 1 player · same as coccidioidomycosis
+crowdAlias("Name an infection", "chancroid", "haemophilus ducreyi");  // 2026-11-21 · 1 player · same as chancroid
+crowdAlias("Name an infection", "lymphogranuloma venereum", "lgv");  // 2026-11-21 · 1 player · same as lymphogranuloma venereum
+crowdAlias("Name an infection", "loiasis", "loa loa");  // 2026-11-21 · 1 player · same as loiasis
+crowdAlias("Name an infection", "pyelonephritis", "pylenophritis");  // 2026-11-21 · 1 player · same as pyelonephritis
+crowdAlias("Name an infection", "staph infection", "staf");  // 2026-11-21 · 1 player · same as staph infection
+crowdAlias("Name an infection", "group b strep", "strep b");  // 2026-11-21 · 1 player · same as group b strep
+crowdAlias("Name an infection", "athlete's foot", "tinea pedis");  // 2026-11-21 · 1 player · same as athlete's foot
+crowdAlias("Name an infection", "filariasis", "w bancrofti");  // 2026-11-21 · 1 player · same as filariasis
+crowdAlias("Name an infection of the eye, ear, nose or throat", "acanthamoeba keratitis", "acanthamoeba");  // 2026-11-21 · 1 player · same as acanthamoeba keratitis
+crowdAlias("Name an infection of the eye, ear, nose or throat", "chlamydial conjunctivitis", "clamydia");  // 2026-11-21 · 1 player · same as chlamydial conjunctivitis
+crowdAlias("Name an infection of the eye, ear, nose or throat", "viral conjunctivitis", "keratoconjunctivititis");  // 2026-11-21 · 1 player · same as viral conjunctivitis
+crowdAlias("Name an infection of the eye, ear, nose or throat", "toxoplasma chorioretinitis", "retinochoroiditis");  // 2026-11-21 · 1 player · same as toxoplasma chorioretinitis
+crowdAlias("Name an infection of the eye, ear, nose or throat", "mucormycosis", "rhizopus");  // 2026-11-21 · 1 player · same as mucormycosis
+crowdAlias("Name an inhaler or asthma/COPD medication", "atrovent", "iprapropriam promide");  // 2026-11-21 · 1 player · same as atrovent
+crowdAlias("Name an inhaler or asthma/COPD medication", "asmanex", "twisthaler");  // 2026-11-21 · 1 player · same as asmanex
+crowdAlias("Name an item on a preoperative checklist", "preoperative teaching", "education");  // 2026-11-21 · 1 player · same as preoperative teaching
+crowdAlias("Name an item on a preoperative checklist", "time out", "surgical pause|universal timeout");  // 2026-11-21 · 2 players · same as time out
+crowdAlias("Name an item on a preoperative checklist", "iv access", "venous access");  // 2026-11-21 · 1 player · same as iv access
+crowdAlias("Name an operating room or surgical term", "hemostat", "curved kellys");  // 2026-11-21 · 1 player · same as hemostat
+crowdAlias("Name an operating room or surgical term", "extubation", "extubate");  // 2026-11-21 · 1 player · same as extubation
+crowdAlias("Name an operating room or surgical term", "sterile field", "field");  // 2026-11-21 · 1 player · same as sterile field
+crowdAlias("Name an operating room or surgical term", "laparoscopy", "laproscopically");  // 2026-11-21 · 1 player · same as laparoscopy
+crowdAlias("Name an operating room or surgical term", "mattress suture", "mattress stitch");  // 2026-11-21 · 1 player · same as mattress suture
+crowdAlias("Name an operating room or surgical term", "whipple procedure", "pancreaticoduodenectomy");  // 2026-11-21 · 1 player · same as whipple procedure
+crowdAlias("Name an operating room or surgical term", "pfannenstiel incision", "pfanstiel");  // 2026-11-21 · 1 player · same as pfannenstiel incision
+crowdAlias("Name an oral hygiene product", "floss", "expanding floss");  // 2026-11-21 · 1 player · same as floss
+crowdAlias("Name an oral hygiene product", "hydroxyapatite toothpaste", "nanohydroxyapatite");  // 2026-11-21 · 1 player · same as hydroxyapatite toothpaste
+crowdAlias("Name an oral hygiene product", "interdental brush", "pikster");  // 2026-11-21 · 1 player · same as interdental brush
+crowdAlias("Name an oral hygiene product", "fluoride varnish", "varnish");  // 2026-11-21 · 1 player · same as fluoride varnish
+crowdAlias("Name an orthodontic appliance", "space maintainer", "crown and loop");  // 2026-11-21 · 1 player · same as space maintainer
+crowdAlias("Name an orthopedic device or treatment", "orthotics", "insole");  // 2026-11-21 · 1 player · same as orthotics
+crowdAlias("Name an orthopedic device or treatment", "compression stockings", "stockings");  // 2026-11-21 · 1 player · same as compression stockings
+crowdAlias("Name an orthopedic device or treatment", "total knee replacement", "titanium knee");  // 2026-11-21 · 1 player · same as total knee replacement
+crowdAlias("Name something found in a hospital room", "disinfectant wipes", "bleach wipes");  // 2026-11-21 · 1 player · same as disinfectant wipes
+crowdAlias("Name something to teach a pregnant patient", "avoid certain medications", "avoid teratogenic medications");  // 2026-11-21 · 1 player · same as avoid certain medications
+crowdAlias("Name something to teach a pregnant patient", "avoid lying flat on back", "dont lay flat");  // 2026-11-21 · 1 player · same as avoid lying flat on back
+crowdAlias("Name something to teach a pregnant patient", "prenatal vitamins", "fetal supplements");  // 2026-11-21 · 1 player · same as prenatal vitamins
+crowdAlias("Name something to teach a pregnant patient", "prenatal visits", "followup care");  // 2026-11-21 · 1 player · same as prenatal visits
+crowdAlias("Name something to teach a pregnant patient", "signs of preeclampsia", "hellp|help syndrome");  // 2026-11-21 · 2 players · same as signs of preeclampsia
+crowdAlias("Name something to teach a pregnant patient", "cook meat thoroughly", "no raw meat");  // 2026-11-21 · 1 player · same as cook meat thoroughly
+crowdAlias("Name something to teach a pregnant patient", "quit smoking", "no smoking");  // 2026-11-21 · 1 player · same as quit smoking
+crowdAlias("Name something to teach new parents about newborn care", "vaccinations", "injections");  // 2026-11-21 · 1 player · same as vaccinations
+crowdAlias("Name something to teach new parents about newborn care", "umbilical cord care", "stump care");  // 2026-11-21 · 1 player · same as umbilical cord care
+crowdAlias("Name a bacterium that causes disease in humans", "staphylococcus aureus", "vrsa");  // 2026-11-21 · 1 player · same as staphylococcus aureus
+crowdAlias("Name a birth defect or congenital anomaly", "congenital scoliosis", "scolisis");  // 2026-11-21 · 1 player · same as congenital scoliosis
+crowdAlias("Name a blood test", "hemoglobin", "h and h");  // 2026-11-21 · 1 player · same as hemoglobin
+crowdAlias("Name a blood test", "hemoglobin electrophoresis", "hbg electrophoresis");  // 2026-11-21 · 1 player · same as hemoglobin electrophoresis
+crowdAlias("Name a blood test", "hematocrit", "hemocit");  // 2026-11-21 · 1 player · same as hematocrit
+crowdAlias("Name a body cavity or anatomical space", "pleural cavity", "intrapleural space");  // 2026-11-21 · 1 player · same as pleural cavity
+crowd("Name an infection", 67, "laryngitis");  // 2026-11-21 · 10 players · usually viral infection of larynx
+crowd("Name an infection", 69, "pharyngitis");  // 2026-11-21 · 9 players · usually infectious (viral/strep)
+crowd("Name a microbiology term", 84, "virus|viruses");  // 2026-11-21 · 8 players · core microbiology term
+crowd("Name an infection of the eye, ear, nose or throat", 86, "hand foot and mouth disease|hand foot mouth|hand foot and mouth|hfmd");  // 2026-11-21 · 6 players · coxsackie infection with oral lesions
+crowd("Name a microbiology term", 89, "crispr|crispr cas");  // 2026-11-21 · 5 players · bacterial adaptive immunity system
+crowd("Name a cause of ataxia", 89, "medications|medication|drug induced ataxia|drug induced");  // 2026-11-21 · 5 players · drug-induced ataxia (AEDs, sedatives, etc.)
+crowd("Name an environmental or wilderness injury or illness", 88, "chagas disease|chagas");  // 2026-11-21 · 5 players · vector-borne zoonosis, travel/wilderness medicine
+crowd("Name an environmental or wilderness injury or illness", 88, "brucellosis");  // 2026-11-21 · 5 players · zoonosis covered in wilderness medicine texts
+crowd("Name a common reason for a primary care visit", 87, "splinter|splinter removal");  // 2026-11-21 · 4 players · common minor office complaint
+crowd("Name a gastrointestinal test or procedure", 94, "air enema|air enema reduction|pneumatic reduction");  // 2026-11-21 · 2 players · intussusception reduction
+crowd("Name a gastrointestinal test or procedure", 94, "gastrografin study|gastrografin|gastrograffin|gastrografin swallow|gastrografin enema");  // 2026-11-21 · 2 players · water-soluble contrast study
+crowd("Name a microbiology term", 94, "dead end host|dead-end host");  // 2026-11-21 · 2 players · parasitology/microbiology term
+crowd("Name a microbiology term", 94, "fungi|fungus");  // 2026-11-21 · 2 players · core microbiology term
+crowd("Name a piece of equipment in a dental office", 72, "tofflemire|tofflemire retainer|matrix band|matrix retainer");  // 2026-11-21 · 2 players · restorative instrument
+crowd("Name a piece of equipment in a dental office", 72, "periodontal probe|perio probe|probe|bpe probe");  // 2026-11-21 · 2 players · periodontal instrument
+crowd("Name an operating room or surgical term", 94, "castroviejo|castro viejo|castroviejo needle holder");  // 2026-11-21 · 2 players · microsurgical instrument
+crowd("Name a common reason for a primary care visit", 96, "dysuria|painful urination|burning urination");  // 2026-11-21 · 1 player · common presenting complaint
+crowd("Name a cause of ataxia", 97, "rett syndrome");  // 2026-11-21 · 1 player · gait ataxia/apraxia in Rett
+crowd("Name a cause of hemolytic anemia", 81, "vitamin e deficiency");  // 2026-11-21 · 1 player · hemolysis esp. in premature infants
+crowd("Name a chemotherapy drug", 86, "phesgo|pertuzumab trastuzumab hyaluronidase");  // 2026-11-21 · 1 player · HER2 regimen (pertuzumab+trastuzumab)
+crowd("Name a chemotherapy drug", 86, "talquetamab|talvey");  // 2026-11-21 · 1 player · GPRC5D bispecific for myeloma
+crowd("Name a chemotherapy drug", 86, "tarlatamab|imdelltra");  // 2026-11-21 · 1 player · DLL3 bispecific for SCLC
+crowd("Name a dental brand or company", 74, "curodont|vvardis");  // 2026-11-21 · 1 player · dental brand (enamel regeneration)
+crowd("Name a dental brand or company", 74, "darlie");  // 2026-11-21 · 1 player · major toothpaste brand
+crowd("Name a dental brand or company", 74, "guru nanda|gurunanda");  // 2026-11-21 · 1 player · oral care company
+crowd("Name a dental procedure", 82, "oroantral communication closure|oac closure|oroantral fistula closure");  // 2026-11-21 · 1 player · standard oral surgery procedure
+crowd("Name a developmental red flag in a child", 85, "gowers sign|gower sign|gowers");  // 2026-11-21 · 1 player · proximal weakness red flag (e.g. DMD)
+crowd("Name a drug that causes agranulocytosis", 68, "azathioprine");  // 2026-11-21 · 1 player · myelosuppression incl. agranulocytosis
+crowd("Name a drug that causes dizziness", 87, "fluphenazine|fluphenazine decanoate");  // 2026-11-21 · 1 player · antipsychotic, orthostatic dizziness
+crowd("Name a drug that causes fatigue or weakness", 84, "fluphenazine|fluphenazine decanoate");  // 2026-11-21 · 1 player · antipsychotic, sedation/fatigue
+crowd("Name a drug that is given with a loading dose", 78, "suzetrigine|journavx");  // 2026-11-21 · 1 player · label: 100 mg initial dose then 50 mg q12h
+crowd("Name a drug that is given with a loading dose", 78, "leflunomide|lefluonamide|arava");  // 2026-11-21 · 1 player · label: 100 mg/day x3 loading
+crowd("Name a drug used in newborns or the NICU", 87, "oxygen|supplemental oxygen");  // 2026-11-21 · 1 player · oxygen therapy in NICU
+crowd("Name a food high in phosphorus", 93, "mackerel|mackeral");  // 2026-11-21 · 1 player · oily fish, high phosphorus
+crowd("Name a gastrointestinal disorder", 92, "annular pancreas|pancreas anulare");  // 2026-11-21 · 1 player · congenital duodenal obstruction
+crowd("Name a gastrointestinal disorder", 92, "superior mesenteric artery syndrome|sma syndrome|wilkie syndrome");  // 2026-11-21 · 1 player · duodenal compression
+crowd("Name a gastrointestinal test or procedure", 96, "fecal disimpaction|manual disimpaction|disimpaction");  // 2026-11-21 · 1 player · standard GI procedure
+crowd("Name a gastrointestinal test or procedure", 96, "gastrotomy");  // 2026-11-21 · 1 player · surgical opening of stomach
+crowd("Name a gastrointestinal test or procedure", 96, "jejunal aspirate|jejunal aspirate culture");  // 2026-11-21 · 1 player · SIBO diagnosis
+crowd("Name a gastrointestinal test or procedure", 96, "ileostomy reversal|reverse ileostomy|ileostomy takedown");  // 2026-11-21 · 1 player · stoma reversal
+crowd("Name a gastrointestinal test or procedure", 96, "suction rectal biopsy|suction biopsy|rectal suction biopsy");  // 2026-11-21 · 1 player · Hirschsprung diagnosis
+crowd("Name a genetic disorder", 96, "familial hyperaldosteronism|glucocorticoid remediable aldosteronism");  // 2026-11-21 · 1 player · inherited (CYP11B1/2 etc.)
+crowd("Name a healthcare profession", 96, "dental anesthesiologist|dental anesthesioligist");  // 2026-11-21 · 1 player · recognized dental specialty
+crowd("Name a healthcare profession", 96, "hematopathologist");  // 2026-11-21 · 1 player · pathology subspecialist
+crowd("Name a healthcare profession", 96, "hyperbaric medicine physician|hyperbaric physician");  // 2026-11-21 · 1 player · board subspecialty
+crowd("Name a heart condition", 96, "branch pulmonary artery stenosis|peripheral pulmonary artery stenosis");  // 2026-11-21 · 1 player · congenital PA branch stenosis
+crowd("Name a heart condition", 96, "lev disease|levs fibrosis|lenegre lev disease|lenegre disease");  // 2026-11-21 · 1 player · conduction system fibrosis
+crowd("Name a hepatotoxic drug", 69, "remdesivir");  // 2026-11-21 · 1 player · label: transaminase elevations
+crowd("Name a hospital unit or department", 90, "acute medical unit|amu");  // 2026-11-21 · 1 player · hospital admissions unit
+crowd("Name a hospital unit or department", 90, "podiatry");  // 2026-11-21 · 1 player · hospital department
+crowd("Name a ligament or tendon", 96, "costoxiphoid ligament");  // 2026-11-21 · 1 player · anterior chest ligament
+crowd("Name a ligament or tendon", 96, "denticulate ligament");  // 2026-11-21 · 1 player · spinal pia ligament
+crowd("Name a ligament or tendon", 96, "piriformis tendon");  // 2026-11-21 · 1 player · hip tendon
+crowd("Name a lung disease", 96, "dipnech");  // 2026-11-21 · 1 player · diffuse idiopathic pulmonary neuroendocrine cell hyperplasia
+crowd("Name a lung disease", 96, "loffler syndrome|lofflers syndrome|loeffler syndrome");  // 2026-11-21 · 1 player · simple pulmonary eosinophilia
+crowd("Name a lymphatic structure or lymph node group", 80, "sump of borrie|lymphatic sump of borrie");  // 2026-11-21 · 1 player · lung lymphatic drainage area
+crowd("Name a medical abbreviation", 91, "cgd");  // 2026-11-21 · 1 player · chronic granulomatous disease
+crowd("Name a medical abbreviation", 91, "ddavp");  // 2026-11-21 · 1 player · desmopressin
+crowd("Name a medical abbreviation", 91, "gbs");  // 2026-11-21 · 1 player · group B strep / Guillain-Barre
+crowd("Name a medical abbreviation", 91, "opqrst");  // 2026-11-21 · 1 player · pain assessment mnemonic

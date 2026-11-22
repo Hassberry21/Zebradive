@@ -81666,6 +81666,1547 @@ keyes technique|baking soda and peroxide
 nd yag laser|er yag laser|diode laser
 `, "2026-11-24");
 
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE (batch 2026-11-22, board-first) ---- */
+P("Name a psychiatric sign, symptom or mental status exam finding","clinical","",`
+hallucinations|hallucination
+delusions|delusion
+auditory hallucinations|auditory hallucination|hearing voices
+paranoia|persecutory delusion|persecutory delusions|paranoid delusions|delusions of persecution
+anhedonia
+flight of ideas
+loose associations|loosening of associations|derailment|knight's move thinking
+pressured speech|pressure of speech
+flat affect|affective flattening
+blunted affect
+suicidal ideation|suicidal thoughts|suicidality
+visual hallucinations|visual hallucination
+depressed mood|low mood
+grandiosity|grandiose delusions|delusions of grandeur|grandiose delusion
+thought broadcasting
+thought insertion
+thought withdrawal
+tangentiality|tangential thinking|tangential speech
+circumstantiality|circumstantial thinking|circumstantial speech
+labile affect|affective lability|emotional lability
+inappropriate affect|incongruent affect|mood incongruent affect
+restricted affect|constricted affect
+ideas of reference
+delusions of reference|delusion of reference|referential delusions
+word salad|incoherence|incoherent speech
+neologisms|neologism
+clang associations|clanging
+echolalia
+echopraxia
+perseveration
+thought blocking
+alogia|poverty of speech
+poverty of content of speech|poverty of thought content
+avolition
+asociality
+catatonia|catatonic features
+waxy flexibility|cerea flexibilitas
+capgras delusion|capgras syndrome
+la belle indifference
+confabulation
+hypnagogic hallucinations|hypnagogic hallucination
+hypnopompic hallucinations|hypnopompic hallucination
+psychomotor agitation|agitation
+psychomotor retardation
+homicidal ideation|homicidal thoughts
+command hallucinations|command auditory hallucinations
+tactile hallucinations|haptic hallucinations
+formication
+olfactory hallucinations
+gustatory hallucinations
+depersonalization
+derealization
+euphoria|euphoric mood
+elevated mood
+expansive mood
+irritability|irritable mood
+racing thoughts
+decreased need for sleep
+distractibility
+hypersexuality|increased libido
+impulsivity
+obsessions|obsessive thoughts|intrusive thoughts
+compulsions|compulsive behavior|compulsive rituals
+hypervigilance
+flashbacks
+nightmares
+avoidance|avoidance behavior
+exaggerated startle response|exaggerated startle|hyperarousal
+emotional numbing
+panic attacks|panic attack
+anxiety|anxious mood
+excessive worry|worry
+insomnia
+early morning awakening|terminal insomnia
+hypersomnia
+decreased appetite|loss of appetite
+increased appetite|hyperphagia
+excessive guilt|inappropriate guilt|guilt
+worthlessness|feelings of worthlessness
+hopelessness
+helplessness
+poor concentration|impaired concentration|decreased concentration
+indecisiveness
+anergia|fatigue|loss of energy
+diurnal variation of mood
+apathy
+abulia
+poor insight|lack of insight|impaired insight
+poor judgment|impaired judgment
+concrete thinking|concreteness
+magical thinking
+overvalued idea|overvalued ideas
+paranoid ideation|suspiciousness
+formal thought disorder|thought disorder
+disorganized speech
+disorganized behavior
+bizarre behavior
+bizarre delusions|bizarre delusion
+nonbizarre delusions|non bizarre delusion
+mood congruent delusions|mood congruent psychotic features
+mood incongruent delusions|mood incongruent psychotic features
+nihilistic delusion|nihilistic delusions
+cotard delusion|cotard syndrome|walking corpse syndrome
+fregoli delusion|fregoli syndrome
+erotomania|erotomanic delusion|de clerambault syndrome
+delusional jealousy|othello syndrome|morbid jealousy
+somatic delusion|somatic delusions
+delusional parasitosis|delusional infestation
+religious delusions|religious delusion
+delusion of guilt|delusions of guilt
+delusion of poverty|delusions of poverty
+delusions of control|delusion of control|passivity phenomena|made actions|made feelings|made impulses
+delusional perception
+thought echo|echo de la pensee|gedankenlautwerden
+running commentary|third person auditory hallucinations|voices commenting
+thought pressure|pressure of thought
+illusions|illusion
+pseudohallucinations|pseudohallucination
+lilliputian hallucinations
+extracampine hallucinations
+reflex hallucinations
+autoscopy|autoscopic hallucination|heautoscopy
+deja vu
+jamais vu
+amnesia
+anterograde amnesia
+retrograde amnesia
+fugue state|dissociative fugue
+dissociation|dissociative symptoms
+disorientation|disoriented
+clouding of consciousness|altered sensorium
+confusion|acute confusion
+sundowning
+inattention
+hyperactivity
+catalepsy
+posturing
+mutism
+stupor|catatonic stupor
+catatonic excitement
+negativism
+mannerisms
+stereotypy|stereotypies
+grimacing
+automatic obedience
+mitgehen
+mitmachen
+gegenhalten|paratonia
+ambitendency
+schnauzkrampf
+psychological pillow
+self harm|deliberate self harm|nonsuicidal self injury
+social withdrawal
+poor eye contact
+mood lability|mood swings
+dysphoria|dysphoric mood
+alexithymia
+identity disturbance
+chronic feelings of emptiness|feelings of emptiness
+fear of abandonment|abandonment fears
+binge eating
+purging|self induced vomiting
+body image disturbance|body image distortion
+russell sign
+logorrhea
+verbigeration
+palilalia
+coprolalia
+copropraxia
+tics|motor tics|vocal tics
+stilted speech
+overinclusiveness
+slowed thinking|bradyphrenia
+rumination|ruminations
+ambivalence
+autistic thinking|dereistic thinking
+perplexity
+hyperreligiosity
+hypergraphia
+micropsia
+macropsia
+sleep paralysis
+approximate answers|vorbeireden|ganser syndrome
+pseudologia fantastica
+astasia abasia
+`, "2026-11-24");
+
+P("Name a classic triad, tetrad or pentad in medicine","clinical","",`
+beck triad|beck's triad|cardiac tamponade triad|tamponade triad
+virchow triad|virchow's triad|thrombosis triad
+cushing triad|cushing's triad|cushing reflex|raised intracranial pressure triad|icp triad
+charcot triad|charcot's triad|charcot cholangitis triad|cholangitis triad
+reynolds pentad|reynolds' pentad|cholangitis pentad
+whipple triad|whipple's triad|hypoglycemia triad|insulinoma triad
+tetralogy of fallot|tof|fallot tetralogy
+hakim triad|nph triad|normal pressure hydrocephalus triad|wet wobbly wacky
+wernicke triad|wernicke encephalopathy triad
+charcot neurologic triad|charcot triad of multiple sclerosis|multiple sclerosis triad|ms triad
+horner syndrome triad|horner triad|ptosis miosis anhidrosis
+samter triad|samter's triad|aspirin triad|aspirin exacerbated respiratory disease|aerd
+kartagener triad|kartagener syndrome|primary ciliary dyskinesia triad
+meigs triad|meigs syndrome
+reactive arthritis triad|reiter triad|reiter syndrome triad|cant see cant pee cant climb a tree
+ttp pentad|thrombotic thrombocytopenic purpura pentad
+hus triad|hemolytic uremic syndrome triad
+lethal triad of trauma|trauma triad of death|lethal triad|triad of death
+female athlete triad
+renal cell carcinoma triad|rcc triad
+pheochromocytoma triad
+hemochromatosis triad|bronze diabetes triad
+classic triad of aortic stenosis|aortic stenosis triad|syncope angina dyspnea
+meningitis triad|classic meningitis triad
+ectopic pregnancy triad
+congenital rubella triad|rubella triad
+congenital toxoplasmosis triad|toxoplasmosis triad
+hutchinson triad|congenital syphilis triad
+plummer-vinson triad|plummer vinson syndrome|paterson kelly syndrome
+mackler triad|boerhaave triad
+saint triad|saint's triad
+leriche triad|leriche syndrome
+gradenigo triad|gradenigo syndrome
+bergman triad|fat embolism triad
+carney triad
+felty syndrome|felty triad
+sjogren triad|sjogren syndrome triad
+behcet triad|behcet disease triad
+opioid overdose triad|opioid toxidrome triad
+budd-chiari triad|budd chiari syndrome triad
+ruptured aaa triad|ruptured abdominal aortic aneurysm triad
+spinal epidural abscess triad|epidural abscess triad
+shaken baby triad|abusive head trauma triad
+pellagra triad|pellagra 3 ds|pellagra 4 ds|dermatitis diarrhea dementia
+hellp syndrome|hellp triad
+preeclampsia triad
+amniotic fluid embolism triad
+crest syndrome|crest pentad|limited cutaneous systemic sclerosis
+henoch-schonlein purpura tetrad|hsp tetrad|iga vasculitis tetrad
+crab criteria|myeloma crab|multiple myeloma tetrad
+graves disease triad|graves triad
+hypercalcemia tetrad|stones bones groans and psychiatric overtones|stones bones groans moans
+atopic triad|atopy triad
+unhappy triad|o'donoghue triad|terrible triad of the knee
+terrible triad of the elbow
+dieulafoy triad|appendicitis triad of dieulafoy
+murphy triad|murphy's triad
+jacod triad|jacod syndrome
+currarino triad|currarino syndrome
+trotter triad|trotter syndrome
+alport syndrome triad|alport triad
+tuberous sclerosis triad|vogt triad
+wiskott-aldrich triad|wiskott aldrich syndrome triad
+mccune-albright triad|mccune albright syndrome
+pierre robin triad|pierre robin sequence
+gardner syndrome triad
+susac syndrome triad|susac syndrome
+melkersson-rosenthal triad|melkersson rosenthal syndrome
+heerfordt syndrome|uveoparotid fever
+lofgren syndrome|lofgren triad
+gpa triad|wegener triad|granulomatosis with polyangiitis triad
+miller fisher triad|miller fisher syndrome
+parkinsonian triad|parkinson disease triad|parkinson tetrad|trap
+serotonin syndrome triad|serotonin toxicity triad
+neuroleptic malignant syndrome tetrad|nms tetrad
+intussusception triad
+rigler triad|gallstone ileus triad
+borchardt triad|gastric volvulus triad
+hereditary spherocytosis triad
+carcinoid syndrome triad
+wdha syndrome|verner morrison syndrome|vipoma triad
+glucagonoma tetrad|glucagonoma 4 ds
+somatostatinoma triad
+hand-schuller-christian triad|hand schuller christian disease
+pentalogy of cantrell
+pentalogy of fallot
+trilogy of fallot
+shone complex
+atrial myxoma triad
+osler triad|austrian syndrome|austrian triad
+yellow nail syndrome triad|yellow nail syndrome
+young syndrome
+prune belly syndrome|eagle-barrett syndrome|prune belly triad
+denys-drash triad|denys drash syndrome
+wagr syndrome|wagr tetrad
+klippel-feil triad|klippel feil syndrome
+klippel-trenaunay triad|klippel trenaunay syndrome
+weil disease triad|weil syndrome
+rocky mountain spotted fever triad|rmsf triad
+disseminated gonococcal infection triad|dgi triad|arthritis dermatitis syndrome
+macdonald triad|homicidal triad|triad of sociopathy
+congenital glaucoma triad
+meniere triad|meniere disease triad|meniere tetrad
+gerstmann syndrome|gerstmann tetrad
+balint syndrome|balint triad
+kearns-sayre triad|kearns sayre syndrome
+didmoad|wolfram syndrome
+quincke triad|sandblom triad|hemobilia triad
+luciani triad|cerebellar triad
+osteogenesis imperfecta triad
+ataxia telangiectasia triad
+hyper ige syndrome triad|job syndrome triad|job syndrome
+papa syndrome
+sapho syndrome|sapho pentad
+follicular occlusion triad|follicular occlusion tetrad
+sjogren-larsson triad|sjogren larsson syndrome
+rhabdomyolysis triad
+opsoclonus myoclonus syndrome|opsoclonus myoclonus ataxia|dancing eyes dancing feet
+bezold-jarisch reflex|bezold jarisch triad
+lethal diamond of trauma|trauma diamond of death|lethal diamond
+`, "2026-11-24");
+
+P("Name a disease of the esophagus or stomach","clinical","",`
+gerd|gastroesophageal reflux disease|acid reflux|reflux disease|gord|gastro oesophageal reflux
+peptic ulcer disease|pud|peptic ulcer
+gastric ulcer|stomach ulcer
+gastritis
+h pylori gastritis|helicobacter pylori gastritis|h pylori infection|helicobacter pylori
+gastric cancer|stomach cancer|gastric adenocarcinoma|gastric carcinoma
+esophageal cancer|esophageal carcinoma
+barrett esophagus|barretts esophagus
+achalasia
+hiatal hernia|hiatus hernia
+esophageal varices|varices
+mallory-weiss tear|mallory weiss syndrome
+boerhaave syndrome|spontaneous esophageal rupture
+esophageal adenocarcinoma
+esophageal squamous cell carcinoma
+eosinophilic esophagitis|eoe
+gastroparesis|diabetic gastroparesis
+reflux esophagitis|erosive esophagitis|esophagitis
+candida esophagitis|esophageal candidiasis
+pyloric stenosis|hypertrophic pyloric stenosis|infantile hypertrophic pyloric stenosis
+zollinger-ellison syndrome|zes
+zenker diverticulum|pharyngeal pouch|pharyngoesophageal diverticulum
+esophageal atresia
+tracheoesophageal fistula|tef
+diffuse esophageal spasm|distal esophageal spasm|des
+nutcracker esophagus|hypercontractile esophagus|jackhammer esophagus
+plummer-vinson syndrome|paterson kelly syndrome|sideropenic dysphagia
+schatzki ring|lower esophageal ring
+esophageal web|esophageal webs
+esophageal stricture|peptic stricture|benign esophageal stricture
+menetrier disease|hypertrophic gastropathy
+gastric varices
+dieulafoy lesion
+gave|gastric antral vascular ectasia|watermelon stomach
+portal hypertensive gastropathy
+autoimmune gastritis|pernicious anemia|type a gastritis
+chronic atrophic gastritis|atrophic gastritis
+acute gastritis|erosive gastritis|hemorrhagic gastritis
+nsaid gastropathy|nsaid gastritis|nsaid induced ulcer
+alcoholic gastritis
+stress ulcer|stress related mucosal disease|stress gastritis
+curling ulcer
+cushing ulcer
+gastric malt lymphoma|malt lymphoma|maltoma
+gastric lymphoma
+linitis plastica|diffuse type gastric cancer|signet ring cell carcinoma
+hereditary diffuse gastric cancer
+gastrointestinal stromal tumor|gist|gastric gist
+gastric carcinoid|gastric neuroendocrine tumor
+gastric outlet obstruction
+paraesophageal hernia|rolling hiatal hernia
+sliding hiatal hernia
+gastric volvulus
+functional dyspepsia|nonulcer dyspepsia
+gastroenteritis|stomach flu|viral gastroenteritis
+hsv esophagitis|herpes esophagitis|herpetic esophagitis
+cmv esophagitis|cytomegalovirus esophagitis
+pill esophagitis|pill induced esophagitis|medication induced esophagitis
+caustic ingestion|caustic esophageal injury|corrosive esophagitis|lye ingestion
+radiation esophagitis
+esophageal perforation|iatrogenic esophageal perforation
+scleroderma esophagus|esophageal involvement in systemic sclerosis
+ineffective esophageal motility
+esophagogastric junction outflow obstruction
+hypertensive lower esophageal sphincter
+pseudoachalasia
+chagas megaesophagus|chagasic megaesophagus
+esophageal food impaction|food bolus impaction|steakhouse syndrome
+esophageal foreign body
+non erosive reflux disease|nerd
+functional heartburn
+functional dysphagia
+rumination syndrome
+epiphrenic diverticulum
+traction diverticulum|midesophageal diverticulum
+killian-jamieson diverticulum
+esophageal intramural pseudodiverticulosis
+congenital esophageal stenosis
+esophageal duplication cyst
+esophageal leiomyoma
+esophageal squamous papilloma
+granular cell tumor of the esophagus
+esophageal small cell carcinoma
+esophageal melanoma
+lymphocytic esophagitis
+esophageal lichen planus
+black esophagus|acute esophageal necrosis
+esophageal hematoma|intramural esophageal hematoma
+dysphagia lusoria
+cervical inlet patch|inlet patch|heterotopic gastric mucosa
+glycogenic acanthosis
+downhill varices
+idiopathic esophageal ulcer|hiv esophageal ulcer
+aortoesophageal fistula
+esophagorespiratory fistula|bronchoesophageal fistula
+esophageal tuberculosis
+gastric polyp|stomach polyp
+fundic gland polyp
+hyperplastic gastric polyp
+gastric adenoma|adenomatous gastric polyp
+gastric intestinal metaplasia|intestinal metaplasia of the stomach
+gastric dysplasia
+gastric lipoma
+gastric leiomyoma
+gastric schwannoma
+ectopic pancreas|heterotopic pancreas|pancreatic rest
+bezoar|gastric bezoar
+trichobezoar|rapunzel syndrome
+phytobezoar
+acute gastric dilatation|gastric dilation
+gastric perforation|perforated peptic ulcer|perforated ulcer
+dumping syndrome
+marginal ulcer|anastomotic ulcer|stomal ulcer
+cameron lesion|cameron ulcer
+gastric diverticulum
+gastric duplication cyst
+pyloric atresia|gastric atresia
+antral web|gastric antral web
+microgastria
+emphysematous gastritis
+phlegmonous gastritis
+cmv gastritis
+eosinophilic gastritis
+lymphocytic gastritis
+collagenous gastritis
+granulomatous gastritis
+gastric crohn disease|crohn disease of the stomach
+bile reflux gastritis|chemical gastropathy|reactive gastropathy
+anisakiasis|gastric anisakiasis
+`, "2026-11-24");
+
+P("Name a disease of the small or large intestine","clinical","",`
+crohn disease|crohns disease|crohn's|regional enteritis
+ulcerative colitis|uc
+irritable bowel syndrome|ibs
+celiac disease|coeliac disease|celiac sprue|gluten sensitive enteropathy
+colon cancer|colorectal cancer|colorectal carcinoma|bowel cancer|crc|colon adenocarcinoma
+appendicitis
+diverticulitis
+diverticulosis
+small bowel obstruction|sbo|adhesive small bowel obstruction
+large bowel obstruction|lbo
+c diff colitis|clostridioides difficile infection|clostridium difficile colitis|pseudomembranous colitis|cdi
+hemorrhoids|piles
+anal fissure
+hirschsprung disease|congenital aganglionic megacolon
+meckel diverticulum
+intussusception
+volvulus
+sigmoid volvulus
+cecal volvulus
+midgut volvulus
+malrotation|intestinal malrotation
+necrotizing enterocolitis|nec
+duodenal ulcer|duodenal peptic ulcer
+duodenal atresia
+rectal cancer|rectal adenocarcinoma
+gastroenteritis|stomach flu|viral gastroenteritis
+ischemic colitis
+acute mesenteric ischemia|mesenteric ischemia
+chronic mesenteric ischemia|intestinal angina|abdominal angina
+nonocclusive mesenteric ischemia
+angiodysplasia|colonic angiodysplasia|vascular ectasia of the colon
+anal fistula|fistula in ano
+perianal abscess|anorectal abscess|perirectal abscess
+toxic megacolon
+paralytic ileus|ileus|postoperative ileus
+ogilvie syndrome|acute colonic pseudo-obstruction
+chronic intestinal pseudo-obstruction|intestinal pseudoobstruction
+familial adenomatous polyposis|fap
+lynch syndrome|hnpcc|hereditary nonpolyposis colorectal cancer
+peutz-jeghers syndrome
+colon polyp|colonic polyp|colorectal polyp
+tubular adenoma
+villous adenoma
+tubulovillous adenoma
+sessile serrated lesion|sessile serrated adenoma|sessile serrated polyp
+traditional serrated adenoma
+hyperplastic polyp
+juvenile polyp
+inflammatory pseudopolyps|pseudopolyp
+gardner syndrome
+turcot syndrome
+attenuated familial adenomatous polyposis|afap
+mutyh associated polyposis|map
+juvenile polyposis syndrome
+serrated polyposis syndrome
+cronkhite-canada syndrome
+cowden syndrome|pten hamartoma tumor syndrome
+carcinoid tumor|small bowel carcinoid|small bowel neuroendocrine tumor
+appendiceal carcinoid|appendiceal neuroendocrine tumor
+rectal neuroendocrine tumor|rectal carcinoid
+appendiceal mucinous neoplasm|appendiceal mucocele|mucocele of the appendix
+appendiceal adenocarcinoma
+small bowel adenocarcinoma|small intestine cancer
+small bowel lymphoma|intestinal lymphoma
+enteropathy associated t cell lymphoma|eatl
+gastrointestinal stromal tumor|gist|small bowel gist
+colonic lipoma
+anal cancer|anal squamous cell carcinoma|anal carcinoma
+anal intraepithelial neoplasia|ain
+anal melanoma
+anal warts|condyloma acuminata|perianal warts
+lactose intolerance|lactase deficiency
+short bowel syndrome|short gut syndrome
+small intestinal bacterial overgrowth|sibo|bacterial overgrowth
+whipple disease|tropheryma whipplei
+tropical sprue
+bile acid malabsorption|bile acid diarrhea
+sucrase isomaltase deficiency|disaccharidase deficiency
+intestinal lymphangiectasia|waldmann disease
+protein losing enteropathy
+microvillus inclusion disease
+tufting enteropathy
+autoimmune enteropathy
+microscopic colitis
+collagenous colitis
+lymphocytic colitis
+indeterminate colitis|ibd unclassified
+pouchitis
+diversion colitis
+eosinophilic colitis|eosinophilic enteritis
+nsaid enteropathy|diaphragm disease
+checkpoint inhibitor colitis|immune checkpoint inhibitor colitis
+intestinal graft versus host disease|gi gvhd
+intestinal behcet disease
+segmental colitis associated with diverticulosis|scad
+radiation enteritis|radiation enteropathy
+radiation proctitis
+proctitis
+infectious colitis
+travelers diarrhea|etec|enterotoxigenic e coli
+norovirus|norovirus gastroenteritis
+rotavirus|rotavirus gastroenteritis
+cholera
+shigellosis|shigella|bacillary dysentery
+salmonella enteritis|salmonellosis|nontyphoidal salmonella
+typhoid fever|enteric fever|typhoid enteritis
+campylobacter enteritis|campylobacter
+yersinia enterocolitis|yersiniosis|yersinia
+enterohemorrhagic e coli|ehec|e coli o157|stec
+amebic colitis|amebiasis|amoebic dysentery|entamoeba histolytica
+giardiasis|giardia
+cryptosporidiosis
+cyclosporiasis
+cystoisosporiasis|isosporiasis
+microsporidiosis
+cmv colitis|cytomegalovirus colitis
+intestinal tuberculosis|ileocecal tuberculosis
+neutropenic enterocolitis|typhlitis
+enteritis necroticans|pigbel
+lymphogranuloma venereum proctitis|lgv proctocolitis
+antibiotic associated diarrhea
+ascariasis
+hookworm
+strongyloidiasis
+pinworm|enterobiasis
+tapeworm|taeniasis
+diphyllobothriasis
+trichuriasis|whipworm
+intestinal schistosomiasis
+balantidiasis
+jejunal atresia|jejunoileal atresia|ileal atresia
+colonic atresia
+imperforate anus|anal atresia|anorectal malformation
+meconium ileus
+meconium plug syndrome|small left colon syndrome
+intestinal duplication cyst|enteric duplication cyst
+duodenal web|duodenal stenosis
+superior mesenteric artery syndrome|wilkie syndrome
+duodenal diverticulum
+jejunal diverticulosis
+duodenitis
+duodenal adenoma
+brunner gland hyperplasia|brunner gland hamartoma
+distal intestinal obstruction syndrome|dios
+gallstone ileus
+diverticular bleeding
+epiploic appendagitis
+pneumatosis intestinalis|pneumatosis cystoides intestinalis
+stercoral colitis
+fecal impaction
+functional constipation|chronic constipation|colonic inertia|slow transit constipation
+dyssynergic defecation|pelvic floor dyssynergia
+functional diarrhea
+chagas megacolon|chagasic megacolon
+neuronal intestinal dysplasia
+melanosis coli
+cathartic colon
+colitis cystica profunda
+rectal prolapse
+solitary rectal ulcer syndrome
+thrombosed external hemorrhoid|perianal hematoma
+anal stenosis
+rectal varices|anorectal varices
+proctalgia fugax
+levator ani syndrome
+bowel endometriosis|intestinal endometriosis
+enterocutaneous fistula
+rectovaginal fistula
+colovesical fistula
+food protein induced enterocolitis syndrome|fpies
+food protein induced allergic proctocolitis|allergic proctocolitis
+`, "2026-11-24");
+
+P("Name a disease of the pancreas, gallbladder or bile ducts","clinical","",`
+acute pancreatitis
+gallstones|cholelithiasis
+cholecystitis|acute cholecystitis
+pancreatic cancer|pancreatic adenocarcinoma|pancreatic ductal adenocarcinoma|pdac
+chronic pancreatitis
+choledocholithiasis|common bile duct stones|cbd stones
+ascending cholangitis|acute cholangitis|cholangitis|suppurative cholangitis
+primary sclerosing cholangitis|psc
+primary biliary cholangitis|primary biliary cirrhosis|pbc
+cholangiocarcinoma|bile duct cancer
+biliary colic|symptomatic cholelithiasis
+gallbladder cancer|gallbladder carcinoma
+gallstone pancreatitis|biliary pancreatitis
+alcoholic pancreatitis
+hypertriglyceridemia induced pancreatitis|hypertriglyceridemic pancreatitis
+pancreatic pseudocyst
+biliary atresia
+choledochal cyst|biliary cyst|bile duct cyst
+caroli disease
+caroli syndrome
+insulinoma
+gastrinoma
+glucagonoma
+vipoma|verner-morrison syndrome|wdha syndrome
+somatostatinoma
+pancreatic neuroendocrine tumor|pnet|pancreatic net|islet cell tumor
+ppoma
+cystic fibrosis|cf
+exocrine pancreatic insufficiency|pancreatic insufficiency|epi
+porcelain gallbladder
+mirizzi syndrome
+acalculous cholecystitis
+emphysematous cholecystitis
+gangrenous cholecystitis
+chronic cholecystitis
+gallbladder empyema|empyema of the gallbladder
+gallbladder perforation
+gallbladder hydrops|mucocele of the gallbladder
+xanthogranulomatous cholecystitis
+gallbladder polyp|cholesterol polyp
+gallbladder adenoma
+adenomyomatosis|gallbladder adenomyomatosis
+cholesterolosis|strawberry gallbladder
+biliary sludge|gallbladder sludge
+cholesterol gallstones
+pigment gallstones|pigment stones|black pigment stones|brown pigment stones
+gallstone ileus
+bouveret syndrome
+cholecystoenteric fistula|cholecystoduodenal fistula
+functional gallbladder disorder|biliary dyskinesia|gallbladder dyskinesia
+sphincter of oddi dysfunction
+gallbladder agenesis
+duplicated gallbladder|gallbladder duplication
+gallbladder volvulus|gallbladder torsion
+chronic typhoid carrier state|typhoid carrier
+postcholecystectomy syndrome
+bile leak|biliary leak
+bile duct injury|iatrogenic bile duct injury
+biliary obstruction|extrahepatic biliary obstruction|obstructive jaundice
+benign biliary stricture|bile duct stricture
+klatskin tumor|perihilar cholangiocarcinoma|hilar cholangiocarcinoma
+intrahepatic cholangiocarcinoma
+distal cholangiocarcinoma|distal bile duct cancer
+ampullary carcinoma|ampullary cancer|periampullary carcinoma
+ampullary adenoma
+autoimmune pancreatitis|igg4 related pancreatitis
+igg4 related sclerosing cholangitis|igg4 cholangiopathy
+secondary sclerosing cholangitis
+aids cholangiopathy|hiv cholangiopathy
+recurrent pyogenic cholangitis|oriental cholangiohepatitis|hepatolithiasis
+clonorchiasis|clonorchis sinensis|chinese liver fluke
+opisthorchiasis|opisthorchis
+fascioliasis|fasciola hepatica
+biliary ascariasis
+hemobilia
+vanishing bile duct syndrome|ductopenia
+alagille syndrome|arteriohepatic dysplasia|bile duct paucity
+congenital hepatic fibrosis
+biliary papillomatosis|intraductal papillary neoplasm of the bile duct
+von meyenburg complexes|bile duct hamartoma|biliary microhamartoma
+bile duct adenoma
+portal biliopathy|portal cholangiopathy
+eosinophilic cholangitis
+lemmel syndrome
+hereditary pancreatitis|prss1 mutation
+tropical pancreatitis|fibrocalculous pancreatic disease
+necrotizing pancreatitis
+walled off necrosis|walled off pancreatic necrosis
+infected pancreatic necrosis|pancreatic abscess
+post ercp pancreatitis
+drug induced pancreatitis
+hypercalcemia induced pancreatitis
+viral pancreatitis|mumps pancreatitis
+groove pancreatitis|paraduodenal pancreatitis
+pancreas divisum
+annular pancreas
+ectopic pancreas|heterotopic pancreas
+pancreatic agenesis
+intraductal papillary mucinous neoplasm|ipmn
+mucinous cystic neoplasm|mcn
+serous cystadenoma|serous cystic neoplasm
+solid pseudopapillary neoplasm|frantz tumor|solid pseudopapillary tumor
+pancreatoblastoma
+acinar cell carcinoma
+pancreatic lymphoma
+lymphoepithelial cyst of the pancreas
+pancreatic fistula
+pancreatic ascites
+hemosuccus pancreaticus
+pancreatic trauma|pancreatic injury
+shwachman-diamond syndrome
+johanson-blizzard syndrome
+pearson syndrome
+nesidioblastosis|congenital hyperinsulinism
+`, "2026-11-24");
+
+P("Name a cause of a lung nodule, mass or cavity","clinical","",`
+lung cancer|bronchogenic carcinoma|lung carcinoma|primary lung cancer
+tuberculosis|tb|mycobacterium tuberculosis|miliary tuberculosis
+pulmonary metastases|lung metastases|metastatic disease|cannonball metastases|metastasis
+granuloma|calcified granuloma
+lung abscess
+adenocarcinoma of the lung|lung adenocarcinoma
+squamous cell carcinoma of the lung|lung squamous cell carcinoma
+small cell lung cancer|sclc|oat cell carcinoma
+hamartoma|pulmonary hamartoma
+histoplasmosis|histoplasma|histoplasmoma
+aspergilloma|fungus ball|mycetoma
+carcinoid|bronchial carcinoid|pulmonary carcinoid|typical carcinoid|bronchial adenoma
+coccidioidomycosis|valley fever|coccidioides|cocci
+sarcoidosis
+granulomatosis with polyangiitis|gpa|wegener granulomatosis
+septic emboli|septic pulmonary emboli|tricuspid endocarditis
+non small cell lung cancer|nsclc
+large cell carcinoma
+pancoast tumor|superior sulcus tumor
+blastomycosis|blastomyces
+cryptococcosis|cryptococcus|cryptococcoma
+invasive aspergillosis|angioinvasive aspergillosis
+chronic cavitary pulmonary aspergillosis|chronic pulmonary aspergillosis
+mucormycosis|zygomycosis|mucor
+nocardiosis|nocardia
+actinomycosis|actinomyces
+staphylococcus aureus pneumonia|staph aureus|mrsa pneumonia
+klebsiella pneumonia|klebsiella
+necrotizing pneumonia
+rheumatoid nodule|necrobiotic nodule
+caplan syndrome|rheumatoid pneumoconiosis
+tuberculoma
+ghon complex|ghon focus
+nontuberculous mycobacteria|ntm|atypical mycobacteria|mycobacterium avium complex|mac|mycobacterium avium intracellulare|mycobacterium kansasii|mycobacterium abscessus
+pulmonary infarction|pulmonary infarct|hampton hump|pulmonary embolism
+round pneumonia
+organizing pneumonia|cryptogenic organizing pneumonia|boop
+rounded atelectasis|folded lung|blesovsky syndrome
+pulmonary arteriovenous malformation|pulmonary avm|pavm
+hereditary hemorrhagic telangiectasia|osler-weber-rendu
+pulmonary sequestration|bronchopulmonary sequestration
+bronchogenic cyst
+congenital pulmonary airway malformation|cpam|ccam
+bronchial atresia
+hydatid cyst|echinococcosis|echinococcus
+paragonimiasis|paragonimus|lung fluke
+dirofilariasis|dirofilaria immitis|dog heartworm
+silicosis
+coal workers pneumoconiosis|black lung
+progressive massive fibrosis
+berylliosis
+lemierre syndrome|fusobacterium necrophorum
+pseudomonas pneumonia|pseudomonas
+legionella|legionnaires disease
+streptococcus anginosus|strep milleri
+melioidosis|burkholderia pseudomallei
+tularemia|francisella tularensis
+rhodococcus equi
+amebic lung abscess|pleuropulmonary amebiasis
+paracoccidioidomycosis
+sporotrichosis
+talaromycosis|talaromyces marneffei|penicillium marneffei
+adenocarcinoma in situ|bronchioloalveolar carcinoma|bac
+minimally invasive adenocarcinoma
+atypical carcinoid
+large cell neuroendocrine carcinoma
+adenoid cystic carcinoma
+mucoepidermoid carcinoma
+sarcomatoid carcinoma|pulmonary carcinosarcoma
+pulmonary blastoma
+pleuropulmonary blastoma
+pulmonary lymphoma|lymphoma
+malt lymphoma of the lung|balt lymphoma
+lymphomatoid granulomatosis
+post transplant lymphoproliferative disorder|ptld
+kaposi sarcoma
+epithelioid hemangioendothelioma
+inflammatory myofibroblastic tumor|inflammatory pseudotumor|plasma cell granuloma
+sclerosing pneumocytoma|sclerosing hemangioma
+pulmonary chondroma
+benign metastasizing leiomyoma
+pulmonary langerhans cell histiocytosis|langerhans cell histiocytosis|histiocytosis x
+nodular pulmonary amyloidosis|amyloidoma
+nodular lymphoid hyperplasia
+igg4 related lung disease
+intrapulmonary lymph node
+mucoid impaction|bronchocele
+lipoid pneumonia
+talc granulomatosis
+pulmonary hematoma
+pulmonary laceration|traumatic pneumatocele
+pulmonary artery aneurysm
+rasmussen aneurysm
+pulmonary varix|pulmonary venous varix
+pneumatocele|staphylococcal pneumatocele
+infected bulla
+pulmonary gangrene
+necrotizing sarcoid granulomatosis
+pulmonary hyalinizing granuloma
+thoracic endometriosis|pulmonary endometriosis
+`, "2026-11-24");
+
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE (batch 2026-11-22, board-first) ---- */
+P("Name a skin tumor or growth (benign or malignant)","clinical","",`
+basal cell carcinoma|bcc|basal cell cancer|rodent ulcer|basal cell epithelioma|nodular bcc|superficial bcc|morpheaform bcc|pigmented bcc|fibroepithelioma of pinkus
+squamous cell carcinoma|scc|cutaneous squamous cell carcinoma|cscc|squamous cell skin cancer
+melanoma|malignant melanoma|cutaneous melanoma
+mole|nevus|melanocytic nevus|common acquired nevus
+seborrheic keratosis|seb k|basal cell papilloma|senile wart
+actinic keratosis|solar keratosis|senile keratosis
+skin tag|acrochordon|fibroepithelial polyp|soft fibroma
+lipoma
+epidermoid cyst|epidermal inclusion cyst|sebaceous cyst|epidermal cyst|infundibular cyst
+dermatofibroma|benign fibrous histiocytoma|fibrous histiocytoma
+cherry angioma|campbell de morgan spot|senile angioma|cherry hemangioma
+keloid
+common wart|verruca vulgaris|wart
+plantar wart|verruca plantaris
+flat wart|verruca plana
+filiform wart|verruca filiformis
+genital wart|condyloma acuminatum|anogenital wart
+molluscum contagiosum
+keratoacanthoma
+merkel cell carcinoma|neuroendocrine carcinoma of the skin|trabecular carcinoma
+kaposi sarcoma
+mycosis fungoides
+sezary syndrome
+dermatofibrosarcoma protuberans|dfsp|bednar tumor
+pyogenic granuloma|lobular capillary hemangioma|granuloma telangiectaticum
+infantile hemangioma|strawberry hemangioma|hemangioma of infancy|capillary hemangioma
+neurofibroma|cutaneous neurofibroma
+dysplastic nevus|atypical nevus|clark nevus|atypical mole
+bowen disease|squamous cell carcinoma in situ|scc in situ|intraepidermal carcinoma
+superficial spreading melanoma
+nodular melanoma
+lentigo maligna melanoma
+lentigo maligna|hutchinson melanotic freckle
+acral lentiginous melanoma
+subungual melanoma
+amelanotic melanoma
+desmoplastic melanoma
+melanoma in situ
+congenital melanocytic nevus|congenital nevus|giant congenital nevus|bathing trunk nevus
+blue nevus
+spitz nevus|spindle and epithelioid cell nevus|juvenile melanoma
+halo nevus|sutton nevus|leukoderma acquisitum centrifugum
+junctional nevus
+compound nevus
+intradermal nevus|dermal nevus
+pilar cyst|trichilemmal cyst|wen
+dermoid cyst
+milia|milium
+steatocystoma multiplex|steatocystoma
+glomus tumor|glomangioma
+xanthelasma|xanthelasma palpebrarum
+xanthoma
+eruptive xanthoma
+tuberous xanthoma
+tendon xanthoma|tendinous xanthoma
+plane xanthoma|planar xanthoma
+syringoma
+trichoepithelioma
+pilomatricoma|pilomatrixoma|calcifying epithelioma of malherbe
+cylindroma|turban tumor
+poroma|eccrine poroma
+angiosarcoma|cutaneous angiosarcoma|stewart-treves syndrome
+atypical fibroxanthoma
+sebaceous carcinoma
+sebaceous adenoma
+sebaceous hyperplasia
+nevus sebaceus|nevus sebaceous of jadassohn|organoid nevus
+epidermal nevus|verrucous epidermal nevus
+cutaneous horn|cornu cutaneum
+cutaneous t-cell lymphoma|ctcl
+primary cutaneous b-cell lymphoma|cutaneous b-cell lymphoma
+lymphomatoid papulosis
+primary cutaneous anaplastic large cell lymphoma
+angiofibroma|facial angiofibroma|adenoma sebaceum
+periungual fibroma|koenen tumor
+fibrous papule of the nose|fibrous papule
+plexiform neurofibroma
+schwannoma|neurilemmoma
+granular cell tumor|abrikossoff tumor
+solar lentigo|liver spot|age spot|senile lentigo
+lentigo simplex
+nevus of ota|oculodermal melanocytosis
+nevus of ito
+nevus spilus|speckled lentiginous nevus
+becker nevus|becker melanosis
+reed nevus|pigmented spindle cell nevus
+deep penetrating nevus
+juvenile xanthogranuloma
+mastocytoma|solitary mastocytoma
+urticaria pigmentosa|maculopapular cutaneous mastocytosis
+bacillary angiomatosis
+angiokeratoma
+tufted angioma
+kaposiform hemangioendothelioma
+congenital hemangioma|rapidly involuting congenital hemangioma|noninvoluting congenital hemangioma
+angiolymphoid hyperplasia with eosinophilia|epithelioid hemangioma
+hobnail hemangioma|targetoid hemosiderotic hemangioma
+lymphangioma circumscriptum
+angiolipoma
+spindle cell lipoma
+leiomyoma|piloleiomyoma|cutaneous leiomyoma
+cutaneous leiomyosarcoma
+hidradenoma|clear cell hidradenoma|nodular hidradenoma
+spiradenoma|eccrine spiradenoma
+trichofolliculoma
+trichilemmoma|tricholemmoma
+trichoblastoma
+fibrofolliculoma
+trichodiscoma
+syringocystadenoma papilliferum
+hidrocystoma|apocrine hidrocystoma|eccrine hidrocystoma
+chondroid syringoma|mixed tumor of the skin
+microcystic adnexal carcinoma
+porocarcinoma|malignant eccrine poroma
+trichilemmal carcinoma
+pilomatrix carcinoma
+proliferating trichilemmal tumor|proliferating pilar tumor
+eruptive vellus hair cyst
+digital mucous cyst|myxoid cyst|digital myxoid cyst
+extramammary paget disease
+erythroplasia of queyrat
+bowenoid papulosis
+verrucous carcinoma
+giant condyloma|buschke-lowenstein tumor
+arsenical keratosis
+clear cell acanthoma
+stucco keratosis
+dermatosis papulosa nigra
+lichen planus-like keratosis|benign lichenoid keratosis
+warty dyskeratoma
+acquired digital fibrokeratoma
+pleomorphic dermal sarcoma
+epithelioid sarcoma
+leukemia cutis
+cutaneous metastasis|skin metastasis
+sister mary joseph nodule
+cutaneous myxoma
+neurothekeoma
+palisaded encapsulated neuroma
+reticulohistiocytoma
+superficial angiomyxoma
+`, "2026-11-24");
+
+P("Name a condition of the newborn (neonatal condition)","clinical","",`
+neonatal jaundice|newborn jaundice|neonatal hyperbilirubinemia|jaundice of the newborn
+respiratory distress syndrome|rds|neonatal respiratory distress syndrome|hyaline membrane disease|surfactant deficiency
+transient tachypnea of the newborn|ttn|wet lung
+physiologic jaundice|physiological jaundice of the newborn
+meconium aspiration syndrome|meconium aspiration|mas
+neonatal sepsis|sepsis neonatorum
+necrotizing enterocolitis|nec
+neonatal hypoglycemia
+intraventricular hemorrhage|ivh|germinal matrix hemorrhage
+persistent pulmonary hypertension of the newborn|pphn|persistent fetal circulation
+retinopathy of prematurity|rop|retrolental fibroplasia
+bronchopulmonary dysplasia|bpd|chronic lung disease of prematurity
+periventricular leukomalacia|pvl
+hypoxic ischemic encephalopathy|hie|birth asphyxia|perinatal asphyxia|neonatal encephalopathy
+kernicterus|bilirubin encephalopathy
+hemolytic disease of the newborn|erythroblastosis fetalis|hdn|hdfn
+rh hemolytic disease|rh disease|rh incompatibility
+abo incompatibility|abo hemolytic disease
+breast milk jaundice
+breastfeeding jaundice|breast feeding failure jaundice|suboptimal intake jaundice
+pathologic jaundice|pathological neonatal jaundice
+neonatal abstinence syndrome|nas|neonatal opioid withdrawal syndrome|nows
+caput succedaneum
+cephalohematoma|cephalhematoma
+subgaleal hemorrhage|subgaleal hematoma
+erb palsy|erb-duchenne palsy|upper brachial plexus palsy|waiter's tip
+klumpke palsy|lower brachial plexus palsy
+neonatal brachial plexus palsy|brachial plexus birth injury|obstetric brachial plexus palsy
+clavicle fracture|clavicular fracture|birth fracture of the clavicle
+neonatal facial nerve palsy|birth-related facial palsy
+erythema toxicum neonatorum|erythema toxicum|newborn rash
+milia
+mongolian spot|congenital dermal melanocytosis|slate gray nevus
+salmon patch|stork bite|angel kiss|nevus simplex
+neonatal acne|neonatal cephalic pustulosis
+transient neonatal pustular melanosis
+miliaria|heat rash|prickly heat
+cradle cap|infantile seborrheic dermatitis
+ophthalmia neonatorum|neonatal conjunctivitis
+gonococcal ophthalmia neonatorum|gonococcal conjunctivitis of the newborn
+chlamydial conjunctivitis of the newborn|neonatal chlamydial conjunctivitis
+omphalitis
+umbilical granuloma
+umbilical hernia
+group b strep sepsis|gbs sepsis|early onset gbs disease|neonatal gbs infection
+neonatal meningitis
+neonatal herpes|neonatal hsv|neonatal herpes simplex
+congenital toxoplasmosis
+congenital cmv|congenital cytomegalovirus
+congenital rubella syndrome|congenital rubella
+congenital syphilis
+congenital varicella syndrome
+congenital zika syndrome
+neonatal listeriosis|granulomatosis infantiseptica
+neonatal tetanus|tetanus neonatorum
+neonatal pneumonia|congenital pneumonia
+gastroschisis
+omphalocele|exomphalos
+congenital diaphragmatic hernia|cdh|bochdalek hernia
+esophageal atresia
+tracheoesophageal fistula|tef
+duodenal atresia
+jejunal atresia|jejunoileal atresia|apple peel atresia
+meconium ileus
+meconium plug syndrome|small left colon syndrome
+hirschsprung disease|congenital aganglionic megacolon
+malrotation with midgut volvulus|midgut volvulus|malrotation
+imperforate anus|anorectal malformation
+hypertrophic pyloric stenosis|pyloric stenosis
+choanal atresia
+cleft lip
+cleft palate
+pierre robin sequence
+laryngomalacia
+tongue tie|ankyloglossia
+natal teeth|neonatal teeth
+epstein pearls
+bohn nodules
+neonatal thrush|oral candidiasis of the newborn
+nasolacrimal duct obstruction|dacryostenosis|congenital nasolacrimal duct obstruction
+congenital cataract
+transposition of the great arteries|tga|d-tga
+hypoplastic left heart syndrome|hlhs
+total anomalous pulmonary venous return|tapvr|tapvc
+truncus arteriosus|persistent truncus arteriosus
+critical coarctation of the aorta|neonatal coarctation
+patent ductus arteriosus|pda
+pulmonary atresia
+congenital heart block|neonatal heart block
+developmental dysplasia of the hip|ddh|congenital hip dislocation
+clubfoot|talipes equinovarus
+congenital muscular torticollis|sternocleidomastoid tumor of infancy|fibromatosis colli
+myelomeningocele|spina bifida
+anencephaly
+encephalocele
+congenital hydrocephalus
+posterior urethral valves|puv
+bladder exstrophy
+hypospadias
+cryptorchidism|undescended testis
+congenital hydrocele
+ambiguous genitalia|disorder of sex development
+congenital adrenal hyperplasia|cah|21-hydroxylase deficiency|salt-wasting crisis
+congenital hypothyroidism|cretinism
+neonatal thyrotoxicosis|neonatal graves disease
+neonatal lupus|neonatal lupus erythematosus
+neonatal alloimmune thrombocytopenia|nait|fnait
+neonatal polycythemia|polycythemia of the newborn|neonatal hyperviscosity syndrome
+anemia of prematurity
+vitamin k deficiency bleeding|hemorrhagic disease of the newborn|vkdb
+apnea of prematurity
+neonatal hypocalcemia
+neonatal hypothermia|cold stress
+neonatal hypernatremic dehydration
+infant of a diabetic mother|idm
+macrosomia|large for gestational age|lga
+intrauterine growth restriction|iugr|small for gestational age|sga
+prematurity|preterm birth|premature infant|preterm infant
+postmaturity syndrome|post-term infant|postmaturity
+neonatal seizures
+benign neonatal sleep myoclonus
+benign familial neonatal seizures|benign familial neonatal epilepsy
+neonatal pneumothorax
+pulmonary interstitial emphysema
+pulmonary hypoplasia
+congenital pulmonary airway malformation|cpam|ccam
+biliary atresia
+neonatal hepatitis|idiopathic neonatal hepatitis
+neonatal cholestasis
+galactosemia
+maple syrup urine disease|msud
+ornithine transcarbamylase deficiency|otc deficiency
+nonketotic hyperglycinemia|glycine encephalopathy
+crigler-najjar syndrome type 1
+fetal alcohol syndrome
+hydrops fetalis
+neonatal hemochromatosis|gestational alloimmune liver disease
+transient abnormal myelopoiesis|transient myeloproliferative disorder
+neonatal diabetes mellitus|neonatal diabetes
+neonatal breast enlargement|neonatal breast hypertrophy|witch's milk
+pseudomenses|neonatal withdrawal bleeding
+transient neonatal myasthenia gravis|neonatal myasthenia gravis
+subcutaneous fat necrosis of the newborn
+sclerema neonatorum
+collodion baby
+harlequin ichthyosis
+subconjunctival hemorrhage of the newborn
+patent urachus
+`, "2026-11-24");
+
+P("Name a breast condition or disease","clinical","",`
+breast cancer|breast carcinoma|carcinoma of the breast
+fibroadenoma
+fibrocystic changes|fibrocystic breast disease|fibrocystic breast|fibrocystic change
+breast cyst|simple breast cyst
+mastitis|lactational mastitis|puerperal mastitis
+breast abscess
+invasive ductal carcinoma|idc|infiltrating ductal carcinoma|invasive carcinoma of no special type
+invasive lobular carcinoma|ilc|infiltrating lobular carcinoma
+ductal carcinoma in situ|dcis|intraductal carcinoma
+lobular carcinoma in situ|lcis|lobular neoplasia|pleomorphic lcis
+inflammatory breast cancer|inflammatory carcinoma of the breast
+paget disease of the nipple|paget disease of the breast|mammary paget disease
+intraductal papilloma
+phyllodes tumor|cystosarcoma phyllodes|malignant phyllodes tumor
+fat necrosis of the breast|fat necrosis|oil cyst
+duct ectasia|mammary duct ectasia|plasma cell mastitis
+galactocele
+galactorrhea
+gynecomastia
+pseudogynecomastia|lipomastia
+mastalgia|mastodynia|breast pain|cyclical mastalgia
+triple negative breast cancer|tnbc
+her2 positive breast cancer|her2+ breast cancer|her2 enriched breast cancer
+hormone receptor positive breast cancer|er positive breast cancer|estrogen receptor positive breast cancer
+luminal a breast cancer
+luminal b breast cancer
+basal-like breast cancer
+male breast cancer
+metastatic breast cancer|stage iv breast cancer
+pregnancy-associated breast cancer
+occult breast cancer
+medullary carcinoma of the breast|medullary carcinoma
+mucinous carcinoma of the breast|colloid carcinoma|mucinous carcinoma
+tubular carcinoma
+cribriform carcinoma
+papillary carcinoma of the breast|intracystic papillary carcinoma|encapsulated papillary carcinoma
+invasive micropapillary carcinoma|micropapillary carcinoma
+metaplastic carcinoma of the breast|metaplastic breast cancer
+adenoid cystic carcinoma of the breast
+apocrine carcinoma
+secretory carcinoma of the breast|juvenile carcinoma
+neuroendocrine carcinoma of the breast
+radial scar|complex sclerosing lesion
+sclerosing adenosis|adenosis
+atypical ductal hyperplasia|adh
+atypical lobular hyperplasia|alh
+usual ductal hyperplasia|ductal hyperplasia|epithelial hyperplasia of the breast
+flat epithelial atypia
+mondor disease|superficial thrombophlebitis of the breast
+granulomatous mastitis|idiopathic granulomatous mastitis
+zuska disease|subareolar abscess|periductal mastitis|mammary duct fistula|lactiferous fistula
+polythelia|supernumerary nipple|accessory nipple
+polymastia|accessory breast tissue|supernumerary breast|axillary breast tissue
+poland syndrome
+amastia
+athelia
+micromastia|breast hypoplasia|hypomastia
+tuberous breast deformity|tubular breast|tuberous breast
+macromastia|breast hypertrophy|gigantomastia
+juvenile breast hypertrophy|virginal breast hypertrophy
+inverted nipple|nipple inversion|nipple retraction
+cracked nipples|nipple fissure
+breast engorgement
+blocked milk duct|plugged milk duct|clogged duct
+milk bleb|nipple bleb
+nipple candidiasis|thrush of the nipple
+nipple vasospasm|raynaud phenomenon of the nipple
+nipple eczema|eczema of the nipple
+breast implant associated anaplastic large cell lymphoma|bia-alcl
+capsular contracture
+breast implant rupture|implant rupture
+primary breast lymphoma|breast lymphoma
+angiosarcoma of the breast|breast angiosarcoma
+breast hamartoma|fibroadenolipoma
+breast lipoma
+juvenile fibroadenoma
+giant fibroadenoma
+tubular adenoma of the breast
+lactating adenoma
+pseudoangiomatous stromal hyperplasia|pash
+diabetic mastopathy|lymphocytic mastitis
+nipple adenoma|florid papillomatosis of the nipple|erosive adenomatosis
+multiple papillomas|papillomatosis
+juvenile papillomatosis|swiss cheese disease
+desmoid tumor of the breast|fibromatosis of the breast
+granular cell tumor of the breast
+myofibroblastoma of the breast
+tuberculous mastitis|breast tuberculosis
+breast cellulitis|cellulitis of the breast
+breast hematoma
+mastitis neonatorum|neonatal mastitis
+premature thelarche|precocious thelarche
+`, "2026-11-24");
+
+P("Name a disorder of the penis, testicles, scrotum or prostate","clinical","",`
+erectile dysfunction|impotence
+benign prostatic hyperplasia|bph|enlarged prostate|benign prostatic hypertrophy|prostatic hyperplasia
+prostate cancer|prostatic adenocarcinoma|carcinoma of the prostate|prostate adenocarcinoma
+testicular torsion|torsion of the testis|spermatic cord torsion
+testicular cancer|testicular tumor|germ cell tumor of the testis
+prostatitis
+epididymitis
+orchitis
+varicocele
+hydrocele
+phimosis
+paraphimosis
+cryptorchidism|undescended testicle|undescended testis
+balanitis
+peyronie disease|induratio penis plastica
+priapism
+hypospadias
+epispadias
+epididymo-orchitis
+spermatocele|epididymal cyst
+torsion of the appendix testis|appendix testis torsion
+fournier gangrene|necrotizing fasciitis of the perineum
+seminoma
+acute bacterial prostatitis
+chronic bacterial prostatitis
+chronic prostatitis/chronic pelvic pain syndrome|chronic pelvic pain syndrome|cp/cpps|chronic nonbacterial prostatitis|prostatodynia
+asymptomatic inflammatory prostatitis
+prostatic abscess
+yolk sac tumor|endodermal sinus tumor
+choriocarcinoma of the testis|testicular choriocarcinoma
+testicular teratoma|teratoma of the testis
+embryonal carcinoma
+mixed germ cell tumor
+nonseminomatous germ cell tumor|nsgct
+spermatocytic tumor|spermatocytic seminoma
+germ cell neoplasia in situ|intratubular germ cell neoplasia|gcnis
+leydig cell tumor
+sertoli cell tumor
+granulosa cell tumor of the testis
+testicular lymphoma
+adenomatoid tumor
+mumps orchitis
+penile fracture|fractured penis
+penile cancer|penile squamous cell carcinoma|carcinoma of the penis
+balanitis xerotica obliterans|bxo|lichen sclerosus of the penis|penile lichen sclerosus
+ischemic priapism|low-flow priapism|veno-occlusive priapism
+nonischemic priapism|high-flow priapism|arterial priapism
+stuttering priapism|recurrent priapism
+hematocele
+testicular rupture
+scrotal hematoma
+micropenis
+buried penis|concealed penis|hidden penis
+webbed penis|penoscrotal webbing
+congenital penile curvature|chordee
+penile torsion
+diphallia
+aphallia|penile agenesis
+balanoposthitis
+posthitis
+candidal balanitis
+zoon balanitis|plasma cell balanitis
+circinate balanitis
+erythroplasia of queyrat
+bowen disease of the penis
+bowenoid papulosis
+genital warts|condyloma acuminata|anogenital warts|penile warts
+pearly penile papules|hirsutoid papillomas
+sclerosing lymphangitis of the penis
+penile mondor disease|thrombophlebitis of the dorsal vein of the penis
+meatal stenosis|urethral meatal stenosis
+megaprepuce
+primary hypogonadism|testicular failure|primary testicular failure|hypergonadotropic hypogonadism
+azoospermia
+oligospermia|oligozoospermia
+obstructive azoospermia
+congenital bilateral absence of the vas deferens|cbavd
+ejaculatory duct obstruction
+anorchia|vanishing testis syndrome
+polyorchidism
+retractile testis
+testicular microlithiasis
+testicular atrophy
+communicating hydrocele
+acute idiopathic scrotal edema
+scrotal abscess
+idiopathic scrotal calcinosis|scrotal calcinosis
+angiokeratoma of fordyce|angiokeratoma of the scrotum
+scrotal cancer|scrotal squamous cell carcinoma|chimney sweep cancer
+extramammary paget disease of the scrotum
+tuberculous epididymitis|epididymal tuberculosis
+granulomatous prostatitis
+high-grade prostatic intraepithelial neoplasia|prostatic intraepithelial neoplasia|hgpin
+castration-resistant prostate cancer|crpc|mcrpc
+neuroendocrine prostate cancer|small cell carcinoma of the prostate
+prostatic utricle cyst|utricular cyst|mullerian duct cyst
+torsion of the appendix epididymis
+`, "2026-11-24");
+
+P("Name a hereditary cancer or tumor predisposition syndrome","clinical","",`
+lynch syndrome|hnpcc|hereditary nonpolyposis colorectal cancer
+hereditary breast and ovarian cancer syndrome|hboc|brca mutation
+brca1 mutation|brca1
+brca2 mutation|brca2
+familial adenomatous polyposis|fap|familial polyposis coli|apc mutation
+li-fraumeni syndrome|lfs|sbla syndrome|tp53 mutation
+multiple endocrine neoplasia type 1|men1|men 1|wermer syndrome
+multiple endocrine neoplasia type 2a|men2a|men 2a|sipple syndrome
+multiple endocrine neoplasia type 2b|men2b|men 2b|men3
+neurofibromatosis type 1|nf1|von recklinghausen disease
+neurofibromatosis type 2|nf2|nf2-related schwannomatosis|bilateral acoustic neurofibromatosis
+von hippel-lindau disease|vhl|von hippel-lindau syndrome
+peutz-jeghers syndrome|pjs
+gardner syndrome
+turcot syndrome
+cowden syndrome|pten hamartoma tumor syndrome|phts|multiple hamartoma syndrome
+tuberous sclerosis|tuberous sclerosis complex|tsc|bourneville disease
+hereditary retinoblastoma|familial retinoblastoma|rb1 mutation
+xeroderma pigmentosum
+juvenile polyposis syndrome
+attenuated familial adenomatous polyposis|afap|attenuated fap
+mutyh-associated polyposis|myh-associated polyposis
+gorlin syndrome|basal cell nevus syndrome|nevoid basal cell carcinoma syndrome
+beckwith-wiedemann syndrome
+wagr syndrome
+denys-drash syndrome
+ataxia telangiectasia|louis-bar syndrome
+bloom syndrome
+fanconi anemia
+down syndrome|trisomy 21
+multiple endocrine neoplasia type 4|men4|men 4
+familial medullary thyroid carcinoma|fmtc
+schwannomatosis
+hereditary diffuse gastric cancer|hdgc|cdh1 mutation
+hereditary leiomyomatosis and renal cell cancer|hlrcc|reed syndrome|multiple cutaneous and uterine leiomyomatosis
+birt-hogg-dube syndrome
+hereditary papillary renal cell carcinoma|hprc
+hereditary paraganglioma-pheochromocytoma syndrome|sdh deficiency|familial paraganglioma
+carney complex
+carney-stratakis syndrome
+dicer1 syndrome|dicer1 tumor predisposition syndrome
+familial atypical multiple mole melanoma syndrome|fammm|famm syndrome|familial melanoma|cdkn2a mutation|melanoma-pancreatic cancer syndrome
+bap1 tumor predisposition syndrome
+muir-torre syndrome
+constitutional mismatch repair deficiency|cmmrd|biallelic mismatch repair deficiency
+werner syndrome
+rothmund-thomson syndrome
+nijmegen breakage syndrome
+dyskeratosis congenita
+costello syndrome
+noonan syndrome
+hereditary pancreatitis|prss1 mutation
+familial pancreatic cancer
+palb2 mutation|palb2-associated hereditary breast cancer
+chek2 mutation|chek2-associated cancer
+atm heterozygosity|atm mutation carrier
+hereditary prostate cancer|hoxb13 mutation
+polymerase proofreading-associated polyposis|ppap|pole mutation|pold1 mutation
+hereditary mixed polyposis syndrome|grem1 mutation
+familial colorectal cancer type x
+familial isolated pituitary adenoma|fipa|aip mutation
+hyperparathyroidism-jaw tumor syndrome|hpt-jt|cdc73 mutation
+brooke-spiegler syndrome|familial cylindromatosis|cyld cutaneous syndrome
+frasier syndrome
+swyer syndrome|46 xy complete gonadal dysgenesis
+klinefelter syndrome
+shwachman-diamond syndrome
+diamond-blackfan anemia
+gata2 deficiency|monomac syndrome
+familial platelet disorder with predisposition to myeloid malignancy|runx1 familial platelet disorder
+familial aml with cebpa mutation|cebpa-associated familial aml
+ddx41-associated familial myeloid neoplasm|ddx41 mutation
+wiskott-aldrich syndrome
+x-linked lymphoproliferative disease|duncan disease|xlp
+epidermodysplasia verruciformis
+recessive dystrophic epidermolysis bullosa
+oculocutaneous albinism
+simpson-golabi-behmel syndrome
+perlman syndrome
+isolated hemihyperplasia|hemihypertrophy
+rhabdoid tumor predisposition syndrome|smarcb1 mutation
+hereditary multiple osteochondromas|hereditary multiple exostoses
+bannayan-riley-ruvalcaba syndrome
+li-fraumeni-like syndrome
+familial wilms tumor
+hereditary neuroblastoma|familial neuroblastoma
+familial nonmedullary thyroid cancer|hereditary nonmedullary thyroid cancer
+familial gastrointestinal stromal tumor|familial gist
+familial testicular germ cell tumor
+rad51c mutation
+rad51d mutation
+brip1 mutation
+`, "2026-11-24");
+
+P("Name a classic sign or physical finding of an infection","micro","",`
+koplik spots
+strawberry tongue|white strawberry tongue|red strawberry tongue
+rose spots
+janeway lesions
+osler nodes
+roth spots
+splinter hemorrhages
+erythema migrans|bull's eye rash|bullseye rash|erythema chronicum migrans
+slapped cheek rash|slapped cheek
+sandpaper rash|scarlatiniform rash
+pastia lines
+circumoral pallor
+forchheimer spots
+nuchal rigidity|neck stiffness|meningismus
+kernig sign
+brudzinski sign
+dewdrop on a rose petal|vesicles on an erythematous base
+crops of vesicles in different stages
+dermatomal vesicular rash|dermatomal rash
+hutchinson sign
+chancre|painless indurated ulcer
+condyloma lata
+hutchinson teeth
+mulberry molars|moon molars
+saddle nose
+saber shins|sabre tibia
+rhagades
+snuffles
+argyll robertson pupil|prostitute's pupil
+gumma
+risus sardonicus
+trismus|lockjaw
+opisthotonus
+inspiratory whoop|whooping cough
+post-tussive emesis
+barking cough|seal-like cough
+stridor|inspiratory stridor
+gray pseudomembrane|pseudomembrane|grey pseudomembrane
+bull neck
+faget sign|pulse-temperature dissociation|relative bradycardia
+winterbottom sign
+romana sign
+chagoma
+hydrophobia
+aerophobia
+hypersalivation|foaming at the mouth
+lymphangitic streaking|red streaks|lymphangitis
+crepitus|subcutaneous crepitus|tissue crepitus
+pain out of proportion to exam
+petechial rash|petechiae of meningococcemia|nonblanching rash
+purpura fulminans
+ecthyma gangrenosum
+target lesions|erythema multiforme
+costovertebral angle tenderness|cva tenderness
+tripod position
+drooling
+hot potato voice
+uvular deviation
+tonsillar exudate
+palatal petechiae
+posterior cervical lymphadenopathy
+ampicillin rash|amoxicillin rash in mononucleosis
+hoagland sign
+honey-colored crusts|honey crusted lesions
+nikolsky sign
+oral hairy leukoplakia
+oral thrush|white plaques that scrape off
+black eschar of the palate|necrotic nasal eschar
+eschar|tache noire
+bubo|buboes
+groove sign
+rash on palms and soles
+rash starting at wrists and ankles|centripetal rash
+cervical motion tenderness|chandelier sign
+strawberry cervix|colpitis macularis
+cottage cheese discharge
+conjunctival suffusion
+periorbital edema
+parinaud oculoglandular syndrome
+leonine facies
+madarosis|loss of lateral eyebrows
+thickened peripheral nerves
+blueberry muffin rash
+chorioretinitis
+serpiginous track|creeping eruption
+larva currens
+calabar swelling
+kerion
+annular lesion with central clearing|ringworm lesion
+sporotrichoid spread|nodular lymphangitis
+draining sinus tracts|lumpy jaw
+clutton joints
+higoumenakis sign
+parrot pseudoparalysis
+epitrochlear lymphadenopathy
+moth-eaten alopecia
+mucous patches
+snail track ulcers
+bulging fontanelle
+desquamation of fingertips|peeling of palms and soles
+diffuse sunburn-like rash|diffuse erythroderma
+descending flaccid paralysis
+floppy baby
+new heart murmur|new regurgitant murmur
+pott puffy tumor
+gibbus deformity
+apple jelly nodules
+burrows
+bulging tympanic membrane
+mastoid tenderness|postauricular swelling
+prehn sign
+kanavel signs
+fluctuance
+dendritic corneal ulcer
+`, "2026-11-24");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

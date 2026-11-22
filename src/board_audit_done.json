@@ -804,6 +804,16 @@
   "Name a drug used in palliative or hospice care": "2026-11-15",
   "Name a drug for a potassium, sodium, calcium, magnesium or phosphate imbalance": "2026-11-15",
   "Name a drug for a lung disease other than asthma or COPD": "2026-11-15",
-  "Name a drug for a sexually transmitted infection or vaginal infection": "2026-11-15"
+  "Name a drug for a sexually transmitted infection or vaginal infection": "2026-11-15",
+  "Name a common food allergen": "2026-11-22",
+  "Name a food or drink that interacts with a medication": "2026-11-22",
+  "Name a normal physiologic change of aging": "2026-11-22",
+  "Name an item in a first aid kit": "2026-11-22",
+  "Name a complication of dialysis": "2026-11-22",
+  "Name a cause of anxiety": "2026-11-22",
+  "Name a bone, joint or muscle disorder": "2026-11-22",
+  "Name a common reason for hospital admission in adults": "2026-11-22",
+  "Name a risk factor for cancer": "2026-11-22",
+  "Name a risk factor for a high-risk pregnancy": "2026-11-22"
  }
 }

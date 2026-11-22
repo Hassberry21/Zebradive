@@ -78805,6 +78805,960 @@ mpox vaccine|jynneos|imvanex|imvamune
 meningococcal b vaccine|bexsero|4cmenb
 `, "2026-11-17");
 
+/* ---- NEW STANDARD DAILY PROMPTS: NURSING part 1 (batch 2026-11-22, board-first) ---- */
+P("Name a common food allergen","nursing","",`
+peanuts|peanut|peanut butter
+tree nuts|tree nut|nuts
+milk|cows milk|dairy|cow's milk protein
+eggs|egg
+shellfish|crustaceans
+fish
+wheat
+soy|soybeans|soya
+sesame|sesame seeds|tahini
+shrimp|prawns
+crab
+lobster
+almonds|almond
+walnuts|walnut
+cashews|cashew
+pecans|pecan
+pistachios|pistachio
+hazelnuts|hazelnut|filberts
+brazil nuts|brazil nut
+macadamia nuts|macadamia
+pine nuts|pine nut
+coconut
+mollusks|molluscs
+clams|clam
+oysters|oyster
+mussels|mussel
+scallops|scallop
+squid|calamari|octopus
+salmon
+tuna
+cod
+mustard
+celery
+lupin|lupine
+gluten
+corn|maize
+strawberries|strawberry
+kiwi|kiwifruit
+banana|bananas
+avocado|avocados
+chestnut|chestnuts
+mango
+peach|peaches|stone fruits
+apple|apples
+cherries
+tomatoes|tomato
+citrus|oranges
+chocolate
+red meat|alpha gal|beef|pork|mammalian meat
+chicken
+rice
+oats
+buckwheat
+barley|rye
+legumes|beans|lentils|peas|chickpeas
+food dyes|red dye|artificial colors
+sulfites|sulphites
+msg|monosodium glutamate
+sunflower seeds
+poppy seeds
+flaxseed|flax seeds
+garlic|onion
+spices|cinnamon
+honey
+gelatin
+halibut
+tilapia
+catfish
+mackerel
+sardines|anchovies
+trout
+crawfish|crayfish|crawdads
+cocoa
+melon|cantaloupe|watermelon
+pineapple
+papaya
+carrot|carrots
+potato|potatoes
+pea protein
+celery root|celeriac
+lentil
+pumpkin seeds
+quinoa
+fennel|anise|caraway|coriander seeds
+chia seeds
+`, "2026-11-24");
+
+P("Name a food or drink that interacts with a medication","nursing","",`
+grapefruit|grapefruit juice
+leafy green vegetables|leafy greens|green leafy vegetables|vitamin k foods|foods high in vitamin k|dark leafy greens
+alcohol|wine|beer|liquor
+aged cheese|aged cheeses|cheese
+tyramine foods|foods high in tyramine|tyramine
+milk|dairy|dairy products|calcium rich foods
+spinach
+kale
+broccoli
+brussels sprouts
+collard greens|collards
+cabbage
+swiss chard|chard
+turnip greens|mustard greens
+asparagus
+green tea
+lettuce|romaine
+parsley
+cured meats|salami|pepperoni|aged meats|sausage
+smoked fish|pickled herring|pickled fish
+soy sauce|soy products|fermented soy|miso|tofu
+sauerkraut|kimchi|fermented foods
+red wine|chianti
+draft beer|tap beer|unpasteurized beer
+yeast extract|marmite|vegemite
+fava beans|broad beans
+overripe bananas|bananas|banana
+avocado|avocados
+chocolate
+caffeine|coffee|energy drinks|cola|tea
+salt substitute|potassium chloride|lite salt|nu salt
+high potassium foods|potassium rich foods
+orange juice|oranges
+potatoes|potato
+tomatoes|tomato
+black licorice|licorice
+seville oranges|bitter orange
+pomelo
+tangelo
+cranberry juice|cranberries
+pomegranate juice|pomegranate
+apple juice
+antacids|calcium supplements|calcium fortified juice
+iron supplements|iron rich foods
+high fiber foods|fiber|bran|psyllium|metamucil
+high fat meals|fatty foods
+protein rich foods|high protein meals|levodopa and protein
+salt|sodium|high sodium foods|low salt diet changes
+st john's wort|st johns wort|st john's wort tea
+ginkgo biloba|ginkgo
+garlic|garlic supplements
+ginger|ginger supplements
+ginseng
+fish oil|omega 3
+turmeric|curcumin
+chamomile tea|chamomile
+kava
+valerian
+echinacea
+goldenseal
+cannabis|marijuana|cbd
+nicotine|tobacco|smoking
+charbroiled meat|grilled meat
+cruciferous vegetables
+walnuts|soybean flour
+enteral feedings|tube feedings|phenytoin and tube feeds
+ensure|nutritional shakes|boost
+mayonnaise|soybean oil|canola oil
+green beans|peas
+liver|beef liver|chicken liver
+natto
+caviar|anchovies
+raisins
+figs
+pickles
+pizza
+meat tenderizer|bouillon|meat extracts
+kombucha
+sourdough bread
+vermouth|sherry|liqueurs
+jerky|beef jerky
+yogurt|sour cream|kefir
+mangoes|mango
+papaya
+soy milk|soymilk
+coconut water
+`, "2026-11-24");
+
+P("Name a normal physiologic change of aging","nursing","",`
+decreased skin elasticity|wrinkles|wrinkling|loss of skin elasticity|thinner skin|thin skin
+gray hair|graying hair|grey hair|white hair
+hair thinning|hair loss|thinning hair
+presbyopia|farsightedness|needing reading glasses|decreased near vision
+presbycusis|hearing loss|decreased hearing|high frequency hearing loss
+decreased bone density|bone loss|osteopenia
+decreased muscle mass|sarcopenia|muscle loss|loss of muscle strength|decreased strength
+slower reaction time|slowed reflexes|decreased reaction time
+decreased kidney function|decreased gfr|decreased glomerular filtration rate|reduced renal function
+decreased bladder capacity|smaller bladder capacity
+nocturia|waking at night to urinate
+urinary frequency
+decreased thirst|diminished thirst sensation|decreased thirst sensation
+dry skin|xerosis
+decreased sweat gland activity|decreased sweating
+decreased subcutaneous fat|loss of subcutaneous fat
+age spots|liver spots|lentigines|senile lentigines|solar lentigines
+senile purpura|easy bruising|bruising
+decreased taste|diminished taste|decreased taste buds
+decreased smell|diminished sense of smell|hyposmia
+decreased saliva|dry mouth|xerostomia
+slower gastric emptying|delayed gastric emptying
+decreased peristalsis|slowed gi motility|constipation
+decreased stomach acid|decreased gastric acid|decreased hydrochloric acid
+decreased liver function|decreased liver mass|slower drug metabolism
+decreased cardiac output
+stiffer arteries|arterial stiffening|decreased arterial elasticity|arteriosclerosis
+increased systolic blood pressure|isolated systolic hypertension|higher blood pressure
+thickened heart valves|heart valve calcification|stiffer heart valves
+decreased baroreceptor sensitivity|orthostatic hypotension
+decreased maximum heart rate|slower heart rate response
+decreased lung elasticity|decreased lung recoil
+decreased vital capacity
+increased residual volume
+weaker cough|decreased cough reflex
+decreased cilia|decreased ciliary action
+stiffer chest wall|decreased chest wall compliance
+barrel chest|increased ap diameter
+decreased gag reflex
+kyphosis|dowager's hump|stooped posture
+decreased height|height loss|shorter stature|vertebral compression
+joint stiffness|decreased joint flexibility|decreased range of motion
+cartilage thinning|degenerative joint changes|osteoarthritis changes
+slower gait|shorter stride|wider base gait
+decreased balance|balance problems
+decreased proprioception
+decreased pain perception|decreased sensation|decreased touch sensation
+decreased temperature regulation|impaired thermoregulation|feeling cold|lower body temperature
+decreased immune function|immunosenescence
+decreased fever response|blunted fever
+menopause|decreased estrogen
+vaginal dryness|vaginal atrophy|thinning vaginal walls
+decreased testosterone|andropause
+enlarged prostate|bph|prostate enlargement
+slower erection|erectile changes|decreased sexual response
+decreased breast tissue|sagging breasts
+decreased insulin sensitivity|glucose intolerance|insulin resistance
+decreased metabolism|decreased basal metabolic rate|slower metabolism
+increased body fat|weight gain|fat redistribution|abdominal fat
+decreased total body water|lower body water
+decreased lean body mass
+decreased lens accommodation|lens hardening
+cataracts|lens clouding|yellowing of the lens
+decreased night vision|difficulty seeing at night|glare sensitivity
+decreased pupil size|smaller pupils|slower pupil response
+decreased tear production|dry eyes
+arcus senilis|corneal arcus
+floaters|vitreous floaters
+decreased color discrimination|difficulty distinguishing blue and green
+ptosis|drooping eyelids|eyelid laxity
+earwax buildup|drier cerumen|cerumen impaction
+decreased short term memory|mild forgetfulness|slower recall
+slower processing speed|slower learning
+decreased deep sleep|lighter sleep|sleep changes|waking more often
+earlier bedtime|earlier waking|advanced sleep phase
+decreased brain weight|brain atrophy|decreased neurons
+decreased nerve conduction velocity|slower nerve conduction
+thicker nails|brittle nails|slower nail growth|yellowed nails
+slower wound healing|delayed healing
+fragile capillaries|increased capillary fragility
+gum recession|receding gums
+tooth loss|tooth wear|darker teeth
+decreased appetite|anorexia of aging
+decreased hormone production|decreased growth hormone|decreased melatonin
+decreased aldosterone|decreased renin
+decreased vitamin d synthesis|less vitamin d from skin
+decreased absorption of nutrients|decreased b12 absorption|decreased calcium absorption
+decreased muscle tone of bladder|weaker pelvic floor|stress incontinence
+decreased voice strength|voice changes|higher pitched voice
+longer nose and ears|enlarged ears|enlarged nose
+coarse facial hair|chin hair
+`, "2026-11-24");
+
+P("Name an item in a first aid kit","nursing","",`
+bandages|adhesive bandages|band aids|plasters|band aid
+gauze|gauze pads|gauze squares|sterile gauze
+roller gauze|gauze roll|kling|conforming bandage
+medical tape|adhesive tape|tape|first aid tape
+elastic bandage|ace bandage|ace wrap|compression bandage|crepe bandage
+triangular bandage|sling|arm sling
+gloves|disposable gloves|nitrile gloves|latex gloves
+scissors|trauma shears|bandage scissors
+tweezers|forceps
+antiseptic wipes|alcohol wipes|alcohol pads|alcohol swabs|antiseptic towelettes
+hydrogen peroxide
+povidone iodine|betadine|iodine
+antibiotic ointment|neosporin|bacitracin|triple antibiotic ointment|polysporin
+hydrocortisone cream|hydrocortisone|anti itch cream
+burn gel|burn dressing|burn cream|aloe vera|silver sulfadiazine
+cold pack|instant cold pack|ice pack
+heat pack|hot pack
+thermometer
+cpr mask|cpr face shield|pocket mask|barrier mask|rescue breathing mask
+pain reliever|acetaminophen|tylenol|paracetamol
+ibuprofen|advil|motrin|nsaid
+aspirin
+antihistamine|diphenhydramine|benadryl|cetirizine|loratadine
+epinephrine auto injector|epipen|epinephrine
+saline|sterile saline|saline wash|eye wash|eyewash
+eye pad|eye patch|eye shield
+splint|sam splint|finger splint
+safety pins
+butterfly closures|steri strips|wound closure strips
+non stick pads|telfa|non adherent dressing
+moleskin|blister pads|blister bandages
+trauma pad|abd pad|abdominal pad|combine dressing
+tourniquet|cat tourniquet
+hemostatic gauze|quikclot|celox|combat gauze
+emergency blanket|space blanket|mylar blanket|thermal blanket
+first aid manual|first aid guide|instruction booklet
+flashlight|penlight|torch
+hand sanitizer
+oral rehydration salts|electrolyte packets|ors
+glucose tablets|glucose gel|oral glucose
+antacid|tums|antacids
+anti diarrheal|loperamide|imodium
+calamine lotion|calamine
+sting relief|insect sting wipes|after bite
+sunscreen
+lip balm
+cotton balls|cotton swabs|q tips|cotton buds
+tongue depressors
+eye drops|artificial tears|lubricating eye drops
+nasal spray
+cough drops|throat lozenges
+whistle
+emergency contact list|emergency phone numbers|medical information card
+duct tape
+plastic bags|biohazard bags|zip lock bags
+splinter remover|needle
+magnifying glass
+syringe|irrigation syringe
+blood pressure cuff|sphygmomanometer
+stethoscope
+pulse oximeter|pulse ox
+aed|automated external defibrillator
+ammonia inhalants|smelling salts
+tick remover|tick removal tool
+snake bite kit
+petroleum jelly|vaseline
+sanitary pads|feminine pads
+cervical collar|c collar
+oral airway|opa|nasopharyngeal airway|npa
+bag valve mask|ambu bag|bvm
+chest seal|occlusive dressing
+israeli bandage|emergency bandage|pressure bandage
+cotton tipped applicators
+pen and paper|notepad
+activated charcoal
+rubbing alcohol|isopropyl alcohol
+finger cots
+knuckle bandages|fingertip bandages
+liquid bandage|skin glue
+temporary dental filling|dental first aid kit
+face mask|surgical mask|n95
+hand warmers
+antiseptic spray|bactine
+benzocaine|lidocaine gel|numbing gel
+motion sickness tablets|dramamine|meclizine
+hydrocolloid dressing
+petrolatum gauze|xeroform
+`, "2026-11-24");
+
+P("Name a complication of dialysis","nursing","",`
+hypotension|low blood pressure|intradialytic hypotension
+muscle cramps|cramping|cramps
+infection|access infection|site infection
+bloodstream infection|bacteremia|sepsis|catheter related bloodstream infection|clabsi
+peritonitis|peritoneal dialysis peritonitis|pd peritonitis
+fistula thrombosis|clotted fistula|graft thrombosis|access thrombosis|clotted access|loss of thrill or bruit
+access stenosis|fistula stenosis|graft stenosis
+bleeding|bleeding from access site|hemorrhage
+air embolism
+dialysis disequilibrium syndrome|disequilibrium syndrome
+nausea|nausea and vomiting
+vomiting
+headache
+fatigue|post dialysis fatigue|washed out feeling
+dizziness|lightheadedness
+chest pain|angina
+cardiac arrhythmias|arrhythmias|dysrhythmias
+cardiac arrest|sudden cardiac death
+hypokalemia|low potassium
+hyperkalemia|high potassium
+hypocalcemia|low calcium
+hypoglycemia|low blood sugar
+fluid overload|hypervolemia|fluid volume excess
+pulmonary edema
+hypovolemia|dehydration|excessive fluid removal
+itching|pruritus
+anemia
+blood loss|anemia from blood loss
+hemolysis
+allergic reaction|anaphylaxis|dialyzer reaction|first use syndrome
+fever|chills|pyrogenic reaction
+hepatitis b|hepatitis c|bloodborne infection|hepatitis
+steal syndrome|dialysis access steal syndrome|hand ischemia
+aneurysm|pseudoaneurysm|fistula aneurysm
+high output heart failure|heart failure
+central venous stenosis|arm swelling
+catheter malfunction|catheter occlusion|catheter dysfunction
+catheter dislodgement|needle dislodgement|venous needle dislodgement
+exit site infection|tunnel infection
+hernia|abdominal hernia|umbilical hernia|inguinal hernia
+dialysate leak|peritoneal fluid leak
+outflow failure|catheter migration|poor drainage
+abdominal pain|abdominal distension|abdominal fullness
+back pain
+hyperglycemia|high blood sugar|dextrose absorption
+weight gain|weight gain from dialysate
+hypertriglyceridemia|high triglycerides|dyslipidemia
+protein loss|hypoalbuminemia|low albumin
+malnutrition|protein energy wasting
+encapsulating peritoneal sclerosis|sclerosing peritonitis
+hydrothorax|pleural effusion
+respiratory distress|shortness of breath|dyspnea
+dialysis amyloidosis|beta 2 microglobulin amyloidosis|carpal tunnel syndrome
+renal osteodystrophy|bone disease|ckd mineral bone disorder
+secondary hyperparathyroidism|hyperparathyroidism
+calciphylaxis
+vascular calcification
+aluminum toxicity|dialysis dementia
+restless legs syndrome|restless legs
+insomnia|sleep problems
+depression
+anxiety
+seizures
+pericarditis|dialysis pericarditis
+hypothermia|feeling cold
+hemoperitoneum|bloody effluent
+membrane failure|ultrafiltration failure
+heparin induced thrombocytopenia|hit
+thrombocytopenia
+dialysate errors|wrong dialysate|electrolyte errors
+water contamination|chloramine toxicity|contaminated water
+sexual dysfunction|erectile dysfunction
+infertility
+loss of residual kidney function
+hearing loss
+intradialytic hypertension|high blood pressure during dialysis
+amputation
+hypernatremia|high sodium
+magnesium imbalance|hypomagnesemia|hypermagnesemia
+hypophosphatemia|low phosphorus
+metabolic alkalosis
+pneumothorax|hemothorax
+catheter related thrombosis|catheter thrombus|right atrial thrombus
+endocarditis|infective endocarditis
+osteomyelitis|discitis|epidural abscess
+mrsa|mrsa infection
+constipation
+shoulder pain
+muscle weakness
+infiltration|hematoma|needle infiltration
+`, "2026-11-24");
+
+P("Name a cause of anxiety","nursing","",`
+stress|life stress
+generalized anxiety disorder|gad
+panic disorder|panic attacks
+caffeine|coffee|energy drinks
+hyperthyroidism|overactive thyroid|graves disease|thyrotoxicosis
+hypoglycemia|low blood sugar
+alcohol withdrawal|delirium tremens|dts
+benzodiazepine withdrawal
+nicotine withdrawal|smoking withdrawal
+opioid withdrawal
+hypoxia|low oxygen|hypoxemia
+pain|uncontrolled pain
+hospitalization|being in the hospital|admission to the hospital
+surgery|upcoming surgery|preoperative anxiety
+new diagnosis|serious illness|cancer diagnosis|bad news
+fear of the unknown|uncertainty
+loss of control|powerlessness
+separation from family|separation anxiety
+financial problems|money problems|financial stress|debt
+job loss|unemployment|work stress|job stress
+relationship problems|divorce|breakup|marital conflict
+death of a loved one|grief|bereavement
+trauma|traumatic event|abuse|violence
+ptsd|post traumatic stress disorder
+ocd|obsessive compulsive disorder
+social anxiety disorder|social phobia
+phobias|specific phobia
+depression|major depression
+bipolar disorder
+schizophrenia|psychosis
+adhd
+autism|autism spectrum disorder
+eating disorders|anorexia|bulimia
+genetics|family history of anxiety
+childhood trauma|adverse childhood experiences|aces
+personality|neuroticism
+stimulants|amphetamines|adderall|methylphenidate|ritalin
+cocaine
+methamphetamine|meth
+marijuana|cannabis|thc
+hallucinogens|lsd|psilocybin
+alcohol use
+corticosteroids|steroids|prednisone
+albuterol|beta agonists|bronchodilators
+theophylline
+levothyroxine|thyroid hormone excess
+decongestants|pseudoephedrine|phenylephrine
+ssri activation|starting an ssri|akathisia|antipsychotics
+bupropion
+diet pills|weight loss supplements|phentermine
+pulmonary embolism|pe
+asthma attack|asthma
+copd|copd exacerbation
+heart attack|myocardial infarction|mi
+arrhythmias|atrial fibrillation|palpitations|svt
+heart failure
+mitral valve prolapse
+pheochromocytoma
+cushing syndrome
+hyperparathyroidism|hypercalcemia
+menopause|perimenopause
+premenstrual syndrome|pms|pmdd
+pregnancy|postpartum|postpartum anxiety
+low sodium|electrolyte imbalance|hypocalcemia
+anemia
+vitamin b12 deficiency
+sepsis|infection
+delirium
+dementia|early dementia
+parkinson disease
+seizures|temporal lobe epilepsy
+traumatic brain injury|head injury
+irritable bowel syndrome|ibs
+chronic illness|chronic disease
+sleep deprivation|insomnia|lack of sleep
+sleep apnea
+mechanical ventilation|ventilator|dyspnea|shortness of breath
+icu environment|noise|sensory overload
+restraints|isolation precautions|being in isolation
+exams|tests|school stress|academic pressure
+public speaking|performance
+moving|relocation|major life change
+caregiver stress|caring for a sick family member
+bullying|cyberbullying
+social media
+discrimination|racism
+loneliness|social isolation
+war|natural disaster|pandemic|covid 19
+heat stroke|dehydration
+carbon monoxide poisoning
+porphyria
+lupus
+`, "2026-11-24");
+
+P("Name a bone, joint or muscle disorder","nursing","",`
+osteoarthritis|oa|degenerative joint disease|djd
+rheumatoid arthritis|ra
+osteoporosis
+gout|gouty arthritis
+fracture|broken bone
+scoliosis
+carpal tunnel syndrome
+fibromyalgia
+osteomyelitis|bone infection
+tendinitis|tendonitis
+bursitis
+sprain
+strain|muscle strain|pulled muscle
+herniated disc|slipped disc|bulging disc|ruptured disc
+spinal stenosis|lumbar stenosis
+muscular dystrophy|duchenne muscular dystrophy|becker muscular dystrophy
+osteopenia
+paget disease of bone|paget disease
+lupus|sle|systemic lupus erythematosus
+ankylosing spondylitis
+psoriatic arthritis
+septic arthritis|joint infection
+juvenile idiopathic arthritis|juvenile rheumatoid arthritis|jia|jra
+osteosarcoma
+ewing sarcoma
+bone cancer|bone metastases|bone tumor
+multiple myeloma
+rhabdomyolysis|rhabdo
+compartment syndrome
+kyphosis
+lordosis|swayback
+developmental dysplasia of the hip|ddh|hip dysplasia|congenital hip dislocation
+clubfoot|talipes|talipes equinovarus
+legg calve perthes disease|legg calve perthes|perthes disease
+slipped capital femoral epiphysis|scfe
+osgood schlatter disease|osgood schlatter
+osteogenesis imperfecta|brittle bone disease
+rickets
+osteomalacia
+avascular necrosis|osteonecrosis|aseptic necrosis
+dislocation|joint dislocation
+rotator cuff tear|rotator cuff injury
+frozen shoulder|adhesive capsulitis
+tennis elbow|lateral epicondylitis
+golfers elbow|medial epicondylitis
+de quervain tenosynovitis|de quervain
+trigger finger|stenosing tenosynovitis
+dupuytren contracture
+ganglion cyst
+plantar fasciitis
+bunion|hallux valgus
+hammer toe|hammertoe
+achilles tendon rupture|achilles tendinitis
+acl tear|torn acl|anterior cruciate ligament tear
+meniscus tear|torn meniscus
+shin splints|medial tibial stress syndrome
+stress fracture
+polymyalgia rheumatica|pmr
+polymyositis
+dermatomyositis
+myasthenia gravis
+scleroderma|systemic sclerosis
+sjogren syndrome|sjogrens
+reactive arthritis|reiter syndrome
+pseudogout|cpdd|calcium pyrophosphate deposition disease
+lyme arthritis|lyme disease
+degenerative disc disease
+spondylolisthesis
+spondylolysis
+cervical spondylosis|spondylosis
+sciatica
+low back pain|chronic back pain
+whiplash
+torticollis|wry neck
+tmj disorder|tmj|temporomandibular joint disorder
+myofascial pain syndrome
+contracture|joint contracture
+muscle atrophy|disuse atrophy
+sarcopenia
+muscle cramps|charley horse
+bakers cyst|baker cyst|popliteal cyst
+chondromalacia patellae|patellofemoral pain syndrome|runners knee
+it band syndrome|iliotibial band syndrome
+hip bursitis|trochanteric bursitis
+cubital tunnel syndrome
+thoracic outlet syndrome
+morton neuroma
+flat feet|pes planus
+heel spur|bone spur|osteophyte
+achondroplasia|dwarfism
+marfan syndrome
+ehlers danlos syndrome
+fibrous dysplasia
+osteochondroma
+osteoid osteoma
+chondrosarcoma
+giant cell tumor of bone
+malignant hyperthermia
+myositis ossificans|heterotopic ossification
+tuberculosis of the spine|potts disease
+charcot joint|neuropathic arthropathy
+hemarthrosis
+mallet finger
+boxers fracture
+hip fracture
+colles fracture
+greenstick fracture
+`, "2026-11-24");
+
+P("Name a common reason for hospital admission in adults","nursing","",`
+pneumonia
+heart failure|chf|congestive heart failure|heart failure exacerbation
+sepsis|septic shock
+copd exacerbation|copd|chronic obstructive pulmonary disease
+heart attack|myocardial infarction|mi|acute coronary syndrome|acs|stemi|nstemi
+chest pain|chest pain rule out
+stroke|cva|cerebrovascular accident
+tia|transient ischemic attack|mini stroke
+atrial fibrillation|afib|a fib
+cardiac arrhythmia|arrhythmia|dysrhythmia
+urinary tract infection|uti
+pyelonephritis|kidney infection
+cellulitis|skin infection
+diabetic ketoacidosis|dka
+hyperglycemia|uncontrolled diabetes|high blood sugar
+hypoglycemia|low blood sugar
+hip fracture|broken hip
+fall|falls|fall with injury
+fracture|broken bone
+joint replacement|hip replacement|knee replacement|total joint replacement
+childbirth|labor and delivery|giving birth|pregnancy
+cesarean section|c section
+surgery|elective surgery|postoperative care
+gastrointestinal bleeding|gi bleed|gi bleeding
+pancreatitis
+cholecystitis|gallbladder disease|gallstones
+appendicitis
+bowel obstruction|small bowel obstruction|sbo
+diverticulitis
+acute kidney injury|aki|acute renal failure
+chronic kidney disease|ckd|end stage renal disease
+dehydration
+electrolyte imbalance|hyponatremia|hypokalemia|hyperkalemia
+syncope|fainting
+altered mental status|confusion
+delirium
+alcohol withdrawal|detox|delirium tremens
+overdose|drug overdose|opioid overdose
+suicide attempt|suicidal ideation
+depression|major depression
+schizophrenia|psychosis
+bipolar disorder|mania
+asthma exacerbation|asthma attack|asthma
+pulmonary embolism|pe
+deep vein thrombosis|dvt|blood clot
+covid 19|covid
+influenza|flu
+cancer|chemotherapy complications|oncology admission
+neutropenic fever|febrile neutropenia
+anemia|blood transfusion
+cirrhosis|liver failure|hepatic encephalopathy
+alcoholic hepatitis|hepatitis
+seizures|status epilepticus
+hypertensive emergency|hypertensive crisis|hypertensive urgency
+trauma|motor vehicle accident|car accident
+traumatic brain injury|head injury|concussion
+spinal cord injury
+burns
+diabetic foot infection|diabetic foot ulcer|osteomyelitis
+pressure injury|pressure ulcer|wound infection
+peripheral artery disease|pad|limb ischemia|amputation
+abdominal aortic aneurysm|aortic aneurysm
+c diff infection|c diff|clostridioides difficile
+gastroenteritis|vomiting and diarrhea
+sickle cell crisis|sickle cell pain crisis|vaso occlusive crisis
+hyperemesis gravidarum
+preeclampsia
+preterm labor
+miscarriage|ectopic pregnancy
+failure to thrive|adult failure to thrive|unable to care for self
+dementia|alzheimer disease
+parkinson disease
+multiple sclerosis exacerbation
+guillain barre syndrome
+myasthenia gravis crisis
+meningitis
+endocarditis
+pericarditis
+hiv|aids
+tuberculosis|tb
+lung cancer
+pleural effusion
+pneumothorax|collapsed lung
+respiratory failure
+anaphylaxis|allergic reaction
+angioedema
+transplant|organ transplant|kidney transplant
+heart surgery|cabg|bypass surgery|valve replacement
+cardiac catheterization|stent placement|pci
+pacemaker|pacemaker placement
+back surgery|spine surgery|spinal fusion
+hysterectomy
+bariatric surgery|gastric bypass
+mastectomy
+colectomy|colon resection
+prostatectomy
+hernia repair
+amputation surgery
+gout flare
+rhabdomyolysis
+hypothermia
+heat stroke
+pain crisis|uncontrolled pain
+eating disorder|anorexia nervosa
+`, "2026-11-24");
+
+P("Name a risk factor for cancer","nursing","",`
+smoking|tobacco|cigarettes|tobacco use
+alcohol|alcohol use|drinking alcohol
+obesity|being overweight|excess body weight
+age|older age|aging
+family history|family history of cancer
+genetics|genetic mutations|inherited mutations
+sun exposure|uv exposure|ultraviolet radiation|sunburns
+tanning beds|indoor tanning
+radiation exposure|ionizing radiation|radiation therapy
+hpv|human papillomavirus
+hepatitis b|hbv
+hepatitis c|hcv
+h pylori|helicobacter pylori
+hiv|aids
+epstein barr virus|ebv
+htlv 1
+kaposi sarcoma herpesvirus|hhv 8
+asbestos
+radon
+benzene
+secondhand smoke|passive smoking
+chewing tobacco|smokeless tobacco|snuff|dip
+vaping|e cigarettes
+cigars|pipe smoking
+betel nut|areca nut
+physical inactivity|sedentary lifestyle|lack of exercise
+poor diet|unhealthy diet
+red meat|processed meat|processed meats
+low fiber diet|low fruit and vegetable intake
+high fat diet
+charred meat|grilled meat|smoked foods
+salted foods|pickled foods|high salt diet
+aflatoxin|moldy grains
+air pollution
+diesel exhaust
+arsenic
+formaldehyde
+vinyl chloride
+cadmium|chromium|nickel
+silica
+coal tar|soot
+pesticides|herbicides
+occupational exposures|chemical exposure|carcinogens
+brca1|brca2|brca mutation|brca
+lynch syndrome|hnpcc
+familial adenomatous polyposis|fap
+li fraumeni syndrome|tp53 mutation
+cowden syndrome
+von hippel lindau syndrome|vhl
+men syndromes|multiple endocrine neoplasia
+neurofibromatosis
+down syndrome
+immunosuppression|weakened immune system|organ transplant
+immunosuppressant drugs|transplant drugs
+chemotherapy|prior chemotherapy|alkylating agents
+hormone replacement therapy|hrt|estrogen therapy
+tamoxifen
+birth control pills|oral contraceptives
+diethylstilbestrol|des
+early menarche|early first period
+late menopause
+never having children|nulliparity|no pregnancies
+late first pregnancy|first pregnancy after 30
+not breastfeeding
+dense breast tissue|dense breasts
+chronic inflammation
+inflammatory bowel disease|ulcerative colitis|crohns disease
+barretts esophagus|gerd|chronic reflux
+cirrhosis
+chronic pancreatitis
+diabetes|type 2 diabetes
+celiac disease
+colon polyps|adenomatous polyps
+atypical hyperplasia|ductal carcinoma in situ|dcis|lcis
+cervical dysplasia|abnormal pap smear
+actinic keratosis
+many moles|atypical moles|dysplastic nevi
+fair skin|light skin|freckles|red hair
+schistosomiasis
+liver flukes
+chronic hepatitis
+prior cancer|history of cancer|cancer survivor
+male sex|being male
+race|ethnicity
+low socioeconomic status|poverty|lack of access to screening
+not getting screened|lack of screening
+xeroderma pigmentosum
+ataxia telangiectasia
+fanconi anemia
+klinefelter syndrome
+undescended testicle|cryptorchidism
+night shift work|shift work
+sexual partners|multiple sexual partners|unprotected sex
+radiation from ct scans|medical imaging radiation
+pelvic radiation
+polycyclic aromatic hydrocarbons
+wood dust
+rubber manufacturing|dye industry|aromatic amines
+`, "2026-11-24");
+
+P("Name a risk factor for a high-risk pregnancy","nursing","",`
+advanced maternal age|maternal age over 35|over 35|age over 35|older mother
+teen pregnancy|adolescent pregnancy|maternal age under 17|young maternal age
+multiple gestation|twins|triplets|multiples|multiple pregnancy
+preexisting diabetes|diabetes|type 1 diabetes|type 2 diabetes
+gestational diabetes|gdm
+chronic hypertension|hypertension|high blood pressure
+preeclampsia|history of preeclampsia
+obesity|bmi over 30|being overweight
+underweight|low bmi
+smoking|tobacco use
+alcohol use|drinking alcohol
+substance use|drug use|illicit drug use|opioid use|cocaine
+history of preterm birth|previous preterm birth
+previous cesarean section|prior c section|previous c section|uterine scar
+history of miscarriage|recurrent pregnancy loss|recurrent miscarriage
+history of stillbirth|prior stillbirth
+placenta previa
+placental abruption|abruptio placentae
+placenta accreta
+incompetent cervix|cervical insufficiency|short cervix
+rh incompatibility|rh negative mother|rh sensitization|alloimmunization
+polyhydramnios
+oligohydramnios
+fetal growth restriction|iugr|intrauterine growth restriction
+fetal anomaly|birth defect|congenital anomaly
+heart disease|cardiac disease|congenital heart disease
+kidney disease|chronic kidney disease
+lupus|sle
+antiphospholipid syndrome
+thyroid disease|hypothyroidism|hyperthyroidism
+epilepsy|seizure disorder
+asthma
+sickle cell disease
+thrombophilia|clotting disorder|history of dvt
+hiv
+hepatitis b|hepatitis c
+syphilis|sexually transmitted infections|stis
+torch infections|cytomegalovirus|toxoplasmosis|rubella
+infections|uti|bacterial vaginosis
+anemia
+mental illness|depression|bipolar disorder|schizophrenia
+eating disorder
+cancer|history of cancer
+autoimmune disease
+uterine fibroids|fibroids
+uterine anomalies|bicornuate uterus|septate uterus
+pregnancy through ivf|ivf|assisted reproductive technology
+grand multiparity|grand multipara|five or more births
+short interpregnancy interval|pregnancies close together
+history of postpartum hemorrhage
+history of large baby|macrosomia
+history of gestational diabetes
+previous preterm rupture of membranes|pprom
+lack of prenatal care|late prenatal care|no prenatal care
+low socioeconomic status|poverty
+intimate partner violence|domestic violence|abuse
+homelessness|housing insecurity
+low education level|low health literacy
+single mother|lack of support
+stress|high stress
+poor nutrition|malnutrition
+environmental exposures|lead exposure|teratogens
+certain medications|teratogenic medications|isotretinoin|warfarin|valproate
+occupational hazards|heavy lifting|chemical exposure
+pregnancy after bariatric surgery|bariatric surgery
+pcos|polycystic ovary syndrome
+hyperemesis gravidarum
+genetic disorders|family history of genetic disease
+consanguinity
+black race|racial disparities
+intrahepatic cholestasis of pregnancy|cholestasis of pregnancy
+hellp syndrome
+cervical surgery|leep|cone biopsy
+des exposure|diethylstilbestrol
+height under 5 feet|short stature
+breech presentation|malpresentation
+post term pregnancy|post dates
+organ transplant
+mitral stenosis|valvular heart disease
+marfan syndrome
+pulmonary hypertension
+inflammatory bowel disease|crohns disease|ulcerative colitis
+cystic fibrosis
+`, "2026-11-24");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

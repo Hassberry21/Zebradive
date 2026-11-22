@@ -863,6 +863,13 @@
   "Name a CT, MRI or ultrasound term": "2026-11-22",
   "Name a test or finding in CSF, pleural, ascitic or joint fluid analysis": "2026-11-22",
   "Name a plastic or reconstructive surgery procedure": "2026-11-22",
-  "Name a chromosomal abnormality or microdeletion syndrome": "2026-11-22"
+  "Name a chromosomal abnormality or microdeletion syndrome": "2026-11-22",
+  "Name a top-200 prescribed drug": "2026-11-22",
+  "Name a drug dispensed with a Medication Guide": "2026-11-22",
+  "Name a prescription (sig) abbreviation": "2026-11-22",
+  "Name a medication commonly prescribed for children": "2026-11-22",
+  "Name a condition treated with corticosteroids": "2026-11-22",
+  "Name a drug that can worsen myasthenia gravis": "2026-11-22",
+  "Name a drug for lupus, inflammatory bowel disease or multiple sclerosis": "2026-11-22"
  }
 }

@@ -83207,6 +83207,2780 @@ fluctuance
 dendritic corneal ulcer
 `, "2026-11-24");
 
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE (batch 2026-11-22, board-first) ---- */
+P("Name an anatomical term of direction, plane or movement","body","",`
+anterior|ventral
+posterior|dorsal
+superior|cranial|cephalad
+inferior|caudal|caudad
+medial
+lateral
+proximal
+distal
+flexion
+extension
+abduction
+adduction
+superficial
+deep
+sagittal plane|sagittal
+coronal plane|frontal plane|coronal
+transverse plane|axial plane|horizontal plane|cross-sectional plane
+rotation
+internal rotation|medial rotation
+external rotation|lateral rotation
+pronation
+supination
+dorsiflexion|dorsal flexion
+plantarflexion|plantar flexion
+inversion
+eversion
+circumduction
+hyperextension
+anatomical position
+midsagittal plane|median plane|midsagittal|midline plane
+parasagittal plane|parasagittal
+oblique plane
+ipsilateral
+contralateral
+bilateral
+unilateral
+rostral
+elevation
+depression
+protraction|protrusion
+retraction|retrusion
+opposition
+reposition
+lateral flexion|side bending|sidebending|lateral bending
+radial deviation|wrist abduction
+ulnar deviation|wrist adduction
+palmar|volar
+plantar
+supine
+prone
+hyperflexion
+nutation
+counternutation
+internal
+external
+radial
+ulnar
+tibial
+fibular|peroneal
+central
+peripheral
+intermediate
+visceral
+parietal
+apical
+basal
+anterolateral
+anteromedial
+posterolateral
+posteromedial
+superolateral
+superomedial
+inferolateral
+inferomedial
+horizontal abduction|horizontal extension
+horizontal adduction|horizontal flexion|cross-body adduction
+upward rotation
+downward rotation
+anterior pelvic tilt
+posterior pelvic tilt
+lateral excursion
+palmar abduction
+radial abduction
+hyperabduction
+glide|slide|translation
+roll
+spin
+mesial
+lingual
+labial
+buccal
+occlusal
+incisal
+`, "2026-11-24");
+
+P("Name a fascia, membrane or connective tissue covering in the body","body","",`
+dura mater|dura|pachymeninx
+arachnoid mater|arachnoid|arachnoid membrane
+pia mater|pia
+meninges
+pleura
+visceral pleura|pulmonary pleura
+parietal pleura
+pericardium
+fibrous pericardium
+serous pericardium
+visceral pericardium|epicardium
+parietal pericardium|parietal layer of serous pericardium
+peritoneum
+visceral peritoneum
+parietal peritoneum
+periosteum
+endosteum
+perichondrium
+synovial membrane|synovium
+tympanic membrane|eardrum
+basement membrane|basal lamina
+fascia lata|deep fascia of thigh
+iliotibial band|iliotibial tract|it band
+plantar fascia|plantar aponeurosis
+palmar aponeurosis|palmar fascia
+thoracolumbar fascia|lumbodorsal fascia|lumbar fascia
+transversalis fascia
+scarpa fascia|membranous layer of superficial abdominal fascia
+camper fascia|fatty layer of superficial abdominal fascia
+colles fascia|superficial perineal fascia|membranous layer of superficial perineal fascia
+buck fascia|deep fascia of penis
+dartos fascia|dartos|tunica dartos|superficial penile fascia
+gerota fascia|renal fascia|perirenal fascia
+epimysium
+perimysium
+endomysium
+epineurium
+perineurium
+endoneurium
+joint capsule|articular capsule|fibrous capsule of joint
+interosseous membrane
+tunica vaginalis
+tunica albuginea
+glisson capsule|fibrous capsule of liver|hepatic capsule
+renal capsule|fibrous capsule of kidney
+carotid sheath
+rectus sheath
+superficial fascia|subcutaneous fascia|hypodermis
+deep fascia|investing fascia
+falx cerebri
+tentorium cerebelli
+falx cerebelli
+diaphragma sellae
+galea aponeurotica|epicranial aponeurosis
+investing layer of deep cervical fascia|superficial layer of deep cervical fascia
+pretracheal fascia|middle layer of deep cervical fascia|visceral fascia of neck
+prevertebral fascia|deep layer of deep cervical fascia
+alar fascia
+buccopharyngeal fascia
+pharyngobasilar fascia
+deep cervical fascia
+denonvilliers fascia|rectoprostatic fascia|rectovesical septum
+waldeyer fascia|rectosacral fascia
+presacral fascia
+mesorectal fascia|fascia propria of rectum
+toldt fascia|fusion fascia of toldt
+fascia of zuckerkandl|posterior renal fascia
+lateroconal fascia
+sibson fascia|suprapleural membrane
+endothoracic fascia
+clavipectoral fascia
+costocoracoid membrane
+axillary fascia
+pectoral fascia|pectoralis fascia
+deltoid fascia
+brachial fascia|deep fascia of arm
+antebrachial fascia|deep fascia of forearm
+crural fascia|fascia cruris|deep fascia of leg
+popliteal fascia
+gluteal fascia
+cribriform fascia
+psoas fascia
+iliac fascia|fascia iliaca
+obturator fascia
+endopelvic fascia
+pubocervical fascia
+rectovaginal fascia|rectovaginal septum
+perineal membrane|inferior fascia of urogenital diaphragm
+gallaudet fascia|deep perineal fascia
+external spermatic fascia
+internal spermatic fascia
+cremasteric fascia
+femoral sheath
+axillary sheath
+tendon sheath|synovial sheath|tenosynovium
+epitenon
+paratenon
+endotenon
+flexor retinaculum
+extensor retinaculum
+peroneal retinaculum|fibular retinaculum
+temporal fascia|deep temporal fascia
+temporoparietal fascia|superficial temporal fascia
+smas|superficial musculoaponeurotic system
+parotid fascia|parotideomasseteric fascia|masseteric fascia
+pericranium
+tenon capsule|fascia bulbi
+orbital septum
+periorbita
+leptomeninges
+greater omentum
+lesser omentum
+mesentery
+transverse mesocolon
+sigmoid mesocolon
+mesoappendix
+broad ligament
+mesovarium
+mesosalpinx
+serous membrane|serosa
+mucous membrane|mucosa
+cutaneous membrane
+costal pleura
+diaphragmatic pleura
+mediastinal pleura
+cervical pleura|pleural cupula
+splenic capsule
+lymph node capsule
+prostatic capsule
+thyroid capsule
+adrenal capsule
+lens capsule
+obturator membrane
+atlanto-occipital membrane
+tectorial membrane|membrana tectoria
+basilar membrane
+reissner membrane|vestibular membrane
+secondary tympanic membrane|round window membrane
+otolithic membrane
+cricothyroid membrane|median cricothyroid ligament
+conus elasticus|cricovocal membrane
+thyrohyoid membrane
+quadrangular membrane
+external intercostal membrane
+internal intercostal membrane
+vastoadductor membrane
+bruch membrane
+descemet membrane
+bowman layer|bowman membrane|anterior limiting lamina
+hyaloid membrane
+internal limiting membrane
+external limiting membrane
+glomerular basement membrane
+periodontal ligament|periodontal membrane
+schneiderian membrane|sinus membrane
+amnion|amniotic membrane
+chorion
+hymen
+pupillary membrane
+buccopharyngeal membrane|oropharyngeal membrane
+cloacal membrane
+pleuroperitoneal membrane
+pleuropericardial membrane
+`, "2026-11-24");
+
+P("Name a body region or anatomical triangle","body","",`
+abdominal|abdomen
+thoracic|thorax|chest
+cervical|neck
+cephalic|head
+inguinal|groin
+axillary|axilla|armpit|axillary fossa
+antecubital|antecubital fossa|cubital fossa|cubital region
+popliteal|popliteal fossa|back of knee
+brachial|upper arm
+antebrachial|forearm
+carpal|wrist
+palmar|palm|volar
+digital|digits|fingers
+pollex|thumb
+manual|hand
+femoral|thigh
+patellar|kneecap
+crural|leg|shin
+sural|calf
+tarsal|ankle
+pedal|foot
+plantar|sole
+calcaneal|heel
+hallux|great toe|big toe
+gluteal|buttock
+sacral
+lumbar|lower back|loin
+vertebral|spinal
+scapular|shoulder blade
+dorsal|dorsum|back
+acromial|point of shoulder
+deltoid region|shoulder
+olecranal|olecranon region|back of elbow
+sternal
+mammary|breast
+pectoral
+umbilical|navel|periumbilical
+epigastric|epigastrium
+hypogastric|hypogastrium|suprapubic
+hypochondriac region|hypochondrium|hypochondriac
+right hypochondriac region|right hypochondrium
+left hypochondriac region|left hypochondrium
+flank|lateral abdominal region
+right lumbar region|right lateral region|right flank
+left lumbar region|left lateral region|left flank
+iliac region|iliac
+right iliac region|right iliac fossa|right inguinal region
+left iliac region|left iliac fossa|left inguinal region
+right upper quadrant|ruq
+left upper quadrant|luq
+right lower quadrant|rlq
+left lower quadrant|llq
+pubic|pubis
+perineal|perineum
+coxal|hip
+pelvic|pelvis
+facial|face
+cranial region|cranial|cranium
+occipital|occiput
+frontal|forehead
+temporal|temple
+parietal
+orbital|ocular|eye region
+nasal|nose
+oral|mouth
+buccal|cheek
+mental|chin
+otic|ear|auricular
+zygomatic region|malar region|cheekbone
+infraorbital region
+mandibular region|jaw
+parotid region|parotideomasseteric region
+nuchal|nape|back of neck
+scalp|epicranial region
+vertex
+mastoid region
+retroauricular region|postauricular region
+perioral region
+periorbital region
+interscapular region
+suprascapular region
+infrascapular region
+inframammary region
+coccygeal region
+thenar|thenar eminence
+hypothenar|hypothenar eminence
+anterior triangle of the neck|anterior cervical triangle
+posterior triangle of the neck|posterior cervical triangle
+carotid triangle|superior carotid triangle|malgaigne triangle
+submandibular triangle|digastric triangle|submandibular region
+submental triangle|suprahyoid triangle
+muscular triangle|inferior carotid triangle|omotracheal triangle
+occipital triangle
+supraclavicular triangle|omoclavicular triangle|subclavian triangle|supraclavicular fossa
+suboccipital triangle
+femoral triangle|scarpa triangle
+hesselbach triangle|inguinal triangle
+calot triangle|hepatocystic triangle|cystohepatic triangle
+petit triangle|inferior lumbar triangle
+grynfeltt triangle|superior lumbar triangle|grynfeltt-lesshaft triangle
+triangle of auscultation|auscultatory triangle
+koch triangle
+urogenital triangle|urogenital region
+anal triangle|anal region
+deltopectoral triangle|clavipectoral triangle|infraclavicular fossa|mohrenheim fossa
+anatomical snuffbox|snuffbox
+ischioanal fossa|ischiorectal fossa
+infratemporal fossa
+pterygopalatine fossa|sphenopalatine fossa|pterygomaxillary fossa
+temporal fossa
+anterior cranial fossa
+middle cranial fossa
+posterior cranial fossa
+killian triangle|killian dehiscence
+laimer triangle
+killian-jamieson area
+triangle of doom
+triangle of pain
+kambin triangle
+bochdalek triangle|lumbocostal triangle
+larrey space|sternocostal triangle
+vesical trigone|trigone of bladder|lieutaud trigone
+macewen triangle|suprameatal triangle
+trautmann triangle
+philippe-gombault triangle
+parkinson triangle
+kawase triangle
+glasscock triangle
+interscalene triangle
+scalenovertebral triangle|vertebral artery triangle
+triangular space|upper triangular space
+triangular interval|lower triangular space
+medial inguinal fossa
+lateral inguinal fossa
+supravesical fossa
+bryant triangle
+ward triangle
+labbe triangle
+sherren triangle
+hueter triangle
+beclard triangle
+pirogoff triangle|pirogov triangle
+`, "2026-11-24");
+
+P("Name an anatomical variant (a normal variation in anatomy)","body","",`
+cervical rib
+accessory spleen|splenule|spleniculus
+azygos lobe
+patent foramen ovale|pfo
+horseshoe kidney
+pelvic kidney|ectopic kidney
+duplex kidney|duplex collecting system|duplicated collecting system
+bifid ureter|ureter fissus|partial ureteral duplication
+complete ureteral duplication|duplicated ureter|double ureter
+accessory renal artery|polar renal artery|multiple renal arteries
+retroaortic left renal vein
+circumaortic left renal vein|renal collar
+persistent left superior vena cava|persistent left svc|plsvc
+aberrant right subclavian artery|arteria lusoria|retroesophageal right subclavian artery
+bovine arch|bovine aortic arch
+riedel lobe
+pancreas divisum
+phrygian cap
+situs inversus totalis|situs inversus|mirror-image dextrocardia
+absent palmaris longus
+martin-gruber anastomosis
+riche-cannieu anastomosis
+corona mortis|aberrant obturator artery
+replaced right hepatic artery
+replaced left hepatic artery
+accessory right hepatic artery
+accessory left hepatic artery
+replaced common hepatic artery|common hepatic artery from sma
+fetal posterior cerebral artery|fetal pca|fetal pcom|fetal origin of posterior cerebral artery
+spina bifida occulta
+sacralization|sacralisation of l5
+lumbarization|lumbarisation of s1
+lumbosacral transitional vertebra|transitional lumbosacral vertebra|lstv
+fabella
+os trigonum
+accessory navicular|os naviculare|os tibiale externum
+os peroneum
+bipartite patella
+os acromiale
+discoid meniscus
+tarsal coalition|calcaneonavicular coalition|talocalcaneal coalition
+accessory nipple|supernumerary nipple|polythelia
+accessory breast tissue|polymastia|axillary breast tissue
+ducts of luschka|subvesical ducts
+accessory hepatic duct|aberrant hepatic duct|aberrant right posterior hepatic duct
+cavum septum pellucidum
+cavum vergae
+cavum velum interpositum
+ponticulus posticus|arcuate foramen|kimmerle anomaly
+persistent median artery|median artery
+persistent sciatic artery
+double inferior vena cava|duplicated ivc|double ivc|duplicate ivc
+left-sided inferior vena cava|left-sided ivc|left ivc|transposition of ivc
+azygos continuation of ivc|interrupted ivc with azygos continuation
+kommerell diverticulum
+ductus diverticulum
+left vertebral artery arising from aortic arch|aortic origin of left vertebral artery
+thyroid ima artery|arteria thyroidea ima
+pyramidal lobe of thyroid|pyramidal lobe
+nonrecurrent laryngeal nerve|non-recurrent laryngeal nerve
+accessory parotid gland
+hypoplastic a1 segment|aplastic a1 segment
+azygos anterior cerebral artery
+persistent trigeminal artery
+persistent hypoglossal artery
+persistent otic artery
+persistent proatlantal artery
+vertebral artery hypoplasia|hypoplastic vertebral artery
+basilar artery fenestration|fenestrated basilar artery
+artery of percheron
+left dominant coronary circulation|left-dominant circulation
+codominant coronary circulation
+myocardial bridge|myocardial bridging
+ramus intermedius|intermediate coronary artery
+separate conus artery origin|third coronary artery
+chiari network
+prominent eustachian valve
+left ventricular false tendon|false tendon
+accessory fissure of lung|accessory pulmonary fissure
+inferior accessory fissure
+superior accessory fissure
+left minor fissure
+incomplete pulmonary fissure|incomplete fissure
+tracheal bronchus|pig bronchus|bronchus suis
+accessory cardiac bronchus|cardiac bronchus
+chilaiditi sign|hepatodiaphragmatic interposition of colon
+retrocecal appendix
+pelvic appendix
+subcecal appendix
+preileal appendix
+postileal appendix
+mobile cecum
+redundant colon|redundant sigmoid|dolichocolon
+splenic lobulation|splenic cleft|lobulated spleen
+beavertail liver|beaver tail liver
+papillary process of caudate lobe
+septate gallbladder
+duplicated gallbladder|double gallbladder
+intrahepatic gallbladder
+left-sided gallbladder
+low cystic duct insertion
+spiral cystic duct
+portal vein trifurcation
+accessory inferior right hepatic vein|inferior right hepatic vein
+celiacomesenteric trunk
+hepatomesenteric trunk
+fetal lobulation|persistent fetal lobulation
+dromedary hump|splenic hump
+hypertrophied column of bertin|prominent column of bertin
+junctional parenchymal defect|junctional cortical line
+extrarenal pelvis
+early branching renal artery|prehilar renal artery branching
+retroverted uterus|retroflexed uterus|tilted uterus
+arcuate uterus
+bifid uvula
+darwin tubercle|darwinian tubercle
+single transverse palmar crease|single palmar crease
+bifid rib|forked rib|luschka rib
+lumbar rib
+elongated c7 transverse process
+elongated styloid process
+posterior arch cleft of atlas|atlas arch defect
+os terminale
+sternal foramen
+xiphoid foramen|bifid xiphoid
+supracondylar process of humerus|avian spur
+septal aperture|olecranon foramen|supratrochlear foramen
+os styloideum|carpal boss
+os centrale
+positive ulnar variance
+negative ulnar variance
+os vesalianum
+os intermetatarseum
+os subfibulare
+os subtibiale
+bipartite hallux sesamoid|bipartite sesamoid
+accessory soleus muscle
+peroneus quartus|fibularis quartus
+absent plantaris
+absent peroneus tertius|absent fibularis tertius
+sternalis muscle
+axillary arch|langer axillary arch
+levator glandulae thyroideae
+absent psoas minor
+absent pyramidalis
+accessory flexor digitorum longus
+third head of biceps|accessory head of biceps
+gantzer muscle|accessory head of flexor pollicis longus
+anconeus epitrochlearis
+extensor digitorum brevis manus
+high bifurcation of brachial artery|high origin of radial artery
+superficial ulnar artery
+superficial brachial artery
+incomplete superficial palmar arch
+sciatic nerve passing through piriformis|high division of sciatic nerve
+accessory obturator nerve
+absent dorsalis pedis artery
+peronea magna|arteria peronea magna
+prefixed brachial plexus
+postfixed brachial plexus
+bifid median nerve
+accessory phrenic nerve
+berrettini anastomosis
+marinacci anastomosis|reverse martin-gruber anastomosis
+inca bone|os incae|interparietal bone
+wormian bones|sutural bones
+persistent metopic suture|metopism
+torus palatinus|palatal torus
+torus mandibularis|mandibular torus
+bifid mandibular canal
+stafne bone cavity|stafne defect
+concha bullosa
+paradoxical middle turbinate
+haller cell|infraorbital ethmoid cell
+onodi cell|sphenoethmoidal cell
+high-riding jugular bulb|dehiscent jugular bulb
+aberrant internal carotid artery
+persistent stapedial artery
+asymmetric transverse sinuses|hypoplastic transverse sinus|dominant transverse sinus
+persistent occipital sinus
+mega cisterna magna
+asymmetric lateral ventricles|ventricular asymmetry
+`, "2026-11-24");
+
+P("Name a body structure named after a person (anatomical eponym)","body","",`
+achilles tendon|calcaneal tendon
+eustachian tube|auditory tube|pharyngotympanic tube
+fallopian tube|uterine tube|oviduct|salpinx
+adam apple|adams apple|laryngeal prominence
+circle of willis|willis circle|cerebral arterial circle
+loop of henle|henle loop|nephron loop
+islets of langerhans|langerhans islets|pancreatic islets
+bundle of his|his bundle|atrioventricular bundle
+purkinje fibers|purkinje fibres
+purkinje cells
+broca area|broca's area
+wernicke area|wernicke's area
+bowman capsule|glomerular capsule
+schwann cells|neurolemmocytes
+nodes of ranvier|ranvier nodes
+golgi apparatus|golgi body|golgi complex
+golgi tendon organ
+peyer patches|peyer's patches
+kupffer cells|stellate macrophages
+sertoli cells|sustentacular cells
+leydig cells|interstitial cells of leydig
+bartholin glands|greater vestibular glands
+skene glands|paraurethral glands
+cowper glands|bulbourethral glands
+brunner glands|duodenal glands
+crypts of lieberkuhn|lieberkuhn crypts|intestinal crypts
+paneth cells
+sphincter of oddi|oddi sphincter|hepatopancreatic sphincter
+ampulla of vater|vater ampulla|hepatopancreatic ampulla
+duct of wirsung|wirsung duct|main pancreatic duct
+duct of santorini|santorini duct|accessory pancreatic duct
+wharton duct|submandibular duct
+stensen duct|stenson duct|parotid duct
+wharton jelly
+ligament of treitz|treitz ligament|suspensory muscle of duodenum
+haversian canal|haversian system|central canal of osteon
+volkmann canals|perforating canals
+sharpey fibers|sharpey fibres|perforating fibers
+cooper ligaments|cooper ligament|suspensory ligaments of breast|pectineal ligament
+poupart ligament|inguinal ligament
+gimbernat ligament|lacunar ligament
+hunter canal|adductor canal|subsartorial canal
+alcock canal|pudendal canal
+guyon canal|ulnar canal
+hesselbach triangle
+calot triangle
+koch triangle
+morison pouch|hepatorenal recess|hepatorenal pouch
+pouch of douglas|douglas pouch|rectouterine pouch
+foramen of winslow|winslow foramen|epiploic foramen
+foramen of monro|monro foramen|interventricular foramen
+foramen of magendie|magendie foramen|median aperture
+foramina of luschka|luschka foramina|lateral apertures
+aqueduct of sylvius|sylvian aqueduct|cerebral aqueduct
+sylvian fissure|lateral sulcus|fissure of sylvius
+fissure of rolando|rolandic fissure|central sulcus
+bachmann bundle
+tendon of todaro|todaro tendon
+thebesian veins|venae cordis minimae|smallest cardiac veins
+thebesian valve|valve of coronary sinus
+eustachian valve|valve of inferior vena cava
+batson plexus|batson venous plexus|vertebral venous plexus
+kiesselbach plexus|kiesselbach area|little area
+woodruff plexus
+waldeyer ring|waldeyer tonsillar ring
+fossa of rosenmuller|rosenmuller fossa|pharyngeal recess
+reinke space|reinke's space
+gerota fascia|renal fascia
+denonvilliers fascia
+colles fascia
+scarpa fascia
+camper fascia
+buck fascia
+lisfranc joint|tarsometatarsal joint
+lisfranc ligament
+chopart joint|transverse tarsal joint
+lister tubercle|dorsal tubercle of radius
+gerdy tubercle
+chassaignac tubercle|carotid tubercle
+mcburney point
+langer lines|cleavage lines
+blaschko lines
+auerbach plexus|myenteric plexus
+meissner plexus|submucosal plexus
+meissner corpuscles|tactile corpuscles
+pacinian corpuscles|pacini corpuscles|lamellar corpuscles
+ruffini endings|ruffini corpuscles|bulbous corpuscles
+merkel cells|merkel discs|merkel disks
+krause end bulbs|krause corpuscles
+glisson capsule
+space of disse|disse space|perisinusoidal space
+canals of hering|hering canals
+hassall corpuscles|thymic corpuscles
+meibomian glands|tarsal glands
+glands of zeis|zeis glands
+glands of moll|moll glands
+montgomery glands|montgomery tubercles|areolar glands
+bruch membrane
+descemet membrane
+bowman layer|bowman membrane
+canal of schlemm|schlemm canal|scleral venous sinus
+tenon capsule
+annulus of zinn|anulus of zinn|common tendinous ring
+zonules of zinn|zonule of zinn|ciliary zonule
+organ of corti|spiral organ
+reissner membrane
+scarpa ganglion|vestibular ganglion
+scarpa triangle|femoral triangle
+gasserian ganglion|trigeminal ganglion|semilunar ganglion
+meckel cave|trigeminal cave
+meckel cartilage
+reichert cartilage
+dorello canal
+arnold nerve|alderman nerve|auricular branch of vagus nerve
+jacobson nerve|tympanic nerve
+jacobson organ|vomeronasal organ
+nerve of wrisberg|wrisberg nerve|nervus intermedius
+edinger-westphal nucleus
+nucleus of clarke|clarke nucleus|clarke column|dorsal nucleus of clarke
+lissauer tract|dorsolateral fasciculus
+betz cells
+nissl bodies|nissl substance
+rathke pouch|rathke cleft
+wolffian duct|mesonephric duct
+mullerian duct|paramesonephric duct
+gartner duct
+hensen node|primitive node
+master knot of henry|knot of henry
+arcade of struthers|struthers arcade
+ligament of struthers|struthers ligament
+arcade of frohse|frohse arcade
+ligament of wrisberg|wrisberg ligament|posterior meniscofemoral ligament
+ligament of humphrey|humphrey ligament|anterior meniscofemoral ligament
+y ligament of bigelow|bigelow ligament|iliofemoral ligament
+kager fat pad
+hoffa fat pad|infrapatellar fat pad
+bichat fat pad|buccal fat pad
+line of douglas|arcuate line
+spigelian line|semilunar line|linea semilunaris
+spigelian lobe|caudate lobe
+space of retzius|retzius space|retropubic space
+space of bogros|bogros space
+cloquet node|rosenmuller node
+cloquet canal|hyaloid canal
+virchow node|left supraclavicular node
+delphian node|prelaryngeal node
+rotter nodes|interpectoral nodes
+rouviere node|lateral retropharyngeal node
+howship lacunae|resorption bays
+columns of bertin|bertin columns|renal columns
+ducts of bellini|bellini ducts|papillary ducts
+malpighian corpuscle|malpighian body
+valve of hasner|hasner valve
+valves of houston|houston valves|transverse rectal folds
+valves of heister|heister valves|spiral valves of cystic duct
+hilton white line|white line of hilton
+white line of toldt|line of toldt
+columns of morgagni|morgagni columns|anal columns
+foramen of morgagni|morgagni foramen
+hydatid of morgagni|appendix testis
+ventricle of morgagni|laryngeal ventricle
+foramen of bochdalek|bochdalek foramen
+space of larrey|larrey space
+kerckring folds|plicae circulares|valvulae conniventes
+interstitial cells of cajal|cajal cells
+cajal-retzius cells
+cajal bodies
+hartmann pouch
+cantlie line
+couinaud segments
+ductus venosus of arantius|ligament of arantius|ductus arantii|ligamentum venosum
+nodules of arantius|arantius nodules
+sinuses of valsalva|valsalva sinuses|aortic sinuses
+ito cells|hepatic stellate cells
+hofbauer cells
+langhans cells|langhans layer
+langerhans cells
+clara cells|club cells
+kulchitsky cells
+bowman glands|olfactory glands
+von ebner glands|ebner glands
+blandin-nuhn glands|anterior lingual glands
+krause glands
+wolfring glands
+littre glands|glands of littre
+tyson glands|preputial glands
+tomes fibers|tomes process
+hertwig root sheath|hertwig epithelial root sheath
+nasmyth membrane
+rests of malassez|malassez rests
+striae of retzius|retzius lines
+hunter-schreger bands
+korff fibers
+graafian follicle
+call-exner bodies
+reinke crystals
+nitabuch layer
+canal of nuck|nuck canal
+bauhin valve|ileocecal valve
+gerlach valve
+drummond marginal artery|marginal artery of drummond
+arc of riolan|riolan arc|meandering mesenteric artery
+arc of buhler|buhler arc
+griffiths point
+sudeck point
+mayo vein|prepyloric vein
+nerve of latarjet|latarjet nerve
+criminal nerve of grassi|grassi nerve
+artery of adamkiewicz|adamkiewicz artery
+recurrent artery of heubner|heubner artery
+artery of percheron
+vein of galen|galen vein|great cerebral vein
+vein of trolard|trolard vein|superior anastomotic vein
+vein of labbe|labbe vein|inferior anastomotic vein
+basal vein of rosenthal|rosenthal vein
+vein of marshall|marshall vein|oblique vein of left atrium
+ligament of marshall
+keith-flack node|sinoatrial node
+aschoff-tawara node|tawara node|atrioventricular node
+bands of wenckebach|wenckebach bundle
+thorel bundle
+ring of vieussens|vieussens valve
+botallo ligament|ligamentum arteriosum
+ductus botalli|ductus arteriosus
+angle of louis|louis angle|sternal angle
+pores of kohn|kohn pores
+canals of lambert|lambert canals
+sibson fascia|suprapleural membrane
+zuckerkandl fascia
+tubercle of zuckerkandl|zuckerkandl tubercle
+organ of zuckerkandl|para-aortic bodies
+ligament of berry|berry ligament|posterior suspensory ligament of thyroid
+broyles ligament
+killian dehiscence|killian triangle
+laimer triangle
+passavant ridge
+antrum of highmore|highmore antrum|maxillary sinus
+wrisberg cartilage|cuneiform cartilage
+santorini cartilage|corniculate cartilage
+prussak space
+shrapnell membrane|pars flaccida
+notch of rivinus|rivinus notch
+ducts of rivinus|rivinus ducts
+foramen of huschke|huschke foramen
+hensen cells
+deiters cells
+claudius cells
+canal of rosenthal|rosenthal canal
+bill bar
+macewen triangle|suprameatal triangle
+trautmann triangle
+koerner septum
+heschl gyrus|transverse temporal gyrus
+ammon horn|cornu ammonis
+nucleus basalis of meynert|meynert nucleus|basal nucleus of meynert
+deiters nucleus|lateral vestibular nucleus
+bechterew nucleus|superior vestibular nucleus
+interstitial nucleus of cajal
+nucleus of darkschewitsch
+nucleus of perlia
+onuf nucleus|nucleus of onuf
+body of luys|luys body|subthalamic nucleus
+fields of forel|forel fields
+tract of goll|goll tract|fasciculus gracilis
+tract of burdach|burdach tract|fasciculus cuneatus
+gowers tract|anterior spinocerebellar tract
+flechsig tract|posterior spinocerebellar tract
+monakow tract|rubrospinal tract
+meyer loop
+optic radiations of gratiolet|gratiolet radiations
+stria of gennari|line of gennari
+bands of baillarger|baillarger bands
+tract of vicq d'azyr|mammillothalamic tract
+island of reil|insula
+rexed laminae
+virchow-robin spaces|perivascular spaces
+pacchionian granulations|pacchionian bodies|arachnoid granulations
+brodmann areas
+guillain-mollaret triangle
+martinotti cells
+renshaw cells
+bergmann glia|bergmann cells
+hortega cells|del rio hortega cells|microglia
+herring bodies
+schmidt-lanterman incisures|lanterman clefts
+weibel-palade bodies
+birbeck granules
+barr body
+muller muscle|superior tarsal muscle
+muller cells|muller glia
+whitnall ligament
+lockwood ligament
+horner muscle
+riolan muscle
+haller layer
+sattler layer
+mackenrodt ligament|cardinal ligament
+frankenhauser ganglion|lee-frankenhauser plexus
+gallaudet fascia
+henle ligament|falx inguinalis
+bell nerve|long thoracic nerve
+hering nerve|carotid sinus nerve
+nerve of kuntz|kuntz nerve
+vidian nerve|nerve of pterygoid canal
+vidian canal|pterygoid canal
+luschka joints|uncovertebral joints
+ducts of luschka|luschka ducts
+cleland ligaments
+grayson ligaments
+camper chiasm
+osborne ligament|osborne band
+space of poirier|poirier space
+weitbrecht ligament
+erb point
+lanz point
+nelaton line
+darwin tubercle
+inca bone
+wormian bones|sutural bones
+brodel line
+goormaghtigh cells|lacis cells|extraglomerular mesangial cells
+billroth cords|splenic cords
+cisterna chyli of pecquet|pecquet cistern
+giraldes organ|paradidymis
+treves fold|bloodless fold of treves
+jackson membrane
+ward triangle
+bryant triangle
+petit triangle
+grynfeltt triangle
+kambin triangle
+onodi cell
+haller cell
+`, "2026-11-24");
+
+P("Name a pathogen or infection named after a person or place","micro","",`
+escherichia coli|e coli|escherichia
+salmonella|salmonellosis
+shigella|shigellosis
+listeria|listeria monocytogenes|listeriosis
+klebsiella|klebsiella pneumoniae|friedlander bacillus
+lyme disease|lyme borreliosis|borrelia burgdorferi
+ebola|ebola virus|ebola virus disease|ebola hemorrhagic fever
+neisseria gonorrhoeae|gonococcus|gonorrhea
+neisseria meningitidis|meningococcus|meningococcal disease
+neisseria
+yersinia pestis|plague|bubonic plague
+yersinia enterocolitica|yersiniosis
+yersinia pseudotuberculosis
+bordetella pertussis|bordetella|whooping cough|pertussis
+rocky mountain spotted fever|rmsf|rickettsia rickettsii
+west nile virus|west nile fever
+zika virus|zika
+chagas disease|trypanosoma cruzi|american trypanosomiasis
+epstein-barr virus|ebv|hhv-4
+pasteurella multocida|pasteurella
+brucellosis|brucella|malta fever|mediterranean fever|undulant fever|bang disease
+francisella tularensis|tularemia|francisella
+rickettsia
+ehrlichia chaffeensis|ehrlichiosis|ehrlichia
+borrelia
+bartonella henselae|bartonella
+coxiella burnetii|q fever|coxiella
+leishmaniasis|leishmania
+babesia|babesiosis
+naegleria fowleri|naegleria
+tropheryma whipplei|whipple disease
+hansen disease|leprosy|mycobacterium leprae|hansen bacillus
+haemophilus ducreyi|chancroid|ducrey bacillus
+serratia marcescens|serratia
+burkholderia cepacia
+melioidosis|burkholderia pseudomallei|whitmore disease
+glanders|burkholderia mallei
+moraxella catarrhalis
+moraxella lacunata|morax-axenfeld bacillus
+kingella kingae|kingella
+eikenella corrodens|eikenella
+gardnerella vaginalis|gardnerella
+nocardia|nocardiosis
+acinetobacter baumannii
+marburg virus|marburg hemorrhagic fever|marburg virus disease
+coxsackievirus|coxsackie virus|coxsackie
+norovirus|norwalk virus|norwalk-like virus
+lassa fever|lassa virus
+hantaan virus|hantavirus|korean hemorrhagic fever
+sin nombre virus|four corners virus
+seoul virus
+puumala virus|nephropathia epidemica
+dobrava virus
+andes virus
+rift valley fever
+st louis encephalitis
+japanese encephalitis
+murray valley encephalitis
+ross river virus|ross river fever
+barmah forest virus
+kyasanur forest disease
+omsk hemorrhagic fever
+crimean-congo hemorrhagic fever|cchf
+junin virus|argentine hemorrhagic fever
+machupo virus|bolivian hemorrhagic fever
+guanarito virus|venezuelan hemorrhagic fever
+sabia virus|brazilian hemorrhagic fever
+chapare virus
+lujo virus
+venezuelan equine encephalitis
+eastern equine encephalitis
+western equine encephalitis
+la crosse encephalitis|la crosse virus
+powassan virus
+heartland virus
+bourbon virus
+colorado tick fever
+jamestown canyon virus
+cache valley virus
+hendra virus
+nipah virus
+mers|middle east respiratory syndrome|mers-cov
+spanish flu|spanish influenza
+hong kong flu
+asian flu
+russian flu
+pontiac fever
+fort bragg fever|pretibial fever
+haverhill fever
+mediterranean spotted fever|boutonneuse fever|rickettsia conorii
+rickettsia prowazekii|epidemic typhus
+brill-zinsser disease|recrudescent typhus
+rickettsia parkeri
+queensland tick typhus|rickettsia australis
+japanese spotted fever|rickettsia japonica
+siberian tick typhus|north asian tick typhus|rickettsia sibirica
+african tick bite fever|rickettsia africae
+israeli spotted fever
+astrakhan fever
+flinders island spotted fever|rickettsia honei
+kew gardens spotted fever
+brazilian spotted fever
+carrion disease|oroya fever|verruga peruana|bartonella bacilliformis
+buruli ulcer|bairnsdale ulcer|daintree ulcer|mycobacterium ulcerans
+madura foot|maduromycosis|madurella
+baghdad boil|aleppo boil|delhi boil|oriental sore
+leishmania donovani|dumdum fever
+leishmania braziliensis
+leishmania mexicana
+trypanosoma brucei|african sleeping sickness|african trypanosomiasis
+trypanosoma brucei gambiense|gambian sleeping sickness
+trypanosoma brucei rhodesiense|rhodesian sleeping sickness
+coccidioidomycosis|valley fever|san joaquin valley fever|posadas disease
+paracoccidioidomycosis|paracoccidioides brasiliensis|lutz-splendore-almeida disease|south american blastomycosis
+darling disease
+gilchrist disease
+lobo disease|lacaziosis|lacazia loboi
+mycobacterium kansasii
+mycobacterium gordonae
+mycobacterium szulgai
+mycobacterium malmoense
+mycobacterium genavense
+bacillus calmette-guerin|bcg
+koch bacillus
+pott disease|tuberculous spondylitis
+poncet disease
+weil disease|weil syndrome
+masters disease|stari
+pfeiffer bacillus
+klebs-loeffler bacillus|klebs-loffler bacillus
+eberth bacillus|eberthella typhi
+morganella morganii|morganella
+edwardsiella tarda|edwardsiella
+citrobacter freundii
+citrobacter koseri
+providencia stuartii
+providencia rettgeri
+cronobacter sakazakii
+hafnia alvei|hafnia
+raoultella
+shewanella
+ralstonia
+elizabethkingia meningoseptica|elizabethkingia
+rothia
+gordonia
+tsukamurella
+kocuria
+prevotella
+veillonella
+finegoldia magna|finegoldia
+eggerthella lenta|eggerthella
+clostridium sordellii|paeniclostridium sordellii
+clostridium novyi
+ehrlichia ewingii
+borrelia hermsii
+borrelia miyamotoi
+borrelia garinii
+borrelia afzelii
+borrelia mayonii
+haemophilus aegyptius|brazilian purpuric fever
+actinomyces israelii
+shigella sonnei
+shigella flexneri
+shigella boydii
+shigella dysenteriae
+salmonella dublin
+salmonella newport
+salmonella heidelberg
+salmonella javiana
+salmonella montevideo
+salmonella saintpaul
+salmonella panama
+salmonella oranienburg
+giardia lamblia|giardiasis|giardia
+schistosomiasis|bilharzia|bilharziasis
+schistosoma mansoni
+schistosoma japonicum
+schistosoma mekongi
+katayama fever|katayama syndrome
+wuchereria bancrofti|bancroftian filariasis
+brugia malayi
+brugia timori
+mansonella
+calabar swelling
+guinea worm|dracunculus medinensis|dracunculiasis
+clonorchis sinensis|chinese liver fluke
+necator americanus|american hookworm
+angiostrongylus cantonensis
+capillaria philippinensis
+paragonimus westermani
+baylisascaris procyonis|baylisascaris
+balamuthia mandrillaris|balamuthia
+plasmodium knowlesi
+cryptococcus gattii
+sporothrix schenckii|sporotrichosis
+talaromyces marneffei|penicillium marneffei
+pneumocystis jirovecii|pneumocystis jiroveci
+pneumocystis carinii
+malassezia
+fonsecaea pedrosoi|fonsecaea
+pseudallescheria boydii|scedosporium boydii
+rhinosporidium seeberi
+histoplasma duboisii|african histoplasmosis
+trichophyton schoenleinii
+microsporum audouinii
+piedraia hortae
+hortaea werneckii
+cladophialophora bantiana
+emmonsia
+kaposi sarcoma herpesvirus|kshv|hhv-8
+jc virus|john cunningham virus
+bk virus
+creutzfeldt-jakob disease|cjd
+gerstmann-straussler-scheinker syndrome|gss
+ludwig angina
+fournier gangrene
+lemierre syndrome
+vincent angina|trench mouth
+meleney ulcer|meleney gangrene
+ritter disease
+fitz-hugh-curtis syndrome
+ramsay hunt syndrome
+kaposi varicelliform eruption
+pott puffy tumor
+brodie abscess
+bezold abscess
+garre osteomyelitis|garre sclerosing osteomyelitis
+gradenigo syndrome
+bornholm disease
+boston exanthem
+donovanosis|granuloma inguinale|klebsiella granulomatis
+sapovirus|sapporo virus
+reston virus
+sudan virus
+tai forest virus
+bundibugyo virus
+ravn virus
+duvenhage virus
+mokola virus
+lagos bat virus
+australian bat lyssavirus
+menangle virus
+usutu virus
+kunjin virus
+chandipura virus
+thogoto virus
+toscana virus
+sindbis virus
+semliki forest virus
+mayaro virus
+oropouche virus
+rocio virus
+ilheus virus
+wesselsbron virus
+alkhurma hemorrhagic fever
+tanapox
+alaskapox|borealpox
+tahyna virus
+`, "2026-11-24");
+
+/* ---- NEW STANDARD DAILY PROMPTS: MEDICINE (batch 2026-11-22, board-first) ---- */
+P("Name a CD marker (cluster of differentiation)","science","",`
+cd4
+cd8
+cd3
+cd19
+cd20|ms4a1
+cd34
+cd14|lps receptor
+cd16|fc gamma receptor iii|fcgr3|fcgriii
+cd56|ncam|neural cell adhesion molecule
+cd25|il-2 receptor alpha|il2ra
+cd28
+cd40
+cd40l|cd154|cd40 ligand
+cd55|daf|decay accelerating factor
+cd59|mirl|protectin|membrane inhibitor of reactive lysis
+cd15|lewis x|ssea-1
+cd30|ki-1|tnfrsf8
+cd21|cr2|complement receptor 2|ebv receptor
+cd117|c-kit|stem cell factor receptor
+cd1a
+cd10|calla|neprilysin|common acute lymphoblastic leukemia antigen
+cd5
+cd23|fc epsilon receptor ii|fcer2
+cd103|integrin alpha e
+cd11c|integrin alpha x
+cd138|syndecan-1
+cd18|integrin beta 2
+cd33|siglec-3
+cd41|gpiib|integrin alpha iib|glycoprotein iib
+cd61|gpiiia|integrin beta 3|glycoprotein iiia
+cd99|mic2
+cd31|pecam-1|pecam
+cd45|leukocyte common antigen|ptprc
+cd68
+cd79a|ig alpha
+cd207|langerin
+cd2|lfa-2
+cd7
+cd13|aminopeptidase n
+cd11b|mac-1|cr3|integrin alpha m
+cd11a|lfa-1|integrin alpha l
+cd22|siglec-2
+cd38
+cd52
+cd95|fas|apo-1
+cd178|fas ligand
+cd152|ctla-4|ctla4
+cd279|pd-1|programmed death 1
+cd274|pd-l1|b7-h1
+cd273|pd-l2|b7-dc
+cd80|b7-1
+cd86|b7-2
+cd54|icam-1
+cd62l|l-selectin
+cd62e|e-selectin
+cd62p|p-selectin
+cd64|fc gamma receptor i|fcgr1
+cd32|fc gamma receptor ii|fcgr2
+cd35|cr1|complement receptor 1
+cd36|platelet glycoprotein iv
+cd42b|gpib alpha|glycoprotein ib alpha
+cd42a|gpix|glycoprotein ix
+cd42c|gpib beta
+cd42d|gpv|glycoprotein v
+cd49b|vla-2|gpia|integrin alpha 2
+cd49d|vla-4|integrin alpha 4
+cd29|integrin beta 1
+cd44|hcam
+cd45ra
+cd45ro
+cd46|membrane cofactor protein
+cd47|integrin associated protein
+cd57|hnk-1
+cd58|lfa-3
+cd69
+cd71|transferrin receptor
+cd74|invariant chain
+cd127|il-7 receptor alpha|il7r
+cd132|common gamma chain|il2rg
+cd122|il-2 receptor beta|il2rb
+cd123|il-3 receptor alpha|il3ra
+cd135|flt3
+cd133|prominin-1
+cd163
+cd200|ox-2
+cd206|mannose receptor|mrc1
+cd209|dc-sign
+cd235a|glycophorin a
+cd234|duffy antigen|darc|ackr1
+cd243|p-glycoprotein|mdr1|abcb1
+cd246|alk|anaplastic lymphoma kinase
+cd247|cd3 zeta|zeta chain
+cd254|rankl
+cd265|rank
+cd269|bcma|b cell maturation antigen
+cd278|icos
+cd275|icos ligand|b7-h2
+cd284|tlr4|toll like receptor 4
+cd282|tlr2|toll like receptor 2
+cd326|epcam
+cd324|e-cadherin
+cd340|her2|erbb2
+cd1b
+cd1c|bdca-1
+cd1d
+cd1e
+cd6
+cd9
+cd11d|integrin alpha d
+cd17|lactosylceramide
+cd24
+cd26|dpp-4|dipeptidyl peptidase 4
+cd27
+cd37
+cd39|ntpdase1
+cd43|leukosialin|sialophorin
+cd48
+cd49a|vla-1
+cd49c|vla-3
+cd49e|vla-5
+cd49f|vla-6|integrin alpha 6
+cd50|icam-3
+cd51|integrin alpha v
+cd53
+cd63
+cd66a|ceacam1
+cd66b|ceacam8
+cd66c|ceacam6
+cd66e|cea|carcinoembryonic antigen|ceacam5
+cd70
+cd72
+cd73|ecto-5-nucleotidase
+cd77|gb3|globotriaosylceramide
+cd79b|ig beta
+cd81|tapa-1
+cd82
+cd83
+cd84|slamf5
+cd87|upar|urokinase receptor
+cd88|c5a receptor|c5ar1
+cd89|fc alpha receptor|fcar
+cd90|thy-1
+cd91|lrp1
+cd93
+cd94
+cd96|tactile
+cd97
+cd98|4f2hc
+cd100|semaphorin 4d
+cd102|icam-2
+cd104|integrin beta 4
+cd105|endoglin
+cd106|vcam-1
+cd107a|lamp-1
+cd107b|lamp-2
+cd108|sema7a
+cd109
+cd111|nectin-1
+cd112|nectin-2
+cd114|g-csf receptor|csf3r
+cd115|m-csf receptor|csf1r
+cd116|gm-csf receptor alpha|csf2ra
+cd118|lif receptor
+cd119|interferon gamma receptor 1|ifngr1
+cd120a|tnf receptor 1|tnfr1
+cd120b|tnf receptor 2|tnfr2
+cd121a|il-1 receptor type 1|il1r1
+cd124|il-4 receptor alpha|il4ra
+cd125|il-5 receptor alpha|il5ra
+cd126|il-6 receptor alpha|il6r
+cd130|gp130
+cd131|common beta chain
+cd134|ox40
+cd252|ox40 ligand
+cd137|4-1bb
+cd140a|pdgfra|pdgf receptor alpha
+cd140b|pdgfrb|pdgf receptor beta
+cd141|thrombomodulin|bdca-3
+cd142|tissue factor
+cd143|angiotensin converting enzyme
+cd144|ve-cadherin
+cd146|mcam
+cd147|basigin|emmprin
+cd150|slamf1
+cd151
+cd153|cd30 ligand
+cd155|poliovirus receptor
+cd157|bst-1
+cd158|killer immunoglobulin-like receptor
+cd159a|nkg2a
+cd160
+cd161|klrb1
+cd162|psgl-1
+cd164
+cd166|alcam
+cd169|sialoadhesin|siglec-1
+cd171|l1cam
+cd172a|sirp alpha
+cd177|nb1
+cd179a|vpreb
+cd179b|lambda 5
+cd180|rp105
+cd181|cxcr1
+cd182|cxcr2
+cd183|cxcr3
+cd184|cxcr4|fusin
+cd185|cxcr5
+cd186|cxcr6
+cd191|ccr1
+cd192|ccr2
+cd193|ccr3
+cd194|ccr4
+cd195|ccr5
+cd196|ccr6
+cd197|ccr7
+cd198|ccr8
+cd199|ccr9
+cd201|endothelial protein c receptor|epcr
+cd202b|tie2|tek
+cd203c|enpp3
+cd204|scavenger receptor a|msr1
+cd205|dec-205
+cd208|dc-lamp|lamp-3
+cd210|il-10 receptor alpha|il10ra
+cd212|il-12 receptor beta 1|il12rb1
+cd213a1|il-13 receptor alpha 1
+cd215|il-15 receptor alpha
+cd217|il-17 receptor a|il17ra
+cd220|insulin receptor
+cd221|igf-1 receptor|igf1r
+cd222|igf-2 receptor|mannose 6 phosphate receptor
+cd223|lag-3|lag3
+cd226|dnam-1
+cd227|muc1|mucin 1|episialin
+cd228|melanotransferrin
+cd230|prion protein
+cd233|band 3
+cd235b|glycophorin b
+cd236|glycophorin c
+cd238|kell
+cd239|lutheran|bcam
+cd240|rh antigen|rhesus antigen
+cd241|rhag|rh associated glycoprotein
+cd242|icam-4|lw antigen
+cd244|2b4
+cd253|trail
+cd256|april
+cd257|baff|blys
+cd258|tnfsf14
+cd261|trail-r1|dr4
+cd262|trail-r2|dr5
+cd263|trail-r3|dcr1
+cd264|trail-r4|dcr2
+cd266|fn14|tweak receptor
+cd267|taci
+cd268|baff receptor
+cd270|hvem
+cd271|ngfr|p75 neurotrophin receptor
+cd272|btla
+cd276|b7-h3
+cd281|tlr1
+cd283|tlr3
+cd286|tlr6
+cd288|tlr8
+cd289|tlr9
+cd290|tlr10
+cd292|bmpr1a
+cd294|crth2|ptgdr2
+cd295|leptin receptor
+cd297|dombrock|art4
+cd299|dc-signr|l-sign
+cd301|clec10a
+cd303|bdca-2|clec4c
+cd304|neuropilin-1|bdca-4
+cd305|lair-1
+cd309|vegfr2|kdr|vegf receptor 2
+cd314|nkg2d
+cd317|tetherin|bst-2
+cd319|slamf7|cs1
+cd320|transcobalamin receptor
+cd321|jam-a|f11r
+cd325|n-cadherin
+cd328|siglec-7
+cd329|siglec-9
+cd331|fgfr1
+cd332|fgfr2
+cd333|fgfr3
+cd334|fgfr4
+cd335|nkp46
+cd336|nkp44
+cd337|nkp30
+cd338|abcg2|bcrp
+cd339|jagged-1
+cd351|fc alpha mu receptor
+cd352|slamf6|ntb-a
+cd354|trem-1
+cd357|gitr
+cd358|dr6
+cd360|il-21 receptor|il21r
+cd362|syndecan-2
+cd363|s1pr1
+cd365|tim-1|havcr1|kim-1
+cd366|tim-3|havcr2
+cd369|dectin-1|clec7a
+cd370|clec9a|dngr-1
+cd371|clec12a|cll-1
+`, "2026-11-24");
+P("Name a gene linked to a human disease","science","",`
+cftr|cystic fibrosis transmembrane conductance regulator
+brca1
+brca2
+htt|huntingtin
+fbn1|fibrillin 1|fibrillin
+dmd|dystrophin
+fmr1|fmrp translational regulator 1
+hbb|beta globin|hemoglobin beta
+tp53|p53
+rb1
+apc
+kras
+nf1|neurofibromin
+pah|phenylalanine hydroxylase
+ldlr|ldl receptor|low density lipoprotein receptor
+col1a1|collagen type i alpha 1
+fgfr3|fibroblast growth factor receptor 3
+vhl
+ret|ret proto-oncogene
+men1|menin
+pten|phosphatase and tensin homolog
+stk11|lkb1
+mlh1
+msh2
+jak2|janus kinase 2
+bcr-abl1|bcr-abl|bcr abl
+braf
+egfr|erbb1
+erbb2|her2|her2/neu
+hfe|homeostatic iron regulator
+atp7b
+serpina1|alpha 1 antitrypsin gene
+pkd1|polycystin 1
+pkd2|polycystin 2
+col4a5|collagen type iv alpha 5
+wt1|wilms tumor 1 gene
+sry|sex determining region y
+cyp21a2|21-hydroxylase gene|21-hydroxylase
+gba1|gba|glucocerebrosidase
+hexa|hexosaminidase a
+mecp2|methyl cpg binding protein 2
+ube3a
+tbx1
+jag1|jagged 1
+notch3
+eln|elastin
+kcnq1
+scn5a
+ryr1|ryanodine receptor 1
+myh7|beta myosin heavy chain
+app|amyloid precursor protein
+psen1|presenilin 1
+psen2|presenilin 2
+apoe|apolipoprotein e
+snca|alpha synuclein
+lrrk2|dardarin
+sod1|superoxide dismutase 1
+c9orf72
+nf2|merlin|schwannomin
+tsc1|hamartin
+tsc2|tuberin
+smn1|survival motor neuron 1
+f8|factor viii gene
+f9|factor ix gene
+g6pd|glucose 6 phosphate dehydrogenase
+myc|c-myc
+mycn|n-myc
+bcl2
+abl1
+kit|c-kit
+alk|anaplastic lymphoma kinase
+cdkn2a|p16
+cdh1|e-cadherin
+smad4|dpc4
+msh6
+pms2
+epcam
+mutyh
+atm
+chek2
+palb2
+hba1|alpha globin
+hba2
+col1a2
+col3a1|collagen type iii alpha 1
+col2a1|collagen type ii alpha 1
+col5a1
+col4a3
+col4a4
+fgfr2
+fgfr1
+pcsk9
+apob|apolipoprotein b
+dmpk|myotonic dystrophy protein kinase
+fxn|frataxin
+pmp22|peripheral myelin protein 22
+mpz|myelin protein zero
+gjb1|connexin 32
+gjb2|connexin 26
+atxn1|ataxin 1
+atxn3|ataxin 3
+atxn2|ataxin 2
+mapt|tau|microtubule associated protein tau
+grn|progranulin
+tardbp|tdp-43
+fus
+prkn|parkin|park2
+pink1
+smn2
+vwf|von willebrand factor
+f5|factor v gene|factor v leiden
+f2|prothrombin gene
+mthfr
+adamts13
+ank1|ankyrin
+spta1|alpha spectrin
+sptb|beta spectrin
+slc4a1|band 3
+pklr|pyruvate kinase
+piga
+cybb|gp91phox
+ncf1|p47phox
+btk|bruton tyrosine kinase
+il2rg|common gamma chain
+ada|adenosine deaminase
+rag1
+rag2
+wasp|was gene
+foxp3
+aire|autoimmune regulator
+cd40lg|cd40 ligand gene
+lyst
+stat3
+ctla4
+nod2|card15
+hla-b27
+hla-dr4
+hla-dr3
+hla-dq2
+hla-b5701
+gla|alpha galactosidase a
+gaa|acid alpha glucosidase|acid maltase
+smpd1|acid sphingomyelinase
+npc1
+galc|galactocerebrosidase
+arsa|arylsulfatase a
+idua|alpha l iduronidase
+ids|iduronate 2 sulfatase
+abcd1
+hexb|hexosaminidase b
+snrpn
+cyp11b1|11 beta hydroxylase
+cyp17a1|17 alpha hydroxylase
+srd5a2|5 alpha reductase type 2
+ar|androgen receptor
+kcnh2|herg
+kcne1
+kcnj2
+ryr2
+cacna1s
+mybpc3|myosin binding protein c
+tnnt2|cardiac troponin t
+lmna|lamin a/c
+ttn|titin
+ttr|transthyretin
+dsp|desmoplakin
+pkp2|plakophilin 2
+nras
+hras
+ros1
+met|met proto-oncogene
+calr|calreticulin
+mpl|thrombopoietin receptor
+pdgfra
+flt3
+npm1|nucleophosmin
+idh1
+idh2
+pml-rara|pml rara
+runx1
+cebpa
+tet2
+dnmt3a
+asxl1
+sf3b1
+ezh2
+myd88
+gata1
+gata2
+ptch1|patched 1
+smo|smoothened
+sufu
+dicer1
+tert|telomerase reverse transcriptase
+bap1
+cdk4
+mitf
+sdhb
+sdhd
+blm
+wrn
+nbn|nibrin
+xpa
+fanca
+ext1|exostosin 1
+ext2|exostosin 2
+ptpn11|shp2
+sos1
+raf1
+nipbl
+nsd1
+cdkn1c|p57
+igf2
+h19
+kcnj11|kir6.2
+abcc8|sur1
+gck|glucokinase
+hnf1a
+hnf4a
+hnf1b
+ins|insulin gene
+insr|insulin receptor
+lep|leptin
+lepr|leptin receptor
+mc4r|melanocortin 4 receptor
+pomc|proopiomelanocortin
+ptpn22
+casr|calcium sensing receptor
+gnas|gs alpha
+phex
+fgf23
+clcn5
+slc12a1|nkcc2
+slc12a3|thiazide sensitive cotransporter
+scnn1b
+scnn1g
+avpr2|vasopressin receptor 2
+aqp2|aquaporin 2
+cldn16|paracellin 1
+wnk1
+wnk4
+nr3c2|mineralocorticoid receptor
+cyp11b2|aldosterone synthase
+kcnj5
+nphs1|nephrin
+nphs2|podocin
+ctns|cystinosin
+slc3a1
+slc7a9
+slc6a19
+agxt
+apol1|apolipoprotein l1
+umod|uromodulin
+pkhd1|fibrocystin
+pax6
+pax3
+pax2
+tyr|tyrosinase
+oca2
+rho|rhodopsin
+rpe65
+abca4
+abcc6
+cep290
+ndp|norrin
+chm|rab escort protein 1
+opa1
+mt-tl1
+mt-tk
+mt-nd4
+polg|dna polymerase gamma
+sgca|alpha sarcoglycan
+dysf|dysferlin
+capn3|calpain 3
+cav3|caveolin 3
+lama2|merosin|laminin alpha 2
+emd|emerin
+tgfbr1
+tgfbr2
+smad3
+acta2
+col7a1
+krt5|keratin 5
+krt14|keratin 14
+krt1|keratin 1
+krt10|keratin 10
+flg|filaggrin
+tgm1
+alpl|tissue nonspecific alkaline phosphatase
+lrp5
+sost|sclerostin
+slc26a2
+gli3
+shh|sonic hedgehog
+eya1
+lmx1b
+tp63|p63
+irf6
+chd7
+tcof1|treacle
+twist1
+runx2
+sox9
+shox|short stature homeobox
+hamp|hepcidin
+hjv|hemojuvelin
+tfr2|transferrin receptor 2
+slc40a1|ferroportin
+tmprss6|matriptase 2
+hmbs|porphobilinogen deaminase
+urod|uroporphyrinogen decarboxylase
+uros|uroporphyrinogen iii synthase
+fech|ferrochelatase
+alas2
+abcg5
+abcg8
+lpl|lipoprotein lipase
+apoc2
+mttp|microsomal triglyceride transfer protein
+abca1
+lcat
+lipa|lysosomal acid lipase
+apoa1|apolipoprotein a1
+hgd|homogentisate 1,2-dioxygenase
+fah|fumarylacetoacetate hydrolase
+bckdha
+otc|ornithine transcarbamylase
+ass1|argininosuccinate synthetase
+asl|argininosuccinate lyase
+cps1|carbamoyl phosphate synthetase 1
+mmut|methylmalonyl coa mutase
+pcca
+pccb
+hprt1|hgprt
+aldob|aldolase b
+galt|galactose 1 phosphate uridyltransferase
+galk1|galactokinase
+g6pc|glucose 6 phosphatase
+agl|glycogen debranching enzyme
+pygm|myophosphorylase
+pygl|liver glycogen phosphorylase
+gbe1|glycogen branching enzyme
+cbs|cystathionine beta synthase
+acadm|medium chain acyl coa dehydrogenase
+cpt2|carnitine palmitoyltransferase 2
+slc22a5|octn2
+ugt1a1
+atp8b1
+abcb4
+abcb11|bile salt export pump
+slc2a1|glut1
+slc2a2|glut2
+atp7a
+eng|endoglin
+acvrl1|alk1
+bmpr2
+nkx2-5
+tbx5
+gata4
+elane|neutrophil elastase
+hax1
+scn1a
+scn9a
+cdkl5
+foxg1
+pafah1b1|lis1
+dcx|doublecortin
+nlrp3|cryopyrin
+mefv|pyrin
+tnfrsf1a
+mvk|mevalonate kinase
+serping1|c1 inhibitor gene
+cfh|complement factor h
+cd46|membrane cofactor protein
+spink1
+prss1|cationic trypsinogen
+pabpn1
+cnbp|znf9
+npc2
+`, "2026-11-24");
+P("Name a named effect, phenomenon or reaction in medicine (like the Bohr effect)","science","",`
+bohr effect
+haldane effect
+raynaud phenomenon|raynauds
+somogyi effect|somogyi phenomenon
+dawn phenomenon|dawn effect
+wolff-chaikoff effect
+jod-basedow phenomenon|jod-basedow effect
+warburg effect|aerobic glycolysis
+jarisch-herxheimer reaction|herxheimer reaction
+arthus reaction
+koebner phenomenon|isomorphic response|kobner phenomenon
+placebo effect
+nocebo effect
+hawthorne effect|observer effect
+first-pass effect|first pass metabolism|presystemic metabolism
+chloride shift|hamburger shift|hamburger phenomenon
+root effect
+wenckebach phenomenon|wenckebach periodicity
+ashman phenomenon
+r-on-t phenomenon
+lazarus phenomenon|autoresuscitation
+uhthoff phenomenon
+hook effect|prozone effect|prozone phenomenon|high dose hook effect
+anrep effect|slow force response
+bowditch effect|treppe|staircase phenomenon
+bayliss effect|myogenic response
+windkessel effect
+fahraeus-lindqvist effect
+fahraeus effect
+gibbs-donnan effect|donnan effect|gibbs-donnan equilibrium
+venturi effect
+doppler effect|doppler shift
+piezoelectric effect
+incretin effect
+pasteur effect
+crabtree effect
+staub-traugott effect
+shwartzman reaction|shwartzman phenomenon|sanarelli-shwartzman reaction
+kasabach-merritt phenomenon
+gallavardin phenomenon
+subclavian steal|subclavian steal phenomenon
+coronary steal|coronary steal phenomenon
+reverse robin hood phenomenon|inverse steal|robin hood effect
+no-reflow phenomenon
+myocardial stunning|stunned myocardium
+hibernating myocardium|myocardial hibernation
+ischemic preconditioning
+wallerian degeneration
+doll's eye phenomenon|dolls eyes
+holmes rebound phenomenon|rebound phenomenon|stewart-holmes rebound
+rumpel-leede phenomenon
+pathergy|pathergy phenomenon
+pulfrich phenomenon|pulfrich effect
+tullio phenomenon
+marcus gunn jaw-winking phenomenon|jaw winking phenomenon|marcus gunn phenomenon
+bell phenomenon|bells phenomenon
+will rogers phenomenon|stage migration
+pygmalion effect|rosenthal effect
+wedensky phenomenon|wedensky facilitation|wedensky inhibition
+abscopal effect
+bystander effect
+heel effect|anode heel effect
+compton effect|compton scattering
+photoelectric effect
+magic angle effect
+partial volume effect
+t2 shine-through
+phantom limb phenomenon|phantom limb
+sundowning|sundown phenomenon
+kindling|kindling phenomenon
+wearing-off phenomenon|end of dose wearing off
+on-off phenomenon
+tumor flare|flare phenomenon|testosterone flare
+id reaction|autoeczematization
+reverse koebner phenomenon|renbok phenomenon
+wolf isotopic response
+meyerson phenomenon
+lucio phenomenon
+mazzotti reaction
+tyndall effect
+calcium paradox
+oxygen paradox
+herd immunity|herd effect|community immunity
+healthy worker effect
+regression to the mean
+weekend effect
+july effect|july phenomenon
+obesity paradox
+french paradox
+hispanic paradox|latino paradox
+white coat effect
+john henry effect
+ceiling effect
+post-tetanic potentiation
+tetanic fade
+second gas effect
+concentration effect
+diffusion hypoxia|fink effect
+pendelluft
+gap phenomenon
+concealed conduction
+linking phenomenon
+cardiac memory|t wave memory|chatterjee phenomenon
+warm-up phenomenon|walk-through angina
+coronary slow flow phenomenon|slow flow phenomenon
+aldosterone escape|aldosterone breakthrough|mineralocorticoid escape
+pressure natriuresis
+glomerulotubular balance
+houssay phenomenon
+arias-stella reaction
+purkinje shift|purkinje effect
+stiles-crawford effect
+troxler effect|troxler fading
+crowding phenomenon
+loudness recruitment
+precedence effect|haas effect
+occlusion effect
+clasp-knife phenomenon
+kernohan notch phenomenon
+todd paralysis|todd paresis|todd phenomenon
+jacksonian march
+cortical spreading depression|spreading depolarization|spreading depression of leao
+triple response of lewis|lewis triple response
+hunting reaction|lewis hunting response|cold induced vasodilation
+wheal and flare reaction
+prausnitz-kustner reaction
+schultz-dale reaction
+koch phenomenon
+jones-mote reaction
+danysz phenomenon
+maillard reaction|glycation reaction
+fenton reaction
+haber-weiss reaction
+leukemoid reaction
+leukoerythroblastic reaction
+disulfiram-like reaction|disulfiram reaction|antabuse reaction
+cheese reaction|tyramine reaction|cheese effect
+founder effect
+bottleneck effect|genetic bottleneck
+genetic anticipation|anticipation
+genomic imprinting
+lyonization|x inactivation
+position effect
+coanda effect
+second wind phenomenon
+post-exercise facilitation
+`, "2026-11-24");
+P("Name a landmark clinical trial or famous medical study","science","",`
+framingham heart study|framingham study|framingham
+nurses' health study|nurses health study
+women's health initiative|whi
+tuskegee syphilis study|tuskegee study|tuskegee experiment
+ukpds|uk prospective diabetes study
+dcct|diabetes control and complications trial
+physicians' health study|physicians health study
+british doctors study|doll and hill
+sprint|systolic blood pressure intervention trial
+allhat
+accord|action to control cardiovascular risk in diabetes
+advance trial
+vadt|veterans affairs diabetes trial
+edic|epidemiology of diabetes interventions and complications
+diabetes prevention program|dpp
+look ahead
+hope trial|heart outcomes prevention evaluation
+4s|scandinavian simvastatin survival study
+woscops|west of scotland coronary prevention study
+jupiter
+improve-it
+fourier
+reduce-it
+isis-2
+gissi
+consensus
+solvd
+rales
+paradigm-hf
+dapa-hf
+emperor-reduced
+emperor-preserved
+deliver trial
+empa-reg outcome
+leader trial
+select trial
+step trials
+surmount
+courage
+ischemia trial
+syntax
+freedom trial
+partner trial
+ninds tpa trial|ninds trial
+ecass iii|ecass 3
+mr clean
+dawn trial
+defuse 3
+nascet|north american symptomatic carotid endarterectomy trial
+crest trial
+arma trial|ardsnet arma|ardsnet low tidal volume trial|ardsnet
+nice-sugar
+rivers egdt trial|early goal directed therapy trial|rivers trial
+process trial
+arise trial
+promise trial
+tricc|transfusion requirements in critical care
+ttm trial|targeted temperature management trial
+corticus
+adrenal trial
+safe trial|saline versus albumin fluid evaluation
+smart trial|smart fluids trial|isotonic solutions and major adverse renal events trial
+crash-2
+crash-3
+nlst|national lung screening trial
+plco
+erspc
+protect trial
+nsabp b-06
+predimed
+star*d|stard|star d
+catie
+mta study|multimodal treatment study of adhd
+hptn 052
+start trial|strategic timing of antiretroviral treatment
+smart hiv trial|strategies for management of antiretroviral therapy
+actg 076|pactg 076
+iprex
+recovery trial
+actt-1
+compass trial
+re-ly
+rocket af
+aristotle
+engage af
+affirm
+cast|cardiac arrhythmia suppression trial
+madit
+madit-ii
+scd-heft
+danish trial
+cabana
+east-afnet 4
+plato trial
+triton-timi 38|triton
+cure trial
+charisma
+aspree
+arrive trial
+ascend trial
+mrfit|multiple risk factor intervention trial
+seven countries study
+minnesota starvation experiment
+lind scurvy trial|lind's scurvy experiment|james lind
+mrc streptomycin trial
+salk vaccine field trial|francis field trial|polio vaccine field trial
+willowbrook hepatitis study|willowbrook study
+alameda county study
+whitehall study|whitehall ii
+dunedin study
+ace study|adverse childhood experiences study
+oregon health insurance experiment
+rand health insurance experiment
+helsinki heart study
+lipid research clinics coronary primary prevention trial|lrc-cppt
+heart protection study
+prove it-timi 22|prove it
+tnt trial|treating to new targets
+ascot
+sparcl
+odyssey outcomes
+clear outcomes
+val-heft
+charm
+merit-hf
+copernicus
+cibis ii
+dig trial|digitalis investigation group
+a-heft
+shift trial
+gusto
+danami-2
+shock trial
+iabp-shock ii
+culprit-shock
+dapt study
+pegasus-timi 54
+stich trial
+revived-bcis2
+excel trial
+noble trial
+fame trial
+coapt
+mitra-fr
+shep|systolic hypertension in the elderly program
+syst-eur
+hyvet
+accomplish
+life trial
+ontarget
+hot trial|hypertension optimal treatment
+dash trial|dietary approaches to stop hypertension
+dash-sodium
+intersalt
+salt substitute and stroke study
+progress trial
+chance trial
+point trial
+ist-3
+interact2
+atach-2
+sammpris
+ecst|european carotid surgery trial
+acas|asymptomatic carotid atherosclerosis study
+acst
+escape trial
+swift prime
+revascat
+extend-ia
+hers|heart and estrogen progestin replacement study
+million women study
+castle-af
+avid trial
+steno-2
+kumamoto study
+ugdp|university group diabetes program
+canvas
+credence
+declare-timi 58
+empa-kidney
+dapa-ckd
+fidelio-dkd
+flow trial
+sustain-6
+rewind
+adopt trial
+today study
+mdrd study|modification of diet in renal disease
+aask|african american study of kidney disease
+choir
+treat trial
+hemo study
+ideal trial
+starrt-aki
+akiki
+atn trial|va/nih acute renal failure trial network
+proseva
+factt|fluid and catheter treatment trial
+alveoli
+rose trial
+oscillate
+oscar trial
+cesar
+eolia
+prowess
+prowess-shock
+vasst
+vanish
+aprocchss
+clovers
+classic trial
+6s trial
+chest trial
+basics trial
+plus trial
+triss
+abc trial|awakening and breathing controlled trial
+mends
+mind-usa
+halt-it
+crash trial|corticosteroid randomisation after significant head injury
+decra
+rescueicp
+proppr
+pamper
+arrest trial
+paramedic2
+hyperion
+ttm2
+leuven intensive insulin trial|van den berghe trial
+andromeda-shock
+lung health study
+torch
+uplift
+impact trial
+ethos trial
+nett|national emphysema treatment trial
+nott|nocturnal oxygen therapy trial
+lott|long-term oxygen treatment trial
+mrc oxygen trial
+inpulsis
+panther-ipf
+save trial|sleep apnea cardiovascular endpoints
+reprieve
+concorde trial
+caprisa 004
+partners prep
+hptn 083
+aquamat
+seaquamat
+solidarity trial
+remap-cap
+epic-hr
+rv144|thai hiv vaccine trial
+nsabp b-04
+nsabp p-1|breast cancer prevention trial
+study of tamoxifen and raloxifene
+hera trial
+nsabp b-31
+cleopatra
+katherine trial
+tailorx
+mindact
+rxponder
+acosog z0011|z0011
+amaros
+nelson trial
+pivot trial
+spcg-4
+minnesota colon cancer control study
+nordicc
+charted
+stampede
+latitude
+mosaic trial
+keynote-024
+checkmate 067
+pacific trial
+flaura
+adaura
+va laryngeal cancer study
+intergroup 0116|macdonald trial
+magic trial
+cross trial
+german rectal cancer trial
+dutch tme trial
+selenium and vitamin e cancer prevention trial
+atbc|alpha-tocopherol beta-carotene cancer prevention study
+caret|beta-carotene and retinol efficacy trial
+health professionals follow-up study
+iowa women's health study
+epic study|european prospective investigation into cancer and nutrition
+uk biobank
+black women's health study
+jackson heart study
+mesa|multi-ethnic study of atherosclerosis
+aric|atherosclerosis risk in communities
+cardia
+bogalusa heart study
+honolulu heart program
+rotterdam study
+cardiovascular health study
+strong heart study
+interheart
+interstroke
+pure study|prospective urban rural epidemiology
+dutch famine birth cohort|dutch hunger winter study
+grant study|harvard study of adult development
+nun study
+baltimore longitudinal study of aging
+nhanes|national health and nutrition examination survey
+alspac|avon longitudinal study of parents and children
+john snow cholera study|broad street pump
+semmelweis handwashing study
+jenner smallpox vaccination|jenner cowpox experiment
+goldberger pellagra experiments
+walter reed yellow fever experiments|yellow fever commission
+guatemala syphilis experiments
+vipeholm experiments
+rosenhan experiment|on being sane in insane places
+tads|treatment for adolescents with depression study
+step-bd
+nimh treatment of depression collaborative research program|tdcrp
+intersept
+project match
+combine study
+term breech trial
+moms trial|management of myelomeningocele study
+oracle trial
+chap trial|chronic hypertension and pregnancy
+aspre
+support trial
+toby trial
+cap trial|caffeine for apnea of prematurity
+hapo study|hyperglycemia and adverse pregnancy outcome
+leap study|learning early about peanut allergy
+probit
+feast trial
+national polyp study
+halt-c
+sport|spine patient outcomes research trial
+rooby
+bari
+bari 2d
+evar 1
+over trial
+dream trial
+coda trial
+appac
+moseley arthroscopy sham trial
+swedish obese subjects|sos study
+lyon diet heart study
+dart|diet and reinfarction trial
+minnesota coronary experiment
+sydney diet heart study
+vital trial|vitamin d and omega-3 trial
+caprie
+active trial
+augustus
+averroes
+einstein trial
+amplify
+pioped
+peitho
+prepic
+attract trial
+da qing study
+finnish diabetes prevention study
+origin trial
+traverse
+testosterone trials
+fit|fracture intervention trial
+horizon trial
+`, "2026-11-24");
+P("Name an oncology term (cancer staging, treatment or tumor biology)","care","",`
+metastasis|metastases|metastatic disease|mets
+chemotherapy|chemo
+radiation therapy|radiotherapy|xrt
+neoplasm|neoplasia|tumor|tumour
+malignant|malignancy
+benign
+carcinoma
+sarcoma
+staging|cancer staging
+tnm staging|tnm|tnm classification
+tumor grade|grading|histologic grade
+carcinoma in situ|in situ
+dysplasia
+anaplasia
+metaplasia
+hyperplasia
+desmoplasia|desmoplastic reaction
+oncogene
+proto-oncogene
+tumor suppressor gene
+two-hit hypothesis|knudson hypothesis|knudson two hit
+angiogenesis|tumor angiogenesis
+hallmarks of cancer
+telomerase
+remission
+complete response|complete remission
+partial response|partial remission
+stable disease
+progressive disease|disease progression
+adjuvant therapy|adjuvant
+neoadjuvant therapy|neoadjuvant
+palliative care|palliative therapy|palliation
+curative intent|curative therapy
+immunotherapy
+targeted therapy
+immune checkpoint inhibitor|checkpoint inhibitor|checkpoint blockade
+car-t cell therapy|car-t|chimeric antigen receptor t cell
+stem cell transplant|hematopoietic stem cell transplant|hsct|bone marrow transplant|bmt
+graft-versus-host disease|gvhd
+tumor lysis syndrome|tls
+paraneoplastic syndrome
+cachexia|cancer cachexia
+tumor marker|tumor markers
+superior vena cava syndrome|svc syndrome
+malignant spinal cord compression|spinal cord compression|mscc
+hypercalcemia of malignancy
+neutropenic fever|febrile neutropenia
+oncologic emergency
+recist|response evaluation criteria in solid tumors
+ecog performance status|ecog|performance status|zubrod
+karnofsky performance status|karnofsky|kps
+overall survival
+progression-free survival|pfs
+disease-free survival|dfs
+event-free survival|efs
+five-year survival|5 year survival rate
+recurrence
+relapse
+minimal residual disease|measurable residual disease|mrd
+sentinel lymph node biopsy|sentinel node|slnb
+lymph node dissection|lymphadenectomy
+surgical margins|margins|negative margins|clear margins
+r0 resection
+r1 resection
+debulking|cytoreduction|cytoreductive surgery
+induction chemotherapy|induction therapy
+consolidation therapy|consolidation
+maintenance therapy
+salvage therapy
+microsatellite instability|msi|msi-high
+mismatch repair deficiency|dmmr|mismatch repair
+tumor mutational burden|tmb
+driver mutation
+passenger mutation
+liquid biopsy
+circulating tumor dna|ctdna
+circulating tumor cells
+nadir
+myelosuppression|bone marrow suppression
+mucositis
+brachytherapy
+external beam radiation therapy|ebrt
+imrt|intensity modulated radiation therapy
+sbrt|stereotactic body radiation therapy|sabr
+stereotactic radiosurgery|srs|gamma knife
+proton therapy|proton beam therapy
+gray|gy
+fractionation
+hypofractionation
+tumor board|multidisciplinary tumor board
+oncotype dx|oncotype|21-gene recurrence score
+mammaprint
+brca mutation|brca
+her2|her2 positive|her2/neu
+estrogen receptor|er positive|er status
+progesterone receptor|pr positive|pr status
+triple negative
+pd-l1|pd-l1 expression
+breslow depth|breslow thickness
+gleason score|gleason grade
+isup grade group|grade group
+ann arbor staging|ann arbor
+figo staging|figo
+dukes staging|dukes classification
+clark level
+nottingham grade|elston-ellis grade|bloom-richardson grade
+ki-67|proliferation index
+mitotic rate|mitotic count|mitotic index
+lymphovascular invasion|lvi
+perineural invasion|pni
+clonal evolution
+field cancerization|field effect
+seed and soil hypothesis|seed and soil
+warburg effect
+autologous stem cell transplant|autologous transplant
+allogeneic stem cell transplant|allogeneic transplant
+graft-versus-tumor effect|graft versus leukemia|gvl
+conditioning regimen
+cytokine release syndrome|crs
+icans|immune effector cell associated neurotoxicity syndrome
+immune-related adverse event|irae
+tumor heterogeneity|intratumoral heterogeneity
+cancer stem cells
+epithelial-mesenchymal transition|emt
+evasion of apoptosis
+loss of contact inhibition|contact inhibition
+immortalization
+genomic instability
+chromothripsis
+gene amplification
+chromosomal translocation
+fusion gene|gene fusion
+philadelphia chromosome
+loss of heterozygosity|loh
+epigenetic silencing|promoter hypermethylation
+carcinogen
+carcinogenesis
+tumor initiation
+tumor promotion
+oncogenic virus|oncovirus
+immunosurveillance|immune surveillance
+cancer immunoediting|immunoediting
+tumor microenvironment
+tumor-infiltrating lymphocytes|tils
+tumor-associated macrophages
+neoantigen|tumor-specific antigen
+tumor-associated antigen
+tumor doubling time|doubling time
+gompertzian growth
+log kill hypothesis|log cell kill
+cell cycle-specific chemotherapy
+cell cycle-nonspecific chemotherapy
+multidrug resistance|chemoresistance
+dose-dense chemotherapy
+combination chemotherapy
+metronomic chemotherapy
+intrathecal chemotherapy
+hipec|hyperthermic intraperitoneal chemotherapy
+tace|transarterial chemoembolization
+radioembolization|sirt|y-90 radioembolization
+radiofrequency ablation|rfa
+cryoablation
+radioligand therapy|radiopharmaceutical therapy
+monoclonal antibody
+antibody-drug conjugate|adc
+tyrosine kinase inhibitor|tki
+parp inhibitor
+endocrine therapy|hormone therapy|hormonal therapy
+androgen deprivation therapy|adt
+aromatase inhibitor
+cdk4/6 inhibitor
+bispecific t cell engager|bispecific antibody|bite
+oncolytic virus|oncolytic virotherapy
+cancer vaccine
+alkylating agent
+antimetabolite
+anthracycline
+platinum-based chemotherapy|platinum agent
+taxane
+vinca alkaloid
+topoisomerase inhibitor
+chemotherapy-induced nausea and vomiting|cinv
+chemotherapy-induced peripheral neuropathy|cipn
+chemotherapy-induced alopecia
+extravasation
+radiation dermatitis
+radiation pneumonitis
+cardiotoxicity|cardio-oncology
+cancer-related fatigue
+port-a-cath|implanted port|chemo port
+core needle biopsy
+fine needle aspiration|fna
+excisional biopsy
+incisional biopsy
+frozen section
+immunohistochemistry|ihc
+fluorescence in situ hybridization|fish
+next-generation sequencing|ngs|tumor sequencing
+flow cytometry
+pet-ct|pet scan
+restaging
+active surveillance
+watchful waiting
+cancer screening
+chemoprevention
+risk-reducing surgery|prophylactic mastectomy
+lumpectomy|breast conserving surgery
+mastectomy
+en bloc resection
+metastasectomy
+limb-salvage surgery
+oligometastatic disease|oligometastasis
+micrometastasis
+distant metastasis
+local recurrence|locoregional recurrence
+locally advanced
+unresectable
+borderline resectable
+hematogenous spread
+lymphatic spread
+peritoneal carcinomatosis|peritoneal seeding
+drop metastasis
+cancer of unknown primary|carcinoma of unknown primary
+second primary malignancy
+therapy-related malignancy|treatment-related leukemia
+cancer survivorship|survivorship
+hospice
+pseudoprogression
+hyperprogression
+abscopal effect
+tumor flare
+objective response rate|orr|response rate
+duration of response
+pathologic complete response|pcr
+clinical benefit rate
+time to progression
+hereditary cancer syndrome|cancer predisposition syndrome
+germline mutation
+somatic mutation
+well differentiated
+poorly differentiated
+undifferentiated
+nuclear pleomorphism|pleomorphism
+invasive carcinoma|invasion
+microinvasion
+tumor necrosis
+blast crisis
+prognostic factor
+predictive biomarker
+companion diagnostic
+precision oncology|precision medicine
+basket trial
+umbrella trial
+dose-limiting toxicity|dlt
+maximum tolerated dose|mtd
+ctcae|common terminology criteria for adverse events
+irecist
+lugano classification
+deauville score
+international prognostic index|ipi
+rai staging
+binet staging
+international staging system|durie-salmon staging
+bclc staging|barcelona clinic liver cancer staging
+masaoka staging
+enneking staging
+fuhrman grade
+bi-rads
+lung-rads
+pi-rads
+li-rads
+`, "2026-11-24");
+P("Name a therapeutic or procedural maneuver (like the Epley or McRoberts maneuver)","care","",`
+epley maneuver|epley|canalith repositioning procedure
+heimlich maneuver|abdominal thrusts|heimlich
+mcroberts maneuver|mcroberts
+valsalva maneuver|valsalva
+carotid sinus massage
+jaw thrust|esmarch-heiberg maneuver
+head tilt-chin lift
+sellick maneuver|cricoid pressure
+suprapubic pressure|mazzanti maneuver
+woods screw maneuver|woods corkscrew maneuver|woods maneuver
+rubin maneuver|rubin ii
+zavanelli maneuver|cephalic replacement
+gaskin maneuver|all fours maneuver
+delivery of the posterior arm|posterior arm delivery|jacquemier maneuver
+semont maneuver|liberatory maneuver
+pringle maneuver
+kocher maneuver|kocherization|kocher method
+back blows
+chest thrusts
+burp maneuver|backward upward rightward pressure
+modified valsalva maneuver|revert maneuver
+diving reflex|ice water facial immersion|dive reflex
+mauriceau-smellie-veit maneuver|mauriceau maneuver
+pinard maneuver
+lovset maneuver
+bracht maneuver
+ritgen maneuver|modified ritgen maneuver
+crede maneuver
+brandt-andrews maneuver|controlled cord traction
+bimanual uterine compression|bimanual compression
+uterine massage|fundal massage
+external cephalic version|ecv
+gufoni maneuver
+barbecue roll|bbq roll|lempert maneuver
+brandt-daroff exercises
+cattell-braasch maneuver
+mattox maneuver|left medial visceral rotation
+hippocratic method|hippocratic maneuver
+stimson technique|stimson maneuver
+milch technique|milch maneuver
+fares method
+cunningham technique|cunningham method
+spaso technique
+external rotation method|hennepin technique|leidelmeyer technique
+scapular manipulation
+traction-countertraction
+allis maneuver|allis method
+bigelow maneuver
+captain morgan technique
+east baltimore lift
+whistler technique
+mendelsohn maneuver
+supraglottic swallow
+super-supraglottic swallow
+effortful swallow
+chin tuck|chin down posture
+masako maneuver|tongue hold maneuver
+shaker exercise|head lift exercise
+head rotation maneuver|head turn posture
+reverse woods screw maneuver
+posterior axillary sling traction
+menticoglou maneuver
+shrug maneuver
+prague maneuver
+kristeller maneuver|fundal pressure
+internal podalic version
+johnson maneuver|johnson method
+scanzoni maneuver
+manual uterine displacement|left uterine displacement
+yacovino maneuver|deep head hanging maneuver
+foster maneuver|half somersault maneuver
+external laryngeal manipulation|bimanual laryngoscopy
+triple airway maneuver
+manual in-line stabilization|mils
+log roll
+recruitment maneuver|lung recruitment maneuver
+precordial thump
+vagal maneuver
+aschner maneuver|ocular pressure
+toynbee maneuver
+frenzel maneuver
+politzer maneuver|politzerization
+mother's kiss|parent's kiss
+manual detorsion|open book maneuver
+hernia taxis|taxis
+finger sweep|blind finger sweep
+physical counterpressure maneuvers|applied tension
+hyperpronation maneuver
+supination-flexion maneuver
+eskimo technique
+chair method
+davos technique|boss-holzach-matter technique
+leadbetter maneuver
+ocular massage|digital ocular massage
+huff cough|forced expiration technique
+`, "2026-11-24");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

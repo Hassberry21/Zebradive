@@ -81578,6 +81578,94 @@ pucker up
 toothpaste is out of the tube|can't put the toothpaste back in the tube|toothpaste back in the tube
 `, "2026-11-24");
 
+/* ---- NEW STANDARD DAILY PROMPTS: DENTAL (batch 2026-11-22 part 2) ---- */
+P("Name a treatment for gum disease","dental","",`
+scaling and root planing|srp|deep cleaning|deep scaling|root planing
+dental cleaning|professional cleaning|prophylaxis|prophy|cleaning
+scaling|debridement|calculus removal|tartar removal|subgingival debridement
+periodontal maintenance|perio maintenance|maintenance cleanings|supportive periodontal therapy|recall
+brushing|better brushing|toothbrushing|improved oral hygiene|oral hygiene instruction|ohi
+flossing|floss
+chlorhexidine|chlorhexidine mouthwash|peridex|chlorhexidine rinse|chx
+antibacterial mouthwash|antiseptic mouthwash|listerine|essential oil mouthwash|mouthwash|cetylpyridinium chloride
+antibiotics|systemic antibiotics
+amoxicillin and metronidazole|amoxicillin plus metronidazole|van winkelhoff cocktail
+metronidazole|flagyl
+doxycycline|doxy
+amoxicillin
+azithromycin
+clindamycin
+tetracycline
+minocycline microspheres|arestin|local antibiotic|locally delivered antibiotic|local antimicrobials
+doxycycline gel|atridox
+chlorhexidine chip|periochip
+subantimicrobial dose doxycycline|periostat|host modulation therapy|host modulation
+flap surgery|periodontal flap surgery|open flap debridement|access flap|modified widman flap
+osseous surgery|pocket reduction surgery|apically positioned flap|osteoplasty|ostectomy|resective surgery
+gingivectomy
+gingivoplasty
+guided tissue regeneration|gtr|barrier membrane|membrane
+bone graft|bone grafting|regenerative surgery|periodontal regeneration
+enamel matrix derivative|emdogain|emd
+platelet rich fibrin|prf|platelet rich plasma|prp
+growth factors|rhpdgf|gem 21s|recombinant pdgf
+gum graft|gingival graft|soft tissue graft
+free gingival graft|fgg
+connective tissue graft|ctg|subepithelial connective tissue graft
+coronally advanced flap|coronally positioned flap
+lateral pedicle flap|laterally positioned flap
+tunnel technique|tunneling
+pinhole surgical technique|pinhole surgery|chao pinhole
+acellular dermal matrix|alloderm|dermal graft
+collagen matrix|mucograft|xenogeneic collagen matrix
+frenectomy|frenotomy|frenuloplasty
+crown lengthening
+laser therapy|laser periodontal therapy|lanap|laser assisted new attachment procedure|laser curettage|laser
+photodynamic therapy|antimicrobial photodynamic therapy
+gingival curettage|curettage|soft tissue curettage
+full mouth disinfection|full mouth scaling|one stage full mouth disinfection
+ultrasonic scaling|cavitron|ultrasonic debridement|piezo scaling
+air polishing|glycine powder air polishing|erythritol air polishing|guided biofilm therapy
+interdental brushes|proxabrush|interproximal brushes
+water flosser|waterpik|oral irrigator|irrigation
+electric toothbrush|power toothbrush
+antimicrobial toothpaste|stannous fluoride toothpaste|stannous fluoride|triclosan toothpaste
+povidone iodine irrigation|povidone iodine|betadine irrigation
+hydrogen peroxide rinse|hydrogen peroxide|perio tray|perio protect
+salt water rinse|saltwater rinse
+quit smoking|smoking cessation|stop smoking|tobacco cessation
+diabetes control|glycemic control|controlling blood sugar
+probiotics
+splinting|periodontal splint|splinting loose teeth
+occlusal adjustment|selective grinding|bite adjustment
+tooth extraction|extraction|pulling teeth
+root amputation|root resection
+hemisection
+tunnel preparation|furcation tunnel preparation
+odontoplasty|furcationplasty
+periodontal abscess drainage|incision and drainage|abscess drainage
+periodontal dressing|coe pak
+correcting restorations|removing overhangs|replacing overhanging fillings
+treating the underlying condition|stopping causative medication|medication change
+anti inflammatory drugs|nsaids|ibuprofen
+omega 3 fatty acids|omega 3 and aspirin
+local delivery of statins|statin gel
+root surface conditioning|root conditioning|tetracycline root conditioning|edta root conditioning
+allograft|dfdba|fdba|demineralized freeze dried bone allograft
+xenograft|bio oss|bovine bone graft
+autograft|autogenous bone graft
+alloplast|bioactive glass|beta tricalcium phosphate|synthetic bone graft
+distal wedge|distal wedge procedure
+end tuft brush|single tuft brush|end tufted brush
+rubber tip stimulator|gum stimulator|rubber tip
+wooden toothpicks|stimudents|wood sticks|toothpicks
+hyaluronic acid gel|gengigel|hyaluronic acid
+tetracycline fibers|actisite
+metronidazole gel|elyzol
+keyes technique|baking soda and peroxide
+nd yag laser|er yag laser|diode laser
+`, "2026-11-24");
+
 /* ==== NEW DAILY PROMPT BATCHES GO DIRECTLY ABOVE THIS LINE (see src/NEW_PROMPTS.md) ==== */
 
 /* ---- deeper answer lists for the 2026-10-31 batch (added answers are the rarer ones) ---- */

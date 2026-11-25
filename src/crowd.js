@@ -7212,3 +7212,161 @@ crowdAlias("Name something to teach a patient with diabetes", "meal planning", "
 crowdAlias("Name something to teach a patient with diabetes", "blood glucose monitoring", "sugar checks");  // 2026-11-24 · 1 player · same as blood glucose monitoring
 crowdAlias("Name a pediatric orthopedic condition", "little league elbow", "pitches elbow");  // 2026-11-24 · 1 player · same as little league elbow
 crowdAlias("Name a vaccine", "chikungunya", "chikumongya");  // 2026-11-24 · 1 player · same as chikungunya
+crowd("Name a muscle or musculoskeletal physiology term", 61, "biceps|bicep|biceps brachii");  // 2026-11-25 · 17 players · named muscle fits "a muscle"
+crowd("Name an endocrine or reproductive physiology term", 61, "luteinizing hormone|lh|lutenizing hormone|luitenizing hormone");  // 2026-11-25 · 21 players · gonadotropin, like fsh on list
+crowd("Name a cause of hypotonia in an infant (floppy baby)", 59, "abusive head trauma|shaken baby syndrome|shaken baby|shaking|non accidental head injury");  // 2026-11-25 · 18 players · acute brain injury causes infant hypotonia
+crowd("Name a muscle or musculoskeletal physiology term", 65, "gastrocnemius|gastroc|gastrocnemius muscle");  // 2026-11-25 · 14 players · named muscle
+crowd("Name an endocrine or reproductive physiology term", 69, "adrenocorticotropic hormone|acth|corticotropin");  // 2026-11-25 · 14 players · pituitary hormone, like tsh/fsh on list
+crowd("Name an endocrine or reproductive physiology term", 70, "ovary|ovaries");  // 2026-11-25 · 13 players · reproductive organ; structures like corpus luteum on list
+crowd("Name a muscle or musculoskeletal physiology term", 68, "sternocleidomastoid|scm|sternocleiomastoid|sternoclerimastoid");  // 2026-11-25 · 12 players · named muscle
+crowd("Name an endocrine or reproductive physiology term", 72, "gonadotropin releasing hormone|gnrh");  // 2026-11-25 · 12 players · hypothalamic hormone of HPG axis
+crowd("Name a treatment for gum disease", 53, "professional mechanical plaque removal|pmpr");  // 2026-11-25 · 11 players · step 1 periodontal therapy (EFP guideline)
+crowd("Name a muscle or musculoskeletal physiology term", 69, "piriformis");  // 2026-11-25 · 11 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 71, "psoas|psoas major");  // 2026-11-25 · 10 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 71, "deltoid");  // 2026-11-25 · 10 players · named muscle
+crowd("Name an endocrine or reproductive physiology term", 75, "uterus|womb");  // 2026-11-25 · 10 players · reproductive organ
+crowd("Name a muscle or musculoskeletal physiology term", 73, "soleus");  // 2026-11-25 · 9 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 73, "sartorius|sartorus");  // 2026-11-25 · 9 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 75, "fascia");  // 2026-11-25 · 8 players · musculoskeletal connective tissue
+crowd("Name a muscle or musculoskeletal physiology term", 75, "stapedius|stapedius muscle");  // 2026-11-25 · 8 players · named muscle
+crowd("Name a dental abbreviation or acronym", 62, "alara");  // 2026-11-25 · 8 players · radiation safety acronym used in dental radiography
+crowd("Name a muscle or musculoskeletal physiology term", 77, "gluteus maximus|glute|gluteus|glutes");  // 2026-11-25 · 7 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 79, "plantaris");  // 2026-11-25 · 6 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 79, "masseter");  // 2026-11-25 · 6 players · named muscle
+crowd("Name an endocrine or reproductive physiology term", 82, "estrogen|oestrogen|estradiol");  // 2026-11-25 · 6 players · ovarian sex hormone, like testosterone on list
+crowd("Name an endocrine or reproductive physiology term", 82, "gubernaculum");  // 2026-11-25 · 6 players · guides gonadal descent; reproductive development
+crowd("Name a dental abbreviation or acronym", 67, "pmma");  // 2026-11-25 · 6 players · polymethyl methacrylate, denture base resin
+crowd("Name a muscle or musculoskeletal physiology term", 81, "adduction");  // 2026-11-25 · 5 players · kinesiology movement term
+crowd("Name a muscle or musculoskeletal physiology term", 81, "hamstrings|hamstring");  // 2026-11-25 · 5 players · named muscle group
+crowd("Name a muscle or musculoskeletal physiology term", 81, "quadriceps|quad|quads");  // 2026-11-25 · 5 players · named muscle group
+crowd("Name an endocrine or reproductive physiology term", 84, "progesterone");  // 2026-11-25 · 5 players · luteal sex hormone
+crowd("Name an endocrine or reproductive physiology term", 84, "antidiuretic hormone|adh");  // 2026-11-25 · 5 players · posterior pituitary hormone
+crowd("Name an endocrine or reproductive physiology term", 84, "epididymis");  // 2026-11-25 · 5 players · male reproductive organ, sperm maturation
+crowd("Name a pharmacy job or setting", 71, "pharmacy assistant|assistant");  // 2026-11-25 · 5 players · distinct pharmacy support role
+crowd("Name something found in a hospital room", 76, "gauze");  // 2026-11-25 · 5 players · standard bedside supply
+crowd("Name a critical care (ICU) term", 86, "bolus|fluid bolus");  // 2026-11-25 · 4 players · common ICU term
+crowd("Name a critical care (ICU) term", 86, "cpr|cardiopulmonary resuscitation");  // 2026-11-25 · 4 players · ICU code term
+crowd("Name an endocrine or reproductive physiology term", 89, "fallopian tube|fallopian tubes|fallopian|fallopian tubw|uterine tube");  // 2026-11-25 · 3 players · site of fertilization
+crowd("Name a muscle or musculoskeletal physiology term", 87, "orbicularis oculi|obicularis occuli|orbiculari oculi|occularis obiscular");  // 2026-11-25 · 3 players · named muscle
+crowd("Name an endocrine or reproductive physiology term", 92, "glucagon");  // 2026-11-25 · 2 players · islet hormone, alpha cells on list
+crowd("Name an endocrine or reproductive physiology term", 92, "corona radiata");  // 2026-11-25 · 2 players · granulosa layer around the oocyte
+crowd("Name an endocrine or reproductive physiology term", 92, "atrial natriuretic peptide|anp");  // 2026-11-25 · 2 players · cardiac hormone in volume regulation
+crowd("Name a cause of hypotonia in an infant (floppy baby)", 90, "chloramphenicol|gray baby syndrome|grey baby syndrome|chlroophenicol");  // 2026-11-25 · 2 players · gray baby syndrome causes flaccidity
+crowd("Name a prescription (sig) abbreviation", 73, "aaa|apply to affected area");  // 2026-11-25 · 2 players · standard sig abbreviation
+crowd("Name a muscle or musculoskeletal physiology term", 91, "tensor tympani");  // 2026-11-25 · 2 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 91, "pyramidalis");  // 2026-11-25 · 2 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 91, "latissimus dorsi|lat dorsi|lats");  // 2026-11-25 · 2 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 91, "lateral pterygoid|lateral pterygoid muscle|lateral pteragoid");  // 2026-11-25 · 2 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 91, "pronator teres|pornator teres");  // 2026-11-25 · 2 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 91, "extensor carpi radialis brevis|ecrb|extersor capri radialis brevis");  // 2026-11-25 · 2 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 91, "gracilis|gracillis");  // 2026-11-25 · 2 players · named muscle
+crowd("Name a muscle or musculoskeletal physiology term", 91, "pectoralis major|pectoralis|pectoral|pecs");  // 2026-11-25 · 2 players · named muscle
+crowd("Name a word ending in -osis", 91, "fluorosis|dental fluorosis");  // 2026-11-25 · 1 player · ends in -osis
+crowd("Name a word ending in -osis", 91, "phimosis");  // 2026-11-25 · 1 player · ends in -osis
+crowd("Name a word ending in -osis", 91, "tendinosis");  // 2026-11-25 · 1 player · ends in -osis
+crowd("Name a word ending in -osis", 91, "koilocytosis");  // 2026-11-25 · 1 player · ends in -osis
+crowd("Name a word ending in -osis", 91, "osteoradionecrosis");  // 2026-11-25 · 1 player · ends in -osis
+crowd("Name a word ending in -osis", 91, "sialadenosis|sialosis|sialedenosis");  // 2026-11-25 · 1 player · ends in -osis
+crowd("Name a word ending in -osis", 91, "hypomelanosis");  // 2026-11-25 · 1 player · ends in -osis
+crowd("Name a cause of tinnitus", 95, "perilymphatic fistula");  // 2026-11-25 · 1 player · recognized otologic cause
+crowd("Name a cause of tinnitus", 95, "lithium");  // 2026-11-25 · 1 player · tinnitus in lithium labeling/toxicity
+crowd("Name a cause of ascites", 95, "struma ovarii");  // 2026-11-25 · 1 player · causes pseudo-Meigs syndrome with ascites
+crowd("Name a dental brand or company", 87, "patanjali|patanjali dant kanti|dant kanti");  // 2026-11-25 · 4 players · Indian toothpaste brand (Dant Kanti)
+crowdAlias("Name a cause of tinnitus", "age-related hearing loss", "hearing loss|age|old age|aging|presbycusis");  // 2026-11-25 · 27 players · same as age-related hearing loss
+crowdAlias("Name a cause of tinnitus", "noise exposure", "loud music|loud sound|loud noise|gunshot|bomb|blast");  // 2026-11-25 · 18 players · same as noise exposure
+crowdAlias("Name a cause of tinnitus", "acoustic neuroma", "vestibular schwannoma|schwannoma|schwanoma");  // 2026-11-25 · 13 players · same as acoustic neuroma
+crowdAlias("Name a cause of tinnitus", "tmj disorder", "tmj");  // 2026-11-25 · 2 players · same as tmj disorder
+crowdAlias("Name a cause of tinnitus", "quinine", "cinchonism");  // 2026-11-25 · 1 player · same as quinine
+crowdAlias("Name a cause of tinnitus", "loop diuretics", "lasix|furosemide");  // 2026-11-25 · 1 player · same as loop diuretics
+crowdAlias("Name a cause of tinnitus", "perforated eardrum", "tympanic membrane rupture|timpanic membrane rupture|tm perforation");  // 2026-11-25 · 1 player · same as perforated eardrum
+crowdAlias("Name a cause of ascites", "cirrhosis", "alcoholism|drinking|alcohol");  // 2026-11-25 · 12 players · same as cirrhosis
+crowdAlias("Name a cause of ascites", "nephrogenous ascites", "ckd|chronic kidney disease");  // 2026-11-25 · 4 players · same as nephrogenous ascites
+crowdAlias("Name a cause of ascites", "trauma", "injury");  // 2026-11-25 · 1 player · same as trauma
+crowdAlias("Name a cause of ascites", "krukenberg tumor", "krukenburg|krukenberg");  // 2026-11-25 · 1 player · same as krukenberg tumor
+crowdAlias("Name a cause of ascites", "ovarian cancer", "ovarian carcinoma");  // 2026-11-25 · 1 player · same as ovarian cancer
+crowdAlias("Name a cause of ascites", "portal hypertension", "portal htn|portal vein hypertension");  // 2026-11-25 · 2 players · same as portal hypertension
+crowdAlias("Name a cause of ascites", "nonalcoholic steatohepatitis", "non alcoholic fatty liver disease|nafld|masld");  // 2026-11-25 · 1 player · same as nonalcoholic steatohepatitis
+crowdAlias("Name a vascular surgery procedure", "stenting", "stent placement|stint|stent");  // 2026-11-25 · 8 players · same as stenting
+crowdAlias("Name a vascular surgery procedure", "open aortic aneurysm repair", "aaa repair");  // 2026-11-25 · 1 player · same as open aortic aneurysm repair
+crowdAlias("Name a vascular surgery procedure", "carotid artery stenting", "carotid artery angioplasty|carotid artery angioplasy|carotid angioplasty");  // 2026-11-25 · 1 player · same as carotid artery stenting
+crowdAlias("Name a vascular surgery procedure", "ambulatory phlebectomy", "phlebectomy");  // 2026-11-25 · 1 player · same as ambulatory phlebectomy
+crowdAlias("Name a vascular surgery procedure", "endovenous laser ablation", "venous ablation");  // 2026-11-25 · 1 player · same as endovenous laser ablation
+crowdAlias("Name a vascular surgery procedure", "bypass graft", "bypass surgery");  // 2026-11-25 · 1 player · same as bypass graft
+crowdAlias("Name a structure of the retroperitoneum or posterior abdominal wall", "quadratus lumborum", "ql");  // 2026-11-25 · 1 player · same as quadratus lumborum
+crowdAlias("Name a structure of the retroperitoneum or posterior abdominal wall", "sympathetic trunk", "sympathetic ganglion|sympathetic chain");  // 2026-11-25 · 1 player · same as sympathetic trunk
+crowdAlias("Name a structure of the retroperitoneum or posterior abdominal wall", "transverse processes", "transverse vertebral process");  // 2026-11-25 · 1 player · same as transverse processes
+crowdAlias("Name a cause of hypotonia in an infant (floppy baby)", "hypoxic ischemic encephalopathy", "hypoxia|low oxygen|birth asphyxia");  // 2026-11-25 · 22 players · same as hypoxic ischemic encephalopathy
+crowdAlias("Name a cause of hypotonia in an infant (floppy baby)", "infant botulism", "honey|botox|botulinum toxin|botulinium toxin|clostridium|clostridium botulinum");  // 2026-11-25 · 26 players · same as infant botulism
+crowdAlias("Name a cause of hypotonia in an infant (floppy baby)", "congenital muscular dystrophy", "muscular dystrophy");  // 2026-11-25 · 7 players · same as congenital muscular dystrophy
+crowdAlias("Name a cause of hypotonia in an infant (floppy baby)", "congenital cmv", "cmv");  // 2026-11-25 · 6 players · same as congenital cmv
+crowdAlias("Name a cause of hypotonia in an infant (floppy baby)", "maternal drugs", "opioid|opioids");  // 2026-11-25 · 1 player · same as maternal drugs
+crowdAlias("Name a cause of hypotonia in an infant (floppy baby)", "malnutrition", "poor diet");  // 2026-11-25 · 1 player · same as malnutrition
+crowdAlias("Name a cause of hypotonia in an infant (floppy baby)", "spinal muscular atrophy", "sma tupe 0|sma type 0|spinal muscular atrophy ii");  // 2026-11-25 · 2 players · same as spinal muscular atrophy
+crowdAlias("Name a dental abbreviation or acronym", "pano", "opg|orthopantomogram");  // 2026-11-25 · 8 players · same as pano
+crowdAlias("Name a symptom of ADHD", "difficulty sustaining attention", "inability to focus|difficult focusing|difficulty concentrating|focus problems|trouble focusing");  // 2026-11-25 · 5 players · same as difficulty sustaining attention
+crowdAlias("Name a symptom of ADHD", "restlessness", "antsyness|antsy");  // 2026-11-25 · 1 player · same as restlessness
+crowdAlias("Name a symptom of ADHD", "disorganization", "unorganized thinking");  // 2026-11-25 · 1 player · same as disorganization
+crowdAlias("Name a cause of bowel obstruction", "adhesions", "surgery|prior surgery");  // 2026-11-25 · 9 players · same as adhesions
+crowdAlias("Name a cause of bowel obstruction", "tumor", "cancer");  // 2026-11-25 · 8 players · same as tumor
+crowdAlias("Name a cause of bowel obstruction", "fecal impaction", "impaction");  // 2026-11-25 · 6 players · same as fecal impaction
+crowdAlias("Name a cause of bowel obstruction", "foreign body ingestion", "foreign body object|foreign object|foreign body");  // 2026-11-25 · 2 players · same as foreign body ingestion
+crowdAlias("Name a cause of bowel obstruction", "abdominal trauma", "trauma");  // 2026-11-25 · 1 player · same as abdominal trauma
+crowdAlias("Name an endocrine or reproductive physiology term", "parturition", "birth|childbirth");  // 2026-11-25 · 4 players · same as parturition
+crowdAlias("Name an endocrine or reproductive physiology term", "mittelschmerz", "mitleshmertz");  // 2026-11-25 · 1 player · same as mittelschmerz
+crowdAlias("Name an endocrine or reproductive physiology term", "erection", "tumescence");  // 2026-11-25 · 1 player · same as erection
+crowdAlias("Name a workplace hazard for nurses", "bloodborne pathogens", "hiv");  // 2026-11-25 · 6 players · same as bloodborne pathogens
+crowdAlias("Name a workplace hazard for nurses", "back injury", "injuring back");  // 2026-11-25 · 1 player · same as back injury
+crowdAlias("Name a workplace hazard for nurses", "workplace violence", "violent patient|voilent patient|patient attack|violent patients");  // 2026-11-25 · 3 players · same as workplace violence
+crowdAlias("Name a workplace hazard for nurses", "understaffing", "lack of staff");  // 2026-11-25 · 1 player · same as understaffing
+crowdAlias("Name a workplace hazard for dental professionals", "hepatitis b", "hep b");  // 2026-11-25 · 4 players · same as hepatitis b
+crowdAlias("Name a workplace hazard for dental professionals", "needlestick", "sharps|shaprs|sharps injury");  // 2026-11-25 · 2 players · same as needlestick
+crowdAlias("Name a workplace hazard for dental professionals", "bloodborne pathogens", "blood borne virus");  // 2026-11-25 · 1 player · same as bloodborne pathogens
+crowdAlias("Name a workplace hazard for dental professionals", "sodium hypochlorite", "hypochlorite");  // 2026-11-25 · 1 player · same as sodium hypochlorite
+crowdAlias("Name a workplace hazard for dental professionals", "silica dust", "silicosis");  // 2026-11-25 · 1 player · same as silica dust
+crowdAlias("Name a workplace hazard for dental professionals", "radiation", "xray|x ray");  // 2026-11-25 · 1 player · same as radiation
+crowdAlias("Name a workplace hazard for dental professionals", "slips trips and falls", "tripping");  // 2026-11-25 · 1 player · same as slips trips and falls
+crowdAlias("Name a cause of metabolic acidosis or alkalosis", "diabetic ketoacidosis", "diabetes");  // 2026-11-25 · 14 players · same as diabetic ketoacidosis
+crowdAlias("Name a cause of metabolic acidosis or alkalosis", "kidney failure", "acute tubular necrosis");  // 2026-11-25 · 1 player · same as kidney failure
+crowdAlias("Name a risk factor for pressure injuries", "older age", "age");  // 2026-11-25 · 8 players · same as older age
+crowdAlias("Name a risk factor for pressure injuries", "immobility", "sitting for too long");  // 2026-11-25 · 1 player · same as immobility
+crowdAlias("Name a disease or sign named after a person", "lou gehrig disease", "lou gherig|lou gherig disease");  // 2026-11-25 · 5 players · same as lou gehrig disease
+crowdAlias("Name a disease or sign named after a person", "guillain barre syndrome", "guillan-barre|guillan barre");  // 2026-11-25 · 1 player · same as guillain barre syndrome
+crowdAlias("Name a disease or sign named after a person", "trousseau sign", "troussous");  // 2026-11-25 · 1 player · same as trousseau sign
+crowdAlias("Name something to teach a patient with diabetes", "vision changes", "retinopathy|diabetic retinopathy|vision loss");  // 2026-11-25 · 4 players · same as vision changes
+crowdAlias("Name something to teach a patient with diabetes", "blood glucose monitoring", "glucose monitoring|measuring blood sugar|how to check their glucose");  // 2026-11-25 · 3 players · same as blood glucose monitoring
+crowdAlias("Name something to teach a patient with diabetes", "foot care", "foot exam");  // 2026-11-25 · 1 player · same as foot care
+crowdAlias("Name something to teach a patient with diabetes", "cut toenails straight across", "cut nails");  // 2026-11-25 · 1 player · same as cut toenails straight across
+crowdAlias("Name something to teach a patient with diabetes", "wear shoes", "closed toed shoes");  // 2026-11-25 · 1 player · same as wear shoes
+crowdAlias("Name something to teach a patient with diabetes", "wash and dry feet", "dry your feet");  // 2026-11-25 · 1 player · same as wash and dry feet
+crowdAlias("Name something to teach a patient with diabetes", "meal planning", "healthy diet");  // 2026-11-25 · 1 player · same as meal planning
+crowdAlias("Name something to teach a patient with diabetes", "insulin injection technique", "injection technique");  // 2026-11-25 · 1 player · same as insulin injection technique
+crowdAlias("Name something to teach a patient with diabetes", "peripheral neuropathy", "nerve damage risk|nerve damage");  // 2026-11-25 · 1 player · same as peripheral neuropathy
+crowdAlias("Name a critical care (ICU) term", "icu triage", "triage");  // 2026-11-25 · 4 players · same as icu triage
+crowdAlias("Name a nursing scale or assessment tool", "columbia suicide severity", "columbia suicide screen");  // 2026-11-25 · 1 player · same as columbia suicide severity
+crowdAlias("Name a nursing scale or assessment tool", "nihss", "nih stroke scale (nihss)|nih stroke scale");  // 2026-11-25 · 1 player · same as nihss
+crowdAlias("Name a treatment for gum disease", "flap surgery", "surgery|surgical periodontal therapy|periodontal surgery");  // 2026-11-25 · 10 players · same as flap surgery
+crowdAlias("Name a part of the head or face", "teeth", "tooth");  // 2026-11-25 · 4 players · same as teeth
+crowdAlias("Name a property of a dental material", "fluoride release", "flouride|fluoride");  // 2026-11-25 · 4 players · same as fluoride release
+crowdAlias("Name a pulmonary function test or lung procedure", "chest x ray", "xray|x ray");  // 2026-11-25 · 4 players · same as chest x ray
+crowdAlias("Name a cause of skin hyperpigmentation", "sun exposure", "uv radiation|uv light");  // 2026-11-25 · 4 players · same as sun exposure
+crowdAlias("Name a reason people visit the dentist", "tooth infection", "infection");  // 2026-11-25 · 4 players · same as tooth infection
+crowdAlias("Name a jaw movement or occlusion term", "class ii occlusion", "class 2");  // 2026-11-25 · 4 players · same as class ii occlusion
+crowdAlias("Name a type of malocclusion", "class ii", "type 2");  // 2026-11-25 · 4 players · same as class ii
+crowdAlias("Name a common reason for a primary care visit", "vaccines", "flu shot");  // 2026-11-25 · 4 players · same as vaccines
+crowdAlias("Name a sign of a dental infection", "pus", "exudate");  // 2026-11-25 · 6 players · same as pus
+crowdAlias("Name a sign of a dental infection", "bad odor", "smell");  // 2026-11-25 · 4 players · same as bad odor
+crowdAlias("Name a urologic test or procedure", "urine culture", "culture");  // 2026-11-25 · 4 players · same as urine culture
+crowdAlias("Name a neurologic test or part of the neurological exam", "visual field testing", "vision|blink to threat");  // 2026-11-25 · 5 players · same as visual field testing
+crowdAlias("Name a symptom of low blood sugar", "difficulty concentrating", "brain fog|inattention");  // 2026-11-25 · 5 players · same as difficulty concentrating
+crowdAlias("Name a symptom of low blood sugar", "shaky", "jittery");  // 2026-11-25 · 4 players · same as shaky
+crowdAlias("Name a systemic disease with oral signs", "herpes", "hsv");  // 2026-11-25 · 4 players · same as herpes
+crowdAlias("Name a sign of Cushing syndrome", "purple striae", "striae");  // 2026-11-25 · 4 players · same as purple striae
+crowdAlias("Name a complication of dental anesthesia", "tissue necrosis", "necrosis");  // 2026-11-25 · 4 players · same as tissue necrosis
+crowdAlias("Name a habit that harms teeth", "drinking coffee", "coffee");  // 2026-11-25 · 4 players · same as drinking coffee
+crowdAlias("Name a sign of dehydration", "confusion", "delerium|delirium");  // 2026-11-25 · 5 players · same as confusion
+crowdAlias("Name a drug or supplement that treats anemia", "epoetin", "epo|erythropoietin");  // 2026-11-25 · 5 players · same as epoetin
+crowdAlias("Name a bedside procedure", "iv placement", "iv drip");  // 2026-11-25 · 4 players · same as iv placement
+crowdAlias("Name a respiratory tract infection", "nocardiosis", "nocardia");  // 2026-11-25 · 4 players · same as nocardiosis
+crowdAlias("Name a trigger of autonomic dysreflexia", "hot or cold", "cold");  // 2026-11-25 · 4 players · same as hot or cold
+crowdAlias("Name a dermatologic procedure or skin test", "tuberculin skin test", "tb skin test|ppd");  // 2026-11-25 · 4 players · same as tuberculin skin test
+crowdAlias("Name an autonomic nervous system term", "rest and digest", "digestion");  // 2026-11-25 · 4 players · same as rest and digest

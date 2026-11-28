@@ -7811,3 +7811,278 @@ crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "jaw
 crowdAlias("Name a cough or cold product", "brompheniramine", "bromfed");  // 2026-11-27 · 1 player(s) · same answer
 crowdAlias("Name a dental hygiene instrumentation term", "columbia curette", "4r4l|4r/4l|columbia 4r 4l");  // 2026-11-27 · 1 player(s) · same answer
 crowdAlias("Name a lung disease", "silicosis", "pnemonoultramicroscopsilconivolcanoosis");  // 2026-11-27 · 1 player(s) · same answer
+
+// ===== 2026-11-28 nightly review =====
+crowdAlias("Name something people fear about going to the dentist", "tooth extraction", "extraction");  // 2026-11-28 · 18 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "oral cancer", "cancer");  // 2026-11-28 · 14 player(s) · same answer
+crowdAlias("Name a body part that comes in pairs", "feet", "foot");  // 2026-11-28 · 14 player(s) · same answer
+crowdAlias("Name a cause of facial asymmetry", "facial swelling", "swelling");  // 2026-11-28 · 14 player(s) · same answer
+crowdAlias("Name something people fear about going to the dentist", "drill noise", "noise|noise of the drill");  // 2026-11-28 · 14 player(s) · same answer
+crowdAlias("Name an anatomical variant (a normal variation in anatomy)", "absent palmaris longus", "palmaris longus|missing palmaris longus");  // 2026-11-28 · 12 player(s) · same answer
+crowdAlias("Name a cause of intellectual disability", "fetal alcohol syndrome", "alcohol|prenatal alcohol exposure");  // 2026-11-28 · 11 player(s) · same answer
+crowdAlias("Name a cause of facial asymmetry", "dental abscess", "abscess");  // 2026-11-28 · 10 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "facial trauma", "trauma");  // 2026-11-28 · 10 player(s) · same answer
+crowdAlias("Name a body part that comes in pairs", "testicles", "balls");  // 2026-11-28 · 10 player(s) · same answer
+crowdAlias("Name a cause of facial asymmetry", "tmj disorder", "tmj");  // 2026-11-28 · 10 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "facial fractures", "trauma");  // 2026-11-28 · 9 player(s) · same answer
+crowdAlias("Name a cause of intellectual disability", "congenital hypothyroidism", "hypothyroidism");  // 2026-11-28 · 7 player(s) · same answer
+crowdAlias("Name a cause of taste changes", "tooth abscess", "abscess");  // 2026-11-28 · 7 player(s) · same answer
+crowdAlias("Name a complication of dental anesthesia", "transient facial nerve palsy", "palsy");  // 2026-11-28 · 7 player(s) · same answer
+crowdAlias("Name an oral histology term", "oral epithelium", "epithelium");  // 2026-11-28 · 6 player(s) · same answer
+crowd("Name a cause of facial asymmetry", 66, "facial nerve palsy|facial paralysis|paralysis|facial palsy");  // 2026-11-28 · 6 player(s) · facial nerve palsy causes asymmetry (not only Bell)
+crowd("Name a body part that comes in pairs", 58, "scaphoids|scaphoid|scaphoid bones");  // 2026-11-28 · 6 player(s) · paired carpal bone
+crowdAlias("Name a body part that comes in pairs", "breasts", "boobs");  // 2026-11-28 · 6 player(s) · same answer
+crowdAlias("Name a body part that comes in pairs", "eardrums", "tympanic membrane");  // 2026-11-28 · 6 player(s) · same answer
+crowdAlias("Name a cause of facial asymmetry", "tmj disorder", "tmd");  // 2026-11-28 · 6 player(s) · same answer
+crowdAlias("Name a cause of hives or angioedema", "ace inhibitors", "ace");  // 2026-11-28 · 5 player(s) · same answer
+crowdAlias("Name a cause of intellectual disability", "hypoxic ischemic encephalopathy", "hypoxia");  // 2026-11-28 · 5 player(s) · same answer
+crowdAlias("Name a cause of pelvic pain", "labor", "birth|childbirth");  // 2026-11-28 · 5 player(s) · same answer
+crowdAlias("Name something people fear about going to the dentist", "needles", "local anaesthetic|local anesthetic|local anaesthetic injection");  // 2026-11-28 · 5 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "oral cancer", "scc|squamous cell carcinoma");  // 2026-11-28 · 5 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "facial trauma", "injury");  // 2026-11-28 · 5 player(s) · same answer
+crowdAlias("Name a body part that comes in pairs", "nostrils", "nares");  // 2026-11-28 · 5 player(s) · same answer
+crowdAlias("Name a lip condition", "chapped lips", "dry|dry lips");  // 2026-11-28 · 5 player(s) · same answer
+crowdAlias("Name a cause of taste changes", "radiation therapy", "radiotherapy");  // 2026-11-28 · 5 player(s) · same answer
+crowdAlias("Name a leading cause of death", "firearms", "shooting");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a problem with dentures", "bad breath", "smell|denture odor|denture odour");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name a medical professional society, organization or journal", 82, "paea|physician assistant education association");  // 2026-11-28 · 4 player(s) · PA education org
+crowd("Name a symptom", 69, "arm pain");  // 2026-11-28 · 4 player(s) · common symptom
+crowdAlias("Name an oral health problem common in older adults", "root caries", "caries");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name an operating room or surgical term", 90, "cardiopulmonary bypass|bypass|cpb|on pump");  // 2026-11-28 · 4 player(s) · core OR term
+crowdAlias("Name a problem with dentures", "poor fit", "too tight");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a dental specialty", "pediatric", "peds|pediatric dentistry|paediatric dentistry|pedo");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a periodontal term or condition", "gingival hyperplasia", "hyperplasia");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a task done by a dental assistant", "mixing materials", "mixing gic|mixing glass ionomer");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a sedation or anesthesia term used in dentistry", "inferior alveolar nerve block", "ian|ianb");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name a body part that comes in pairs", 66, "stapes|stapes bones");  // 2026-11-28 · 4 player(s) · paired middle ear ossicle
+crowdAlias("Name a dental radiation safety or X-ray physics term", "position and distance rule", "distance");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name a muscle or musculoskeletal physiology term", 84, "brachioradialis");  // 2026-11-28 · 4 player(s) · forearm muscle
+crowd("Name an infection", 81, "viridans streptococci|strep viridans|viridans strep|streptococcus viridans");  // 2026-11-28 · 4 player(s) · endocarditis, dental infections
+crowd("Name a dental radiation safety or X-ray physics term", 86, "irmer|ionising radiation medical exposure regulations");  // 2026-11-28 · 4 player(s) · UK radiation regulations
+crowdAlias("Name an eye or ENT exam or test", "retinal screening", "retinal scan");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name a dental abbreviation or acronym", 74, "fdi|fdi notation|fdi world dental federation");  // 2026-11-28 · 4 player(s) · tooth numbering system
+crowdAlias("Name a piece of equipment in a dental office", "drill", "high speed|high speed handpiece|high speed drill");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name something found in a hospital room", "blood pressure cuff", "bp cuff");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name something found in a hospital room", "hospital socks", "socks");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name a medical abbreviation", 82, "eoe|eosinophilic esophagitis");  // 2026-11-28 · 4 player(s) · standard abbreviation
+crowdAlias("Name a breastfeeding term or problem", "plugged milk duct", "blockage|blocked duct|blocked milk duct");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name a renal or acid-base physiology term", 90, "atn|acute tubular necrosis");  // 2026-11-28 · 4 player(s) · renal term
+crowdAlias("Name a cause of skin hyperpigmentation", "sun exposure", "sun damage");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a cause of double vision (diplopia)", "alcohol intoxication", "intoxication");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name an anatomical variant (a normal variation in anatomy)", "absent plantaris", "plantaris");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a common reason for a primary care visit", "fracture follow up", "broken bone");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a risk factor for aspiration", "advanced age", "age");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a sterilization, disinfection or antisepsis method", "disinfectant wipes", "cavi wipes|caviwipes");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "facial fractures", "fracture");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name a body part that comes in pairs", 66, "calcaneus|calcanei|heel bones");  // 2026-11-28 · 4 player(s) · paired tarsal bone
+crowdAlias("Name something to teach new parents about newborn care", "swaddling", "swaddle");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name a part of the head or face", 71, "foramen magnum");  // 2026-11-28 · 4 player(s) · skull opening
+crowdAlias("Name a cause of elevated liver enzymes", "alcohol", "drinking");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name a food high in sugar", 68, "bubble tea|boba|boba tea");  // 2026-11-28 · 4 player(s) · very high sugar drink
+crowdAlias("Name a periodontal term or condition", "necrotizing periodontitis", "necrotising");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name a question on a dental health history form", 73, "age|date of birth|dob");  // 2026-11-28 · 4 player(s) · standard intake item
+crowdAlias("Name a body part that comes in pairs", "pectorals", "pecs");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a body part that comes in pairs", "breasts", "boob");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name an endocrine or reproductive physiology term", 86, "ovum|ova|oocyte|egg cell");  // 2026-11-28 · 4 player(s) · female gamete
+crowdAlias("Name a body part that comes in pairs", "lenses", "lens");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "ramsay hunt syndrome", "ramsey hunt");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a gene linked to a human disease", "brca1", "braca");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a cause of intellectual disability", "fetal alcohol syndrome", "fas");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a symptom of low blood sugar", "confusion", "ams|altered mental status");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a drug with a boxed (black box) warning", "opioids", "morphine");  // 2026-11-28 · 4 player(s) · same answer
+crowdAlias("Name a body part that comes in pairs", "cerebral hemispheres", "hemispheres");  // 2026-11-28 · 4 player(s) · same answer
+crowd("Name an orthodontic treatment or biomechanics term", 88, "distalization|distalisation|molar distalization");  // 2026-11-28 · 2 player(s) · orthodontic tooth movement
+crowdAlias("Name an antibiotic", "cefiderocol", "fetroja");  // 2026-11-28 · 2 player(s) · same answer
+crowdAlias("Name a cause of excessive daytime sleepiness", "opioids", "oud|opioid use disorder");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial asymmetry", "jaw fracture", "fracture|facial fracture");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial asymmetry", "oral cancer", "head and neck cancer");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial asymmetry", "trauma", "injury");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial asymmetry", "sialadenitis", "parotid abscess|parotitis");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial asymmetry", "sialadenitis", "parotid swelling");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial asymmetry", "tmj disorder", "temporomandibular disorder");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "cerebellopontine angle tumor", "cerebellopontine syndrome");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "dental procedure", "dental injection");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "guillain-barre syndrome", "giullien barre");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "brain tumor", "glioblastoma");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "guillain-barre syndrome", "guiallain barre");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "guillain-barre syndrome", "guillian barre");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "lyme disease", "lyme");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "dental procedure", "nerve block");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial nerve palsy", "ramsay hunt syndrome", "vzv|herpes zoster oticus");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial swelling", "periapical abscess", "endo lesion");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial swelling", "periapical abscess", "endodontic lesion");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of facial swelling", "wisdom tooth extraction", "extraction|tooth extraction");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of hives or angioedema", "hereditary angioedema", "c1 def|c1 inhibitor deficiency");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of hives or angioedema", "hereditary angioedema", "c1 esterase deficiency");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of hives or angioedema", "ace inhibitors", "ramipril");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of intellectual disability", "fetal alcohol syndrome", "alcholol");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a cause of intellectual disability", 93, "bcap31 deficiency|bcap31");  // 2026-11-28 · 1 player(s) · X-linked DDCH syndrome with ID
+crowd("Name a cause of intellectual disability", 93, "wagr syndrome|wagr");  // 2026-11-28 · 1 player(s) · 11p13 deletion; R = intellectual disability
+crowdAlias("Name a cause of jaw or facial pain", "myofascial pain", "myofacial");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of jaw or facial pain", "tmj rheumatoid arthritis", "rheum arthritis|rheumatoid arthritis");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of jaw or facial pain", "tmj disorder", "tmj issue");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of oral candidiasis", "inhaled corticosteroids", "streoid inhaler used");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of taste changes", "burning mouth syndrome", "burnt mouth");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of taste changes", "oral thrush", "candidal infection");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of taste changes", "chorda tympani injury", "chordae tympani");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of taste changes", "chlorhexidine mouthwash", "clorhexidin usage");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of taste changes", "medications", "medicine");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of taste changes", "covid 19", "sars cov|sars-cov-2");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a cause of trismus", "inferior alveolar nerve block", "local anesthic");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a classic triad, tetrad or pentad in medicine", 68, "portal triad|portal");  // 2026-11-28 · 1 player(s) · hepatic portal triad
+crowdAlias("Name a classification system or index used in dentistry", "atwood residual ridge classification", "attwood");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a classification system or index used in dentistry", "pell and gregory classification", "bell and gregory");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a classification system or index used in dentistry", "miller mobility index", "mobility grading");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a component or function of saliva", "digestion", "breakdown food");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "impacted canine", "canine impaction");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "underbite", "class 3");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "jaw cyst", "cyst");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "dog bite", "dog attack");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "impacted wisdom teeth", "impaction");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "head and neck cancer", "oropharyngeal cancer");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "underbite", "skeletal class 3");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a condition treated by an oral and maxillofacial surgeon", "oral cancer", "swuamous carcinoma");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a contraindication to nitrous oxide sedation", "nasal congestion", "nasal turbinaye swelling");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a dental charting term or tooth surface", 94, "mesiopalatal|mp");  // 2026-11-28 · 1 player(s) · tooth surface like mesiolingual
+crowdAlias("Name a dental charting term or tooth surface", "defective restoration", "unsound restoration");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a dental organization or professional association", 92, "sepa|spanish society of periodontology");  // 2026-11-28 · 1 player(s) · Spanish periodontal society
+crowd("Name a dental organization or professional association", 92, "sepes|spanish society of prosthodontics");  // 2026-11-28 · 1 player(s) · Spanish prosthodontic society
+crowd("Name a dental organization or professional association", 92, "singapore dental association|sda");  // 2026-11-28 · 1 player(s) · national dental association
+crowd("Name a dental organization or professional association", 92, "american society of forensic odontology|asfo|the american society of forensic odontology");  // 2026-11-28 · 1 player(s) · forensic dental society
+crowd("Name a dental procedure", 94, "deep margin elevation|dme|coronal margin relocation");  // 2026-11-28 · 1 player(s) · restorative procedure
+crowdAlias("Name a dental procedure", "pulpectomy", "extirpation|pulp extirpation");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a dental procedure", 94, "furcationplasty");  // 2026-11-28 · 1 player(s) · periodontal furcation procedure
+crowdAlias("Name a dental procedure", "tooth splinting", "periodontal splinting");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a dental public health or research term", 94, "atraumatic restorative treatment|art");  // 2026-11-28 · 1 player(s) · WHO-promoted technique
+crowd("Name a dental public health or research term", 94, "biostatistics");  // 2026-11-28 · 1 player(s) · research discipline
+crowd("Name a dental public health or research term", 94, "cochrane|cochrane review|cochrane collaboration");  // 2026-11-28 · 1 player(s) · systematic review body
+crowd("Name a dental public health or research term", 94, "critical appraisal");  // 2026-11-28 · 1 player(s) · EBD skill
+crowd("Name a dental public health or research term", 94, "halo effect");  // 2026-11-28 · 1 player(s) · cognitive bias
+crowd("Name a dental public health or research term", 94, "making every contact count|mecc");  // 2026-11-28 · 1 player(s) · UK public health approach
+crowd("Name a dental public health or research term", 94, "secondary data|secondary data analysis");  // 2026-11-28 · 1 player(s) · research term
+crowd("Name a dental public health or research term", 94, "twin studies|twin study");  // 2026-11-28 · 1 player(s) · study design
+crowd("Name a dental radiation safety or X-ray physics term", 95, "bisecting angle technique|bisecting technique|bisecting angle");  // 2026-11-28 · 1 player(s) · intraoral radiographic technique
+crowd("Name a dental radiation safety or X-ray physics term", 95, "slob rule|slob|same lingual opposite buccal|buccal object rule");  // 2026-11-28 · 1 player(s) · tube-shift localization
+crowd("Name a dental term named after a person", 88, "bass technique|bass method|modified bass technique|bass");  // 2026-11-28 · 1 player(s) · toothbrushing technique
+crowd("Name a dental term named after a person", 88, "christensen phenomenon|christensens phenomenon");  // 2026-11-28 · 1 player(s) · posterior gap on protrusion
+crowd("Name a dental term named after a person", 88, "coupland elevator|coupland|coupland chisel");  // 2026-11-28 · 1 player(s) · eponymous instrument
+crowd("Name a dental term named after a person", 88, "dawson bimanual manipulation|dawson technique|dawson's bimanual technique");  // 2026-11-28 · 1 player(s) · CR manipulation
+crowd("Name a dental term named after a person", 88, "garrison matrix|garrison");  // 2026-11-28 · 1 player(s) · sectional matrix system
+crowd("Name a dental term named after a person", 88, "lecron carver|le cron carver|lecron");  // 2026-11-28 · 1 player(s) · eponymous carver
+crowdAlias("Name a developmental red flag in a child", "speech delay", "delayed speech");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a disease of the small or large intestine", "hirschsprung disease", "hirschprungs");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a drug that needs renal dose adjustment", 79, "rosuvastatin|crestor");  // 2026-11-28 · 1 player(s) · dose limit in severe renal impairment
+crowd("Name a drug to avoid in pregnancy", 79, "brentuximab vedotin|brentuximab|adcetris");  // 2026-11-28 · 1 player(s) · embryo-fetal toxicity
+crowd("Name a drug to avoid in pregnancy", 79, "molnupiravir|lagevrio|molnupravir");  // 2026-11-28 · 1 player(s) · not recommended in pregnancy
+crowd("Name a drug with a boxed (black box) warning", 80, "elranatamab|elrexfio");  // 2026-11-28 · 1 player(s) · boxed CRS/neurotoxicity
+crowdAlias("Name a drug with a boxed (black box) warning", "ace inhibitors in pregnancy", "lisinopril");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a drug with a boxed (black box) warning", 80, "quizartinib|vanflyta");  // 2026-11-28 · 1 player(s) · boxed QT prolongation
+crowdAlias("Name a drug with a boxed (black box) warning", "antidepressants", "zoloft");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a fixed prosthodontics term", "three quarter crown", "3/4 crown");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a fixed prosthodontics term", 90, "all on 4|all-on-4|all on four");  // 2026-11-28 · 1 player(s) · fixed full-arch implant prosthesis
+crowdAlias("Name a fixed prosthodontics term", "pfm", "metal ceramic crownd");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a gene linked to a human disease", "brca1", "berca");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a gene linked to a human disease", 92, "dpm1");  // 2026-11-28 · 1 player(s) · DPM1-CDG gene
+crowd("Name a gene linked to a human disease", 92, "rit1");  // 2026-11-28 · 1 player(s) · Noonan syndrome gene
+crowdAlias("Name a gene linked to a human disease", "alpl", "tnap");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a genetic disorder", 97, "cohen syndrome");  // 2026-11-28 · 1 player(s) · VPS13B disorder
+crowd("Name a genetic disorder", 97, "familial pulmonary fibrosis");  // 2026-11-28 · 1 player(s) · telomere gene disorder
+crowd("Name a genetic disorder", 97, "congenital central hypoventilation syndrome|cchs|ondine curse|ondines curse");  // 2026-11-28 · 1 player(s) · PHOX2B disorder
+crowd("Name a genetic disorder", 97, "pallister-killian syndrome|pallister killian syndrome|pallaster killion syndrome");  // 2026-11-28 · 1 player(s) · mosaic 12p tetrasomy
+crowdAlias("Name a genetic disorder", "merrf", "ragged red fiber syndrome");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a healthcare profession", "community health worker", "anganwadi worker");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a heart condition", 97, "pentalogy of cantrell");  // 2026-11-28 · 1 player(s) · rare congenital heart/body wall defect
+crowdAlias("Name a heart condition", "takotsubo", "takisobo");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a hemostasis or coagulation term", "direct thrombin inhibitor", "hirudin");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a hepatotoxic drug", 78, "troglitazone|rezulin");  // 2026-11-28 · 1 player(s) · withdrawn for hepatotoxicity
+crowd("Name a hepatotoxic drug", 78, "voriconazole|vfend");  // 2026-11-28 · 1 player(s) · label hepatotoxicity, LFT monitoring
+crowdAlias("Name a hospital unit or department", "sterile processing", "sterilization");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a lip condition", "cold sore", "hsv");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a lip condition", "cold sore", "primary herpes");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a lip condition", "lip cancer", "scc");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a lipid or lipoprotein", "branched chain fatty acids", "phtanic|phytanic acid");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a lung disease", "silicosis", "pneumoniultramicroscopicsilicoconiosis");  // 2026-11-28 · 1 player(s) · same answer
+crowd("Name a medical abbreviation", 94, "hctz|hydrochlorothiazide");  // 2026-11-28 · 1 player(s) · standard drug abbreviation
+crowdAlias("Name a medical professional society, organization or journal", "bmj", "bmj student");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a microbe that is part of the normal human flora", "lactobacillus", "bacilus lacti");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a microbe that is part of the normal human flora", "cutibacterium acnes", "cuneiform acnes");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a microbe that is part of the normal human flora", "viridans streptococci", "streptococcus viridans");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a neurosurgical or spine procedure", "chiari decompression", "chiari malformation correction");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a nursing diagnosis", "risk for aspiration", "aspiration risk");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a nutrient deficiency disease", "folate deficiency", "b9|vitamin b9 deficiency");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a paraneoplastic syndrome", "anti nmda receptor encephalitis", "anti nmda encephalitis");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a part of the heart", "av node", "tawara|node of tawara");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a pathogen or infection named after a person or place", "creutzfeldt-jakob disease", "cr jacobs disease");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a pharmacy job or setting", "ambulatory care", "heart failure clinic");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a piece of equipment in a dental office", "suction", "aspirator");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a plastic or reconstructive surgery procedure", "le fort i osteotomy", "lefort");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a problem with dentures", "bone loss", "bone recession");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a problem with dentures", "denture irritation", "gum irritation");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a problem with dentures", "sore spots", "ulcer");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a reason people visit the dentist", "bisphosphonate clearance", "before going on bisphosfinste");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a reason people visit the dentist", "tooth decay", "decay");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a reason people visit the dentist", "braces", "orthodontic consult");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a restraint or restraint alternative", "sitter", "1:1 special|1:1|one to one");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a restraint or restraint alternative", "wrist restraints", "wrist binding");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a risk factor for breast cancer", "female sex", "having breasts");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a risk factor for breast cancer", "li fraumeni syndrome", "li fraumani");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a sedation or anesthesia term used in dentistry", "pulse oximetry", "spo2");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a side effect of antipsychotics", "qt prolongation", "cardiac conduction abnormalities");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a sign of a dental infection", "tooth discoloration", "colour change");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a sign of dehydration", "dry mouth", "dry tongue");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a sterilization, disinfection or antisepsis method", "aseptic technique", "basic aseptic technique");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom", "loss of appetite", "appetite lose");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom", "numbness", "decreased sensation");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom", "irritability", "irritable");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom", "somnolence", "sleepy");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom of a heart attack", "shoulder pain", "shoulder tip pain");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom of anxiety", "nausea", "dry heaving");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom of anxiety", "sweating", "excess sweat|excessive sweating");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom of bipolar mania", "aggression", "lashing out");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom of diabetes", "fruity breath", "pear drop breath");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom of low blood sugar", "confusion", "disoriented");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom of Parkinson disease", "shuffling gait", "gait change");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom of Parkinson disease", "urinary urgency", "neurogenic bladder");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom of pneumonia", "diminished breath sounds", "diminished lung sounds");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom of pneumonia", "pleuritic chest pain", "pleuritis");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom or complication of cystic fibrosis", "crackles", "crackling lungs");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a symptom or complication of cystic fibrosis", "thick mucus", "mucus buildup");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a systemic disease with oral signs", "celiac disease", "coeliac");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a virus that infects humans", "adenovirus", "adno");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a virus that infects humans", "eastern equine encephalitis", "east equine enchephaloviris");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a virus that infects humans", "sars", "sars-cov-1");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a warning sign of oral cancer", "loose teeth", "mobility of teeth");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a white or red lesion of the mouth", "aphthous ulcer", "afta");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a white or red lesion of the mouth", "speckled leukoplakia", "leukoerythroplakia|erythroleukoplakia");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a white or red lesion of the mouth", "aphthous ulcer", "ras|recurrent aphthous stomatitis");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an ADHD medication", "jornay pm", "jurnay");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an ADHD medication", "adderall", "salts|amphetamine salts|mixed amphetamine salts");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an anatomical variant (a normal variation in anatomy)", "aberrant right subclavian artery", "abberrant subclavian artery");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an anatomical variant (a normal variation in anatomy)", "azygos anterior cerebral artery", "azygous aca");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an anatomical variant (a normal variation in anatomy)", "codominant coronary circulation", "codominant circulation");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an anatomical variant (a normal variation in anatomy)", "left dominant coronary circulation", "left dominance");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an anatomical variant (a normal variation in anatomy)", "absent palmaris longus", "missing palmaris longus");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an anatomical variant (a normal variation in anatomy)", "situs inversus totalis", "organ inversion");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an enzyme in the human body", "5 alpha reductase", "5a reductase");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an eye disease or condition", "sympathetic ophthalmia", "sympathetic endopthalmitis|sympathetic endophthalmitis");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an item in a dental emergency kit", "midazolam", "buccolam");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an odontogenic tumor", "odontogenic myxoma", "odontomyxoma");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an oral histology term", "outer enamel epithelium", "external enamel epithelium");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an oral histology term", "keratinized epithelium", "keratinised");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an organism that causes bone or joint infections", "chikungunya", "chikunyavirus");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an orthodontic treatment or biomechanics term", "leveling and aligning", "alignment");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an orthodontic treatment or biomechanics term", "rapid palatal expansion", "maxillary expansion");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an orthodontic treatment or biomechanics term", "overjet correction", "overjet");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an orthodontic treatment or biomechanics term", "reverse pull headgear", "reverse head gear");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an X-linked recessive disease", "ornithine transcarbamylase deficiency", "ornithine transcarbamylase (otc) deficiency");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name an X-linked recessive disease", "ornithine transcarbamylase deficiency", "otc deficiency");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name something found in a hospital room", "trash can", "bin");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name something found in a hospital room", "crash cart", "crash trolley");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name something people fear about going to the dentist", "numbness", "numbing");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a bacterium that causes disease in humans", "streptococcus viridans", "s. mutans|streptococcus mutans");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a beta blocker (ends in -olol)", "metoprolol", "metaprol");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a birth control method", "implant", "arm insert|arm implant");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a birth control method", "paragard", "copper coil|copper iud");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a birth control method", "plan b", "ec|emergency contraception");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a birth control method", "nuvaring", "estrogen ring|vaginal ring");  // 2026-11-28 · 1 player(s) · same answer
+crowdAlias("Name a birth control method", "patch", "transdermal patch");  // 2026-11-28 · 1 player(s) · same answer
